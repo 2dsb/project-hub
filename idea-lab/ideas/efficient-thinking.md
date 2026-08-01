@@ -9,6 +9,7 @@ tags:
   - simple-ideas
   - cognitive-bias
   - growth-mindset
+summary: "Efficient thinking demands constant micro-feedback loops to adjust habits and understanding, testing comprehension continuously. Distinguishing details from essentials requires deliberate practice of extracting and rephrasing main points. You must verify that your interpretation matches what the content actually says, avoiding coherence illusions. To counter survivorship bias, study failures and ask "What if...?" to rediscover solutions to already-solved problems. Take simple ideas seriously because they can underlie complex theories; for example, "buy low, sell high" deepens when you recognize that a stock represents partial business ownership, market pricing, and competitive dynamics."
 importance: 1
 connections:
   - type: permanent
@@ -23,8 +24,17 @@ connections:
     slug: "卡片笔记写作法c2.4"
   - type: project
     slug: "ai-ability"
+  - type: idea
+    slug: "where-innovation-comes-from"  # review: 0.587
+  - type: idea
+    slug: "low-energy-ideation"  # review: 0.573
+  - type: idea
+    slug: "strategy-three-component-model"  # review: 0.556
+  - type: idea
+    slug: "efficiency-formula"  # review: 0.529
+  - type: idea
+    slug: "certainty-gravity"  # review: 0.508
 ---
-
 In the book *How to Take Smart Notes*, another book, *The 5 Elements of Effective Thinking*, is referenced, which touches on the understanding of efficient thinking.
 
 # Feedback Loops

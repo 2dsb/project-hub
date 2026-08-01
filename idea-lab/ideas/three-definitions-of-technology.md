@@ -9,10 +9,41 @@ tags:
 - technology-body
 - means-and-integration
 - technology-evolution
+summary: "The note distinguishes three definitions of technology: singular (a means to fulfill human purposes, like a speech recognition algorithm), plural (the integration of practices and components, better termed bodies of technology), and general (the collection of devices and engineering practices in a culture). Distinguishing these is valuable because each forms and develops differently. Technology in the singular sense emerges as a new concept and develops by modifying its internal components; plural technology is built around phenomena"
 importance: 1
 connections:
 - type: project
   slug: ai-ability
+  - type: idea
+    slug: "technology-in-the-singular-sense"
+  - type: idea
+    slug: "technology"
+  - type: idea
+    slug: "classification-of-concepts"
+  - type: idea
+    slug: "finding-examples"
+  - type: idea
+    slug: "external-and-internal-view-of-technology"
+  - type: idea
+    slug: "the-gene-of-technology-phenomena"
+  - type: idea
+    slug: "general-evolution-of-technology"
+  - type: idea
+    slug: "technology-domains"
+  - type: idea
+    slug: "reconceptualizing-standard-engineering"
+  - type: idea
+    slug: "our-attitude-toward-technology"
+  - type: idea
+    slug: "cycle-of-technology"  # review: 0.591
+  - type: idea
+    slug: "fundamentally-new-technology"  # review: 0.587
+  - type: idea
+    slug: "broad-and-narrow-technology"  # review: 0.584
+  - type: idea
+    slug: "standard-engineering"  # review: 0.578
+  - type: idea
+    slug: "understanding-software-at-technical-level"  # review: 0.574
 ---
 # The Three Definitions of Technology
 1. Technology is a means to fulfill human purposes (e.g., a speech recognition algorithm).

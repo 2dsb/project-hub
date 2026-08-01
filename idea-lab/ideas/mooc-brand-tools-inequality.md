@@ -8,6 +8,7 @@ tags:
   - educational-equity
   - university-branding
   - professor-celebrity
+summary: "Elite universities deploy MOOCs as brand tools to reinforce the higher education hierarchy, expanding their prestige while avoiding brand dilution by keeping on-campus interaction and facilities exclusive. The primary target is not online learners but selling courses to second- and third-tier universities as a revenue stream. Educational rigor declines as exercises lose depth and video replaces reading, fueling the professor-as-celebrity phenomenon. Despite massive investment, only 4% of users complete a course—mostly adults seeking targeted upskilling—yet self-orientation is precisely the capability university was supposed to cultivate."
 importance: 1
 connections:
   - type: project
@@ -16,8 +17,13 @@ connections:
     slug: gaokao-math
   - type: permanent
     slug: 优秀的绵羊c9.10
+  - type: idea
+    slug: "factors-affecting-teaching-effectiveness"  # review: 0.553
+  - type: idea
+    slug: "return-of-college"  # review: 0.537
+  - type: idea
+    slug: "university-two-pillar-strategy"  # review: 0.516
 ---
-
 # MOOC's Impact on Universities
 
 Universities use MOOCs to reinforce the hierarchy within the higher education system, further expanding the prestige of top-tier institutions.

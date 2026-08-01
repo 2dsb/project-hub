@@ -7,10 +7,25 @@ tags:
   - motivation
   - knowledge-transfer
   - internship
+summary: "Learning with an imminent practice goal, like an internship starting Monday, is qualitatively different: it provides an unambiguous purpose anchor, eliminates motivational friction, and leverages the temporal proximity effect where brief gaps between learning and application make knowledge actionable rather than archival. This forces an abstract-to-concrete transition—converting concepts into deployable skills—which creates richer memory traces and better transfer. Personal evidence shows completing Python, RAG, and Agents tracks to 100% in three days, far exceeding prior velocity. The design principle is to always attach learning to a concrete, dated practice event."
 importance: 3
 connections: []
+connections:
+  - type: idea
+    slug: "teach-method-fixes"  # review: 0.565
+  - type: idea
+    slug: "efficiency-formula"  # review: 0.547
+  - type: idea
+    slug: "transfer-high-leverage"  # review: 0.543
+  - type: idea
+    slug: "success-interrogation-heuristic"  # review: 0.537
+  - type: idea
+    slug: "leverage-existing-vs-build-from-scratch"  # review: 0.515
+  - type: idea
+    slug: "freedom-exploration-generator"  # review: 0.513
+  - type: idea
+    slug: "knowledge-mastery-two-axis-model"  # review: 0.504
 ---
-
 # Practice as Learning Purpose — Purpose-Driven Learning Effectiveness
 
 ## Core Claim

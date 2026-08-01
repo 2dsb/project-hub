@@ -6,6 +6,7 @@ tags:
   - knowledge-management
   - structure
   - learning
+summary: "Structural patience is the principle that structural categories should only be formed when at least three independent instances of a pattern are observed, preventing fragile false structures that later evidence would dismantle. With only one or two instances and a clear pattern direction, an embryonic link is created instead—a placeholder that honestly acknowledges a potential structure without forcing premature categorization. This approach is analogous to the PCA elbow, where one stops adding principal components when residual variance is noise. Embryonic links, as used in the knowledge-reconnection workflow, tag low-frequency cross-domain connections and describe what would complete them, allowing structure to accumulate naturally from data."
 importance: 0
 connections:
   - type: idea
@@ -16,8 +17,21 @@ connections:
     slug: "locate-first-model-last"
   - type: idea
     slug: "attention-pointer-learning-model"
+  - type: idea
+    slug: "local-pattern-patching-failure"
+  - type: idea
+    slug: "reconnection-doc-method"
+  - type: idea
+    slug: "memorization-in-pipeline"  # review: 0.596
+  - type: idea
+    slug: "learning-dynamics"  # review: 0.540
+  - type: idea
+    slug: "three-layer-framework"  # review: 0.527
+  - type: idea
+    slug: "freedom-exploration-generator"  # review: 0.526
+  - type: idea
+    slug: "human-structure-ai-completeness"  # review: 0.505
 ---
-
 # Structural Patience — Data-Gated Structure Formation
 
 ## Trigger

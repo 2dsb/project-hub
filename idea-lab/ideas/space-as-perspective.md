@@ -1,5 +1,6 @@
 ---
 id: "idea-20260626-spc01"
+summary: "Shifting from a temporal to a spatial frame provides a cognitive lens where everything coexists simultaneously, enabling questions about distance, position, boundaries, and neighborhoods that temporal sequence cannot support. Spatial thinking treats concepts as bounded regions with measurable positions and distances, clean inside/outside distinctions, and neighborhood clustering without causal links. Examples include topic space, (M, A) state space, possibility space, review space, and conversation space. This spatial perspective complements flow-based (temporal) thinking by offering the architectural, all-at-once layout that flow models lack."
 title: "Space as a Perspective — Spatial Thinking as a Cognitive Lens"
 tags: [space, perspective, thinking-tool, metaphor, cognitive-lens, topology]
 importance: 0
@@ -11,7 +12,6 @@ connections:
   - type: idea
     slug: "knowledge-as-dictionary-of-perspectives"
 ---
-
 # Space as a Perspective
 
 ## Core Insight

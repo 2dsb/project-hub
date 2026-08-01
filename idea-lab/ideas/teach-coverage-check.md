@@ -6,14 +6,16 @@ tags:
   - learning-method
   - quality-assurance
   - cs61a
+summary: "After a CS61A lecture, generate notes with teach and cross-check them against the original lecture to find missing content. Teach is highly efficient but may omit material, so the lecture serves as a coverage baseline to catch omissions early. Flag any gaps and fill them manually or by prompting teach for follow-up. This quality-assurance practice prevents gaps from compounding and applies to any course using teach alongside an external reference like a textbook or syllabus."
 importance: 3
 connections:
   - type: project
     slug: cs61a
   - type: project
     slug: runoob-python
+  - type: idea
+    slug: "pass-criteria-as-curriculum-design"  # review: 0.508
 ---
-
 # Teach Coverage Check
 
 **Simple practice**: After finishing a CS61A lecture (or any course section), have teach generate lecture notes based on the content. Then cross-check: does the teach output cover all the important points from the original lecture? If something is missing, flag it and fill the gap.

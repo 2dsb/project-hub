@@ -1,11 +1,11 @@
 ---
 id: "idea-20260129-8f6ab9"
+summary: "In r7, women judge a man's power through feeling triggered by environmental cues like a candlelit dinner"
 title: "R7 Dating Guide and True Love"
 tags: [love, interpersonal-attraction, emotional-psychology, environmental-effect, rational-analysis]
 importance: 2
 connections: []
 ---
-
 In r7, women judge whether a man is "powerful" by "feeling" — a candlelit dinner moves them, not 100 bitcoins in a wallet.
 
 But isn't the source of love also rooted in some physiological (gene-driven) feeling? Coincidentally, a candlelit dinner can trigger this physiological feeling — does this mean that in modern society, human genes haven't fully adapted to "social change"?
@@ -45,4 +45,3 @@ Charisma isn't just two states — "has charisma" and "lacks charisma." What we'
 
 # Rationality and
 
-⚠️ Overdue and unprocessed — auto-demoted to regular idea

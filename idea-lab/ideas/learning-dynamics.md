@@ -7,6 +7,7 @@ tags:
   - dynamics
   - optimization
   - actionable
+summary: "The two-axis model represents knowledge mastery as a state with horizontal interaction density c and vertical cross-filter binding strength p, and learning dynamics are the forces that change that state. Acquisition forces like exposure, deliberate mapping, execution, cross-domain transfer, and teaching push c and p upward, while drag forces such as decay, interference, complexity ceilings, and attention competition pull them down. Phase transitions to higher recursion levels require saturation, deliberate comparison across objects, or external perturbation. Open questions"
 importance: 7
 connections:
   - type: idea
@@ -15,8 +16,27 @@ connections:
     slug: interaction-as-dictionary
   - type: idea
     slug: teach-method-fixes
+  - type: idea
+    slug: "implicit-improvement-pattern"
+  - type: idea
+    slug: "freedom-exploration-generator"
+  - type: idea
+    slug: "memorization-in-pipeline"
+  - type: idea
+    slug: "attention-pointer-learning-model"
+  - type: idea
+    slug: "speed-first-model-second-batch-tradeoff"  # review: 0.599
+  - type: idea
+    slug: "transfer-high-leverage"  # review: 0.599
+  - type: idea
+    slug: "learning-pipeline"  # review: 0.545
+  - type: idea
+    slug: "structural-patience"  # review: 0.540
+  - type: idea
+    slug: "knowledge-transfer-fidelity"  # review: 0.527
+  - type: idea
+    slug: "locate-first-model-last"  # review: 0.502
 ---
-
 # Learning Dynamics — Forces Governing Knowledge Acquisition
 
 **One sentence**: If the two-axis model describes the state space of knowledge mastery, learning dynamics describes the forces — what accelerates acquisition, what creates drag, what triggers phase transitions between levels, and what determines efficiency.

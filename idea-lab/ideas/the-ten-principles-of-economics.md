@@ -17,14 +17,32 @@ tags:
   - trade
   - living-standards
   - monetary-policy
+summary: "Economics is organized around ten principles spanning decision-making, interaction, and economy-wide forces. People face trade-offs, so the true cost of any choice is its opportunity cost. Rational individuals think at the margin, evaluating marginal changes, and incentives alter behavior by changing benefits and costs. Trade and markets generally organize activity efficiently, but government intervention can improve outcomes when market failures like externalities or market power arise. A country’s standard of living depends on its productivity. Inflation results from excessive money creation, and society faces a short-run trade-off between inflation and unemployment, a relationship central to understanding the business cycle."
 importance: 1
 connections:
   - type: idea
     slug: production-possibility-frontier
   - type: project
     slug: naked-economics
+  - type: idea
+    slug: "economists-as-policy-advisors"  # review: 0.590
+  - type: idea
+    slug: "money-social-division-of-labor-and-the-worker"  # review: 0.589
+  - type: idea
+    slug: "naked-economy"  # review: 0.565
+  - type: idea
+    slug: "international-trade"  # review: 0.552
+  - type: idea
+    slug: "elements-of-the-economy"  # review: 0.546
+  - type: idea
+    slug: "market-efficiency"  # review: 0.539
+  - type: idea
+    slug: "competitive-markets"  # review: 0.535
+  - type: idea
+    slug: "economics-as-a-science"  # review: 0.528
+  - type: idea
+    slug: "externalities"  # review: 0.517
 ---
-
 ## How People Make Decisions
 
 1. **People face trade-offs**

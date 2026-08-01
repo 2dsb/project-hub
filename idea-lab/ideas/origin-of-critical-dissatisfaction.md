@@ -6,6 +6,7 @@ tags:
   - critical-dissatisfaction
   - independent-thinking
   - questioning-spirit
+summary: "People swayed by common sense have no independent thought, their ideas shaped solely by social indoctrination, leaving them unable to feel dissatisfied or offer constructive suggestions; with some social skills, they become guardians of the status quo. In contrast, questioning common sense from new angles reveals errors in societal indoctrination, naturally producing critical dissatisfaction with the status quo. This questioning spirit is the origin of critical dissatisfaction."
 importance: 1
 connections:
   - type: idea
@@ -14,8 +15,9 @@ connections:
     slug: my-relationship-with-others-or-society
   - type: project
     slug: ai-ability
+  - type: idea
+    slug: "my-relationship-with-others-and-society"
 ---
-
 Compare two types of people: one is swayed by common sense, the other recognizes, questions, and thinks about common sense from new angles.
 What does the former become in real life? And the latter?
 

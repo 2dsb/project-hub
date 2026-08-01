@@ -7,12 +7,21 @@ tags:
 - law-of-supply
 - equilibrium
 - supply-and-demand-theorem
+summary: "In a perfectly competitive market, many buyers and sellers trade identical goods, and all participants are price takers with negligible market influence. The law of demand holds that quantity demanded falls as price rises, while the law of supply holds that quantity supplied rises with price. Market equilibrium occurs at the intersection of supply and demand curves, where the equilibrium price balances quantity supplied and demanded. Shifts in demand arise from changes in income (distinguishing normal and inferior goods), prices of substitutes or complements, tastes, expectations, and number of buyers. Shifts in supply arise from input prices, technology, expectations, and number of sellers. The law of supply and demand dictates that prices adjust spontaneously to eliminate surpluses or shortages."
 importance: 1
 connections:
 - type: idea
   slug: the-ten-principles-of-economics
 - type: project
   slug: naked-economics
+  - type: idea
+    slug: "how-to-understand-price"
+  - type: idea
+    slug: "supply-demand-and-government-policy"  # review: 0.581
+  - type: idea
+    slug: "elasticity-of-supply-and-demand"  # review: 0.579
+  - type: idea
+    slug: "market-efficiency"  # review: 0.576
 ---
 # Markets
 A market: a group of buyers and sellers of a particular good or service.

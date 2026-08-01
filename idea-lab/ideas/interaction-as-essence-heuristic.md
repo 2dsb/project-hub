@@ -7,6 +7,7 @@ tags:
   - anti-essentialism
   - relationism
   - heuristic
+summary: "The Interaction-as-Essence Heuristic shifts modeling from asking what a thing is to how it interacts, treating internals as a black box and interaction patterns as the only operable data. A property is a regularity, and so-called essence is merely a property with exceptionally wide interaction scope—a quantitative limit, not a qualitative kind. This dissolves essentialism: proton number appears fundamental only because it governs an immense range of interactions. The heuristic explains frameworks like the portal model and cohesion-coupling, where predictive value stems from interaction patterns rather than intrinsic natures."
 importance: 4
 connections:
   - type: idea
@@ -18,7 +19,6 @@ connections:
   - type: idea
     slug: "cohesion-coupling-heuristic"
 ---
-
 # Interaction-as-Essence Heuristic
 
 **Two-part modeling heuristic**: (1) don't ask what a thing is — ask how it interacts with other things; (2) "essence" is just a property whose interaction scope happens to be very wide.

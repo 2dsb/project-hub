@@ -1,5 +1,6 @@
 ---
 id: "idea-20260626-attn01"
+summary: "Human attention is a hardware constraint that permits only one focus at a time, making multitasking rapid context-switching rather than true parallelism. This single-threaded execution bottleneck means project time blocks are mutually exclusive, so the central design problem becomes scheduling which project receives the next attention slot while M-decay degrades all unattended projects simultaneously. Goal-singularity mirrors this at the purpose level. The note explores leveraging the constraint for simplification, scheduling algorithms within the (M, A) model, and using reconnection docs as clean save points to reduce attention residue when switching contexts."
 title: "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life"
 tags: [attention, bottleneck, single-threading, goal-singularity, learning-design, life-modeling]
 importance: 0
@@ -10,8 +11,17 @@ connections:
     slug: "timeline-based-project-structure"
   - type: idea
     slug: "attention-pointer-learning-model"
+  - type: idea
+    slug: "willingness-experiment"  # review: 0.562
+  - type: idea
+    slug: "breadth-first-trap"  # review: 0.536
+  - type: idea
+    slug: "three-mental-resources"  # review: 0.509
+  - type: idea
+    slug: "speed-first-model-second-batch-tradeoff"  # review: 0.507
+  - type: idea
+    slug: "transfer-high-leverage"  # review: 0.506
 ---
-
 # Attention as the Bottleneck
 
 ## Core Fact

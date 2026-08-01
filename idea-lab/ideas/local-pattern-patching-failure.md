@@ -7,6 +7,7 @@ tags:
 - epistemology
 - induction
 - framework-design
+summary: "Continuous patching of local patterns fails to produce a global framework because each addition only fits a new local phenomenon onto an old structure, analogous to drawing tangents that never converge to the true curve. The correct method is to accumulate diverse samples, let patterns cluster, then induce the framework. This requires delaying framework labeling until a threshold (e.g., three chapters) is reached, freezing existing framework files in the meantime. The idea explains why the old approach fails, while framework-from-data.md describes the positive method; together they represent an inversion of induction and accumulation."
 importance: 0
 connections:
 - type: idea
@@ -25,9 +26,9 @@ connections:
   slug: 技术的本质c2.2
 - type: idea
   slug: three-layer-framework
+  - type: idea
+    slug: "structural-patience"
 ---
-
-
 # Local Patterns Cannot Be Generalized Through Continuous Patching
 
 ## The Problem

@@ -7,6 +7,7 @@ tags:
   - transfer
   - methodology
   - abstraction
+summary: "Transfer, applying an abstract structure from one domain to another, is a high-leverage cognitive operation because it converts a single insight into many applications at near-zero additional learning cost. Successful transfer requires extracting the underlying structure—not the content—mapping it to a new domain, and verifying the mapping holds, as seen in moving the physics learning method to English learning, applying PCA's encode/decode architecture to knowledge reconnection, and using Git's six-layer system with precise sync semantics for human-AI interaction design. The asymmetric ROI—minutes to abstract, hours saved—makes systematic transfer after significant learning events a compoundingly valuable meta-skill."
 importance: 0
 connections:
   - type: idea
@@ -17,8 +18,33 @@ connections:
     slug: "physics"
   - type: idea
     slug: "analogical-transfer-conditions"
+  - type: idea
+    slug: "freedom-exploration-generator"
+  - type: idea
+    slug: "knowledge-transfer-fidelity"
+  - type: idea
+    slug: "learning-dynamics"  # review: 0.599
+  - type: idea
+    slug: "memorization-in-pipeline"  # review: 0.589
+  - type: idea
+    slug: "success-interrogation-heuristic"  # review: 0.587
+  - type: idea
+    slug: "reconnection-doc-method"  # review: 0.554
+  - type: idea
+    slug: "learning-pipeline"  # review: 0.553
+  - type: idea
+    slug: "practice-as-learning-purpose"  # review: 0.543
+  - type: idea
+    slug: "knowledge-mastery-two-axis-model"  # review: 0.527
+  - type: idea
+    slug: "leverage-existing-vs-build-from-scratch"  # review: 0.508
+  - type: idea
+    slug: "attention-as-bottleneck"  # review: 0.506
+  - type: idea
+    slug: "three-layer-framework"  # review: 0.506
+  - type: idea
+    slug: "efficiency-formula"  # review: 0.504
 ---
-
 # Transfer as a High-Leverage Cognitive Operation
 
 Transfer — applying a structure from one domain to another — may be one of the highest-leverage cognitive operations available. It converts *one* insight into *N* applications at near-zero additional learning cost.

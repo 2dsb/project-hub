@@ -1,6 +1,6 @@
 # idea-lab 改进计划（进行中）
 
-状态：Step 3 讨论中，执行计划已明确。Step 4 未开始。
+状态：Step 3 执行中——190 条 summary 已生成，待计算 connections。
 
 ---
 
@@ -15,63 +15,59 @@
 - [x] 删除 `idea-lab/permanent-notes/`
 - [x] 重新生成 `ideas-index.json`
 
-## Step 3 — 计算 Connections 🔧 讨论完成，待执行
+## Step 3 — 计算 Connections 🔧 执行中
 
-### 已执行的准备工作
+### 已完成的准备工作
 - [x] 删除 27 个空 body / 无意义文件（217 → 190）
-- [x] 清理悬空 connections
+- [x] 清理 44 个文件的旧系统标记（⚠️ / 💡 等）
+- [x] 清理所有悬空 connections
 - [x] 重新生成 `ideas-index.json`（190 条）
 - [x] 第一轮 embedding 试跑（Top-N + Gap Detection），验证方法可行
+- [x] 讨论并确定 LLM 摘要方案
+- [x] 运行 `generate_summaries.py`，190 条全部成功生成 summary（0 失败）
+- [x] 修复：max_tokens 从 300 → 600/1200/2000 渐进重试（DeepSeek v4-pro 推理消耗大）
 
-### 已讨论的决策
+### 已确定的决策
 
 | # | 决策 | 结论 |
 |---|---|---|
 | 1 | 方法 | Embedding 相似度（all-mpnet-base-v2）+ Top-N + Gap Detection |
 | 2 | 参数 | MAX_CANDIDATES=15, MIN_SCORE=0.45, MAX_SUGGESTIONS=10 |
-| 3 | Summary 长度 | 80-100 词，LLM 灵活判断 |
+| 3 | Summary 长度 | ≤100 词，LLM 灵活判断（短文件不凑字数） |
 | 4 | Summary 位置 | YAML frontmatter，新 `summary:` 字段 |
 | 5 | 嵌入文本 | `title + #tags + summary`（不再用 `body[:300]` 截断） |
-| 6 | Schema 更新 | 全部做完再统一改 |
+| 6 | LLM | DeepSeek v4-pro, API: sk-3578289a53ca446fafde6850cc895e68（用后停用） |
+| 7 | SYSTEM_PROMPT | Lyra 优化版（§3 text up to 100 words, 3–6 sentences） |
+| 8 | Schema 更新 | 全部做完再统一改 |
 
-### 执行流程
+### SYSTEM_PROMPT（最终版）
 
-**Step 0 — 清理历史痕迹**
-- [ ] 扫描所有 190 条 idea 的 body
-- [ ] 删除旧系统标记：`⚠️ Overdue and unprocessed — automatically downgraded...`
-- [ ] 删除旧系统标记：`💡 Promotion recommendation...`
-- [ ] 保留真实内容，只去标记
+> You are a precise summarization engine for a personal knowledge base.
+> Produce a summary in plain English (no markdown, no bullet points, no preamble).
+> Output ONLY the summary — never add quotes, labels, or meta-commentary.
+> Rules: state core claim directly; compress reasoning as "X because Y, therefore Z";
+> include specific terminology; short ideas get short summaries; aim for 3–6 sentences, up to 100 words.
 
-**Step 1 — 生成 LLM 摘要**
-- [ ] 写脚本，逐条读取 idea 文件（title + tags + body）
-- [ ] 传给 LLM，生成 ≤100 词英文 summary
-- [ ] 对空 body 文件（已删除 27 个，确认无遗漏）：不再特殊处理
+### 下一步
 
-**Step 2 — 写入 Summary**
-- [ ] 将生成的 summary 作为 `summary:` 字段加入每个文件的 YAML frontmatter
-- [ ] 更新 `compute_connections.py`：嵌入文本改为 `title + #tags + summary`
+**立即执行：**
+```powershell
+.venv\Scripts\Activate.ps1
+python compute_connections.py
+```
+- 嵌入文本已改为 `title + #tags + summary`
+- MIN_SCORE 暂用 0.45（可能需要根据 summary 质量调高）
+- 生成 `connection-suggestions.json`
 
-**Step 3 — 明确 compute_connections 逻辑**
-- [ ] 向用户清晰解释执行逻辑（读什么 → 怎么算 → 输出什么）
-- [ ] 根据 summary 质量调整参数（MIN_SCORE 可能需要从 0.45 调高）
+- [x] 修改 `compute_connections.py`：嵌入文本改为 `title + #tags + summary`
+- [x] 调整参数（MIN_SCORE=0.50, MIN_GAP=0.06, MAX_SUGGESTIONS=15, MAX_CANDIDATES=20）
+- [x] 运行 `compute_connections.py`，生成 `connection-suggestions.json`（152/190 有建议，共 602 条）
+- [x] 142/190 个 idea 接受了 connections（高置信 180 条 + 低置信标记 review 422 条）
+- [x] 运行 `write_connections.py` 写回 .md 文件
+- [x] 重建 `ideas-index.json`
 
-**Step 4 — 运行 compute_connections.py**
-- [ ] 生成新的 `connection-suggestions.json`
-- [ ] 用户审核建议
-
-**之后**
-- [ ] 修改 `compute_connections.py`，自动更新 `ideas-index.json`
+**之后：**
 - [ ] 绘制关系图谱
+- [ ] 更新 CLAUDE.md schema 文档（新增 `summary:` 字段）
 
 ## Step 4 — 计算 Importance ⏳ 未开始
-
-- [ ] 讨论方法
-- [ ] 实现
-- [ ] 写回 .md 文件 + 重新生成 index
-
----
-
-## 未来
-
-- 更新 CLAUDE.md schema 文档
-- 关系图谱可视化

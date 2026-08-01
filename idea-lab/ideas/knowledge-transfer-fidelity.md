@@ -1,5 +1,6 @@
 ---
 id: "idea-20260608-kf01"
+summary: "Language cannot build experiential understanding from scratch because description functions only as an incremental patch onto existing anchoring experiences, not as a new construction. Without a shared implicit base—like the feel of school routines or workplace norms—the patch fails to apply. While school’s transparent rules allow some explicit transfer, a company’s massive implicit rules make knowledge transfer nearly impossible, so language has a fidelity ceiling that limits it to updating existing frameworks rather than creating new ones from nothing"
 title: "The Fidelity Problem in Knowledge Transfer"
 tags: [meta-cognition, knowledge-transfer, language-limits, communication]
 importance: 0
@@ -12,8 +13,9 @@ connections:
     slug: "conversation-breadth-vs-depth"
   - type: idea
     slug: "clarity-as-universal-principle"
+  - type: idea
+    slug: "transfer-high-leverage"
 ---
-
 # The Fidelity Problem in Knowledge Transfer
 
 ## Trigger

@@ -10,12 +10,28 @@ tags:
   - natural-sciences
   - humanities
   - critical-thinking
+summary: "The note argues that university thinking requires questioning common sense, exemplified by testing the claim that knowledge production in natural sciences is understanding domain assumptions then analyzing further, while in humanities it is dialectical engagement between old and new knowledge. This is interrogated by seeking evidence for and against it in disciplines like mathematics, asking what constitutes knowledge and its framework, to reveal its validity and limits. Understanding this production process aids thinking by enabling analysis of domain-specific common sense as a kind of standard engineering, where problem-solving becomes a technique built from familiarity with diverse habitual domains and their grammars. Exchanging thinking patterns with peers expands one’s set of domains, and erudite teachers who share life experience offer"
 importance: 1
 connections:
   - type: project
     slug: ai-ability
+  - type: idea
+    slug: "thinking-and-literature"
+  - type: idea
+    slug: "knowledge-mastery-two-axis-model"  # review: 0.585
+  - type: idea
+    slug: "liberal-arts-education-and-art"  # review: 0.562
+  - type: idea
+    slug: "return-of-college"  # review: 0.533
+  - type: idea
+    slug: "where-innovation-comes-from"  # review: 0.532
+  - type: idea
+    slug: "connection-reading"  # review: 0.524
+  - type: idea
+    slug: "domain-power-and-perspective-taking"  # review: 0.521
+  - type: idea
+    slug: "inquiry-essay-method"  # review: 0.503
 ---
-
 # Knowledge and Thinking
 
 In *Excellent Sheep*,

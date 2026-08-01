@@ -1,5 +1,6 @@
 ---
 id: "idea-20260621-gs01"
+summary: "The Goal Singularity principle asserts that every activity should pursue exactly one goal, because splitting attention between two sets of evaluation criteria overloads limited working memory and degrades both outcomes. Instead of attempting to "kill two birds with one stone," separate tasks like understanding and language expression into two independent activities (e.g., first draft in native language, then translate), halving cognitive load and improving total efficiency. This cognitive goal perspective complements the learning pipeline's source-route-sink decomposition, demanding that during the sink stage, "output in your own words" and "express in the target language" be split. The principle applies mainly to learning and creation scenarios, with natural communication as an exception, and its detection question is noticing simultaneous weighing of two evaluation criteria."
 title: "Goal Singularity"
 tags: [meta-cognition, learning, productivity, focus, goal-design]
 importance: 0
@@ -16,8 +17,11 @@ connections:
     slug: "clarity-as-universal-principle"
   - type: idea
     slug: "attention-pointer-learning-model"
+  - type: idea
+    slug: "attention-as-bottleneck"  # review: 0.550
+  - type: idea
+    slug: "success-interrogation-heuristic"  # review: 0.507
 ---
-
 # Goal Singularity
 
 ## Trigger

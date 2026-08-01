@@ -5,16 +5,20 @@ tags:
   - multi-angle-analysis
   - domain-theory
   - cognitive-methods
+summary: "The everyday practice of understanding something thoroughly by examining it from multiple angles resembles the power of domains, because each perspective offers distinct strengths that can be synthesized. This note asks whether multi-angle analysis, often seen as perspective-taking, can be reframed explicitly in terms of domains, suggesting that shifting viewpoints might be equivalent to leveraging different domain-specific insights."
 importance: 2
 connections:
   - type: project
     slug: "ai-ability"
   - type: idea
     slug: "clarity-as-universal-principle"
+  - type: idea
+    slug: "perspective-classification"  # review: 0.527
+  - type: idea
+    slug: "knowledge-and-thinking-at-university"  # review: 0.521
 ---
 In life, when we want to consider something thoroughly, we usually try to understand it from different angles.
 I feel this is because each angle has its own strengths, and the best approach is to synthesize them.
 
 This is so similar to the power of domains! The real question is: can we frame this in terms of domains?
 
-⚠️ Expired and unprocessed — automatically downgraded to a regular idea

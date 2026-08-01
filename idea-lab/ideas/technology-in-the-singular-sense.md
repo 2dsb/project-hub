@@ -10,6 +10,7 @@ tags:
 - technology-anatomy
 - technology-definition
 - systems-thinking
+summary: "Technology in the singular sense is a means of accomplishing a purpose, expressed equivalently as devices and processes. It is organized around a central principle executed by primary assemblies, with secondary assemblies providing support. This structure is hierarchical and recursive: higher-level technologies command lower-level ones, which determine capabilities, and any technology can become a component in a higher-level system. Modularity, or integration, emerges as functional grouping when a purpose is reused often enough to justify partitioning, offering simpler design and protection against change. Finally, fluidity means that integration patterns shift with changing purposes, so technology is never static."
 importance: 1
 connections:
 - type: permanent
@@ -28,8 +29,37 @@ connections:
   slug: technology-broad-and-narrow
 - type: project
   slug: ai-ability
+  - type: idea
+    slug: "finding-examples"
+  - type: idea
+    slug: "the-gene-of-technology-phenomena"
+  - type: idea
+    slug: "external-and-internal-view-of-technology"
+  - type: idea
+    slug: "classification-of-concepts"
+  - type: idea
+    slug: "broad-and-narrow-technology"
+  - type: idea
+    slug: "understanding-software-at-technical-level"
+  - type: idea
+    slug: "technology-domains"
+  - type: idea
+    slug: "standard-engineering"
+  - type: idea
+    slug: "fundamentally-new-technology"
+  - type: idea
+    slug: "cycle-of-technology"
+  - type: idea
+    slug: "structural-understanding-in-daily-life"
+  - type: idea
+    slug: "technology"
+  - type: idea
+    slug: "reconceptualizing-standard-engineering"
+  - type: idea
+    slug: "general-evolution-of-technology"  # review: 0.585
+  - type: idea
+    slug: "core-capability-supporting-infrastructure-pattern"  # review: 0.574
 ---
-
 # Definition
 ## Functional Perspective
 Technology in the singular sense refers to a means of accomplishing a purpose.

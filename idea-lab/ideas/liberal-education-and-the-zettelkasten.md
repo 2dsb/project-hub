@@ -7,6 +7,7 @@ tags:
   - knowledge-connection
   - reflection
   - learning-method
+summary: "The Zettelkasten method mirrors liberal education's focus on the process of knowledge production, as both involve following interests, extensive reading, and generating new understandings. Reflection in the humanities parallels the role of permanent notes, connecting deep feeling, art, and life. Liberal education aims to cultivate thinking beyond time and space by approaching specialized problems from multiple domains and perspectives, a skill developed when fleeting notes explain everyday phenomena through different theoretical lenses. Both the Zettelkasten method and liberal education cut across all disciplines."
 importance: 1
 connections:
   - type: idea
@@ -19,8 +20,9 @@ connections:
     slug: ai-ability
   - type: permanent
     slug: 卡片笔记写作法c3.19
+  - type: idea
+    slug: "liberal-arts-education-and-art"
 ---
-
 # The Process of Knowledge Production
 
 The Zettelkasten method involves continuing to explore based on existing notes, following your interests. Through extensive reading, new understandings and reflections emerge, which in turn produce new notes.

@@ -9,6 +9,7 @@ tags:
   - tax-revenue
   - market-distortion
   - incentives
+summary: "Deadweight loss of taxation is the reduction in total surplus caused by market distortions, preventing buyers and sellers from realizing mutually beneficial trades. Its magnitude grows with the price elasticity of supply and demand. As taxes rise, deadweight loss increases, and tax revenue first rises then falls, reflecting the Laffer curve relationship. Taxes distort incentives, leading to inefficient resource allocation and potential welfare losses."
 importance: 1
 connections:
   - type: idea
@@ -17,8 +18,9 @@ connections:
     slug: supply-demand-and-government-policies
   - type: project
     slug: naked-economics
+  - type: idea
+    slug: "supply-demand-and-government-policy"  # review: 0.558
 ---
-
 # Deadweight Loss of Taxation
 
 ![[IMG_0157.jpeg]]Deadweight loss: the reduction in total surplus caused by market distortions.

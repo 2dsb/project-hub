@@ -1,5 +1,6 @@
 ---
 id: "idea-20260608-fb01"
+summary: "The Flow-Based Thinking Framework posits that systems across physical, social, and cognitive domains—such as Mindustry logistics, school information flow, and self-study knowledge flow—share an isomorphic source–routing–sink structure. By asking where the source is, how it routes, and where it goes, and then examining capacity, priority, and congestion handling, one can view any system as a flow graph to immediately identify bottlenecks, redundancies, and single points of failure. This is an application of analogical transfer that strips away surface details to reveal the same directed graph topology."
 title: "Flow-Based Thinking Framework"
 tags: [thinking-tool, system-analysis, flow, topology, meta-cognition]
 importance: 0
@@ -28,8 +29,9 @@ connections:
     slug: "how-to-deal-with-complexity"
   - type: idea
     slug: "understanding-software-at-technical-level"
+  - type: idea
+    slug: "space-as-perspective"  # review: 0.524
 ---
-
 # Flow-Based Thinking Framework
 
 ## Trigger
@@ -56,4 +58,3 @@ This is essentially an application of analogical transfer — stripping away sur
 
 Detailed version saved to `resources/thinking-tools/flow-based-thinking.md`
 
-⚠️ Expired without processing, auto-demoted to regular idea

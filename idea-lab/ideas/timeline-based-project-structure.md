@@ -1,5 +1,6 @@
 ---
 id: "idea-20260626-slp01"
+summary: "Any project’s state can be losslessly represented by memory, artifacts, and physical capacity, where physical capacity is a global constraint that gates all work, decaying during deep work and recovering through rest and exercise. The study–slack oscillator shows that intense cognitive sessions deplete physical capacity via poor sleep, triggering recovery gaps, while rhinitis asymmetrically drains motivation during slack phases, making external social triggers the most reliable escape. The foundational strategy is a hard 20:30 cutoff for cognitive work to preserve physical capacity, enabling project rotation and exercise as physical‑capacity management."
 title: "Timeline-Based Project Structure"
 tags: [time-management, project-structure, meta-cognition, daily-flow, energy-management, recovery, physical-health]
 importance: 3
@@ -10,8 +11,9 @@ connections:
     slug: deep-work-recovery-cycle
   - type: project
     slug: daily-exercise
+  - type: idea
+    slug: "willingness-experiment"
 ---
-
 # Timeline-Based Project Structure
 
 > Status: active development — original framework (2026-06-26) + Physical Capacity extension from deep-work-recovery-cycle (2026-07-05) + bidirectional oscillator model + exercise-as-P-management + strategy priority hierarchy (2026-07-07).

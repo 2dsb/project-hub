@@ -1,5 +1,6 @@
 ---
 id: "idea-20260711-ap01"
+summary: "The attention-as-pointer model frames learning as reconstructing the global cohesion-coupling structure of a target system from sequential local samples under a memory decay constraint. Since the attention pointer can only occupy one location at a time, local views conceal inter-component relationships, and memory decays during traversal, connecting distant parts becomes difficult. Two-pass reading naturally addresses this by first building a rough map of the system's layout, then deep-diving with that context, avoiding the failure mode of premature deep dives. The model suggests that optimal reading order may not match linear presentation, and open questions include formalizing the sample complexity of reconstruction and whether reconnection docs serve as cached structural summaries."
 title: "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint"
 tags: [learning, modeling, attention, memory, abstraction, pointer-metaphor, reading-strategy, synthesis]
 importance: 8
@@ -24,8 +25,13 @@ connections:
     slug: "knowledge-as-dictionary-of-perspectives"
   - type: project
     slug: "cs61a"
+  - type: idea
+    slug: "speed-first-model-second-batch-tradeoff"
+  - type: idea
+    slug: "learning-dynamics"
+  - type: idea
+    slug: "memorization-in-pipeline"  # review: 0.590
 ---
-
 # Attention-as-Pointer Model of Learning
 
 ## The Abstraction

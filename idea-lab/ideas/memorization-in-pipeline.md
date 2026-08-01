@@ -6,6 +6,7 @@ tags:
   - memorization
   - retention
   - pipeline
+summary: "The central question is where deliberate memorization fits in the learning pipeline, with a current intuition that it belongs at the Sink as a fourth mode distinct from expression-oriented outputs like analogy, translation, and reconnection doc. This candidate mode targets element-level retention of facts and formulas, enabling survival without full structural reconstruction. However, the idea remains untested and is deliberately withheld from integration per structural patience to avoid polluting a validated pipeline. Open issues include whether memorization is instead a parallel retention axis, interacts with Router stages for high-leverage decisions, or partly overlaps with reconnection docs."
 importance: 0
 connections:
   - type: idea
@@ -14,8 +15,23 @@ connections:
     slug: "knowledge-reconnection"
   - type: idea
     slug: "structural-patience"
+  - type: idea
+    slug: "learning-dynamics"
+  - type: idea
+    slug: "implicit-improvement-pattern"
+  - type: idea
+    slug: "attention-pointer-learning-model"  # review: 0.590
+  - type: idea
+    slug: "transfer-high-leverage"  # review: 0.589
+  - type: idea
+    slug: "speed-first-model-second-batch-tradeoff"  # review: 0.549
+  - type: idea
+    slug: "freedom-exploration-generator"  # review: 0.521
+  - type: idea
+    slug: "data-structure-first-code-reading"  # review: 0.511
+  - type: idea
+    slug: "success-interrogation-heuristic"  # review: 0.503
 ---
-
 # Memorization in the Learning Pipeline
 
 ## Core Question

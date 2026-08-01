@@ -1,5 +1,6 @@
 ---
 id: "idea-20260711-ab01"
+summary: "An abstraction barrier is the deliberately constructed interface between the representation and use of data, directly mapping onto the dual-perspective Portal Model where the program layer handles constructors and selectors while the conceptual layer treats values as abstract units. This barrier creates the conditions for conceptual compression described in the human-machine code-reading gap, because operations like add_rational can be reasoned about without expanding into implementation details. The abstraction barrier transforms the dual-perspective model from a descriptive framework into a design methodology, and it may be the mechanism that separates layers in the four-layer quality model."
 title: "Abstraction Barrier as the Bridge Between Program and Conceptual Layers"
 tags: [cs61a, abstraction, data-abstraction, dual-perspective, program-execution, mental-model]
 importance: 7
@@ -18,8 +19,9 @@ connections:
     slug: knowledge-as-dictionary-of-perspectives
   - type: idea
     slug: four-layer-quality-model
+  - type: idea
+    slug: "name-object-binding-as-perspective"  # review: 0.504
 ---
-
 # Abstraction Barrier as the Bridge Between Program and Conceptual Layers
 
 ## Discovery

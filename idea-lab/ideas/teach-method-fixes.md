@@ -6,14 +6,28 @@ tags:
   - pedagogy
   - curriculum-design
   - actionable
+summary: "The /teach method requires splitting every lesson into concept lessons focused on building horizontal interaction density without code, and practice lessons that establish vertical cross-filter bindings through code reading, because mixing these and using top-down sequencing causes recursive questioning that destabilizes learning. Lessons must be sequenced bottom-up from the lowest abstraction needed, with concept always preceding practice, and practice lessons containing no new concepts. The passing bar for practice is code reading rather than independent writing, fitting these fixes into the method’s existing rapid-concept-push cycle before the integrative exam."
 importance: 8
 connections:
   - type: idea
     slug: knowledge-mastery-two-axis-model
   - type: idea
     slug: interaction-as-dictionary
+  - type: idea
+    slug: "explaining-excellent-sheep-with-theory"  # review: 0.566
+  - type: idea
+    slug: "pass-criteria-as-curriculum-design"  # review: 0.565
+  - type: idea
+    slug: "practice-as-learning-purpose"  # review: 0.565
+  - type: idea
+    slug: "data-structure-first-code-reading"  # review: 0.538
+  - type: idea
+    slug: "success-interrogation-heuristic"  # review: 0.534
+  - type: idea
+    slug: "learning-pipeline"  # review: 0.508
+  - type: idea
+    slug: "inquiry-essay-method"  # review: 0.500
 ---
-
 # /teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing
 
 **One sentence**: Split every /teach lesson into concept lessons (horizontal interaction density, no code) and practice lessons (vertical cross-filter bindings, code reading bar), sequenced bottom-up from the lowest abstraction that enables understanding.

@@ -8,6 +8,7 @@ tags:
 - wechat
 - knowledge-sharing
 - collaboration
+summary: "The core idea is to crowd-source structured knowledge modeling because one person can't cover all domains. Not everything can be modeled—only knowledge with inherent structure like frameworks, taxonomies, causal chains, and dependency graphs qualifies, while experiences and narratives are excluded. The proposal uses a"
 importance: 3
 connections:
 - type: idea
@@ -19,8 +20,6 @@ connections:
 - type: project
   slug: crowd-sourced-knowledge-modeling
 ---
-
-
 # Crowd-Sourced Knowledge Modeling via WeChat Official Account
 
 > **Spark**: Recently wrote 3 reconnection docs for Deep Learning — all doing the same thing: turning linear sentences into an architecture. Many previous ideas also show a "modeling" tendency, but the object isn't a single book — it's life. Much of what we know seems re-describable as a model.

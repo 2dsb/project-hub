@@ -9,6 +9,7 @@ tags:
   - multitasking
   - todo-list
   - mental-resources
+summary: "Attention, working memory, and willpower are three finite mental resources. Attention cannot multitask; even a task like writing can covertly multitask by mixing diffuse word choice with focused editing. Working memory holds roughly seven items, and the Zeigarnik effect means unfinished tasks occupy it, interfering with current work, so writing them on a to-do list can free capacity. Willpower is depleted by decisions and self-control, so standardizing your environment conserves it, and rest recharges it."
 importance: 1
 connections:
   - type: permanent
@@ -21,8 +22,13 @@ connections:
     slug: "the-zettelkasten-method"
   - type: project
     slug: "ai-ability"
+  - type: idea
+    slug: "low-energy-ideation"  # review: 0.525
+  - type: idea
+    slug: "timeline-based-project-structure"  # review: 0.517
+  - type: idea
+    slug: "attention-as-bottleneck"  # review: 0.509
 ---
-
 > There are three resources related to learning: attention, working memory, and willpower. All of them are finite.
 
 # Attention: One at a Time

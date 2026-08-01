@@ -12,14 +12,44 @@ tags:
   - dead-technology
   - creative-destruction
   - biological-evolution-comparison
+summary: "Technology evolves as a self-organizing network, akin to a coral reef organism, where active technologies combine under opportunity niches—demand triggers arising from human needs and the technology network’s own requirements for supporting assemblies and problem solving. Each new technology becomes a node, replaces older components, shifts them to dead nodes, and cascadingly destroys the replaced technology’s demand, subordinate niches, and affiliated technologies. Simultaneously, it creates fresh opportunity niches, spawning trends. Unlike biological evolution’s mutation, technology’s fundamental mode is combination, driving a network of active and dead elements in perpetual creative destruction."
 importance: 1
 connections:
   - type: idea
     slug: three-definitions-of-technology
   - type: project
     slug: ai-ability
+  - type: idea
+    slug: "new-technology-replacing-old"
+  - type: idea
+    slug: "economic-evolution-driven-by-technological-evolution"
+  - type: idea
+    slug: "cycle-of-technology"
+  - type: idea
+    slug: "external-and-internal-view-of-technology"
+  - type: idea
+    slug: "how-domains-evolve"
+  - type: idea
+    slug: "the-gene-of-technology-phenomena"
+  - type: idea
+    slug: "reconceptualizing-standard-engineering"
+  - type: idea
+    slug: "our-attitude-toward-technology"
+  - type: idea
+    slug: "fundamentally-new-technology"
+  - type: idea
+    slug: "technology"
+  - type: idea
+    slug: "standard-engineering"
+  - type: idea
+    slug: "technology-in-the-singular-sense"  # review: 0.585
+  - type: idea
+    slug: "impact-of-domains-on-economy"  # review: 0.580
+  - type: idea
+    slug: "economics"  # review: 0.580
+  - type: idea
+    slug: "classification-of-concepts"  # review: 0.577
 ---
-
 > Technology self-organizes, self-creates, and indeed has life — but as an organism in the "coral reef" sense.
 
 # Combination

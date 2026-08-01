@@ -7,6 +7,7 @@ tags:
 - self-compassion
 - reframing
 - values
+summary: "Illness should be reframed as an exclusive experience opportunity rather than an obstacle to progress, because its constraints open a realm of coping explorations inaccessible to healthy people. The difficulty of maintaining basic functioning under such constraints is real value, even if socially invisible. To apply this, separate physiological discomfort from self-judgment, record survival strategies instead of outputs, and compare your own load to your own previous capacity, not to unburdened others."
 importance: 0
 connections:
 - type: project

@@ -12,9 +12,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 IDEAS_DIR = Path("idea-lab/ideas")
 OUTPUT_PATH = Path("idea-lab/connection-suggestions.json")
-MAX_CANDIDATES = 15  # pool size for gap detection
-MIN_SCORE = 0.45     # absolute floor — below this, never suggest
-MAX_SUGGESTIONS = 10 # hard cap per idea
+MAX_CANDIDATES = 20  # pool size for gap detection
+MIN_SCORE = 0.50     # absolute floor — below this, never suggest
+MIN_GAP = 0.06       # minimum gap to trigger a cut — smaller gaps mean scores are all close
+MAX_SUGGESTIONS = 15 # hard cap per idea
 BODY_MAX_CHARS = 300
 
 
@@ -31,6 +32,7 @@ def read_idea(filepath: Path) -> dict | None:
 
     title = ""
     tags = []
+    summary = ""
     existing_conns = []
     in_tags = False
     in_connections = False
@@ -42,6 +44,8 @@ def read_idea(filepath: Path) -> dict | None:
             pass
         elif stripped.startswith("title:"):
             title = stripped.removeprefix("title:").strip().strip('"').strip("'")
+        elif stripped.startswith("summary:"):
+            summary = stripped.removeprefix("summary:").strip().strip('"').strip("'")
         elif stripped == "tags:":
             in_tags = True
             in_connections = False
@@ -58,7 +62,9 @@ def read_idea(filepath: Path) -> dict | None:
             tags.append(stripped.removeprefix("- ").strip())
 
     tag_str = " ".join(f"#{t}" for t in tags)
-    text_for_embedding = f"{title}. {tag_str}. {body[:BODY_MAX_CHARS]}"
+    # Use summary if available, fall back to body[:300] for backwards compatibility
+    text_source = summary if summary else body[:BODY_MAX_CHARS]
+    text_for_embedding = f"{title}. {tag_str}. {text_source}"
 
     existing_slugs = {conn["slug"] for conn in existing_conns}
 
@@ -92,7 +98,12 @@ def apply_gap_detection(candidates: list) -> list:
             max_gap = gap
             gap_idx = i
 
-    # Keep everything BEFORE the biggest gap
+    # Only cut if the gap is meaningful — scores that are all close together
+    # don't have a real semantic cliff, so keep all candidates
+    if max_gap < MIN_GAP:
+        gap_idx = len(scores)
+
+    # Keep everything BEFORE the biggest gap (or all if no real gap)
     kept = candidates[:gap_idx]
 
     # Apply minimum score floor

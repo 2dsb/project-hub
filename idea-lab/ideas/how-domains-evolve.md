@@ -10,14 +10,16 @@ tags:
   - technology-adoption
   - innovation-cycles
   - technology-maturation
+summary: "Domains form by coalescing around a core technology or a constructed family of phenomena, initially existing as a loosely structured toolbox that gradually accumulates experiential intuition, sometimes mixing with the parent domain to create a hybrid domain. Adolescence is marked by the emergence of viable technology—capable of major commercial application—triggering small enterprise formation, technological improvements, and investment bubbles. Maturity brings market calm and the consolidation of small enterprises into large corporations that profoundly influence the economy. Old age sees few new technologies, with most domains persisting as internalized parts of daily life. The cycle can break through variation caused by fundamental changes in key technologies or application shifts, or by throwing off secondary domains like the internet from computing and communication."
 importance: 1
 connections:
   - type: idea
     slug: three-definitions-of-technology
   - type: project
     slug: ai-ability
+  - type: idea
+    slug: "technology-domains"
 ---
-
 # Domain Formation
 
 Domains form through two modes:

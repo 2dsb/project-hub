@@ -6,6 +6,7 @@ tags:
 - consumer-welfare
 - economics
 - value-theory
+summary: "Willingness to pay is the internal price a consumer assigns to a good, reflecting its subjective value. When the market price is lower—for example, willing to pay 10 yuan but paying only 7 yuan—the difference of 3 yuan is consumer surplus, which directly measures consumer welfare."
 importance: 1
 connections:
   - type: project
@@ -15,4 +16,3 @@ When calculating economic welfare, costs capture the producer side well enough �
 
 Ans: Willingness to pay is essentially the internal price the consumer assigns to the good. For example, if willingness to pay is 10 yuan but the market price is 7 yuan, the consumer feels they traded 7 yuan for something worth 10 yuan — a gain of 3 yuan.
 
-⚠️ Exceeded processing deadline, auto-demoted to ordinary idea

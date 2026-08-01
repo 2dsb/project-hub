@@ -1,5 +1,6 @@
 ---
 id: "idea-20260711-cc01"
+summary: "The cohesion-coupling decomposition heuristic states that a good system decomposition requires subsystems with high internal cohesion and sparse external coupling, ideally zero coupling. Derived from the abstraction barrier concept, this principle applies recursively at every scale. High cohesion allows each subsystem to be understood in isolation, while low coupling enables composability, reuse, and localized debugging. For multi-perspective models like the unified Python execution model, each sub-model should be internally coherent with minimal, well-defined interfaces to other sub-models, and zero coupling indicates they should remain separate."
 title: "Cohesion-Coupling Decomposition Heuristic — Migrated from Abstraction Barrier Concept"
 tags: [system-design, modeling, decomposition, abstraction, cohesion, coupling, methodology, shallow-migration]
 importance: 6
@@ -23,7 +24,6 @@ connections:
   - type: idea
     slug: "objective-importance-scoring"
 ---
-
 # Cohesion-Coupling Decomposition Heuristic
 
 ## Source

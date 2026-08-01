@@ -1,5 +1,6 @@
 ---
 id: "idea-20260711-rm01"
+summary: "Modeling a book's content involves a tradeoff between merge costs from poor decomposition boundaries and memory decay costs from delayed modeling. Modeling chapter-by-chapter forces editorial boundaries that ignore conceptual cohesion, causing later model merging when concepts span chapters, but waiting until after reading the whole book allows a structurally optimal decomposition at the cost of degraded memory for early chapters. The optimal strategy balances these two costs by modeling after natural conceptual clusters—units with high internal cohesion and sparse external coupling—rather than chapters. This explains why premature structure is suboptimal and aligns with structural patience: editorial boundaries imposed too early lead to unnecessary merge costs."
 title: "Reading-Modeling Decomposition Tradeoff — Explained by Cohesion-Coupling Heuristic"
 tags: [reading, modeling, methodology, decomposition, learning, cohesion-coupling, tradeoff]
 importance: 7
@@ -20,8 +21,9 @@ connections:
     slug: knowledge-as-dictionary-of-perspectives
   - type: project
     slug: deep-learning-book
+  - type: idea
+    slug: "content-independent-framework"  # review: 0.565
 ---
-
 # Reading-Modeling Decomposition Tradeoff
 
 ## The Tradeoff

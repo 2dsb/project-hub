@@ -10,6 +10,7 @@ tags:
 - parent-child-relationship
 - academic-pressure
 - extrinsic-motivation
+summary: "Elite college students' developmental trajectory is shaped by helicopter parents who overprotect and demand perfectionism, believing only a flawless, high-achieving child deserves love, making elite schools a necessity. High schools adopt a customer-first model, ceding education to parental demands. This upbringing infantilizes students, trapping them in a cycle of extrinsic validation where confidence hinges solely on success, oscillating between arrogance and self-loathing. They lose the capacity to feel, never form their own value system, and adopt a Hobbesian, risk-averse materialism, leading to depression and a loss of meaning. The parent-child bond remains emotionally weak, with praise substituting warmth and criticism substituting guidance."
 importance: 1
 connections:
   - type: permanent
@@ -28,8 +29,9 @@ connections:
     slug: "优秀的绵羊c3.7"
   - type: project
     slug: "ai-ability"
+  - type: idea
+    slug: "return-of-college"
 ---
-
 # Elite Family Parents
 ## "Perfect Expectations" for Their Children
 - They hover over their children like helicopters, supervising and guiding them through every task. They believe that a child's development requires a rigorous, supervised, and orderly process to build competence. "Let us handle it" is their mantra.

@@ -1,11 +1,11 @@
 ---
 id: "idea-20260212-31a458"
+summary: "The note contrasts a personal ideal that friends should be permanent and solid against the observed reality of temporary fellow travelers who can fall out over a single remark, then extends this dialectic to love as either a value exchange or instinctual mating behavior. It raises empirical and analytical questions about how friendships form, change, and end, and what assumptions underlie the author’s “common sense.” The author’s social pattern involves actively probing for depth in initial interactions; those perceived as lacking depth become passive, entertainment-only acquaintances, while those with depth are cultivated as permanent friends. The novel *Someone to Talk To* is proposed as a case study to document relationship trajectories and test whether a new standard of friendship aligns with the author’s desires and logical coherence."
 title: "Understanding the Word \"Friend\""
 tags: [friendship, interpersonal-relationships, love, social-patterns, self-analysis]
 importance: 3
 connections:
 ---
-
 Common sense (my view): Friends should be permanent, solid
 
 But I've also read in books about many friends who "got along well" eventually falling out over a single remark
@@ -17,8 +17,6 @@ Logically speaking, you also can't determine whether a friendship is permanent o
 > vs
 >
 > (Opposing view) Friends should be seen as temporary fellow travelers
-
-
 
 > (My view) Only those you truly open up to are "real friends"?
 >
@@ -57,6 +55,3 @@ What can I learn from Someone to Talk To (《一句顶一万句》)?
    - Envision a new standard for "friendship" (this one is hard to articulate clearly)
      - Use the relationships in Someone to Talk To as examples to test whether this kind of friendship *aligns with what I want* and *holds up logically*
 
-
-💡 Promotion recommendation: yes — already has clear pro/con contrast, concrete analysis dimensions, self-reflection, and an action plan; content structure is complete
-⚠️ Overdue and unprocessed — automatically downgraded to regular idea

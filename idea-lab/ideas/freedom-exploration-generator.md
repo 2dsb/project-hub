@@ -8,6 +8,7 @@ tags:
   - degrees-of-freedom
   - pattern-discovery
   - teach-method
+summary: "The real advantage of AI learning is not a modest initial speedup but the massive increase in degrees of freedom—pace, sequence, depth, modality, interactivity—that enables active exploration. This exploration accelerates the accumulation of cross-domain learning experiences, providing dense comparison data that makes meta-level pattern discovery possible. Discoveries like the concept/practice split and two-axis model emerged only after enough tracks were completed, then fed back into the learning method as an ultimate efficiency multiplier. Over-structuring the teach method risks suppressing the exploration that generates this data, so fixes should be defaults rather than rigid rules."
 importance: 9
 connections:
   - type: idea
@@ -20,8 +21,33 @@ connections:
     slug: learning-dynamics
   - type: idea
     slug: interaction-as-dictionary
+  - type: idea
+    slug: "transfer-high-leverage"
+  - type: idea
+    slug: "speed-first-model-second-batch-tradeoff"  # review: 0.593
+  - type: idea
+    slug: "learning-pipeline"  # review: 0.575
+  - type: idea
+    slug: "success-interrogation-heuristic"  # review: 0.561
+  - type: idea
+    slug: "implicit-improvement-pattern"  # review: 0.542
+  - type: idea
+    slug: "breadth-first-trap"  # review: 0.538
+  - type: idea
+    slug: "structural-patience"  # review: 0.526
+  - type: idea
+    slug: "memorization-in-pipeline"  # review: 0.521
+  - type: idea
+    slug: "leverage-existing-vs-build-from-scratch"  # review: 0.520
+  - type: idea
+    slug: "efficiency-formula"  # review: 0.518
+  - type: idea
+    slug: "local-pattern-patching-failure"  # review: 0.515
+  - type: idea
+    slug: "practice-as-learning-purpose"  # review: 0.513
+  - type: idea
+    slug: "framework-extraction-pattern"  # review: 0.507
 ---
-
 # Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning
 
 **One sentence**: The initial efficiency gain from AI learning is modest. The real advantage is the massive increase in degrees of freedom, which enables active exploration, which accelerates accumulation of learning experiences, which makes pattern discovery possible — and pattern discovery at the meta-level is the ultimate efficiency multiplier.

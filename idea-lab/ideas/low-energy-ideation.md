@@ -1,5 +1,6 @@
 ---
 id: "idea-20260601-9d2e4f"
+summary: "When mental_score falls below 30, a "no ideas" dysfunctional state emerges where all mental activity—generating ideas, reading, thinking, deciding, creating—becomes hard to initiate. The contradiction is that these activities drain mental energy, yet low-energy states are precisely when energy is scarce. The solution is to find low-energy versions for each type: instead of active brainstorming, answer preset questions or record observations; for reading, skim or listen to audio; for problem-solving, only define the problem or note intuitive answers without verifying; for decisions, defer or use a simple rule like picking the first good-enough option; for creative work, modify existing material or imitate rather than originate."
 title: "Idea Generation in Low-Energy States"
 tags: [productivity, low-energy, creativity, self-management]
 importance: 0
@@ -20,8 +21,13 @@ connections:
     slug: "卡片笔记写作法c3.3"
   - type: project
     slug: "ai-ability"
+  - type: idea
+    slug: "where-innovation-comes-from"  # review: 0.582
+  - type: idea
+    slug: "efficient-thinking"  # review: 0.573
+  - type: idea
+    slug: "three-mental-resources"  # review: 0.525
 ---
-
 # Maintaining mental activity during low-energy states
 
 Problem: When in a low state (e.g., mental_score < 30), you fall into a "no ideas" dysfunctional state. This goes beyond generating ideas — it extends to all kinds of mental activity: reading, thinking through problems, learning, decision-making — all become hard to initiate or sustain.

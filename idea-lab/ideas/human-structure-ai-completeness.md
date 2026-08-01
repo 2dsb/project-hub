@@ -5,6 +5,7 @@ tags:
 - methodology
 - human-ai-collaboration
 - knowledge-reconnection
+summary: "The optimal human-AI division for knowledge structuring has the human providing the structural skeleton—determining what each concept is and where it belongs—while the AI cross-references against an external checklist and maps detailed connections, because humans excel at structural insight but miss exhaustive enumeration, and AI can exhaustively enumerate but lacks reliable structural judgment. In the Ch5 collaboration pattern, the human placed SVM in the (Q, A) framework, and the AI checked a 116-concept list, flagging missing items like the kernel trick and φ(x). This refinement makes AI's primary role completeness verification rather than prose generation, contrasting with earlier workflows where AI assembled definitions."
 importance: 2
 connections:
 - type: idea
@@ -19,11 +20,9 @@ connections:
   slug: reconnection-doc-method
 - type: idea
   slug: three-layer-framework
+  - type: idea
+    slug: "structural-patience"  # review: 0.505
 ---
-
-
-
-
 # Human Provides Structural Skeleton; AI Checks Completeness and Maps Linkages
 
 **Insight**: The optimal human-AI division for knowledge structuring is not "human does thinking, AI does formatting." It's: human provides the structural skeleton (where each concept lives in the framework and why), AI cross-references against an external checklist and maps the detailed connections. Each does what the other is bad at.

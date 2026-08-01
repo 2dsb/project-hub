@@ -7,14 +7,16 @@ tags:
 - causality
 - reverse-causality
 - omitted-variables
+summary: "In economics, the slope quantifies the degree to which one quantity responds to another. A key challenge is distinguishing correlation from causality, because an observed correlation may reflect reverse causation, as in the relationship between cigarette lighters and cancer, or an omitted variable driving both, as with police presence and crime rates. Therefore, identifying true cause and effect requires ruling out these alternative explanations."
 importance: 1
 connections:
 - type: idea
   slug: production-possibility-frontier
 - type: project
   slug: naked-economics
+  - type: idea
+    slug: "economic-perspective-on-the-world"  # review: 0.568
 ---
-
 # Slope
 Represents the degree to which one quantity responds to another.
 

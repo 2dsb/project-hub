@@ -1,5 +1,6 @@
 ---
 id: "idea-20260620-ast01"
+summary: "AI Source Triage proposes inserting an AI layer between source and routing in a flow-based learning pipeline to pre-screen content and identify the highest-value-density subset before the user invests time. The AI acts as a pre-screener, filter, or condenser—traversing material like video courses, social feeds, books, or papers to flag skippable parts, strip off-topic content, and compress repetitive detail. The core insight is that linear traversal of information sources is wildly inefficient; AI can perform one pass of denoising and compression to return only what merits deep attention."
 title: "AI Source Triage"
 tags: [learning, ai-amplifier, flow-based-thinking, information-filtering]
 importance: 0
@@ -10,8 +11,9 @@ connections:
     slug: "peer-cross-teaching"
   - type: idea
     slug: "learning-pipeline"
+  - type: idea
+    slug: "x-com-information-source"  # review: 0.561
 ---
-
 # AI Source Triage
 
 ## Trigger

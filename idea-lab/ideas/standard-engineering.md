@@ -12,12 +12,14 @@ tags:
   - engineering-design
   - systems-thinking
   - combinatorial-evolution
+summary: "Standard engineering is the process of creating a new version of an existing technology within a domain by using already-familiar combination methods and structures. Design is an attempted solution to a problem raised by demand, where engineers break down requirements into sub-requirements and express conceptual forms by selecting components from a toolkit, much like language expresses thought. The difficulty varies from conventional projects to hard versions where entering unknown territory introduces unpredictable problems and human factors. Over time, successful design variants become standardized through a Darwinian process: technologies that are reused and popular get locked in as standard modules, while poor ones fade—a positive feedback loop driven by demand, not random variation."
 importance: 1
 connections:
   - type: idea
     slug: standard-engineering-refactoring
+  - type: idea
+    slug: "reconceptualizing-standard-engineering"
 ---
-
 Standard engineering, also known as technological innovation (in the singular sense) or "design," can be understood as the process of creating a new technology.
 
 The strict definition is: **the process of creating a new version (itself a technology) of an old technology within a technology domain, using already-familiar combination methods and structures.**

@@ -6,17 +6,22 @@ tags:
 - belief-examination
 - metacognition
 - thinking-methods
+summary: "Proactively document and interrogate your own beliefs, such as views on love or career, to foster self-reflection and metacognitive examination."
 importance: 3
 connections:
   - type: project
     slug: "ai-ability"
   - type: idea
     slug: "integrating-fragmented-life-strategies"
+  - type: idea
+    slug: "8b-deep-reflection"  # review: 0.548
+  - type: idea
+    slug: "my-relationship-with-others-and-society"  # review: 0.521
+  - type: idea
+    slug: "return-of-college"  # review: 0.520
 ---
 For example, views on love,
 views on career, etc.
 
 Do it proactively.
 
-💡 Promotion recommendation: no — content is too sparse, only proposes a direction but lacks specific methods or examples
-⚠️ Exceeded deadline without processing, automatically downgraded to a regular idea

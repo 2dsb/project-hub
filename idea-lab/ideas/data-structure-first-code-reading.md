@@ -8,11 +8,27 @@ tags:
   - data-structures
   - mental-model
   - comprehension
+summary: "Data Structure First advocates memorizing core data shapes in a codebase before tracing control flow, because data structures are finite, stable, and provide the skeleton that makes code transformations obvious. This contrasts with locate-first-model-last, which maps perspectives at the knowledge-graph level, while data-structure-first operates within a single codebase. Rote memorization of shapes like `list[dict]` with specific keys is the highest-ROI investment, enabling code to be read as a story rather than a series of type puzzles."
 connections:
   - type: idea
     slug: locate-first-model-last
+  - type: idea
+    slug: "environment-diagram-dual-perspective"
+  - type: idea
+    slug: "human-machine-code-reading-gap"  # review: 0.578
+  - type: idea
+    slug: "call-tree-as-third-perspective"  # review: 0.569
+  - type: idea
+    slug: "teach-method-fixes"  # review: 0.538
+  - type: idea
+    slug: "name-object-binding-as-perspective"  # review: 0.523
+  - type: idea
+    slug: "attention-pointer-learning-model"  # review: 0.522
+  - type: idea
+    slug: "memorization-in-pipeline"  # review: 0.511
+  - type: idea
+    slug: "framework-extraction-pattern"  # review: 0.506
 ---
-
 # Data Structure First — Memorize Shapes Before Reading Code
 
 ## The observation

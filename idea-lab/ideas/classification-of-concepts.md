@@ -1,16 +1,45 @@
 ---
 id: "idea-20260130-7845c2"
+summary: "The note asks how the classification of concepts should be carried out abstractly, prompted by W. Brian Arthur's *The Nature of Technology*, which divides technology along a singular/plural/collective axis and also at a physical/behavioral level."
 title: "The Classification of Concepts"
 tags: ["concept-analysis", "classification-methods", "essence-of-technology"]
 importance: 1
 connections:
   - type: idea
     slug: "framework-from-data"
+  - type: idea
+    slug: "three-definitions-of-technology"
+  - type: idea
+    slug: "technology"
+  - type: idea
+    slug: "finding-examples"
+  - type: idea
+    slug: "technology-in-the-singular-sense"
+  - type: idea
+    slug: "the-gene-of-technology-phenomena"
+  - type: idea
+    slug: "external-and-internal-view-of-technology"
+  - type: idea
+    slug: "perspective-classification"
+  - type: idea
+    slug: "structural-understanding-in-daily-life"
+  - type: idea
+    slug: "our-attitude-toward-technology"  # review: 0.583
+  - type: idea
+    slug: "technology-domains"  # review: 0.582
+  - type: idea
+    slug: "general-evolution-of-technology"  # review: 0.577
+  - type: idea
+    slug: "fundamentally-new-technology"  # review: 0.564
+  - type: idea
+    slug: "characteristics-of-our-era"  # review: 0.555
+  - type: idea
+    slug: "understanding-software-at-technical-level"  # review: 0.553
+  - type: idea
+    slug: "reconceptualizing-standard-engineering"  # review: 0.530
 ---
-
 In the book *The Nature of Technology*, technology is conceptually divided along the singular / plural / collective axis.
 There is also a division at the physical / behavioral level.
 
 Abstractly speaking, how should the classification of concepts be carried out?
 
-⚠️ Expired without processing — automatically downgraded to a regular idea.

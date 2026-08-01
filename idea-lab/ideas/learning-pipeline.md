@@ -1,5 +1,6 @@
 ---
 id: "idea-20260621-lp01"
+summary: "The learning pipeline from flow-based thinking structures learning as Source→Router→Sink: finding quality sources, pre-judging value with AI source triage or peer cross-teaching, triaging reading blockers by severity (L1 skip, L2 batch later, L3 pause for prerequisites), and outputting understanding via analogy, translation, or a knowledge-reconnection document for future-self fast decode. A real-world run on MIT 6.S184 revealed L3 blockers have an internal severity spectrum (L3-mild vs. L3-severe) and that filling prerequisites can trigger a recursive spiral, requiring a boundary of only filling one layer with just-in-time AI support if needed."
 title: "Learning Pipeline"
 tags: [learning, pipeline, meta-cognition, flow-based-thinking, synthesis]
 importance: 0
@@ -28,8 +29,9 @@ connections:
     slug: "locate-first-model-last"
   - type: permanent
     slug: "卡片笔记写作法c2.2"
+  - type: idea
+    slug: "memorization-in-pipeline"
 ---
-
 # Learning Pipeline
 
 ## Trigger

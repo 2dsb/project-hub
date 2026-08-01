@@ -8,6 +8,7 @@ tags:
 - audit
 - methodology
 - framework
+summary: "The Four-Layer Product Quality Model classifies any product into Philosophy, Acceptance Criteria, Spec, and Product levels, yielding a complete audit space of 6 cross-layer comparisons (C(4,2)) plus 4 internal consistencies, totalling 10 dimensions. The recursive-planner audit framework only"
 importance: 10
 connections:
 - type: idea
@@ -30,9 +31,9 @@ connections:
   slug: objective-importance-scoring
 - type: idea
   slug: reconnection-doc-method
+  - type: idea
+    slug: "checklist-completeness-audit"  # review: 0.504
 ---
-
-
 # Four-Layer Product Quality Model: 6 Cross-Layer Comparisons + 4 Internal Consistencies = 10-Dimensional Audit Space
 
 ## Model

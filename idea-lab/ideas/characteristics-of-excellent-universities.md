@@ -9,14 +9,22 @@ tags:
   - social-good
   - higher-education
   - undergraduate-experience
+summary: "Excellent universities feature curious, open peers who act as intellectual partners, offering idea exchange and mutual support under shared graduation pressures. They guide students in with an "Introduction to Liberal Arts" course—a humanities syllabus covering discipline essentials to broaden interests and find direction. They proactively prepare all majors for life after graduation through year-round systematic programs, not just last-minute senior-year vocational skills repackaged as leadership. For example, Bennington College's Center for Social Good allows students to choose themes like poverty, public health, or the environment, conducting project-based inquiry to use resources for advancing social progress, which redefines leadership's actual meaning."
 importance: 1
 connections:
   - type: idea
     slug: teachers
   - type: project
     slug: gaokao-chinese
+  - type: idea
+    slug: "return-of-college"  # review: 0.586
+  - type: idea
+    slug: "social-responsibility-of-outstanding-students"  # review: 0.578
+  - type: idea
+    slug: "university-two-pillar-strategy"  # review: 0.524
+  - type: idea
+    slug: "liberal-arts-perspective-on-the-execution-line"  # review: 0.514
 ---
-
 # Professors
 
 [Teachers](../ideas/teachers.md) — the ideal is already reflected there, no need to elaborate.

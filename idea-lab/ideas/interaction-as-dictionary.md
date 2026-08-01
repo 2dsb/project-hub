@@ -10,6 +10,7 @@ tags:
   - dictionary-metaphor
   - attention-filter
   - meta-model
+summary: "Every knowledge point is a dictionary mapping interaction contexts to interaction patterns — essence is irrelevant. Objects are names bound to stable interaction-pattern sets within a filter, and perspective is a selective filter that foregrounds some interactions while backgrounding others. Horizontal interactions compare patterns within a shared filter, vertical interactions connect names across filters, and class is merely the impression of dense vertical interactions. The methodology replaces "What is X?" with "What does it interact with?" — discovering interactions through the dictionary structure is the only goal."
 importance: 9
 connections:
   - type: idea
@@ -28,8 +29,11 @@ connections:
     slug: "attention-pointer-learning-model"
   - type: idea
     slug: "locate-first-model-last"
+  - type: idea
+    slug: "object-attribute-migration"
+  - type: idea
+    slug: "connection-reading"  # review: 0.549
 ---
-
 # Interaction-as-Dictionary — A Unified Modeling Framework
 
 **One sentence**: Every knowledge point is a dictionary mapping interaction contexts to interaction patterns — and that's all it is.

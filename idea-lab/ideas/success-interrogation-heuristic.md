@@ -8,14 +8,30 @@ tags:
   - migration
   - learning
   - heuristics
+summary: "The Success Interrogation Heuristic prompts asking Generalize, Replicate, and Migrate each time something works unusually well, converting single wins into permanent capability upgrades by focusing on the reusable mechanism rather than the one-shot outcome. For a learning sprint that succeeded because the teach skill automated transforming structured source material into interactive lessons, the abstract pattern is automated transformation of raw material into consumable output, which is replicable via the skill file and might migrate to other structured-input-to-structured-output pipelines like code generation or note summarization. The interrogation includes a falsification step identifying when the mechanism is context-bound, person-bound, or phase-bound, ensuring portability is not assumed blindly."
 importance: 3
 connections:
   - type: idea
     slug: "leverage-existing-vs-build-from-scratch"
   - type: idea
     slug: "transfer-high-leverage"
+  - type: idea
+    slug: "framework-extraction-pattern"  # review: 0.579
+  - type: idea
+    slug: "freedom-exploration-generator"  # review: 0.561
+  - type: idea
+    slug: "practice-as-learning-purpose"  # review: 0.537
+  - type: idea
+    slug: "teach-method-fixes"  # review: 0.534
+  - type: idea
+    slug: "memorized-offline-procedures"  # review: 0.512
+  - type: idea
+    slug: "goal-singularity"  # review: 0.507
+  - type: idea
+    slug: "methodology-change-timing"  # review: 0.506
+  - type: idea
+    slug: "memorization-in-pipeline"  # review: 0.503
 ---
-
 # Success Interrogation Heuristic — Generalize, Replicate, Migrate
 
 ## The trigger

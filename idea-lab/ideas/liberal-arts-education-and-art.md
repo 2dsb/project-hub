@@ -10,6 +10,7 @@ tags:
   - humanities
   - science-vs-art
   - personal-growth
+summary: "Liberal arts education investigates the process of knowledge production itself, spanning natural sciences and humanities, and ultimately aims to cultivate an ability to think beyond spatial and temporal constraints for both public good and a healthy, creative self. Art leads to truth by compelling attentive observation and breaking through the self-deception that makes truth hard to bear, because it recounts personal experience to evoke resonance rather than calculating objective data. Unlike science, which asks "Is it true?", the humanities and art prompt the question "What is its relationship to me?" Art not only provides models for living but also offers a method for questioning scholarship through stories that provoke reflection, integrating life experience with book learning into a unified self. This integration resolves the limitation that what we can measure is confined to what we know exists, and it reveals the past as the source of thoughts, feelings, laws, and social structures."
 importance: 1
 connections:
   - type: permanent
@@ -24,8 +25,11 @@ connections:
     slug: my-relationship-with-others-and-society
   - type: project
     slug: gaokao-chinese
+  - type: idea
+    slug: "liberal-arts-perspective-on-the-execution-line"
+  - type: idea
+    slug: "liberal-education-and-the-zettelkasten"
 ---
-
 # Liberal Arts Education
 
 Liberal arts education pursues knowledge for its own sake, spanning both natural sciences and humanities. What it investigates is the **process of knowledge production**. For science and engineering, it may involve analyzing assumptions within a field before proceeding further; for the humanities, it involves critical reflection on both old and new knowledge: gathering evidence, analyzing authoritative arguments, encountering counterarguments, synthesizing new viewpoints, and then rigorously articulating one's own position. It demands both the ability to analyze others' views and the ability to express one's own.

@@ -8,6 +8,7 @@ tags:
 - methodology
 - M34
 - design-review
+summary: "Spec-based review can only find discrepancies between implementation and spec; it is blind to gaps in the spec itself. The M34 recursive-planner audits failed to catch that template text was static and would never evolve, despite the system’s own co-evolution claim, because the audit criteria only verified that the spec’s explicit requirements were met. This structural blind spot creates a false sense of security as finding counts drop across rounds. To break through, audit methodology needs a Design Commitment Audit layer that checks whether publicly promised properties, like evolvability, are actually realized, supplemented by a Devil’s Advocate role asking naive questions and periodic commitment-reality comparisons driven by user inquiry."
 importance: 9
 connections:
 - type: idea
@@ -24,9 +25,11 @@ connections:
   slug: "system-coevolution"
 - type: idea
   slug: "nature-of-review"
+  - type: idea
+    slug: "checklist-completeness-audit"  # review: 0.534
+  - type: idea
+    slug: "standard-engineering"  # review: 0.514
 ---
-
-
 # Audit Blind Spot — Spec-based review misses what the spec itself is missing
 
 ## Discovery Process
@@ -87,4 +90,3 @@ Marked as importance: 9 (highest level), reasons:
 3. If the audit method is not corrected, all future systems (not just M34) will be affected by the same blind spot
 4. The fix is cheap and actionable (add one audit dimension, one role, one periodic check)
 
-⚠️ Expired without processing, auto-demoted to regular idea (material_since: 2026-06-10, expired: 2026-07-10)

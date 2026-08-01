@@ -11,6 +11,7 @@ tags:
   - human-vs-machine
   - conceptual-compression
   - code-reading
+summary: "The note proposes a dual-perspective modeling framework for Environment Diagrams: a real pattern state-machine model where programs are paths through environment snapshots from the interpreter's perspective, and a comprehension view where code reading treats function bodies as frames and `return` as a portal for mental tracing, avoiding graphical diagrams. This reveals a deeper gap between human conceptual compression (e.g., reading `make_adder(3)` as a single semantic chunk) and machine algorithmic stepwise execution, mapping onto DL Chapter 5’s layers. The Portal Model captures the algorithmic half, but the conceptual half—how humans compress execution into meaning—remains unmodeled."
 importance: 3
 connections:
   - type: project
@@ -29,8 +30,9 @@ connections:
     slug: "abstraction-barrier-as-dual-perspective-bridge"
   - type: idea
     slug: "knowledge-as-dictionary-of-perspectives"
+  - type: idea
+    slug: "data-structure-first-code-reading"
 ---
-
 # Environment Diagram — Dual-Perspective Modeling Framework
 
 > Environment Diagrams are hard to capture in a single simple diagram the way DL Chapter 5 did with its three-layer framework. The solution: two complementary perspectives — one accurate, one intuitive.
@@ -107,4 +109,3 @@ This maps directly onto Ch5's three-layer framework ([[deep-learning-book]]):
 
 The pattern is identical: in both ML and code reading, the conceptual layer is not reducible to the execution layer — but it shapes and constrains it. A human doesn't mentally simulate the Python interpreter; they compress execution into concepts. This is the same dynamic as Ch5's observation that conceptual priors (Frequentist vs. Bayesian, Occam's Razor) sit *outside* the technical architecture but determine its shape.
 
-⚠️ Expired without processing, auto-demoted to regular idea

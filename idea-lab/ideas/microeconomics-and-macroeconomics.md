@@ -7,6 +7,7 @@ tags:
   - individual-decision-making
   - overall-economy
   - economics
+summary: "Microeconomics and macroeconomics differ in their level of analysis: microeconomics studies individual decisions by households and firms and their interactions in markets, whereas macroeconomics examines economy-wide phenomena such as inflation, unemployment, and economic growth."
 importance: 1
 connections:
   - type: idea
@@ -16,7 +17,6 @@ connections:
   - type: project
     slug: naked-economics
 ---
-
 The two differ in their level of analysis.
 Microeconomics studies how households and firms make decisions and how they interact in markets.
 Macroeconomics studies economy-wide phenomena (inflation, unemployment, economic growth, etc.).

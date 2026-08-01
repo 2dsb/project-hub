@@ -7,14 +7,44 @@ tags:
 - economic-reproduction
 - worldview
 - human-technology-relationship
+summary: "Modern technology’s defining trait is a biological nature—the ability to interact with the environment, self-repair, and integrate cognitively, forming a functional network rather than a fixed mechanism. This biological logic reshapes the economy into a reproductive system where competitive advantage arises from translating deep knowledge into new strategic combinations, not from resource reserves. The worldview shifts from seeing the world as a rationally composed order to embracing it as an open, evolving organic whole. Humans place hope in technology for a better life yet trust nature, creating conflict because technology exploits natural phenomena and feels unnatural, and its self-directed biological nature stirs deep unease about control and separation from nature."
 importance: 1
 connections:
 - type: idea
   slug: three-definitions-of-technology
 - type: idea
   slug: ai-ability
+  - type: idea
+    slug: "external-and-internal-view-of-technology"
+  - type: idea
+    slug: "general-evolution-of-technology"
+  - type: idea
+    slug: "technology"
+  - type: idea
+    slug: "economic-evolution-driven-by-technological-evolution"
+  - type: idea
+    slug: "characteristics-of-our-era"  # review: 0.593
+  - type: idea
+    slug: "the-gene-of-technology-phenomena"  # review: 0.583
+  - type: idea
+    slug: "classification-of-concepts"  # review: 0.583
+  - type: idea
+    slug: "new-technology-replacing-old"  # review: 0.555
+  - type: idea
+    slug: "impact-of-domains-on-economy"  # review: 0.544
+  - type: idea
+    slug: "finding-examples"  # review: 0.541
+  - type: idea
+    slug: "cycle-of-technology"  # review: 0.527
+  - type: idea
+    slug: "economics"  # review: 0.526
+  - type: idea
+    slug: "structural-understanding-in-daily-life"  # review: 0.513
+  - type: idea
+    slug: "where-innovation-comes-from"  # review: 0.508
+  - type: idea
+    slug: "technology-in-the-singular-sense"  # review: 0.505
 ---
-
 # Modern Technology's Defining Trait: Biological Nature
 
 In the digital age, everything enters the digital realm and becomes the same type of operable object. This allows everything to converse with everything else, broadening the possibilities of combination.

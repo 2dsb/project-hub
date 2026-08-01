@@ -7,6 +7,7 @@ tags:
   - routing
   - optimization
   - game-design
+summary: "In Mindustry logistics, the optimal way to route N conveyor belts into the core is to avoid splitting each belt into 12 shares and instead merge belts into groups capped at 4 items per second, then feed each group into a core port via a Router. If a group's throughput exceeds the 4/s port limit, an overflow gate redirects surplus items to an adjacent port, scaling linearly with core port count. This merge-based approach (Plan B) keeps deployment complexity O(N), whereas the split-based alternative (Plan A) becomes unwieldy and fails to scale when the number of belts or core ports increases."
 importance: 0
 connections:
   - type: idea
@@ -14,8 +15,6 @@ connections:
   - type: idea
     slug: mindustry-overflow-priority-routing
 ---
-
-
 # Mindustry Resource Routing: Optimizing N Conveyor Lines Merging into the Core
 
 ## Problem Model

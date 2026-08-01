@@ -1,30 +1,34 @@
 {
   "model": "all-mpnet-base-v2",
   "method": "top-N + gap detection",
-  "min_score": 0.45,
-  "max_candidates": 15,
+  "min_score": 0.5,
+  "max_candidates": 20,
   "generated": "2026-08-01",
-  "total_ideas": 217,
-  "ideas_with_suggestions": 182,
-  "total_suggestions": 412,
+  "total_ideas": 190,
+  "ideas_with_suggestions": 152,
+  "total_suggestions": 602,
   "stats": {
     "suggestion_count_distribution": {
-      "0": 35,
-      "1": 99,
-      "2": 33,
-      "3": 14,
-      "4": 14,
-      "5": 9,
-      "6": 4,
-      "7": 1,
-      "8": 2,
-      "9": 3,
-      "10": 3
+      "0": 38,
+      "1": 61,
+      "2": 25,
+      "3": 20,
+      "4": 8,
+      "5": 3,
+      "6": 1,
+      "7": 6,
+      "8": 6,
+      "9": 1,
+      "10": 3,
+      "11": 3,
+      "13": 4,
+      "14": 1,
+      "15": 10
     },
     "score_range": {
-      "min": 0.4504,
-      "max": 0.7903,
-      "avg": 0.5435
+      "min": 0.5,
+      "max": 0.9084,
+      "avg": 0.5762
     }
   },
   "suggestions": [
@@ -33,19 +37,14 @@
       "title": "8b Deep Reflection",
       "suggestions": [
         {
+          "slug": "return-of-college",
+          "title": "The Return of College",
+          "score": 0.5553
+        },
+        {
           "slug": "recording-and-questioning-beliefs",
           "title": "Recording and Questioning Personal Beliefs",
-          "score": 0.527
-        },
-        {
-          "slug": "knowledge-and-thinking-at-university",
-          "title": "Knowledge and Thinking at University",
-          "score": 0.5108
-        },
-        {
-          "slug": "efficient-thinking",
-          "title": "Efficient Thinking",
-          "score": 0.5017
+          "score": 0.5485
         }
       ]
     },
@@ -54,9 +53,9 @@
       "title": "Absolute Advantage and Comparative Advantage",
       "suggestions": [
         {
-          "slug": "competitive-markets",
-          "title": "Competitive Markets",
-          "score": 0.4574
+          "slug": "international-trade",
+          "title": "International Trade",
+          "score": 0.64
         }
       ]
     },
@@ -67,22 +66,7 @@
         {
           "slug": "name-object-binding-as-perspective",
           "title": "Name-Object Binding as a Perspective on Program Execution",
-          "score": 0.5207
-        },
-        {
-          "slug": "data-structure-first-code-reading",
-          "title": "Data Structure First — Memorize Shapes Before Reading Code",
-          "score": 0.5067
-        },
-        {
-          "slug": "transfer-high-leverage",
-          "title": "Transfer as a High-Leverage Cognitive Operation",
-          "score": 0.4793
-        },
-        {
-          "slug": "content-independent-framework",
-          "title": "Content-Independent Frameworks Beat Content-Bound Ones",
-          "score": 0.477
+          "score": 0.5042
         }
       ]
     },
@@ -93,34 +77,7 @@
         {
           "slug": "government-economic-rescue-measures",
           "title": "Government Economic Rescue Measures",
-          "score": 0.4797
-        },
-        {
-          "slug": "sino-us-trade",
-          "title": "Sino-US Trade",
-          "score": 0.4635
-        }
-      ]
-    },
-    {
-      "slug": "ai-amplifier",
-      "title": "AI Amplifier",
-      "suggestions": [
-        {
-          "slug": "meta-skill-lifecycle",
-          "title": "Meta-Skill Lifecycle",
-          "score": 0.6532
-        }
-      ]
-    },
-    {
-      "slug": "ai-fast-feedback",
-      "title": "AI Fast Feedback",
-      "suggestions": [
-        {
-          "slug": "analyzing-ai-by-technical-components",
-          "title": "Analyzing AI by its technical components",
-          "score": 0.4598
+          "score": 0.545
         }
       ]
     },
@@ -129,52 +86,9 @@
       "title": "AI Source Triage",
       "suggestions": [
         {
-          "slug": "analyzing-ai-by-technical-components",
-          "title": "Analyzing AI by its technical components",
-          "score": 0.5253
-        }
-      ]
-    },
-    {
-      "slug": "analogical-transfer-conditions",
-      "title": "Applicability Conditions for Analogical Transfer",
-      "suggestions": [
-        {
-          "slug": "transfer-high-leverage",
-          "title": "Transfer as a High-Leverage Cognitive Operation",
-          "score": 0.6103
-        }
-      ]
-    },
-    {
-      "slug": "analyzing-ai-by-technical-components",
-      "title": "Analyzing AI by its technical components",
-      "suggestions": [
-        {
-          "slug": "freedom-exploration-generator",
-          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
-          "score": 0.5376
-        },
-        {
-          "slug": "perspective-classification",
-          "title": "Perspective Classification",
-          "score": 0.5314
-        },
-        {
-          "slug": "ai-source-triage",
-          "title": "AI Source Triage",
-          "score": 0.5253
-        }
-      ]
-    },
-    {
-      "slug": "anki-for-english-conversation",
-      "title": "Anki Cards from English Conversations — Active Memory Maintenance",
-      "suggestions": [
-        {
-          "slug": "chat-as-idea-source",
-          "title": "WeChat Conversations as Idea Raw Material",
-          "score": 0.5397
+          "slug": "x-com-information-source",
+          "title": "X.com as Information Source — Curation & Alternatives",
+          "score": 0.5613
         }
       ]
     },
@@ -183,14 +97,29 @@
       "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
       "suggestions": [
         {
-          "slug": "three-mental-resources",
-          "title": "The Three Mental Resources",
-          "score": 0.6168
+          "slug": "willingness-experiment",
+          "title": "Willingness Experiment: Continue vs. Switch",
+          "score": 0.5619
         },
         {
           "slug": "breadth-first-trap",
           "title": "Breadth-First Search → Depth-First Execution",
-          "score": 0.5768
+          "score": 0.5362
+        },
+        {
+          "slug": "three-mental-resources",
+          "title": "The Three Mental Resources",
+          "score": 0.5095
+        },
+        {
+          "slug": "speed-first-model-second-batch-tradeoff",
+          "title": "Speed-First Model-Second — Batch Size Tradeoff in Learning",
+          "score": 0.5072
+        },
+        {
+          "slug": "transfer-high-leverage",
+          "title": "Transfer as a High-Leverage Cognitive Operation",
+          "score": 0.5062
         }
       ]
     },
@@ -199,14 +128,19 @@
       "title": "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint",
       "suggestions": [
         {
-          "slug": "learning-dynamics",
-          "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
-          "score": 0.5037
+          "slug": "speed-first-model-second-batch-tradeoff",
+          "title": "Speed-First Model-Second — Batch Size Tradeoff in Learning",
+          "score": 0.6279
         },
         {
-          "slug": "three-mental-resources",
-          "title": "The Three Mental Resources",
-          "score": 0.5004
+          "slug": "learning-dynamics",
+          "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
+          "score": 0.6043
+        },
+        {
+          "slug": "memorization-in-pipeline",
+          "title": "Memorization in the Learning Pipeline",
+          "score": 0.5899
         }
       ]
     },
@@ -215,20 +149,30 @@
       "title": "Audit Blind Spot — Spec-based review misses what the spec itself is missing",
       "suggestions": [
         {
-          "slug": "meta-skill-lifecycle",
-          "title": "Meta-Skill Lifecycle",
-          "score": 0.5269
+          "slug": "checklist-completeness-audit",
+          "title": "Checklist Completeness Audit — External Reference Beats Internal Consistency",
+          "score": 0.5344
+        },
+        {
+          "slug": "standard-engineering",
+          "title": "Standard Engineering",
+          "score": 0.5137
         }
       ]
     },
     {
-      "slug": "banks-venture-capital-and-government",
-      "title": "Banks, Venture Capital, and Government",
+      "slug": "behavioral-activation-model",
+      "title": "Behavioral Activation Model: Low Scores Are Starting Conditions, Not Static Labels",
       "suggestions": [
         {
-          "slug": "three-types-of-economic-behavior",
-          "title": "Three Types of Economic Behavior",
-          "score": 0.5137
+          "slug": "timeline-based-project-structure",
+          "title": "Timeline-Based Project Structure",
+          "score": 0.5257
+        },
+        {
+          "slug": "deep-work-recovery-cycle",
+          "title": "Deep-Work Recovery Cycle — Physical Constraint on Project Dynamics",
+          "score": 0.5049
         }
       ]
     },
@@ -237,9 +181,29 @@
       "title": "Breadth-First Search → Depth-First Execution",
       "suggestions": [
         {
+          "slug": "framework-extraction-pattern",
+          "title": "First Time — Framework Emerges from Content; Second Time — Framework Precedes Content",
+          "score": 0.5464
+        },
+        {
+          "slug": "efficiency-formula",
+          "title": "The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates",
+          "score": 0.5408
+        },
+        {
+          "slug": "freedom-exploration-generator",
+          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+          "score": 0.538
+        },
+        {
           "slug": "attention-as-bottleneck",
           "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
-          "score": 0.5768
+          "score": 0.5362
+        },
+        {
+          "slug": "how-to-deal-with-complexity",
+          "title": "Dealing with Complexity",
+          "score": 0.5004
         }
       ]
     },
@@ -250,12 +214,7 @@
         {
           "slug": "technology-in-the-singular-sense",
           "title": "Technology in the Singular Sense",
-          "score": 0.6075
-        },
-        {
-          "slug": "standard-engineering",
-          "title": "Standard Engineering",
-          "score": 0.5944
+          "score": 0.6603
         }
       ]
     },
@@ -264,9 +223,30 @@
       "title": "Call Tree as a Third Perspective on Program Execution",
       "suggestions": [
         {
-          "slug": "understanding-software-at-technical-level",
-          "title": "Understanding Software at the Technical Level",
-          "score": 0.4831
+          "slug": "data-structure-first-code-reading",
+          "title": "Data Structure First — Memorize Shapes Before Reading Code",
+          "score": 0.5689
+        }
+      ]
+    },
+    {
+      "slug": "certainty-gravity",
+      "title": "Certainty Gravity",
+      "suggestions": [
+        {
+          "slug": "willingness-experiment",
+          "title": "Willingness Experiment: Continue vs. Switch",
+          "score": 0.5247
+        },
+        {
+          "slug": "efficient-thinking",
+          "title": "Efficient Thinking",
+          "score": 0.5082
+        },
+        {
+          "slug": "human-cognitive-biases",
+          "title": "Human Cognitive Biases",
+          "score": 0.5046
         }
       ]
     },
@@ -275,9 +255,24 @@
       "title": "Characteristics of Excellent Universities",
       "suggestions": [
         {
-          "slug": "mooc-brand-tools-inequality",
-          "title": "MOOC Courses as Brand Tools for Elite Universities",
-          "score": 0.4917
+          "slug": "return-of-college",
+          "title": "The Return of College",
+          "score": 0.5855
+        },
+        {
+          "slug": "social-responsibility-of-outstanding-students",
+          "title": "The Social Responsibility of Outstanding Students",
+          "score": 0.5779
+        },
+        {
+          "slug": "university-two-pillar-strategy",
+          "title": "University Four-Year Strategy: Two Pillars, Run in Parallel",
+          "score": 0.5244
+        },
+        {
+          "slug": "liberal-arts-perspective-on-the-execution-line",
+          "title": "A Liberal Arts Perspective on the Execution Line",
+          "score": 0.5143
         }
       ]
     },
@@ -288,7 +283,37 @@
         {
           "slug": "our-attitude-toward-technology",
           "title": "Our Attitude Toward Technology",
-          "score": 0.4994
+          "score": 0.5931
+        },
+        {
+          "slug": "technology",
+          "title": "Technology",
+          "score": 0.5766
+        },
+        {
+          "slug": "classification-of-concepts",
+          "title": "The Classification of Concepts",
+          "score": 0.5546
+        },
+        {
+          "slug": "three-definitions-of-technology",
+          "title": "The Three Definitions of Technology",
+          "score": 0.5518
+        },
+        {
+          "slug": "economic-evolution-driven-by-technological-evolution",
+          "title": "Economic Evolution Driven by Technological Evolution",
+          "score": 0.5382
+        },
+        {
+          "slug": "external-and-internal-view-of-technology",
+          "title": "The External View and Internal View of Technology",
+          "score": 0.5285
+        },
+        {
+          "slug": "finding-examples",
+          "title": "Finding Examples",
+          "score": 0.5023
         }
       ]
     },
@@ -299,22 +324,7 @@
         {
           "slug": "conversation-topic-flow",
           "title": "How Conversation Topics Flow — Finding the Structure",
-          "score": 0.5769
-        },
-        {
-          "slug": "crowd-sourced-knowledge-modeling",
-          "title": "Crowd-Sourced Knowledge Modeling via WeChat Official Account",
-          "score": 0.5631
-        },
-        {
-          "slug": "anki-for-english-conversation",
-          "title": "Anki Cards from English Conversations — Active Memory Maintenance",
-          "score": 0.5397
-        },
-        {
-          "slug": "stranger-conversation-loop",
-          "title": "The Stranger Conversation Loop — A Replicable Social Algorithm",
-          "score": 0.5
+          "score": 0.5186
         }
       ]
     },
@@ -323,14 +333,14 @@
       "title": "Checklist Completeness Audit — External Reference Beats Internal Consistency",
       "suggestions": [
         {
-          "slug": "four-layer-quality-model",
-          "title": "Four-Layer Product Quality Model: 6 Cross-Layer Comparisons + 4 Internal Consistencies = 10-Dimensional Audit Space",
-          "score": 0.5045
-        },
-        {
           "slug": "audit-blind-spot-spec-limitation",
           "title": "Audit Blind Spot — Spec-based review misses what the spec itself is missing",
-          "score": 0.4798
+          "score": 0.5344
+        },
+        {
+          "slug": "four-layer-quality-model",
+          "title": "Four-Layer Product Quality Model: 6 Cross-Layer Comparisons + 4 Internal Consistencies = 10-Dimensional Audit Space",
+          "score": 0.5039
         }
       ]
     },
@@ -341,7 +351,18 @@
         {
           "slug": "elements-of-the-economy",
           "title": "The Elements of the Economy",
-          "score": 0.566
+          "score": 0.5146
+        }
+      ]
+    },
+    {
+      "slug": "clarity-as-universal-principle",
+      "title": "Clarity as a Universal Principle",
+      "suggestions": [
+        {
+          "slug": "residuals-as-honesty-device",
+          "title": "Residuals Table as Structural Honesty Device",
+          "score": 0.5639
         }
       ]
     },
@@ -350,20 +371,79 @@
       "title": "The Classification of Concepts",
       "suggestions": [
         {
+          "slug": "three-definitions-of-technology",
+          "title": "The Three Definitions of Technology",
+          "score": 0.7539
+        },
+        {
+          "slug": "technology",
+          "title": "Technology",
+          "score": 0.7285
+        },
+        {
+          "slug": "finding-examples",
+          "title": "Finding Examples",
+          "score": 0.6815
+        },
+        {
+          "slug": "technology-in-the-singular-sense",
+          "title": "Technology in the Singular Sense",
+          "score": 0.6619
+        },
+        {
+          "slug": "the-gene-of-technology-phenomena",
+          "title": "The Gene of Technology: Phenomena",
+          "score": 0.6606
+        },
+        {
+          "slug": "external-and-internal-view-of-technology",
+          "title": "The External View and Internal View of Technology",
+          "score": 0.6198
+        },
+        {
+          "slug": "perspective-classification",
+          "title": "Perspective Classification",
+          "score": 0.6023
+        },
+        {
+          "slug": "structural-understanding-in-daily-life",
+          "title": "Structural Understanding in Daily Life",
+          "score": 0.6016
+        },
+        {
+          "slug": "our-attitude-toward-technology",
+          "title": "Our Attitude Toward Technology",
+          "score": 0.583
+        },
+        {
           "slug": "technology-domains",
           "title": "Technology Domains",
-          "score": 0.5865
-        }
-      ]
-    },
-    {
-      "slug": "coffee-talk",
-      "title": "Coffee Talk",
-      "suggestions": [
+          "score": 0.582
+        },
         {
-          "slug": "conversation-topic-flow",
-          "title": "How Conversation Topics Flow — Finding the Structure",
-          "score": 0.4721
+          "slug": "general-evolution-of-technology",
+          "title": "The General Evolution of Technology",
+          "score": 0.5772
+        },
+        {
+          "slug": "fundamentally-new-technology",
+          "title": "Fundamentally New Technology",
+          "score": 0.564
+        },
+        {
+          "slug": "characteristics-of-our-era",
+          "title": "Characteristics of Our Era",
+          "score": 0.5546
+        },
+        {
+          "slug": "understanding-software-at-technical-level",
+          "title": "Understanding Software at the Technical Level",
+          "score": 0.5531
+        },
+        {
+          "slug": "reconceptualizing-standard-engineering",
+          "title": "Reconceptualizing Standard Engineering",
+          "score": 0.5302
         }
       ]
     },
@@ -374,7 +454,7 @@
         {
           "slug": "inflation",
           "title": "Inflation",
-          "score": 0.7434
+          "score": 0.7493
         }
       ]
     },
@@ -383,50 +463,24 @@
       "title": "Competitive Markets",
       "suggestions": [
         {
-          "slug": "elasticity-of-supply-and-demand",
-          "title": "Elasticity of Supply and Demand",
-          "score": 0.5467
-        },
-        {
-          "slug": "market-efficiency",
-          "title": "Market Efficiency",
-          "score": 0.5383
+          "slug": "how-to-understand-price",
+          "title": "Understanding Price",
+          "score": 0.6134
         },
         {
           "slug": "supply-demand-and-government-policy",
           "title": "Supply, Demand, and Government Policy",
-          "score": 0.5111
+          "score": 0.5808
         },
         {
-          "slug": "how-to-understand-price",
-          "title": "Understanding Price",
-          "score": 0.4879
+          "slug": "elasticity-of-supply-and-demand",
+          "title": "Elasticity of Supply and Demand",
+          "score": 0.579
         },
         {
-          "slug": "naked-economy",
-          "title": "Naked Economy",
-          "score": 0.474
-        },
-        {
-          "slug": "absolute-advantage-and-comparative-advantage",
-          "title": "Absolute Advantage and Comparative Advantage",
-          "score": 0.4574
-        }
-      ]
-    },
-    {
-      "slug": "completion-vs-quitting",
-      "title": "Completion vs. Quitting",
-      "suggestions": [
-        {
-          "slug": "willingness-experiment",
-          "title": "Willingness Experiment: Continue vs. Switch",
-          "score": 0.5247
-        },
-        {
-          "slug": "perfectionism-and-feedback-loops",
-          "title": "Perfectionism and Feedback Loops",
-          "score": 0.5172
+          "slug": "market-efficiency",
+          "title": "Market Efficiency",
+          "score": 0.5764
         }
       ]
     },
@@ -435,19 +489,46 @@
       "title": "Connection-Oriented Reading — Conceptual Constraint-Relationship Mapping",
       "suggestions": [
         {
-          "slug": "reconnection-doc-method",
-          "title": "Three-Layer Classification Method for Reconnection Docs",
-          "score": 0.5798
+          "slug": "interaction-as-dictionary",
+          "title": "Interaction-as-Dictionary — A Unified Modeling Framework",
+          "score": 0.5488
         },
         {
           "slug": "three-layer-framework",
           "title": "Three-Layer Framework as Starting Lens for Reconnection Docs",
-          "score": 0.5678
+          "score": 0.5453
         },
         {
-          "slug": "interaction-as-dictionary",
-          "title": "Interaction-as-Dictionary — A Unified Modeling Framework",
-          "score": 0.5412
+          "slug": "framework-from-data",
+          "title": "Build Frameworks from Data, Not Find Data for Frameworks",
+          "score": 0.5261
+        },
+        {
+          "slug": "knowledge-and-thinking-at-university",
+          "title": "Knowledge and Thinking at University",
+          "score": 0.5238
+        }
+      ]
+    },
+    {
+      "slug": "contact-management-simplified-schema",
+      "title": "Contact Management Simplified: 4-Field Schema",
+      "suggestions": [
+        {
+          "slug": "contact-management",
+          "title": "Contact Management System",
+          "score": 0.6613
+        }
+      ]
+    },
+    {
+      "slug": "contact-management",
+      "title": "Contact Management System",
+      "suggestions": [
+        {
+          "slug": "contact-management-simplified-schema",
+          "title": "Contact Management Simplified: 4-Field Schema",
+          "score": 0.6613
         }
       ]
     },
@@ -456,19 +537,39 @@
       "title": "Content-Independent Frameworks Beat Content-Bound Ones",
       "suggestions": [
         {
-          "slug": "abstraction-barrier-as-dual-perspective-bridge",
-          "title": "Abstraction Barrier as the Bridge Between Program and Conceptual Layers",
-          "score": 0.477
-        },
-        {
           "slug": "framework-from-data",
           "title": "Build Frameworks from Data, Not Find Data for Frameworks",
-          "score": 0.4718
+          "score": 0.6007
         },
         {
-          "slug": "understanding-software-at-technical-level",
-          "title": "Understanding Software at the Technical Level",
-          "score": 0.471
+          "slug": "reading-modeling-decomposition-tradeoff",
+          "title": "Reading-Modeling Decomposition Tradeoff — Explained by Cohesion-Coupling Heuristic",
+          "score": 0.5652
+        },
+        {
+          "slug": "leverage-existing-vs-build-from-scratch",
+          "title": "Leverage Existing Solutions vs. Build from Scratch — A Decision System Axis",
+          "score": 0.5249
+        },
+        {
+          "slug": "core-capability-supporting-infrastructure-pattern",
+          "title": "Core Capability → Supporting Infrastructure as Technology Evolution Pattern",
+          "score": 0.5211
+        },
+        {
+          "slug": "fundamentally-new-technology",
+          "title": "Fundamentally New Technology",
+          "score": 0.5023
+        },
+        {
+          "slug": "inquiry-essay-method",
+          "title": "Inquiry-Based Essay Method — Concept Exhaustion → Multi-Angle Answers → Natural Weaving",
+          "score": 0.501
+        },
+        {
+          "slug": "structural-understanding-in-daily-life",
+          "title": "Structural Understanding in Daily Life",
+          "score": 0.5008
         }
       ]
     },
@@ -479,37 +580,12 @@
         {
           "slug": "conversation-topic-flow",
           "title": "How Conversation Topics Flow — Finding the Structure",
-          "score": 0.5254
+          "score": 0.5388
         },
         {
-          "slug": "system-coevolution-p3-autonomy-boundary",
-          "title": "System Coevolution - Problem 3: The Boundary of Self-Updating Systems",
-          "score": 0.5207
-        },
-        {
-          "slug": "crowd-sourced-knowledge-modeling",
-          "title": "Crowd-Sourced Knowledge Modeling via WeChat Official Account",
-          "score": 0.4921
-        },
-        {
-          "slug": "information-exchange-as-package-cycle",
-          "title": "Information Exchange as Package-Unpack-Repeat Cycle",
-          "score": 0.4669
-        },
-        {
-          "slug": "stranger-conversation-loop",
-          "title": "The Stranger Conversation Loop — A Replicable Social Algorithm",
-          "score": 0.4538
-        },
-        {
-          "slug": "interaction-as-dictionary",
-          "title": "Interaction-as-Dictionary — A Unified Modeling Framework",
-          "score": 0.4534
-        },
-        {
-          "slug": "audit-blind-spot-spec-limitation",
-          "title": "Audit Blind Spot — Spec-based review misses what the spec itself is missing",
-          "score": 0.4529
+          "slug": "contact-management",
+          "title": "Contact Management System",
+          "score": 0.5118
         }
       ]
     },
@@ -520,7 +596,7 @@
         {
           "slug": "conversation-topic-flow",
           "title": "How Conversation Topics Flow — Finding the Structure",
-          "score": 0.6213
+          "score": 0.578
         }
       ]
     },
@@ -531,23 +607,88 @@
         {
           "slug": "conversation-breadth-vs-depth",
           "title": "Conversation Breadth vs Depth",
-          "score": 0.6213
+          "score": 0.578
+        },
+        {
+          "slug": "conversation-as-data-source",
+          "title": "Conversation as Data Source",
+          "score": 0.5388
         },
         {
           "slug": "chat-as-idea-source",
           "title": "WeChat Conversations as Idea Raw Material",
-          "score": 0.5769
+          "score": 0.5186
         }
       ]
     },
     {
-      "slug": "crowd-sourced-knowledge-modeling",
-      "title": "Crowd-Sourced Knowledge Modeling via WeChat Official Account",
+      "slug": "core-capability-supporting-infrastructure-pattern",
+      "title": "Core Capability → Supporting Infrastructure as Technology Evolution Pattern",
       "suggestions": [
         {
-          "slug": "chat-as-idea-source",
-          "title": "WeChat Conversations as Idea Raw Material",
-          "score": 0.5631
+          "slug": "cycle-of-technology",
+          "title": "The Cycle of Technology",
+          "score": 0.5752
+        },
+        {
+          "slug": "technology-in-the-singular-sense",
+          "title": "Technology in the Singular Sense",
+          "score": 0.5737
+        },
+        {
+          "slug": "standard-engineering",
+          "title": "Standard Engineering",
+          "score": 0.5732
+        },
+        {
+          "slug": "how-domains-evolve",
+          "title": "How Domains Evolve",
+          "score": 0.5724
+        },
+        {
+          "slug": "technology-domains",
+          "title": "Technology Domains",
+          "score": 0.5668
+        },
+        {
+          "slug": "general-evolution-of-technology",
+          "title": "The General Evolution of Technology",
+          "score": 0.5558
+        },
+        {
+          "slug": "reconceptualizing-standard-engineering",
+          "title": "Reconceptualizing Standard Engineering",
+          "score": 0.5384
+        },
+        {
+          "slug": "the-gene-of-technology-phenomena",
+          "title": "The Gene of Technology: Phenomena",
+          "score": 0.5369
+        },
+        {
+          "slug": "external-and-internal-view-of-technology",
+          "title": "The External View and Internal View of Technology",
+          "score": 0.5367
+        },
+        {
+          "slug": "content-independent-framework",
+          "title": "Content-Independent Frameworks Beat Content-Bound Ones",
+          "score": 0.5211
+        },
+        {
+          "slug": "fundamentally-new-technology",
+          "title": "Fundamentally New Technology",
+          "score": 0.5108
+        },
+        {
+          "slug": "structural-understanding-in-daily-life",
+          "title": "Structural Understanding in Daily Life",
+          "score": 0.5077
+        },
+        {
+          "slug": "economic-evolution-driven-by-technological-evolution",
+          "title": "Economic Evolution Driven by Technological Evolution",
+          "score": 0.5072
         }
       ]
     },
@@ -558,7 +699,7 @@
         {
           "slug": "economic-perspective-on-the-world",
           "title": "The Economic Perspective on the World",
-          "score": 0.574
+          "score": 0.5678
         }
       ]
     },
@@ -567,29 +708,79 @@
       "title": "The Cycle of Technology",
       "suggestions": [
         {
-          "slug": "new-technology-replacing-old",
-          "title": "Understanding New Technology Replacing Old Technology",
-          "score": 0.6736
-        },
-        {
-          "slug": "reconceptualizing-standard-engineering",
-          "title": "Reconceptualizing Standard Engineering",
-          "score": 0.6527
-        },
-        {
           "slug": "general-evolution-of-technology",
           "title": "The General Evolution of Technology",
-          "score": 0.6448
-        },
-        {
-          "slug": "economic-evolution-driven-by-technological-evolution",
-          "title": "Economic Evolution Driven by Technological Evolution",
-          "score": 0.6327
+          "score": 0.7239
         },
         {
           "slug": "fundamentally-new-technology",
           "title": "Fundamentally New Technology",
-          "score": 0.6256
+          "score": 0.7105
+        },
+        {
+          "slug": "external-and-internal-view-of-technology",
+          "title": "The External View and Internal View of Technology",
+          "score": 0.6906
+        },
+        {
+          "slug": "reconceptualizing-standard-engineering",
+          "title": "Reconceptualizing Standard Engineering",
+          "score": 0.6626
+        },
+        {
+          "slug": "standard-engineering",
+          "title": "Standard Engineering",
+          "score": 0.6463
+        },
+        {
+          "slug": "new-technology-replacing-old",
+          "title": "Understanding New Technology Replacing Old Technology",
+          "score": 0.6331
+        },
+        {
+          "slug": "how-domains-evolve",
+          "title": "How Domains Evolve",
+          "score": 0.63
+        },
+        {
+          "slug": "technology-in-the-singular-sense",
+          "title": "Technology in the Singular Sense",
+          "score": 0.6195
+        },
+        {
+          "slug": "technology",
+          "title": "Technology",
+          "score": 0.6095
+        },
+        {
+          "slug": "economic-evolution-driven-by-technological-evolution",
+          "title": "Economic Evolution Driven by Technological Evolution",
+          "score": 0.6029
+        },
+        {
+          "slug": "the-gene-of-technology-phenomena",
+          "title": "The Gene of Technology: Phenomena",
+          "score": 0.5901
+        },
+        {
+          "slug": "technology-domains",
+          "title": "Technology Domains",
+          "score": 0.5863
+        },
+        {
+          "slug": "core-capability-supporting-infrastructure-pattern",
+          "title": "Core Capability → Supporting Infrastructure as Technology Evolution Pattern",
+          "score": 0.5752
+        },
+        {
+          "slug": "broad-and-narrow-technology",
+          "title": "Broad and Narrow Technology",
+          "score": 0.5674
+        },
+        {
+          "slug": "methodology-change-timing",
+          "title": "The Timing Risk of Methodology Changes",
+          "score": 0.5437
         }
       ]
     },
@@ -598,9 +789,19 @@
       "title": "Data → Pattern → Prediction Chain",
       "suggestions": [
         {
-          "slug": "system-coevolution-p1-data-coverage",
-          "title": "Co-evolution - Problem 1: Data Granularity and Coverage",
-          "score": 0.5057
+          "slug": "human-machine-code-reading-gap",
+          "title": "Human vs. Machine Code Reading — The Conceptual Gap",
+          "score": 0.5564
+        },
+        {
+          "slug": "local-pattern-patching-failure",
+          "title": "Local Patterns Cannot Be Generalized Through Continuous Patching",
+          "score": 0.5191
+        },
+        {
+          "slug": "framework-extraction-pattern",
+          "title": "First Time — Framework Emerges from Content; Second Time — Framework Precedes Content",
+          "score": 0.5127
         }
       ]
     },
@@ -609,9 +810,55 @@
       "title": "Data Structure First — Memorize Shapes Before Reading Code",
       "suggestions": [
         {
+          "slug": "environment-diagram-dual-perspective",
+          "title": "Environment Diagram — Dual-Perspective Modeling Framework",
+          "score": 0.6297
+        },
+        {
           "slug": "human-machine-code-reading-gap",
           "title": "Human vs. Machine Code Reading — The Conceptual Gap",
-          "score": 0.5772
+          "score": 0.5783
+        },
+        {
+          "slug": "call-tree-as-third-perspective",
+          "title": "Call Tree as a Third Perspective on Program Execution",
+          "score": 0.5689
+        },
+        {
+          "slug": "teach-method-fixes",
+          "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
+          "score": 0.5378
+        },
+        {
+          "slug": "name-object-binding-as-perspective",
+          "title": "Name-Object Binding as a Perspective on Program Execution",
+          "score": 0.5235
+        },
+        {
+          "slug": "attention-pointer-learning-model",
+          "title": "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint",
+          "score": 0.5217
+        },
+        {
+          "slug": "memorization-in-pipeline",
+          "title": "Memorization in the Learning Pipeline",
+          "score": 0.5107
+        },
+        {
+          "slug": "framework-extraction-pattern",
+          "title": "First Time — Framework Emerges from Content; Second Time — Framework Precedes Content",
+          "score": 0.5057
+        }
+      ]
+    },
+    {
+      "slug": "deadweight-loss-of-taxation",
+      "title": "Deadweight Loss of Taxation",
+      "suggestions": [
+        {
+          "slug": "supply-demand-and-government-policy",
+          "title": "Supply, Demand, and Government Policy",
+          "score": 0.5585
         }
       ]
     },
@@ -620,24 +867,9 @@
       "title": "Decision Model as Next Non-Specialist Domain Model",
       "suggestions": [
         {
-          "slug": "discretize-first",
-          "title": "Discretize-First Problem Solving",
-          "score": 0.5683
-        },
-        {
           "slug": "strategy-three-component-model",
           "title": "Strategy as Iterative Optimization — Three-Component Model + Meta-Strategy Loop",
-          "score": 0.5612
-        },
-        {
-          "slug": "system-coevolution",
-          "title": "System-Human Coevolution",
-          "score": 0.5534
-        },
-        {
-          "slug": "meta-skill-lifecycle",
-          "title": "Meta-Skill Lifecycle",
-          "score": 0.5405
+          "score": 0.53
         }
       ]
     },
@@ -646,50 +878,9 @@
       "title": "Deep-Work Recovery Cycle — Physical Constraint on Project Dynamics",
       "suggestions": [
         {
-          "slug": "attention-as-bottleneck",
-          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
-          "score": 0.4916
-        },
-        {
-          "slug": "system-coevolution",
-          "title": "System-Human Coevolution",
-          "score": 0.4827
-        },
-        {
-          "slug": "increasing-time",
-          "title": "Increasing Disposable Time",
-          "score": 0.4774
-        },
-        {
-          "slug": "efficiency-formula",
-          "title": "The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates",
-          "score": 0.4638
-        }
-      ]
-    },
-    {
-      "slug": "discretize-first",
-      "title": "Discretize-First Problem Solving",
-      "suggestions": [
-        {
-          "slug": "meta-skill-lifecycle",
-          "title": "Meta-Skill Lifecycle",
-          "score": 0.5943
-        },
-        {
-          "slug": "strategy-three-component-model",
-          "title": "Strategy as Iterative Optimization — Three-Component Model + Meta-Strategy Loop",
-          "score": 0.5828
-        },
-        {
-          "slug": "decision-model-as-next-domain-model",
-          "title": "Decision Model as Next Non-Specialist Domain Model",
-          "score": 0.5683
-        },
-        {
-          "slug": "transfer-high-leverage",
-          "title": "Transfer as a High-Leverage Cognitive Operation",
-          "score": 0.5672
+          "slug": "willingness-experiment",
+          "title": "Willingness Experiment: Continue vs. Switch",
+          "score": 0.6661
         }
       ]
     },
@@ -700,7 +891,12 @@
         {
           "slug": "perspective-classification",
           "title": "Perspective Classification",
-          "score": 0.4906
+          "score": 0.5269
+        },
+        {
+          "slug": "knowledge-and-thinking-at-university",
+          "title": "Knowledge and Thinking at University",
+          "score": 0.5206
         }
       ]
     },
@@ -709,24 +905,19 @@
       "title": "Economic Evolution Driven by Technological Evolution",
       "suggestions": [
         {
-          "slug": "economics",
-          "title": "Economics",
-          "score": 0.6797
-        },
-        {
-          "slug": "impact-of-domains-on-economy",
-          "title": "The Impact of Domains on the Economy",
-          "score": 0.6349
-        },
-        {
-          "slug": "cycle-of-technology",
-          "title": "The Cycle of Technology",
-          "score": 0.6327
-        },
-        {
           "slug": "general-evolution-of-technology",
           "title": "The General Evolution of Technology",
-          "score": 0.6285
+          "score": 0.7541
+        },
+        {
+          "slug": "new-technology-replacing-old",
+          "title": "Understanding New Technology Replacing Old Technology",
+          "score": 0.7313
+        },
+        {
+          "slug": "economics",
+          "title": "Economics",
+          "score": 0.7279
         }
       ]
     },
@@ -737,7 +928,7 @@
         {
           "slug": "curves-in-economics",
           "title": "Curves in Economics",
-          "score": 0.574
+          "score": 0.5678
         }
       ]
     },
@@ -746,29 +937,14 @@
       "title": "Economics as a Science",
       "suggestions": [
         {
-          "slug": "the-ten-principles-of-economics",
-          "title": "The Ten Principles of Economics",
-          "score": 0.4968
-        },
-        {
           "slug": "science",
           "title": "Science",
-          "score": 0.4914
+          "score": 0.5297
         },
         {
-          "slug": "microeconomics-and-macroeconomics",
-          "title": "Microeconomics and Macroeconomics",
-          "score": 0.4873
-        },
-        {
-          "slug": "economists-as-policy-advisors",
-          "title": "Economists as Policy Advisors",
-          "score": 0.4696
-        },
-        {
-          "slug": "economic-evolution-driven-by-technological-evolution",
-          "title": "Economic Evolution Driven by Technological Evolution",
-          "score": 0.46
+          "slug": "the-ten-principles-of-economics",
+          "title": "The Ten Principles of Economics",
+          "score": 0.5281
         }
       ]
     },
@@ -779,7 +955,7 @@
         {
           "slug": "economic-evolution-driven-by-technological-evolution",
           "title": "Economic Evolution Driven by Technological Evolution",
-          "score": 0.6797
+          "score": 0.7279
         }
       ]
     },
@@ -790,12 +966,7 @@
         {
           "slug": "the-ten-principles-of-economics",
           "title": "The Ten Principles of Economics",
-          "score": 0.4782
-        },
-        {
-          "slug": "economics-as-a-science",
-          "title": "Economics as a Science",
-          "score": 0.4696
+          "score": 0.5895
         }
       ]
     },
@@ -804,9 +975,59 @@
       "title": "The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates",
       "suggestions": [
         {
+          "slug": "leverage-existing-vs-build-from-scratch",
+          "title": "Leverage Existing Solutions vs. Build from Scratch — A Decision System Axis",
+          "score": 0.5855
+        },
+        {
+          "slug": "where-innovation-comes-from",
+          "title": "Where Innovation Comes From",
+          "score": 0.5582
+        },
+        {
+          "slug": "strategy-three-component-model",
+          "title": "Strategy as Iterative Optimization — Three-Component Model + Meta-Strategy Loop",
+          "score": 0.5499
+        },
+        {
+          "slug": "practice-as-learning-purpose",
+          "title": "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness",
+          "score": 0.5473
+        },
+        {
+          "slug": "breadth-first-trap",
+          "title": "Breadth-First Search → Depth-First Execution",
+          "score": 0.5408
+        },
+        {
+          "slug": "cycle-of-technology",
+          "title": "The Cycle of Technology",
+          "score": 0.5371
+        },
+        {
+          "slug": "efficient-thinking",
+          "title": "Efficient Thinking",
+          "score": 0.5288
+        },
+        {
+          "slug": "implicit-improvement-pattern",
+          "title": "Implicit Improvement — Getting Better Without Knowing How",
+          "score": 0.5252
+        },
+        {
+          "slug": "freedom-exploration-generator",
+          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+          "score": 0.5183
+        },
+        {
           "slug": "timeline-based-project-structure",
           "title": "Timeline-Based Project Structure",
-          "score": 0.4982
+          "score": 0.509
+        },
+        {
+          "slug": "transfer-high-leverage",
+          "title": "Transfer as a High-Leverage Cognitive Operation",
+          "score": 0.5037
         }
       ]
     },
@@ -815,14 +1036,29 @@
       "title": "Efficient Thinking",
       "suggestions": [
         {
-          "slug": "knowledge-and-thinking-at-university",
-          "title": "Knowledge and Thinking at University",
-          "score": 0.5447
+          "slug": "where-innovation-comes-from",
+          "title": "Where Innovation Comes From",
+          "score": 0.5874
         },
         {
           "slug": "low-energy-ideation",
           "title": "Idea Generation in Low-Energy States",
-          "score": 0.5333
+          "score": 0.5728
+        },
+        {
+          "slug": "strategy-three-component-model",
+          "title": "Strategy as Iterative Optimization — Three-Component Model + Meta-Strategy Loop",
+          "score": 0.5565
+        },
+        {
+          "slug": "efficiency-formula",
+          "title": "The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates",
+          "score": 0.5288
+        },
+        {
+          "slug": "certainty-gravity",
+          "title": "Certainty Gravity",
+          "score": 0.5082
         }
       ]
     },
@@ -831,19 +1067,19 @@
       "title": "Elasticity of Supply and Demand",
       "suggestions": [
         {
-          "slug": "market-efficiency",
-          "title": "Market Efficiency",
-          "score": 0.5662
-        },
-        {
           "slug": "competitive-markets",
           "title": "Competitive Markets",
-          "score": 0.5467
+          "score": 0.579
         },
         {
           "slug": "supply-demand-and-government-policy",
           "title": "Supply, Demand, and Government Policy",
-          "score": 0.5358
+          "score": 0.5258
+        },
+        {
+          "slug": "market-efficiency",
+          "title": "Market Efficiency",
+          "score": 0.5088
         }
       ]
     },
@@ -852,25 +1088,19 @@
       "title": "The Elements of the Economy",
       "suggestions": [
         {
-          "slug": "circular-flow-diagram",
-          "title": "The Circular Flow Diagram",
-          "score": 0.566
-        }
-      ]
-    },
-    {
-      "slug": "english-comfort-zone-vocabulary",
-      "title": "English Comfort Zone Vocabulary — Settling Into Familiar Expressions",
-      "suggestions": [
-        {
-          "slug": "no-language-mixing-pattern",
-          "title": "No Language Mixing — A Past Behavioral Pattern in English Learning",
-          "score": 0.5097
+          "slug": "the-ten-principles-of-economics",
+          "title": "The Ten Principles of Economics",
+          "score": 0.5461
         },
         {
-          "slug": "anki-for-english-conversation",
-          "title": "Anki Cards from English Conversations — Active Memory Maintenance",
-          "score": 0.4935
+          "slug": "money-social-division-of-labor-and-the-worker",
+          "title": "Money, Social Division of Labor, and the Worker",
+          "score": 0.5403
+        },
+        {
+          "slug": "circular-flow-diagram",
+          "title": "The Circular Flow Diagram",
+          "score": 0.5146
         }
       ]
     },
@@ -879,34 +1109,9 @@
       "title": "Environment Diagram — Dual-Perspective Modeling Framework",
       "suggestions": [
         {
-          "slug": "three-layer-framework",
-          "title": "Three-Layer Framework as Starting Lens for Reconnection Docs",
-          "score": 0.4859
-        },
-        {
-          "slug": "structural-understanding-in-daily-life",
-          "title": "Structural Understanding in Daily Life",
-          "score": 0.4809
-        },
-        {
-          "slug": "flow-based-thinking",
-          "title": "Flow-Based Thinking Framework",
-          "score": 0.4791
-        },
-        {
-          "slug": "perspective-classification",
-          "title": "Perspective Classification",
-          "score": 0.4765
-        },
-        {
-          "slug": "space-as-perspective",
-          "title": "Space as a Perspective — Spatial Thinking as a Cognitive Lens",
-          "score": 0.4689
-        },
-        {
-          "slug": "decision-model-as-next-domain-model",
-          "title": "Decision Model as Next Non-Specialist Domain Model",
-          "score": 0.4626
+          "slug": "data-structure-first-code-reading",
+          "title": "Data Structure First — Memorize Shapes Before Reading Code",
+          "score": 0.6297
         }
       ]
     },
@@ -915,30 +1120,14 @@
       "title": "The Evolution of Phenomena",
       "suggestions": [
         {
-          "slug": "the-gene-of-technology-phenomena",
-          "title": "The Gene of Technology: Phenomena",
-          "score": 0.6157
-        },
-        {
-          "slug": "science-explanation-as-technology",
-          "title": "The Explanatory and Expository Aspects of Science as a Form of Technology",
-          "score": 0.5751
-        },
-        {
           "slug": "science",
           "title": "Science",
-          "score": 0.5635
-        }
-      ]
-    },
-    {
-      "slug": "excellence-responsibility",
-      "title": "Excellence and Responsibility",
-      "suggestions": [
+          "score": 0.6009
+        },
         {
-          "slug": "social-responsibility-of-outstanding-students",
-          "title": "The Social Responsibility of Outstanding Students",
-          "score": 0.6097
+          "slug": "the-gene-of-technology-phenomena",
+          "title": "The Gene of Technology: Phenomena",
+          "score": 0.5906
         }
       ]
     },
@@ -947,24 +1136,9 @@
       "title": "Explaining \"Excellent Sheep\" 9.11 Using Learned Theories",
       "suggestions": [
         {
-          "slug": "knowledge-and-thinking-at-university",
-          "title": "Knowledge and Thinking at University",
-          "score": 0.5129
-        },
-        {
           "slug": "teach-method-fixes",
           "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
-          "score": 0.5115
-        },
-        {
-          "slug": "pass-criteria-as-curriculum-design",
-          "title": "Pass Criteria as a First-Class Curriculum Design Element",
-          "score": 0.4878
-        },
-        {
-          "slug": "success-interrogation-heuristic",
-          "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
-          "score": 0.4869
+          "score": 0.5656
         }
       ]
     },
@@ -973,9 +1147,79 @@
       "title": "The External View and Internal View of Technology",
       "suggestions": [
         {
+          "slug": "three-definitions-of-technology",
+          "title": "The Three Definitions of Technology",
+          "score": 0.706
+        },
+        {
+          "slug": "general-evolution-of-technology",
+          "title": "The General Evolution of Technology",
+          "score": 0.7005
+        },
+        {
+          "slug": "technology",
+          "title": "Technology",
+          "score": 0.6934
+        },
+        {
+          "slug": "cycle-of-technology",
+          "title": "The Cycle of Technology",
+          "score": 0.6906
+        },
+        {
+          "slug": "our-attitude-toward-technology",
+          "title": "Our Attitude Toward Technology",
+          "score": 0.6772
+        },
+        {
+          "slug": "technology-in-the-singular-sense",
+          "title": "Technology in the Singular Sense",
+          "score": 0.6668
+        },
+        {
           "slug": "reconceptualizing-standard-engineering",
           "title": "Reconceptualizing Standard Engineering",
-          "score": 0.6636
+          "score": 0.666
+        },
+        {
+          "slug": "economic-evolution-driven-by-technological-evolution",
+          "title": "Economic Evolution Driven by Technological Evolution",
+          "score": 0.6441
+        },
+        {
+          "slug": "new-technology-replacing-old",
+          "title": "Understanding New Technology Replacing Old Technology",
+          "score": 0.6335
+        },
+        {
+          "slug": "structural-understanding-in-daily-life",
+          "title": "Structural Understanding in Daily Life",
+          "score": 0.6282
+        },
+        {
+          "slug": "classification-of-concepts",
+          "title": "The Classification of Concepts",
+          "score": 0.6198
+        },
+        {
+          "slug": "the-gene-of-technology-phenomena",
+          "title": "The Gene of Technology: Phenomena",
+          "score": 0.6184
+        },
+        {
+          "slug": "standard-engineering",
+          "title": "Standard Engineering",
+          "score": 0.6126
+        },
+        {
+          "slug": "fundamentally-new-technology",
+          "title": "Fundamentally New Technology",
+          "score": 0.6082
+        },
+        {
+          "slug": "impact-of-domains-on-economy",
+          "title": "The Impact of Domains on the Economy",
+          "score": 0.5901
         }
       ]
     },
@@ -986,7 +1230,28 @@
         {
           "slug": "naked-economy",
           "title": "Naked Economy",
-          "score": 0.5482
+          "score": 0.5402
+        },
+        {
+          "slug": "international-trade",
+          "title": "International Trade",
+          "score": 0.5297
+        },
+        {
+          "slug": "the-ten-principles-of-economics",
+          "title": "The Ten Principles of Economics",
+          "score": 0.5167
+        }
+      ]
+    },
+    {
+      "slug": "factors-affecting-teaching-effectiveness",
+      "title": "Factors Affecting Teaching Effectiveness",
+      "suggestions": [
+        {
+          "slug": "mooc-brand-tools-inequality",
+          "title": "MOOC Courses as Brand Tools for Elite Universities",
+          "score": 0.5534
         }
       ]
     },
@@ -995,9 +1260,79 @@
       "title": "Finding Examples",
       "suggestions": [
         {
+          "slug": "technology-in-the-singular-sense",
+          "title": "Technology in the Singular Sense",
+          "score": 0.7264
+        },
+        {
+          "slug": "three-definitions-of-technology",
+          "title": "The Three Definitions of Technology",
+          "score": 0.7162
+        },
+        {
+          "slug": "classification-of-concepts",
+          "title": "The Classification of Concepts",
+          "score": 0.6815
+        },
+        {
+          "slug": "the-gene-of-technology-phenomena",
+          "title": "The Gene of Technology: Phenomena",
+          "score": 0.6428
+        },
+        {
+          "slug": "technology",
+          "title": "Technology",
+          "score": 0.6398
+        },
+        {
           "slug": "understanding-software-at-technical-level",
           "title": "Understanding Software at the Technical Level",
-          "score": 0.6126
+          "score": 0.6113
+        },
+        {
+          "slug": "structural-understanding-in-daily-life",
+          "title": "Structural Understanding in Daily Life",
+          "score": 0.5869
+        },
+        {
+          "slug": "economics",
+          "title": "Economics",
+          "score": 0.5776
+        },
+        {
+          "slug": "external-and-internal-view-of-technology",
+          "title": "The External View and Internal View of Technology",
+          "score": 0.5723
+        },
+        {
+          "slug": "fundamentally-new-technology",
+          "title": "Fundamentally New Technology",
+          "score": 0.5613
+        },
+        {
+          "slug": "reconceptualizing-standard-engineering",
+          "title": "Reconceptualizing Standard Engineering",
+          "score": 0.5489
+        },
+        {
+          "slug": "our-attitude-toward-technology",
+          "title": "Our Attitude Toward Technology",
+          "score": 0.5411
+        },
+        {
+          "slug": "broad-and-narrow-technology",
+          "title": "Broad and Narrow Technology",
+          "score": 0.541
+        },
+        {
+          "slug": "cycle-of-technology",
+          "title": "The Cycle of Technology",
+          "score": 0.5357
+        },
+        {
+          "slug": "technology-domains",
+          "title": "Technology Domains",
+          "score": 0.5257
         }
       ]
     },
@@ -1006,34 +1341,9 @@
       "title": "Flow-Based Thinking Framework",
       "suggestions": [
         {
-          "slug": "decision-model-as-next-domain-model",
-          "title": "Decision Model as Next Non-Specialist Domain Model",
-          "score": 0.5075
-        },
-        {
-          "slug": "three-layer-framework",
-          "title": "Three-Layer Framework as Starting Lens for Reconnection Docs",
-          "score": 0.4901
-        },
-        {
-          "slug": "environment-diagram-dual-perspective",
-          "title": "Environment Diagram — Dual-Perspective Modeling Framework",
-          "score": 0.4791
-        },
-        {
-          "slug": "discretize-first",
-          "title": "Discretize-First Problem Solving",
-          "score": 0.476
-        },
-        {
-          "slug": "transfer-high-leverage",
-          "title": "Transfer as a High-Leverage Cognitive Operation",
-          "score": 0.4698
-        },
-        {
-          "slug": "content-independent-framework",
-          "title": "Content-Independent Frameworks Beat Content-Bound Ones",
-          "score": 0.4594
+          "slug": "space-as-perspective",
+          "title": "Space as a Perspective — Spatial Thinking as a Cognitive Lens",
+          "score": 0.5236
         }
       ]
     },
@@ -1044,12 +1354,7 @@
         {
           "slug": "checklist-completeness-audit",
           "title": "Checklist Completeness Audit — External Reference Beats Internal Consistency",
-          "score": 0.5045
-        },
-        {
-          "slug": "understanding-software-at-technical-level",
-          "title": "Understanding Software at the Technical Level",
-          "score": 0.4871
+          "score": 0.5039
         }
       ]
     },
@@ -1058,9 +1363,9 @@
       "title": "The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up",
       "suggestions": [
         {
-          "slug": "social-strategy-skill",
-          "title": "Social Strategy Skill",
-          "score": 0.5048
+          "slug": "stranger-conversation-loop",
+          "title": "The Stranger Conversation Loop — A Replicable Social Algorithm",
+          "score": 0.5056
         }
       ]
     },
@@ -1069,19 +1374,54 @@
       "title": "First Time — Framework Emerges from Content; Second Time — Framework Precedes Content",
       "suggestions": [
         {
+          "slug": "framework-from-data",
+          "title": "Build Frameworks from Data, Not Find Data for Frameworks",
+          "score": 0.6117
+        },
+        {
+          "slug": "success-interrogation-heuristic",
+          "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
+          "score": 0.5787
+        },
+        {
+          "slug": "local-pattern-patching-failure",
+          "title": "Local Patterns Cannot Be Generalized Through Continuous Patching",
+          "score": 0.5648
+        },
+        {
+          "slug": "breadth-first-trap",
+          "title": "Breadth-First Search → Depth-First Execution",
+          "score": 0.5464
+        },
+        {
+          "slug": "leverage-existing-vs-build-from-scratch",
+          "title": "Leverage Existing Solutions vs. Build from Scratch — A Decision System Axis",
+          "score": 0.5178
+        },
+        {
+          "slug": "how-to-deal-with-complexity",
+          "title": "Dealing with Complexity",
+          "score": 0.5127
+        },
+        {
+          "slug": "data-pattern-prediction-chain",
+          "title": "Data → Pattern → Prediction Chain",
+          "score": 0.5127
+        },
+        {
+          "slug": "freedom-exploration-generator",
+          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+          "score": 0.5075
+        },
+        {
           "slug": "data-structure-first-code-reading",
           "title": "Data Structure First — Memorize Shapes Before Reading Code",
-          "score": 0.4721
+          "score": 0.5057
         },
         {
-          "slug": "understanding-software-at-technical-level",
-          "title": "Understanding Software at the Technical Level",
-          "score": 0.4617
-        },
-        {
-          "slug": "locate-first-model-last",
-          "title": "Locate-First, Model-Last — A Learning Paradigm Shift Driven by the Dictionary Model",
-          "score": 0.4583
+          "slug": "integrating-fragmented-life-strategies",
+          "title": "Integrating Fragmented Life Strategies",
+          "score": 0.5045
         }
       ]
     },
@@ -1090,14 +1430,14 @@
       "title": "Build Frameworks from Data, Not Find Data for Frameworks",
       "suggestions": [
         {
-          "slug": "reading-writing-unity",
-          "title": "The Unity of Reading and Writing — Constraint Relationships as the Cognitive Foundation",
-          "score": 0.5241
+          "slug": "framework-extraction-pattern",
+          "title": "First Time — Framework Emerges from Content; Second Time — Framework Precedes Content",
+          "score": 0.6117
         },
         {
-          "slug": "system-coevolution-p2-interpretability",
-          "title": "Co-evolution - Question 2: Structural Interpretability",
-          "score": 0.52
+          "slug": "content-independent-framework",
+          "title": "Content-Independent Frameworks Beat Content-Bound Ones",
+          "score": 0.6007
         }
       ]
     },
@@ -1106,9 +1446,69 @@
       "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
       "suggestions": [
         {
-          "slug": "ai-amplifier",
-          "title": "AI Amplifier",
-          "score": 0.5864
+          "slug": "transfer-high-leverage",
+          "title": "Transfer as a High-Leverage Cognitive Operation",
+          "score": 0.649
+        },
+        {
+          "slug": "speed-first-model-second-batch-tradeoff",
+          "title": "Speed-First Model-Second — Batch Size Tradeoff in Learning",
+          "score": 0.5932
+        },
+        {
+          "slug": "learning-pipeline",
+          "title": "Learning Pipeline",
+          "score": 0.5749
+        },
+        {
+          "slug": "success-interrogation-heuristic",
+          "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
+          "score": 0.5607
+        },
+        {
+          "slug": "implicit-improvement-pattern",
+          "title": "Implicit Improvement — Getting Better Without Knowing How",
+          "score": 0.5424
+        },
+        {
+          "slug": "breadth-first-trap",
+          "title": "Breadth-First Search → Depth-First Execution",
+          "score": 0.538
+        },
+        {
+          "slug": "structural-patience",
+          "title": "Structural Patience — Data-Gated Structure Formation",
+          "score": 0.5263
+        },
+        {
+          "slug": "memorization-in-pipeline",
+          "title": "Memorization in the Learning Pipeline",
+          "score": 0.5206
+        },
+        {
+          "slug": "leverage-existing-vs-build-from-scratch",
+          "title": "Leverage Existing Solutions vs. Build from Scratch — A Decision System Axis",
+          "score": 0.5205
+        },
+        {
+          "slug": "efficiency-formula",
+          "title": "The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates",
+          "score": 0.5183
+        },
+        {
+          "slug": "local-pattern-patching-failure",
+          "title": "Local Patterns Cannot Be Generalized Through Continuous Patching",
+          "score": 0.5147
+        },
+        {
+          "slug": "practice-as-learning-purpose",
+          "title": "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness",
+          "score": 0.5131
+        },
+        {
+          "slug": "framework-extraction-pattern",
+          "title": "First Time — Framework Emerges from Content; Second Time — Framework Precedes Content",
+          "score": 0.5075
         }
       ]
     },
@@ -1117,29 +1517,24 @@
       "title": "Fundamentally New Technology",
       "suggestions": [
         {
-          "slug": "standard-engineering",
-          "title": "Standard Engineering",
-          "score": 0.6465
-        },
-        {
           "slug": "reconceptualizing-standard-engineering",
           "title": "Reconceptualizing Standard Engineering",
-          "score": 0.6384
+          "score": 0.7634
+        },
+        {
+          "slug": "standard-engineering",
+          "title": "Standard Engineering",
+          "score": 0.7224
         },
         {
           "slug": "cycle-of-technology",
           "title": "The Cycle of Technology",
-          "score": 0.6256
+          "score": 0.7105
         },
         {
-          "slug": "new-technology-replacing-old",
-          "title": "Understanding New Technology Replacing Old Technology",
-          "score": 0.6183
-        },
-        {
-          "slug": "general-evolution-of-technology",
-          "title": "The General Evolution of Technology",
-          "score": 0.5956
+          "slug": "the-gene-of-technology-phenomena",
+          "title": "The Gene of Technology: Phenomena",
+          "score": 0.703
         }
       ]
     },
@@ -1148,54 +1543,79 @@
       "title": "The General Evolution of Technology",
       "suggestions": [
         {
-          "slug": "cycle-of-technology",
-          "title": "The Cycle of Technology",
-          "score": 0.6448
-        },
-        {
           "slug": "new-technology-replacing-old",
           "title": "Understanding New Technology Replacing Old Technology",
-          "score": 0.6397
-        },
-        {
-          "slug": "external-and-internal-view-of-technology",
-          "title": "The External View and Internal View of Technology",
-          "score": 0.6287
+          "score": 0.759
         },
         {
           "slug": "economic-evolution-driven-by-technological-evolution",
           "title": "Economic Evolution Driven by Technological Evolution",
-          "score": 0.6285
+          "score": 0.7541
         },
         {
-          "slug": "reconceptualizing-standard-engineering",
-          "title": "Reconceptualizing Standard Engineering",
-          "score": 0.628
+          "slug": "cycle-of-technology",
+          "title": "The Cycle of Technology",
+          "score": 0.7239
         },
         {
-          "slug": "our-attitude-toward-technology",
-          "title": "Our Attitude Toward Technology",
-          "score": 0.6276
-        },
-        {
-          "slug": "the-gene-of-technology-phenomena",
-          "title": "The Gene of Technology: Phenomena",
-          "score": 0.5967
-        },
-        {
-          "slug": "fundamentally-new-technology",
-          "title": "Fundamentally New Technology",
-          "score": 0.5956
-        },
-        {
-          "slug": "technology-domains",
-          "title": "Technology Domains",
-          "score": 0.5874
+          "slug": "external-and-internal-view-of-technology",
+          "title": "The External View and Internal View of Technology",
+          "score": 0.7005
         },
         {
           "slug": "how-domains-evolve",
           "title": "How Domains Evolve",
-          "score": 0.5706
+          "score": 0.6586
+        },
+        {
+          "slug": "the-gene-of-technology-phenomena",
+          "title": "The Gene of Technology: Phenomena",
+          "score": 0.6574
+        },
+        {
+          "slug": "reconceptualizing-standard-engineering",
+          "title": "Reconceptualizing Standard Engineering",
+          "score": 0.6479
+        },
+        {
+          "slug": "our-attitude-toward-technology",
+          "title": "Our Attitude Toward Technology",
+          "score": 0.6406
+        },
+        {
+          "slug": "fundamentally-new-technology",
+          "title": "Fundamentally New Technology",
+          "score": 0.6087
+        },
+        {
+          "slug": "technology",
+          "title": "Technology",
+          "score": 0.6085
+        },
+        {
+          "slug": "standard-engineering",
+          "title": "Standard Engineering",
+          "score": 0.6058
+        },
+        {
+          "slug": "technology-in-the-singular-sense",
+          "title": "Technology in the Singular Sense",
+          "score": 0.5852
+        },
+        {
+          "slug": "impact-of-domains-on-economy",
+          "title": "The Impact of Domains on the Economy",
+          "score": 0.5802
+        },
+        {
+          "slug": "economics",
+          "title": "Economics",
+          "score": 0.58
+        },
+        {
+          "slug": "classification-of-concepts",
+          "title": "The Classification of Concepts",
+          "score": 0.5772
         }
       ]
     },
@@ -1204,9 +1624,14 @@
       "title": "Goal Singularity",
       "suggestions": [
         {
-          "slug": "no-language-mixing-pattern",
-          "title": "No Language Mixing — A Past Behavioral Pattern in English Learning",
-          "score": 0.5812
+          "slug": "attention-as-bottleneck",
+          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
+          "score": 0.5505
+        },
+        {
+          "slug": "success-interrogation-heuristic",
+          "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
+          "score": 0.5067
         }
       ]
     },
@@ -1217,7 +1642,12 @@
         {
           "slug": "after-sinopia-stops-buying-usonia-treasury-bonds",
           "title": "After Sinopia Stops Buying Usonia's Treasury Bonds",
-          "score": 0.4797
+          "score": 0.545
+        },
+        {
+          "slug": "impact-of-foreign-crises-on-the-us-and-quantitative-easing",
+          "title": "Impact of Foreign Crises on the US and Quantitative Easing",
+          "score": 0.5314
         }
       ]
     },
@@ -1226,14 +1656,9 @@
       "title": "The Growth Journey of Elite College Students",
       "suggestions": [
         {
-          "slug": "social-responsibility-of-outstanding-students",
-          "title": "The Social Responsibility of Outstanding Students",
-          "score": 0.5148
-        },
-        {
           "slug": "return-of-college",
           "title": "The Return of College",
-          "score": 0.4656
+          "score": 0.609
         }
       ]
     },
@@ -1244,7 +1669,33 @@
         {
           "slug": "technology-domains",
           "title": "Technology Domains",
-          "score": 0.7177
+          "score": 0.7546
+        }
+      ]
+    },
+    {
+      "slug": "how-to-deal-with-complexity",
+      "title": "Dealing with Complexity",
+      "suggestions": [
+        {
+          "slug": "understanding-software-at-technical-level",
+          "title": "Understanding Software at the Technical Level",
+          "score": 0.5189
+        },
+        {
+          "slug": "framework-extraction-pattern",
+          "title": "First Time — Framework Emerges from Content; Second Time — Framework Precedes Content",
+          "score": 0.5127
+        },
+        {
+          "slug": "integrating-fragmented-life-strategies",
+          "title": "Integrating Fragmented Life Strategies",
+          "score": 0.5122
+        },
+        {
+          "slug": "breadth-first-trap",
+          "title": "Breadth-First Search → Depth-First Execution",
+          "score": 0.5004
         }
       ]
     },
@@ -1253,14 +1704,9 @@
       "title": "Understanding Price",
       "suggestions": [
         {
-          "slug": "price-increases-after-disaster",
-          "title": "Understanding Price Increases After a Disaster",
-          "score": 0.6767
-        },
-        {
-          "slug": "naked-economy",
-          "title": "Naked Economy",
-          "score": 0.6432
+          "slug": "competitive-markets",
+          "title": "Competitive Markets",
+          "score": 0.6134
         }
       ]
     },
@@ -1269,9 +1715,9 @@
       "title": "Human Cognitive Biases",
       "suggestions": [
         {
-          "slug": "my-relationship-with-others-and-society",
-          "title": "My Relationship with Others and Society",
-          "score": 0.4731
+          "slug": "certainty-gravity",
+          "title": "Certainty Gravity",
+          "score": 0.5046
         }
       ]
     },
@@ -1282,7 +1728,17 @@
         {
           "slug": "data-structure-first-code-reading",
           "title": "Data Structure First — Memorize Shapes Before Reading Code",
-          "score": 0.5772
+          "score": 0.5783
+        },
+        {
+          "slug": "data-pattern-prediction-chain",
+          "title": "Data → Pattern → Prediction Chain",
+          "score": 0.5564
+        },
+        {
+          "slug": "attention-pointer-learning-model",
+          "title": "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint",
+          "score": 0.5161
         }
       ]
     },
@@ -1291,9 +1747,9 @@
       "title": "Human Provides Structural Skeleton; AI Checks Completeness and Maps Linkages",
       "suggestions": [
         {
-          "slug": "analyzing-ai-by-technical-components",
-          "title": "Analyzing AI by its technical components",
-          "score": 0.4997
+          "slug": "structural-patience",
+          "title": "Structural Patience — Data-Gated Structure Formation",
+          "score": 0.5055
         }
       ]
     },
@@ -1302,24 +1758,19 @@
       "title": "The Impact of Domains on the Economy",
       "suggestions": [
         {
+          "slug": "how-domains-evolve",
+          "title": "How Domains Evolve",
+          "score": 0.6851
+        },
+        {
           "slug": "technology-domains",
           "title": "Technology Domains",
-          "score": 0.663
+          "score": 0.6668
         },
         {
           "slug": "economic-evolution-driven-by-technological-evolution",
           "title": "Economic Evolution Driven by Technological Evolution",
-          "score": 0.6349
-        },
-        {
-          "slug": "reconceptualizing-standard-engineering",
-          "title": "Reconceptualizing Standard Engineering",
-          "score": 0.6192
-        },
-        {
-          "slug": "how-domains-evolve",
-          "title": "How Domains Evolve",
-          "score": 0.6095
+          "score": 0.6533
         }
       ]
     },
@@ -1328,9 +1779,19 @@
       "title": "Impact of Foreign Crises on the US and Quantitative Easing",
       "suggestions": [
         {
+          "slug": "government-economic-rescue-measures",
+          "title": "Government Economic Rescue Measures",
+          "score": 0.5314
+        },
+        {
           "slug": "collapse-of-the-gold-standard",
           "title": "The Collapse of the Gold Standard",
-          "score": 0.4899
+          "score": 0.5218
+        },
+        {
+          "slug": "inflation",
+          "title": "Inflation",
+          "score": 0.518
         }
       ]
     },
@@ -1339,56 +1800,44 @@
       "title": "Implicit Improvement — Getting Better Without Knowing How",
       "suggestions": [
         {
-          "slug": "freedom-exploration-generator",
-          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
-          "score": 0.5041
-        },
-        {
-          "slug": "efficient-thinking",
-          "title": "Efficient Thinking",
-          "score": 0.4898
-        },
-        {
           "slug": "learning-dynamics",
           "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
-          "score": 0.4882
+          "score": 0.6344
         },
         {
-          "slug": "ai-amplifier",
-          "title": "AI Amplifier",
-          "score": 0.4881
-        }
-      ]
-    },
-    {
-      "slug": "increasing-time",
-      "title": "Increasing Disposable Time",
-      "suggestions": [
-        {
-          "slug": "timeline-based-project-structure",
-          "title": "Timeline-Based Project Structure",
-          "score": 0.489
+          "slug": "memorization-in-pipeline",
+          "title": "Memorization in the Learning Pipeline",
+          "score": 0.6014
         },
         {
-          "slug": "deep-work-recovery-cycle",
-          "title": "Deep-Work Recovery Cycle — Physical Constraint on Project Dynamics",
-          "score": 0.4774
-        }
-      ]
-    },
-    {
-      "slug": "industry-intel-skill",
-      "title": "Industry Intel Skill",
-      "suggestions": [
-        {
-          "slug": "social-strategy-skill",
-          "title": "Social Strategy Skill",
-          "score": 0.4568
+          "slug": "speed-first-model-second-batch-tradeoff",
+          "title": "Speed-First Model-Second — Batch Size Tradeoff in Learning",
+          "score": 0.5497
         },
         {
-          "slug": "skill-sharing",
-          "title": "Skill Sharing",
-          "score": 0.4564
+          "slug": "freedom-exploration-generator",
+          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+          "score": 0.5424
+        },
+        {
+          "slug": "memorized-offline-procedures",
+          "title": "Memorized Offline Procedures — When Skills Can't Rely on AI Presence",
+          "score": 0.5373
+        },
+        {
+          "slug": "knowledge-transfer-fidelity",
+          "title": "The Fidelity Problem in Knowledge Transfer",
+          "score": 0.5366
+        },
+        {
+          "slug": "efficiency-formula",
+          "title": "The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates",
+          "score": 0.5252
+        },
+        {
+          "slug": "learning-pipeline",
+          "title": "Learning Pipeline",
+          "score": 0.5009
         }
       ]
     },
@@ -1399,18 +1848,7 @@
         {
           "slug": "collapse-of-the-gold-standard",
           "title": "The Collapse of the Gold Standard",
-          "score": 0.7434
-        }
-      ]
-    },
-    {
-      "slug": "information-exchange-as-package-cycle",
-      "title": "Information Exchange as Package-Unpack-Repeat Cycle",
-      "suggestions": [
-        {
-          "slug": "conversation-as-data-source",
-          "title": "Conversation as Data Source",
-          "score": 0.4669
+          "score": 0.7493
         }
       ]
     },
@@ -1419,29 +1857,34 @@
       "title": "Inquiry-Based Essay Method — Concept Exhaustion → Multi-Angle Answers → Natural Weaving",
       "suggestions": [
         {
+          "slug": "residuals-as-honesty-device",
+          "title": "Residuals Table as Structural Honesty Device",
+          "score": 0.5394
+        },
+        {
           "slug": "natural-language-narration-methodology",
           "title": "Natural Language Narration Methodology",
-          "score": 0.4667
+          "score": 0.5177
         },
         {
           "slug": "the-zettelkasten-method",
           "title": "The Zettelkasten Method",
-          "score": 0.4648
+          "score": 0.5097
         },
         {
-          "slug": "methodology-change-timing",
-          "title": "The Timing Risk of Methodology Changes",
-          "score": 0.4623
+          "slug": "knowledge-and-thinking-at-university",
+          "title": "Knowledge and Thinking at University",
+          "score": 0.5027
         },
         {
-          "slug": "three-layer-framework",
-          "title": "Three-Layer Framework as Starting Lens for Reconnection Docs",
-          "score": 0.4606
+          "slug": "content-independent-framework",
+          "title": "Content-Independent Frameworks Beat Content-Bound Ones",
+          "score": 0.501
         },
         {
-          "slug": "goal-singularity",
-          "title": "Goal Singularity",
-          "score": 0.451
+          "slug": "teach-method-fixes",
+          "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
+          "score": 0.5001
         }
       ]
     },
@@ -1450,9 +1893,24 @@
       "title": "Integrating Fragmented Life Strategies",
       "suggestions": [
         {
-          "slug": "strategy-three-component-model",
-          "title": "Strategy as Iterative Optimization — Three-Component Model + Meta-Strategy Loop",
-          "score": 0.5127
+          "slug": "where-innovation-comes-from",
+          "title": "Where Innovation Comes From",
+          "score": 0.537
+        },
+        {
+          "slug": "how-to-deal-with-complexity",
+          "title": "Dealing with Complexity",
+          "score": 0.5122
+        },
+        {
+          "slug": "framework-extraction-pattern",
+          "title": "First Time — Framework Emerges from Content; Second Time — Framework Precedes Content",
+          "score": 0.5045
+        },
+        {
+          "slug": "timeline-based-project-structure",
+          "title": "Timeline-Based Project Structure",
+          "score": 0.5003
         }
       ]
     },
@@ -1461,57 +1919,25 @@
       "title": "Interaction-as-Dictionary — A Unified Modeling Framework",
       "suggestions": [
         {
-          "slug": "knowledge-mastery-two-axis-model",
-          "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
-          "score": 0.6207
+          "slug": "object-attribute-migration",
+          "title": "Object-Attribute Model as Migratable Perspective",
+          "score": 0.6061
+        },
+        {
+          "slug": "connection-reading",
+          "title": "Connection-Oriented Reading — Conceptual Constraint-Relationship Mapping",
+          "score": 0.5488
         }
       ]
     },
     {
-      "slug": "interaction-as-essence-heuristic",
-      "title": "Interaction-as-Essence Heuristic",
+      "slug": "international-trade",
+      "title": "International Trade",
       "suggestions": [
         {
-          "slug": "structural-understanding-in-daily-life",
-          "title": "Structural Understanding in Daily Life",
-          "score": 0.4527
-        }
-      ]
-    },
-    {
-      "slug": "iteration-in-life",
-      "title": "Iteration in Life",
-      "suggestions": [
-        {
-          "slug": "strategy-three-component-model",
-          "title": "Strategy as Iterative Optimization — Three-Component Model + Meta-Strategy Loop",
-          "score": 0.5259
-        }
-      ]
-    },
-    {
-      "slug": "keeping-up-with-ai-era",
-      "title": "Keeping Up With the AI Era",
-      "suggestions": [
-        {
-          "slug": "system-coevolution-p3-autonomy-boundary",
-          "title": "System Coevolution - Problem 3: The Boundary of Self-Updating Systems",
-          "score": 0.4739
-        },
-        {
-          "slug": "ai-source-triage",
-          "title": "AI Source Triage",
-          "score": 0.4651
-        },
-        {
-          "slug": "system-coevolution",
-          "title": "System-Human Coevolution",
-          "score": 0.4568
-        },
-        {
-          "slug": "freedom-exploration-generator",
-          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
-          "score": 0.4539
+          "slug": "absolute-advantage-and-comparative-advantage",
+          "title": "Absolute Advantage and Comparative Advantage",
+          "score": 0.64
         }
       ]
     },
@@ -1520,14 +1946,44 @@
       "title": "Knowledge and Thinking at University",
       "suggestions": [
         {
-          "slug": "return-of-college",
-          "title": "The Return of College",
-          "score": 0.6688
-        },
-        {
           "slug": "thinking-and-literature",
           "title": "Thinking and Literature",
-          "score": 0.6655
+          "score": 0.6047
+        },
+        {
+          "slug": "knowledge-mastery-two-axis-model",
+          "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
+          "score": 0.5853
+        },
+        {
+          "slug": "liberal-arts-education-and-art",
+          "title": "Liberal Arts Education and Art",
+          "score": 0.5619
+        },
+        {
+          "slug": "return-of-college",
+          "title": "The Return of College",
+          "score": 0.5327
+        },
+        {
+          "slug": "where-innovation-comes-from",
+          "title": "Where Innovation Comes From",
+          "score": 0.532
+        },
+        {
+          "slug": "connection-reading",
+          "title": "Connection-Oriented Reading — Conceptual Constraint-Relationship Mapping",
+          "score": 0.5238
+        },
+        {
+          "slug": "domain-power-and-perspective-taking",
+          "title": "Domain Power and Perspective-Taking",
+          "score": 0.5206
+        },
+        {
+          "slug": "inquiry-essay-method",
+          "title": "Inquiry-Based Essay Method — Concept Exhaustion → Multi-Angle Answers → Natural Weaving",
+          "score": 0.5027
         }
       ]
     },
@@ -1536,24 +1992,9 @@
       "title": "Knowledge as a Dictionary of Perspectives — Each Knowledge Point Is a Multi-Dimensional Embedding",
       "suggestions": [
         {
-          "slug": "knowledge-mastery-two-axis-model",
-          "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
-          "score": 0.5378
-        },
-        {
-          "slug": "reconnection-doc-method",
-          "title": "Three-Layer Classification Method for Reconnection Docs",
-          "score": 0.5217
-        },
-        {
-          "slug": "system-coevolution-p2-interpretability",
-          "title": "Co-evolution - Question 2: Structural Interpretability",
-          "score": 0.5108
-        },
-        {
-          "slug": "knowledge-possibility",
-          "title": "Knowledge Possibility",
-          "score": 0.5053
+          "slug": "object-attribute-migration",
+          "title": "Object-Attribute Model as Migratable Perspective",
+          "score": 0.5183
         }
       ]
     },
@@ -1564,38 +2005,7 @@
         {
           "slug": "learning-dynamics",
           "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
-          "score": 0.7258
-        }
-      ]
-    },
-    {
-      "slug": "knowledge-possibility",
-      "title": "Knowledge Possibility",
-      "suggestions": [
-        {
-          "slug": "knowledge-as-dictionary-of-perspectives",
-          "title": "Knowledge as a Dictionary of Perspectives — Each Knowledge Point Is a Multi-Dimensional Embedding",
-          "score": 0.5053
-        },
-        {
-          "slug": "knowledge-mastery-two-axis-model",
-          "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
-          "score": 0.4868
-        },
-        {
-          "slug": "learning-dynamics",
-          "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
-          "score": 0.4678
-        },
-        {
-          "slug": "knowledge-and-thinking-at-university",
-          "title": "Knowledge and Thinking at University",
-          "score": 0.4527
-        },
-        {
-          "slug": "freedom-exploration-generator",
-          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
-          "score": 0.4507
+          "score": 0.6673
         }
       ]
     },
@@ -1606,7 +2016,12 @@
         {
           "slug": "reconnection-doc-method",
           "title": "Three-Layer Classification Method for Reconnection Docs",
-          "score": 0.6339
+          "score": 0.7043
+        },
+        {
+          "slug": "three-layer-framework",
+          "title": "Three-Layer Framework as Starting Lens for Reconnection Docs",
+          "score": 0.6846
         }
       ]
     },
@@ -1617,7 +2032,7 @@
         {
           "slug": "transfer-high-leverage",
           "title": "Transfer as a High-Leverage Cognitive Operation",
-          "score": 0.527
+          "score": 0.6065
         }
       ]
     },
@@ -1626,19 +2041,54 @@
       "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
       "suggestions": [
         {
-          "slug": "meta-skill-lifecycle",
-          "title": "Meta-Skill Lifecycle",
-          "score": 0.6205
+          "slug": "implicit-improvement-pattern",
+          "title": "Implicit Improvement — Getting Better Without Knowing How",
+          "score": 0.6344
         },
         {
           "slug": "freedom-exploration-generator",
           "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
-          "score": 0.5952
+          "score": 0.6167
+        },
+        {
+          "slug": "memorization-in-pipeline",
+          "title": "Memorization in the Learning Pipeline",
+          "score": 0.6111
+        },
+        {
+          "slug": "attention-pointer-learning-model",
+          "title": "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint",
+          "score": 0.6043
+        },
+        {
+          "slug": "speed-first-model-second-batch-tradeoff",
+          "title": "Speed-First Model-Second — Batch Size Tradeoff in Learning",
+          "score": 0.599
+        },
+        {
+          "slug": "transfer-high-leverage",
+          "title": "Transfer as a High-Leverage Cognitive Operation",
+          "score": 0.599
+        },
+        {
+          "slug": "learning-pipeline",
+          "title": "Learning Pipeline",
+          "score": 0.5447
+        },
+        {
+          "slug": "structural-patience",
+          "title": "Structural Patience — Data-Gated Structure Formation",
+          "score": 0.5398
+        },
+        {
+          "slug": "knowledge-transfer-fidelity",
+          "title": "The Fidelity Problem in Knowledge Transfer",
+          "score": 0.5275
         },
         {
           "slug": "locate-first-model-last",
           "title": "Locate-First, Model-Last — A Learning Paradigm Shift Driven by the Dictionary Model",
-          "score": 0.5921
+          "score": 0.5016
         }
       ]
     },
@@ -1647,9 +2097,9 @@
       "title": "Learning Pipeline",
       "suggestions": [
         {
-          "slug": "success-interrogation-heuristic",
-          "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
-          "score": 0.639
+          "slug": "memorization-in-pipeline",
+          "title": "Memorization in the Learning Pipeline",
+          "score": 0.661
         }
       ]
     },
@@ -1660,12 +2110,52 @@
         {
           "slug": "success-interrogation-heuristic",
           "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
-          "score": 0.592
+          "score": 0.6029
+        },
+        {
+          "slug": "efficiency-formula",
+          "title": "The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates",
+          "score": 0.5855
+        },
+        {
+          "slug": "where-innovation-comes-from",
+          "title": "Where Innovation Comes From",
+          "score": 0.5625
+        },
+        {
+          "slug": "reconceptualizing-standard-engineering",
+          "title": "Reconceptualizing Standard Engineering",
+          "score": 0.5256
+        },
+        {
+          "slug": "content-independent-framework",
+          "title": "Content-Independent Frameworks Beat Content-Bound Ones",
+          "score": 0.5249
+        },
+        {
+          "slug": "freedom-exploration-generator",
+          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+          "score": 0.5205
+        },
+        {
+          "slug": "framework-extraction-pattern",
+          "title": "First Time — Framework Emerges from Content; Second Time — Framework Precedes Content",
+          "score": 0.5178
         },
         {
           "slug": "practice-as-learning-purpose",
           "title": "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness",
-          "score": 0.5694
+          "score": 0.5147
+        },
+        {
+          "slug": "transfer-high-leverage",
+          "title": "Transfer as a High-Leverage Cognitive Operation",
+          "score": 0.5082
+        },
+        {
+          "slug": "standard-engineering",
+          "title": "Standard Engineering",
+          "score": 0.5031
         }
       ]
     },
@@ -1674,29 +2164,14 @@
       "title": "Liberal Arts Education and Art",
       "suggestions": [
         {
-          "slug": "the-teacher",
-          "title": "The Teacher",
-          "score": 0.7396
-        },
-        {
           "slug": "liberal-arts-perspective-on-the-execution-line",
           "title": "A Liberal Arts Perspective on the Execution Line",
-          "score": 0.6535
+          "score": 0.6852
         },
         {
           "slug": "liberal-education-and-the-zettelkasten",
           "title": "The Connection Between Liberal Education and the Zettelkasten Method",
-          "score": 0.6117
-        },
-        {
-          "slug": "return-of-college",
-          "title": "The Return of College",
-          "score": 0.5395
-        },
-        {
-          "slug": "knowledge-and-thinking-at-university",
-          "title": "Knowledge and Thinking at University",
-          "score": 0.5311
+          "score": 0.669
         }
       ]
     },
@@ -1707,12 +2182,7 @@
         {
           "slug": "liberal-arts-education-and-art",
           "title": "Liberal Arts Education and Art",
-          "score": 0.6535
-        },
-        {
-          "slug": "the-teacher",
-          "title": "The Teacher",
-          "score": 0.6155
+          "score": 0.6852
         }
       ]
     },
@@ -1723,7 +2193,7 @@
         {
           "slug": "liberal-arts-education-and-art",
           "title": "Liberal Arts Education and Art",
-          "score": 0.6117
+          "score": 0.669
         }
       ]
     },
@@ -1732,9 +2202,9 @@
       "title": "Local Patterns Cannot Be Generalized Through Continuous Patching",
       "suggestions": [
         {
-          "slug": "system-coevolution-p2-interpretability",
-          "title": "Co-evolution - Question 2: Structural Interpretability",
-          "score": 0.5565
+          "slug": "structural-patience",
+          "title": "Structural Patience — Data-Gated Structure Formation",
+          "score": 0.6459
         }
       ]
     },
@@ -1743,9 +2213,9 @@
       "title": "Locate-First, Model-Last — A Learning Paradigm Shift Driven by the Dictionary Model",
       "suggestions": [
         {
-          "slug": "learning-dynamics",
-          "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
-          "score": 0.5921
+          "slug": "speed-first-model-second-batch-tradeoff",
+          "title": "Speed-First Model-Second — Batch Size Tradeoff in Learning",
+          "score": 0.6053
         }
       ]
     },
@@ -1754,9 +2224,30 @@
       "title": "Idea Generation in Low-Energy States",
       "suggestions": [
         {
+          "slug": "where-innovation-comes-from",
+          "title": "Where Innovation Comes From",
+          "score": 0.5823
+        },
+        {
           "slug": "efficient-thinking",
           "title": "Efficient Thinking",
-          "score": 0.5333
+          "score": 0.5728
+        },
+        {
+          "slug": "three-mental-resources",
+          "title": "The Three Mental Resources",
+          "score": 0.5247
+        }
+      ]
+    },
+    {
+      "slug": "m34-source-layer-static-rigidity",
+      "title": "M34 Structural Defect: Source Layer Static Rigidity",
+      "suggestions": [
+        {
+          "slug": "system-coevolution-p3-autonomy-boundary",
+          "title": "System Coevolution - Problem 3: The Boundary of Self-Updating Systems",
+          "score": 0.5798
         }
       ]
     },
@@ -1765,9 +2256,14 @@
       "title": "Market Efficiency",
       "suggestions": [
         {
+          "slug": "the-ten-principles-of-economics",
+          "title": "The Ten Principles of Economics",
+          "score": 0.5386
+        },
+        {
           "slug": "elasticity-of-supply-and-demand",
           "title": "Elasticity of Supply and Demand",
-          "score": 0.5662
+          "score": 0.5088
         }
       ]
     },
@@ -1776,9 +2272,44 @@
       "title": "Math Competition Problems and Technological Innovation",
       "suggestions": [
         {
+          "slug": "fundamentally-new-technology",
+          "title": "Fundamentally New Technology",
+          "score": 0.5848
+        },
+        {
+          "slug": "reconceptualizing-standard-engineering",
+          "title": "Reconceptualizing Standard Engineering",
+          "score": 0.5764
+        },
+        {
+          "slug": "external-and-internal-view-of-technology",
+          "title": "The External View and Internal View of Technology",
+          "score": 0.556
+        },
+        {
+          "slug": "technology",
+          "title": "Technology",
+          "score": 0.5412
+        },
+        {
+          "slug": "where-innovation-comes-from",
+          "title": "Where Innovation Comes From",
+          "score": 0.5317
+        },
+        {
+          "slug": "classification-of-concepts",
+          "title": "The Classification of Concepts",
+          "score": 0.5302
+        },
+        {
           "slug": "new-technology-replacing-old",
           "title": "Understanding New Technology Replacing Old Technology",
-          "score": 0.5978
+          "score": 0.5203
+        },
+        {
+          "slug": "finding-examples",
+          "title": "Finding Examples",
+          "score": 0.5146
         }
       ]
     },
@@ -1789,7 +2320,42 @@
         {
           "slug": "learning-dynamics",
           "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
-          "score": 0.5473
+          "score": 0.6111
+        },
+        {
+          "slug": "implicit-improvement-pattern",
+          "title": "Implicit Improvement — Getting Better Without Knowing How",
+          "score": 0.6014
+        },
+        {
+          "slug": "attention-pointer-learning-model",
+          "title": "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint",
+          "score": 0.5899
+        },
+        {
+          "slug": "transfer-high-leverage",
+          "title": "Transfer as a High-Leverage Cognitive Operation",
+          "score": 0.589
+        },
+        {
+          "slug": "speed-first-model-second-batch-tradeoff",
+          "title": "Speed-First Model-Second — Batch Size Tradeoff in Learning",
+          "score": 0.5489
+        },
+        {
+          "slug": "freedom-exploration-generator",
+          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+          "score": 0.5206
+        },
+        {
+          "slug": "data-structure-first-code-reading",
+          "title": "Data Structure First — Memorize Shapes Before Reading Code",
+          "score": 0.5107
+        },
+        {
+          "slug": "success-interrogation-heuristic",
+          "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
+          "score": 0.5026
         }
       ]
     },
@@ -1798,96 +2364,14 @@
       "title": "Memorized Offline Procedures — When Skills Can't Rely on AI Presence",
       "suggestions": [
         {
-          "slug": "anki-for-english-conversation",
-          "title": "Anki Cards from English Conversations — Active Memory Maintenance",
-          "score": 0.4573
-        }
-      ]
-    },
-    {
-      "slug": "meta-skill-efficiency",
-      "title": "Meta-Skill Efficiency",
-      "suggestions": [
-        {
-          "slug": "discretize-first",
-          "title": "Discretize-First Problem Solving",
-          "score": 0.5227
-        },
-        {
-          "slug": "freedom-exploration-generator",
-          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
-          "score": 0.5116
-        },
-        {
-          "slug": "strategy-three-component-model",
-          "title": "Strategy as Iterative Optimization — Three-Component Model + Meta-Strategy Loop",
-          "score": 0.504
-        },
-        {
-          "slug": "learning-dynamics",
-          "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
-          "score": 0.4982
-        },
-        {
-          "slug": "efficient-thinking",
-          "title": "Efficient Thinking",
-          "score": 0.482
-        },
-        {
-          "slug": "three-mental-resources",
-          "title": "The Three Mental Resources",
-          "score": 0.4762
-        },
-        {
           "slug": "implicit-improvement-pattern",
           "title": "Implicit Improvement — Getting Better Without Knowing How",
-          "score": 0.4682
+          "score": 0.5373
         },
         {
-          "slug": "knowledge-mastery-two-axis-model",
-          "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
-          "score": 0.4652
-        },
-        {
-          "slug": "transfer-high-leverage",
-          "title": "Transfer as a High-Leverage Cognitive Operation",
-          "score": 0.4636
-        },
-        {
-          "slug": "attention-as-bottleneck",
-          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
-          "score": 0.4541
-        }
-      ]
-    },
-    {
-      "slug": "meta-skill-lifecycle",
-      "title": "Meta-Skill Lifecycle",
-      "suggestions": [
-        {
-          "slug": "ai-amplifier",
-          "title": "AI Amplifier",
-          "score": 0.6532
-        },
-        {
-          "slug": "learning-dynamics",
-          "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
-          "score": 0.6205
-        },
-        {
-          "slug": "discretize-first",
-          "title": "Discretize-First Problem Solving",
-          "score": 0.5943
-        },
-        {
-          "slug": "strategy-three-component-model",
-          "title": "Strategy as Iterative Optimization — Three-Component Model + Meta-Strategy Loop",
-          "score": 0.5915
-        },
-        {
-          "slug": "knowledge-mastery-two-axis-model",
-          "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
-          "score": 0.5866
+          "slug": "success-interrogation-heuristic",
+          "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
+          "score": 0.5125
         }
       ]
     },
@@ -1896,60 +2380,19 @@
       "title": "The Timing Risk of Methodology Changes",
       "suggestions": [
         {
-          "slug": "framework-from-data",
-          "title": "Build Frameworks from Data, Not Find Data for Frameworks",
-          "score": 0.4823
+          "slug": "cycle-of-technology",
+          "title": "The Cycle of Technology",
+          "score": 0.5437
         },
         {
-          "slug": "locate-first-model-last",
-          "title": "Locate-First, Model-Last — A Learning Paradigm Shift Driven by the Dictionary Model",
-          "score": 0.4778
+          "slug": "strategy-three-component-model",
+          "title": "Strategy as Iterative Optimization — Three-Component Model + Meta-Strategy Loop",
+          "score": 0.5218
         },
         {
-          "slug": "reading-writing-unity",
-          "title": "The Unity of Reading and Writing — Constraint Relationships as the Cognitive Foundation",
-          "score": 0.4738
-        },
-        {
-          "slug": "audit-blind-spot-spec-limitation",
-          "title": "Audit Blind Spot — Spec-based review misses what the spec itself is missing",
-          "score": 0.4694
-        },
-        {
-          "slug": "discretize-first",
-          "title": "Discretize-First Problem Solving",
-          "score": 0.4625
-        },
-        {
-          "slug": "inquiry-essay-method",
-          "title": "Inquiry-Based Essay Method — Concept Exhaustion → Multi-Angle Answers → Natural Weaving",
-          "score": 0.4623
-        },
-        {
-          "slug": "three-layer-framework",
-          "title": "Three-Layer Framework as Starting Lens for Reconnection Docs",
-          "score": 0.46
-        },
-        {
-          "slug": "attention-as-bottleneck",
-          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
-          "score": 0.4537
-        },
-        {
-          "slug": "explaining-excellent-sheep-with-theory",
-          "title": "Explaining \"Excellent Sheep\" 9.11 Using Learned Theories",
-          "score": 0.4519
-        }
-      ]
-    },
-    {
-      "slug": "microeconomics-and-macroeconomics",
-      "title": "Microeconomics and Macroeconomics",
-      "suggestions": [
-        {
-          "slug": "the-ten-principles-of-economics",
-          "title": "The Ten Principles of Economics",
-          "score": 0.4722
+          "slug": "success-interrogation-heuristic",
+          "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
+          "score": 0.5056
         }
       ]
     },
@@ -1958,24 +2401,14 @@
       "title": "Money, Social Division of Labor, and the Worker",
       "suggestions": [
         {
-          "slug": "naked-economy",
-          "title": "Naked Economy",
-          "score": 0.5499
+          "slug": "the-ten-principles-of-economics",
+          "title": "The Ten Principles of Economics",
+          "score": 0.5892
         },
         {
-          "slug": "how-to-understand-price",
-          "title": "Understanding Price",
-          "score": 0.5382
-        },
-        {
-          "slug": "circular-flow-diagram",
-          "title": "The Circular Flow Diagram",
-          "score": 0.521
-        },
-        {
-          "slug": "inflation",
-          "title": "Inflation",
-          "score": 0.5165
+          "slug": "elements-of-the-economy",
+          "title": "The Elements of the Economy",
+          "score": 0.5403
         }
       ]
     },
@@ -1984,14 +2417,19 @@
       "title": "MOOC Courses as Brand Tools for Elite Universities",
       "suggestions": [
         {
-          "slug": "return-of-college",
-          "title": "The Return of College",
-          "score": 0.5397
+          "slug": "factors-affecting-teaching-effectiveness",
+          "title": "Factors Affecting Teaching Effectiveness",
+          "score": 0.5534
         },
         {
-          "slug": "characteristics-of-excellent-universities",
-          "title": "Characteristics of Excellent Universities",
-          "score": 0.4917
+          "slug": "return-of-college",
+          "title": "The Return of College",
+          "score": 0.5374
+        },
+        {
+          "slug": "university-two-pillar-strategy",
+          "title": "University Four-Year Strategy: Two Pillars, Run in Parallel",
+          "score": 0.5163
         }
       ]
     },
@@ -2002,12 +2440,7 @@
         {
           "slug": "origin-of-critical-dissatisfaction",
           "title": "The Origin of Critical Dissatisfaction with the Status Quo",
-          "score": 0.6075
-        },
-        {
-          "slug": "thinking-and-literature",
-          "title": "Thinking and Literature",
-          "score": 0.5532
+          "score": 0.7221
         }
       ]
     },
@@ -2016,9 +2449,14 @@
       "title": "Naked Economy",
       "suggestions": [
         {
-          "slug": "how-to-understand-price",
-          "title": "Understanding Price",
-          "score": 0.6432
+          "slug": "the-ten-principles-of-economics",
+          "title": "The Ten Principles of Economics",
+          "score": 0.5647
+        },
+        {
+          "slug": "externalities",
+          "title": "Externalities",
+          "score": 0.5402
         }
       ]
     },
@@ -2029,7 +2467,12 @@
         {
           "slug": "object-attribute-migration",
           "title": "Object-Attribute Model as Migratable Perspective",
-          "score": 0.5487
+          "score": 0.5658
+        },
+        {
+          "slug": "data-structure-first-code-reading",
+          "title": "Data Structure First — Memorize Shapes Before Reading Code",
+          "score": 0.5235
         }
       ]
     },
@@ -2038,50 +2481,9 @@
       "title": "Natural Language Narration Methodology",
       "suggestions": [
         {
-          "slug": "reconnection-doc-method",
-          "title": "Three-Layer Classification Method for Reconnection Docs",
-          "score": 0.508
-        },
-        {
-          "slug": "audit-blind-spot-spec-limitation",
-          "title": "Audit Blind Spot — Spec-based review misses what the spec itself is missing",
-          "score": 0.4897
-        },
-        {
-          "slug": "goal-singularity",
-          "title": "Goal Singularity",
-          "score": 0.4822
-        },
-        {
-          "slug": "human-structure-ai-completeness",
-          "title": "Human Provides Structural Skeleton; AI Checks Completeness and Maps Linkages",
-          "score": 0.47
-        },
-        {
           "slug": "inquiry-essay-method",
           "title": "Inquiry-Based Essay Method — Concept Exhaustion → Multi-Angle Answers → Natural Weaving",
-          "score": 0.4667
-        },
-        {
-          "slug": "the-zettelkasten-method",
-          "title": "The Zettelkasten Method",
-          "score": 0.4512
-        }
-      ]
-    },
-    {
-      "slug": "nature-of-review",
-      "title": "The Nature of \"Review\"",
-      "suggestions": [
-        {
-          "slug": "open-review",
-          "title": "Open Review",
-          "score": 0.4835
-        },
-        {
-          "slug": "recording-and-questioning-beliefs",
-          "title": "Recording and Questioning Personal Beliefs",
-          "score": 0.472
+          "score": 0.5177
         }
       ]
     },
@@ -2090,55 +2492,14 @@
       "title": "Understanding New Technology Replacing Old Technology",
       "suggestions": [
         {
-          "slug": "cycle-of-technology",
-          "title": "The Cycle of Technology",
-          "score": 0.6736
-        },
-        {
           "slug": "general-evolution-of-technology",
           "title": "The General Evolution of Technology",
-          "score": 0.6397
+          "score": 0.759
         },
         {
-          "slug": "fundamentally-new-technology",
-          "title": "Fundamentally New Technology",
-          "score": 0.6183
-        },
-        {
-          "slug": "external-and-internal-view-of-technology",
-          "title": "The External View and Internal View of Technology",
-          "score": 0.6078
-        },
-        {
-          "slug": "technology",
-          "title": "Technology",
-          "score": 0.6062
-        },
-        {
-          "slug": "math-competition-and-tech-innovation",
-          "title": "Math Competition Problems and Technological Innovation",
-          "score": 0.5978
-        },
-        {
-          "slug": "reconceptualizing-standard-engineering",
-          "title": "Reconceptualizing Standard Engineering",
-          "score": 0.5972
-        },
-        {
-          "slug": "economics",
-          "title": "Economics",
-          "score": 0.5863
-        }
-      ]
-    },
-    {
-      "slug": "no-language-mixing-pattern",
-      "title": "No Language Mixing — A Past Behavioral Pattern in English Learning",
-      "suggestions": [
-        {
-          "slug": "goal-singularity",
-          "title": "Goal Singularity",
-          "score": 0.5812
+          "slug": "economic-evolution-driven-by-technological-evolution",
+          "title": "Economic Evolution Driven by Technological Evolution",
+          "score": 0.7313
         }
       ]
     },
@@ -2147,52 +2508,14 @@
       "title": "Object-Attribute Model as Migratable Perspective",
       "suggestions": [
         {
+          "slug": "environment-diagram-dual-perspective",
+          "title": "Environment Diagram — Dual-Perspective Modeling Framework",
+          "score": 0.5199
+        },
+        {
           "slug": "unified-python-execution-model",
           "title": "Unified Model of Python Program Execution — Coupling All Sub-Models",
-          "score": 0.528
-        }
-      ]
-    },
-    {
-      "slug": "objective-importance-scoring",
-      "title": "Objective Importance Scoring — Two Orthogonal Dimensions for Idea Evaluation",
-      "suggestions": [
-        {
-          "slug": "perspective-classification",
-          "title": "Perspective Classification",
-          "score": 0.5088
-        },
-        {
-          "slug": "reconnection-doc-method",
-          "title": "Three-Layer Classification Method for Reconnection Docs",
-          "score": 0.5019
-        },
-        {
-          "slug": "analyzing-ai-by-technical-components",
-          "title": "Analyzing AI by its technical components",
-          "score": 0.4758
-        }
-      ]
-    },
-    {
-      "slug": "open-review",
-      "title": "Open Review",
-      "suggestions": [
-        {
-          "slug": "nature-of-review",
-          "title": "The Nature of \"Review\"",
-          "score": 0.4835
-        }
-      ]
-    },
-    {
-      "slug": "operational-criteria-for-classification",
-      "title": "Operational Yes/No Criteria Beat Descriptive Labels for Classification",
-      "suggestions": [
-        {
-          "slug": "classification-of-concepts",
-          "title": "The Classification of Concepts",
-          "score": 0.4998
+          "score": 0.5156
         }
       ]
     },
@@ -2203,7 +2526,7 @@
         {
           "slug": "my-relationship-with-others-and-society",
           "title": "My Relationship with Others and Society",
-          "score": 0.6075
+          "score": 0.7221
         }
       ]
     },
@@ -2212,49 +2535,79 @@
       "title": "Our Attitude Toward Technology",
       "suggestions": [
         {
-          "slug": "technology",
-          "title": "Technology",
-          "score": 0.6474
-        },
-        {
           "slug": "external-and-internal-view-of-technology",
           "title": "The External View and Internal View of Technology",
-          "score": 0.6409
+          "score": 0.6772
         },
         {
           "slug": "general-evolution-of-technology",
           "title": "The General Evolution of Technology",
-          "score": 0.6276
+          "score": 0.6406
         },
         {
-          "slug": "technology-in-the-singular-sense",
-          "title": "Technology in the Singular Sense",
-          "score": 0.6164
+          "slug": "technology",
+          "title": "Technology",
+          "score": 0.6337
+        },
+        {
+          "slug": "economic-evolution-driven-by-technological-evolution",
+          "title": "Economic Evolution Driven by Technological Evolution",
+          "score": 0.6295
+        },
+        {
+          "slug": "characteristics-of-our-era",
+          "title": "Characteristics of Our Era",
+          "score": 0.5931
         },
         {
           "slug": "the-gene-of-technology-phenomena",
           "title": "The Gene of Technology: Phenomena",
-          "score": 0.597
+          "score": 0.5831
         },
         {
-          "slug": "reconceptualizing-standard-engineering",
-          "title": "Reconceptualizing Standard Engineering",
-          "score": 0.5753
-        },
-        {
-          "slug": "science-explanation-as-technology",
-          "title": "The Explanatory and Expository Aspects of Science as a Form of Technology",
-          "score": 0.5563
-        },
-        {
-          "slug": "cycle-of-technology",
-          "title": "The Cycle of Technology",
-          "score": 0.5509
+          "slug": "classification-of-concepts",
+          "title": "The Classification of Concepts",
+          "score": 0.583
         },
         {
           "slug": "new-technology-replacing-old",
           "title": "Understanding New Technology Replacing Old Technology",
-          "score": 0.55
+          "score": 0.5549
+        },
+        {
+          "slug": "impact-of-domains-on-economy",
+          "title": "The Impact of Domains on the Economy",
+          "score": 0.5443
+        },
+        {
+          "slug": "finding-examples",
+          "title": "Finding Examples",
+          "score": 0.5411
+        },
+        {
+          "slug": "cycle-of-technology",
+          "title": "The Cycle of Technology",
+          "score": 0.5274
+        },
+        {
+          "slug": "economics",
+          "title": "Economics",
+          "score": 0.526
+        },
+        {
+          "slug": "structural-understanding-in-daily-life",
+          "title": "Structural Understanding in Daily Life",
+          "score": 0.5132
+        },
+        {
+          "slug": "where-innovation-comes-from",
+          "title": "Where Innovation Comes From",
+          "score": 0.5083
+        },
+        {
+          "slug": "technology-in-the-singular-sense",
+          "title": "Technology in the Singular Sense",
+          "score": 0.5048
         }
       ]
     },
@@ -2265,39 +2618,12 @@
         {
           "slug": "teach-method-fixes",
           "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
-          "score": 0.5869
-        }
-      ]
-    },
-    {
-      "slug": "peer-cross-teaching",
-      "title": "Peer Cross-Teaching",
-      "suggestions": [
-        {
-          "slug": "teach-method-fixes",
-          "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
-          "score": 0.4504
-        }
-      ]
-    },
-    {
-      "slug": "perfectionism-and-feedback-loops",
-      "title": "Perfectionism and Feedback Loops",
-      "suggestions": [
-        {
-          "slug": "completion-vs-quitting",
-          "title": "Completion vs. Quitting",
-          "score": 0.5172
+          "score": 0.5652
         },
         {
-          "slug": "efficient-thinking",
-          "title": "Efficient Thinking",
-          "score": 0.4843
-        },
-        {
-          "slug": "iteration-in-life",
-          "title": "Iteration in Life",
-          "score": 0.4653
+          "slug": "teach-coverage-check",
+          "title": "Teach Coverage Check — Cross-Reference Teach Output Against Course Content",
+          "score": 0.5081
         }
       ]
     },
@@ -2306,54 +2632,9 @@
       "title": "Perspective Classification",
       "suggestions": [
         {
-          "slug": "analyzing-ai-by-technical-components",
-          "title": "Analyzing AI by its technical components",
-          "score": 0.5314
-        },
-        {
-          "slug": "science-explanation-as-technology",
-          "title": "The Explanatory and Expository Aspects of Science as a Form of Technology",
-          "score": 0.5282
-        },
-        {
-          "slug": "technology",
-          "title": "Technology",
-          "score": 0.5262
-        },
-        {
-          "slug": "math-competition-and-tech-innovation",
-          "title": "Math Competition Problems and Technological Innovation",
-          "score": 0.5178
-        },
-        {
-          "slug": "objective-importance-scoring",
-          "title": "Objective Importance Scoring — Two Orthogonal Dimensions for Idea Evaluation",
-          "score": 0.5088
-        },
-        {
           "slug": "classification-of-concepts",
           "title": "The Classification of Concepts",
-          "score": 0.5042
-        },
-        {
-          "slug": "knowledge-as-dictionary-of-perspectives",
-          "title": "Knowledge as a Dictionary of Perspectives — Each Knowledge Point Is a Multi-Dimensional Embedding",
-          "score": 0.491
-        },
-        {
-          "slug": "domain-power-and-perspective-taking",
-          "title": "Domain Power and Perspective-Taking",
-          "score": 0.4906
-        },
-        {
-          "slug": "new-technology-replacing-old",
-          "title": "Understanding New Technology Replacing Old Technology",
-          "score": 0.4906
-        },
-        {
-          "slug": "reconnection-doc-method",
-          "title": "Three-Layer Classification Method for Reconnection Docs",
-          "score": 0.4903
+          "score": 0.6023
         }
       ]
     },
@@ -2362,47 +2643,39 @@
       "title": "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness",
       "suggestions": [
         {
-          "slug": "leverage-existing-vs-build-from-scratch",
-          "title": "Leverage Existing Solutions vs. Build from Scratch — A Decision System Axis",
-          "score": 0.5694
-        }
-      ]
-    },
-    {
-      "slug": "practice-to-theory",
-      "title": "From Practice to Theory",
-      "suggestions": [
-        {
-          "slug": "excellence-responsibility",
-          "title": "Excellence and Responsibility",
-          "score": 0.4523
+          "slug": "teach-method-fixes",
+          "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
+          "score": 0.5645
         },
         {
-          "slug": "practice-as-learning-purpose",
-          "title": "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness",
-          "score": 0.4504
-        }
-      ]
-    },
-    {
-      "slug": "price-increases-after-disaster",
-      "title": "Understanding Price Increases After a Disaster",
-      "suggestions": [
+          "slug": "efficiency-formula",
+          "title": "The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates",
+          "score": 0.5473
+        },
         {
-          "slug": "how-to-understand-price",
-          "title": "Understanding Price",
-          "score": 0.6767
-        }
-      ]
-    },
-    {
-      "slug": "production-possibilities-frontier",
-      "title": "Production Possibilities Frontier",
-      "suggestions": [
+          "slug": "transfer-high-leverage",
+          "title": "Transfer as a High-Leverage Cognitive Operation",
+          "score": 0.5434
+        },
         {
-          "slug": "market-efficiency",
-          "title": "Market Efficiency",
-          "score": 0.5153
+          "slug": "success-interrogation-heuristic",
+          "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
+          "score": 0.5367
+        },
+        {
+          "slug": "leverage-existing-vs-build-from-scratch",
+          "title": "Leverage Existing Solutions vs. Build from Scratch — A Decision System Axis",
+          "score": 0.5147
+        },
+        {
+          "slug": "freedom-exploration-generator",
+          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+          "score": 0.5131
+        },
+        {
+          "slug": "knowledge-mastery-two-axis-model",
+          "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
+          "score": 0.5042
         }
       ]
     },
@@ -2411,20 +2684,9 @@
       "title": "Reading-Modeling Decomposition Tradeoff — Explained by Cohesion-Coupling Heuristic",
       "suggestions": [
         {
-          "slug": "speed-first-model-second-batch-tradeoff",
-          "title": "Speed-First Model-Second — Batch Size Tradeoff in Learning",
-          "score": 0.4701
-        }
-      ]
-    },
-    {
-      "slug": "reading-writing-unity",
-      "title": "The Unity of Reading and Writing — Constraint Relationships as the Cognitive Foundation",
-      "suggestions": [
-        {
-          "slug": "thinking-and-literature",
-          "title": "Thinking and Literature",
-          "score": 0.5849
+          "slug": "content-independent-framework",
+          "title": "Content-Independent Frameworks Beat Content-Bound Ones",
+          "score": 0.5652
         }
       ]
     },
@@ -2433,9 +2695,9 @@
       "title": "Reconceptualizing Standard Engineering",
       "suggestions": [
         {
-          "slug": "technology-in-the-singular-sense",
-          "title": "Technology in the Singular Sense",
-          "score": 0.7011
+          "slug": "fundamentally-new-technology",
+          "title": "Fundamentally New Technology",
+          "score": 0.7634
         }
       ]
     },
@@ -2444,19 +2706,19 @@
       "title": "Three-Layer Classification Method for Reconnection Docs",
       "suggestions": [
         {
-          "slug": "connection-reading",
-          "title": "Connection-Oriented Reading — Conceptual Constraint-Relationship Mapping",
-          "score": 0.5798
-        },
-        {
           "slug": "structural-patience",
           "title": "Structural Patience — Data-Gated Structure Formation",
-          "score": 0.5667
+          "score": 0.6097
         },
         {
-          "slug": "meta-skill-lifecycle",
-          "title": "Meta-Skill Lifecycle",
-          "score": 0.5496
+          "slug": "transfer-high-leverage",
+          "title": "Transfer as a High-Leverage Cognitive Operation",
+          "score": 0.5542
+        },
+        {
+          "slug": "framework-from-data",
+          "title": "Build Frameworks from Data, Not Find Data for Frameworks",
+          "score": 0.512
         }
       ]
     },
@@ -2467,18 +2729,33 @@
         {
           "slug": "8b-deep-reflection",
           "title": "8b Deep Reflection",
-          "score": 0.527
+          "score": 0.5485
+        },
+        {
+          "slug": "my-relationship-with-others-and-society",
+          "title": "My Relationship with Others and Society",
+          "score": 0.5212
+        },
+        {
+          "slug": "return-of-college",
+          "title": "The Return of College",
+          "score": 0.5205
         }
       ]
     },
     {
-      "slug": "relationship-modeling",
-      "title": "Relationship Modeling",
+      "slug": "residuals-as-honesty-device",
+      "title": "Residuals Table as Structural Honesty Device",
       "suggestions": [
         {
-          "slug": "interaction-as-dictionary",
-          "title": "Interaction-as-Dictionary — A Unified Modeling Framework",
-          "score": 0.4806
+          "slug": "clarity-as-universal-principle",
+          "title": "Clarity as a Universal Principle",
+          "score": 0.5639
+        },
+        {
+          "slug": "inquiry-essay-method",
+          "title": "Inquiry-Based Essay Method — Concept Exhaustion → Multi-Angle Answers → Natural Weaving",
+          "score": 0.5394
         }
       ]
     },
@@ -2487,30 +2764,59 @@
       "title": "The Return of College",
       "suggestions": [
         {
+          "slug": "social-responsibility-of-outstanding-students",
+          "title": "The Social Responsibility of Outstanding Students",
+          "score": 0.6128
+        },
+        {
+          "slug": "growth-journey-of-elite-college-students",
+          "title": "The Growth Journey of Elite College Students",
+          "score": 0.609
+        },
+        {
+          "slug": "my-relationship-with-others-and-society",
+          "title": "My Relationship with Others and Society",
+          "score": 0.6036
+        },
+        {
+          "slug": "characteristics-of-excellent-universities",
+          "title": "Characteristics of Excellent Universities",
+          "score": 0.5855
+        },
+        {
+          "slug": "8b-deep-reflection",
+          "title": "8b Deep Reflection",
+          "score": 0.5553
+        },
+        {
+          "slug": "liberal-education-and-the-zettelkasten",
+          "title": "The Connection Between Liberal Education and the Zettelkasten Method",
+          "score": 0.5456
+        },
+        {
+          "slug": "mooc-brand-tools-inequality",
+          "title": "MOOC Courses as Brand Tools for Elite Universities",
+          "score": 0.5374
+        },
+        {
           "slug": "knowledge-and-thinking-at-university",
           "title": "Knowledge and Thinking at University",
-          "score": 0.6688
-        }
-      ]
-    },
-    {
-      "slug": "science-explanation-as-technology",
-      "title": "The Explanatory and Expository Aspects of Science as a Form of Technology",
-      "suggestions": [
-        {
-          "slug": "technology",
-          "title": "Technology",
-          "score": 0.6693
+          "score": 0.5327
         },
         {
-          "slug": "reconceptualizing-standard-engineering",
-          "title": "Reconceptualizing Standard Engineering",
-          "score": 0.6442
+          "slug": "the-teacher",
+          "title": "The Teacher",
+          "score": 0.525
         },
         {
-          "slug": "science",
-          "title": "Science",
-          "score": 0.6227
+          "slug": "recording-and-questioning-beliefs",
+          "title": "Recording and Questioning Personal Beliefs",
+          "score": 0.5205
+        },
+        {
+          "slug": "liberal-arts-perspective-on-the-execution-line",
+          "title": "A Liberal Arts Perspective on the Execution Line",
+          "score": 0.5185
         }
       ]
     },
@@ -2519,9 +2825,19 @@
       "title": "Science",
       "suggestions": [
         {
-          "slug": "science-explanation-as-technology",
-          "title": "The Explanatory and Expository Aspects of Science as a Form of Technology",
-          "score": 0.6227
+          "slug": "three-definitions-of-technology",
+          "title": "The Three Definitions of Technology",
+          "score": 0.535
+        },
+        {
+          "slug": "economics-as-a-science",
+          "title": "Economics as a Science",
+          "score": 0.5297
+        },
+        {
+          "slug": "the-gene-of-technology-phenomena",
+          "title": "The Gene of Technology: Phenomena",
+          "score": 0.5234
         }
       ]
     },
@@ -2530,25 +2846,9 @@
       "title": "Sino-US Trade",
       "suggestions": [
         {
-          "slug": "collapse-of-the-gold-standard",
-          "title": "The Collapse of the Gold Standard",
-          "score": 0.4777
-        },
-        {
-          "slug": "after-sinopia-stops-buying-usonia-treasury-bonds",
-          "title": "After Sinopia Stops Buying Usonia's Treasury Bonds",
-          "score": 0.4635
-        }
-      ]
-    },
-    {
-      "slug": "skill-sharing",
-      "title": "Skill Sharing",
-      "suggestions": [
-        {
-          "slug": "industry-intel-skill",
-          "title": "Industry Intel Skill",
-          "score": 0.4564
+          "slug": "international-trade",
+          "title": "International Trade",
+          "score": 0.5246
         }
       ]
     },
@@ -2557,31 +2857,19 @@
       "title": "The Social Responsibility of Outstanding Students",
       "suggestions": [
         {
-          "slug": "excellence-responsibility",
-          "title": "Excellence and Responsibility",
-          "score": 0.6097
-        }
-      ]
-    },
-    {
-      "slug": "social-strategy-skill",
-      "title": "Social Strategy Skill",
-      "suggestions": [
+          "slug": "return-of-college",
+          "title": "The Return of College",
+          "score": 0.6128
+        },
         {
-          "slug": "four-step-networking-method",
-          "title": "The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up",
-          "score": 0.5048
-        }
-      ]
-    },
-    {
-      "slug": "space-as-perspective",
-      "title": "Space as a Perspective — Spatial Thinking as a Cognitive Lens",
-      "suggestions": [
+          "slug": "characteristics-of-excellent-universities",
+          "title": "Characteristics of Excellent Universities",
+          "score": 0.5779
+        },
         {
-          "slug": "environment-diagram-dual-perspective",
-          "title": "Environment Diagram — Dual-Perspective Modeling Framework",
-          "score": 0.4689
+          "slug": "my-relationship-with-others-and-society",
+          "title": "My Relationship with Others and Society",
+          "score": 0.5672
         }
       ]
     },
@@ -2590,14 +2878,39 @@
       "title": "Speed-First Model-Second — Batch Size Tradeoff in Learning",
       "suggestions": [
         {
-          "slug": "attention-as-bottleneck",
-          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
-          "score": 0.4755
+          "slug": "attention-pointer-learning-model",
+          "title": "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint",
+          "score": 0.6279
+        },
+        {
+          "slug": "locate-first-model-last",
+          "title": "Locate-First, Model-Last — A Learning Paradigm Shift Driven by the Dictionary Model",
+          "score": 0.6053
+        },
+        {
+          "slug": "learning-dynamics",
+          "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
+          "score": 0.599
         },
         {
           "slug": "freedom-exploration-generator",
           "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
-          "score": 0.4513
+          "score": 0.5932
+        },
+        {
+          "slug": "implicit-improvement-pattern",
+          "title": "Implicit Improvement — Getting Better Without Knowing How",
+          "score": 0.5497
+        },
+        {
+          "slug": "memorization-in-pipeline",
+          "title": "Memorization in the Learning Pipeline",
+          "score": 0.5489
+        },
+        {
+          "slug": "attention-as-bottleneck",
+          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
+          "score": 0.5072
         }
       ]
     },
@@ -2608,28 +2921,7 @@
         {
           "slug": "reconceptualizing-standard-engineering",
           "title": "Reconceptualizing Standard Engineering",
-          "score": 0.7903
-        }
-      ]
-    },
-    {
-      "slug": "stranger-conversation-loop",
-      "title": "The Stranger Conversation Loop — A Replicable Social Algorithm",
-      "suggestions": [
-        {
-          "slug": "chat-as-idea-source",
-          "title": "WeChat Conversations as Idea Raw Material",
-          "score": 0.5
-        },
-        {
-          "slug": "conversation-topic-flow",
-          "title": "How Conversation Topics Flow — Finding the Structure",
-          "score": 0.4754
-        },
-        {
-          "slug": "conversation-as-data-source",
-          "title": "Conversation as Data Source",
-          "score": 0.4538
+          "score": 0.9084
         }
       ]
     },
@@ -2638,14 +2930,24 @@
       "title": "Strategy as Iterative Optimization — Three-Component Model + Meta-Strategy Loop",
       "suggestions": [
         {
-          "slug": "meta-skill-lifecycle",
-          "title": "Meta-Skill Lifecycle",
-          "score": 0.5915
+          "slug": "efficient-thinking",
+          "title": "Efficient Thinking",
+          "score": 0.5565
         },
         {
-          "slug": "discretize-first",
-          "title": "Discretize-First Problem Solving",
-          "score": 0.5828
+          "slug": "efficiency-formula",
+          "title": "The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates",
+          "score": 0.5499
+        },
+        {
+          "slug": "decision-model-as-next-domain-model",
+          "title": "Decision Model as Next Non-Specialist Domain Model",
+          "score": 0.53
+        },
+        {
+          "slug": "methodology-change-timing",
+          "title": "The Timing Risk of Methodology Changes",
+          "score": 0.5218
         }
       ]
     },
@@ -2654,14 +2956,39 @@
       "title": "Structural Patience — Data-Gated Structure Formation",
       "suggestions": [
         {
+          "slug": "local-pattern-patching-failure",
+          "title": "Local Patterns Cannot Be Generalized Through Continuous Patching",
+          "score": 0.6459
+        },
+        {
           "slug": "reconnection-doc-method",
           "title": "Three-Layer Classification Method for Reconnection Docs",
-          "score": 0.5667
+          "score": 0.6097
+        },
+        {
+          "slug": "memorization-in-pipeline",
+          "title": "Memorization in the Learning Pipeline",
+          "score": 0.5957
+        },
+        {
+          "slug": "learning-dynamics",
+          "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
+          "score": 0.5398
         },
         {
           "slug": "three-layer-framework",
           "title": "Three-Layer Framework as Starting Lens for Reconnection Docs",
-          "score": 0.5311
+          "score": 0.5273
+        },
+        {
+          "slug": "freedom-exploration-generator",
+          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+          "score": 0.5263
+        },
+        {
+          "slug": "human-structure-ai-completeness",
+          "title": "Human Provides Structural Skeleton; AI Checks Completeness and Maps Linkages",
+          "score": 0.5055
         }
       ]
     },
@@ -2670,9 +2997,74 @@
       "title": "Structural Understanding in Daily Life",
       "suggestions": [
         {
-          "slug": "data-structure-first-code-reading",
-          "title": "Data Structure First — Memorize Shapes Before Reading Code",
-          "score": 0.5381
+          "slug": "external-and-internal-view-of-technology",
+          "title": "The External View and Internal View of Technology",
+          "score": 0.6282
+        },
+        {
+          "slug": "technology-in-the-singular-sense",
+          "title": "Technology in the Singular Sense",
+          "score": 0.6183
+        },
+        {
+          "slug": "technology",
+          "title": "Technology",
+          "score": 0.6043
+        },
+        {
+          "slug": "classification-of-concepts",
+          "title": "The Classification of Concepts",
+          "score": 0.6016
+        },
+        {
+          "slug": "finding-examples",
+          "title": "Finding Examples",
+          "score": 0.5869
+        },
+        {
+          "slug": "understanding-software-at-technical-level",
+          "title": "Understanding Software at the Technical Level",
+          "score": 0.5739
+        },
+        {
+          "slug": "three-definitions-of-technology",
+          "title": "The Three Definitions of Technology",
+          "score": 0.5628
+        },
+        {
+          "slug": "the-gene-of-technology-phenomena",
+          "title": "The Gene of Technology: Phenomena",
+          "score": 0.5503
+        },
+        {
+          "slug": "fundamentally-new-technology",
+          "title": "Fundamentally New Technology",
+          "score": 0.5168
+        },
+        {
+          "slug": "cycle-of-technology",
+          "title": "The Cycle of Technology",
+          "score": 0.5147
+        },
+        {
+          "slug": "our-attitude-toward-technology",
+          "title": "Our Attitude Toward Technology",
+          "score": 0.5132
+        },
+        {
+          "slug": "core-capability-supporting-infrastructure-pattern",
+          "title": "Core Capability → Supporting Infrastructure as Technology Evolution Pattern",
+          "score": 0.5077
+        },
+        {
+          "slug": "content-independent-framework",
+          "title": "Content-Independent Frameworks Beat Content-Bound Ones",
+          "score": 0.5008
+        },
+        {
+          "slug": "reconceptualizing-standard-engineering",
+          "title": "Reconceptualizing Standard Engineering",
+          "score": 0.5
         }
       ]
     },
@@ -2681,9 +3073,44 @@
       "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
       "suggestions": [
         {
-          "slug": "learning-pipeline",
-          "title": "Learning Pipeline",
-          "score": 0.639
+          "slug": "framework-extraction-pattern",
+          "title": "First Time — Framework Emerges from Content; Second Time — Framework Precedes Content",
+          "score": 0.5787
+        },
+        {
+          "slug": "freedom-exploration-generator",
+          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+          "score": 0.5607
+        },
+        {
+          "slug": "practice-as-learning-purpose",
+          "title": "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness",
+          "score": 0.5367
+        },
+        {
+          "slug": "teach-method-fixes",
+          "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
+          "score": 0.5341
+        },
+        {
+          "slug": "memorized-offline-procedures",
+          "title": "Memorized Offline Procedures — When Skills Can't Rely on AI Presence",
+          "score": 0.5125
+        },
+        {
+          "slug": "goal-singularity",
+          "title": "Goal Singularity",
+          "score": 0.5067
+        },
+        {
+          "slug": "methodology-change-timing",
+          "title": "The Timing Risk of Methodology Changes",
+          "score": 0.5056
+        },
+        {
+          "slug": "memorization-in-pipeline",
+          "title": "Memorization in the Learning Pipeline",
+          "score": 0.5026
         }
       ]
     },
@@ -2692,29 +3119,24 @@
       "title": "Supply, Demand, and Government Policy",
       "suggestions": [
         {
-          "slug": "naked-economy",
-          "title": "Naked Economy",
-          "score": 0.5374
+          "slug": "competitive-markets",
+          "title": "Competitive Markets",
+          "score": 0.5808
+        },
+        {
+          "slug": "deadweight-loss-of-taxation",
+          "title": "Deadweight Loss of Taxation",
+          "score": 0.5585
         },
         {
           "slug": "elasticity-of-supply-and-demand",
           "title": "Elasticity of Supply and Demand",
-          "score": 0.5358
+          "score": 0.5258
         },
         {
-          "slug": "how-to-understand-price",
-          "title": "Understanding Price",
-          "score": 0.53
-        },
-        {
-          "slug": "price-increases-after-disaster",
-          "title": "Understanding Price Increases After a Disaster",
-          "score": 0.5274
-        },
-        {
-          "slug": "competitive-markets",
-          "title": "Competitive Markets",
-          "score": 0.5111
+          "slug": "economists-as-policy-advisors",
+          "title": "Economists as Policy Advisors",
+          "score": 0.5102
         }
       ]
     },
@@ -2725,12 +3147,7 @@
         {
           "slug": "system-coevolution-p2-interpretability",
           "title": "Co-evolution - Question 2: Structural Interpretability",
-          "score": 0.5857
-        },
-        {
-          "slug": "system-coevolution-p3-autonomy-boundary",
-          "title": "System Coevolution - Problem 3: The Boundary of Self-Updating Systems",
-          "score": 0.5643
+          "score": 0.554
         }
       ]
     },
@@ -2741,12 +3158,17 @@
         {
           "slug": "system-coevolution-p1-data-coverage",
           "title": "Co-evolution - Problem 1: Data Granularity and Coverage",
-          "score": 0.5857
+          "score": 0.554
         },
         {
           "slug": "local-pattern-patching-failure",
           "title": "Local Patterns Cannot Be Generalized Through Continuous Patching",
-          "score": 0.5565
+          "score": 0.512
+        },
+        {
+          "slug": "framework-from-data",
+          "title": "Build Frameworks from Data, Not Find Data for Frameworks",
+          "score": 0.5054
         }
       ]
     },
@@ -2755,36 +3177,9 @@
       "title": "System Coevolution - Problem 3: The Boundary of Self-Updating Systems",
       "suggestions": [
         {
-          "slug": "system-coevolution-p1-data-coverage",
-          "title": "Co-evolution - Problem 1: Data Granularity and Coverage",
-          "score": 0.5643
-        }
-      ]
-    },
-    {
-      "slug": "system-coevolution-p4-self-reinforcement",
-      "title": "Coevolution - Problem 4: Preventing Self-Reinforcement in the Wrong Direction",
-      "suggestions": [
-        {
-          "slug": "system-coevolution-p1-data-coverage",
-          "title": "Co-evolution - Problem 1: Data Granularity and Coverage",
-          "score": 0.5017
-        }
-      ]
-    },
-    {
-      "slug": "system-coevolution",
-      "title": "System-Human Coevolution",
-      "suggestions": [
-        {
-          "slug": "decision-model-as-next-domain-model",
-          "title": "Decision Model as Next Non-Specialist Domain Model",
-          "score": 0.5534
-        },
-        {
-          "slug": "timeline-based-project-structure",
-          "title": "Timeline-Based Project Structure",
-          "score": 0.5484
+          "slug": "m34-source-layer-static-rigidity",
+          "title": "M34 Structural Defect: Source Layer Static Rigidity",
+          "score": 0.5798
         }
       ]
     },
@@ -2795,7 +3190,7 @@
         {
           "slug": "pass-criteria-as-curriculum-design",
           "title": "Pass Criteria as a First-Class Curriculum Design Element",
-          "score": 0.5184
+          "score": 0.5081
         }
       ]
     },
@@ -2804,9 +3199,39 @@
       "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
       "suggestions": [
         {
+          "slug": "explaining-excellent-sheep-with-theory",
+          "title": "Explaining \"Excellent Sheep\" 9.11 Using Learned Theories",
+          "score": 0.5656
+        },
+        {
           "slug": "pass-criteria-as-curriculum-design",
           "title": "Pass Criteria as a First-Class Curriculum Design Element",
-          "score": 0.5869
+          "score": 0.5652
+        },
+        {
+          "slug": "practice-as-learning-purpose",
+          "title": "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness",
+          "score": 0.5645
+        },
+        {
+          "slug": "data-structure-first-code-reading",
+          "title": "Data Structure First — Memorize Shapes Before Reading Code",
+          "score": 0.5378
+        },
+        {
+          "slug": "success-interrogation-heuristic",
+          "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
+          "score": 0.5341
+        },
+        {
+          "slug": "learning-pipeline",
+          "title": "Learning Pipeline",
+          "score": 0.5078
+        },
+        {
+          "slug": "inquiry-essay-method",
+          "title": "Inquiry-Based Essay Method — Concept Exhaustion → Multi-Angle Answers → Natural Weaving",
+          "score": 0.5001
         }
       ]
     },
@@ -2817,17 +3242,7 @@
         {
           "slug": "how-domains-evolve",
           "title": "How Domains Evolve",
-          "score": 0.7177
-        },
-        {
-          "slug": "reconceptualizing-standard-engineering",
-          "title": "Reconceptualizing Standard Engineering",
-          "score": 0.665
-        },
-        {
-          "slug": "impact-of-domains-on-economy",
-          "title": "The Impact of Domains on the Economy",
-          "score": 0.663
+          "score": 0.7546
         }
       ]
     },
@@ -2836,9 +3251,79 @@
       "title": "Technology in the Singular Sense",
       "suggestions": [
         {
+          "slug": "finding-examples",
+          "title": "Finding Examples",
+          "score": 0.7264
+        },
+        {
+          "slug": "the-gene-of-technology-phenomena",
+          "title": "The Gene of Technology: Phenomena",
+          "score": 0.7067
+        },
+        {
+          "slug": "external-and-internal-view-of-technology",
+          "title": "The External View and Internal View of Technology",
+          "score": 0.6668
+        },
+        {
+          "slug": "classification-of-concepts",
+          "title": "The Classification of Concepts",
+          "score": 0.6619
+        },
+        {
+          "slug": "broad-and-narrow-technology",
+          "title": "Broad and Narrow Technology",
+          "score": 0.6603
+        },
+        {
+          "slug": "understanding-software-at-technical-level",
+          "title": "Understanding Software at the Technical Level",
+          "score": 0.6524
+        },
+        {
+          "slug": "technology-domains",
+          "title": "Technology Domains",
+          "score": 0.6489
+        },
+        {
+          "slug": "standard-engineering",
+          "title": "Standard Engineering",
+          "score": 0.63
+        },
+        {
+          "slug": "fundamentally-new-technology",
+          "title": "Fundamentally New Technology",
+          "score": 0.6281
+        },
+        {
+          "slug": "cycle-of-technology",
+          "title": "The Cycle of Technology",
+          "score": 0.6195
+        },
+        {
+          "slug": "structural-understanding-in-daily-life",
+          "title": "Structural Understanding in Daily Life",
+          "score": 0.6183
+        },
+        {
+          "slug": "technology",
+          "title": "Technology",
+          "score": 0.6151
+        },
+        {
           "slug": "reconceptualizing-standard-engineering",
           "title": "Reconceptualizing Standard Engineering",
-          "score": 0.7011
+          "score": 0.6136
+        },
+        {
+          "slug": "general-evolution-of-technology",
+          "title": "The General Evolution of Technology",
+          "score": 0.5852
+        },
+        {
+          "slug": "core-capability-supporting-infrastructure-pattern",
+          "title": "Core Capability → Supporting Infrastructure as Technology Evolution Pattern",
+          "score": 0.5737
         }
       ]
     },
@@ -2847,44 +3332,79 @@
       "title": "Technology",
       "suggestions": [
         {
-          "slug": "science-explanation-as-technology",
-          "title": "The Explanatory and Expository Aspects of Science as a Form of Technology",
-          "score": 0.6693
+          "slug": "three-definitions-of-technology",
+          "title": "The Three Definitions of Technology",
+          "score": 0.7776
         },
         {
-          "slug": "our-attitude-toward-technology",
-          "title": "Our Attitude Toward Technology",
-          "score": 0.6474
+          "slug": "classification-of-concepts",
+          "title": "The Classification of Concepts",
+          "score": 0.7285
         },
         {
           "slug": "external-and-internal-view-of-technology",
           "title": "The External View and Internal View of Technology",
-          "score": 0.631
+          "score": 0.6934
         },
         {
-          "slug": "reconceptualizing-standard-engineering",
-          "title": "Reconceptualizing Standard Engineering",
-          "score": 0.6133
+          "slug": "finding-examples",
+          "title": "Finding Examples",
+          "score": 0.6398
         },
         {
-          "slug": "new-technology-replacing-old",
-          "title": "Understanding New Technology Replacing Old Technology",
-          "score": 0.6062
+          "slug": "the-gene-of-technology-phenomena",
+          "title": "The Gene of Technology: Phenomena",
+          "score": 0.6371
         },
         {
-          "slug": "cycle-of-technology",
-          "title": "The Cycle of Technology",
-          "score": 0.5998
+          "slug": "our-attitude-toward-technology",
+          "title": "Our Attitude Toward Technology",
+          "score": 0.6337
         },
         {
           "slug": "technology-in-the-singular-sense",
           "title": "Technology in the Singular Sense",
-          "score": 0.5826
+          "score": 0.6151
+        },
+        {
+          "slug": "cycle-of-technology",
+          "title": "The Cycle of Technology",
+          "score": 0.6095
         },
         {
           "slug": "general-evolution-of-technology",
           "title": "The General Evolution of Technology",
-          "score": 0.5646
+          "score": 0.6085
+        },
+        {
+          "slug": "structural-understanding-in-daily-life",
+          "title": "Structural Understanding in Daily Life",
+          "score": 0.6043
+        },
+        {
+          "slug": "new-technology-replacing-old",
+          "title": "Understanding New Technology Replacing Old Technology",
+          "score": 0.6019
+        },
+        {
+          "slug": "fundamentally-new-technology",
+          "title": "Fundamentally New Technology",
+          "score": 0.5957
+        },
+        {
+          "slug": "characteristics-of-our-era",
+          "title": "Characteristics of Our Era",
+          "score": 0.5766
+        },
+        {
+          "slug": "understanding-software-at-technical-level",
+          "title": "Understanding Software at the Technical Level",
+          "score": 0.561
+        },
+        {
+          "slug": "economic-evolution-driven-by-technological-evolution",
+          "title": "Economic Evolution Driven by Technological Evolution",
+          "score": 0.5579
         }
       ]
     },
@@ -2893,29 +3413,79 @@
       "title": "The Gene of Technology: Phenomena",
       "suggestions": [
         {
-          "slug": "evolution-of-phenomena",
-          "title": "The Evolution of Phenomena",
-          "score": 0.6157
+          "slug": "fundamentally-new-technology",
+          "title": "Fundamentally New Technology",
+          "score": 0.703
         },
         {
-          "slug": "our-attitude-toward-technology",
-          "title": "Our Attitude Toward Technology",
-          "score": 0.597
+          "slug": "three-definitions-of-technology",
+          "title": "The Three Definitions of Technology",
+          "score": 0.6795
+        },
+        {
+          "slug": "classification-of-concepts",
+          "title": "The Classification of Concepts",
+          "score": 0.6606
         },
         {
           "slug": "general-evolution-of-technology",
           "title": "The General Evolution of Technology",
-          "score": 0.5967
+          "score": 0.6574
+        },
+        {
+          "slug": "finding-examples",
+          "title": "Finding Examples",
+          "score": 0.6428
+        },
+        {
+          "slug": "technology",
+          "title": "Technology",
+          "score": 0.6371
+        },
+        {
+          "slug": "external-and-internal-view-of-technology",
+          "title": "The External View and Internal View of Technology",
+          "score": 0.6184
         },
         {
           "slug": "reconceptualizing-standard-engineering",
           "title": "Reconceptualizing Standard Engineering",
-          "score": 0.5855
+          "score": 0.6182
         },
         {
-          "slug": "science-explanation-as-technology",
-          "title": "The Explanatory and Expository Aspects of Science as a Form of Technology",
-          "score": 0.5764
+          "slug": "evolution-of-phenomena",
+          "title": "The Evolution of Phenomena",
+          "score": 0.5906
+        },
+        {
+          "slug": "cycle-of-technology",
+          "title": "The Cycle of Technology",
+          "score": 0.5901
+        },
+        {
+          "slug": "our-attitude-toward-technology",
+          "title": "Our Attitude Toward Technology",
+          "score": 0.5831
+        },
+        {
+          "slug": "technology-domains",
+          "title": "Technology Domains",
+          "score": 0.5734
+        },
+        {
+          "slug": "understanding-software-at-technical-level",
+          "title": "Understanding Software at the Technical Level",
+          "score": 0.5657
+        },
+        {
+          "slug": "standard-engineering",
+          "title": "Standard Engineering",
+          "score": 0.5562
+        },
+        {
+          "slug": "economics",
+          "title": "Economics",
+          "score": 0.5509
         }
       ]
     },
@@ -2924,9 +3494,9 @@
       "title": "The Teacher",
       "suggestions": [
         {
-          "slug": "liberal-arts-perspective-on-the-execution-line",
-          "title": "A Liberal Arts Perspective on the Execution Line",
-          "score": 0.6155
+          "slug": "return-of-college",
+          "title": "The Return of College",
+          "score": 0.525
         }
       ]
     },
@@ -2935,9 +3505,49 @@
       "title": "The Ten Principles of Economics",
       "suggestions": [
         {
+          "slug": "economists-as-policy-advisors",
+          "title": "Economists as Policy Advisors",
+          "score": 0.5895
+        },
+        {
+          "slug": "money-social-division-of-labor-and-the-worker",
+          "title": "Money, Social Division of Labor, and the Worker",
+          "score": 0.5892
+        },
+        {
           "slug": "naked-economy",
           "title": "Naked Economy",
-          "score": 0.5957
+          "score": 0.5647
+        },
+        {
+          "slug": "international-trade",
+          "title": "International Trade",
+          "score": 0.5525
+        },
+        {
+          "slug": "elements-of-the-economy",
+          "title": "The Elements of the Economy",
+          "score": 0.5461
+        },
+        {
+          "slug": "market-efficiency",
+          "title": "Market Efficiency",
+          "score": 0.5386
+        },
+        {
+          "slug": "competitive-markets",
+          "title": "Competitive Markets",
+          "score": 0.5354
+        },
+        {
+          "slug": "economics-as-a-science",
+          "title": "Economics as a Science",
+          "score": 0.5281
+        },
+        {
+          "slug": "externalities",
+          "title": "Externalities",
+          "score": 0.5167
         }
       ]
     },
@@ -2948,7 +3558,7 @@
         {
           "slug": "liberal-education-and-the-zettelkasten",
           "title": "The Connection Between Liberal Education and the Zettelkasten Method",
-          "score": 0.6109
+          "score": 0.7203
         }
       ]
     },
@@ -2959,7 +3569,12 @@
         {
           "slug": "knowledge-and-thinking-at-university",
           "title": "Knowledge and Thinking at University",
-          "score": 0.6655
+          "score": 0.6047
+        },
+        {
+          "slug": "liberal-arts-perspective-on-the-execution-line",
+          "title": "A Liberal Arts Perspective on the Execution Line",
+          "score": 0.5453
         }
       ]
     },
@@ -2970,7 +3585,77 @@
         {
           "slug": "technology-in-the-singular-sense",
           "title": "Technology in the Singular Sense",
-          "score": 0.7343
+          "score": 0.7841
+        },
+        {
+          "slug": "technology",
+          "title": "Technology",
+          "score": 0.7776
+        },
+        {
+          "slug": "classification-of-concepts",
+          "title": "The Classification of Concepts",
+          "score": 0.7539
+        },
+        {
+          "slug": "finding-examples",
+          "title": "Finding Examples",
+          "score": 0.7162
+        },
+        {
+          "slug": "external-and-internal-view-of-technology",
+          "title": "The External View and Internal View of Technology",
+          "score": 0.706
+        },
+        {
+          "slug": "the-gene-of-technology-phenomena",
+          "title": "The Gene of Technology: Phenomena",
+          "score": 0.6795
+        },
+        {
+          "slug": "general-evolution-of-technology",
+          "title": "The General Evolution of Technology",
+          "score": 0.6279
+        },
+        {
+          "slug": "technology-domains",
+          "title": "Technology Domains",
+          "score": 0.6267
+        },
+        {
+          "slug": "reconceptualizing-standard-engineering",
+          "title": "Reconceptualizing Standard Engineering",
+          "score": 0.6132
+        },
+        {
+          "slug": "our-attitude-toward-technology",
+          "title": "Our Attitude Toward Technology",
+          "score": 0.611
+        },
+        {
+          "slug": "cycle-of-technology",
+          "title": "The Cycle of Technology",
+          "score": 0.5907
+        },
+        {
+          "slug": "fundamentally-new-technology",
+          "title": "Fundamentally New Technology",
+          "score": 0.587
+        },
+        {
+          "slug": "broad-and-narrow-technology",
+          "title": "Broad and Narrow Technology",
+          "score": 0.584
+        },
+        {
+          "slug": "standard-engineering",
+          "title": "Standard Engineering",
+          "score": 0.5784
+        },
+        {
+          "slug": "understanding-software-at-technical-level",
+          "title": "Understanding Software at the Technical Level",
+          "score": 0.5736
         }
       ]
     },
@@ -2979,9 +3664,9 @@
       "title": "Three-Layer Framework as Starting Lens for Reconnection Docs",
       "suggestions": [
         {
-          "slug": "connection-reading",
-          "title": "Connection-Oriented Reading — Conceptual Constraint-Relationship Mapping",
-          "score": 0.5678
+          "slug": "knowledge-reconnection",
+          "title": "Knowledge Reconnection Mechanism",
+          "score": 0.6846
         }
       ]
     },
@@ -2990,35 +3675,19 @@
       "title": "The Three Mental Resources",
       "suggestions": [
         {
+          "slug": "low-energy-ideation",
+          "title": "Idea Generation in Low-Energy States",
+          "score": 0.5247
+        },
+        {
+          "slug": "timeline-based-project-structure",
+          "title": "Timeline-Based Project Structure",
+          "score": 0.5167
+        },
+        {
           "slug": "attention-as-bottleneck",
           "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
-          "score": 0.6168
-        }
-      ]
-    },
-    {
-      "slug": "three-types-of-economic-behavior",
-      "title": "Three Types of Economic Behavior",
-      "suggestions": [
-        {
-          "slug": "banks-venture-capital-and-government",
-          "title": "Banks, Venture Capital, and Government",
-          "score": 0.5137
-        },
-        {
-          "slug": "elements-of-the-economy",
-          "title": "The Elements of the Economy",
-          "score": 0.4965
-        },
-        {
-          "slug": "circular-flow-diagram",
-          "title": "The Circular Flow Diagram",
-          "score": 0.4954
-        },
-        {
-          "slug": "naked-economy",
-          "title": "Naked Economy",
-          "score": 0.493
+          "score": 0.5095
         }
       ]
     },
@@ -3027,14 +3696,9 @@
       "title": "Timeline-Based Project Structure",
       "suggestions": [
         {
-          "slug": "system-coevolution",
-          "title": "System-Human Coevolution",
-          "score": 0.5484
-        },
-        {
-          "slug": "decision-model-as-next-domain-model",
-          "title": "Decision Model as Next Non-Specialist Domain Model",
-          "score": 0.5395
+          "slug": "willingness-experiment",
+          "title": "Willingness Experiment: Continue vs. Switch",
+          "score": 0.6919
         }
       ]
     },
@@ -3043,9 +3707,69 @@
       "title": "Transfer as a High-Leverage Cognitive Operation",
       "suggestions": [
         {
-          "slug": "discretize-first",
-          "title": "Discretize-First Problem Solving",
-          "score": 0.5672
+          "slug": "freedom-exploration-generator",
+          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+          "score": 0.649
+        },
+        {
+          "slug": "knowledge-transfer-fidelity",
+          "title": "The Fidelity Problem in Knowledge Transfer",
+          "score": 0.6065
+        },
+        {
+          "slug": "learning-dynamics",
+          "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
+          "score": 0.599
+        },
+        {
+          "slug": "memorization-in-pipeline",
+          "title": "Memorization in the Learning Pipeline",
+          "score": 0.589
+        },
+        {
+          "slug": "success-interrogation-heuristic",
+          "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
+          "score": 0.5865
+        },
+        {
+          "slug": "reconnection-doc-method",
+          "title": "Three-Layer Classification Method for Reconnection Docs",
+          "score": 0.5542
+        },
+        {
+          "slug": "learning-pipeline",
+          "title": "Learning Pipeline",
+          "score": 0.5532
+        },
+        {
+          "slug": "practice-as-learning-purpose",
+          "title": "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness",
+          "score": 0.5434
+        },
+        {
+          "slug": "knowledge-mastery-two-axis-model",
+          "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
+          "score": 0.5275
+        },
+        {
+          "slug": "leverage-existing-vs-build-from-scratch",
+          "title": "Leverage Existing Solutions vs. Build from Scratch — A Decision System Axis",
+          "score": 0.5082
+        },
+        {
+          "slug": "attention-as-bottleneck",
+          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
+          "score": 0.5062
+        },
+        {
+          "slug": "three-layer-framework",
+          "title": "Three-Layer Framework as Starting Lens for Reconnection Docs",
+          "score": 0.5057
+        },
+        {
+          "slug": "efficiency-formula",
+          "title": "The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates",
+          "score": 0.5037
         }
       ]
     },
@@ -3054,35 +3778,59 @@
       "title": "Understanding Software at the Technical Level",
       "suggestions": [
         {
+          "slug": "technology-in-the-singular-sense",
+          "title": "Technology in the Singular Sense",
+          "score": 0.6524
+        },
+        {
           "slug": "finding-examples",
           "title": "Finding Examples",
-          "score": 0.6126
-        }
-      ]
-    },
-    {
-      "slug": "understanding-willingness-to-pay",
-      "title": "Understanding Willingness to Pay",
-      "suggestions": [
-        {
-          "slug": "market-efficiency",
-          "title": "Market Efficiency",
-          "score": 0.5222
+          "score": 0.6113
         },
         {
-          "slug": "how-to-understand-price",
-          "title": "Understanding Price",
-          "score": 0.4898
+          "slug": "structural-understanding-in-daily-life",
+          "title": "Structural Understanding in Daily Life",
+          "score": 0.5739
         },
         {
-          "slug": "the-ten-principles-of-economics",
-          "title": "The Ten Principles of Economics",
-          "score": 0.4615
+          "slug": "three-definitions-of-technology",
+          "title": "The Three Definitions of Technology",
+          "score": 0.5736
         },
         {
-          "slug": "naked-economy",
-          "title": "Naked Economy",
-          "score": 0.4588
+          "slug": "the-gene-of-technology-phenomena",
+          "title": "The Gene of Technology: Phenomena",
+          "score": 0.5657
+        },
+        {
+          "slug": "technology",
+          "title": "Technology",
+          "score": 0.561
+        },
+        {
+          "slug": "classification-of-concepts",
+          "title": "The Classification of Concepts",
+          "score": 0.5531
+        },
+        {
+          "slug": "fundamentally-new-technology",
+          "title": "Fundamentally New Technology",
+          "score": 0.5234
+        },
+        {
+          "slug": "how-to-deal-with-complexity",
+          "title": "Dealing with Complexity",
+          "score": 0.5189
+        },
+        {
+          "slug": "external-and-internal-view-of-technology",
+          "title": "The External View and Internal View of Technology",
+          "score": 0.5153
+        },
+        {
+          "slug": "call-tree-as-third-perspective",
+          "title": "Call Tree as a Third Perspective on Program Execution",
+          "score": 0.5028
         }
       ]
     },
@@ -3093,12 +3841,23 @@
         {
           "slug": "object-attribute-migration",
           "title": "Object-Attribute Model as Migratable Perspective",
-          "score": 0.528
+          "score": 0.5156
+        }
+      ]
+    },
+    {
+      "slug": "university-two-pillar-strategy",
+      "title": "University Four-Year Strategy: Two Pillars, Run in Parallel",
+      "suggestions": [
+        {
+          "slug": "characteristics-of-excellent-universities",
+          "title": "Characteristics of Excellent Universities",
+          "score": 0.5244
         },
         {
-          "slug": "human-machine-code-reading-gap",
-          "title": "Human vs. Machine Code Reading — The Conceptual Gap",
-          "score": 0.4892
+          "slug": "mooc-brand-tools-inequality",
+          "title": "MOOC Courses as Brand Tools for Elite Universities",
+          "score": 0.5163
         }
       ]
     },
@@ -3107,14 +3866,9 @@
       "title": "Vocabulary Priming Before Topic-Specific Conversation",
       "suggestions": [
         {
-          "slug": "conversation-topic-flow",
-          "title": "How Conversation Topics Flow — Finding the Structure",
-          "score": 0.4845
-        },
-        {
-          "slug": "anki-for-english-conversation",
-          "title": "Anki Cards from English Conversations — Active Memory Maintenance",
-          "score": 0.4802
+          "slug": "english-comfort-zone-vocabulary",
+          "title": "English Comfort Zone Vocabulary — Settling Into Familiar Expressions",
+          "score": 0.5246
         }
       ]
     },
@@ -3123,49 +3877,69 @@
       "title": "Where Innovation Comes From",
       "suggestions": [
         {
-          "slug": "the-gene-of-technology-phenomena",
-          "title": "The Gene of Technology: Phenomena",
-          "score": 0.5046
-        },
-        {
-          "slug": "reconceptualizing-standard-engineering",
-          "title": "Reconceptualizing Standard Engineering",
-          "score": 0.5042
-        },
-        {
-          "slug": "new-technology-replacing-old",
-          "title": "Understanding New Technology Replacing Old Technology",
-          "score": 0.4893
-        },
-        {
-          "slug": "technology",
-          "title": "Technology",
-          "score": 0.4856
-        },
-        {
           "slug": "efficient-thinking",
           "title": "Efficient Thinking",
-          "score": 0.4651
+          "score": 0.5874
         },
         {
-          "slug": "our-attitude-toward-technology",
-          "title": "Our Attitude Toward Technology",
-          "score": 0.4631
+          "slug": "low-energy-ideation",
+          "title": "Idea Generation in Low-Energy States",
+          "score": 0.5823
         },
         {
           "slug": "external-and-internal-view-of-technology",
           "title": "The External View and Internal View of Technology",
-          "score": 0.4591
+          "score": 0.5708
         },
         {
-          "slug": "general-evolution-of-technology",
-          "title": "The General Evolution of Technology",
-          "score": 0.4523
+          "slug": "leverage-existing-vs-build-from-scratch",
+          "title": "Leverage Existing Solutions vs. Build from Scratch — A Decision System Axis",
+          "score": 0.5625
+        },
+        {
+          "slug": "efficiency-formula",
+          "title": "The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates",
+          "score": 0.5582
+        },
+        {
+          "slug": "reconceptualizing-standard-engineering",
+          "title": "Reconceptualizing Standard Engineering",
+          "score": 0.5432
+        },
+        {
+          "slug": "integrating-fragmented-life-strategies",
+          "title": "Integrating Fragmented Life Strategies",
+          "score": 0.537
+        },
+        {
+          "slug": "knowledge-and-thinking-at-university",
+          "title": "Knowledge and Thinking at University",
+          "score": 0.532
+        },
+        {
+          "slug": "math-competition-and-tech-innovation",
+          "title": "Math Competition Problems and Technological Innovation",
+          "score": 0.5317
         },
         {
           "slug": "fundamentally-new-technology",
           "title": "Fundamentally New Technology",
-          "score": 0.4522
+          "score": 0.5198
+        },
+        {
+          "slug": "technology",
+          "title": "Technology",
+          "score": 0.5159
+        },
+        {
+          "slug": "cycle-of-technology",
+          "title": "The Cycle of Technology",
+          "score": 0.5133
+        },
+        {
+          "slug": "our-attitude-toward-technology",
+          "title": "Our Attitude Toward Technology",
+          "score": 0.5083
         }
       ]
     },
@@ -3174,9 +3948,9 @@
       "title": "Willingness Experiment: Continue vs. Switch",
       "suggestions": [
         {
-          "slug": "completion-vs-quitting",
-          "title": "Completion vs. Quitting",
-          "score": 0.5247
+          "slug": "deep-work-recovery-cycle",
+          "title": "Deep-Work Recovery Cycle — Physical Constraint on Project Dynamics",
+          "score": 0.6661
         }
       ]
     }

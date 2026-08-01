@@ -1,5 +1,6 @@
 ---
 id: "idea-20260606-sce01"
+summary: "The M33 entity-relationship analysis enables a project management system to self-evolve by integrating user inputs into a relationship network, autonomously discovering patterns, and adjusting its own behavior without awaiting commands. This evolution then reshapes the user’s thinking modes, habits, and decision-making, creating new inputs that close a coevolutionary feedback loop. The paradigm was refined by settling four conceptual questions: data recording uses a unified nestable timeline of state transitions, recursive substates, and conversation traces, with online drafting and offline AI-assisted retrospective narration. The system accepts non-interpretability, relinquishing the demand for human-readable labels on emergent structures. It may act with high autonomy, modifying its own rules and thresholds and notifying only after action, while five safeguards—human veto, counter-evidence maintenance, random exploration injection, periodic reset-to-zero checks, and the user as ultimate corrective signal—prevent self-reinforcement."
 title: "System-Human Coevolution"
 tags: [system-design, coevolution, meta-cognition, feedback-loop, self-improvement]
 importance: 0
@@ -41,7 +42,6 @@ connections:
   - type: idea
     slug: "how-to-deal-with-complexity"
 ---
-
 # System-Human Coevolution
 
 ## Core Proposition

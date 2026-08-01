@@ -8,6 +8,7 @@ tags:
   - knowledge-modeling
   - teach-method
   - interaction-as-dictionary
+summary: "Knowledge mastery has two axes—concept (horizontal interaction density) and practice ("
 importance: 8
 connections:
   - type: idea
@@ -16,8 +17,9 @@ connections:
     slug: interaction-as-essence-heuristic
   - type: idea
     slug: strategy-three-component-model
+  - type: idea
+    slug: "learning-dynamics"
 ---
-
 # Knowledge Mastery — A Two-Axis Model with Recursive Levels
 
 **One sentence**: Knowing X = having access to X's interaction patterns, measured on two independent axes (concept and practice), with the same axes reapplied recursively to higher-level learning objects.

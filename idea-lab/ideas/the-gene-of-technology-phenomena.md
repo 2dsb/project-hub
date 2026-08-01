@@ -9,6 +9,7 @@ tags:
 - purposive-systems
 - recursive-structure
 - technology-theory
+summary: "Every technology depends on phenomena—independently existing regularities—which must be tamed by sub-technologies whose sole purpose is to harness them. A principle is a conceptual scheme that specifies how phenomena combine to achieve a purpose. Technology A embodies principle A, which orchestrates phenomena 1, 2, and 3 through corresponding sub-technologies, each with its own purpose. If the combination fails to achieve the goal, the process loops back. This yields a recursive purposive system where every technology is a physical realization of a principle that domesticates phenomena."
 importance: 1
 connections:
 - type: idea
@@ -17,6 +18,36 @@ connections:
   slug: technology-broad-and-narrow
 - type: project
   slug: ai-ability
+  - type: idea
+    slug: "fundamentally-new-technology"
+  - type: idea
+    slug: "three-definitions-of-technology"
+  - type: idea
+    slug: "classification-of-concepts"
+  - type: idea
+    slug: "general-evolution-of-technology"
+  - type: idea
+    slug: "finding-examples"
+  - type: idea
+    slug: "technology"
+  - type: idea
+    slug: "external-and-internal-view-of-technology"
+  - type: idea
+    slug: "reconceptualizing-standard-engineering"
+  - type: idea
+    slug: "evolution-of-phenomena"  # review: 0.591
+  - type: idea
+    slug: "cycle-of-technology"  # review: 0.590
+  - type: idea
+    slug: "our-attitude-toward-technology"  # review: 0.583
+  - type: idea
+    slug: "technology-domains"  # review: 0.573
+  - type: idea
+    slug: "understanding-software-at-technical-level"  # review: 0.566
+  - type: idea
+    slug: "standard-engineering"  # review: 0.556
+  - type: idea
+    slug: "economics"  # review: 0.551
 ---
 # Phenomena and Principles
 

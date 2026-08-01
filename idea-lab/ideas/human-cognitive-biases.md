@@ -8,6 +8,7 @@ tags:
   - ambiguity
   - reasoning-fallacies
   - writing-for-clarity
+summary: "Human cognitive biases like confirmation bias, the feature presence effect (availability heuristic), and ambiguity affect everyone by distorting reasoning. Confirmation bias leads people to seek views that feel comfortable, while the availability heuristic causes overestimation of the most accessible information. Ambiguity blurs logic in pursuit of coherence, introducing errors. Countermeasures include reversing the writing process to gather diverse perspectives before forming a view and writing arguments in consistent, coherent language to expose flaws."
 importance: 1
 connections:
   - type: permanent
@@ -22,8 +23,9 @@ connections:
     slug: "the-zettelkasten-method"
   - type: project
     slug: "ai-ability"
+  - type: idea
+    slug: "certainty-gravity"  # review: 0.505
 ---
-
 Some cognitive biases affect everyone. I record them here as a reminder.
 
 *I only read what confirms my views. Whatever comes to mind first must be the most important. Whatever I say must be right.*

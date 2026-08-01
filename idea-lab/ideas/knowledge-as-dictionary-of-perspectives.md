@@ -1,5 +1,6 @@
 ---
 id: "idea-20260713-kp01"
+summary: "Every knowledge point is a dictionary of perspective-keys and values, forming a multi-dimensional embedding where each key represents a distinct angle, and values can recursively nest as sub-dictionaries. Inspired by deep learning’s data-to-vector abstraction, this model reveals that fields like philosophy nest deeply under a single top key while CS spreads across many shallow keys. Complete understanding requires filling all keys, since each missing key omits a dimension. The dictionary structure unifies existing multi-perspective frameworks as specific key sets, aligns with the cohesion-coupling decomposition heuristic, and provides a generation heuristic to systematically enumerate perspectives."
 title: "Knowledge as a Dictionary of Perspectives — Each Knowledge Point Is a Multi-Dimensional Embedding"
 tags: [knowledge-representation, multi-perspective, deep-learning, vector-embedding, abstraction, modeling, meta-model, dictionary-metaphor]
 importance: 9
@@ -26,8 +27,9 @@ connections:
     slug: "space-as-perspective"
   - type: idea
     slug: "perspective-classification"
+  - type: idea
+    slug: "object-attribute-migration"  # review: 0.518
 ---
-
 # Knowledge as a Dictionary of Perspectives
 
 ## Core Insight

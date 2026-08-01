@@ -7,6 +7,7 @@ tags:
   - reverse-engineering
   - backward-reasoning
   - cross-domain
+summary: "The note presents a problem-solving method that first fixes the desired results of compositions f∘g and g∘f, then works backward from those target constraints to deduce properties of f and g before identifying the functions. It asks how this backward reasoning from target results can transfer to non-mathematical domains."
 importance: 1
 connections:
   - type: project
@@ -18,5 +19,4 @@ connections:
   - type: idea
     slug: math-competition-and-tech-innovation
 ---
-
 An alternative math problem-solving approach: first fix the results of f∘g and g∘f, then work backward from those result constraints to deduce the properties of f and g, and finally find f and g. How can this "fix the target result first, then reason backward to the required conditions" mindset transfer to non-math domains?

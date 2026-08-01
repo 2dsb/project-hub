@@ -12,6 +12,7 @@ tags:
   - deliberate-practice
   - skill-automation
   - creativity
+summary: "Innovation originates from experts who have turned proficiency into intuition through deliberate practice, freeing their finite mental energy to focus on the essence of problems rather than on formal derivations. This innovation chain mirrors the hermeneutic cycle, where knowledge becomes internalized as automatic habits, conserving energy for higher-level thought. To promote innovation, manage energy by imposing constraints that reduce friction—such as standardized note formats—and by pursuing interest-guided work that acts as fuel. The common belief that one should constantly think about what one is doing is overturned, because energy is a limited resource; experts do more without thinking, and that enables innovation. Building such automatic habits is difficult because rational goals have little force, but gradually introducing simple new habits can shift long-term behavior."
 importance: 1
 connections:
   - type: permanent
@@ -46,8 +47,33 @@ connections:
     slug: three-types-of-human-mental-resources
   - type: project
     slug: ai-ability
+  - type: idea
+    slug: "efficient-thinking"  # review: 0.587
+  - type: idea
+    slug: "low-energy-ideation"  # review: 0.582
+  - type: idea
+    slug: "external-and-internal-view-of-technology"  # review: 0.571
+  - type: idea
+    slug: "leverage-existing-vs-build-from-scratch"  # review: 0.562
+  - type: idea
+    slug: "efficiency-formula"  # review: 0.558
+  - type: idea
+    slug: "reconceptualizing-standard-engineering"  # review: 0.543
+  - type: idea
+    slug: "integrating-fragmented-life-strategies"  # review: 0.537
+  - type: idea
+    slug: "knowledge-and-thinking-at-university"  # review: 0.532
+  - type: idea
+    slug: "math-competition-and-tech-innovation"  # review: 0.532
+  - type: idea
+    slug: "fundamentally-new-technology"  # review: 0.520
+  - type: idea
+    slug: "technology"  # review: 0.516
+  - type: idea
+    slug: "cycle-of-technology"  # review: 0.513
+  - type: idea
+    slug: "our-attitude-toward-technology"  # review: 0.508
 ---
-
 Let us explore a question: where does innovation come from?
 
 When we talk about innovation, we tend to picture a scene: someone suddenly has a flash of insight, a disruptive idea strikes out of nowhere — this seems to be where innovation lives.

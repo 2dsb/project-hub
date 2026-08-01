@@ -11,6 +11,7 @@ tags:
 - shortage
 - surplus
 - government-policy
+summary: "A binding price ceiling legally prevents a price from rising to the market equilibrium, resulting in a persistent shortage, while a binding price floor causes a surplus, such as with minimum wage laws. Taxation dampens market activity by reducing the equilibrium quantity, and the burden of the tax is shared by buyers and sellers regardless of whether the tax is imposed on the sale or the purchase. The incidence of a tax depends on relative elasticities, with the burden falling more heavily on the side of the market that is less elastic; workers bear most of the payroll tax burden because labor supply is less elastic."
 importance: 1
 connections:
 - type: idea
@@ -19,8 +20,15 @@ connections:
   slug: taxation
 - type: project
   slug: naked-economics
+  - type: idea
+    slug: "competitive-markets"  # review: 0.581
+  - type: idea
+    slug: "deadweight-loss-of-taxation"  # review: 0.558
+  - type: idea
+    slug: "elasticity-of-supply-and-demand"  # review: 0.526
+  - type: idea
+    slug: "economists-as-policy-advisors"  # review: 0.510
 ---
-
 # Price Controls
 
 Price ceiling: the legal maximum price at which a good can be sold.

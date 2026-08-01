@@ -12,6 +12,7 @@ tags:
   - social-pressure
   - self-awareness
   - parenting
+summary: "Society and others shape the self by instilling biased common sense and normalizing conformist behavior, leading to helicopter parenting, perfectionism, and suppressed needs. Common sense implies a lack of thinking, making individuals susceptible to herd mentality and superficial choices like pursuing prestige over fundamental change or treating volunteering as résumé padding. Through new perspectives and active debate, one can recognize and transform indoctrinated common sense into personal wisdom. This thinking builds the self, bridges ideals and reality, and resists the salmon race of conformity. Ultimately, independent thinking enables decisions in one’s own true interest."
 importance: 1
 connections:
   - type: permanent
@@ -30,8 +31,9 @@ connections:
     slug: how-critical-dissatisfaction-with-the-status-quo-arises
   - type: idea
     slug: ai-ability
+  - type: idea
+    slug: "origin-of-critical-dissatisfaction"
 ---
-
 In notes 6, 7, and 8, others and society influence the self in two ways:
 
 1. **Common sense**: They promote value tendencies, and by influencing (if I may say so) my experiences, they fill my mind with biased common sense. This common sense shapes the way we think and how we perceive the world — but it is all imposed by society.

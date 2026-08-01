@@ -9,6 +9,7 @@ tags:
   - batch-size
   - speed
   - tradeoff
+summary: "The speed-first model-second learning strategy involves rapid raw intake followed by reflective structuring into a dictionary of perspectives. The batch size—how much is learned before modeling—trades off memory decay risk (from the timeline model’s M parameter) against cross-key pattern visibility (from the interaction-as-dictionary model). Small batches minimize decay but overhead, while large batches reveal richer interconnections yet risk decay and willingness depletion. Optimal size depends on M decay rate, knowledge structure density, and modeling cost, currently set intuitively at"
 connections:
   - type: idea
     slug: "decision-model-as-next-domain-model"
@@ -18,8 +19,21 @@ connections:
     slug: "reading-modeling-decomposition-tradeoff"
   - type: idea
     slug: "data-structure-first-code-reading"
+  - type: idea
+    slug: "attention-pointer-learning-model"
+  - type: idea
+    slug: "locate-first-model-last"
+  - type: idea
+    slug: "learning-dynamics"  # review: 0.599
+  - type: idea
+    slug: "freedom-exploration-generator"  # review: 0.593
+  - type: idea
+    slug: "implicit-improvement-pattern"  # review: 0.550
+  - type: idea
+    slug: "memorization-in-pipeline"  # review: 0.549
+  - type: idea
+    slug: "attention-as-bottleneck"  # review: 0.507
 ---
-
 # Speed-First Model-Second — Batch Size Tradeoff in Learning
 
 ## Meta: First Contact Between Two Main Models

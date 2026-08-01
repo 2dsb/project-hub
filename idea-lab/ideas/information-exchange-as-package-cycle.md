@@ -7,6 +7,7 @@ tags:
   - communication
   - llm
   - abstraction
+summary: "Seeing `response = llm_chat(messages, tools=tool_schemas)` crystallizes information exchange as a mechanical cycle of packaging state into a serialized format, sending, receiving, unpacking, acting, and repackaging. The crucial insight is that the package format itself constitutes the interface: the `list[dict]` message structure isn't an implementation detail but the protocol. This pattern recurs in HTTP requests, function calls, database queries, human conversation, and event systems. The agent loop is distinct because the `list[dict]` accumulates history with each cycle, making it a conversation rather than a transaction."
 importance: 3
 connections:
   - type: idea
@@ -14,7 +15,6 @@ connections:
   - type: idea
     slug: interaction-as-dictionary
 ---
-
 # Information Exchange as Package-Unpack-Repeat Cycle
 
 ## The trigger

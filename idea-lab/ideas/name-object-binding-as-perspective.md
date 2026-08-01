@@ -1,5 +1,6 @@
 ---
 id: "idea-20260711-nb01"
+summary: "Name-object binding deserves status as a first-class perspective on program execution because the three structural tree views—def tree, frame tree, and call tree—leave referential relationships implicit. The binding perspective explicitly tracks which names refer to which objects, revealing that a name can change its binding through rebinding or mutation, each with distinct propagation rules. This lens clarifies identity versus equality, the mutable default argument trap, nonlocal rebinding, and how immutable containers can still hold mutable objects. Frame trees already show name-to-object arrows in the Portal Model’s environment diagrams, but treating binding as a separate perspective, a binding graph, makes aliasing and the rebinding–mutation distinction central, not incidental. This suggests a complete four-perspective framework and a teaching sequence where binding is understood before mutation."
 title: "Name-Object Binding as a Perspective on Program Execution"
 tags: [cs61a, binding, environment-diagram, mutation, identity, mental-model, python]
 importance: 7
@@ -18,8 +19,11 @@ connections:
     slug: "knowledge-as-dictionary-of-perspectives"
   - type: idea
     slug: "human-machine-code-reading-gap"
+  - type: idea
+    slug: "object-attribute-migration"  # review: 0.566
+  - type: idea
+    slug: "data-structure-first-code-reading"  # review: 0.523
 ---
-
 # Name-Object Binding as a Perspective on Program Execution
 
 ## Discovery

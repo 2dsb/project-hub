@@ -12,6 +12,7 @@ tags:
   - essay-feedback
   - classroom-discussion
   - personal-development
+summary: "The teacher's true role is to awaken dormant potential in students, helping their souls conceive and release ideas, akin to installing data processing software. Excellent teachers lead small discussion classes, questioning students to refine thinking, and outside class provide detailed essay feedback on logic while using questioning to address deeper personal issues. The teacher-student bond is intimate, sacred, and lifelong. Good teachers share personal details, speak truth, are authentic, and apply broad knowledge to life."
 importance: 1
 connections:
   - type: permanent
@@ -30,8 +31,9 @@ connections:
     slug: "liberal-arts-education-and-art"
   - type: project
     slug: "gaokao-chinese"
+  - type: idea
+    slug: "return-of-college"  # review: 0.525
 ---
-
 In [Liberal Arts Education and Art](../ideas/liberal-arts-education-and-art.md), the purpose of liberal arts education is to cultivate students' proficiency in "the process of knowledge production," enabling them to think across time and space — and the teacher is the key to achieving this goal.
 
 # The Teacher's True Role

@@ -6,6 +6,7 @@ tags:
 - learning
 - recovery
 - productivity
+summary: "The Knowledge Reconnection Mechanism treats knowledge"
 importance: 0
 connections:
   - type: project
@@ -20,6 +21,10 @@ connections:
     slug: "deep-learning-book"
   - type: idea
     slug: "transfer-high-leverage"
+  - type: idea
+    slug: "reconnection-doc-method"
+  - type: idea
+    slug: "three-layer-framework"
 ---
 # Knowledge Reconnection Mechanism
 

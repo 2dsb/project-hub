@@ -1,11 +1,14 @@
 ---
 id: "idea-20260419-a3f7c2"
+summary: "After Sinopia stops buying Usonia's Treasury bonds, its economy initially falls into chaos with many bankruptcies,"
 title: "After Sinopia Stops Buying Usonia's Treasury Bonds"
 tags: ["government-bonds", "decoupling", "living-standards", "inflation", "productivity", "consumer-power", "economic-shift", "trade-flows", "real-wealth"]
 importance: 1
 connections: []
+connections:
+  - type: idea
+    slug: "government-economic-rescue-measures"  # review: 0.545
 ---
-
 For Sinopia:
 
 - Many businesses went bankrupt, and the economy fell into chaos.

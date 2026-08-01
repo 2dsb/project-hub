@@ -9,6 +9,7 @@ tags:
   - environment-diagram
   - mental-model
   - semantics
+summary: "Human code reading differs from machine execution because humans apply semantic compression, collapsing the multi-step execution of `make_adder(3)` into a single conceptual unit. This conceptual layer contrasts with the algorithmic layer's discrete frame creation and binding steps, raising questions about equivalence and the relationship between the two. The inside/outside duality from the deep-learning book mirrors this gap, and compression is the mechanism that separates the pattern-as-state-machine and code-as-mental-model views in the dual-perspective framework."
 importance: 3
 connections:
   - type: idea
@@ -21,6 +22,12 @@ connections:
     slug: name-object-binding-as-perspective
   - type: idea
     slug: abstraction-barrier-as-dual-perspective-bridge
+  - type: idea
+    slug: "data-structure-first-code-reading"  # review: 0.578
+  - type: idea
+    slug: "data-pattern-prediction-chain"  # review: 0.556
+  - type: idea
+    slug: "attention-pointer-learning-model"  # review: 0.516
 ---
 # Human vs. Machine Code Reading — The Conceptual Gap
 
@@ -51,4 +58,3 @@ This mirrors the [[deep-learning-book]] Ch5 framework: the Conceptual Layer ("ou
 
 This idea directly extends [[environment-diagram-dual-perspective]]: that framework distinguishes (1) pattern-as-state-machine view and (2) code-as-mental-model view. This idea sharpens that distinction by identifying *compression* as the mechanism that separates the two — humans compress sequences into semantic units; machines don't.
 
-⚠️ Expired without processing, auto-demoted to regular idea

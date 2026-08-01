@@ -9,9 +9,36 @@ tags:
   - rag
   - agents
   - patterns
+summary: "A narrow core capability often emerges first, then a surrounding layer of supporting infrastructure develops to make it practically useful. The LLM's pure sentence-to-sentence transform, for example, is augmented by RAG for knowledge grounding, agents for action routing, guardrails for safety, orchestration for multi-step workflows, and memory for state management. This same pattern appears with databases (ORMs, connection pools), CPUs (operating systems, compilers), and HTTP (caches, load balancers). The infrastructure categories are predictable: input enrichment, output routing, safety wrapping, state management, and composition. The pattern's universality remains uncertain, as the internet’s core capability in TCP/IP was itself infrastructure, potentially inverting the model."
 connections: []
+connections:
+  - type: idea
+    slug: "cycle-of-technology"  # review: 0.575
+  - type: idea
+    slug: "technology-in-the-singular-sense"  # review: 0.574
+  - type: idea
+    slug: "standard-engineering"  # review: 0.573
+  - type: idea
+    slug: "how-domains-evolve"  # review: 0.572
+  - type: idea
+    slug: "technology-domains"  # review: 0.567
+  - type: idea
+    slug: "general-evolution-of-technology"  # review: 0.556
+  - type: idea
+    slug: "reconceptualizing-standard-engineering"  # review: 0.538
+  - type: idea
+    slug: "the-gene-of-technology-phenomena"  # review: 0.537
+  - type: idea
+    slug: "external-and-internal-view-of-technology"  # review: 0.537
+  - type: idea
+    slug: "content-independent-framework"  # review: 0.521
+  - type: idea
+    slug: "fundamentally-new-technology"  # review: 0.511
+  - type: idea
+    slug: "structural-understanding-in-daily-life"  # review: 0.508
+  - type: idea
+    slug: "economic-evolution-driven-by-technological-evolution"  # review: 0.507
 ---
-
 # Core Capability → Supporting Infrastructure as Technology Evolution Pattern
 
 ## The observation

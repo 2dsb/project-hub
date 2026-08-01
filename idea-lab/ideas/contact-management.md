@@ -6,12 +6,14 @@ tags:
 - crm
 - relationships
 - personal-data
+summary: "A systematic contact management system is needed to record people’s details, proactively maintain relationships by “catering to their interests”—remembering what they care about—and unlock latent network value. The two-way information asymmetry makes resources invisible, so the system tracks interest points and triggers contact when relevant content, events, or follow-ups arise. Monetizing the network involves demand matching, information arbitrage, and skill resource pooling. This could become a personal skill with a contact entity data layer and AI-driven reminders for interest-based outreach."
 importance: 0
 connections:
   - type: project
     slug: ai-ability
+  - type: idea
+    slug: "contact-management-simplified-schema"
 ---
-
 # Contact Management System
 
 Record people I know, with the following fields:

@@ -7,6 +7,7 @@ tags:
 - opportunity-cost
 - gains-from-trade
 - specialization
+summary: "Absolute advantage means producing a good with fewer inputs. Comparative advantage, which is the ability to produce at a lower opportunity cost, is the basis for mutually beneficial trade. Trade allows everyone to specialize according to their comparative advantage, creating gains from trade. The price of trade falls between the opportunity costs of the two parties."
 importance: 1
 connections:
 - type: idea
@@ -15,8 +16,9 @@ connections:
   slug: production-possibilities-frontier
 - type: project
   slug: naked-economics
+  - type: idea
+    slug: "international-trade"
 ---
-
 # Definition
 Absolute advantage: the ability of a producer to produce a good using fewer inputs than another producer
 Opportunity cost: whatever must be given up to obtain something

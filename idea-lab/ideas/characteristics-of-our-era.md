@@ -1,11 +1,26 @@
 ---
 id: "idea-20260128-d91e4f"
+summary: "The contemporary era is defined by five intertwined dimensions: technology marked by acceleration and iteration, economy and society by fragmentation and restructuring, individual spirit by anxiety and awakening, the global landscape by turmoil and connection, and narrative methods by fragmentation and algorithms. These conditions provoke urgent questions about whether power is shifting from traditional institutions to tech platforms and individuals, how truth is established in a post-truth environment where facts entangle with emotion and stance, what defines humanness as artificial intelligence capabilities expand, and whether unlimited economic growth must give way to a sustainable paradigm."
 title: "Characteristics of Our Era"
 tags: ["era-characteristics", "ai", "post-truth", "definition-of-human", "growth-reassessment", "information-cocoons", "power-shift", "technology", "economy", "globalization", "mental-health", "climate-crisis", "social-media", "algorithms", "inequality"]
 importance: 1
 connections: []
+connections:
+  - type: idea
+    slug: "our-attitude-toward-technology"  # review: 0.593
+  - type: idea
+    slug: "technology"  # review: 0.577
+  - type: idea
+    slug: "classification-of-concepts"  # review: 0.555
+  - type: idea
+    slug: "three-definitions-of-technology"  # review: 0.552
+  - type: idea
+    slug: "economic-evolution-driven-by-technological-evolution"  # review: 0.538
+  - type: idea
+    slug: "external-and-internal-view-of-technology"  # review: 0.528
+  - type: idea
+    slug: "finding-examples"  # review: 0.502
 ---
-
 | Dimension            | Keyword                     | Core Manifestations & Tensions                                                                                                                                                                              | Books                                                             |
 | -------------------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
 | Technology           | Acceleration & Iteration     | AI and biotechnology developing exponentially; technological dividends coexist with risks of ethical breakdown and job displacement                                                                        | *The Nature of Technology*, *AI 2041*                             |

@@ -1,11 +1,14 @@
 ---
 id: "idea-20260419-a3f7b2"
+summary: "The government established an artificial exchange ratio between intrinsically valueless US dollars and gold, initially ensuring all issued currency could redeem the gold reserves. Over time, the money supply was increased until outstanding dollars exceeded the gold available, and the dollar-to-gold ratio was adjusted to shrink each dollar's gold redemption. This reduced the real value of a dollar, leading to rising prices, declining consumer confidence, and diminished consumer savings."
 title: "Inflation"
 tags: ["inflation", "fiat-currency", "gold-standard", "us-dollar", "price-increases", "savings-decline", "monetary-policy", "currency-devaluation", "purchasing-power"]
 importance: 1
 connections: []
+connections:
+  - type: idea
+    slug: "collapse-of-the-gold-standard"
 ---
-
 The government issued "US dollars" and set an exchange ratio between dollars and gold.
 
 Result: an artificial rule was created — a valueless item was legally declared exchangeable for valuable "gold."

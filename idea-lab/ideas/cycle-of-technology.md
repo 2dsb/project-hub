@@ -11,14 +11,44 @@ tags:
 - technology-evolution
 - path-dependence
 - paradigm-shift
+summary: "The technology cycle describes how a fundamentally new principle emerges from demand in an immature, cobbled-together form, then rapidly spawns derivative technologies as different actors pursue varied purposes. Internal drivers like performance strengthening and safety enhancement propel development, but the technology eventually hits limitations from its own phenomena or external functionality, which are addressed through internal replacement of sub-technologies or structural deepening that adds supporting sub-layers. At maturity, performance cannot be improved further, yet lock-in occurs because the refined old technology outperforms crude new alternatives, marginal transition costs are high, and practitioners resist unfamiliar principles, causing adaptive extension where old methods are stretched to meet new demands. Ultimately, when adaptive extension fails, a newer principle gains a foothold and restarts the cycle, a pattern reflected in military systems as encrustation and in scientific theories as a similar periodic structure."
 importance: 1
 connections:
 - type: idea
   slug: three-definitions-of-technology
 - type: project
   slug: ai-ability
+  - type: idea
+    slug: "general-evolution-of-technology"
+  - type: idea
+    slug: "fundamentally-new-technology"
+  - type: idea
+    slug: "external-and-internal-view-of-technology"
+  - type: idea
+    slug: "reconceptualizing-standard-engineering"
+  - type: idea
+    slug: "standard-engineering"
+  - type: idea
+    slug: "new-technology-replacing-old"
+  - type: idea
+    slug: "how-domains-evolve"
+  - type: idea
+    slug: "technology-in-the-singular-sense"
+  - type: idea
+    slug: "technology"
+  - type: idea
+    slug: "economic-evolution-driven-by-technological-evolution"
+  - type: idea
+    slug: "the-gene-of-technology-phenomena"  # review: 0.590
+  - type: idea
+    slug: "technology-domains"  # review: 0.586
+  - type: idea
+    slug: "core-capability-supporting-infrastructure-pattern"  # review: 0.575
+  - type: idea
+    slug: "broad-and-narrow-technology"  # review: 0.567
+  - type: idea
+    slug: "methodology-change-timing"  # review: 0.544
 ---
-
 This refers to the process from the emergence of a new technology to its replacement by an even newer technology (here, "technology" is used in the plural sense).
 
 ## 1. Origin

@@ -1,11 +1,16 @@
 ---
 id: "idea-20260419-a3f7c2"
+summary: "Usonia's economic rescue measures, including aiding homebuyers, building infrastructure, and developing a donkey-powered alternative energy device in the Middle Island Empire (Sinopia), require printing money, but without fish reserves this risks inflation. The chosen option—exchanging dollars with foreign countries for goods—strengthens the dollar, making imports cheaper and eroding domestic manufacturer competitiveness, while sustaining a consume-more-than-produce lifestyle through"
 title: "Government Economic Rescue Measures"
 tags: ["economic-stimulus", "money-printing", "trade-deficit", "national-debt", "inflation", "manufacturing-hollowing-out", "monetary-policy", "fiscal-policy"]
 importance: 1
 connections: []
+connections:
+  - type: idea
+    slug: "after-sinopia-stops-buying-usonia-treasury-bonds"  # review: 0.545
+  - type: idea
+    slug: "impact-of-foreign-crises-on-the-us-and-quantitative-easing"  # review: 0.531
 ---
-
 1. Providing aid and stimulus policies:
    - Offering assistance to homebuyers
    - Building infrastructure to boost employment

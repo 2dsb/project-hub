@@ -6,6 +6,7 @@ tags:
   - methodology
   - framework
   - meta-cognition
+summary: "The Three-Layer Classification Method for Reconnection Docs applies the three-layer framework as a"
 importance: 3
 connections:
   - type: idea
@@ -22,11 +23,13 @@ connections:
     slug: "human-structure-ai-completeness"
   - type: idea
     slug: "residuals-as-honesty-device"
+  - type: idea
+    slug: "structural-patience"
+  - type: idea
+    slug: "transfer-high-leverage"  # review: 0.554
+  - type: idea
+    slug: "framework-from-data"  # review: 0.512
 ---
-
-
-
-
 # Three-Layer Classification Method for Reconnection Docs
 
 **The method**: When building a reconnection doc for a new chapter, use the three-layer framework as the *starting lens*, not as a post-hoc discovery. The process reduces to four steps.
@@ -73,4 +76,3 @@ The Ch5 reconnection work validated this method on 116 concepts. The three-layer
 - **Extends** [[knowledge-reconnection]]: Adds a systematic classification step before the encode phase. The original method's "human outlines architecture → AI assembles → human reviews" workflow remains; this method changes what the human does in step 1 from "articulate content-specific organization" to "classify by three universal criteria."
 - **Derived from** [[three-layer-framework]]: The three-layer framework is the static structure; this method is the operational procedure for applying it to new content.
 
-⚠️ Expired without processing, auto-demoted to regular idea (material_since: 2026-07-02, expired: 2026-07-16)

@@ -1,5 +1,6 @@
 ---
 id: "idea-20260626-xsrc01"
+summary: "X.com is a high-noise, high-velocity information source in a Source→Router→Sink pipeline, whose value depends entirely on curation through one's follow list. It serves a discovery role, not depth role, so the Router layer is the bottleneck; tactics like using AI as a Router to extract key items and a hard time cap are essential. Comparable sources include Reddit and HN with collective curation via community voting, and arXiv with self-curation, representing complementary filtering mechanisms that, alongside X.com's personal curation, provide broader signal coverage."
 title: "X.com as Information Source — Curation & Alternatives"
 tags: [information-source, curation, x-com, flow-based-thinking, noise-filtering]
 importance: 0
@@ -11,7 +12,6 @@ connections:
   - type: idea
     slug: ai-source-triage
 ---
-
 # X.com as Information Source
 
 ## Context

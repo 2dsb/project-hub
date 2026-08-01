@@ -1,5 +1,6 @@
 ---
 id: "idea-20260609-dp01"
+summary: "the daily→ideas pipeline is broken"
 title: "daily→ideas Pipeline Broken: Daily Ideas Not Auto-Extracted"
 tags: [process, pipeline, m34, daily-note, idea-extraction]
 importance: 5
@@ -17,7 +18,6 @@ connections:
   - type: idea
     slug: "chat-as-idea-source"
 ---
-
 # daily→ideas Pipeline Broken: Daily Ideas Not Auto-Extracted
 
 ## Discovery

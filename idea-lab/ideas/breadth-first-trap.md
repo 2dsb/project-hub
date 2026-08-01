@@ -7,6 +7,7 @@ tags:
 - execution
 - meta-skill
 - actionable
+summary: "Breadth-first approaches to starting tasks—opening a flood of reference pages or mentally"
 importance: 2
 connections:
   - type: project
@@ -23,6 +24,16 @@ connections:
     slug: 卡片笔记写作法c3.4
   - type: permanent
     slug: 优秀的绵羊c6.3
+  - type: idea
+    slug: "framework-extraction-pattern"  # review: 0.546
+  - type: idea
+    slug: "efficiency-formula"  # review: 0.541
+  - type: idea
+    slug: "freedom-exploration-generator"  # review: 0.538
+  - type: idea
+    slug: "attention-as-bottleneck"  # review: 0.536
+  - type: idea
+    slug: "how-to-deal-with-complexity"  # review: 0.500
 ---
 # Breadth-First Search → Depth-First Execution
 

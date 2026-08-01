@@ -7,6 +7,7 @@ tags:
 - chinese
 - methodology
 - inquiry
+summary: "The inquiry-based essay method starts by exhausting a concept's conceptual domain, using operational tactics like exemplify and generalize, analogical leaps, and dimensional exhaustion to map its intension (essential meaning) and extension (referents), then verifying accuracy with counterexample and substitution tests. For every question raised, answers are generated from multiple angles—such as positive/negative or historical/future—to expose different facets. These answers are then naturally woven into a coherent argument, avoiding mechanical stitching. This approach emphasizes conceptual clarity over structural frameworks and is the output-side counterpart to connection-reading, both valuing dense constraint relationships between concepts."
 importance: 0
 connections:
   - type: idea
@@ -39,6 +40,18 @@ connections:
     slug: "卡片笔记写作法c2.3"
   - type: permanent
     slug: "卡片笔记写作法c3.6"
+  - type: idea
+    slug: "residuals-as-honesty-device"  # review: 0.539
+  - type: idea
+    slug: "natural-language-narration-methodology"  # review: 0.518
+  - type: idea
+    slug: "the-zettelkasten-method"  # review: 0.510
+  - type: idea
+    slug: "knowledge-and-thinking-at-university"  # review: 0.503
+  - type: idea
+    slug: "content-independent-framework"  # review: 0.501
+  - type: idea
+    slug: "teach-method-fixes"  # review: 0.500
 ---
 # Inquiry-Based Essay Method — Concept Exhaustion → Multi-Angle Answers → Natural Weaving
 

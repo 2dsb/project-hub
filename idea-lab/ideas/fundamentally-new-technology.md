@@ -10,14 +10,22 @@ tags:
 - innovation-modes
 - standard-engineering
 - technology-evolution
+summary: "Standard engineering builds new technology through iterative updates on existing principles, so the principle remains identical to past technology while only sub-technology requirements change. In contrast, fundamentally new technology adopts a new principle to achieve an existing purpose, requiring the creation of a conceptual solution that links the requirement to phenomena. This solution is often discovered through appropriation from other domains, combining prior concepts, or sudden inspiration, and then materialized by recursively configuring sub-technologies. The recursive design method reflects the recursive nature of technology itself, and this inventive paradigm parallels the process of theory-building in science and mathematics."
 importance: 1
 connections:
 - type: idea
   slug: standard-engineering-reconstruction
 - type: project
   slug: ai-ability
+  - type: idea
+    slug: "reconceptualizing-standard-engineering"
+  - type: idea
+    slug: "standard-engineering"
+  - type: idea
+    slug: "cycle-of-technology"
+  - type: idea
+    slug: "the-gene-of-technology-phenomena"
 ---
-
 Standard engineering understands new technology as iterative updates on existing technology, forming a "Darwinian" process.
 
 The question is: are there other modes of technological innovation — for example, new technology not based on existing technology?

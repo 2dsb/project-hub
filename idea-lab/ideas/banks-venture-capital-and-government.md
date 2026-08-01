@@ -9,6 +9,7 @@ tags:
   - lending
   - savings
   - monetary-policy
+summary: "Banks intermediate between depositors and borrowers, while venture capital firms direct funds to high-risk, high-return companies. The Federal Reserve, as an extension of the U.S. Treasury, sets a benchmark interest rate based on the collective wisdom of economists to stimulate or cool the economy. This policy of low interest rates artificially stimulates borrowing and suppresses saving, sending a false signal of economic health. The approach is fundamentally flawed because the Fed's decisions are driven by political considerations and its premise incorrectly assumes that central planners know the appropriate interest rate better than the market."
 importance: 1
 connections:
   - type: idea
@@ -16,7 +17,6 @@ connections:
   - type: idea
     slug: money-social-division-of-labor-and-workers
 ---
-
 Banks take deposits from savers, lend/invest the funds, and pay interest to depositors.
 
 ```

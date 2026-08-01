@@ -6,6 +6,7 @@ tags:
 - self-improvement
 - methodology
 - system-design
+summary: "Efficiency gains come from two intertwined paths: incremental updates that crystallize naturally during task execution via an embedded idea-to-skill pipeline, and systemic updates that demand stepping outside daily work to restructure the methodology itself. Incremental updates are fine-grained, synchronous with execution, and rely on a crystallization mechanism like the evaluation-to-solidification loop; systemic updates are coarse-grained, low-frequency, and involve a meta-perspective redesign of the underlying system. The two form a feedback loop where accumulated incremental tensions and patterns reach a critical point, triggering a qualitative systemic leap that then reshapes execution. This model overturns the earlier 80/20 time-split notion, recognizing that most efficiency improvements happen simultaneously with doing, not in separate blocks. The relationship reframes productivity as a dynamic interplay between learning while executing (incremental) and learning about learning methods (systemic)."
 importance: 0
 connections:
 - type: project
@@ -20,6 +21,28 @@ connections:
   slug: methodology-change-timing
 - type: literature-note
   slug: 卡片笔记写作法c3.4
+  - type: idea
+    slug: "leverage-existing-vs-build-from-scratch"  # review: 0.586
+  - type: idea
+    slug: "where-innovation-comes-from"  # review: 0.558
+  - type: idea
+    slug: "strategy-three-component-model"  # review: 0.550
+  - type: idea
+    slug: "practice-as-learning-purpose"  # review: 0.547
+  - type: idea
+    slug: "breadth-first-trap"  # review: 0.541
+  - type: idea
+    slug: "cycle-of-technology"  # review: 0.537
+  - type: idea
+    slug: "efficient-thinking"  # review: 0.529
+  - type: idea
+    slug: "implicit-improvement-pattern"  # review: 0.525
+  - type: idea
+    slug: "freedom-exploration-generator"  # review: 0.518
+  - type: idea
+    slug: "timeline-based-project-structure"  # review: 0.509
+  - type: idea
+    slug: "transfer-high-leverage"  # review: 0.504
 ---
 # The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates
 

@@ -7,12 +7,16 @@ tags:
   - teach
   - pass-criteria
   - assessment
+summary: "Pass criteria are a first-class curriculum design element that should be stated before lesson content, not after. They define the observable behavior that counts as evidence of learning, dictating where learners invest effort and whether the lesson format fits. A Pass Bar statement clarifies the exit-gate capability, distinct from learning objectives. This micro-level pass bar pairs with the macro-level practice-as-purpose principle, creating a two-level purpose hierarchy where the internship deadline answers why learn and the pass bar specifies what "learned" looks like for each lesson."
 importance: 3
 connections:
   - type: idea
     slug: practice-as-learning-purpose
+  - type: idea
+    slug: "teach-method-fixes"  # review: 0.565
+  - type: idea
+    slug: "teach-coverage-check"  # review: 0.508
 ---
-
 # Pass Criteria as a First-Class Curriculum Design Element
 
 ## The observation

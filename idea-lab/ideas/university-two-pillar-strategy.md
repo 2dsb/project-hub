@@ -1,11 +1,16 @@
 ---
 id: "idea-20260731-utp"
+summary: "The university strategy rests on two pillars run in parallel from day one: skill mastery and social network building. Skill development uses industry-first reverse planning, mapping AI or embodied intelligence products and supply chains to pick a sub-field, then back-tracing required courses to reach top 0.1% production-grade depth. The social ladder ascends from class monitor to external relations department (for corporate-facing networking) and culminates as Math Department Student Union President, deliberately surfacing opportunities that directly feed back into skill growth. Both tracks advance simultaneously because early social positions enable internships and mentors, while deep expertise gives the network substance, avoiding the trap of having either visibility without value or value without visibility."
 title: "University Four-Year Strategy: Two Pillars, Run in Parallel"
 tags: [career-planning, university, AI, embodied-intelligence, entrepreneurship, networking, social-capital, methodology, student-union]
 importance: 10
 connections: []
+connections:
+  - type: idea
+    slug: "characteristics-of-excellent-universities"  # review: 0.524
+  - type: idea
+    slug: "mooc-brand-tools-inequality"  # review: 0.516
 ---
-
 # University Four-Year Strategy: Two Pillars, Run in Parallel
 
 ## Source

@@ -1,5 +1,6 @@
 ---
 id: idea-20260606-nor01
+summary: "Review is posited as more than a retrospective tool, prompting inquiry into its role within a knowledge system. It may function as a metacognitive operation, an experience extraction mechanism, or an intermediate layer that bridges concrete and abstract understanding, making this a meta-question deserving further exploration."
 title: 'The Nature of "Review"'
 tags: [meta-cognition, review, knowledge-management, methodology]
 importance: 0
@@ -13,7 +14,6 @@ connections:
   - type: permanent
     slug: 技术的本质c1.7
 ---
-
 # The Nature of "Review"
 
 Review is more than just a retrospective tool. Where does it sit within a knowledge system? Is it a metacognitive operation? An experience extraction mechanism? An intermediate layer bridging the concrete and the abstract? This itself is a meta-question worth exploring.

@@ -1,5 +1,6 @@
 ---
 id: "idea-20260626-impl01"
+summary: "Skill improvement in tetr.io and English fluency occurs without conscious awareness of what was learned, following a repetition → implicit pattern extraction → measurable improvement loop. The underlying Data→Pattern→Prediction chain runs entirely below awareness, with only output metrics like APM, PPS, and APP visible. This suggests memory should be split into M_explicit (articulable knowledge) and M_implicit (opaque but decay-prone skill) in a project model. It questions whether the same mechanism drives both conscious learning and subconscious acquisition, differing only in access to the intermediate pattern layer."
 title: "Implicit Improvement — Getting Better Without Knowing How"
 tags: [implicit-learning, skill-acquisition, tetrio, english-learning, procedural-memory]
 importance: 0
@@ -10,8 +11,23 @@ connections:
     slug: "english-learning"
   - type: idea
     slug: "timeline-based-project-structure"
+  - type: idea
+    slug: "learning-dynamics"
+  - type: idea
+    slug: "memorization-in-pipeline"
+  - type: idea
+    slug: "speed-first-model-second-batch-tradeoff"  # review: 0.550
+  - type: idea
+    slug: "freedom-exploration-generator"  # review: 0.542
+  - type: idea
+    slug: "memorized-offline-procedures"  # review: 0.537
+  - type: idea
+    slug: "knowledge-transfer-fidelity"  # review: 0.537
+  - type: idea
+    slug: "efficiency-formula"  # review: 0.525
+  - type: idea
+    slug: "learning-pipeline"  # review: 0.501
 ---
-
 # Implicit Improvement Pattern
 
 ## The Observation
