@@ -55,7 +55,8 @@ def read_idea(filepath: Path) -> dict | None:
         elif stripped.startswith("- type:") and in_connections:
             current_conn = {"type": stripped.removeprefix("- type:").strip()}
         elif stripped.startswith("slug:") and in_connections:
-            current_conn["slug"] = stripped.removeprefix("slug:").strip().strip('"')
+            raw = stripped.removeprefix("slug:").strip().strip('"')
+            current_conn["slug"] = raw.split("#")[0].strip().strip('"')  # strip inline comments
             existing_conns.append(current_conn)
             current_conn = {}
         elif stripped.startswith("- ") and in_tags:

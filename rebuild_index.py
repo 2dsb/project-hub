@@ -39,7 +39,8 @@ def rebuild_index():
             elif s.startswith("- type:") and in_conn:
                 cur = {"type": s.removeprefix("- type:").strip()}
             elif s.startswith("slug:") and in_conn:
-                cur["slug"] = s.removeprefix("slug:").strip().strip('"')
+                raw = s.removeprefix("slug:").strip().strip('"')
+                cur["slug"] = raw.split("#")[0].strip().strip('"')  # strip inline comments
                 entry["connections"].append(cur)
                 cur = {}
             elif s.startswith("- ") and in_tags:

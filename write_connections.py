@@ -43,7 +43,8 @@ def write_connections(suggestions_path: Path, dry_run: bool = False) -> dict:
             if stripped == "connections:":
                 in_conn = True
             elif in_conn and stripped.startswith("slug:"):
-                existing_slugs.add(stripped.removeprefix("slug:").strip().strip('"'))
+                raw = stripped.removeprefix("slug:").strip().strip('"')
+                existing_slugs.add(raw.split("#")[0].strip().strip('"'))  # strip inline comments
             elif in_conn and not stripped.startswith(("- ", "slug:")):
                 in_conn = False
 

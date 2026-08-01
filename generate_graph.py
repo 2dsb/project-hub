@@ -144,7 +144,8 @@ def build_graph_from_files() -> nx.Graph:
             elif in_conn and s.startswith("- type:"):
                 cur = {"type": s.removeprefix("- type:").strip()}
             elif in_conn and s.startswith("slug:"):
-                cur["slug"] = s.removeprefix("slug:").strip().strip('"')
+                raw = s.removeprefix("slug:").strip().strip('"')
+                cur["slug"] = raw.split("#")[0].strip().strip('"')  # strip inline comments
                 connections.append(cur)
                 cur = {}
             elif in_conn and not s.startswith(("- ", "slug:")):
@@ -202,7 +203,7 @@ def detect_communities(G: nx.Graph) -> dict:
     # Assign IDs: large communities get 0, 1, 2...; small ones get -1
     node_to_comm = {}
     for i, comm in enumerate(comms):
-        cid = i if len(comm) >= 5 else -1
+        cid = i if len(comm) >= 3 else -1
         for node in comm:
             node_to_comm[node] = cid
 
@@ -211,15 +212,21 @@ def detect_communities(G: nx.Graph) -> dict:
 
 def render_graph(G: nx.Graph, communities: dict, output_path: Path):
     """Render the graph to an interactive HTML file using pyvis."""
-    # Generate enough distinct hex colors for large communities
+    # Curated palette of 20 visually distinct colors (hand-picked for contrast)
+    palette_20 = [
+        "#4e79a7", "#f28e2b", "#e15759", "#76b7b2", "#59a14f",
+        "#edc948", "#b07aa1", "#ff9da7", "#9c755f", "#bab0ac",
+        "#6a3d9a", "#b15928", "#33a02c", "#1f78b4", "#fb9a99",
+        "#e31a1c", "#fdbf6f", "#cab2d6", "#a6cee3", "#b2df8a",
+    ]
     n_large = max(1, sum(1 for c in set(communities.values()) if c >= 0))
-    palette = []
-    for i in range(n_large):
-        hue = (i / n_large) * 360
-        # HSL( hue, 65%, 55% ) → RGB → hex
-        r, g, b = colorsys.hls_to_rgb(hue / 360, 0.55, 0.65)
-        hex_color = f"#{int(r*255):02x}{int(g*255):02x}{int(b*255):02x}"
-        palette.append(hex_color)
+    palette = palette_20[:n_large]
+    # If more communities than palette entries, generate extras
+    if n_large > len(palette_20):
+        for i in range(len(palette_20), n_large):
+            hue = (i * 137.5) % 360  # golden angle for good separation
+            r, g, b = colorsys.hls_to_rgb(hue / 360, 0.50, 0.65)
+            palette.append(f"#{int(r*255):02x}{int(g*255):02x}{int(b*255):02x}")
 
     net = Network(
         height="100vh",
