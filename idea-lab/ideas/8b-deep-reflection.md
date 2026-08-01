@@ -7,7 +7,7 @@ tags:
 - action-guide
 - life-imagination
 summary: "The "learning to think" section in 8b currently describes actively seeking collisions of thought and new perspectives but needs a concrete action guide. This note requests a detailed breakdown of how to find a career using that method, and a separate detailed breakdown of how to find life imagination, both under the same approach."
-importance: 3
+importance: 1.49  # auto
 connections:
   - type: project
     slug: "ai-ability"

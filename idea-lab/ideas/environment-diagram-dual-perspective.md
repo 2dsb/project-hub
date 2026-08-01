@@ -12,7 +12,7 @@ tags:
   - conceptual-compression
   - code-reading
 summary: "The note proposes a dual-perspective modeling framework for Environment Diagrams: a real pattern state-machine model where programs are paths through environment snapshots from the interpreter's perspective, and a comprehension view where code reading treats function bodies as frames and `return` as a portal for mental tracing, avoiding graphical diagrams. This reveals a deeper gap between human conceptual compression (e.g., reading `make_adder(3)` as a single semantic chunk) and machine algorithmic stepwise execution, mapping onto DL Chapter 5’s layers. The Portal Model captures the algorithmic half, but the conceptual half—how humans compress execution into meaning—remains unmodeled."
-importance: 3
+importance: 3.33  # auto
 connections:
   - type: project
     slug: "cs61a"

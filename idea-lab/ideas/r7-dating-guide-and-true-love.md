@@ -3,7 +3,7 @@ id: "idea-20260129-8f6ab9"
 summary: "In r7, women judge a man's power through feeling triggered by environmental cues like a candlelit dinner"
 title: "R7 Dating Guide and True Love"
 tags: [love, interpersonal-attraction, emotional-psychology, environmental-effect, rational-analysis]
-importance: 2
+importance: 0.0  # auto
 connections: []
 ---
 In r7, women judge whether a man is "powerful" by "feeling" — a candlelit dinner moves them, not 100 bitcoins in a wallet.

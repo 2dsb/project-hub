@@ -71,7 +71,11 @@ def build_graph() -> nx.Graph:
             if c.get("type") == "idea" and (IDEAS_DIR / f"{c['slug']}.md").exists()
         ]
 
-        G.add_node(slug, title=title, importance=importance, manual=(not is_auto and importance != 1))
+        # -1  → manual "very important" tag, never overwrite
+        # everything else → auto (PageRank overwrites each run)
+        manual = importance == -1
+
+        G.add_node(slug, title=title, importance=importance, manual=manual)
 
         for conn in idea_conns:
             other = conn["slug"]

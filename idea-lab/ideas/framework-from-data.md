@@ -7,7 +7,7 @@ tags:
 - structure-analysis
 - research-method
 summary: "A framework claiming universality collapsed because it was built from only five argumentative paragraphs, elevating topic→elaboration prematurely. The core principle is to accumulate data first, let patterns cluster naturally, then build frameworks rather than hunting for confirming examples after defining a taxonomy. Analysts should annotate conceptual constraints sentence by sentence using the stable 24 types and describe organizational patterns in natural language without terminologizing or imposing existing categories. Clustering should occur only after at least three chapters of analysis, and framework files like text-structure-types.md and structure-constraint-mapping.md must be frozen until that threshold, with current content archived as observation notes. Goal ambiguity is acceptable during data accumulation; the correct sequence is expanded analytical coverage, then natural clustering, then framework formation, learned from the v1→v2 refactoring where a single counterexample shattered a small-sample claim."
-importance: 0
+importance: 4.09  # auto
 connections:
 - type: project
   slug: "linguistic-structure-analysis"

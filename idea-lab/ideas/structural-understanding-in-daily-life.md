@@ -3,7 +3,7 @@ id: "idea-20260319-7a9edc"
 summary: "Understanding something begins by analyzing its internal organizational structure rather than merely its surface concepts. This is a theoretical prototype requiring refinement into a full theory, emphasizing the examination of an entity’s principles and methods of action. The note poses the question of technology’s structure from a purely logical perspective as a guiding example."
 title: "Structural Understanding in Daily Life"
 tags: [structural-analysis, theory-building, concept-organization]
-importance: 2
+importance: 5.14  # auto
 connections:
   - type: idea
     slug: "framework-from-data"  # auto

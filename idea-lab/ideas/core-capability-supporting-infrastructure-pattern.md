@@ -1,7 +1,7 @@
 ---
 id: "idea-20260719-core-capability-supporting-infrastructure"
 title: "Core Capability → Supporting Infrastructure as Technology Evolution Pattern"
-importance: 3
+importance: 4.04  # auto
 tags:
   - technology-evolution
   - llm

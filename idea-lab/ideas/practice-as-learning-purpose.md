@@ -8,7 +8,7 @@ tags:
   - knowledge-transfer
   - internship
 summary: "Learning with an imminent practice goal, like an internship starting Monday, is qualitatively different: it provides an unambiguous purpose anchor, eliminates motivational friction, and leverages the temporal proximity effect where brief gaps between learning and application make knowledge actionable rather than archival. This forces an abstract-to-concrete transition—converting concepts into deployable skills—which creates richer memory traces and better transfer. Personal evidence shows completing Python, RAG, and Agents tracks to 100% in three days, far exceeding prior velocity. The design principle is to always attach learning to a concrete, dated practice event."
-importance: 3
+importance: 3.6  # auto
 connections: []
 connections:
   - type: idea

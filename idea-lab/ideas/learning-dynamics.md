@@ -8,7 +8,7 @@ tags:
   - optimization
   - actionable
 summary: "The two-axis model represents knowledge mastery as a state with horizontal interaction density c and vertical cross-filter binding strength p, and learning dynamics are the forces that change that state. Acquisition forces like exposure, deliberate mapping, execution, cross-domain transfer, and teaching push c and p upward, while drag forces such as decay, interference, complexity ceilings, and attention competition pull them down. Phase transitions to higher recursion levels require saturation, deliberate comparison across objects, or external perturbation. Open questions"
-importance: 7
+importance: 5.3  # auto
 connections:
   - type: idea
     slug: knowledge-mastery-two-axis-model

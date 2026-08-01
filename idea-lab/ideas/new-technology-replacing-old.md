@@ -6,7 +6,7 @@ tags:
 - opportunity-niche
 - innovation-theory
 summary: "The note questions whether the replacement of old technology by new technology can be understood as an optimizing occupation of an opportunity niche."
-importance: 2
+importance: 2.12  # auto
 connections:
 - type: permanent
   slug: "36-一般意义上技术的演化"

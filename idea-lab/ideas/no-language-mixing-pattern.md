@@ -3,7 +3,7 @@ id: "idea-20260626-nomix01"
 summary: "I used to follow a strict “No Language Mixing” pattern, insisting on pure English or pure Chinese in a single sentence to avoid judgment and the tension I felt. I now question whether that rule stemmed from perfectionism or fear of appearing incompetent, and whether it ultimately helped or added anxiety. Today I practice an English correction mode where I actively invite corrections, which may be the evolved form of that earlier concern: the same drive for accuracy endures, but the strategy has shifted from avoidance of mixing to exposure to feedback."
 title: "No Language Mixing — A Past Behavioral Pattern in English Learning"
 tags: [english-learning, code-switching, anxiety, self-judgment, behavioral-pattern]
-importance: 0
+importance: 0.0  # auto
 connections:
   - type: project
     slug: "english-learning"

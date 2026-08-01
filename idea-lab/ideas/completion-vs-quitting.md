@@ -3,7 +3,7 @@ id: idea-20260512-a4d2f7
 summary: "The belief that finishing everything you start builds self-trust can cause irrational persistence when the thing no longer holds value. The ideal state is to act based on importance and planning: quit decisively even if only one day remains to completion if it has no value, or persist for as long as it takes if it remains valuable."
 title: Completion vs. Quitting
 tags: [discipline, decision-making, sunk-cost, self-trust, principles]
-importance: 3.0
+importance: 2.97  # auto
 connections:
   - type: idea
     slug: "certainty-gravity"  # auto

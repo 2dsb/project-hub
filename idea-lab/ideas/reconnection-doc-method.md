@@ -7,7 +7,7 @@ tags:
   - framework
   - meta-cognition
 summary: "The Three-Layer Classification Method for Reconnection Docs applies the three-layer framework as a"
-importance: 3
+importance: 4.81  # auto
 connections:
   - type: idea
     slug: "three-layer-framework"  # auto

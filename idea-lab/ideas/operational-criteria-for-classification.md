@@ -6,7 +6,7 @@ tags:
 - framework-design
 - classification
 summary: "Operational yes/no criteria make classification faster and more reliable than descriptive labels because they collapse understanding and application into a single step. Instead of requiring someone to internalize abstract categories like "conceptual layer" versus "math layer," binary questions such as "Is it precise and unambiguous?" or "Would it still be true if no algorithm used it?" yield a decision in seconds. This approach turns a three-layer framework into a simple decision tree where each test directly separates the categories without demanding prior mastery of the system. A classification system is only truly operational if a newcomer can use it to classify unfamiliar items in under a minute."
-importance: 2
+importance: 1.52  # auto
 connections:
   - type: idea
     slug: three-layer-framework

@@ -6,7 +6,7 @@ tags:
   - analytical-tools
   - perspective
 summary: "In economics, curves serve as analytical tools with inherent limitations."
-importance: 2
+importance: 3.35  # auto
 connections:
   - type: project
     slug: "naked-economics"

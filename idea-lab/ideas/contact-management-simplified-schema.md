@@ -3,7 +3,7 @@ id: "idea-20260731-cms"
 summary: "A contact management schema should be stripped to four fields—name, contact, maintenance_tier (core/general/weak), and contact_dates—because the prior 12+ fields demanded constant manual upkeep that doesn’t scale. Interests, recent updates, resources, and needs become stale without maintenance, while birthdays only matter for core ties and identity can be captured implicitly. The contact_dates list replaces free-text interaction logs with a pure signal of relationship investment: frequency and recency directly measure relationship health. Tags are premature categorization for a small network. Existing contacts will migrate to this minimal structure, dropping all excess fields."
 title: "Contact Management Simplified: 4-Field Schema"
 tags: [people-map, contact-management, simplification, design-decision, data-model]
-importance: 7
+importance: 2.3  # auto
 connections:
   - type: idea
     slug: "four-step-networking-method"  # auto

@@ -14,7 +14,7 @@ tags:
   - note-taking
   - thinking
 summary: "The Zettelkasten Method is a note-taking system designed to improve thinking and writing by building an external knowledge base. It organizes four types of notes: fleeting notes for raw ideas, literature notes for reformulated readings, permanent notes for synthesized insights, and project notes for task-specific content. The process rejects linear writing in favor of the hermeneutic"
-importance: 4.0
+importance: 4.02  # auto
 connections:
   - type: permanent
     slug: "卡片笔记写作法c1.1"

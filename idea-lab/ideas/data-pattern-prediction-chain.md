@@ -3,7 +3,7 @@ id: "idea-20260626-dpp01"
 summary: "The Data → Pattern → Prediction chain describes a universal abstraction progression: raw observations (data) are compressed into regularities (patterns), which then enable forecasts for novel situations (predictions). This sequence appears in science (experiment results, theories, hypotheses), machine learning (training sets, model weights, inference), learning, conversation, and daily life, demonstrating domain-independence. It differs from process-design pipelines like Source→Router→Sink by focusing on abstraction levels rather than flow topology, with the pattern layer corresponding to compressed memory artifacts in project structures."
 title: "Data → Pattern → Prediction Chain"
 tags: [abstraction, learning, pattern-recognition, prediction, cognitive-pipeline]
-importance: 0
+importance: 2.54  # auto
 connections:
   - type: idea
     slug: "learning-pipeline"  # auto

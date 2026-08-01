@@ -9,7 +9,7 @@ tags:
 - M34
 - design-review
 summary: "Spec-based review can only find discrepancies between implementation and spec; it is blind to gaps in the spec itself. The M34 recursive-planner audits failed to catch that template text was static and would never evolve, despite the system’s own co-evolution claim, because the audit criteria only verified that the spec’s explicit requirements were met. This structural blind spot creates a false sense of security as finding counts drop across rounds. To break through, audit methodology needs a Design Commitment Audit layer that checks whether publicly promised properties, like evolvability, are actually realized, supplemented by a Devil’s Advocate role asking naive questions and periodic commitment-reality comparisons driven by user inquiry."
-importance: 9
+importance: 4.14  # auto
 connections:
 - type: idea
   slug: "m34-source-layer-static-rigidity"

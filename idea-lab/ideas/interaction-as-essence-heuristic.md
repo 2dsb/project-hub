@@ -8,7 +8,7 @@ tags:
   - relationism
   - heuristic
 summary: "The Interaction-as-Essence Heuristic shifts modeling from asking what a thing is to how it interacts, treating internals as a black box and interaction patterns as the only operable data. A property is a regularity, and so-called essence is merely a property with exceptionally wide interaction scope—a quantitative limit, not a qualitative kind. This dissolves essentialism: proton number appears fundamental only because it governs an immense range of interactions. The heuristic explains frameworks like the portal model and cohesion-coupling, where predictive value stems from interaction patterns rather than intrinsic natures."
-importance: 4
+importance: 1.87  # auto
 connections:
   - type: idea
     slug: "interaction-as-dictionary"  # auto

@@ -8,7 +8,7 @@ tags:
   - methodology
   - abstraction
 summary: "Transfer, applying an abstract structure from one domain to another, is a high-leverage cognitive operation because it converts a single insight into many applications at near-zero additional learning cost. Successful transfer requires extracting the underlying structure—not the content—mapping it to a new domain, and verifying the mapping holds, as seen in moving the physics learning method to English learning, applying PCA's encode/decode architecture to knowledge reconnection, and using Git's six-layer system with precise sync semantics for human-AI interaction design. The asymmetric ROI—minutes to abstract, hours saved—makes systematic transfer after significant learning events a compoundingly valuable meta-skill."
-importance: 0
+importance: 6.24  # auto
 connections:
   - type: idea
     slug: "knowledge-reconnection"  # auto

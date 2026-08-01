@@ -7,7 +7,7 @@ tags:
   - curriculum-design
   - actionable
 summary: "The /teach method requires splitting every lesson into concept lessons focused on building horizontal interaction density without code, and practice lessons that establish vertical cross-filter bindings through code reading, because mixing these and using top-down sequencing causes recursive questioning that destabilizes learning. Lessons must be sequenced bottom-up from the lowest abstraction needed, with concept always preceding practice, and practice lessons containing no new concepts. The passing bar for practice is code reading rather than independent writing, fitting these fixes into the method’s existing rapid-concept-push cycle before the integrative exam."
-importance: 8
+importance: 5.42  # auto
 connections:
   - type: idea
     slug: knowledge-mastery-two-axis-model

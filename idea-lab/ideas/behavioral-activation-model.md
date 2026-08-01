@@ -3,7 +3,7 @@ id: "idea-20260623-ba01"
 summary: "Low morning energy scores are a starting condition, not a static label, and they can improve through behavioral activation. The previous low-energy-day design wrongly treated low scores as fixed, adapting the plan downward immediately, but the correct approach treats them as a transient state and offers a behavioral activation path: push through for about three hours, then reassess, because the score may have already recovered. Social accountability—like a friend expecting you at your best—is the highest-leverage recovery trigger, as demonstrated when a 40/40 below-threshold state rose to 70/70 after three hours of pretending full energy and studying together. Solo endurance is a slower, rougher fallback, and the activity pool now serves as Plan C. This model distinguishes transient low energy that feels permanent from genuine sickness, with the key mechanism likely involving social pressure overriding internal signals."
 title: "Behavioral Activation Model: Low Scores Are Starting Conditions, Not Static Labels"
 tags: [productivity, low-energy, behavioral-activation, social-accountability, self-management, skill-design]
-importance: 7
+importance: 3.07  # auto
 connections:
   - type: skill
     slug: "low-energy-day"

@@ -6,7 +6,7 @@ tags:
 - framework-design
 - knowledge-reconnection
 summary: "A content-independent framework, defined by structural criteria rather than subject matter, survives across chapters and domains, whereas a content-bound one dies with its specific topic. The 4-layer architecture (abstraction, representation, operation, feature) works only for linear algebra, and the 2-domain split works only for probability and information theory. In contrast, the three-layer framework—conceptual, technical architecture, mathematical—organizes any chapter retroactively and into the future. The rule of thumb: if an organizing principle references specific content, it is a one-off; if it references structural properties any content would have, it is reusable."
-importance: 2
+importance: 5.41  # auto
 connections:
   - type: idea
     slug: "three-layer-framework"  # auto

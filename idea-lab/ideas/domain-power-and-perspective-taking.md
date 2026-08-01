@@ -6,7 +6,7 @@ tags:
   - domain-theory
   - cognitive-methods
 summary: "The everyday practice of understanding something thoroughly by examining it from multiple angles resembles the power of domains, because each perspective offers distinct strengths that can be synthesized. This note asks whether multi-angle analysis, often seen as perspective-taking, can be reframed explicitly in terms of domains, suggesting that shifting viewpoints might be equivalent to leveraging different domain-specific insights."
-importance: 2
+importance: 1.58  # auto
 connections:
   - type: project
     slug: "ai-ability"

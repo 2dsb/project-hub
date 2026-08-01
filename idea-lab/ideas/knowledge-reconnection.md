@@ -7,7 +7,7 @@ tags:
 - recovery
 - productivity
 summary: "The Knowledge Reconnection Mechanism treats knowledge"
-importance: 0
+importance: 5.24  # auto
 connections:
   - type: project
     slug: "ai-ability"

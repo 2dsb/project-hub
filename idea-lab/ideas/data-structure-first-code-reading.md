@@ -1,7 +1,7 @@
 ---
 id: "idea-20260719-data-structure-first-code-reading"
 title: "Data Structure First — Memorize Shapes Before Reading Code"
-importance: 3
+importance: 4.04  # auto
 tags:
   - learning
   - code-reading

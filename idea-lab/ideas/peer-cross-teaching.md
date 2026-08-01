@@ -3,7 +3,7 @@ id: "idea-20260621-pct01"
 summary: "Peer cross-teaching is a structured learning strategy where two people pre-divide a large domain into chunks, each first learning one chunk deeply, then cross-teaching the other. This inserts a human value-judgment layer before information reaches the learner, similar to AI source triage but with a peer. Because each person only needs to first-pass their own chunk, learning is dramatically accelerated, as illustrated by one person saving half the time on a deep learning course after guidance from a peer. The method generalizes to any splittable domain, structured by clear boundaries and handoff points."
 title: "Peer Cross-Teaching"
 tags: [learning, efficiency, peer-instruction, flow-based-thinking, human-routing]
-importance: 0
+importance: 1.45  # auto
 connections:
   - type: idea
     slug: "ai-source-triage"  # auto

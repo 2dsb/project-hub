@@ -9,7 +9,7 @@ tags:
   - teach-method
   - interaction-as-dictionary
 summary: "Knowledge mastery has two axes—concept (horizontal interaction density) and practice ("
-importance: 8
+importance: 3.98  # auto
 connections:
   - type: idea
     slug: interaction-as-dictionary

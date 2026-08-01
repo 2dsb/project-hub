@@ -12,7 +12,7 @@ tags:
   - mentorship
   - peer-learning
 summary: "College’s value lies not in vocational training but in fostering critical thinking and self-formation. It provides a deliberately removed environment where students learn to recognize and question the biases of common sense through rigorous mentorship and dialectical peer exchange. This practice of thinking cultivates alertness, freedom, and wholeness. The ultimate object of thought is the self: by challenging inherited assumptions and integrating intellectual and emotional experiences, one builds a distinctive personal substance. The goal is to continually ask what constitutes a good life and how to pursue it."
-importance: 10.0
+importance: 10.0  # auto
 connections:
   - type: permanent
     slug: 优秀的绵羊c5.1
