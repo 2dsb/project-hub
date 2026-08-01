@@ -13,13 +13,9 @@ connections:
 - type: idea
   slug: "local-pattern-patching-failure"
 - type: idea
-  slug: "practice-to-theory"
-- type: idea
   slug: "natural-language-narration-methodology"
 - type: idea
   slug: "fix-result-backward"
-- type: idea
-  slug: "consumer-vs-creator"
 - type: idea
   slug: "structural-understanding-in-daily-life"
 - type: idea

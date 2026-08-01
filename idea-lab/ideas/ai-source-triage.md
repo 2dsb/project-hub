@@ -7,10 +7,6 @@ connections:
   - type: idea
     slug: "flow-based-thinking"
   - type: idea
-    slug: "reading-bottleneck"
-  - type: idea
-    slug: "ai-amplifier"
-  - type: idea
     slug: "peer-cross-teaching"
   - type: idea
     slug: "learning-pipeline"

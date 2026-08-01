@@ -4,10 +4,6 @@ title: "Understanding the Word \"Friend\""
 tags: [friendship, interpersonal-relationships, love, social-patterns, self-analysis]
 importance: 3
 connections:
-  - type: idea
-    slug: "relationship-modeling"
-  - type: idea
-    slug: "social-strategy-skill"
 ---
 
 Common sense (my view): Friends should be permanent, solid

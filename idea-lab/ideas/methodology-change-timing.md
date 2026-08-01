@@ -16,8 +16,6 @@ connections:
     slug: "certainty-gravity"
   - type: idea
     slug: "efficiency-formula"
-  - type: idea
-    slug: "practice-to-theory"
 ---
 # The Timing Risk of Methodology Changes
 

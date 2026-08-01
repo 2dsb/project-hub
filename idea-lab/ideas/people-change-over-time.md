@@ -6,8 +6,6 @@ importance: 1
 connections:
   - type: idea
     slug: "completion-vs-quitting"
-  - type: idea
-    slug: "relationship-modeling"
 ---
 
 People change over time. Should past feelings extend to the present person? Should the present person extend to the future person?

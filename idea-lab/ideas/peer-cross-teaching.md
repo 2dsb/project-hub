@@ -9,11 +9,7 @@ connections:
   - type: idea
     slug: "flow-based-thinking"
   - type: idea
-    slug: "ai-amplifier"
-  - type: idea
     slug: "learning-pipeline"
-  - type: idea
-    slug: "skill-sharing"
 ---
 
 # Peer Cross-Teaching

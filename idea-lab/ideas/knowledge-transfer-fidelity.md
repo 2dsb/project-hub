@@ -11,8 +11,6 @@ connections:
   - type: idea
     slug: "conversation-breadth-vs-depth"
   - type: idea
-    slug: "knowledge-possibility"
-  - type: idea
     slug: "clarity-as-universal-principle"
 ---
 

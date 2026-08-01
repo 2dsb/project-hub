@@ -4,8 +4,6 @@ title: "Finding Examples"
 tags: ["technology-theory", "proof-of-concept", "essence-of-technology"]
 importance: 1
 connections:
-  - type: idea
-    slug: "practice-to-theory"
 ---
 
 Prove that at the singular level, technology is composed of central principles, primary integrations, and secondary integrations.

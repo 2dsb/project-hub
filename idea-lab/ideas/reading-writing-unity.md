@@ -16,10 +16,6 @@ connections:
 - type: project
   slug: ai-ability
 - type: idea
-  slug: reading-bottleneck
-- type: idea
-  slug: practice-to-theory
-- type: idea
   slug: natural-language-narration-methodology
 - type: project
   slug: linguistic-structure-analysis

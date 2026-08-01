@@ -31,8 +31,6 @@ connections:
   - type: idea
     slug: "daily-to-ideas-pipeline-broken"
   - type: idea
-    slug: "meta-skill-lifecycle"
-  - type: idea
     slug: "audit-blind-spot-spec-limitation"
   - type: idea
     slug: "four-layer-quality-model"

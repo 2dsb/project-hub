@@ -11,8 +11,6 @@ connections:
   slug: "36-一般意义上技术的演化"
 - type: project
   slug: "ai-ability"
-- type: idea
-  slug: "iteration-in-life"
 ---
 Can it be understood as an optimizing occupation of an opportunity niche?
 

@@ -7,11 +7,7 @@ connections:
   - type: idea
     slug: integrating-fragmented-life-strategies
   - type: idea
-    slug: meta-skill-lifecycle
-  - type: idea
     slug: audit-blind-spot-spec-limitation
-  - type: idea
-    slug: iteration-in-life
   - type: permanent
     slug: 技术的本质-推荐序1
   - type: permanent

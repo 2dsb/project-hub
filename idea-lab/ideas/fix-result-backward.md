@@ -12,10 +12,6 @@ connections:
   - type: project
     slug: ai-ability
   - type: idea
-    slug: discretize-first
-  - type: idea
-    slug: parity-signal-mechanism
-  - type: idea
     slug: analogical-transfer-conditions
   - type: idea
     slug: framework-from-data

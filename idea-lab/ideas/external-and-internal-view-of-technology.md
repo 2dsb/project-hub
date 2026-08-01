@@ -10,8 +10,6 @@ importance: 1
 connections:
   - type: project
     slug: "ai-ability"
-  - type: idea
-    slug: "consumer-vs-creator"
 ---
 
 There is a shift in perspective here — from viewing technology as standalone objects with fixed purposes to viewing technology as things that can be endlessly combined into new configurations.

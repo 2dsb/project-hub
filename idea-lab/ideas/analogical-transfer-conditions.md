@@ -7,8 +7,6 @@ connections:
   - type: idea
     slug: "knowledge-transfer-fidelity"
   - type: idea
-    slug: "discretize-first"
-  - type: idea
     slug: "fix-result-backward"
 ---
 

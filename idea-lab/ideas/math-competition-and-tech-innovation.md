@@ -11,11 +11,7 @@ connections:
 - type: project
   slug: ai-ability
 - type: idea
-  slug: discretize-first
-- type: idea
   slug: fix-result-backward
-- type: idea
-  slug: parity-signal-mechanism
 ---
 Is the method of conceiving fundamentally new technology somewhat similar to solving a math competition problem?
 

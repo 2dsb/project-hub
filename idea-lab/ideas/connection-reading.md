@@ -14,8 +14,6 @@ connections:
   - type: idea
     slug: "inquiry-essay-method"
   - type: idea
-    slug: "reading-bottleneck"
-  - type: idea
     slug: "clarity-as-universal-principle"
   - type: idea
     slug: "natural-language-narration-methodology"

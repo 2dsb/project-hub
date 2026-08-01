@@ -8,8 +8,6 @@ connections:
     slug: "ai-ability"
   - type: idea
     slug: "inquiry-essay-method"
-  - type: idea
-    slug: "practice-to-theory"
   - type: permanent
     slug: "优秀的绵羊c9.2"
 ---

@@ -10,10 +10,6 @@ importance: 0
 connections:
   - type: project
     slug: ai-ability
-  - type: idea
-    slug: relationship-modeling
-  - type: idea
-    slug: social-strategy-skill
 ---
 
 # Contact Management System

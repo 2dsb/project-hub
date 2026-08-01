@@ -6,8 +6,6 @@ importance: 8
 connections:
   - type: idea
     slug: "four-step-networking-method"
-  - type: idea
-    slug: "social-strategy-skill"
 ---
 
 # The Stranger Conversation Loop

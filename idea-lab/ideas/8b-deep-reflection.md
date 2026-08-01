@@ -10,10 +10,6 @@ importance: 3
 connections:
   - type: project
     slug: "ai-ability"
-  - type: idea
-    slug: "keeping-up-with-ai-era"
-  - type: idea
-    slug: "role-models"
 ---
 In 8b, for the "learning to think" section, provide a concrete action guide (the current approach described is actively seeking collisions of thought and new perspectives). Also explore: under this method, how to find a career — break down the process in detail — and how to find life imagination, also broken down in detail.
 

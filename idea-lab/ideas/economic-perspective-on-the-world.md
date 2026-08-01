@@ -9,8 +9,6 @@ importance: 2
 connections:
   - type: project
     slug: "naked-economics"
-  - type: idea
-    slug: "discretize-first"
 ---
 In economics, curves are just a tool, with limitations.
 

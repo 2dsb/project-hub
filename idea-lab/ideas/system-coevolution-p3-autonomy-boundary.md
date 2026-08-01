@@ -8,8 +8,6 @@ connections:
     slug: "system-coevolution"
   - type: idea
     slug: "system-coevolution-p4-self-reinforcement"
-  - type: idea
-    slug: "meta-skill-lifecycle"
 ---
 
 # System Coevolution - Problem 3: The Boundary of Self-Updating Systems

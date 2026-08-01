@@ -21,8 +21,6 @@ connections:
   - type: idea
     slug: "peer-cross-teaching"
   - type: idea
-    slug: "parity-signal-mechanism"
-  - type: idea
     slug: "system-coevolution"
   - type: idea
     slug: "structural-understanding-in-daily-life"

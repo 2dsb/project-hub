@@ -9,10 +9,6 @@ connections:
   - type: idea
     slug: "knowledge-transfer-fidelity"
   - type: idea
-    slug: "coffee-talk"
-  - type: idea
-    slug: "social-strategy-skill"
-  - type: idea
     slug: "clarity-as-universal-principle"
 ---
 

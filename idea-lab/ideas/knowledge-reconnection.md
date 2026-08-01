@@ -16,8 +16,6 @@ connections:
     slug: "illness-reframing"
   - type: idea
     slug: "learning-pipeline"
-  - type: idea
-    slug: "reading-bottleneck"
   - type: project
     slug: "deep-learning-book"
   - type: idea

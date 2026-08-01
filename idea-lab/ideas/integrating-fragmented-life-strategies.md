@@ -7,15 +7,9 @@ connections:
   - type: idea
     slug: "nature-of-review"
   - type: idea
-    slug: "meta-skill-lifecycle"
-  - type: idea
     slug: "efficiency-formula"
   - type: idea
-    slug: "increasing-time"
-  - type: idea
     slug: "system-coevolution"
-  - type: idea
-    slug: "life-resources"
   - type: idea
     slug: "recording-and-questioning-beliefs"
 ---

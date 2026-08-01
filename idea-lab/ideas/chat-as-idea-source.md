@@ -8,8 +8,6 @@ connections:
     slug: "conversation-as-data-source"
   - type: idea
     slug: "daily-to-ideas-pipeline-broken"
-  - type: idea
-    slug: "consumer-vs-creator"
   - type: permanent
     slug: "卡片笔记写作法c3.6"
   - type: permanent

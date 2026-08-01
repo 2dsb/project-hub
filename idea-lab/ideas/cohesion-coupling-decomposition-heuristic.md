@@ -9,8 +9,6 @@ connections:
   - type: idea
     slug: "how-to-deal-with-complexity"
   - type: idea
-    slug: "discretize-first"
-  - type: idea
     slug: "concepts的划分"
   - type: idea
     slug: "attention-pointer-learning-model"

@@ -13,15 +13,9 @@ connections:
 - type: project
   slug: project-hub
 - type: idea
-  slug: increasing-time
-- type: idea
-  slug: meta-skill-efficiency
-- type: idea
   slug: integrating-fragmented-life-strategies
 - type: idea
   slug: low-energy-ideation
-- type: idea
-  slug: iteration-in-life
 - type: idea
   slug: methodology-change-timing
 - type: literature-note

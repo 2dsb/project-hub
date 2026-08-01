@@ -1,0 +1,200 @@
+"""Compute connection suggestions using embedding similarity.
+
+For each idea, find semantically similar ideas that aren't already connected.
+Uses Top-N + Gap Detection to avoid forcing low-quality suggestions.
+"""
+
+import json
+import re
+from pathlib import Path
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
+
+IDEAS_DIR = Path("idea-lab/ideas")
+OUTPUT_PATH = Path("idea-lab/connection-suggestions.json")
+MAX_CANDIDATES = 15  # pool size for gap detection
+MIN_SCORE = 0.45     # absolute floor — below this, never suggest
+MAX_SUGGESTIONS = 10 # hard cap per idea
+BODY_MAX_CHARS = 300
+
+
+def read_idea(filepath: Path) -> dict | None:
+    """Read an idea .md file and extract metadata + embedding text."""
+    content = filepath.read_text(encoding="utf-8")
+    match = re.match(r"^---\s*\n(.*?)\n---\s*\n(.*)", content, re.DOTALL)
+    if not match:
+        return None
+
+    frontmatter = match.group(1)
+    body = match.group(2).strip()
+    slug = filepath.stem
+
+    title = ""
+    tags = []
+    existing_conns = []
+    in_tags = False
+    in_connections = False
+    current_conn = {}
+
+    for line in frontmatter.split("\n"):
+        stripped = line.strip()
+        if stripped.startswith("id:"):
+            pass
+        elif stripped.startswith("title:"):
+            title = stripped.removeprefix("title:").strip().strip('"').strip("'")
+        elif stripped == "tags:":
+            in_tags = True
+            in_connections = False
+        elif stripped == "connections:":
+            in_connections = True
+            in_tags = False
+        elif stripped.startswith("- type:") and in_connections:
+            current_conn = {"type": stripped.removeprefix("- type:").strip()}
+        elif stripped.startswith("slug:") and in_connections:
+            current_conn["slug"] = stripped.removeprefix("slug:").strip().strip('"')
+            existing_conns.append(current_conn)
+            current_conn = {}
+        elif stripped.startswith("- ") and in_tags:
+            tags.append(stripped.removeprefix("- ").strip())
+
+    tag_str = " ".join(f"#{t}" for t in tags)
+    text_for_embedding = f"{title}. {tag_str}. {body[:BODY_MAX_CHARS]}"
+
+    existing_slugs = {conn["slug"] for conn in existing_conns}
+
+    return {
+        "slug": slug,
+        "title": title,
+        "tags": tags,
+        "text": text_for_embedding,
+        "existing_connections": existing_slugs,
+    }
+
+
+def apply_gap_detection(candidates: list) -> list:
+    """Filter candidates by finding the natural gap in similarity scores.
+
+    Candidates are [(slug, title, score), ...] sorted descending.
+    Finds the biggest score drop and cuts off everything after it.
+    Then applies MIN_SCORE floor.
+    """
+    if not candidates:
+        return []
+
+    scores = [c[2] for c in candidates]
+
+    # Find the index of the largest drop between consecutive scores
+    max_gap = 0
+    gap_idx = len(scores)  # default: keep all
+    for i in range(1, len(scores)):
+        gap = scores[i - 1] - scores[i]
+        if gap > max_gap:
+            max_gap = gap
+            gap_idx = i
+
+    # Keep everything BEFORE the biggest gap
+    kept = candidates[:gap_idx]
+
+    # Apply minimum score floor
+    kept = [c for c in kept if c[2] >= MIN_SCORE]
+
+    # Hard cap
+    kept = kept[:MAX_SUGGESTIONS]
+
+    return kept
+
+
+def main():
+    print("Loading model...")
+    model = SentenceTransformer("all-mpnet-base-v2")
+
+    print(f"Reading ideas from {IDEAS_DIR}...")
+    ideas = []
+    for md_file in sorted(IDEAS_DIR.glob("*.md")):
+        idea = read_idea(md_file)
+        if idea:
+            ideas.append(idea)
+
+    texts = [i["text"] for i in ideas]
+    slugs = [i["slug"] for i in ideas]
+
+    print(f"Embedding {len(ideas)} ideas...")
+    embeddings = model.encode(texts, show_progress_bar=True)
+
+    print("Computing similarity matrix...")
+    sim_matrix = cosine_similarity(embeddings)
+
+    print(f"Generating suggestions (gap detection, min={MIN_SCORE}, max_candidates={MAX_CANDIDATES})...")
+    suggestions = []
+    stats = {"counts": {}, "scores": []}
+
+    for i, idea in enumerate(ideas):
+        scores = sim_matrix[i]
+        ranked = sorted(
+            [(j, scores[j]) for j in range(len(scores)) if j != i],
+            key=lambda x: x[1],
+            reverse=True,
+        )
+
+        # Pool top candidates not already connected
+        pool = []
+        for j, score in ranked:
+            other_slug = slugs[j]
+            if other_slug not in idea["existing_connections"]:
+                pool.append((other_slug, ideas[j]["title"], round(float(score), 4)))
+            if len(pool) >= MAX_CANDIDATES:
+                break
+
+        # Apply gap detection
+        filtered = apply_gap_detection(pool)
+
+        if filtered:
+            suggestions.append({
+                "slug": idea["slug"],
+                "title": idea["title"],
+                "suggestions": [
+                    {"slug": s[0], "title": s[1], "score": s[2]}
+                    for s in filtered
+                ],
+            })
+            n = len(filtered)
+            stats["counts"][str(n)] = stats["counts"].get(str(n), 0) + 1
+            for s in filtered:
+                stats["scores"].append(s[2])
+        else:
+            stats["counts"]["0"] = stats["counts"].get("0", 0) + 1
+
+    # Write output
+    output = {
+        "model": "all-mpnet-base-v2",
+        "method": "top-N + gap detection",
+        "min_score": MIN_SCORE,
+        "max_candidates": MAX_CANDIDATES,
+        "generated": "2026-08-01",
+        "total_ideas": len(ideas),
+        "ideas_with_suggestions": len(suggestions),
+        "total_suggestions": sum(len(s["suggestions"]) for s in suggestions),
+        "stats": {
+            "suggestion_count_distribution": dict(sorted(stats["counts"].items(), key=lambda x: int(x[0]))),
+            "score_range": {
+                "min": round(min(stats["scores"]), 4) if stats["scores"] else None,
+                "max": round(max(stats["scores"]), 4) if stats["scores"] else None,
+                "avg": round(sum(stats["scores"]) / len(stats["scores"]), 4) if stats["scores"] else None,
+            },
+        },
+        "suggestions": suggestions,
+    }
+
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=2, ensure_ascii=False)
+
+    print(f"\nDone!")
+    print(f"  Ideas with suggestions: {output['ideas_with_suggestions']}/{output['total_ideas']}")
+    print(f"  Total suggestions: {output['total_suggestions']}")
+    print(f"  Distribution: {output['stats']['suggestion_count_distribution']}")
+    print(f"  Score range: {output['stats']['score_range']}")
+    print(f"  Output: {OUTPUT_PATH}")
+
+
+if __name__ == "__main__":
+    main()
