@@ -11,7 +11,7 @@ tags:
   - humanities
   - critical-thinking
 summary: "The note argues that university thinking requires questioning common sense, exemplified by testing the claim that knowledge production in natural sciences is understanding domain assumptions then analyzing further, while in humanities it is dialectical engagement between old and new knowledge. This is interrogated by seeking evidence for and against it in disciplines like mathematics, asking what constitutes knowledge and its framework, to reveal its validity and limits. Understanding this production process aids thinking by enabling analysis of domain-specific common sense as a kind of standard engineering, where problem-solving becomes a technique built from familiarity with diverse habitual domains and their grammars. Exchanging thinking patterns with peers expands one’s set of domains, and erudite teachers who share life experience offer"
-importance: 1
+importance: 4.57  # auto
 connections:
   - type: project
     slug: ai-ability

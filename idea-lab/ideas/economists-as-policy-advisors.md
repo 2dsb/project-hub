@@ -8,7 +8,7 @@ tags:
 - values
 - consensus-and-disagreement
 summary: "Economists acting as policy advisors differ from scientists because they aim to improve society rather than just describe it, using both positive statements (descriptive claims verifiable by evidence, like "minimum wage laws cause unemployment") and normative statements (prescriptive claims incorporating values, like "the government should raise the minimum wage"). Disagreement among policy-advisor economists often stems from differing values, such as views on taxation. Nevertheless, they achieve consensus on many positive relationships, for example, the shared belief that rent control adversely affects housing availability and quality."
-importance: 1
+importance: 2.14  # auto
 connections:
 - type: project
   slug: naked-economics

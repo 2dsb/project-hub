@@ -9,7 +9,7 @@ tags:
   - market-failure
   - welfare-economics
 summary: "Welfare economics studies how resource allocation affects economic well-being. Consumer surplus, the difference between willingness to pay and price, is captured as the area below the demand curve and above the price line. Producer surplus, the difference between price received and cost, is the area above the supply curve and below the price line. Total surplus equals consumer surplus plus producer surplus, which reduces to buyer’s valuation minus seller’s cost. A market outcome is efficient if it maximizes total surplus; free markets achieve this by allocating goods to buyers with the highest valuation and sellers with the lowest cost, producing the surplus-maximizing quantity. This efficiency rests on the assumptions of perfect competition (no market power) and no externalities, and the violation of either condition constitutes a market failure."
-importance: 1
+importance: 3.17  # auto
 connections:
   - type: idea
     slug: competitive-markets

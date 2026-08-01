@@ -12,7 +12,7 @@ tags:
   - protectionism
   - trade-policy
 summary: "When a small economy opens to trade, it becomes an exporter if its domestic price is below the world price and an importer if above, reflecting comparative advantage. Trade increases total surplus even though producers gain and consumers lose when exporting, and the reverse when importing. A tariff on imports raises the domestic price toward the no-trade equilibrium, reducing imports, benefiting domestic sellers, harming buyers, and creating deadweight loss. Additional benefits of trade include greater variety, economies of scale, increased competition, and the exchange of ideas. Protectionist arguments cite job destruction, national security, infant industries, unfair competition, and bargaining chips."
-importance: 1
+importance: 4.83  # auto
 connections:
   - type: project
     slug: naked-economics

@@ -11,7 +11,7 @@ tags:
 - standard-engineering
 - technology-evolution
 summary: "Standard engineering builds new technology through iterative updates on existing principles, so the principle remains identical to past technology while only sub-technology requirements change. In contrast, fundamentally new technology adopts a new principle to achieve an existing purpose, requiring the creation of a conceptual solution that links the requirement to phenomena. This solution is often discovered through appropriation from other domains, combining prior concepts, or sudden inspiration, and then materialized by recursively configuring sub-technologies. The recursive design method reflects the recursive nature of technology itself, and this inventive paradigm parallels the process of theory-building in science and mathematics."
-importance: 1
+importance: 5.31  # auto
 connections:
 - type: idea
   slug: standard-engineering-reconstruction

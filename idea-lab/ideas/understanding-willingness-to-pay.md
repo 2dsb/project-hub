@@ -7,7 +7,7 @@ tags:
 - economics
 - value-theory
 summary: "Willingness to pay is the internal price a consumer assigns to a good, reflecting its subjective value. When the market price is lower—for example, willing to pay 10 yuan but paying only 7 yuan—the difference of 3 yuan is consumer surplus, which directly measures consumer welfare."
-importance: 1
+importance: 0.0
 connections:
   - type: project
     slug: naked-economics

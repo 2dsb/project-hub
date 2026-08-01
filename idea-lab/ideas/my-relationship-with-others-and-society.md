@@ -13,7 +13,7 @@ tags:
   - self-awareness
   - parenting
 summary: "Society and others shape the self by instilling biased common sense and normalizing conformist behavior, leading to helicopter parenting, perfectionism, and suppressed needs. Common sense implies a lack of thinking, making individuals susceptible to herd mentality and superficial choices like pursuing prestige over fundamental change or treating volunteering as résumé padding. Through new perspectives and active debate, one can recognize and transform indoctrinated common sense into personal wisdom. This thinking builds the self, bridges ideals and reality, and resists the salmon race of conformity. Ultimately, independent thinking enables decisions in one’s own true interest."
-importance: 1
+importance: 4.93  # auto
 connections:
   - type: permanent
     slug: 优秀的绵羊c6.1

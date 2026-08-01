@@ -12,7 +12,7 @@ tags:
 - path-dependence
 - paradigm-shift
 summary: "The technology cycle describes how a fundamentally new principle emerges from demand in an immature, cobbled-together form, then rapidly spawns derivative technologies as different actors pursue varied purposes. Internal drivers like performance strengthening and safety enhancement propel development, but the technology eventually hits limitations from its own phenomena or external functionality, which are addressed through internal replacement of sub-technologies or structural deepening that adds supporting sub-layers. At maturity, performance cannot be improved further, yet lock-in occurs because the refined old technology outperforms crude new alternatives, marginal transition costs are high, and practitioners resist unfamiliar principles, causing adaptive extension where old methods are stretched to meet new demands. Ultimately, when adaptive extension fails, a newer principle gains a foothold and restarts the cycle, a pattern reflected in military systems as encrustation and in scientific theories as a similar periodic structure."
-importance: 1
+importance: 6.79  # auto
 connections:
 - type: idea
   slug: three-definitions-of-technology

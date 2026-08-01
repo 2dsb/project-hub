@@ -6,7 +6,7 @@ tags:
   - curriculum-design
   - text-analysis
 summary: "The note asks why, in section 9.11 of *Excellent Sheep*, the curriculum cannot be broken down, following an effort to organize understanding of sections 9.1–9.11."
-importance: 1
+importance: 0.46  # auto
 connections:
   - type: project
     slug: gaokao-chinese

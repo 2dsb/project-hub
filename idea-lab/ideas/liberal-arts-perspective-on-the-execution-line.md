@@ -9,7 +9,7 @@ tags:
   - university-education-reflection
   - social-system-reform
 summary: "The humanities and arts cultivate the capacity for thought through past thinkers, entrusting the leadership class with responsibility for those powerless below the execution line. True liberal arts education fosters critical thinking for the public good by discarding common sense handed down by the university and forming one's own understanding, which reveals that providing opportunity for the impoverished requires reforming social institutions rather than devolving into us-versus-them antagonism or mere charity. Literary works allow readers to experience how the poor live, building the empathy needed to guide the transformation of social systems."
-importance: 1
+importance: 3.0
 connections:
   - type: project
     slug: gaokao-chinese

@@ -12,7 +12,7 @@ tags:
   - monetary-policy
   - foreign-exchange
 summary: "When dollars in circulation surpassed gold reserves, foreign entities redeemed dollars for gold, triggering inflation; in response, the government closed the exchange window to foreigners, prohibiting gold conversion an event known as the Nixon shock, which ended the gold standard. The dollar's price plummeted internationally, determined solely by counterparty willingness, yet its status as the world's reserve currency remained unshaken."
-importance: 1
+importance: 3.19  # auto
 connections: []
 connections:
   - type: idea

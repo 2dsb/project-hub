@@ -3,7 +3,7 @@ id: "idea-20260130-7845c2"
 summary: "The note asks how the classification of concepts should be carried out abstractly, prompted by W. Brian Arthur's *The Nature of Technology*, which divides technology along a singular/plural/collective axis and also at a physical/behavioral level."
 title: "The Classification of Concepts"
 tags: ["concept-analysis", "classification-methods", "essence-of-technology"]
-importance: 1
+importance: 5.52  # auto
 connections:
   - type: idea
     slug: "framework-from-data"  # auto

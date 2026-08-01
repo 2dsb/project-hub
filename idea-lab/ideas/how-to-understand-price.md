@@ -5,7 +5,7 @@ tags:
   - price-theory
   - economics
 summary: "The central question is whether price emerges spontaneously."
-importance: 1
+importance: 1.07  # auto
 connections:
   - type: project
     slug: naked-economics

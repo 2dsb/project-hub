@@ -10,7 +10,7 @@ tags:
   - cognitive-bias
   - growth-mindset
 summary: "Efficient thinking demands constant micro-feedback loops to adjust habits and understanding, testing comprehension continuously. Distinguishing details from essentials requires deliberate practice of extracting and rephrasing main points. You must verify that your interpretation matches what the content actually says, avoiding coherence illusions. To counter survivorship bias, study failures and ask "What if...?" to rediscover solutions to already-solved problems. Take simple ideas seriously because they can underlie complex theories; for example, "buy low, sell high" deepens when you recognize that a stock represents partial business ownership, market pricing, and competitive dynamics."
-importance: 1
+importance: 2.23  # auto
 connections:
   - type: permanent
     slug: "卡片笔记写作法c3.8"

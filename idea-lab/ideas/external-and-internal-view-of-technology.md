@@ -7,7 +7,7 @@ tags:
 - modularity
 - combinatorial-thinking
 summary: "The external view of technology considers its overall effects and interactions—like how short-form video impacts attention spans—without examining internal workings. The internal view asks what technology is and how it evolves, seeing new technologies as assembled from prior ones, forming a combinatorial process. Modern technology is shifting from fixed, standalone industrial processes to modular, recombinable elements, akin to an open language or chemistry, where components like GPS or algorithms can be endlessly combined for new purposes. This shift reflects a transformation from producing fixed physical products to endlessly configurable economic structures."
-importance: 1
+importance: 6.54  # auto
 connections:
   - type: project
     slug: "ai-ability"

@@ -3,7 +3,7 @@ id: "idea-20260411-d4e8f1"
 summary: "All economic contracts are either loans or investments. A loan entails a fixed repayment of principal plus interest (10 + t) at a later time, while an investment provides capital upfront but repays a larger amount (20) only if a future condition is met, and nothing otherwise."
 title: "Three Types of Economic Behavior"
 tags: ["loan", "investment", "contract", "economic-behavior"]
-importance: 1
+importance: 0.0
 connections: []
 ---
 Whether it's an individual, a company, a bank, or a venture capital firm, there seem to be only two types of contracts:

@@ -11,7 +11,7 @@ tags:
   - microeconomics
   - price-elasticity
 summary: "Price elasticity of demand measures responsiveness of quantity demanded to price changes, with elasticity determined by substitutes, necessity versus luxury, and market definition. The midpoint method calculates elasticity as the percentage change in quantity divided by the percentage change in price using the average as the base. Total revenue moves with price when demand is inelastic, opposite when elastic, and is constant at unit elastic; income and cross-price elasticities capture responsiveness to income and other goods’ prices. Price elasticity of supply depends on sellers’ flexibility and the time horizon, with long-run supply more elastic. The agricultural paradox shows that a supply increase for a price-inelastic good like wheat lowers total revenue, so farmers lose despite higher productivity, while each competitive farmer individually benefits. OPEC’s ability to sustain high oil prices is limited because short-run inelastic supply and demand allow large price spikes from small supply cuts, but in the long run both become more elastic, reducing the price impact."
-importance: 1
+importance: 3.29  # auto
 connections:
   - type: project
     slug: naked-economics

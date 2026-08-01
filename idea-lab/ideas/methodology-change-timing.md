@@ -9,7 +9,7 @@ tags:
   - meta-cognition
   - decision-framework
 summary: "Methodology changes before a critical event present a trade-off between two risks: the danger of an unpracticed new method and the danger of persisting with a flawed old one. The three-layer model distinguishes low-risk L1 cognitive upgrades (new understanding), medium-risk L2 strategic adjustments (workflow changes), and high-risk L3 technical replacements (operational overhauls). The decision framework assesses the layer, the old method's reliability, and the time window, with the core principle that insufficient time for L3 operational replacement means upgrading understanding without changing execution. Explicit mode switching between learning and execution, minimum viable changes, and designing fallback triggers help manage the transition."
-importance: 1
+importance: 2.08  # auto
 connections:
   - type: project
     slug: "ai-ability"

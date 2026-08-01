@@ -3,7 +3,7 @@ id: "idea-20260419-a3f7b2"
 summary: "The Great Depression-like crisis in Country A caused capital flight and bank failures, prompting an IMF bailout with U.S. dollars that temporarily diverted attention from and eased the U.S. crisis. However, low production and high consumption persisted, so the U.S. government implemented quantitative easing by injecting capital through project investments and loans, stimulating consumption and rising prices. When quantitative easing stopped, the economic bubble burst, leading to a policy of indefinite quantitative easing that fueled inflation and high unemployment, sparking the Occupy Wall Street movement. In the subsequent election, Okuda defeated the Wall Street-backed Rufei by harnessing anger over inequality and advocating higher taxes on the rich, while the Senate introduced the "Ocean Explorer" scheme to address the fiscal cliff through modest tax increases and spending cuts."
 title: "Impact of Foreign Crises on the US and Quantitative Easing"
 tags: ["financial-crisis", "quantitative-easing", "imf", "inflation", "occupy-wall-street", "fiscal-cliff", "monetary-policy", "economic-cycle", "government-intervention"]
-importance: 1
+importance: 5.0
 connections: []
 connections:
   - type: idea

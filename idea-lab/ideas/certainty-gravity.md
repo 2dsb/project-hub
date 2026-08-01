@@ -8,7 +8,7 @@ tags:
   - time-allocation
   - exams
 summary: "Certainty Gravity describes a psychological phenomenon where high-certainty sub-goals exert a disproportionate pull on time and energy, overriding correct priority judgments at the execution layer. Preparing for the gaokao, the author correctly ranked essay and practice sections above rote memorization for the Chinese 100 goal, but still spent four hours on memorization because its guaranteed points were more alluring. This drained mental bandwidth, crowding out the higher-impact but uncertain tasks, a locally optimal investment that damaged the global goal. The pull of certainty is not a misjudgment but a failure of execution, closely related to shrinking decision margins near deadlines."
-importance: 1
+importance: 3.78  # auto
 connections:
   - type: project
     slug: "ai-ability"

@@ -10,7 +10,7 @@ tags:
   - psychology
   - self-improvement
 summary: "Perfectionism is a feedback loop driven by emotional feedback—a fleeting sense of accomplishment and anxiety—that is disconnected from the task itself. This cycle traps the person, as each achieved perfection immediately yields a new goal, reigniting anxiety. Unlike a constructive feedback loop, which derives feedback from task characteristics and reduces energy expenditure, perfectionist feedback consumes energy because it arises from the psychological trait rather than the work being done."
-importance: 1
+importance: 0.65  # auto
 connections:
   - type: idea
     slug: the-zettelkasten-method

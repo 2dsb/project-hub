@@ -7,7 +7,7 @@ tags:
   - independent-thinking
   - questioning-spirit
 summary: "People swayed by common sense have no independent thought, their ideas shaped solely by social indoctrination, leaving them unable to feel dissatisfied or offer constructive suggestions; with some social skills, they become guardians of the status quo. In contrast, questioning common sense from new angles reveals errors in societal indoctrination, naturally producing critical dissatisfaction with the status quo. This questioning spirit is the origin of critical dissatisfaction."
-importance: 1
+importance: 0.78  # auto
 connections:
   - type: idea
     slug: social-responsibility-of-excellent-students

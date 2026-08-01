@@ -70,4 +70,10 @@ python compute_connections.py
 - [ ] 绘制关系图谱
 - [ ] 更新 CLAUDE.md schema 文档（新增 `summary:` 字段）
 
-## Step 4 — 计算 Importance ⏳ 未开始
+## Step 4 — 计算 Importance ✅ 已完成
+
+- [x] 选定无向图 PageRank 算法
+- [x] 运行 `compute_importance.py`（190 节点，627 边）
+- [x] 82 个 idea 自动评分，108 个手动分保留（非 1 值不覆盖）
+- [x] 分数缩放至 0–10（一位小数）
+- [x] 加入 `maintain.py` 维护链

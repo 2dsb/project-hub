@@ -11,7 +11,7 @@ tags:
   - science-vs-art
   - personal-growth
 summary: "Liberal arts education investigates the process of knowledge production itself, spanning natural sciences and humanities, and ultimately aims to cultivate an ability to think beyond spatial and temporal constraints for both public good and a healthy, creative self. Art leads to truth by compelling attentive observation and breaking through the self-deception that makes truth hard to bear, because it recounts personal experience to evoke resonance rather than calculating objective data. Unlike science, which asks "Is it true?", the humanities and art prompt the question "What is its relationship to me?" Art not only provides models for living but also offers a method for questioning scholarship through stories that provoke reflection, integrating life experience with book learning into a unified self. This integration resolves the limitation that what we can measure is confined to what we know exists, and it reveals the past as the source of thoughts, feelings, laws, and social structures."
-importance: 1
+importance: 5.21  # auto
 connections:
   - type: permanent
     slug: 优秀的绵羊c8.1

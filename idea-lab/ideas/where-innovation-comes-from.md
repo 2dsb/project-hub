@@ -13,7 +13,7 @@ tags:
   - skill-automation
   - creativity
 summary: "Innovation originates from experts who have turned proficiency into intuition through deliberate practice, freeing their finite mental energy to focus on the essence of problems rather than on formal derivations. This innovation chain mirrors the hermeneutic cycle, where knowledge becomes internalized as automatic habits, conserving energy for higher-level thought. To promote innovation, manage energy by imposing constraints that reduce friction—such as standardized note formats—and by pursuing interest-guided work that acts as fuel. The common belief that one should constantly think about what one is doing is overturned, because energy is a limited resource; experts do more without thinking, and that enables innovation. Building such automatic habits is difficult because rational goals have little force, but gradually introducing simple new habits can shift long-term behavior."
-importance: 1
+importance: 5.53  # auto
 connections:
   - type: permanent
     slug: 卡片笔记写作法c2.3

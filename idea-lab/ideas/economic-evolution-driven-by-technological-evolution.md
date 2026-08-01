@@ -3,7 +3,7 @@ id: "idea-20260319-f7d2a9"
 summary: "The economy is constructed by technology, comprising a technological part—the arrangement of goods and services as a purposive system—and a non-technological part that forms around it. New technology enters, replacing old technology, which destroys existing opportunity niches and triggers chain reactions, while simultaneously providing new elements that prompt the emergence of fresh organizational institutions and establishing further opportunity niches by generating technological, economic, and social problems demanding solutions. Economic evolution proceeds through a “problem-and-solution, challenge-and-response” pattern, shaped by invariants such as human behavioral preferences and supply-demand equilibrium."
 title: "Economic Evolution Driven by Technological Evolution"
 tags: ["economic-evolution", "technological-construction", "structural-change", "opportunity-niche", "problem-and-solution"]
-importance: 1
+importance: 3.42  # auto
 connections:
   - type: idea
     slug: evolution-of-technology-in-general-sense

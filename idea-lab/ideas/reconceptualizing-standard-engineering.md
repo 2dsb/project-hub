@@ -11,7 +11,7 @@ tags:
 - combinatorial-evolution
 - domains
 summary: "Standard engineering is the design process that creates new versions of existing technologies by recombining familiar combinatorial methods and structures in response to demand, proceeding from conceptual design to physical realization. This process can be seen as problem-solving, where a demand is broken into smaller sub-problems, or as a language-like activity in which engineers generate intentions and select elements from domains to form novel combinations. On a broader scale, technological innovation operates through sample and selection: many engineers produce diverse combinations, and technologies that are repeatedly reused become standardized modules via a positive feedback loop, analogous to Darwinism but directed by human demand rather than random variation."
-importance: 1
+importance: 4.7  # auto
 connections:
 - type: idea
   slug: technology-in-the-singular

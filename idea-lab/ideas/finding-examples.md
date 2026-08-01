@@ -3,7 +3,7 @@ id: "idea-20260130-189e3e"
 summary: "The note claims that technology's singular level is structured as central principles, primary integrations, and secondary integrations, and it demands a proof of this composition."
 title: "Finding Examples"
 tags: ["technology-theory", "proof-of-concept", "essence-of-technology"]
-importance: 1
+importance: 5.33  # auto
 connections:
   - type: idea
     slug: "technology-in-the-singular-sense"  # auto

@@ -12,7 +12,7 @@ tags:
 - surplus
 - government-policy
 summary: "A binding price ceiling legally prevents a price from rising to the market equilibrium, resulting in a persistent shortage, while a binding price floor causes a surplus, such as with minimum wage laws. Taxation dampens market activity by reducing the equilibrium quantity, and the burden of the tax is shared by buyers and sellers regardless of whether the tax is imposed on the sale or the purchase. The incidence of a tax depends on relative elasticities, with the burden falling more heavily on the side of the market that is less elastic; workers bear most of the payroll tax burden because labor supply is less elastic."
-importance: 1
+importance: 4.81  # auto
 connections:
 - type: idea
   slug: competitive-market

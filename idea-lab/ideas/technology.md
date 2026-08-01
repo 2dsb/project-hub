@@ -5,7 +5,7 @@ tags:
   - philosophy-of-technology
   - research-questions
 summary: "The note raises the question of what further research questions, beyond defining technology and explaining its development and evolution, are worth exploring within the philosophy of technology. It seeks to expand the inquiry into the nature and dynamics of technology."
-importance: 1
+importance: 5.28  # auto
 connections:
   - type: project
     slug: ai-ability

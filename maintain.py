@@ -14,6 +14,7 @@ STEPS = [
     ("generate_summaries.py", "Generate LLM summaries"),
     ("compute_connections.py", "Compute connection suggestions"),
     ("write_connections.py", "Write connections to .md files"),
+    ("compute_importance.py", "Compute idea importance (PageRank)"),
     ("rebuild_index.py", "Rebuild ideas-index.json"),
     ("generate_graph.py", "Generate relationship graph"),
 ]

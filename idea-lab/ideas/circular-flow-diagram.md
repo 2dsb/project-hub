@@ -10,7 +10,7 @@ tags:
 - economics
 - microeconomics
 summary: "The circular flow diagram models how money circulates between households and firms through the market for goods and services and the factor market. Households own factors of production—labor, land, and capital—and sell them to firms in the factor market, receiving wages or rent. Firms use these factors to produce goods and services, which households purchase in the goods and services market. A dollar spent by a household flows to a firm, which then spends it on wages or rent in the factor market, returning the money to households. This simplified model assumes only two decision-makers: firms and households."
-importance: 1
+importance: 2.1  # auto
 connections:
 - type: project
   slug: naked-economics

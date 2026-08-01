@@ -32,6 +32,12 @@ def rebuild_index():
                 entry["title"] = s.removeprefix("title:").strip().strip('"').strip("'")
             elif s.startswith("summary:"):
                 entry["summary"] = s.removeprefix("summary:").strip().strip('"').strip("'")
+            elif s.startswith("importance:"):
+                raw = s.removeprefix("importance:").strip().split("#")[0].strip()
+                try:
+                    entry["importance"] = float(raw)
+                except ValueError:
+                    pass
             elif s == "tags:":
                 in_tags, in_conn = True, False
             elif s == "connections:":

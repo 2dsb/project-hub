@@ -8,7 +8,7 @@ tags:
 - gains-from-trade
 - specialization
 summary: "Absolute advantage means producing a good with fewer inputs. Comparative advantage, which is the ability to produce at a lower opportunity cost, is the basis for mutually beneficial trade. Trade allows everyone to specialize according to their comparative advantage, creating gains from trade. The price of trade falls between the opportunity costs of the two parties."
-importance: 1
+importance: 2.36  # auto
 connections:
 - type: idea
   slug: ten-principles-of-economics

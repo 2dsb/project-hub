@@ -282,7 +282,7 @@ def render_graph(G: nx.Graph, communities: dict, output_path: Path):
 
         net.add_node(
             node,
-            label=data["title"],
+            label=data["title"][:30] + ("…" if len(data["title"]) > 30 else ""),
             title=tooltip,
             size=size,
             color=color,
@@ -294,14 +294,20 @@ def render_graph(G: nx.Graph, communities: dict, output_path: Path):
     for a, b in G.edges:
         net.add_edge(a, b, color="#555577", width=0.5, hoverWidth=2)
 
-    # Add toggle button and search via custom HTML injection
-    toggle_js = """
-    <div id="controls" style="position:fixed;top:10px;left:10px;z-index:1000;display:flex;gap:8px;align-items:center;">
+    # Add controls: toggle button, search box, node count
+    controls_html = """
+    <div id="controls" style="position:fixed;top:10px;left:10px;z-index:1000;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
       <button id="toggleBtn" onclick="togglePeripheral()" style="
         padding:8px 16px;background:#4e79a7;color:#fff;border:none;border-radius:4px;
         cursor:pointer;font-size:14px;">
         Show All (190)
       </button>
+      <input id="searchBox" type="text" placeholder="Search ideas…" oninput="doSearch()" onkeydown="if(event.key==='Enter')selectFirst()" style="
+        padding:6px 12px;background:#2a2a3e;color:#e0e0e0;border:1px solid #555;border-radius:4px;
+        font-size:13px;width:200px;outline:none;">
+      </input>
+      <div id="searchResults" style="display:none;position:absolute;top:42px;left:110px;background:#2a2a3e;
+        border:1px solid #555;border-radius:4px;max-height:300px;overflow-y:auto;min-width:300px;z-index:1001;"></div>
       <span id="nodeCount" style="color:#aaa;font-size:13px;"></span>
     </div>
     <script>
@@ -332,6 +338,67 @@ def render_graph(G: nx.Graph, communities: dict, output_path: Path):
         updateUI();
       }
 
+      // --- Search ---
+      function doSearch() {
+        var q = document.getElementById("searchBox").value.toLowerCase().trim();
+        var results = document.getElementById("searchResults");
+        if (!q) { results.style.display = "none"; return; }
+
+        var allNodes = network.body.data.nodes.get();
+        var matches = allNodes.filter(function(n) {
+          var label = (n.label || "").toLowerCase();
+          var title = (n.title || "").toLowerCase();
+          return label.indexOf(q) >= 0 || title.indexOf(q) >= 0;
+        });
+
+        if (matches.length === 0) {
+          results.innerHTML = '<div style="padding:8px 12px;color:#888;">No matches</div>';
+          results.style.display = "block";
+        } else if (matches.length === 1) {
+          // Single match: focus and select it
+          focusNode(matches[0].id);
+          results.style.display = "none";
+        } else {
+          var html = "";
+          matches.slice(0, 15).forEach(function(n, i) {
+            html += '<div data-nid="' + n.id + '" onmousedown="focusNode(this.dataset.nid)" style="padding:6px 12px;cursor:pointer;color:#e0e0e0;'
+              + (i === 0 ? 'background:#4e79a7;' : '')
+              + '" onmouseenter="this.style.background=\\'#4e79a7\\'" onmouseleave="this.style.background=\\'\\'">'
+              + (n.label || n.id) + '</div>';
+          });
+          if (matches.length > 15) html += '<div style="padding:6px 12px;color:#888;">… and ' + (matches.length - 15) + ' more</div>';
+          results.innerHTML = html;
+          results.style.display = "block";
+        }
+      }
+
+      function selectFirst() {
+        var results = document.getElementById("searchResults");
+        var first = results.querySelector("div");
+        if (first && first.onmousedown) first.onmousedown();
+      }
+
+      function focusNode(nodeId) {
+        // Unhide the node if hidden
+        var items = network.body.data.nodes.get();
+        items.forEach(function(n) {
+          if (n.id === nodeId) n.hidden = false;
+        });
+        network.body.data.nodes.update(items);
+        // Select and focus
+        network.selectNodes([nodeId]);
+        network.focus(nodeId, {scale: 1.5, animation: true});
+        document.getElementById("searchResults").style.display = "none";
+        document.getElementById("searchBox").value = "";
+      }
+
+      // Click outside to close search results
+      document.addEventListener("click", function(e) {
+        if (!e.target.closest("#searchBox") && !e.target.closest("#searchResults")) {
+          document.getElementById("searchResults").style.display = "none";
+        }
+      });
+
       // Hide peripheral nodes on load
       setTimeout(function() {
         var items = network.body.data.nodes.get();
@@ -346,7 +413,7 @@ def render_graph(G: nx.Graph, communities: dict, output_path: Path):
 
     html = net.generate_html()
     # Inject controls before </body>
-    html = html.replace("</body>", toggle_js + "\n</body>")
+    html = html.replace("</body>", controls_html + "\n</body>")
 
     # Add title
     title_html = """
