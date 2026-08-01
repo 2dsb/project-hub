@@ -1,0 +1,123 @@
+---
+id: "idea-20260711-um01"
+title: "Unified Model of Python Program Execution — Coupling All Sub-Models"
+tags: [cs61a, program-execution, modeling, meta-model, portal-model, synthesis, architecture]
+status: raw
+created: 2026-07-11
+updated: 2026-07-11
+source_type: "manual"
+source_path: null
+importance: 9
+permanent_note_material: true
+material_since: "2026-07-11"
+material_expiry_days: 30
+promoted_from: null
+links: []
+related_entities:
+  - type: idea
+    slug: environment-diagram-dual-perspective
+    relation: superset-of
+    strength: 0.95
+  - type: idea
+    slug: call-tree-as-third-perspective
+    relation: integrates
+    strength: 0.9
+  - type: idea
+    slug: name-object-binding-as-perspective
+    relation: integrates
+    strength: 0.9
+  - type: idea
+    slug: abstraction-barrier-as-dual-perspective-bridge
+    relation: integrates
+    strength: 0.85
+  - type: project
+    slug: cs61a
+    relation: north-star-for
+    strength: 0.95
+  - type: idea
+    slug: knowledge-as-dictionary-of-perspectives
+    relation: architecture-for
+    strength: 0.85
+    dimensions: [concept-relation, complement]
+    bidirectional: true
+    source: auto
+  - type: idea
+    slug: cohesion-coupling-decomposition-heuristic
+    relation: applied-by
+    strength: 0.7
+    dimensions: [concept-relation]
+    bidirectional: true
+    source: auto
+  - type: idea
+    slug: attention-pointer-learning-model
+    relation: meta-layer-above
+    strength: 0.7
+    dimensions: [concept-relation, complement]
+    bidirectional: true
+    source: auto
+  - type: idea
+    slug: four-layer-quality-model
+    relation: related
+    strength: 0.5
+    dimensions: [concept-relation, structural-similarity]
+    bidirectional: true
+    source: auto
+---
+
+# Unified Model of Python Program Execution
+
+## Vision
+
+The ultimate goal is a **unified model of (Python) program execution** — not a collection of independent perspectives, but a single coherent framework where every sub-model finds its proper place and the coupling mechanisms between them are explicit.
+
+## Candidate Sub-Models (So Far)
+
+| Sub-Model | What It Models | Type |
+|-----------|---------------|------|
+| Def tree | Function definition nesting | Static structure |
+| Frame tree | Environment frames + parent links | Runtime structure |
+| Call tree | Invocation graph + computation flow | Runtime dynamics |
+| Name-object binding | Reference relationships + identity | Referential |
+| Taxonomy of change | Rebinding vs mutation | Temporal/state |
+| Abstraction barrier | Interface contracts between layers | Architectural |
+
+## The Hard Problem: Coupling
+
+Listing perspectives is easy. The real work is:
+
+1. **Coupling mechanism**: How do these models relate? Is it a layered architecture (static → structural → dynamic → referential)? A graph where each model is a node and relationships are edges? Something else?
+
+2. **Position finding**: Each sub-model needs a *place* in the larger framework — not just "here's another perspective," but "this model sits at this level, connects to these other models via these relationships, and answers these specific questions."
+
+3. **Completeness criterion**: How do we know when the unified model is complete? What defines the boundary — "all Python-related content"? Every language feature? Every execution pattern?
+
+4. **Non-redundancy**: The models shouldn't overlap gratuitously. Each should earn its place by capturing something the others don't.
+
+## Potential Architecture Hypotheses
+
+### Hypothesis A: Layered
+```
+Conceptual layer (abstraction barriers, semantic compression)
+    ↑↓
+Dynamic layer (call tree, change taxonomy)
+    ↑↓
+Structural layer (frame tree, binding graph)
+    ↑↓
+Static layer (def tree, source code)
+```
+
+### Hypothesis B: Multi-Projection
+A single underlying execution trace that can be *projected* into different views — each sub-model is a projection, not a separate entity. The coupling is that they share the same substrate.
+
+### Hypothesis C: Process-Algebraic
+Models are related by transformations: given the def tree + input, you can *derive* the call tree; given the call tree + binding rules, you can *derive* the frame tree. The coupling is computational, not structural.
+
+## Relation to the Portal Model
+
+The Portal Model (dual-perspective: comprehension view vs algorithmic view) was the first seed. This unified model is its natural endgame — the Portal Model grows from 2 perspectives to N, and the "portal" metaphor may generalize to the coupling mechanism itself: portals are the interfaces between sub-models.
+
+## Next Steps
+
+1. Continue extracting perspectives from CS61A as they appear
+2. When enough sub-models have accumulated, attempt a first coupling architecture
+3. Test: can the unified model explain something that no single sub-model can?
