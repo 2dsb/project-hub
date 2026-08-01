@@ -8,51 +8,16 @@ tags:
 - wechat
 - knowledge-sharing
 - collaboration
-status: converted
-created: 2026-06-27
-updated: '2026-07-30'
-converted_to: projects/crowd-sourced-knowledge-modeling.md
-source_type: null
-source_path: null
 importance: 3
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-related_entities:
+connections:
 - type: idea
   slug: knowledge-reconnection
-  relation: extends
-  strength: 0.85
-  dimensions:
-  - concept-relation
-  bidirectional: true
-  source: manual
 - type: idea
   slug: learning-pipeline
-  relation: feeds-into
-  strength: 0.6
-  dimensions:
-  - complement
-  bidirectional: true
-  source: manual
 - type: idea
   slug: git-mental-model
-  relation: example-material
-  strength: 0.5
-  dimensions:
-  - migration
-  bidirectional: true
-  source: manual
 - type: project
   slug: crowd-sourced-knowledge-modeling
-  relation: related
-  strength: 0.833
-  dimensions:
-  - tag-overlap
-  bidirectional: false
-  source: auto
-links: []
 ---
 
 

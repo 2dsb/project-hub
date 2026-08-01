@@ -2,39 +2,14 @@
 id: "idea-20260627-ezone01"
 title: "English Comfort Zone Vocabulary — Settling Into Familiar Expressions"
 tags: [english-learning, vocabulary, comfort-zone, plateau, local-optimum, expression-bank]
-status: raw
-created: 2026-06-27
-updated: 2026-06-27
-source_type: "manual"
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: project
-    slug: english-learning
-    relation: blind-spot
-    strength: 0.75
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "english-learning"
   - type: idea
-    slug: vocabulary-priming-before-conversation
-    relation: related-problem
-    strength: 0.5
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "vocabulary-priming-before-conversation"
   - type: idea
-    slug: implicit-improvement-pattern
-    relation: inverse-pattern
-    strength: 0.5
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "implicit-improvement-pattern"
 ---
 
 # English Comfort Zone Vocabulary

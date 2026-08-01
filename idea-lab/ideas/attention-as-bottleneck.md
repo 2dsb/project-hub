@@ -2,39 +2,14 @@
 id: "idea-20260626-attn01"
 title: "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life"
 tags: [attention, bottleneck, single-threading, goal-singularity, learning-design, life-modeling]
-status: raw
-created: 2026-06-26
-updated: 2026-06-26
-source_type: "manual"
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
-    slug: goal-singularity
-    relation: shares-core
-    strength: 0.85
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "goal-singularity"
   - type: idea
-    slug: timeline-based-project-structure
-    relation: constrains
-    strength: 0.8
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "timeline-based-project-structure"
   - type: idea
-    slug: attention-pointer-learning-model
-    relation: complement
-    strength: 0.7
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "attention-pointer-learning-model"
 ---
 
 # Attention as the Bottleneck

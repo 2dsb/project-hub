@@ -1,14 +1,7 @@
 ---
 id: "idea-20260719-core-capability-supporting-infrastructure"
 title: "Core Capability → Supporting Infrastructure as Technology Evolution Pattern"
-status: raw
-source_type: daily
-source_path: null
 importance: 3
-permanent_note_material: true
-material_since: 2026-07-19
-material_expiry_days: 30
-promoted_from: null
 tags:
   - technology-evolution
   - llm
@@ -16,10 +9,7 @@ tags:
   - rag
   - agents
   - patterns
-related_entities: []
-links: []
-created: 2026-07-19
-updated: 2026-07-19
+connections: []
 ---
 
 # Core Capability → Supporting Infrastructure as Technology Evolution Pattern

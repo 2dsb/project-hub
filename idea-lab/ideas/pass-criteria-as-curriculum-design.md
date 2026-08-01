@@ -1,31 +1,16 @@
 ---
-id: "idea-20260719-pass-criteria-as-curriculum-design"
+id: idea-20260719-pass-criteria-as-curriculum-design
 title: "Pass Criteria as a First-Class Curriculum Design Element"
-status: raw
-source_type: daily
-source_path: null
-importance: 3
-permanent_note_material: true
-material_since: 2026-07-19
-material_expiry_days: 30
-promoted_from: null
 tags:
   - learning
   - curriculum-design
   - teach
   - pass-criteria
   - assessment
-related_entities:
+importance: 3
+connections:
   - type: idea
     slug: practice-as-learning-purpose
-    relation: complements
-    strength: 0.7
-    dimensions: [complement]
-    bidirectional: true
-    source: manual
-links: []
-created: 2026-07-19
-updated: 2026-07-19
 ---
 
 # Pass Criteria as a First-Class Curriculum Design Element

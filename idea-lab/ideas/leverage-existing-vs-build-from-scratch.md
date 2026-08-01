@@ -1,31 +1,16 @@
 ---
 id: "idea-20260719-leverage-existing-vs-build-from-scratch"
 title: "Leverage Existing Solutions vs. Build from Scratch — A Decision System Axis"
-status: raw
-source_type: daily
-source_path: null
-importance: 3
-permanent_note_material: true
-material_since: 2026-07-19
-material_expiry_days: 30
-promoted_from: null
 tags:
   - decision-making
   - leverage
   - teach
   - skill-design
   - efficiency
-related_entities:
+importance: 3
+connections:
   - type: idea
     slug: precision-fuzziness-tradeoff
-    relation: related
-    strength: 0.4
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
-links: []
-created: 2026-07-19
-updated: 2026-07-19
 ---
 
 # Leverage Existing Solutions vs. Build from Scratch — A Decision System Axis

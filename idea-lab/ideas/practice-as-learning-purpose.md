@@ -1,24 +1,14 @@
 ---
 id: "idea-20260719-practice-as-learning-purpose"
 title: "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness"
-status: raw
-source_type: daily
-source_path: null
-importance: 3
-permanent_note_material: true
-material_since: 2026-07-19
-material_expiry_days: 30
-promoted_from: null
 tags:
   - learning
   - practice
   - motivation
   - knowledge-transfer
   - internship
-related_entities: []
-links: []
-created: 2026-07-19
-updated: 2026-07-19
+importance: 3
+connections: []
 ---
 
 # Practice as Learning Purpose — Purpose-Driven Learning Effectiveness

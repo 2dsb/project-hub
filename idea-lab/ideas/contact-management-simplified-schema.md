@@ -2,25 +2,10 @@
 id: "idea-20260731-cms"
 title: "Contact Management Simplified: 4-Field Schema"
 tags: [people-map, contact-management, simplification, design-decision, data-model]
-status: raw
-created: 2026-07-31
-updated: 2026-07-31
-source_type: "manual"
-source_path: null
 importance: 7
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
-  - type: ideas
+connections:
+  - type: idea
     slug: "four-step-networking-method"
-    relation: "complement"
-    strength: 0.7
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "manual"
 ---
 
 # Contact Management Simplified: 4-Field Schema
@@ -49,7 +34,7 @@ Four fields only:
 
 ## What `contact_dates` Replaces
 
-The old `## 互动日志` (interaction log) section was free-text — dates mixed with narrative. `contact_dates` strips it to the signal: **when did I last invest in this relationship?** The frequency and recency of dates in this list IS the relationship health metric. No need for prose.
+The old `## Interaction Log` section was free-text — dates mixed with narrative. `contact_dates` strips it to the signal: **when did I last invest in this relationship?** The frequency and recency of dates in this list IS the relationship health metric. No need for prose.
 
 ## Migration
 

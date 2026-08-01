@@ -1,105 +1,50 @@
 ---
 id: "idea-20260620-ast01"
-title: "AI 预筛选学习源（AI source triage）"
+title: "AI Source Triage"
 tags: [learning, ai-amplifier, flow-based-thinking, information-filtering]
-status: raw
-created: 2026-06-20
-updated: 2026-06-20
-source_type: "manual"
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
     slug: "flow-based-thinking"
-    relation: "applies-framework"
-    strength: 0.8
   - type: idea
     slug: "reading-bottleneck"
-    relation: "addresses"
-    strength: 0.6
   - type: idea
     slug: "ai-amplifier"
-    relation: "instance-of"
-    strength: 0.5
   - type: idea
     slug: "peer-cross-teaching"
-    relation: "sibling-pattern"
-    strength: 0.8
   - type: idea
     slug: "learning-pipeline"
-    relation: "integrated-into"
-    strength: 0.9
-  - type: ideas
-    slug: "learning-pipeline"
-    relation: "concept-relation"
-    strength: 0.85
-    dimensions: ["concept-relation", "complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
-    slug: "peer-cross-teaching"
-    relation: "complement"
-    strength: 0.8
-    dimensions: ["tag-overlap", "complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
-    slug: "ai-amplifier"
-    relation: "complement"
-    strength: 0.65
-    dimensions: ["tag-overlap", "complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
-    slug: "flow-based-thinking"
-    relation: "tag-overlap"
-    strength: 0.6
-    dimensions: ["tag-overlap"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
-    slug: "reading-bottleneck"
-    relation: "complement"
-    strength: 0.55
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "auto"
 ---
 
-# AI 预筛选学习源
+# AI Source Triage
 
-## 触发
-看 Karpathy Zero to Hero 视频，逐集观看浪费了一定时间。更好的方法是先看 introduction 部分理解目的，再直接读源码。但问题是：不看完视频，无法知道哪些部分值得看。
+## Trigger
+Watching Karpathy's Zero to Hero videos episode by episode wasted some time. A better approach: watch the introduction to understand the goal, then go straight to the source code. But the problem is — without watching the full video, you can't know which parts are worth watching.
 
-## 核心想法
-在流式思维的学习流中，在源和路由之间插入 AI 预筛选层：
+## Core Idea
+Insert an AI pre-screening layer between source and routing in the flow-based learning pipeline:
 
 ```
-源 → AI 预筛选 → 路由 → 汇
+Source → AI Triage → Routing → Sink
 ```
 
-AI 做的事：提前遍历内容结构，输出"哪些部分值得投入时间，哪些可以跳过/直达源码/看摘要即可"。
+What the AI does: traverse the content structure ahead of time and output "which parts are worth your time, and which can be skipped / jumped straight to source code / absorbed as a summary."
 
-## 今天的具体案例
-micrograd 视频 — 如果 AI 提前告知"intro 帮你理解目的，之后就是逐行讲 engine.py，你直接读源码更快"，就能跳过中间浪费时间。
+## Concrete Example From Today
+The micrograd video — if the AI had told me upfront "the intro helps you understand the goal, after that it's a line-by-line walkthrough of engine.py — you'd be faster just reading the source directly," I could have skipped the wasted time in the middle.
 
-## 案例 2：X.com feed
-逐个遍历 follow 内容 → 遇到不关注主题（如政策）+ 重复内容 + 过度详细（如 Anthropic safeguard 长篇声称，只需知道要点）。AI 可以同时做**过滤器**（去掉无关主题）和**浓缩器**（重复/过度详细内容压缩为要点）。
+## Example 2: X.com Feed
+Scrolling through followed content one by one → running into off-topic subjects (e.g. policy), repetitive content, and excessive detail (e.g. long Anthropic safeguard claims where you only need the gist). The AI can act as both a **filter** (strip irrelevant topics) and a **condenser** (compress repetitive / overly detailed content into key points).
 
-## 模式归纳
-两类场景共享同一底层：线性遍历信息源效率极低。AI 在用户投入时间前做一轮去噪+压缩。区别仅在于 AI 角色侧重不同：
+## Pattern Abstraction
+Both scenarios share the same underlying dynamic: linear traversal of information sources is wildly inefficient. The AI does one pass of denoising + compression before the user invests time. The only difference is which AI role gets emphasis:
 
-| 信息源 | AI 角色 | 操作 |
-|--------|---------|------|
-| 视频课程 | 预筛选 | 判断哪些部分值得看，哪些跳过或直达源码 |
-| X.com feed | 过滤器+浓缩器 | 去无关主题 + 压缩重复/冗余内容 |
-| 书籍 | 预筛选 | 目录+摘要→指出核心章节，跳过铺垫 |
-| 论文 | 预筛选+浓缩 | abstract+intro+结论→核心贡献一句话 |
-| 长文 | 浓缩器 | 压缩为要点，标注值得精读的段落 |
+| Source | AI Role | Action |
+|--------|---------|--------|
+| Video courses | Pre-screener | Judge which parts are worth watching, which to skip or jump straight to source |
+| X.com feed | Filter + condenser | Strip irrelevant topics + compress repetitive/redundant content |
+| Books | Pre-screener | TOC + summary → point out core chapters, skip setup/fluff |
+| Papers | Pre-screener + condenser | Abstract + intro + conclusion → distill core contribution into one sentence |
+| Long-form articles | Condenser | Compress into key points, flag paragraphs worth deep reading |
 
-泛化核心：任何"需要先投入时间才能判断价值"的信息源，AI 都可以做 triage（分诊）——先于用户遍历，返回价值密度最高的子集。
+Generalized core: for any information source that requires upfront time investment to judge its value, AI can do triage — traverse it before the user does and return the highest-value-density subset.

@@ -10,7 +10,7 @@ Literature Notes ──→ ideas (melting pot) ←── Project Notes
 
 ## Structure
 
-- **ideas/**: All ideas + absorbed permanent notes. The melting pot where knowledge from all sources connects and generates new insights.
+- **ideas/**: The melting pot — all ideas live here. Knowledge from literature notes and project notes feeds in; connections emerge and insights compound.
 - **literature-notes/**: Content from books/web, rewritten in own words. Source: 卡片笔记写作法. Do NOT auto-translate — Chinese is source of truth.
 - **project-notes/**: Learning extracted from completed projects.
 
@@ -18,7 +18,7 @@ Literature Notes ──→ ideas (melting pot) ←── Project Notes
 
 5 fields only: `id`, `title`, `tags`, `importance` (0-10), `connections` (links to other ideas).
 
-## Future
+## Artifacts
 
-- Ideas index: auto-generated, ranked by importance
-- Relationship graph: global view of all idea connections, maintained separately from individual files
+- **ideas-index.json**: Auto-generated from all idea files. Regenerate after any batch change to ideas/.
+- Relationship graph (planned): global view of all idea connections.

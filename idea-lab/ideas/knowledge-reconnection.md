@@ -1,70 +1,27 @@
 ---
 id: idea-20260601-kr01
-title: Knowledge Reconnection Mechanism (Knowledge Reconnection Cost Reduction)
+title: Knowledge Reconnection Mechanism
 tags:
 - knowledge-management
 - learning
 - recovery
 - productivity
-status: refined
-created: 2026-06-01
-updated: 2026-06-24
-source_type: null
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-related_entities:
+connections:
   - type: project
     slug: "ai-ability"
-    relation: "productivity/efficiency method connection"
-    strength: 0.5
-    bidirectional: true
-    source: "migration"
-  - type: ideas
+  - type: idea
     slug: "behavioral-activation-model"
-    relation: "complement"
-    strength: 0.5
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
+  - type: idea
     slug: "illness-reframing"
-    relation: "complement"
-    strength: 0.6
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
+  - type: idea
     slug: "learning-pipeline"
-    relation: "complement"
-    strength: 0.55
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
+  - type: idea
     slug: "reading-bottleneck"
-    relation: "complement"
-    strength: 0.5
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "auto"
   - type: project
     slug: "deep-learning-book"
-    relation: "application-target"
-    strength: 0.8
-    dimensions: []
-    bidirectional: true
-    source: "manual"
   - type: idea
     slug: "transfer-high-leverage"
-    relation: "transfer-source"
-    strength: 0.8
-    dimensions: []
-    bidirectional: true
-    source: "manual"
 ---
 # Knowledge Reconnection Mechanism
 

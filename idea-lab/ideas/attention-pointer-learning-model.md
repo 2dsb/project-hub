@@ -2,76 +2,28 @@
 id: "idea-20260711-ap01"
 title: "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint"
 tags: [learning, modeling, attention, memory, abstraction, pointer-metaphor, reading-strategy, synthesis]
-status: raw
-created: 2026-07-11
-updated: 2026-07-11
-source_type: "manual"
-source_path: null
 importance: 8
-permanent_note_material: true
-material_since: "2026-07-11"
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
-    slug: timeline-based-project-structure
-    relation: builds-on
-    strength: 0.85
+    slug: "timeline-based-project-structure"
   - type: idea
-    slug: cohesion-coupling-decomposition-heuristic
-    relation: applies
-    strength: 0.8
+    slug: "cohesion-coupling-decomposition-heuristic"
   - type: idea
-    slug: reading-modeling-decomposition-tradeoff
-    relation: abstracts
-    strength: 0.9
+    slug: "reading-modeling-decomposition-tradeoff"
   - type: idea
-    slug: breadth-first-trap
-    relation: related
-    strength: 0.65
+    slug: "breadth-first-trap"
   - type: idea
-    slug: attention-as-bottleneck
-    relation: complement
-    strength: 0.7
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "attention-as-bottleneck"
   - type: idea
-    slug: goal-singularity
-    relation: complement
-    strength: 0.5
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "goal-singularity"
   - type: idea
-    slug: structural-patience
-    relation: complement
-    strength: 0.5
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "structural-patience"
   - type: idea
-    slug: locate-first-model-last
-    relation: behavioral-corollary
-    strength: 0.85
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "locate-first-model-last"
   - type: idea
-    slug: knowledge-as-dictionary-of-perspectives
-    relation: operator-perspective
-    strength: 0.7
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "knowledge-as-dictionary-of-perspectives"
   - type: project
-    slug: cs61a
-    relation: emerged-from
-    strength: 0.45
-    dimensions: [cross-axis]
-    bidirectional: false
-    source: auto
+    slug: "cs61a"
 ---
 
 # Attention-as-Pointer Model of Learning

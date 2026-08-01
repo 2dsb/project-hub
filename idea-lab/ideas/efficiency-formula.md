@@ -1,155 +1,103 @@
 ---
 id: idea-20260512-ef01
-title: 效率提升的双路径——逐步更新 vs 系统性更新
+title: The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates
 tags:
 - productivity
 - self-improvement
 - methodology
 - system-design
-status: developed
-created: 2026-05-12
-updated: 2026-06-04
-source_type: null
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-related_entities:
-  - type: project
-    slug: "ai-ability"
-    relation: "方法论关联"
-    strength: 0.5
-    bidirectional: true
-    source: "migration"
-  - type: project
-    slug: "project-hub"
-    relation: "项目管理系统优化关联"
-    strength: 0.5
-    bidirectional: true
-    source: "migration"
-  - type: ideas
-    slug: "increasing-time"
-    relation: "complement"
-    strength: 0.9
-    dimensions: ["complement", "concept-relation"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
-    slug: "meta-skill-efficiency"
-    relation: "concept-relation"
-    strength: 0.8
-    dimensions: ["concept-relation", "complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
-    slug: "integrating-fragmented-life-strategies"
-    relation: "complement"
-    strength: 0.65
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
-    slug: "low-energy-ideation"
-    relation: "complement"
-    strength: 0.6
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
-    slug: "iteration-in-life"
-    relation: "complement"
-    strength: 0.55
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
-    slug: "methodology-change-timing"
-    relation: "complement"
-    strength: 0.5
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "auto"
-  - type: literature-notes
-    slug: "卡片笔记写作法c3.4"
-    relation: "complements"
-    strength: 0.62
-    dimensions: ["tag-overlap", "concept-relation", "complement", "structural-similarity"]
-    bidirectional: true
-    source: "auto"
+connections:
+- type: project
+  slug: ai-ability
+- type: project
+  slug: project-hub
+- type: idea
+  slug: increasing-time
+- type: idea
+  slug: meta-skill-efficiency
+- type: idea
+  slug: integrating-fragmented-life-strategies
+- type: idea
+  slug: low-energy-ideation
+- type: idea
+  slug: iteration-in-life
+- type: idea
+  slug: methodology-change-timing
+- type: literature-note
+  slug: 卡片笔记写作法c3.4
 ---
-# 效率提升的双路径——逐步更新 vs 系统性更新
+# The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates
 
-## 原始想法（2026-05-12）
+## Original Idea (2026-05-12)
 
-成果 = 效率 × 时间。每天 80% 时间完成任务，20% 时间提高效率。
+Output = Efficiency × Time. Spend 80% of each day on tasks, 20% on improving efficiency.
 
-## 修正（2026-06-04）
+## Revision (2026-06-04)
 
-80/20 时间分配不现实。实际上，"做任务"和"提效率"并非两个独立时间块——它们**同时发生**。
+The 80/20 time split is unrealistic. In reality, "doing tasks" and "improving efficiency" are not two separate time blocks — they happen **simultaneously**.
 
-提效率有两种截然不同的路径：
+There are two fundamentally different paths to efficiency gains:
 
-### 路径一：逐步更新（嵌入式）
+### Path One: Incremental Updates (Embedded)
 
-在执行过程中自动沉淀。不需要单独分配时间。
+Automatically crystallized during execution. No dedicated time allocation needed.
 
-**流程**：做事情 → 记录为 idea 或 skill → idea 经迭代验证 → 固化为 skill → 效率自然提升
+**Flow**: Do things → Record as idea or skill → Ideas validated through iteration → Solidified into skills → Efficiency naturally improves
 
-**特征**：
-- 与执行同步，不抢占执行时间
-- 颗粒度小，每次只改进一个点
-- 依赖系统有沉淀机制（idea → skill 管道、评价→固化循环）
-- 本质是**在执行中学习**
+**Characteristics**:
+- Synchronous with execution, doesn't compete for execution time
+- Fine-grained, improving one point at a time
+- Depends on the system having a crystallization mechanism (idea → skill pipeline, evaluation → solidification loop)
+- Essentially, **learning while executing**
 
-**实例**：
-- 做完一套二模 → 记录错题归因方法 → 固化为"错题复盘 skill"
-- 发现某个 Anki 背诵顺序效率低 → 调整顺序 → 记录为 skill 改进
-- 每天使用 project-hub → 发现摩擦点 → 记录为需求 → 下次版本迭代修复
+**Examples**:
+- Finish a mock exam → Record error attribution method → Solidify into "error-review skill"
+- Discover an Anki recitation order is inefficient → Adjust the order → Record as a skill improvement
+- Use project-hub daily → Discover friction points → Record as demands → Fix in next version iteration
 
-### 路径二：系统性更新（跃迁式）
+### Path Two: Systemic Updates (Leap-Style)
 
-需要专门停下来思考。重构方法论本身或系统的底层架构。
+Requires stopping deliberately to think. Restructuring the methodology itself or the system's underlying architecture.
 
-**特征**：
-- 需要跳出日常执行，以 meta 视角审视
-- 颗粒度大，一次改变影响整个系统
-- 频率低但每次影响深远
-- 本质是**对学习方法的学习**，或**对系统的系统设计**
+**Characteristics**:
+- Requires stepping outside daily execution to inspect from a meta perspective
+- Coarse-grained, one change affects the entire system
+- Low frequency but far-reaching impact each time
+- Essentially, **learning about learning methods**, or **designing the system of systems**
 
-**实例**：
-- v3→v4 自动化重构（不是修一个 bug，是改变整个执行机制）
-- 约束类型库从 9 种扩展到 24 种（不是加一个类型，是重新理解"什么是约束"）
-- 80/20 模型本身被推翻（本次修正）
-- 对 project-hub 架构的大版本升级
+**Examples**:
+- v3→v4 automation refactoring (not fixing a bug, but changing the entire execution mechanism)
+- Constraint type library expanded from 9 to 24 types (not adding one type, but re-understanding "what is a constraint")
+- The 80/20 model itself being overturned (this revision)
+- Major version upgrades to the project-hub architecture
 
-### 两者的关系
+### The Relationship Between the Two
 
 ```
-逐步更新（日常）──────────→ 量变积累
-    │                            │
-    │ 暴露模式、积累张力          │ 达到临界点
-    ↓                            ↓
-系统性更新（偶尔）──────────→ 质变跃迁
-    │                            │
-    │ 改变底层规则                │
-    └────────────────────────────┘
-        反馈到日常执行中
+Incremental Updates (daily) ──────→ Accumulation of quantitative changes
+    │                                      │
+    │ Expose patterns, accumulate tension  │ Reach critical point
+    ↓                                      ↓
+Systemic Updates (occasional) ──────→ Qualitative leap
+    │                                      │
+    │ Change underlying rules              │
+    └──────────────────────────────────────┘
+        Feedback into daily execution
 ```
 
-- 逐步更新是**执行过程中的自然排泄**——不需要意志力，系统会自动捕获
-- 系统性更新是**对逐步更新积累的张力的回应**——当小的修补不再够用时，就需要重构底层
-- 两者不是对立的，而是同一个反馈循环的两个相位
+- Incremental updates are the **natural excretion of the execution process** — no willpower needed, the system captures them automatically
+- Systemic updates are a **response to the tension accumulated from incremental updates** — when small patches are no longer enough, the foundation needs restructuring
+- The two are not opposed, but **two phases of the same feedback loop**
 
-### 实践含义
+### Practical Implications
 
-1. **不要为"提效率"专门预留时间块**。大部分提效率已经在执行中完成了（逐步更新）。
-2. **但要识别"系统性更新"的触发信号**：当你连续多次做同类小修补、或对现有框架反复感到不适时，说明该停下来做一次系统性反思了。
-3. **系统性更新的时机**：不要在冲刺期做（如考前 3 天不应重构学习方法论）。利用自然间歇——项目收尾后、版本完成后、低能量日（做不了执行但可以做思考）。
+1. **Don't reserve dedicated time blocks for "efficiency improvement."** Most efficiency gains are already achieved during execution (incremental updates).
+2. **But recognize the trigger signals for "systemic updates":** when you've made similar small patches multiple times in a row, or feel repeated discomfort with the existing framework, it's time to stop and do a systemic reflection.
+3. **Timing for systemic updates:** don't do them during crunch periods (e.g., don't restructure your learning methodology 3 days before an exam). Use natural lulls — after project wrap-up, after a version release, on low-energy days (when you can't execute but can think).
 
-## 与现有系统的关系
+## Relationship to Existing Systems
 
-- `ideas/` + `skills/` 管道 = 逐步更新的基础设施
-- project-hub 版本升级（v1→v6.3）= 系统性更新的产物
-- `methodology-change-timing.md`（L1/L2/L3 模型）= 系统性更新的**时机限制**——L3（操作层）禁止在关键时期更换
+- `ideas/` + `skills/` pipeline = infrastructure for incremental updates
+- project-hub version upgrades (v1→v6.3) = products of systemic updates
+- `methodology-change-timing.md` (L1/L2/L3 model) = timing constraints for systemic updates — L3 (operational layer) prohibits changes during critical periods

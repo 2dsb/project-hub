@@ -1,24 +1,14 @@
 ---
 id: "idea-20260719-precision-fuzziness-tradeoff"
 title: "Precision vs. Fuzziness — Cost-Speed Tradeoff"
-status: raw
-source_type: daily
-source_path: null
-importance: 2
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
 tags:
   - tradeoff
   - precision
   - efficiency
   - heuristics
   - communication
-related_entities: []
-links: []
-created: 2026-07-19
-updated: 2026-07-19
+importance: 2
+connections: []
 ---
 
 # Precision vs. Fuzziness — Cost-Speed Tradeoff

@@ -1,14 +1,6 @@
 ---
 id: "idea-20260719-success-interrogation-heuristic"
 title: "Success Interrogation Heuristic — Generalize, Replicate, Migrate"
-status: raw
-source_type: daily
-source_path: null
-importance: 3
-permanent_note_material: true
-material_since: 2026-07-19
-material_expiry_days: 30
-promoted_from: null
 tags:
   - meta-cognition
   - success
@@ -16,24 +8,12 @@ tags:
   - migration
   - learning
   - heuristics
-related_entities:
+importance: 3
+connections:
   - type: idea
-    slug: leverage-existing-vs-build-from-scratch
-    relation: applies-pattern
-    strength: 0.7
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "leverage-existing-vs-build-from-scratch"
   - type: idea
-    slug: transfer-high-leverage
-    relation: applies-pattern
-    strength: 0.6
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
-links: []
-created: 2026-07-19
-updated: 2026-07-19
+    slug: "transfer-high-leverage"
 ---
 
 # Success Interrogation Heuristic — Generalize, Replicate, Migrate

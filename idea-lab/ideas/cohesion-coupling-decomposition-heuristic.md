@@ -2,76 +2,28 @@
 id: "idea-20260711-cc01"
 title: "Cohesion-Coupling Decomposition Heuristic — Migrated from Abstraction Barrier Concept"
 tags: [system-design, modeling, decomposition, abstraction, cohesion, coupling, methodology, shallow-migration]
-status: raw
-created: 2026-07-11
-updated: 2026-07-11
-source_type: "manual"
-source_path: null
 importance: 6
-permanent_note_material: true
-material_since: "2026-07-11"
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
-    slug: abstraction-barrier-as-dual-perspective-bridge
-    relation: migrated-from
-    strength: 0.85
+    slug: "abstraction-barrier-as-dual-perspective-bridge"
   - type: idea
-    slug: how-to-deal-with-complexity
-    relation: related
-    strength: 0.7
+    slug: "how-to-deal-with-complexity"
   - type: idea
-    slug: discretize-first
-    relation: related
-    strength: 0.65
+    slug: "discretize-first"
   - type: idea
-    slug: concepts的划分
-    relation: related
-    strength: 0.6
+    slug: "concepts的划分"
   - type: idea
-    slug: attention-pointer-learning-model
-    relation: applied-to
-    strength: 0.8
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "attention-pointer-learning-model"
   - type: idea
-    slug: unified-python-execution-model
-    relation: applies-to
-    strength: 0.7
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: auto
+    slug: "unified-python-execution-model"
   - type: idea
-    slug: knowledge-as-dictionary-of-perspectives
-    relation: structural-basis
-    strength: 0.8
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "knowledge-as-dictionary-of-perspectives"
   - type: idea
-    slug: locate-first-model-last
-    relation: motivates
-    strength: 0.8
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "locate-first-model-last"
   - type: idea
-    slug: reading-modeling-decomposition-tradeoff
-    relation: explains
-    strength: 0.95
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "reading-modeling-decomposition-tradeoff"
   - type: idea
-    slug: objective-importance-scoring
-    relation: related
-    strength: 0.5
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: auto
+    slug: "objective-importance-scoring"
 ---
 
 # Cohesion-Coupling Decomposition Heuristic
@@ -114,5 +66,5 @@ This heuristic directly informs how to couple the sub-models (def tree, frame tr
 This isn't specific to Python or CS61A. It applies to:
 - Software architecture (microservices, modules, classes)
 - Model design (the heuristic itself was discovered while thinking about model coupling)
-- Knowledge organization ([[concepts的划分]])
+- Knowledge organization ([[concepts的划分|Classification of Concepts]])
 - Any domain where you're dividing a whole into parts

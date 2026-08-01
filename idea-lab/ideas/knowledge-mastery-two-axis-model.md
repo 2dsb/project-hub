@@ -8,37 +8,14 @@ tags:
   - knowledge-modeling
   - teach-method
   - interaction-as-dictionary
-status: raw
-created: 2026-07-30
-updated: 2026-07-30
-source_type: conversation
 importance: 8
-permanent_note_material: true
-material_since: "2026-07-30"
-material_expiry_days: 30
-links: []
-related_entities:
+connections:
   - type: idea
     slug: interaction-as-dictionary
-    relation: applied-to
-    strength: 0.95
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
   - type: idea
     slug: interaction-as-essence-heuristic
-    relation: underlying-philosophy
-    strength: 0.8
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
   - type: idea
     slug: strategy-three-component-model
-    relation: isomorphic
-    strength: 0.95
-    dimensions: [concept-relation, structural-similarity]
-    bidirectional: true
-    source: manual
 ---
 
 # Knowledge Mastery — A Two-Axis Model with Recursive Levels

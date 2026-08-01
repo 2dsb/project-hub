@@ -2,115 +2,32 @@
 id: "idea-20260621-lp01"
 title: "Learning Pipeline"
 tags: [learning, pipeline, meta-cognition, flow-based-thinking, synthesis]
-status: raw
-created: 2026-06-21
-updated: 2026-06-25
-source_type: "manual"
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
     slug: "flow-based-thinking"
-    relation: "instantiates"
-    strength: 1
   - type: idea
     slug: "ai-source-triage"
-    relation: "integrates"
-    strength: 0.9
   - type: idea
     slug: "peer-cross-teaching"
-    relation: "integrates"
-    strength: 0.9
-  - type: skill
+  - type: project
     slug: "reading-blocker-triage"
-    relation: "integrates"
-    strength: 0.8
   - type: idea
     slug: "goal-singularity"
-    relation: "governed-by"
-    strength: 0.9
-  - type: literature-notes
+  - type: permanent
     slug: "echo-rebuilding-0"
-    relation: "complements"
-    strength: 0.6
-    dimensions: ["concept-relation"]
-    bidirectional: true
-    source: "auto"
-  - type: literature-notes
+  - type: permanent
     slug: "echo-rebuilding-1.1"
-    relation: "complements"
-    strength: 0.6
-    dimensions: ["concept-relation"]
-    bidirectional: true
-    source: "auto"
-  - type: literature-notes
+  - type: permanent
     slug: "echo-rebuilding-1.2"
-    relation: "complements"
-    strength: 0.6
-    dimensions: ["concept-relation"]
-    bidirectional: true
-    source: "auto"
-  - type: literature-notes
+  - type: permanent
     slug: "echo-rebuilding-5.1"
-    relation: "complements"
-    strength: 0.6
-    dimensions: ["concept-relation"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
-    slug: "ai-source-triage"
-    relation: "concept-relation"
-    strength: 0.85
-    dimensions: ["concept-relation", "complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
-    slug: "peer-cross-teaching"
-    relation: "concept-relation"
-    strength: 0.85
-    dimensions: ["concept-relation", "complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
-    slug: "goal-singularity"
-    relation: "concept-relation"
-    strength: 0.8
-    dimensions: ["concept-relation", "complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
-    slug: "flow-based-thinking"
-    relation: "complement"
-    strength: 0.75
-    dimensions: ["concept-relation", "complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
+  - type: idea
     slug: "knowledge-reconnection"
-    relation: "integrates"
-    strength: 0.9
-    dimensions: ["complement", "concept-relation"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
+  - type: idea
     slug: "locate-first-model-last"
-    relation: "related"
-    strength: 0.5
-    dimensions: ["concept-relation"]
-    bidirectional: true
-    source: "auto"
-  - type: literature-notes
+  - type: permanent
     slug: "卡片笔记写作法c2.2"
-    relation: "extends"
-    strength: 0.83
-    dimensions: ["tag-overlap", "concept-relation"]
-    bidirectional: true
-    source: "auto"
 ---
 
 # Learning Pipeline

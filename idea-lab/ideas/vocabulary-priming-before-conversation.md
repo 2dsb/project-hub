@@ -2,32 +2,12 @@
 id: "idea-20260626-vocab01"
 title: "Vocabulary Priming Before Topic-Specific Conversation"
 tags: [english-learning, vocabulary, priming, topic-space, conversation-design]
-status: raw
-created: 2026-06-26
-updated: 2026-06-26
-source_type: "manual"
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: project
-    slug: english-learning
-    relation: experiment-candidate
-    strength: 0.7
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "english-learning"
   - type: idea
-    slug: space-as-perspective
-    relation: uses-concept
-    strength: 0.4
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "space-as-perspective"
 ---
 
 # Vocabulary Priming Before Topic Conversation

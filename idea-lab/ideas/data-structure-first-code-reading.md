@@ -1,31 +1,16 @@
 ---
 id: "idea-20260719-data-structure-first-code-reading"
 title: "Data Structure First — Memorize Shapes Before Reading Code"
-status: raw
-source_type: daily
-source_path: null
 importance: 3
-permanent_note_material: true
-material_since: 2026-07-19
-material_expiry_days: 30
-promoted_from: null
 tags:
   - learning
   - code-reading
   - data-structures
   - mental-model
   - comprehension
-related_entities:
+connections:
   - type: idea
     slug: locate-first-model-last
-    relation: complements
-    strength: 0.6
-    dimensions: [complement]
-    bidirectional: true
-    source: manual
-links: []
-created: 2026-07-19
-updated: 2026-07-19
 ---
 
 # Data Structure First — Memorize Shapes Before Reading Code

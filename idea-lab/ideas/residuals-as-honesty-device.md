@@ -1,78 +1,27 @@
 ---
 id: idea-20260702-residuals-honesty
 title: Residuals Table as Structural Honesty Device
-status: raw
 tags:
 - methodology
 - writing
 - knowledge-reconnection
-source_type: daily
 importance: 2
-permanent_note_material: false
-created: 2026-07-02
-updated: '2026-07-30'
-links: []
-related_entities:
+connections:
 - type: idea
   slug: knowledge-reconnection
-  relation: refines-constraint-3
-  strength: 0.9
-  dimensions:
-  - concept-relation
-  bidirectional: true
-  source: manual
 - type: idea
   slug: checklist-completeness-audit
-  relation: overlap
-  strength: 0.5
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
 - type: idea
   slug: content-independent-framework
-  relation: overlap
-  strength: 0.5
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
 - type: idea
   slug: human-structure-ai-completeness
-  relation: overlap
-  strength: 0.5
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
 - type: idea
   slug: natural-language-narration-methodology
-  relation: overlap
-  strength: 0.4
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
 - type: idea
   slug: reconnection-doc-method
-  relation: overlap
-  strength: 0.4
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
 - type: idea
   slug: three-layer-framework
-  relation: overlap
-  strength: 0.4
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
 ---
-
-
-
 
 
 

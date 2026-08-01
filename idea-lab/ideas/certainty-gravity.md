@@ -1,82 +1,48 @@
 ---
-date: 2026-06-03
-source: 花4h背默写挤掉作文/前卷练习时间
+id: idea-20260603-a1b2c3
+title: Certainty Gravity
 tags:
-- 决策
-- 确定性
-- 优先级
-- 时间分配
-- 考试
-status: raw
-related_entities:
+  - decision-making
+  - certainty
+  - priority
+  - time-allocation
+  - exams
+importance: 1
+connections:
   - type: project
     slug: "ai-ability"
-    relation: "学习方法/认知方法论关联"
-    strength: 0.5
-    bidirectional: true
-    source: "migration"
-  - type: ideas
+  - type: idea
     slug: "methodology-change-timing"
-    relation: "structural-similarity"
-    strength: 0.85
-    dimensions: ["tag-overlap", "structural-similarity"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
+  - type: idea
     slug: "completion-vs-quitting"
-    relation: "structural-similarity"
-    strength: 0.75
-    dimensions: ["structural-similarity", "complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
+  - type: idea
     slug: "behavioral-activation-model"
-    relation: "structural-similarity"
-    strength: 0.6
-    dimensions: ["structural-similarity"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
+  - type: idea
     slug: "breadth-first-trap"
-    relation: "complement"
-    strength: 0.65
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "auto"
-  - type: literature-notes
+  - type: permanent
     slug: "卡片笔记写作法c3.4"
-    relation: "extends"
-    strength: 0.92
-    dimensions: ["tag-overlap", "concept-relation"]
-    bidirectional: true
-    source: "auto"
-  - type: literature-notes
+  - type: permanent
     slug: "优秀的绵羊c6.3"
-    relation: "complements"
-    strength: 0.62
-    dimensions: ["tag-overlap", "concept-relation", "structural-similarity"]
-    bidirectional: true
-    source: "auto"
 ---
-# 确定性引力
+# Certainty Gravity
 
-## 现象
+## The Phenomenon
 
-距高考 4 天。目标：语文 100 + 数学 120 = 200+（针对 500 分总分）。
+4 days before the gaokao. Goal: Chinese 100 + Math 120 = 200+ (out of a 500-point total).
 
-策略上已知：语文 100 分的最关键因素是**作文写完 + 前卷大致做完**，默写 5 分并不重要。
+Strategically, I already knew: the critical factor for scoring 100 in Chinese is **finishing the essay + roughly completing the practice-test sections**. The 5-point rote-memorization section doesn't matter much.
 
-但默写有一个独特属性：**确定性最高**——投入时间就一定拿满。相比之下，作文和前卷的提分是不确定的。
+But rote memorization has a unique property: **it's the highest-certainty task** — invest the time and you're guaranteed to get the points. By contrast, improving on essays and practice sections is uncertain.
 
-于是今天花了 ~4h 背默写。后果：背完之后完全没有心思和精力练作文或前卷。而作文和前卷的熟练度可能下滑，它们对"语文 100"的贡献远大于默写。
+So today I spent ~4h on memorization. The consequence: afterward, I had zero mental bandwidth or energy left to practice essays or practice-test sections. And those — which contribute far more to "Chinese 100" than memorization — may have lost fluency from the neglect.
 
-## 核心机制
+## Core Mechanism
 
-**确定性引力**：当大目标的投入产出关系不确定时，确定性高的小目标会产生不成比例的吸引力，即使它对最终目标的贡献远小于被它挤掉的任务。
+**Certainty Gravity**: when a large goal has uncertain input-output relationships, small high-certainty sub-goals exert a disproportionate pull, even when their contribution to the ultimate goal is far smaller than the tasks they crowd out.
 
-这不是"判断错了"——优先级判断（作文 > 前卷 > 默写）是正确的。失败发生在**执行层**：确定性的心理吸引力覆盖了正确的优先级判断。
+This isn't a "misjudgment" — the priority ranking (essay > practice sections > memorization) was correct. The failure happens at the **execution layer**: the psychological pull of certainty overrides the correct priority judgment.
 
-## 相关概念
+## Related Concepts
 
-- 与"方法论更替的时间风险"共享一个底层问题：越接近检验事件，决策的容错空间越小
-- 局部最优 vs. 全局最优：默写 5 分是局部最优解，但对"语文 100"这个全局目标来说是次优分配
+- Shares an underlying problem with "The Time Risk of Methodology Changes": the closer you get to the test event, the smaller your margin for decision error.
+- Local optimum vs. global optimum: the 5 memorization points are a locally optimal solution, but a suboptimal allocation toward the global goal of "Chinese 100."

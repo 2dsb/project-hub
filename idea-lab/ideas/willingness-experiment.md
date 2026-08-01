@@ -2,25 +2,10 @@
 id: "idea-20260629-we01"
 title: "Willingness Experiment: Continue vs. Switch"
 tags: [experiment, meta-cognition, willingness, decision-making, project-management]
-status: raw
-created: 2026-06-29
-updated: 2026-06-29
-source_type: "manual"
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
-    slug: timeline-based-project-structure
-    relation: tests-mechanism-of
-    strength: 0.9
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "timeline-based-project-structure"
 ---
 
 # Willingness Experiment: Continue vs. Switch

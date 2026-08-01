@@ -1,69 +1,25 @@
 ---
 id: idea-20260702-human-structure-ai-completeness
 title: Human Provides Structural Skeleton; AI Checks Completeness and Maps Linkages
-status: raw
 tags:
 - methodology
 - human-ai-collaboration
 - knowledge-reconnection
-source_type: daily
 importance: 2
-permanent_note_material: false
-created: 2026-07-02
-updated: '2026-07-30'
-links: []
-related_entities:
+connections:
 - type: idea
   slug: knowledge-reconnection
-  relation: refines-human-ai-split
-  strength: 0.9
-  dimensions:
-  - concept-relation
-  bidirectional: true
-  source: manual
 - type: idea
   slug: checklist-completeness-audit
-  relation: overlap
-  strength: 0.5
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
 - type: idea
   slug: content-independent-framework
-  relation: overlap
-  strength: 0.5
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
 - type: idea
   slug: residuals-as-honesty-device
-  relation: overlap
-  strength: 0.5
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
 - type: idea
   slug: reconnection-doc-method
-  relation: overlap
-  strength: 0.4
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
 - type: idea
   slug: three-layer-framework
-  relation: overlap
-  strength: 0.4
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
 ---
-
-
 
 
 

@@ -7,45 +7,16 @@ tags:
   - transfer
   - methodology
   - abstraction
-status: raw
-created: 2026-06-24
-updated: 2026-06-24
-source_type: daily
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-related_entities:
+connections:
   - type: idea
-    slug: knowledge-reconnection
-    relation: transfer-target
-    strength: 0.8
-    dimensions: []
-    bidirectional: true
-    source: manual
+    slug: "knowledge-reconnection"
   - type: project
-    slug: english-learning
-    relation: transfer-target
-    strength: 0.6
-    dimensions: []
-    bidirectional: true
-    source: manual
+    slug: "english-learning"
   - type: project
-    slug: physics
-    relation: transfer-source
-    strength: 0.5
-    dimensions: []
-    bidirectional: true
-    source: manual
+    slug: "physics"
   - type: idea
-    slug: analogical-transfer-conditions
-    relation: complement
-    strength: 0.7
-    dimensions: ["complement"]
-    bidirectional: true
-    source: manual
+    slug: "analogical-transfer-conditions"
 ---
 
 # Transfer as a High-Leverage Cognitive Operation

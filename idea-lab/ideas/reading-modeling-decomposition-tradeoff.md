@@ -2,62 +2,24 @@
 id: "idea-20260711-rm01"
 title: "Reading-Modeling Decomposition Tradeoff — Explained by Cohesion-Coupling Heuristic"
 tags: [reading, modeling, methodology, decomposition, learning, cohesion-coupling, tradeoff]
-status: raw
-created: 2026-07-11
-updated: 2026-07-11
-source_type: "manual"
-source_path: null
 importance: 7
-permanent_note_material: true
-material_since: "2026-07-11"
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
     slug: cohesion-coupling-decomposition-heuristic
-    relation: explained-by
-    strength: 0.95
   - type: idea
     slug: how-to-deal-with-complexity
-    relation: related
-    strength: 0.7
   - type: idea
     slug: breadth-first-trap
-    relation: related
-    strength: 0.65
   - type: idea
     slug: structural-patience
-    relation: related
-    strength: 0.6
   - type: idea
     slug: attention-pointer-learning-model
-    relation: abstracted-by
-    strength: 0.9
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
   - type: idea
     slug: locate-first-model-last
-    relation: solved-by
-    strength: 0.9
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
   - type: idea
     slug: knowledge-as-dictionary-of-perspectives
-    relation: related
-    strength: 0.6
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: auto
   - type: project
     slug: deep-learning-book
-    relation: methodology-applies-to
-    strength: 0.4
-    dimensions: [cross-axis]
-    bidirectional: false
-    source: auto
 ---
 
 # Reading-Modeling Decomposition Tradeoff

@@ -2,39 +2,14 @@
 id: "idea-20260626-impl01"
 title: "Implicit Improvement — Getting Better Without Knowing How"
 tags: [implicit-learning, skill-acquisition, tetrio, english-learning, procedural-memory]
-status: raw
-created: 2026-06-26
-updated: 2026-06-26
-source_type: "manual"
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
-    slug: data-pattern-prediction-chain
-    relation: happens-below-awareness
-    strength: 0.6
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "data-pattern-prediction-chain"
   - type: project
-    slug: english-learning
-    relation: shares-pattern
-    strength: 0.7
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "english-learning"
   - type: idea
-    slug: timeline-based-project-structure
-    relation: challenges-m-model
-    strength: 0.5
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "timeline-based-project-structure"
 ---
 
 # Implicit Improvement Pattern

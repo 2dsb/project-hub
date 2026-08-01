@@ -1,47 +1,22 @@
 ---
 id: idea-20260717-interaction-essence
 title: Interaction-as-Essence Heuristic
-status: raw
 tags:
   - modeling
   - epistemology
   - anti-essentialism
   - relationism
   - heuristic
-source_type: conversation
 importance: 4
-created: 2026-07-17
-updated: 2026-07-17
-links: []
-related_entities:
+connections:
   - type: idea
-    slug: interaction-as-dictionary
-    relation: synthesized-into
-    strength: 0.95
-    dimensions: ["concept-relation", "complement"]
-    bidirectional: true
-    source: manual
+    slug: "interaction-as-dictionary"
   - type: idea
-    slug: three-layer-framework
-    relation: explained-by
-    strength: 0.9
-    dimensions: ["concept-relation"]
-    bidirectional: true
-    source: manual
+    slug: "three-layer-framework"
   - type: idea
-    slug: portal-model
-    relation: explained-by
-    strength: 0.85
-    dimensions: ["concept-relation"]
-    bidirectional: true
-    source: manual
+    slug: "portal-model"
   - type: idea
-    slug: cohesion-coupling-heuristic
-    relation: parallel-to
-    strength: 0.85
-    dimensions: ["concept-relation"]
-    bidirectional: true
-    source: manual
+    slug: "cohesion-coupling-heuristic"
 ---
 
 # Interaction-as-Essence Heuristic

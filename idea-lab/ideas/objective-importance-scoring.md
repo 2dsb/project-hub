@@ -1,55 +1,21 @@
 ---
 id: "idea-20260713-is01"
 title: "Objective Importance Scoring — Two Orthogonal Dimensions for Idea Evaluation"
-tags: [meta-cognition, importance-scoring, idea-evaluation, M33, cross-axis, system-design, methodology, objective-metrics]
-status: raw
-created: 2026-07-13
-updated: 2026-07-13
-source_type: "manual"
-source_path: null
+tags: [meta-cognition, importance-scoring, idea-evaluation, m33, cross-axis, system-design, methodology, objective-metrics]
 importance: 8
-permanent_note_material: true
-material_since: "2026-07-13"
-material_expiry_days: 30
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
-    slug: knowledge-as-dictionary-of-perspectives
-    relation: evaluation-target
-    strength: 0.7
+    slug: "knowledge-as-dictionary-of-perspectives"
   - type: idea
-    slug: four-layer-quality-model
-    relation: prior-art
-    strength: 0.6
+    slug: "four-layer-quality-model"
   - type: idea
-    slug: cohesion-coupling-decomposition-heuristic
-    relation: related
-    strength: 0.45
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: auto
+    slug: "cohesion-coupling-decomposition-heuristic"
   - type: idea
-    slug: system-coevolution
-    relation: related
-    strength: 0.5
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: auto
+    slug: "system-coevolution"
   - type: idea
-    slug: audit-blind-spot-spec-limitation
-    relation: extends
-    strength: 0.45
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "audit-blind-spot-spec-limitation"
   - type: project
-    slug: project-hub
-    relation: methodology-for
-    strength: 0.55
-    dimensions: [cross-axis]
-    bidirectional: false
-    source: auto
+    slug: "project-hub"
 ---
 
 # Objective Importance Scoring — Two Orthogonal Dimensions
@@ -61,9 +27,9 @@ Current `importance` scores are assigned manually at creation time with no stand
 ## Evolution: Three → Two Dimensions
 
 Initial proposal had three dimensions:
-1. Unification Power (统一力) — backlink count × strength
-2. Cross-Axis Influence (跨轴影响力) — project/skill references
-3. Generative Power (生成力) — descendant idea count
+1. Unification Power — backlink count × strength
+2. Cross-Axis Influence — project/skill references
+3. Generative Power — descendant idea count
 
 Analysis revealed they aren't orthogonal:
 - **Generative ⊂ Unification**: generative backlinks (`extends`, `builds-on`, etc.) are a subset of all backlinks
@@ -73,14 +39,14 @@ Two genuinely independent axes emerge:
 
 | Dimension | Measures | Orthogonal because... |
 |-----------|----------|----------------------|
-| **知识层中心性** (Knowledge-Layer Centrality) | Idea's position in the idea graph | A purely structural property of the knowledge graph |
-| **执行层穿透力** (Execution-Layer Penetration) | Whether the idea has crossed into projects/skills | Central ≠ used; used ≠ central |
+| **Knowledge-Layer Centrality** | Idea's position in the idea graph | A purely structural property of the knowledge graph |
+| **Execution-Layer Penetration** | Whether the idea has crossed into projects/skills | Central ≠ used; used ≠ central |
 
 A deep philosophical concept can score 1.0 on centrality and 0 on penetration. A practical tool can score near 0 on centrality and 1.0 on penetration. These are independent axes.
 
 ---
 
-## Dimension 1: Knowledge-Layer Centrality (知识层中心性)
+## Dimension 1: Knowledge-Layer Centrality
 
 **What it measures**: How central is this idea in the idea graph?
 
@@ -100,7 +66,7 @@ Where:
 
 ---
 
-## Dimension 2: Execution-Layer Penetration (执行层穿透力)
+## Dimension 2: Execution-Layer Penetration
 
 **What it measures**: Has this idea crossed into the execution system?
 

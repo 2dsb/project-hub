@@ -2,39 +2,14 @@
 id: "idea-20260626-spc01"
 title: "Space as a Perspective — Spatial Thinking as a Cognitive Lens"
 tags: [space, perspective, thinking-tool, metaphor, cognitive-lens, topology]
-status: raw
-created: 2026-06-26
-updated: 2026-06-26
-source_type: "manual"
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
-    slug: conversation-topic-flow
-    relation: applies-to
-    strength: 0.6
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "conversation-topic-flow"
   - type: idea
-    slug: flow-based-thinking
-    relation: complements
-    strength: 0.5
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "flow-based-thinking"
   - type: idea
-    slug: knowledge-as-dictionary-of-perspectives
-    relation: complement
-    strength: 0.45
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "knowledge-as-dictionary-of-perspectives"
 ---
 
 # Space as a Perspective

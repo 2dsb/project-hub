@@ -2,32 +2,12 @@
 id: "idea-20260626-dpp01"
 title: "Data → Pattern → Prediction Chain"
 tags: [abstraction, learning, pattern-recognition, prediction, cognitive-pipeline]
-status: raw
-created: 2026-06-26
-updated: 2026-06-26
-source_type: "manual"
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
-    slug: learning-pipeline
-    relation: parallels
-    strength: 0.7
-    dimensions: [structural-similarity]
-    bidirectional: true
-    source: manual
+    slug: "learning-pipeline"
   - type: idea
-    slug: flow-based-thinking
-    relation: maps-to
-    strength: 0.6
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "flow-based-thinking"
 ---
 
 # Data → Pattern → Prediction Chain

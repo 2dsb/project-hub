@@ -1,52 +1,21 @@
 ---
 id: idea-20260702-framework-extraction
-title: First Time — Framework Emerges from Content; Second Time — Framework Precedes
-  Content
-status: raw
-tags:
-- methodology
-- learning
-- pattern-extraction
-- framework-design
-source_type: daily
+title: First Time — Framework Emerges from Content; Second Time — Framework Precedes Content
 importance: 2
-permanent_note_material: false
-created: 2026-07-02
-updated: '2026-07-30'
-links: []
-related_entities:
-- type: idea
-  slug: three-layer-framework
-  relation: discovery-pattern-of
-  strength: 0.85
-  dimensions:
-  - concept-relation
-  bidirectional: true
-  source: manual
-- type: idea
-  slug: reconnection-doc-method
-  relation: explains-why-it-works
-  strength: 0.8
-  dimensions:
-  - complement
-  bidirectional: true
-  source: manual
-- type: idea
-  slug: content-independent-framework
-  relation: overlap
-  strength: 0.4
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
-- type: idea
-  slug: operational-criteria-for-classification
-  relation: overlap
-  strength: 0.4
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
+tags:
+  - methodology
+  - learning
+  - pattern-extraction
+  - framework-design
+connections:
+  - type: idea
+    slug: "three-layer-framework"
+  - type: idea
+    slug: "reconnection-doc-method"
+  - type: idea
+    slug: "content-independent-framework"
+  - type: idea
+    slug: "operational-criteria-for-classification"
 ---
 
 

@@ -1,38 +1,18 @@
 ---
 id: "idea-20260719-information-exchange-as-package-cycle"
 title: "Information Exchange as Package-Unpack-Repeat Cycle"
-status: raw
-source_type: daily
-source_path: null
-importance: 3
-permanent_note_material: true
-material_since: 2026-07-19
-material_expiry_days: 30
-promoted_from: null
 tags:
   - information-exchange
   - agent-loop
   - communication
   - llm
   - abstraction
-related_entities:
+importance: 3
+connections:
   - type: idea
     slug: interaction-as-essence-heuristic
-    relation: extends
-    strength: 0.7
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
   - type: idea
     slug: interaction-as-dictionary
-    relation: related
-    strength: 0.6
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
-links: []
-created: 2026-07-19
-updated: 2026-07-19
 ---
 
 # Information Exchange as Package-Unpack-Repeat Cycle

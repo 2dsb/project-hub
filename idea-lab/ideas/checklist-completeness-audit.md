@@ -1,66 +1,24 @@
 ---
 id: idea-20260702-checklist-audit
 title: Checklist Completeness Audit — External Reference Beats Internal Consistency
-status: raw
 tags:
-- methodology
-- verification
-- knowledge-reconnection
-source_type: daily
+  - methodology
+  - verification
+  - knowledge-reconnection
 importance: 2
-permanent_note_material: false
-created: 2026-07-02
-updated: '2026-07-30'
-links: []
-related_entities:
-- type: idea
-  slug: knowledge-reconnection
-  relation: extends-verification-step
-  strength: 0.85
-  dimensions:
-  - complement
-  bidirectional: true
-  source: manual
-- type: idea
-  slug: content-independent-framework
-  relation: overlap
-  strength: 0.5
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
-- type: idea
-  slug: human-structure-ai-completeness
-  relation: overlap
-  strength: 0.5
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
-- type: idea
-  slug: residuals-as-honesty-device
-  relation: overlap
-  strength: 0.5
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
-- type: idea
-  slug: reconnection-doc-method
-  relation: overlap
-  strength: 0.4
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
-- type: idea
-  slug: three-layer-framework
-  relation: overlap
-  strength: 0.4
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
+connections:
+  - type: idea
+    slug: knowledge-reconnection
+  - type: idea
+    slug: content-independent-framework
+  - type: idea
+    slug: human-structure-ai-completeness
+  - type: idea
+    slug: residuals-as-honesty-device
+  - type: idea
+    slug: reconnection-doc-method
+  - type: idea
+    slug: three-layer-framework
 ---
 
 

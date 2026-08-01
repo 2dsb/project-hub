@@ -10,74 +10,24 @@ tags:
   - dictionary-metaphor
   - attention-filter
   - meta-model
-status: raw
-created: 2026-07-17
-updated: 2026-07-17
-source_type: conversation
 importance: 9
-permanent_note_material: true
-material_since: "2026-07-17"
-material_expiry_days: 30
-links: []
-related_entities:
+connections:
   - type: idea
-    slug: interaction-as-essence-heuristic
-    relation: synthesizes
-    bidirectional: true
-    source: manual
+    slug: "interaction-as-essence-heuristic"
   - type: idea
-    slug: strategy-three-component-model
-    relation: supports
-    strength: 0.7
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
-    strength: 0.95
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: manual
+    slug: "strategy-three-component-model"
   - type: idea
-    slug: knowledge-as-dictionary-of-perspectives
-    relation: synthesizes
-    strength: 0.95
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: manual
+    slug: "knowledge-as-dictionary-of-perspectives"
   - type: idea
-    slug: three-layer-framework
-    relation: explained-by
-    strength: 0.85
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "three-layer-framework"
   - type: idea
-    slug: portal-model
-    relation: explained-by
-    strength: 0.8
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "portal-model"
   - type: idea
-    slug: cohesion-coupling-heuristic
-    relation: parallel-to
-    strength: 0.85
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "cohesion-coupling-heuristic"
   - type: idea
-    slug: attention-pointer-learning-model
-    relation: related-to
-    strength: 0.7
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "attention-pointer-learning-model"
   - type: idea
-    slug: locate-first-model-last
-    relation: behavioral-corollary
-    strength: 0.85
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "locate-first-model-last"
 ---
 
 # Interaction-as-Dictionary — A Unified Modeling Framework

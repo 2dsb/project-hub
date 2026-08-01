@@ -2,25 +2,10 @@
 id: "idea-20260626-cflow01"
 title: "How Conversation Topics Flow — Finding the Structure"
 tags: [conversation, topic-flow, structure, interaction-dynamics, dialogue]
-status: raw
-created: 2026-06-26
-updated: 2026-06-26
-source_type: "manual"
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
-    slug: flow-based-thinking
-    relation: potential-framework
-    strength: 0.5
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "flow-based-thinking"
 ---
 
 # How Conversation Topics Flow

@@ -4,10 +4,10 @@ title: "The Stranger Conversation Loop — A Replicable Social Algorithm"
 tags: [social, conversation, networking, algorithm, ice-breaking]
 importance: 8
 connections:
-  - slug: "four-step-networking-method"
-    relation: "complement"
-  - slug: "social-strategy-skill"
-    relation: "instantiates"
+  - type: idea
+    slug: "four-step-networking-method"
+  - type: idea
+    slug: "social-strategy-skill"
 ---
 
 # The Stranger Conversation Loop

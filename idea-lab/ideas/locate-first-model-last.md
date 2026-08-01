@@ -2,66 +2,26 @@
 id: "idea-20260713-lp01"
 title: "Locate-First, Model-Last — A Learning Paradigm Shift Driven by the Dictionary Model"
 tags: [learning, modeling, paradigm, methodology, knowledge-representation, multi-perspective, dictionary-model, two-pass, efficiency]
-status: raw
-created: 2026-07-13
-updated: 2026-07-13
-source_type: "manual"
-source_path: null
 importance: 9
-permanent_note_material: true
-material_since: "2026-07-13"
-material_expiry_days: 30
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
     slug: knowledge-as-dictionary-of-perspectives
-    relation: direct-corollary
-    strength: 0.95
   - type: idea
     slug: reading-modeling-decomposition-tradeoff
-    relation: solves
-    strength: 0.9
   - type: idea
     slug: two-pass-reading-strategy
-    relation: generalizes
-    strength: 0.85
   - type: idea
     slug: cohesion-coupling-decomposition-heuristic
-    relation: motivated-by
-    strength: 0.8
   - type: idea
     slug: breadth-first-trap
-    relation: avoids
-    strength: 0.7
   - type: idea
     slug: attention-pointer-learning-model
-    relation: behavioral-corollary
-    strength: 0.85
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
   - type: idea
     slug: structural-patience
-    relation: extends
-    strength: 0.6
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
   - type: idea
     slug: attention-as-bottleneck
-    relation: related
-    strength: 0.45
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: auto
   - type: idea
     slug: learning-pipeline
-    relation: related
-    strength: 0.5
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: auto
 ---
 
 # Locate-First, Model-Last — A Learning Paradigm Shift

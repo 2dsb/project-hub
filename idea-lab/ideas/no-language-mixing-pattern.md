@@ -2,25 +2,10 @@
 id: "idea-20260626-nomix01"
 title: "No Language Mixing — A Past Behavioral Pattern in English Learning"
 tags: [english-learning, code-switching, anxiety, self-judgment, behavioral-pattern]
-status: raw
-created: 2026-06-26
-updated: 2026-06-26
-source_type: "manual"
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: project
-    slug: english-learning
-    relation: context
-    strength: 0.7
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "english-learning"
 ---
 
 # No Language Mixing Pattern

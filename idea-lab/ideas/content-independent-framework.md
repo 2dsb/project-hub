@@ -1,77 +1,27 @@
 ---
 id: idea-20260702-content-independent
 title: Content-Independent Frameworks Beat Content-Bound Ones
-status: raw
 tags:
 - methodology
 - framework-design
 - knowledge-reconnection
-source_type: daily
 importance: 2
-permanent_note_material: false
-created: 2026-07-02
-updated: '2026-07-30'
-links: []
-related_entities:
-- type: idea
-  slug: three-layer-framework
-  relation: example-of
-  strength: 0.9
-  dimensions:
-  - concept-relation
-  bidirectional: true
-  source: manual
-- type: idea
-  slug: reconnection-doc-method
-  relation: supports
-  strength: 0.8
-  dimensions:
-  - complement
-  bidirectional: true
-  source: manual
-- type: idea
-  slug: checklist-completeness-audit
-  relation: overlap
-  strength: 0.5
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
-- type: idea
-  slug: human-structure-ai-completeness
-  relation: overlap
-  strength: 0.5
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
-- type: idea
-  slug: operational-criteria-for-classification
-  relation: overlap
-  strength: 0.5
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
-- type: idea
-  slug: residuals-as-honesty-device
-  relation: overlap
-  strength: 0.5
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
-- type: idea
-  slug: framework-extraction-pattern
-  relation: overlap
-  strength: 0.4
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
+connections:
+  - type: idea
+    slug: "three-layer-framework"
+  - type: idea
+    slug: "reconnection-doc-method"
+  - type: idea
+    slug: "checklist-completeness-audit"
+  - type: idea
+    slug: "human-structure-ai-completeness"
+  - type: idea
+    slug: "operational-criteria-for-classification"
+  - type: idea
+    slug: "residuals-as-honesty-device"
+  - type: idea
+    slug: "framework-extraction-pattern"
 ---
-
-
 
 
 

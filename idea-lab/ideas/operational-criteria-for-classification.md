@@ -1,50 +1,20 @@
 ---
 id: idea-20260702-operational-criteria
 title: Operational Yes/No Criteria Beat Descriptive Labels for Classification
-status: raw
 tags:
 - methodology
 - framework-design
 - classification
-source_type: daily
 importance: 2
-permanent_note_material: false
-created: 2026-07-02
-updated: '2026-07-30'
-links: []
-related_entities:
-- type: idea
-  slug: three-layer-framework
-  relation: refines
-  strength: 0.9
-  dimensions:
-  - concept-relation
-  bidirectional: true
-  source: manual
-- type: idea
-  slug: reconnection-doc-method
-  relation: provides-criteria-for
-  strength: 0.9
-  dimensions:
-  - concept-relation
-  bidirectional: true
-  source: manual
-- type: idea
-  slug: content-independent-framework
-  relation: overlap
-  strength: 0.5
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
-- type: idea
-  slug: framework-extraction-pattern
-  relation: overlap
-  strength: 0.4
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
+connections:
+  - type: idea
+    slug: three-layer-framework
+  - type: idea
+    slug: reconnection-doc-method
+  - type: idea
+    slug: content-independent-framework
+  - type: idea
+    slug: framework-extraction-pattern
 ---
 
 

@@ -2,57 +2,20 @@
 id: "idea-20260623-ba01"
 title: "Behavioral Activation Model: Low Scores Are Starting Conditions, Not Static Labels"
 tags: [productivity, low-energy, behavioral-activation, social-accountability, self-management, skill-design]
-status: raw
-created: 2026-06-23
-updated: 2026-06-23
-source_type: "daily"
-source_path: "daily/2026-06-23.md"
 importance: 7
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links:
+connections:
   - type: skill
     slug: "low-energy-day"
-    label: "Skill updated to v2.1 based on this insight — social accountability added as primary recovery path"
-related_entities: []
-related_entities:
   - type: ideas
     slug: "low-energy-ideation"
-    relation: "concept-relation"
-    strength: 0.9
-    dimensions: ["concept-relation", "complement"]
-    bidirectional: true
-    source: "auto"
   - type: ideas
     slug: "illness-reframing"
-    relation: "complement"
-    strength: 0.75
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "auto"
   - type: ideas
     slug: "certainty-gravity"
-    relation: "structural-similarity"
-    strength: 0.6
-    dimensions: ["structural-similarity"]
-    bidirectional: true
-    source: "auto"
   - type: ideas
     slug: "knowledge-reconnection"
-    relation: "complement"
-    strength: 0.5
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "auto"
   - type: literature-notes
     slug: "卡片笔记写作法c3.4"
-    relation: "extends"
-    strength: 0.73
-    dimensions: ["tag-overlap", "concept-relation", "structural-similarity"]
-    bidirectional: true
-    source: "auto"
 ---
 
 # Behavioral Activation Model: Low Scores Are Starting Conditions, Not Static Labels

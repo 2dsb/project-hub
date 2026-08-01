@@ -6,27 +6,12 @@ tags:
   - learning-method
   - quality-assurance
   - cs61a
-status: raw
-created: 2026-07-17
-updated: 2026-07-17
-source_type: conversation
 importance: 3
-links: []
-related_entities:
+connections:
   - type: project
     slug: cs61a
-    relation: used-in
-    strength: 0.8
-    dimensions: [cross-axis]
-    bidirectional: true
-    source: manual
   - type: project
     slug: runoob-python
-    relation: used-in
-    strength: 0.7
-    dimensions: [cross-axis]
-    bidirectional: true
-    source: manual
 ---
 
 # Teach Coverage Check

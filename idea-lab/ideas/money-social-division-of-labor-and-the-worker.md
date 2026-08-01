@@ -1,0 +1,82 @@
+---
+id: idea-20260411-d8e4a1
+title: Money, Social Division of Labor, and the Worker
+tags:
+- money
+- social-division-of-labor
+- worker
+- occupation
+- labor-transformation
+- comparative-advantage
+- contract
+- capital
+- productivity
+- wage-labor
+importance: 1
+connections:
+- type: idea
+  slug: gamification-of-island-economics-static-game
+---
+
+People across all trades need a unified "thing" to serve as a medium of exchange.
+Money has intrinsic value. For other goods, their price is determined by their ratio to this "intrinsic value."
+
+```
+Currency: fish (price 1)
+```
+
+As capital grows, productivity rises, giving rise to industries and occupations.
+For each person, new attributes are added: occupation and industry.
+
+```
+user:A
+Occupation: Chef (Food & Beverage industry)
+```
+
+At this point, A has acquired new attributes:
+
+```
+user:A
+Action Points: 10
+Labor: Fishing (5)
+Savings: 20
+Capital: One fishing net
+Consumption: 5
+```
+
+The previous process of capital + labor converting to savings now becomes:
+Occupation determines the nature of labor (fishing in the table above). Labor transforms into production (goods or services). Production transforms into savings (measured in money).
+
+```
+user:A
+Occupation: Chef (Food & Beverage industry)
+Labor: Cooking (15 -> 5)
+Capital: Cookware, etc.
+Production: 0 -> 10 dishes
+
+
+Production: 10 dishes -> 0
+Savings: 5 -> 15
+```
+
+Action: Individual A sells their labor to Corporation C.
+
+```
+corporation:C
+Employee: A
+Labor: Cooking (0 -> 15, A)
+
+```
+
+Contract: Employment (Individual A works for Corporation C).
+
+```
+A and C agree:
+For one month, A provides labor to C.
+After one month, C pays A savings.
+```
+
+C can also apply capital to labor, transforming it into production.
+Therefore, the amount of wages is related to (the savings that can be exchanged for the production obtained by applying capital to labor).
+
+Comparative advantage: the efficiency with which a person's action points convert into different types of labor, labor into production, and further into services.

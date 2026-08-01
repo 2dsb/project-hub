@@ -1,44 +1,19 @@
 ---
 id: "idea-20260719-decision-model-as-next-domain-model"
 title: "Decision Model as Next Non-Specialist Domain Model"
-status: raw
-source_type: daily
-source_path: null
 importance: 2
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
 tags:
   - decision-making
   - modeling
   - system-architecture
   - meta-cognition
-related_entities:
+connections:
   - type: idea
-    slug: timeline-based-project-structure
-    relation: sibling-model
-    strength: 0.8
-    dimensions: [complement]
-    bidirectional: true
-    source: manual
+    slug: "timeline-based-project-structure"
   - type: idea
-    slug: leverage-existing-vs-build-from-scratch
-    relation: would-be-factor
-    strength: 0.6
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "leverage-existing-vs-build-from-scratch"
   - type: idea
-    slug: precision-fuzziness-tradeoff
-    relation: would-be-factor
-    strength: 0.4
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
-links: []
-created: 2026-07-19
-updated: 2026-07-19
+    slug: "precision-fuzziness-tradeoff"
 ---
 
 # Decision Model as Next Non-Specialist Domain Model

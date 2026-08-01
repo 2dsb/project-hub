@@ -6,46 +6,16 @@ tags:
   - knowledge-management
   - structure
   - learning
-status: raw
-created: 2026-06-25
-updated: 2026-06-25
-source_type: "manual"
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
     slug: "knowledge-reconnection"
-    relation: "extends"
-    strength: 0.8
-    dimensions: ["concept-relation"]
-    bidirectional: true
-    source: "manual"
   - type: idea
     slug: "learning-pipeline"
-    relation: "related-to"
-    strength: 0.6
-    dimensions: ["concept-relation"]
-    bidirectional: true
-    source: "manual"
   - type: idea
     slug: "locate-first-model-last"
-    relation: "extended-by"
-    strength: 0.6
-    dimensions: ["concept-relation", "complement"]
-    bidirectional: true
-    source: "auto"
   - type: idea
     slug: "attention-pointer-learning-model"
-    relation: "complement"
-    strength: 0.5
-    dimensions: ["concept-relation", "complement"]
-    bidirectional: true
-    source: "auto"
 ---
 
 # Structural Patience — Data-Gated Structure Formation

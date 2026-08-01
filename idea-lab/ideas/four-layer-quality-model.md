@@ -1,6 +1,6 @@
 ---
 id: idea-20260610-qc01
-title: 四层产品质量模型：6种比照 + 4层自洽 = 10维审查空间
+title: Four-Layer Product Quality Model: 6 Cross-Layer Comparisons + 4 Internal Consistencies = 10-Dimensional Audit Space
 tags:
 - meta-cognition
 - system-design
@@ -8,230 +8,155 @@ tags:
 - audit
 - methodology
 - framework
-status: raw
-created: 2026-06-10
-updated: '2026-07-30'
-source_type: manual
-source_path: null
 importance: 10
-permanent_note_material: true
-material_since: '2026-06-10'
-material_expiry_days: 60
-promoted_from: null
-links: []
-related_entities:
+connections:
 - type: idea
   slug: audit-blind-spot-spec-limitation
-  relation: generalizes
-  strength: 1
 - type: project
   slug: project-hub
-  relation: methodology-foundation-for
-  strength: 1
-- type: ideas
-  slug: audit-blind-spot-spec-limitation
-  relation: concept-relation
-  strength: 0.9
-  dimensions:
-  - concept-relation
-  - complement
-  bidirectional: true
-  source: auto
-- type: ideas
+- type: idea
   slug: system-coevolution
-  relation: complement
-  strength: 0.6
-  dimensions:
-  - complement
-  bidirectional: true
-  source: auto
-- type: ideas
+- type: idea
   slug: system-coevolution-p2-interpretability
-  relation: complement
-  strength: 0.55
-  dimensions:
-  - complement
-  bidirectional: true
-  source: auto
-- type: ideas
+- type: idea
   slug: system-coevolution-p4-self-reinforcement
-  relation: complement
-  strength: 0.55
-  dimensions:
-  - complement
-  bidirectional: true
-  source: auto
-- type: ideas
+- type: idea
   slug: knowledge-as-dictionary-of-perspectives
-  relation: structural-similarity
-  strength: 0.5
-  dimensions:
-  - concept-relation
-  - structural-similarity
-  bidirectional: true
-  source: auto
-- type: ideas
+- type: idea
   slug: unified-python-execution-model
-  relation: related
-  strength: 0.5
-  dimensions:
-  - concept-relation
-  - structural-similarity
-  bidirectional: true
-  source: auto
-- type: ideas
+- type: idea
   slug: abstraction-barrier-as-dual-perspective-bridge
-  relation: related
-  strength: 0.5
-  dimensions:
-  - concept-relation
-  - structural-similarity
-  bidirectional: true
-  source: auto
-- type: ideas
+- type: idea
   slug: objective-importance-scoring
-  relation: prior-art-for
-  strength: 0.6
-  dimensions:
-  - concept-relation
-  - complement
-  bidirectional: true
-  source: auto
 - type: idea
   slug: reconnection-doc-method
-  relation: overlap
-  strength: 0.429
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
 ---
 
 
-# 四层产品质量模型：6种比照 + 4层自洽 = 10维审查空间
+# Four-Layer Product Quality Model: 6 Cross-Layer Comparisons + 4 Internal Consistencies = 10-Dimensional Audit Space
 
-## 模型
+## Model
 
-任何"产品"（软件系统、文档、设计）的制作有四个层级：
+Any "product" (software system, document, design) is produced at four levels:
 
 ```
-理念 ──→ 验收标准 ──→ Spec ──→ 产品
+Philosophy ──→ Acceptance Criteria ──→ Spec ──→ Product
 ```
 
-| 层级 | 定义 | M34 中的例子 |
+| Level | Definition | Example in M34 |
 |------|------|-------------|
-| **理念** | 这个产品为什么存在、它声称要实现什么根本性的承诺 | "协同进化"、"所有结构都可以改变"、"全域数据可达" |
-| **验收标准** | 理念被翻译成的可测量、可判定的准则 | perfection-roadmap 的 5 条完美标准 |
-| **Spec** | 具体的设计规范——怎么做、什么格式、什么算法 | `skills/coevolution-system.md` Step 1-7 |
-| **产品** | 实际产出——代码、配置、文档、运行时行为 | `scripts/` + `resources/coevolution/` + 实际运行效果 |
+| **Philosophy** | Why this product exists, what fundamental promises it claims to deliver | "Coevolution," "All structures can change," "Global data reachability" |
+| **Acceptance Criteria** | Measurable, decidable criteria that the philosophy is translated into | The 5 perfection standards in perfection-roadmap |
+| **Spec** | Concrete design specification — how to do it, what format, what algorithm | `skills/coevolution-system.md` Steps 1-7 |
+| **Product** | Actual output — code, config, docs, runtime behavior | `scripts/` + `resources/coevolution/` + actual runtime results |
 
-## 六种比照方式
+## Six Cross-Layer Comparison Types
 
-4 层 → C(4,2) = 6 对。这 6 种比照**穷尽了所有可能的审查类型**。不存在第 7 种。
+4 levels → C(4,2) = 6 pairs. These 6 comparisons **exhaust all possible audit types**. There is no 7th.
 
-| # | 比照对 | 审查类型 | 问题 |
+| # | Comparison Pair | Audit Type | Question |
 |---|--------|---------|------|
-| **1** | 理念 ↔ 验收标准 | **承诺翻译审查** | 理念的每一条都被正确翻译成可测量的标准了吗？有没有理念中的维度被标准遗漏了？有没有标准测量了理念不在乎的东西？ |
-| **2** | 理念 ↔ Spec | **设计哲学审查** | Spec 的设计决策体现了理念吗？还是 spec 在追求工程便利而忘记了初衷？ |
-| **3** | 理念 ↔ 产品 | **设计承诺审查** | 产品真的实现了理念声称的东西吗？跳过 spec，直接用理念去照产品——这是"天真用户"的视角 |
-| **4** | 验收标准 ↔ Spec | **标准覆盖审查** | 每条验收标准在 spec 中都有对应的实现设计吗？spec 是否有超出验收标准的过度设计？ |
-| **5** | 验收标准 ↔ 产品 | **验收测试** | 产品真的通过了验收标准吗？这是真正意义上的"测试"——不检查代码，检查行为 |
-| **6** | Spec ↔ 产品 | **对照审计** | 代码和 spec 在字面上对齐吗？这是 recursive-planner 三轮审计一直在做的事 |
+| **1** | Philosophy ↔ Acceptance Criteria | **Commitment Translation Audit** | Has every aspect of the philosophy been correctly translated into measurable criteria? Are there dimensions in the philosophy that the criteria missed? Are there criteria measuring things the philosophy doesn't care about? |
+| **2** | Philosophy ↔ Spec | **Design Philosophy Audit** | Do the Spec's design decisions embody the philosophy? Or is the spec chasing engineering convenience and forgetting the original intent? |
+| **3** | Philosophy ↔ Product | **Design Promise Audit** | Does the product actually deliver what the philosophy claims? Skip the spec — hold the product directly against the philosophy. This is the "naive user" perspective. |
+| **4** | Acceptance Criteria ↔ Spec | **Criteria Coverage Audit** | Does every acceptance criterion have a corresponding implementation design in the spec? Is the spec over-engineered beyond what the acceptance criteria demand? |
+| **5** | Acceptance Criteria ↔ Product | **Acceptance Testing** | Does the product actually pass the acceptance criteria? This is "testing" in the truest sense — checking behavior, not code. |
+| **6** | Spec ↔ Product | **Correspondence Audit** | Does the code literally align with the spec? This is what the three rounds of recursive-planner audit have been doing. |
 
-### 四层内部自洽性
+### Four-Level Internal Consistency
 
-每层除了要和另外 3 层比照，自身也可能有内部质量问题——不涉及任何其他层。C(4,2) + 4 = **10 维**，这是完整的审查空间。
+Beyond comparing against the other 3 levels, each level may also have internal quality issues — involving no other level. C(4,2) + 4 = **10 dimensions**. This is the complete audit space.
 
-| # | 审查对象 | 审查类型 | 问题 |
+| # | Audit Target | Audit Type | Question |
 |---|---------|---------|------|
-| **7** | 理念内部 | **哲学自洽审查** | 理念的各项声明之间有没有矛盾？"既要进化又不许改结构"——这两个承诺能共存吗？有没有承诺了自己做不到的事？ |
-| **8** | 验收标准内部 | **测量完备性审查** | 每一条验收标准都是可测量的吗？标准之间有没有互相矛盾（两条标准不可能同时满足）？有没有隐式地依赖了未定义的前置条件？ |
-| **9** | Spec 内部 | **设计一致性审查** | Spec 的不同章节之间有没有逻辑矛盾？某处的算法描述是否依赖了另一处未定义的概念？引用的文件和目录是否存在？ |
-| **10** | 产品内部 | **工程质量审查** | 代码有没有 bug、性能问题、安全漏洞？模块边界是否清晰？即使产品和 spec 完全一致（#6 PASS），代码本身也可能有正确性之外的工程质量问题（如内存泄漏、O(n²) 复杂度、异常处理缺失） |
+| **7** | Philosophy Internal | **Philosophical Coherence Audit** | Are there contradictions among the philosophy's various declarations? "Must evolve but must not change structure" — can these two promises coexist? Has it promised something it cannot deliver? |
+| **8** | Acceptance Criteria Internal | **Measurement Completeness Audit** | Is every acceptance criterion measurable? Are there mutually contradictory criteria (two criteria that cannot be satisfied simultaneously)? Are there implicit dependencies on undefined preconditions? |
+| **9** | Spec Internal | **Design Consistency Audit** | Are there logical contradictions between different sections of the spec? Does an algorithm description in one place depend on a concept undefined elsewhere? Do referenced files and directories exist? |
+| **10** | Product Internal | **Engineering Quality Audit** | Does the code have bugs, performance issues, or security vulnerabilities? Are module boundaries clear? Even if the product perfectly matches the spec (#6 PASS), the code itself may have engineering quality issues beyond correctness (e.g., memory leaks, O(n²) complexity, missing exception handling). |
 
-**完整的质量空间 = 6 种跨层比照 + 4 层内部自洽 = 10 维。** 不存在第 11 维。
+**The complete quality space = 6 cross-layer comparisons + 4 internal consistencies = 10 dimensions.** There is no 11th dimension.
 
-## 发现过程
+## Discovery Process
 
-这个模型源于 M34 三轮完美化之后的一次元认知对话：
+This model emerged from a meta-cognition dialogue after M34's three rounds of perfection:
 
-1. 用户问 "suggestion-templates.yaml 中的内容会进化吗？"
-2. 答案是"不会"——模板文本是静态的、刚性的
-3. 追问：为什么三轮审计（R1: 25发现, R2: 18发现, R3: 14发现）都没发现这个问题？
-4. 根因：三轮审计只做了 **#6（Spec↔产品）**。模板刚性的发现路径是 **#3（理念↔产品）**——直接用"协同进化"这个理念去照产品，发现模板不会变
-5. **如果只做 #6，这个问题永远不可能被发现**——因为 #6 的参照物里不包含"理念"
+1. The user asked "Will the content in suggestion-templates.yaml evolve?"
+2. Answer: "No" — the template text is static and rigid
+3. Follow-up: Why did the three audit rounds (R1: 25 findings, R2: 18 findings, R3: 14 findings) miss this?
+4. Root cause: The three audit rounds only did **#6 (Spec↔Product)**. The discovery path for template rigidity is **#3 (Philosophy↔Product)** — directly holding the "coevolution" philosophy against the product reveals that templates don't evolve
+5. **If only #6 is done, this problem can never be discovered** — because #6's reference points do not include "philosophy"
 
-## M34 的审查覆盖现状
+## M34's Audit Coverage Status
 
 ```
-         ┌── #7: 从未做过 ❌
+         ┌── #7: Never done ❌
          │
-理念 ────── 验收标准 ────── Spec ────── 产品
-  │    ┌── #8: 从未做过 ❌     │     ┌── #9: 部分 ✅    │     ┌── #10: 部分 ✅
-  │    │                       │     │                  │     │
-  │    │   └─────∧─────────────┘     │   └─────∧────────┘     │
-  │    │         #4 ❌               │         #6 ✅           │
-  │    │                             │                        │
-  │    └─────────∧───────────────────┘                        │
-  │              #5 ❌                                        │
-  │                                                           │
-  └───────────────────────────────────────────────────────────┘
-           #1 ❌, #2 ❌, #3: 偶发（用户触发）⚠️
+Philosophy ── Acc. Criteria ── Spec ── Product
+  │    ┌── #8: Never done ❌    │     ┌── #9: Partial ✅    │     ┌── #10: Partial ✅
+  │    │                        │     │                     │     │
+  │    │   └─────∧──────────────┘     │   └─────∧───────────┘     │
+  │    │         #4 ❌                │         #6 ✅              │
+  │    │                             │                            │
+  │    └─────────∧───────────────────┘                            │
+  │              #5 ❌                                            │
+  │                                                               │
+  └───────────────────────────────────────────────────────────────┘
+           #1 ❌, #2 ❌, #3: Occasional (user-triggered) ⚠️
 ```
 
-| 维度 | 状态 | 说明 |
+| Dimension | Status | Notes |
 |------|------|------|
-| #6 Spec↔产品 | ✅ 全覆盖 | 三轮 recursive-planner 审计 |
-| #9 Spec 内部 | ⚠️ 部分 | 交叉引用错误被修正，但逻辑矛盾未系统检查 |
-| #10 产品内部 | ⚠️ 部分 | simplify 做了重复代码检查，但性能/安全未查 |
-| #3 理念↔产品 | ⚠️ 偶发 | 仅在用户主动提问时触发（如模板刚性发现） |
-| #1, #2, #4, #5, #7, #8 | ❌ 从未 | 从未被系统性地执行过 |
+| #6 Spec↔Product | ✅ Full coverage | Three rounds of recursive-planner audit |
+| #9 Spec Internal | ⚠️ Partial | Cross-reference errors corrected, but logical contradictions not systematically checked |
+| #10 Product Internal | ⚠️ Partial | Simplify catches duplicate code, but perf/security not checked |
+| #3 Philosophy↔Product | ⚠️ Occasional | Only triggered by user-initiated questions (e.g., the template rigidity discovery) |
+| #1, #2, #4, #5, #7, #8 | ❌ Never | Never been systematically executed |
 
-**10 维中：1 维全覆盖，2 维部分覆盖，1 维偶发覆盖，6 维从未覆盖。**
+**Out of 10 dimensions: 1 fully covered, 2 partially covered, 1 occasionally covered, 6 never covered.**
 
-## 推广：这不是 M34 的问题，是所有审查的规律
+## Generalization: This Is Not an M34 Problem — It's a Universal Audit Law
 
-任何只做 #6 的审查框架（包括 recursive-planner）都有一个内在的天花板：**对照审计只能发现 spec 说了但产品没做的事，发现不了 spec 应该说要没说的事，更发现不了理念应该要求而验收标准没要求的事。**
+Any audit framework that only does #6 (including recursive-planner) has an inherent ceiling: **correspondence audit can only find things the spec says but the product doesn't do. It cannot find things the spec should have said but didn't, much less things the philosophy should have demanded but the acceptance criteria didn't require.**
 
-要突破这个天花板，需要不同的审查角色和不同的参照物：
+To break through this ceiling, different audit roles and different reference points are needed:
 
-| 比照 | 需要的角色 | 参照物 |
+| Comparison | Required Role | Reference Point |
 |------|-----------|--------|
-| #6 Spec↔产品 | 对照审计者（A/B/D/E） | spec + 代码 |
-| #5 验收标准↔产品 | 测试执行者 | 验收标准 + 运行时数据 |
-| #4 验收标准↔Spec | 需求审查者 | 验收标准 + spec |
-| #3 理念↔产品 | Devil's Advocate / 天真用户 | 理念声明 + 产品行为 |
-| #2 理念↔Spec | 设计哲学家 | 理念 + spec 设计决策 |
-| #1 理念↔验收标准 | 产品经理 | 理念 + 验收标准 |
-| #7 理念内部 | 逻辑学家 | 理念声明集合 |
-| #8 验收标准内部 | 测量工程师 | 验收标准集合 |
-| #9 Spec 内部 | 系统架构师 | spec 全文 |
-| #10 产品内部 | 工程质量审查者 | 产品代码/配置 |
+| #6 Spec↔Product | Correspondence Auditor (A/B/D/E) | Spec + code |
+| #5 Acc. Criteria↔Product | Test Executor | Acceptance criteria + runtime data |
+| #4 Acc. Criteria↔Spec | Requirements Reviewer | Acceptance criteria + spec |
+| #3 Philosophy↔Product | Devil's Advocate / Naive User | Philosophy statement + product behavior |
+| #2 Philosophy↔Spec | Design Philosopher | Philosophy + spec design decisions |
+| #1 Philosophy↔Acc. Criteria | Product Manager | Philosophy + acceptance criteria |
+| #7 Philosophy Internal | Logician | Philosophy statements set |
+| #8 Acc. Criteria Internal | Measurement Engineer | Acceptance criteria set |
+| #9 Spec Internal | Systems Architect | Full spec text |
+| #10 Product Internal | Engineering Quality Reviewer | Product code/config |
 
-**recursive-planner 不是完整的质量保证框架——它覆盖了 #6（对照审计）+ #9 和 #10 的部分方面。** 剩下的 7 个维度需要外部审视或不读 spec 的天真视角。
+**recursive-planner is not a complete quality assurance framework — it covers #6 (correspondence audit) plus partial aspects of #9 and #10.** The remaining 7 dimensions require external review or a naive perspective that does not read the spec.
 
-## 操作化建议
+## Operational Recommendations
 
-对于项目中枢中的任何重要系统，审查时应该：
+For any important system in Project Hub, when auditing:
 
-1. **声明覆盖范围**：明确当前审查在做哪几个维度（1-10）
-2. **标记未覆盖维度**：明确哪些维度没有被检查——"零发现"不等于"零问题"
-3. **周期性全维度审查**：不每次做全部 10 维（成本太高），但至少每 N 次迭代做一次 #1-#3 和 #7-#8（理念级审查）
-4. **内置 Devil's Advocate**：引入一个不读 spec、只看理念和产品行为的角色（覆盖 #3）
+1. **Declare coverage scope**: Clearly state which dimensions (1-10) the current audit is covering
+2. **Mark uncovered dimensions**: Explicitly note which dimensions were not checked — "zero findings" does not equal "zero problems"
+3. **Periodic full-dimensional audits**: Not all 10 dimensions every time (too costly), but at least every N iterations do #1-#3 and #7-#8 (philosophy-level audits)
+4. **Built-in Devil's Advocate**: Introduce a role that does not read the spec and only looks at philosophy and product behavior (covering #3)
 
-## 关联
+## Connections
 
-- 直接源于 `audit-blind-spot-spec-limitation` 的发现，将其从"M34 的一个具体缺陷"提升为"所有审查的通用框架"
-- 用于项目中枢的审查方法论改进
-- 可用于评估 recursive-planner 框架本身的局限性
-- 与"流式思维框架"有关联：4 层可以看作一个 source→transform→spec→sink 的流图
+- Directly derived from the `audit-blind-spot-spec-limitation` discovery, elevating it from "one specific M34 defect" to "a universal framework for all audits"
+- Used for audit methodology improvements in Project Hub
+- Can be used to assess the limitations of the recursive-planner framework itself
+- Related to the "streaming thought framework": the 4 layers can be viewed as a source→transform→spec→sink flow graph
 
-## 重要性说明
+## Importance Rationale
 
-标注为 importance: 10（最重要的），原因：
+Marked as importance: 10 (highest). Reasons:
 
-1. **这不是一个具体系统的缺陷，而是审查方法论本身的结构性框架**——影响项目中枢中所有未来系统（不仅仅是 M34）的质量保证
-2. **它解释了为什么"零发现"可以是假阳性**——不是因为审查不严格，而是因为审查的维度不完整
-3. **10 维是穷尽的**——C(4,2)=6 种跨层比照 + 4 层内部自洽 = 10 维。这是一个封闭的形式化模型，不会过时或需要修订（与大多数 idea 不同，这不是一个假设，而是一个完备的分类体系）
-4. **直接导向可操作的改进**——每种比照对应一个具体的审查角色和输入，可以实现为 recursive-planner 的角色扩展
-5. **推广到项目中枢之外**——任何有"理念层"的产品开发（游戏、写作、系统设计）都适用这个四层模型
+1. **This is not a defect in a specific system, but a structural framework for audit methodology itself** — it impacts quality assurance for all future systems in Project Hub (not just M34)
+2. **It explains why "zero findings" can be a false positive** — not because the audit was not rigorous, but because the audit dimensions were incomplete
+3. **The 10 dimensions are exhaustive** — C(4,2)=6 cross-layer comparisons + 4 internal consistencies = 10 dimensions. This is a closed formal model that won't go stale or require revision (unlike most ideas, this is not a hypothesis — it's a complete classification system)
+4. **Directly actionable** — each comparison maps to a specific audit role and input, implementable as role extensions to recursive-planner
+5. **Generalizes beyond Project Hub** — any product development that has a "philosophy layer" (games, writing, system design) fits this four-layer model

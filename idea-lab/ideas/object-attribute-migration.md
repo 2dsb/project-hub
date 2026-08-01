@@ -1,45 +1,20 @@
 ---
 id: "idea-20260719-object-attribute-migration"
 title: "Object-Attribute Model as Migratable Perspective"
-status: raw
-source_type: daily
-source_path: null
-importance: 2
-permanent_note_material: true
-material_since: 2026-07-19
-material_expiry_days: 30
-promoted_from: null
 tags:
   - python
   - perspective
   - migration
   - epistemology
   - knowledge-modeling
-related_entities:
+importance: 2
+connections:
   - type: idea
     slug: knowledge-as-dictionary-of-perspectives
-    relation: extends
-    strength: 0.9
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: manual
   - type: idea
     slug: name-object-binding-as-perspective
-    relation: extends
-    strength: 0.7
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
   - type: idea
     slug: interaction-as-dictionary
-    relation: related
-    strength: 0.7
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
-links: []
-created: 2026-07-19
-updated: 2026-07-19
 ---
 
 # Object-Attribute Model as Migratable Perspective

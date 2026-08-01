@@ -1,127 +1,56 @@
 ---
 id: idea-20260604-ffd01
-title: 从数据建框架，而非从框架找数据
+title: Build Frameworks from Data, Not Find Data for Frameworks
 tags:
 - methodology
 - meta-cognition
 - structure-analysis
 - research-method
-status: raw
-created: 2026-06-04
-updated: '2026-07-30'
-source_type: null
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links:
+connections:
 - type: project
-  slug: linguistic-structure-analysis
-  label: 方法论来源
-related_entities:
-- type: ideas
-  slug: local-pattern-patching-failure
-  relation: concept-relation
-  strength: 0.95
-  dimensions:
-  - concept-relation
-  - complement
-  bidirectional: true
-  source: auto
-- type: ideas
-  slug: practice-to-theory
-  relation: complement
-  strength: 0.8
-  dimensions:
-  - complement
-  bidirectional: true
-  source: auto
-- type: ideas
-  slug: natural-language-narration-methodology
-  relation: concept-relation
-  strength: 0.8
-  dimensions:
-  - concept-relation
-  bidirectional: true
-  source: auto
-- type: ideas
-  slug: fix-result-backward
-  relation: structural-similarity
-  strength: 0.55
-  dimensions:
-  - structural-similarity
-  bidirectional: true
-  source: auto
-- type: ideas
-  slug: consumer-vs-creator
-  relation: complement
-  strength: 0.5
-  dimensions:
-  - complement
-  bidirectional: true
-  source: auto
-- type: ideas
-  slug: 生活中的结构性理解
-  relation: complement
-  strength: 0.6
-  dimensions:
-  - complement
-  bidirectional: true
-  source: auto
-- type: ideas
-  slug: 概念的划分
-  relation: complement
-  strength: 0.5
-  dimensions:
-  - complement
-  bidirectional: true
-  source: auto
+  slug: "linguistic-structure-analysis"
 - type: idea
-  slug: natural-language-narration-methodology
-  relation: overlap
-  strength: 0.6
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
-- type: project
-  slug: linguistic-structure-analysis
-  relation: related
-  strength: 0.5
-  dimensions:
-  - tag-overlap
-  bidirectional: false
-  source: auto
+  slug: "local-pattern-patching-failure"
+- type: idea
+  slug: "practice-to-theory"
+- type: idea
+  slug: "natural-language-narration-methodology"
+- type: idea
+  slug: "fix-result-backward"
+- type: idea
+  slug: "consumer-vs-creator"
+- type: idea
+  slug: "structural-understanding-in-daily-life"
+- type: idea
+  slug: "classification-of-concepts"
 ---
 
 
+# Build Frameworks from Data, Not Find Data for Frameworks
 
-# 从数据建框架，而非从框架找数据
+## The Problem
 
-## 问题
+In the Linguistic Structure Analysis project, based on observations from Ch05 P1-P5 (21 sentences), topic→elaboration was prematurely elevated to the status of "the sole structural relation." When sentences 26-29 exhibited an organizational pattern (scene construction) that didn't fit this framework, the framework's axioms shattered.
 
-在语言结构分析项目中，基于 Ch05 P1-P5（21 句）的观察，过早地将 topic→elaboration 升格为"唯一结构关系"。当句26-29 出现不符合这个框架的组织模式（场景构造）时，框架公理碎裂。
+The root error: **a framework claiming universality was built from a tiny amount of data (5 highly argumentative paragraphs).**
 
-根本错误：**用极少的数据（5 段高度论证性段落）建立了一个声称通用的框架。**
+## Core Principle
 
-## 核心原则
+**Accumulate data first, let patterns cluster naturally, then build the framework.** Don't define a taxonomy upfront and then hunt for confirming examples — that's self-confirmation. After enough analytical instances have accumulated, look back and see which organizational patterns recur and which are incidental.
 
-**先积累数据，让模式自然聚类，再建框架。** 不是先定义类型库再找例子验证——那是自我确认。是在足够多的分析实例积累后，回头看出哪些组织模式反复出现、哪些是偶然的。
+The task at this stage is not to build a framework — it is to expand the dataset.
 
-当前阶段的任务不是建框架，是扩大数据集。
+## Specific Strategies
 
-## 具体策略
+1. **Don't impose a framework during analysis.** Annotate conceptual constraints sentence by sentence (the 24 types have proven stable and can continue to be used). Describe each paragraph's organizational pattern in natural language, without forcing it into topic→elaboration or any existing category. Do not terminologize the natural-language descriptions.
 
-1. **分析时不套框架**。逐句标注概念约束（24 种类型已证明稳定，可继续使用），每段的组织方式用自然语言描述，不强行归入 topic→elaboration 或任何已有类型。自然语言描述不做术语化。
+2. **Cluster only after accumulating enough data.** After at least 3 full chapters of analysis (or an equivalent amount of other text), go back and read these natural-language descriptions. The clusters that emerge naturally are the real syntactic strategy types.
 
-2. **积累足够数据后再聚类**。至少 3 章完整分析（或等量的其他文本）之后，回头读这些自然语言描述，自然看到的聚类才是真正的句法策略类型。
+3. **Freeze framework files until data volume reaches the threshold.** constraint-types.md can continue to grow (the backfill mechanism is already stable enough), but text-structure-types.md and structure-constraint-mapping.md are frozen. Their current content is archived as "Ch05 P1-P5 Observation Notes" and must not be referenced as a general framework.
 
-3. **在数据量达标前冻结框架文件**。constraint-types.md 可以继续生长（回补机制已足够稳定），但 text-structure-types.md 和 structure-constraint-mapping.md 冻结。它们当前的内容存为"Ch05 P1-P5 观察笔记"，不作为通用框架引用。
+4. **Tolerate goal ambiguity.** During the data accumulation phase, there is no need to precisely describe the ultimate goal. Analogy: you have a piece of ore, discover there's gold inside, and naturally think, "What is the general theory of alchemy?" But you need to dig more ore first, to know whether this piece's gold content is typical or anomalous. The goal will clarify itself as data accumulates.
 
-4. **允许目标模糊**。在数据积累阶段，不需要精确描述终极目标。类比：手里有一块矿石，发现里面有金，自然地想"炼金术的通用理论是什么？"但需要先挖更多矿石，才知道这块矿的金含量是典型还是异常。目标会在数据积累中自己清晰。
+## Relationship to the Linguistic Structure Analysis Project
 
-## 与语言结构分析项目的关系
-
-这条方法论直接来自 v1→v2 框架重构的教训。v1 基于 5 段数据建立，v2 被 1 个反例动摇。正确的顺序是：扩大分析覆盖 → 自然聚类 → 框架形成。
+This methodological principle comes directly from the lesson of the v1→v2 framework refactoring. v1 was built on 5 paragraphs of data; v2 was shaken by a single counterexample. The correct order is: expand analytical coverage → natural clustering → framework formation.

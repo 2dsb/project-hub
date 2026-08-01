@@ -7,25 +7,10 @@ tags:
   - physical-health
   - energy-management
   - recovery
-status: insight
-created: 2026-07-05
-updated: 2026-07-07
-source_type: daily
 importance: 3
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-related_entities:
+connections:
   - type: idea
     slug: timeline-based-project-structure
-    relation: merged-into
-    strength: 1.0
-    dimensions:
-      - concept-relation
-      - complement
-    bidirectional: true
-    source: manual
-links: []
 ---
 
 # Deep-Work Recovery Cycle

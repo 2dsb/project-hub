@@ -2,66 +2,26 @@
 id: "idea-20260711-um01"
 title: "Unified Model of Python Program Execution — Coupling All Sub-Models"
 tags: [cs61a, program-execution, modeling, meta-model, portal-model, synthesis, architecture]
-status: raw
-created: 2026-07-11
-updated: 2026-07-11
-source_type: "manual"
-source_path: null
 importance: 9
-permanent_note_material: true
-material_since: "2026-07-11"
-material_expiry_days: 30
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
-    slug: environment-diagram-dual-perspective
-    relation: superset-of
-    strength: 0.95
+    slug: "environment-diagram-dual-perspective"
   - type: idea
-    slug: call-tree-as-third-perspective
-    relation: integrates
-    strength: 0.9
+    slug: "call-tree-as-third-perspective"
   - type: idea
-    slug: name-object-binding-as-perspective
-    relation: integrates
-    strength: 0.9
+    slug: "name-object-binding-as-perspective"
   - type: idea
-    slug: abstraction-barrier-as-dual-perspective-bridge
-    relation: integrates
-    strength: 0.85
+    slug: "abstraction-barrier-as-dual-perspective-bridge"
   - type: project
-    slug: cs61a
-    relation: north-star-for
-    strength: 0.95
+    slug: "cs61a"
   - type: idea
-    slug: knowledge-as-dictionary-of-perspectives
-    relation: architecture-for
-    strength: 0.85
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "knowledge-as-dictionary-of-perspectives"
   - type: idea
-    slug: cohesion-coupling-decomposition-heuristic
-    relation: applied-by
-    strength: 0.7
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: auto
+    slug: "cohesion-coupling-decomposition-heuristic"
   - type: idea
-    slug: attention-pointer-learning-model
-    relation: meta-layer-above
-    strength: 0.7
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "attention-pointer-learning-model"
   - type: idea
-    slug: four-layer-quality-model
-    relation: related
-    strength: 0.5
-    dimensions: [concept-relation, structural-similarity]
-    bidirectional: true
-    source: auto
+    slug: "four-layer-quality-model"
 ---
 
 # Unified Model of Python Program Execution

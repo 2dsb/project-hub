@@ -2,18 +2,8 @@
 id: "idea-20260731-utp"
 title: "University Four-Year Strategy: Two Pillars, Run in Parallel"
 tags: [career-planning, university, AI, embodied-intelligence, entrepreneurship, networking, social-capital, methodology, student-union]
-status: raw
-created: 2026-07-31
-updated: 2026-07-31
-source_type: "manual"
-source_path: null
 importance: 10
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities: []
+connections: []
 ---
 
 # University Four-Year Strategy: Two Pillars, Run in Parallel
@@ -86,7 +76,7 @@ A deliberate, stepwise ascent through university leadership positions, designed 
 - Builds reputation as reliable and organized
 
 ### Phase 2: Student Union — External Relations Department (Year 1-2)
-- An existing connection (学姐) already inside the department
+- An existing connection (a senior student) already inside the department
 - **External relations is the strategic choice**: it interfaces with companies, sponsors, and off-campus organizations — this is the department that builds **industry-facing** connections
 - Sponsorship negotiations → practice in business communication
 - Corporate partnerships → direct exposure to companies in AI/embodied intelligence

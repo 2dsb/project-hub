@@ -1,110 +1,69 @@
 ---
 id: "idea-20260621-gs01"
-title: "目标单一性（goal singularity）"
+title: "Goal Singularity"
 tags: [meta-cognition, learning, productivity, focus, goal-design]
-status: raw
-created: 2026-06-21
-updated: 2026-06-21
-source_type: "manual"
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
     slug: "learning-pipeline"
-    relation: "governs-task-splitting"
-    strength: 0.9
   - type: skill
     slug: "reading-blocker-triage"
-    relation: "applies-principle"
-    strength: 0.5
-  - type: ideas
-    slug: "learning-pipeline"
-    relation: "concept-relation"
-    strength: 0.8
-    dimensions: ["concept-relation", "complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
+  - type: idea
     slug: "completion-vs-quitting"
-    relation: "complement"
-    strength: 0.65
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
+  - type: idea
     slug: "breadth-first-trap"
-    relation: "complement"
-    strength: 0.6
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
+  - type: idea
     slug: "clarity-as-universal-principle"
-    relation: "complement"
-    strength: 0.5
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "auto"
-  - type: ideas
+  - type: idea
     slug: "attention-pointer-learning-model"
-    relation: "complement"
-    strength: 0.5
-    dimensions: ["concept-relation", "complement"]
-    bidirectional: true
-    source: "auto"
 ---
 
-# 目标单一性（goal singularity）
+# Goal Singularity
 
-## 触发
-在完成 MIT 6.S184 类比故事的中文稿和英译后，发现写中文和译英文是两个完全不同的活动——前者在检验理解，后者在练习语言。如果一开始就用英文写，两个目标会互相干扰：一边要想"我理解对了吗"，一边要想"我写得地道吗"。
+## Trigger
+After finishing the Chinese draft and English translation of the MIT 6.S184 analogy story, I realized that writing in Chinese and translating into English are two completely different activities — the former checks understanding, the latter practices language. If I had written in English from the start, the two goals would have interfered with each other: "Did I understand this correctly?" and "Does this sound natural?" battling for the same cognitive slot.
 
-## 核心想法
-**每个活动应该、也只应该有一个目标。** 不是"一石二鸟"，是"一鸟一石"——瞄准了再打。
+## Core Idea
+**Every activity should have exactly one goal.** Not "kill two birds with one stone," but "one bird, one stone" — aim, then fire.
 
-两个目标混在一个活动里，结果是两个都做不好。把它们拆成两个独立的活动，每个只追求一个目标，总效率反而更高。
+When you mix two goals into a single activity, both suffer. Split them into two independent activities, each pursuing a single goal, and the total efficiency actually goes up.
 
-## 为什么"一石二鸟"在这里是陷阱
+## Why "Two Birds, One Stone" Is a Trap Here
 
 ```
-一石二鸟（错误）:
-  用英文写类比故事 → 同时追求 "理解正确" + "语言地道"
-  → 注意力分成两半 → 哪边都不精
+Two birds, one stone (wrong):
+  Write analogy story in English → simultaneously pursue "correct understanding" + "natural language"
+  → attention split in half → neither side done well
 
-一鸟一石（正确）:
-  活动 1: 中文写类比故事 → 只追求 "理解正确，表达清晰"
-  活动 2: 逐句翻译成英文   → 只追求 "语言地道，表达自然"
-  → 每个活动的认知负荷减半 → 两个都做好
+One bird, one stone (right):
+  Activity 1: Write analogy story in Chinese → pursue only "understand correctly, express clearly"
+  Activity 2: Translate sentence by sentence into English → pursue only "language sounds natural"
+  → cognitive load halved per activity → both done well
 ```
 
-认知心理学上的解释：工作记忆是有限的（~4 个组块）。同时优化两个目标意味着同时维护两套评价标准在脑中——这本身就是一种工作记忆溢出（参见 `wm-overflow-prevention`）。
+Cognitive psychology explanation: working memory is limited (~4 chunks). Optimizing two goals simultaneously means maintaining two sets of evaluation criteria in your head at once — that's a working memory overflow in itself (see `wm-overflow-prevention`).
 
-## 实例
+## Examples
 
-| 场景 | 混在一起（错误） | 拆开（正确） |
-|------|---------------|-----------|
-| 学新概念 | 用英文记笔记 | 先中文理解 → 再英文记笔记 |
-| 写公众号 | 直接英文写 | 先中文稿 → 再翻译 |
-| 读论文 | 查每个不认识的词 | 先粗读理解 → 再回头查词 |
-| 学代码 | 边看教程边写项目 | 先看 → 再写 |
+| Scenario | Mixed together (wrong) | Split apart (right) |
+|----------|------------------------|---------------------|
+| Learning a new concept | Take notes in English | First understand in native language → then write notes in English |
+| Writing a blog post | Write directly in English | First draft in native language → then translate |
+| Reading a paper | Look up every unknown word | First rough-read for understanding → then go back and look up words |
+| Learning to code | Watch tutorial while coding a project | First watch → then code |
 
-## 与学习流水线的关系
+## Relationship with the Learning Pipeline
 
-`learning-pipeline` 从"源→路由→汇"的角度分解学习过程；goal singularity 从**认知目标**的角度分解。两者正交但互补：
+`learning-pipeline` decomposes the learning process from the "source → route → sink" perspective; goal singularity decomposes it from the **cognitive goal** perspective. The two are orthogonal but complementary:
 
-- Learning pipeline 问：**信息在这个阶段走到了哪一步？**（源/路由/汇）
-- Goal singularity 问：**这个阶段我的大脑在追求什么？**（理解？表达？记忆？）
+- Learning pipeline asks: **Where is the information at this stage?** (source / route / sink)
+- Goal singularity asks: **What is my brain pursuing at this stage?** (understanding? expression? memorization?)
 
-在流水线的"汇"阶段，goal singularity 要求把"用自己的话输出"和"用目标语言表达"拆成两次独立活动——这正是中文稿→翻译的模式。
+During the pipeline's "sink" stage, goal singularity demands that "output in your own words" and "express in the target language" be split into two independent activities — which is exactly the native-language-draft → translate pattern.
 
-## 一个例外
+## One Exception
 
-有些活动天然只有一个目标，不需要拆分。比如：跟朋友聊天——目标就是"交流"，不存在"先中文理解再英文表达"的张力。这条原则主要适用于**目标可以清晰分离**的学习/创作场景。
+Some activities naturally have only one goal and need no splitting. Example: chatting with a friend — the goal is simply "communicate"; there's no tension of "first understand in native language, then express in English." This principle mainly applies to learning/creation scenarios where goals can be cleanly separated.
 
-## 检测问题
-当你感到"做一件事时脑中在同时权衡两套标准"，说明目标未拆净。问自己：我现在追求的究竟是 A 还是 B？如果答案是"两个都有"→ 拆成两步。
+## Detection Question
+When you feel yourself "weighing two sets of criteria in your head simultaneously while doing one thing," the goals haven't been fully separated. Ask yourself: am I pursuing A or B right now? If the answer is "both" → split into two steps.

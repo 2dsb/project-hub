@@ -1,7 +1,6 @@
 ---
 id: idea-20260708-hmcr-gap
 title: "Human vs. Machine Code Reading — The Conceptual Gap"
-status: raw
 tags:
   - cs61a
   - code-reading
@@ -10,50 +9,18 @@ tags:
   - environment-diagram
   - mental-model
   - semantics
-source_type: daily
 importance: 3
-permanent_note_material: false
-material_since: 2026-07-08
-material_expiry_days: 14
-created: 2026-07-09
-updated: 2026-07-09
-links: []
-related_entities:
+connections:
   - type: idea
     slug: environment-diagram-dual-perspective
-    relation: extends
-    strength: 0.95
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
   - type: project
     slug: cs61a
-    relation: emerged-from
-    strength: 0.9
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: auto
   - type: idea
     slug: call-tree-as-third-perspective
-    relation: related
-    strength: 0.7
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
   - type: idea
     slug: name-object-binding-as-perspective
-    relation: related
-    strength: 0.5
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: auto
   - type: idea
     slug: abstraction-barrier-as-dual-perspective-bridge
-    relation: related
-    strength: 0.7
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
 ---
 # Human vs. Machine Code Reading — The Conceptual Gap
 

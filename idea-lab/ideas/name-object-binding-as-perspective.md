@@ -2,55 +2,22 @@
 id: "idea-20260711-nb01"
 title: "Name-Object Binding as a Perspective on Program Execution"
 tags: [cs61a, binding, environment-diagram, mutation, identity, mental-model, python]
-status: raw
-created: 2026-07-11
-updated: 2026-07-11
-source_type: "manual"
-source_path: null
 importance: 7
-permanent_note_material: true
-material_since: "2026-07-11"
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
-    slug: environment-diagram-dual-perspective
-    relation: extends
-    strength: 0.85
+    slug: "environment-diagram-dual-perspective"
   - type: idea
-    slug: call-tree-as-third-perspective
-    relation: complementary-perspective
-    strength: 0.8
+    slug: "call-tree-as-third-perspective"
   - type: idea
-    slug: abstraction-barrier-as-dual-perspective-bridge
-    relation: related
-    strength: 0.6
+    slug: "abstraction-barrier-as-dual-perspective-bridge"
   - type: project
-    slug: cs61a
-    relation: emerged-from
-    strength: 0.85
+    slug: "cs61a"
   - type: idea
-    slug: unified-python-execution-model
-    relation: integrated-into
-    strength: 0.9
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "unified-python-execution-model"
   - type: idea
-    slug: knowledge-as-dictionary-of-perspectives
-    relation: instance-of
-    strength: 0.6
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: auto
+    slug: "knowledge-as-dictionary-of-perspectives"
   - type: idea
-    slug: human-machine-code-reading-gap
-    relation: related
-    strength: 0.5
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: auto
+    slug: "human-machine-code-reading-gap"
 ---
 
 # Name-Object Binding as a Perspective on Program Execution

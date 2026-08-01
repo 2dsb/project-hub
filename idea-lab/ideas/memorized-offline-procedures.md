@@ -2,32 +2,12 @@
 id: "idea-20260627-memproc01"
 title: "Memorized Offline Procedures — When Skills Can't Rely on AI Presence"
 tags: [skill-design, memorization, offline, physical, constraint, procedure]
-status: raw
-created: 2026-06-27
-updated: 2026-06-27
-source_type: "manual"
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: skill
-    slug: post-run-stretching
-    relation: first-instance
-    strength: 0.9
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "post-run-stretching"
   - type: idea
-    slug: timeline-based-project-structure
-    relation: relates-to-m-model
-    strength: 0.4
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "timeline-based-project-structure"
 ---
 
 # Memorized Offline Procedures

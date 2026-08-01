@@ -7,37 +7,14 @@ tags:
   - dynamics
   - optimization
   - actionable
-status: raw
-created: 2026-07-30
-updated: 2026-07-30
-source_type: conversation
 importance: 7
-permanent_note_material: true
-material_since: "2026-07-30"
-material_expiry_days: 30
-links: []
-related_entities:
+connections:
   - type: idea
     slug: knowledge-mastery-two-axis-model
-    relation: state-space-foundation
-    strength: 0.95
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
   - type: idea
     slug: interaction-as-dictionary
-    relation: underlying-framework
-    strength: 0.8
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
   - type: idea
     slug: teach-method-fixes
-    relation: practical-application
-    strength: 0.85
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: manual
 ---
 
 # Learning Dynamics — Forces Governing Knowledge Acquisition
@@ -78,7 +55,7 @@ Plus level L ∈ {0, 1, 2, ...}: which recursion level the object sits at.
 | Trigger | Mechanism |
 |---|---|
 | **Saturation** | c and p are sufficiently high across enough Level L objects that stable cross-object patterns become visible. |
-| **Deliberate comparison** | Actively comparing Level L objects (not just accumulating them). This is the "刻意思考" (deliberate thinking) you identified — it doesn't happen automatically. |
+| **Deliberate comparison** | Actively comparing Level L objects (not just accumulating them). This is the "deliberate thinking" you identified — it doesn't happen automatically. |
 | **External perturbation** | Someone points out the pattern to you, or a conversation (like this one) forces articulation. |
 
 ## Key Questions (Open)

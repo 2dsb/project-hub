@@ -6,39 +6,14 @@ tags:
   - memorization
   - retention
   - pipeline
-status: raw
-created: 2026-06-25
-updated: 2026-06-25
-source_type: "manual"
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
     slug: "learning-pipeline"
-    relation: "potential-extension"
-    strength: 0.7
-    dimensions: ["concept-relation"]
-    bidirectional: true
-    source: "manual"
   - type: idea
     slug: "knowledge-reconnection"
-    relation: "complement"
-    strength: 0.6
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "manual"
   - type: idea
     slug: "structural-patience"
-    relation: "instance-of"
-    strength: 0.8
-    dimensions: ["concept-relation"]
-    bidirectional: true
-    source: "manual"
 ---
 
 # Memorization in the Learning Pipeline

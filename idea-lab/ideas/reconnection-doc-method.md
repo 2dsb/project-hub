@@ -1,80 +1,28 @@
 ---
 id: idea-20260702-reconnection-method
 title: Three-Layer Classification Method for Reconnection Docs
-status: raw
 tags:
-- knowledge-reconnection
-- methodology
-- framework
-- meta-cognition
-source_type: daily
+  - knowledge-reconnection
+  - methodology
+  - framework
+  - meta-cognition
 importance: 3
-permanent_note_material: false
-material_since: 2026-07-02
-material_expiry_days: 14
-created: 2026-07-02
-updated: '2026-07-30'
-links: []
-related_entities:
-- type: idea
-  slug: three-layer-framework
-  relation: derived-from
-  strength: 0.9
-  dimensions:
-  - concept-relation
-  bidirectional: true
-  source: manual
-- type: idea
-  slug: knowledge-reconnection
-  relation: extends
-  strength: 0.85
-  dimensions:
-  - complement
-  bidirectional: true
-  source: manual
-- type: idea
-  slug: four-layer-quality-model
-  relation: overlap
-  strength: 0.429
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
-- type: idea
-  slug: checklist-completeness-audit
-  relation: overlap
-  strength: 0.4
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
-- type: idea
-  slug: content-independent-framework
-  relation: overlap
-  strength: 0.4
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
-- type: idea
-  slug: human-structure-ai-completeness
-  relation: overlap
-  strength: 0.4
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
-- type: idea
-  slug: residuals-as-honesty-device
-  relation: overlap
-  strength: 0.4
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
+connections:
+  - type: idea
+    slug: "three-layer-framework"
+  - type: idea
+    slug: "knowledge-reconnection"
+  - type: idea
+    slug: "four-layer-quality-model"
+  - type: idea
+    slug: "checklist-completeness-audit"
+  - type: idea
+    slug: "content-independent-framework"
+  - type: idea
+    slug: "human-structure-ai-completeness"
+  - type: idea
+    slug: "residuals-as-honesty-device"
 ---
-
-
 
 
 

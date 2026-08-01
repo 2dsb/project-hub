@@ -2,39 +2,14 @@
 id: "idea-20260626-xsrc01"
 title: "X.com as Information Source — Curation & Alternatives"
 tags: [information-source, curation, x-com, flow-based-thinking, noise-filtering]
-status: raw
-created: 2026-06-26
-updated: 2026-06-26
-source_type: "manual"
-source_path: null
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
     slug: flow-based-thinking
-    relation: applies-framework
-    strength: 0.9
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
   - type: idea
     slug: learning-pipeline
-    relation: positioned-in
-    strength: 0.8
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
   - type: idea
     slug: ai-source-triage
-    relation: could-integrate
-    strength: 0.7
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
 ---
 
 # X.com as Information Source

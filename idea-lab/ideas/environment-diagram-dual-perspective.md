@@ -1,7 +1,6 @@
 ---
 id: idea-20260708-env-diagram
 title: "Environment Diagram — Dual-Perspective Modeling Framework"
-status: classified
 tags:
   - cs61a
   - environment-diagram
@@ -12,74 +11,24 @@ tags:
   - human-vs-machine
   - conceptual-compression
   - code-reading
-source_type: daily
 importance: 3
-permanent_note_material: false
-material_since: 2026-07-08
-material_expiry_days: 14
-created: 2026-07-08
-updated: 2026-07-09
-links:
-  - path: resources/cs61a/comprehension-view-portal-model.md
-    label: Concrete model — Portal Model of Program Execution (Comprehension View)
-related_entities:
+connections:
   - type: project
-    slug: cs61a
-    relation: supports
-    strength: 0.95
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "cs61a"
   - type: idea
-    slug: human-machine-code-reading-gap
-    relation: extended-by
-    strength: 0.95
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "human-machine-code-reading-gap"
   - type: project
-    slug: deep-learning-book
-    relation: pattern-parallel
-    strength: 0.85
-    dimensions: [structural-similarity, migration]
-    bidirectional: true
-    source: manual
-    note: "Ch5 Conceptual Layer vs Technical Architecture mirrors the human conceptual-compression vs machine execution gap identified here"
+    slug: "deep-learning-book"
   - type: idea
-    slug: unified-python-execution-model
-    relation: subset-of
-    strength: 0.95
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "unified-python-execution-model"
   - type: idea
-    slug: call-tree-as-third-perspective
-    relation: extended-by
-    strength: 0.9
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "call-tree-as-third-perspective"
   - type: idea
-    slug: name-object-binding-as-perspective
-    relation: extended-by
-    strength: 0.85
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "name-object-binding-as-perspective"
   - type: idea
-    slug: abstraction-barrier-as-dual-perspective-bridge
-    relation: extended-by
-    strength: 0.9
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "abstraction-barrier-as-dual-perspective-bridge"
   - type: idea
-    slug: knowledge-as-dictionary-of-perspectives
-    relation: instance-of
-    strength: 0.9
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "knowledge-as-dictionary-of-perspectives"
 ---
 
 # Environment Diagram — Dual-Perspective Modeling Framework
@@ -136,7 +85,7 @@ add_three(4)  # → 7
 
 This reveals two layers of code understanding that are **not equivalent**:
 
-| | Human (观念层 / Conceptual) | Machine (算法层 / Algorithmic) |
+| | Human (Conceptual Layer) | Machine (Algorithmic Layer) |
 |---|---|---|
 | **What is `make_adder(3)`?** | "Set n=3, get a function" — a compressed semantic unit | A multi-step execution: frame → bind → define → return |
 | **When does meaning arise?** | Immediately upon reading the call | Only through stepwise execution |

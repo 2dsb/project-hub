@@ -2,58 +2,22 @@
 id: "idea-20260711-ab01"
 title: "Abstraction Barrier as the Bridge Between Program and Conceptual Layers"
 tags: [cs61a, abstraction, data-abstraction, dual-perspective, program-execution, mental-model]
-status: raw
-created: 2026-07-11
-updated: 2026-07-11
-source_type: "manual"
-source_path: null
 importance: 7
-permanent_note_material: true
-material_since: "2026-07-11"
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
     slug: environment-diagram-dual-perspective
-    relation: extends
-    strength: 0.9
   - type: idea
     slug: human-machine-code-reading-gap
-    relation: related
-    strength: 0.7
   - type: project
     slug: cs61a
-    relation: emerged-from
-    strength: 0.85
   - type: idea
     slug: cohesion-coupling-decomposition-heuristic
-    relation: migrated-to
-    strength: 0.85
-    dimensions: [concept-relation, complement, migration]
-    bidirectional: true
-    source: auto
   - type: idea
     slug: unified-python-execution-model
-    relation: integrated-into
-    strength: 0.85
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
   - type: idea
     slug: knowledge-as-dictionary-of-perspectives
-    relation: related
-    strength: 0.65
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: auto
   - type: idea
     slug: four-layer-quality-model
-    relation: related
-    strength: 0.5
-    dimensions: [concept-relation, structural-similarity]
-    bidirectional: true
-    source: auto
 ---
 
 # Abstraction Barrier as the Bridge Between Program and Conceptual Layers

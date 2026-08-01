@@ -8,53 +8,18 @@ tags:
   - degrees-of-freedom
   - pattern-discovery
   - teach-method
-status: raw
-created: 2026-07-30
-updated: 2026-07-30
-source_type: conversation
 importance: 9
-permanent_note_material: true
-material_since: "2026-07-30"
-material_expiry_days: 30
-links: []
-related_entities:
+connections:
   - type: idea
     slug: knowledge-mastery-two-axis-model
-    relation: explains-what-was-discovered
-    strength: 0.9
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
   - type: idea
     slug: strategy-three-component-model
-    relation: extends
-    strength: 0.8
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
-    bidirectional: true
-    source: manual
   - type: idea
     slug: teach-method-fixes
-    relation: practical-implication
-    strength: 0.85
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
   - type: idea
     slug: learning-dynamics
-    relation: describes-the-forces
-    strength: 0.8
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
   - type: idea
     slug: interaction-as-dictionary
-    relation: underlying-framework
-    strength: 0.75
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
 ---
 
 # Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning

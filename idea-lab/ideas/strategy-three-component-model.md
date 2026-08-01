@@ -8,37 +8,14 @@ tags:
   - systems-thinking
   - optimization
   - iteration
-status: raw
-created: 2026-07-30
-updated: 2026-07-30
-source_type: manual
-source_path: null
 importance: 0
-permanent_note_material: true
-material_since: "2026-07-30"
-material_expiry_days: 30
-related_entities:
+connections:
   - type: idea
-    slug: freedom-exploration-generator
-    relation: extends
-    strength: 0.8
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "freedom-exploration-generator"
   - type: idea
-    slug: interaction-as-dictionary
-    relation: extends
-    strength: 0.7
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "interaction-as-dictionary"
   - type: idea
-    slug: knowledge-mastery-two-axis-model
-    relation: isomorphic
-    strength: 0.95
-    dimensions: [concept-relation, structural-similarity]
-    bidirectional: true
-    source: manual
+    slug: "knowledge-mastery-two-axis-model"
 ---
 
 # Strategy as Iterative Optimization

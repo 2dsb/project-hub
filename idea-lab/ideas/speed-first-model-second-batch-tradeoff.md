@@ -1,14 +1,7 @@
 ---
 id: "idea-20260719-speed-first-model-second-batch-tradeoff"
 title: "Speed-First Model-Second — Batch Size Tradeoff in Learning"
-status: raw
-source_type: daily
-source_path: null
 importance: 4
-permanent_note_material: true
-material_since: 2026-07-19
-material_expiry_days: 30
-promoted_from: null
 tags:
   - learning-strategy
   - modeling
@@ -16,38 +9,15 @@ tags:
   - batch-size
   - speed
   - tradeoff
-related_entities:
+connections:
   - type: idea
-    slug: decision-model-as-next-domain-model
-    relation: uses-framework
-    strength: 0.7
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "decision-model-as-next-domain-model"
   - type: idea
-    slug: interaction-as-dictionary
-    relation: uses-framework
-    strength: 0.6
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "interaction-as-dictionary"
   - type: idea
-    slug: reading-modeling-decomposition-tradeoff
-    relation: refines
-    strength: 0.7
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
+    slug: "reading-modeling-decomposition-tradeoff"
   - type: idea
-    slug: data-structure-first-code-reading
-    relation: complements
-    strength: 0.5
-    dimensions: [complement]
-    bidirectional: true
-    source: manual
-links: []
-created: 2026-07-19
-updated: 2026-07-19
+    slug: "data-structure-first-code-reading"
 ---
 
 # Speed-First Model-Second — Batch Size Tradeoff in Learning

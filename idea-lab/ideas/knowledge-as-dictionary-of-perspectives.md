@@ -2,80 +2,30 @@
 id: "idea-20260713-kp01"
 title: "Knowledge as a Dictionary of Perspectives — Each Knowledge Point Is a Multi-Dimensional Embedding"
 tags: [knowledge-representation, multi-perspective, deep-learning, vector-embedding, abstraction, modeling, meta-model, dictionary-metaphor]
-status: raw
-created: 2026-07-13
-updated: 2026-07-13
-source_type: "manual"
-source_path: null
 importance: 9
-permanent_note_material: true
-material_since: "2026-07-13"
-material_expiry_days: 30
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
-    slug: interaction-as-dictionary
-    relation: synthesized-into
-    strength: 0.95
-    dimensions: ["concept-relation", "complement"]
-    bidirectional: true
-    source: manual
+    slug: "interaction-as-dictionary"
   - type: idea
-    slug: cohesion-coupling-decomposition-heuristic
-    relation: structural-basis
-    strength: 0.8
+    slug: "cohesion-coupling-decomposition-heuristic"
   - type: idea
-    slug: environment-diagram-dual-perspective
-    relation: instance-of
-    strength: 0.9
+    slug: "environment-diagram-dual-perspective"
   - type: idea
-    slug: unified-python-execution-model
-    relation: provides-architecture
-    strength: 0.85
+    slug: "unified-python-execution-model"
   - type: idea
-    slug: attention-pointer-learning-model
-    relation: operator-perspective
-    strength: 0.7
+    slug: "attention-pointer-learning-model"
   - type: idea
-    slug: locate-first-model-last
-    relation: behavioral-corollary
-    strength: 0.95
+    slug: "locate-first-model-last"
   - type: idea
-    slug: objective-importance-scoring
-    relation: evaluation-target
-    strength: 0.7
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "objective-importance-scoring"
   - type: idea
-    slug: four-layer-quality-model
-    relation: structural-similarity
-    strength: 0.5
-    dimensions: [concept-relation, structural-similarity]
-    bidirectional: true
-    source: auto
+    slug: "four-layer-quality-model"
   - type: project
-    slug: deep-learning-book
-    relation: inspired-by
-    strength: 0.6
-    dimensions: [cross-axis, migration]
-    bidirectional: false
-    source: auto
+    slug: "deep-learning-book"
   - type: idea
-    slug: space-as-perspective
-    relation: complement
-    strength: 0.45
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: auto
+    slug: "space-as-perspective"
   - type: idea
-    slug: 角度划分
-    relation: generalizes
-    strength: 0.5
-    dimensions: [concept-relation, migration]
-    bidirectional: true
-    source: auto
+    slug: "perspective-classification"
 ---
 
 # Knowledge as a Dictionary of Perspectives
@@ -128,34 +78,34 @@ A value under one key can itself be a dictionary. This is the recursion that mak
 
 **Example — Philosophy (a field that lives entirely at the conceptual layer):**
 
-Since philosophy operates entirely at the 理念层 (conceptual layer), the top-level key is singular. But the real structure is in the sub-keys:
+Since philosophy operates entirely at the conceptual layer, the top-level key is singular. But the real structure is in the sub-keys:
 
 ```yaml
 philosophy:
-  理念层:
-    认识论: "How do we know what we know? — Kant's synthetic a priori, Hume's empiricism"
-    伦理学: "What ought we to do? — consequentialism vs. deontology vs. virtue ethics"
-    形而上学: "What exists? — materialism, idealism, dualism"
-    美学: "What is beauty? — objective vs. subjective theories"
-    逻辑学: "What constitutes valid reasoning? — deduction, induction, abduction"
-    政治哲学: "How should society be organized? — social contract, libertarianism, Marxism"
+  conceptual_layer:
+    epistemology: "How do we know what we know? — Kant's synthetic a priori, Hume's empiricism"
+    ethics: "What ought we to do? — consequentialism vs. deontology vs. virtue ethics"
+    metaphysics: "What exists? — materialism, idealism, dualism"
+    aesthetics: "What is beauty? — objective vs. subjective theories"
+    logic: "What constitutes valid reasoning? — deduction, induction, abduction"
+    political_philosophy: "How should society be organized? — social contract, libertarianism, Marxism"
 ```
 
 Each sub-key itself can nest further:
 
 ```yaml
-认识论:
-  知识来源:
-    理性主义: "Reason alone → Descartes, Spinoza, Leibniz"
-    经验主义: "Experience alone → Locke, Berkeley, Hume"
-    康德综合: "Both — concepts without intuitions are empty, intuitions without concepts are blind"
-  知识类型:
-    先验: "Known independently of experience"
-    后验: "Known through experience"
-  真理标准:
-    符合论: "Truth = correspondence to reality"
-    融贯论: "Truth = coherence with belief system"
-    实用论: "Truth = what works in practice"
+epistemology:
+  sources_of_knowledge:
+    rationalism: "Reason alone → Descartes, Spinoza, Leibniz"
+    empiricism: "Experience alone → Locke, Berkeley, Hume"
+    kantian_synthesis: "Both — concepts without intuitions are empty, intuitions without concepts are blind"
+  types_of_knowledge:
+    a_priori: "Known independently of experience"
+    a_posteriori: "Known through experience"
+  criteria_of_truth:
+    correspondence_theory: "Truth = correspondence to reality"
+    coherence_theory: "Truth = coherence with belief system"
+    pragmatic_theory: "Truth = what works in practice"
 ```
 
 This illustrates the core principle: **when a field lives entirely at one layer, the structure is in the sub-keys.** The dictionary model doesn't flatten — it preserves the recursive hierarchy. Every key can open into another dictionary.
@@ -164,11 +114,11 @@ This illustrates the core principle: **when a field lives entirely at one layer,
 
 ```yaml
 merge_sort:
-  理念层: "Divide and conquer — break problem into independent sub-problems"
-  算法层: "O(n log n), stable sort, recursive splitting + merging"
-  程序层: "def merge_sort(lst): if len(lst) <= 1: return lst; mid = len(lst)//2; ..."
-  数学层: "Recurrence T(n) = 2T(n/2) + O(n) → Master Theorem → O(n log n)"
-  设计层: "Why stable? Why not in-place? Trade-off: memory vs. simplicity"
+  conceptual_layer: "Divide and conquer — break problem into independent sub-problems"
+  algorithmic_layer: "O(n log n), stable sort, recursive splitting + merging"
+  program_layer: "def merge_sort(lst): if len(lst) <= 1: return lst; mid = len(lst)//2; ..."
+  mathematical_layer: "Recurrence T(n) = 2T(n/2) + O(n) → Master Theorem → O(n log n)"
+  design_layer: "Why stable? Why not in-place? Trade-off: memory vs. simplicity"
 ```
 
 CS has shallow nesting but many top-level keys. Philosophy has one top-level key but deep nesting. Both are valid shapes of the same structure.

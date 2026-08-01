@@ -2,32 +2,17 @@
 id: "idea-20260731-nm4s"
 title: "The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up"
 tags: [networking, social-skills, methodology, communication, mentorship]
-status: raw
-created: 2026-07-31
-updated: 2026-07-31
-source_type: "manual"
-source_path: null
 importance: 9
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
-  - type: ideas
+connections:
+  - type: idea
     slug: "university-two-pillar-strategy"
-    relation: "complement"
-    strength: 0.85
-    dimensions: ["complement"]
-    bidirectional: true
-    source: "manual"
 ---
 
 # The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up
 
 ## Source
 
-Synthesized from real practice at a CKGSB (长江商学院) event, where the author successfully connected with professors, entrepreneurs, and senior professionals. Stress-tested on the same day.
+Synthesized from real practice at a CKGSB (Cheung Kong Graduate School of Business) event, where the author successfully connected with professors, entrepreneurs, and senior professionals. Stress-tested on the same day.
 
 ## The Method
 

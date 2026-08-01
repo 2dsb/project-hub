@@ -1,61 +1,30 @@
 ---
 id: idea-20260608-mr01
-title: Mindustry 资源路由：N条带汇入核心的优化方案
+title: Mindustry Resource Routing: Optimizing N Conveyor Lines Merging into the Core
 tags:
-- Mindustry
-- logistics
-- routing
-- optimization
-- game-design
-status: raw
-created: 2026-06-08
-updated: '2026-07-30'
-source_type: daily
-source_path: daily/2026-06-08.md
+  - mindustry
+  - logistics
+  - routing
+  - optimization
+  - game-design
 importance: 0
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
-- type: ideas
-  slug: flow-based-thinking
-  relation: migration
-  strength: 0.85
-  dimensions:
-  - migration
-  bidirectional: true
-  source: auto
-- type: ideas
-  slug: mindustry-overflow-priority-routing
-  relation: concept-relation
-  strength: 0.85
-  dimensions:
-  - tag-overlap
-  - concept-relation
-  bidirectional: true
-  source: auto
-- type: idea
-  slug: mindustry-overflow-priority-routing
-  relation: overlap
-  strength: 0.429
-  dimensions:
-  - tag-overlap
-  bidirectional: true
-  source: auto
+connections:
+  - type: idea
+    slug: flow-based-thinking
+  - type: idea
+    slug: mindustry-overflow-priority-routing
 ---
 
 
-# Mindustry 资源路由：N条带汇入核心的优化方案
+# Mindustry Resource Routing: Optimizing N Conveyor Lines Merging into the Core
 
-## 问题建模
-N 个资源块 → 各单条传送带（0~4/s）→ 需汇入初版核心（12 接口，48/s 上限）
+## Problem Model
+N resource blocks → individual conveyor belts (0–4/s each) → must merge into the initial core (12 ports, 48/s cap)
 
-可用节点：路由器（≤4 端口，平分）、分配器（≤8 端口，平分）
+Available nodes: Router (≤4 ports, splits evenly), Distributor (≤8 ports, splits evenly)
 
-## 方案一（已否决）
-每条带均分 12 份 → 12 条中枢 → 核心。问题：部署复杂，12 变大时不可扩展。
+## Plan A (Rejected)
+Split each belt into 12 equal shares → 12 trunk lines → core. Problem: complex to deploy, not scalable when port count exceeds 12.
 
-## 方案二（采用）
-不分而合 — N 条带分 12 组（每组 ≤4/s），每组路由器合并 → 直连核心接口。超 4/s 时溢流门导向相邻接口。复杂度 O(N)，可随核心接口数线性扩展。
+## Plan B (Adopted)
+Don't split, merge instead — group N belts into 12 groups (each ≤4/s), merge each group with a router → direct to core port. When throughput exceeds 4/s, overflow gate redirects to adjacent port. Complexity O(N), scales linearly with core port count.

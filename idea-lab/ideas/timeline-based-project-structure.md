@@ -2,39 +2,14 @@
 id: "idea-20260626-slp01"
 title: "Timeline-Based Project Structure"
 tags: [time-management, project-structure, meta-cognition, daily-flow, energy-management, recovery, physical-health]
-status: raw
-created: 2026-06-26
-updated: 2026-07-07
-source_type: "manual"
-source_path: null
 importance: 3
-permanent_note_material: false
-material_since: null
-material_expiry_days: 14
-promoted_from: null
-links: []
-related_entities:
+connections:
   - type: idea
     slug: learning-pipeline
-    relation: inspired-by
-    strength: 0.4
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
   - type: idea
     slug: deep-work-recovery-cycle
-    relation: merged-into
-    strength: 1.0
-    dimensions: [concept-relation, complement]
-    bidirectional: true
-    source: manual
   - type: project
     slug: daily-exercise
-    relation: implements
-    strength: 0.9
-    dimensions: [concept-relation]
-    bidirectional: true
-    source: manual
 ---
 
 # Timeline-Based Project Structure
