@@ -8,7 +8,7 @@ tags:
   - overall-economy
   - economics
 summary: "Microeconomics and macroeconomics differ in their level of analysis: microeconomics studies individual decisions by households and firms and their interactions in markets, whereas macroeconomics examines economy-wide phenomena such as inflation, unemployment, and economic growth."
-importance: 1.0  # auto
+importance: 1.02  # auto
 connections:
   - type: idea
     slug: economics-as-a-science

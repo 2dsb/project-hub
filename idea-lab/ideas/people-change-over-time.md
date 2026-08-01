@@ -3,7 +3,7 @@ id: "idea-20260402-3c84f5"
 summary: "The note questions whether moral obligations and feelings should remain fixed when a person changes over time, using the scenario of a relative who vowed to kill a murderer after the murderer undergoes a spiritual awakening and reformation. It connects this dilemma to the broader debate on whether the primary goal of sentencing is punishment or rehabilitation."
 title: "People Change Over Time"
 tags: [human-nature, time, justice, punishment]
-importance: 0.61  # auto
+importance: 0.63  # auto
 connections:
   - type: idea
     slug: "completion-vs-quitting"  # auto

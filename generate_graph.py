@@ -101,10 +101,11 @@ def build_graph_from_files() -> nx.Graph:
             if s.startswith("title:"):
                 title = s.removeprefix("title:").strip().strip('"').strip("'")
             elif s.startswith("summary:"):
-                summary = s.removeprefix("summary:").strip().strip('"').strip("'")
+                summary = s.removeprefix("summary:").strip().strip('"').strip("'").replace('\\"', '"')
             elif s.startswith("importance:"):
+                raw = s.removeprefix("importance:").strip().split("#")[0].strip()
                 try:
-                    importance = int(s.removeprefix("importance:").strip())
+                    importance = float(raw)
                 except ValueError:
                     pass
             elif s == "tags:":
@@ -112,6 +113,10 @@ def build_graph_from_files() -> nx.Graph:
             elif s.startswith("- ") and in_tags:
                 tags.append(s.removeprefix("- ").strip())
             elif in_tags and not s.startswith("- "):
+                in_tags = False
+            elif s.startswith("tags: [") or s.startswith('tags: ["'):
+                raw = s.removeprefix("tags:").strip().strip("[]")
+                tags = [t.strip().strip('"').strip("'") for t in raw.split(",") if t.strip()]
                 in_tags = False
 
         slug_to_data[slug] = {

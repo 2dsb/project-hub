@@ -3,7 +3,7 @@ id: "idea-20260711-ct01"
 summary: "A call tree captures the runtime invocation graph of function calls, showing which call triggers which and revealing branching structure distinct from the static def tree and dynamic but environment-focused frame tree. It makes explicit the directionality of computation flow—arguments flow down, return values flow up—complementing the Portal Model’s portal concept. Together, frame tree, def tree, and call tree potentially form a minimal complete set for program execution understanding, while the call tree itself serves as an intuitive teaching tool for recursion and highlights a dual perspective where conceptual reasoning compresses it and algorithmic execution fully expands it."
 title: "Call Tree as a Third Perspective on Program Execution"
 tags: [cs61a, recursion, program-execution, environment-diagram, mental-model, visualization]
-importance: 2.78  # auto
+importance: 2.87  # auto
 connections:
   - type: idea
     slug: "environment-diagram-dual-perspective"  # auto
@@ -19,6 +19,8 @@ connections:
     slug: "knowledge-as-dictionary-of-perspectives"  # auto
   - type: idea
     slug: "data-structure-first-code-reading"  # review: 0.569
+  - type: idea
+    slug: "understanding-software-at-technical-level"  # auto, review: 0.503
 ---
 # Call Tree as a Third Perspective on Program Execution
 

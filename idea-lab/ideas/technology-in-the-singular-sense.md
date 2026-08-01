@@ -11,7 +11,7 @@ tags:
 - technology-definition
 - systems-thinking
 summary: "Technology in the singular sense is a means of accomplishing a purpose, expressed equivalently as devices and processes. It is organized around a central principle executed by primary assemblies, with secondary assemblies providing support. This structure is hierarchical and recursive: higher-level technologies command lower-level ones, which determine capabilities, and any technology can become a component in a higher-level system. Modularity, or integration, emerges as functional grouping when a purpose is reused often enough to justify partitioning, offering simpler design and protection against change. Finally, fluidity means that integration patterns shift with changing purposes, so technology is never static."
-importance: 5.23  # auto
+importance: 4.81  # auto
 connections:
 - type: permanent
   slug: 技术的本质c2.1
@@ -59,6 +59,10 @@ connections:
     slug: "general-evolution-of-technology"  # review: 0.585
   - type: idea
     slug: "core-capability-supporting-infrastructure-pattern"  # review: 0.574
+  - type: idea
+    slug: "our-attitude-toward-technology"  # auto, review: 0.505
+  - type: idea
+    slug: "how-domains-evolve"  # auto, review: 0.502
 ---
 # Definition
 ## Functional Perspective

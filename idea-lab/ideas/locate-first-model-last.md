@@ -3,7 +3,7 @@ id: "idea-20260713-lp01"
 summary: "The "locate-first, model-last" paradigm shifts learning from building a structural model simultaneously with learning to instead first locating each knowledge point in a provisional key hierarchy that is discovered iteratively through the points themselves, and deferring modeling until after full domain traversal. This avoids premature modeling unreliability because, as the dictionary model reveals, knowledge points exist in a high-dimensional space where clustering with few samples produces noise—you need enough points before PCA-like structure makes sense. It eliminates the merge-cost side of the reading-modeling decomposition tradeoff and avoids the breadth-first trap by enforcing breadth-first traversal, much like a two-pass reading strategy. The result is lower cognitive load, faster learning velocity, and highly accurate models built in one concentrated pass with complete information."
 title: "Locate-First, Model-Last — A Learning Paradigm Shift Driven by the Dictionary Model"
 tags: [learning, modeling, paradigm, methodology, knowledge-representation, multi-perspective, dictionary-model, two-pass, efficiency]
-importance: 4.79  # auto
+importance: 4.98  # auto
 connections:
   - type: idea
     slug: knowledge-as-dictionary-of-perspectives
@@ -25,6 +25,8 @@ connections:
     slug: learning-pipeline
   - type: idea
     slug: "speed-first-model-second-batch-tradeoff"  # auto
+  - type: idea
+    slug: "learning-dynamics"  # auto, review: 0.502
 ---
 # Locate-First, Model-Last — A Learning Paradigm Shift
 

@@ -3,7 +3,7 @@ id: idea-20260515-000001
 summary: "The note poses the open question of how to deal with complexity, indicating it requires specific user context to develop further."
 title: Dealing with Complexity
 tags: []
-importance: 3.32  # auto
+importance: 3.42  # auto
 connections:
   - type: project
     slug: "ai-ability"

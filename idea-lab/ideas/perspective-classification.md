@@ -7,6 +7,8 @@ importance: 1.32  # auto
 connections:
   - type: idea
     slug: "classification-of-concepts"  # auto
+  - type: idea
+    slug: "domain-power-and-perspective-taking"  # auto, review: 0.527
 ---
 What angles can I use to analyze problems from the books I've read?
 

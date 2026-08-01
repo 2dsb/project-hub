@@ -8,7 +8,7 @@ tags:
   - skill-design
   - efficiency
 summary: "The default instinct to build solutions from scratch is a tax on speed, as shown by a compressed learning sprint where a "teach" skill—a wrapper for executing externally designed curricula—enabled rapid progress across three tracks. The decision system’s weight allocation should shift toward first exhausting search for existing tutorials, libraries, or reference implementations before self-creation. This can be formalized as a Leverage Factor (L) axis: high L tasks favor composing or adapting external work, while low L tasks justify original creation when truly novel or proprietary needs arise. The theoretical framing exists but has not yet been formalized into a skill."
-importance: 4.87  # auto
+importance: 4.91  # auto
 connections:
   - type: idea
     slug: precision-fuzziness-tradeoff

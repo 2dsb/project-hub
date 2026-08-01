@@ -3,7 +3,7 @@ id: "idea-20260627-ezone01"
 summary: "When learning English, a speaker can settle into a comfort zone of familiar expressions, an error of omission that goes undetected because nothing triggers correction. This local optimum halts vocabulary growth, as the expression bank stops expanding. Since implicit improvement naturally converges to this plateau, a deliberate perturbation—such as a vocabulary quota, expression rotation, or forced rephrase—is required to escape it."
 title: "English Comfort Zone Vocabulary — Settling Into Familiar Expressions"
 tags: [english-learning, vocabulary, comfort-zone, plateau, local-optimum, expression-bank]
-importance: 1.21  # auto
+importance: 1.26  # auto
 connections:
   - type: project
     slug: "english-learning"

@@ -7,7 +7,7 @@ tags:
 - metacognition
 - thinking-methods
 summary: "Proactively document and interrogate your own beliefs, such as views on love or career, to foster self-reflection and metacognitive examination."
-importance: 2.88  # auto
+importance: 2.92  # auto
 connections:
   - type: project
     slug: "ai-ability"

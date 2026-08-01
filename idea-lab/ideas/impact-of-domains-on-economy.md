@@ -12,7 +12,7 @@ tags:
 - technological-frontier
 - geography-of-innovation
 summary: "Technology bodies encounter industries not through simple adoption but through mutual co-creation, a process of re-domaining that yields disruptive change and secondary industries. This restructuring of economic arrangements takes decades, measured not as lag but as relational time involving both fast-time design and slow-time era-shaping. Geographic concentration of technological frontiers persists because leading-edge knowledge depends on esoteric craftsmanship—a shared, ineffable culture of knowing what works, which principles to trust, what to ignore, and how to manipulate poorly understood phenomena, reinforced by trade secrets that attract further success."
-importance: 2.15  # auto
+importance: 2.6  # auto
 connections:
 - type: idea
   slug: three-definitions-of-technology
@@ -24,6 +24,18 @@ connections:
     slug: "technology-domains"  # auto
   - type: idea
     slug: "economic-evolution-driven-by-technological-evolution"  # auto
+  - type: idea
+    slug: "external-and-internal-view-of-technology"  # auto, review: 0.590
+  - type: idea
+    slug: "new-technology-replacing-old"  # auto, review: 0.588
+  - type: idea
+    slug: "general-evolution-of-technology"  # auto, review: 0.580
+  - type: idea
+    slug: "our-attitude-toward-technology"  # auto, review: 0.544
+  - type: idea
+    slug: "cycle-of-technology"  # auto, review: 0.541
+  - type: idea
+    slug: "technology"  # auto, review: 0.521
 ---
 Technology in the singular sense causes changes in prices and production relations within the economy.
 **Industry adopts technology.**

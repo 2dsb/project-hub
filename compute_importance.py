@@ -42,7 +42,6 @@ def build_graph() -> nx.Graph:
                 title = s.removeprefix("title:").strip().strip('"').strip("'")
             elif s.startswith("importance:"):
                 raw = s.removeprefix("importance:").strip()
-                is_auto = "# auto" in raw
                 # Strip comment and parse
                 raw = raw.split("#")[0].strip()
                 try:
@@ -131,16 +130,23 @@ def write_importance(G: nx.Graph, scores: dict, dry_run: bool = False) -> dict:
 
         content = filepath.read_text(encoding="utf-8")
 
-        # Replace importance line (preserve any manual comment, add # auto)
-        new_content = re.sub(
+        # Only modify the frontmatter, not the body
+        m = re.match(r"^(---\s*\n)(.*?)(\n---\s*\n.*)", content, re.DOTALL)
+        if not m:
+            continue
+        before, fm, after = m.group(1), m.group(2), m.group(3)
+
+        new_fm = re.sub(
             r"^importance:\s*[\d.]+.*$",
             f"importance: {new_score}  # auto",
-            content,
+            fm,
             flags=re.MULTILINE,
         )
 
         if not dry_run:
-            filepath.write_text(new_content, encoding="utf-8")
+            tmp = filepath.with_suffix(".tmp")
+            tmp.write_text(f"{before}{new_fm}{after}", encoding="utf-8")
+            os.replace(tmp, filepath)
         stats["updated"] += 1
 
     return stats

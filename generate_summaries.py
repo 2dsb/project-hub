@@ -3,15 +3,17 @@
 Skips files that already have a summary field (safe to re-run).
 """
 
+import hashlib
 import json
 import os
 import re
 import time
 from pathlib import Path
 from openai import OpenAI
+from rebuild_index import rebuild_index
 
 # --- Config ---
-API_KEY = "sk-3578289a53ca446fafde6850cc895e68"
+API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
 BASE_URL = "https://api.deepseek.com"
 MODEL = "deepseek-v4-pro"
 
@@ -64,6 +66,11 @@ def read_idea(filepath: Path) -> dict | None:
             tags.append(stripped.removeprefix("- ").strip())
         elif in_tags and not stripped.startswith("- "):
             in_tags = False
+        elif stripped.startswith("tags: [") or stripped.startswith('tags: ["'):
+            # Bracket format: "tags: [a, b, c]" or 'tags: ["a", "b"]'
+            raw = stripped.removeprefix("tags:").strip().strip("[]")
+            tags = [t.strip().strip('"').strip("'") for t in raw.split(",") if t.strip()]
+            in_tags = False
 
     return {
         "slug": slug,
@@ -75,11 +82,26 @@ def read_idea(filepath: Path) -> dict | None:
     }
 
 
-def has_summary(frontmatter: str) -> bool:
-    """Check if frontmatter already has a non-empty summary field."""
-    m = re.search(r'^summary:\s*"?([^"]*)"?', frontmatter, re.MULTILINE)
-    if m:
-        return len(m.group(1).strip()) > 0
+def body_hash(body: str) -> str:
+    """Short hash of body text for change detection."""
+    return hashlib.md5(body.strip().encode()).hexdigest()[:8]
+
+
+def has_summary(frontmatter: str, body: str) -> bool:
+    """Check if frontmatter has a non-empty summary and body hasn't changed."""
+    # Check summary exists and non-empty (capture everything after summary: up to end of line)
+    m = re.search(r'^summary:\s*(.*)', frontmatter, re.MULTILINE)
+    if not m:
+        return False
+    summary_val = m.group(1).strip().strip('"').strip("'")
+    if len(summary_val) == 0:
+        return False
+    # Check body hasn't changed since summary was generated
+    hm = re.search(r'^body_hash:\s*"?(\w+)"?', frontmatter, re.MULTILINE)
+    if hm:
+        stored_hash = hm.group(1)
+        return stored_hash == body_hash(body)
+    # No hash stored — summary exists but hash unknown, regenerate to be safe
     return False
 
 
@@ -104,7 +126,7 @@ def generate_summary(title: str, tags: list[str], body: str) -> str:
         summary = summary.strip('"').strip("'")
         finish = resp.choices[0].finish_reason
 
-        if len(summary.split()) >= 5:
+        if len(summary.split()) >= 5 and finish == "stop":
             return summary
 
         # Log why it was empty/short
@@ -114,8 +136,11 @@ def generate_summary(title: str, tags: list[str], body: str) -> str:
         if finish == "stop" and len(summary.split()) < 5:
             # Model stopped but gave too little — body might be too short
             if len(body.strip()) < 30:
-                # Very short body — just use body as summary directly
-                return body.strip()
+                # Very short body — use body as summary, but not empty
+                text = body.strip()
+                if not text:
+                    return title
+                return text
             # Otherwise retry with higher max_tokens
         elif finish == "length":
             # Hit token limit — definitely need more tokens
@@ -124,87 +149,43 @@ def generate_summary(title: str, tags: list[str], body: str) -> str:
             # Unknown issue — retry
             continue
 
-    # Last resort: use body[:200] as summary
-    fallback = body.strip()[:200]
+    # Last resort: use body as summary, flattening newlines
+    fallback = body.strip().replace("\n", " ")[:200]
     print(f"    [fallback] using body snippet as summary ({len(fallback.split())} words)")
     return fallback
 
 
-def insert_summary_into_frontmatter(frontmatter: str, summary: str) -> str:
-    """Insert summary field after the title line (or after tags block). Cleans old summary lines first."""
+def insert_summary_and_hash(frontmatter: str, summary: str, body: str) -> str:
+    """Insert summary and body_hash fields. Cleans old summary/hash lines first."""
     lines = frontmatter.split("\n")
 
-    # Remove any existing summary lines (empty or not)
-    lines = [l for l in lines if not l.strip().startswith("summary:")]
+    # Remove any existing summary and body_hash lines
+    lines = [l for l in lines if not l.strip().startswith(("summary:", "body_hash:"))]
 
     # Find where to insert: after the last tag line, or after title line
     insert_idx = 0
     in_tags = False
     for i, line in enumerate(lines):
         stripped = line.strip()
-        if stripped == "tags:":
+        if stripped.startswith("title:"):
+            insert_idx = i
+        elif stripped == "tags:":
             in_tags = True
             insert_idx = i
         elif in_tags and stripped.startswith("- "):
             insert_idx = i
         elif in_tags and not stripped.startswith("- "):
             in_tags = False
+        elif stripped.startswith("tags: [") or stripped.startswith('tags: ["'):
+            insert_idx = i
+            in_tags = False
 
-    # insert_idx is now the last tag line (or title line). Insert summary after it.
-    summary_line = f'summary: "{summary}"'
+    # insert_idx is now the last tag line (or title line). Insert summary + hash after it.
+    summary_line = f'summary: "{summary.replace(chr(34), chr(92)+chr(34))}"'
+    hash_line = f'body_hash: "{body_hash(body)}"'
     lines.insert(insert_idx + 1, summary_line)
+    lines.insert(insert_idx + 2, hash_line)
     return "\n".join(lines)
-
-
-def rebuild_index():
-    """Regenerate ideas-index.json from all .md files."""
-    ideas = []
-    for f in sorted(IDEAS_DIR.glob("*.md")):
-        content = f.read_text(encoding="utf-8")
-        m = re.match(r"^---\s*\n(.*?)\n---", content, re.DOTALL)
-        if not m:
-            continue
-        fm = m.group(1)
-
-        entry = {
-            "id": "", "title": "", "tags": [],
-            "importance": 1, "connections": [], "summary": "",
-        }
-        in_tags, in_conn = False, False
-        cur = {}
-
-        for line in fm.split("\n"):
-            s = line.strip()
-            if s.startswith("id:"):
-                entry["id"] = s.removeprefix("id:").strip().strip('"')
-            elif s.startswith("title:"):
-                entry["title"] = s.removeprefix("title:").strip().strip('"').strip("'")
-            elif s.startswith("summary:"):
-                entry["summary"] = s.removeprefix("summary:").strip().strip('"').strip("'")
-            elif s.startswith("importance:"):
-                try:
-                    entry["importance"] = float(s.removeprefix("importance:").strip())
-                except ValueError:
-                    pass
-            elif s == "tags:":
-                in_tags, in_conn = True, False
-            elif s == "connections:":
-                in_conn, in_tags = True, False
-            elif s.startswith("- type:") and in_conn:
-                cur = {"type": s.removeprefix("- type:").strip()}
-            elif s.startswith("slug:") and in_conn:
-                cur["slug"] = s.removeprefix("slug:").strip().strip('"')
-                entry["connections"].append(cur)
-                cur = {}
-            elif s.startswith("- ") and in_tags:
-                entry["tags"].append(s.removeprefix("- ").strip())
-
-        ideas.append(entry)
-
-    index = {"generated": time.strftime("%Y-%m-%d"), "total": len(ideas), "ideas": ideas}
-    with open(INDEX_PATH, "w", encoding="utf-8") as f:
-        json.dump(index, f, indent=2, ensure_ascii=False)
-    return len(ideas)
 
 
 def main():
@@ -223,9 +204,9 @@ def main():
             skipped += 1
             continue
 
-        # Check if already has summary
-        if has_summary(idea["raw_frontmatter"]):
-            print(f"  [{i}/{total}] {idea['slug']} — SKIP (already has summary)")
+        # Check if already has summary and body hasn't changed
+        if has_summary(idea["raw_frontmatter"], idea["body"]):
+            print(f"  [{i}/{total}] {idea['slug']} — SKIP (unchanged)")
             skipped += 1
             continue
 
@@ -237,12 +218,14 @@ def main():
             failed += 1
             continue
 
-        # Insert into frontmatter
-        new_fm = insert_summary_into_frontmatter(idea["raw_frontmatter"], summary)
+        # Insert into frontmatter (with body hash for change detection)
+        new_fm = insert_summary_and_hash(idea["raw_frontmatter"], summary, idea["body"])
         new_content = f"---\n{new_fm}\n---\n{idea['raw_body'].lstrip('\n')}"
 
-        # Write back
-        filepath.write_text(new_content, encoding="utf-8")
+        # Atomic write: temp file then rename (safe against crashes)
+        tmp = filepath.with_suffix(".tmp")
+        tmp.write_text(new_content, encoding="utf-8")
+        os.replace(tmp, filepath)
         done += 1
         print(f"  [{i}/{total}] {idea['slug']} — OK ({len(summary.split())} words)")
 

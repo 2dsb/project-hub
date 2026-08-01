@@ -3,7 +3,7 @@ id: "idea-20260319-f7d2a9"
 summary: "The economy is constructed by technology, comprising a technological part—the arrangement of goods and services as a purposive system—and a non-technological part that forms around it. New technology enters, replacing old technology, which destroys existing opportunity niches and triggers chain reactions, while simultaneously providing new elements that prompt the emergence of fresh organizational institutions and establishing further opportunity niches by generating technological, economic, and social problems demanding solutions. Economic evolution proceeds through a “problem-and-solution, challenge-and-response” pattern, shaped by invariants such as human behavioral preferences and supply-demand equilibrium."
 title: "Economic Evolution Driven by Technological Evolution"
 tags: ["economic-evolution", "technological-construction", "structural-change", "opportunity-niche", "problem-and-solution"]
-importance: 3.42  # auto
+importance: 4.25  # auto
 connections:
   - type: idea
     slug: evolution-of-technology-in-general-sense
@@ -17,6 +17,30 @@ connections:
     slug: "new-technology-replacing-old"  # auto
   - type: idea
     slug: "economics"  # auto
+  - type: idea
+    slug: "impact-of-domains-on-economy"  # auto
+  - type: idea
+    slug: "external-and-internal-view-of-technology"  # auto
+  - type: idea
+    slug: "how-domains-evolve"  # auto
+  - type: idea
+    slug: "our-attitude-toward-technology"  # auto
+  - type: idea
+    slug: "cycle-of-technology"  # auto
+  - type: idea
+    slug: "technology"  # auto, review: 0.558
+  - type: idea
+    slug: "reconceptualizing-standard-engineering"  # auto, review: 0.548
+  - type: idea
+    slug: "characteristics-of-our-era"  # auto, review: 0.538
+  - type: idea
+    slug: "finding-examples"  # auto, review: 0.517
+  - type: idea
+    slug: "the-gene-of-technology-phenomena"  # auto, review: 0.515
+  - type: idea
+    slug: "classification-of-concepts"  # auto, review: 0.512
+  - type: idea
+    slug: "core-capability-supporting-infrastructure-pattern"  # auto, review: 0.507
 ---
 # Two Views of the Economy
 

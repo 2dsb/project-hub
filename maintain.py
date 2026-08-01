@@ -64,6 +64,7 @@ def main():
     print(f"Total: {total:.1f}s, Failed: {len(failed)}")
     if failed:
         print(f"Failed steps: {', '.join(failed)}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

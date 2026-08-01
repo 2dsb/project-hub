@@ -11,7 +11,7 @@ tags:
   - innovation-cycles
   - technology-maturation
 summary: "Domains form by coalescing around a core technology or a constructed family of phenomena, initially existing as a loosely structured toolbox that gradually accumulates experiential intuition, sometimes mixing with the parent domain to create a hybrid domain. Adolescence is marked by the emergence of viable technology—capable of major commercial application—triggering small enterprise formation, technological improvements, and investment bubbles. Maturity brings market calm and the consolidation of small enterprises into large corporations that profoundly influence the economy. Old age sees few new technologies, with most domains persisting as internalized parts of daily life. The cycle can break through variation caused by fundamental changes in key technologies or application shifts, or by throwing off secondary domains like the internet from computing and communication."
-importance: 1.85  # auto
+importance: 3.41  # auto
 connections:
   - type: idea
     slug: three-definitions-of-technology
@@ -19,6 +19,28 @@ connections:
     slug: ai-ability
   - type: idea
     slug: "technology-domains"  # auto
+  - type: idea
+    slug: "impact-of-domains-on-economy"  # auto
+  - type: idea
+    slug: "general-evolution-of-technology"  # auto
+  - type: idea
+    slug: "economic-evolution-driven-by-technological-evolution"  # auto
+  - type: idea
+    slug: "cycle-of-technology"  # auto
+  - type: idea
+    slug: "core-capability-supporting-infrastructure-pattern"  # auto, review: 0.572
+  - type: idea
+    slug: "new-technology-replacing-old"  # auto, review: 0.560
+  - type: idea
+    slug: "external-and-internal-view-of-technology"  # auto, review: 0.558
+  - type: idea
+    slug: "reconceptualizing-standard-engineering"  # auto, review: 0.545
+  - type: idea
+    slug: "fundamentally-new-technology"  # auto, review: 0.528
+  - type: idea
+    slug: "classification-of-concepts"  # auto, review: 0.524
+  - type: idea
+    slug: "technology-in-the-singular-sense"  # auto, review: 0.502
 ---
 # Domain Formation
 

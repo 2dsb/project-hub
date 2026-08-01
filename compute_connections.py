@@ -45,7 +45,7 @@ def read_idea(filepath: Path) -> dict | None:
         elif stripped.startswith("title:"):
             title = stripped.removeprefix("title:").strip().strip('"').strip("'")
         elif stripped.startswith("summary:"):
-            summary = stripped.removeprefix("summary:").strip().strip('"').strip("'")
+            summary = stripped.removeprefix("summary:").strip().strip('"').strip("'").replace('\\"', '"')
         elif stripped == "tags:":
             in_tags = True
             in_connections = False
@@ -61,6 +61,10 @@ def read_idea(filepath: Path) -> dict | None:
             current_conn = {}
         elif stripped.startswith("- ") and in_tags:
             tags.append(stripped.removeprefix("- ").strip())
+        elif stripped.startswith("tags: [") or stripped.startswith('tags: ["'):
+            raw = stripped.removeprefix("tags:").strip().strip("[]")
+            tags = [t.strip().strip('"').strip("'") for t in raw.split(",") if t.strip()]
+            in_tags = False
 
     tag_str = " ".join(f"#{t}" for t in tags)
     # Use summary if available, fall back to body[:300] for backwards compatibility

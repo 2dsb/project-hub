@@ -7,7 +7,7 @@ tags:
 - analogical-analysis
 - problem-solving
 summary: "The note questions whether the process of conceiving fundamentally new technology resembles solving a math competition problem, and asks what the similarities and differences between these two creative problem-solving methods are, touching on analogical analysis and mathematical thinking."
-importance: 3.0  # auto
+importance: 2.72  # auto
 connections:
 - type: project
   slug: ai-ability

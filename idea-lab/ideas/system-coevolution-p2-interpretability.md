@@ -3,7 +3,7 @@ id: "idea-20260606-sce01-p2"
 summary: "The core problem is that data-emergent structures often lack familiar labels, as clusters may combine disparate items like book notes, chat logs, ruminations, and abandoned plans along latent dimensions with no existing vocabulary. When flipping from human-designed to data-generated systems, we forfeit not just control over structure but the right to name that structure. Therefore, structural interpretability can be set aside: the system may output statistically meaningful clusters without providing human-understandable labels. The user is willing to accept "these data are statistically clustered together—see for yourself" rather than demanding a familiar category like "Project."
 title: "Co-evolution - Question 2: Structural Interpretability"
 tags: [system-coevolution, emergent-structure, interpretability, clustering]
-importance: 2.26  # auto
+importance: 2.35  # auto
 connections:
   - type: idea
     slug: "system-coevolution"  # auto

@@ -3,7 +3,7 @@ id: "idea-20260711-um01"
 summary: "The vision is a unified model of Python program execution that integrates sub-models—def tree, frame tree, call tree, name-object binding, taxonomy of change, and abstraction barrier—each capturing distinct static, dynamic, referential, and architectural aspects. The hard problem is coupling these perspectives into a coherent framework, avoiding redundancy and establishing completeness. Proposed architectures include a layered stack, multi-projection from a single execution trace, and process-algebraic derivations. This extends the Portal Model, potentially generalizing portals as interfaces between sub-models."
 title: "Unified Model of Python Program Execution — Coupling All Sub-Models"
 tags: [cs61a, program-execution, modeling, meta-model, portal-model, synthesis, architecture]
-importance: 3.73  # auto
+importance: 3.9  # auto
 connections:
   - type: idea
     slug: "environment-diagram-dual-perspective"  # auto

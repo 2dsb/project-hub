@@ -10,7 +10,7 @@ tags:
   - higher-education
   - undergraduate-experience
 summary: "Excellent universities feature curious, open peers who act as intellectual partners, offering idea exchange and mutual support under shared graduation pressures. They guide students in with an "Introduction to Liberal Arts" course—a humanities syllabus covering discipline essentials to broaden interests and find direction. They proactively prepare all majors for life after graduation through year-round systematic programs, not just last-minute senior-year vocational skills repackaged as leadership. For example, Bennington College's Center for Social Good allows students to choose themes like poverty, public health, or the environment, conducting project-based inquiry to use resources for advancing social progress, which redefines leadership's actual meaning."
-importance: 3.45  # auto
+importance: 3.39  # auto
 connections:
   - type: idea
     slug: teachers

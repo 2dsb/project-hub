@@ -5,7 +5,7 @@ tags:
   - philosophy-of-technology
   - research-questions
 summary: "The note raises the question of what further research questions, beyond defining technology and explaining its development and evolution, are worth exploring within the philosophy of technology. It seeks to expand the inquiry into the nature and dynamics of technology."
-importance: 5.28  # auto
+importance: 6.04  # auto
 connections:
   - type: project
     slug: ai-ability
@@ -39,6 +39,20 @@ connections:
     slug: "understanding-software-at-technical-level"  # review: 0.561
   - type: idea
     slug: "economic-evolution-driven-by-technological-evolution"  # review: 0.558
+  - type: idea
+    slug: "economics"  # auto, review: 0.547
+  - type: idea
+    slug: "math-competition-and-tech-innovation"  # auto, review: 0.541
+  - type: idea
+    slug: "reconceptualizing-standard-engineering"  # auto, review: 0.539
+  - type: idea
+    slug: "impact-of-domains-on-economy"  # auto, review: 0.521
+  - type: idea
+    slug: "technology-domains"  # auto, review: 0.520
+  - type: idea
+    slug: "where-innovation-comes-from"  # auto, review: 0.516
+  - type: idea
+    slug: "broad-and-narrow-technology"  # auto, review: 0.509
 ---
 Apart from
 "What is technology?" and "How does technology develop and evolve?"

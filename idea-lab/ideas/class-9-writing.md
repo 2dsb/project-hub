@@ -3,7 +3,7 @@ id: idea-20260512-c8e3a5
 summary: "In a class evenly split among students from former Classes 8, 9, and 10, every standout essay comes from a former Class 9 student. This pattern suggests that some factor specific to the Class 9 cohort—possibly teacher quality, student intake, or established habits—may confer a writing advantage, though the precise cause remains unclear."
 title: "Class 9 Writing Advantage"
 tags: [observation, education, writing, class-dynamics]
-importance: 0.51  # auto
+importance: 0.52  # auto
 connections:
   - type: project
     slug: "ai-ability"

@@ -3,7 +3,7 @@ id: "idea-20260713-is01"
 summary: "The note proposes an objective importance scoring system for ideas using two orthogonal dimensions: Knowledge-Layer Centrality and Execution-Layer Penetration. Centrality measures an idea's position in the idea graph via hubness (backlink strength) and generativity (backlinks with generative relations like extends or builds-on), while penetration measures how many projects and skills reference the idea, giving higher weight to projects. These dimensions are independent because an idea can be highly central in the knowledge graph yet never used in execution, and vice versa. A composite score combines them with a slight bias toward penetration, reflecting that behavioral impact matters more than theoretical weight. The system relies on M33 cross-axis scanning to compute penetration; without it, penetration is zero, collapsing the scoring to one dimension. Scores are auto-computed and stored as computed_importance, with manual importance fields becoming read-only to prevent subjective drift."
 title: "Objective Importance Scoring — Two Orthogonal Dimensions for Idea Evaluation"
 tags: [meta-cognition, importance-scoring, idea-evaluation, m33, cross-axis, system-design, methodology, objective-metrics]
-importance: 2.16  # auto
+importance: 2.3  # auto
 connections:
   - type: idea
     slug: "knowledge-as-dictionary-of-perspectives"  # auto

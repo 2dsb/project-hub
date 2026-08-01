@@ -3,7 +3,7 @@ id: "idea-20260608-at01"
 summary: "Analogical transfer succeeds when it transports relational structure, not surface features. The check is to express the situation as "X did what to Y" and see if the relationship holds after swapping concrete entities. Transfer fails when surface similarity"
 title: "Applicability Conditions for Analogical Transfer"
 tags: [meta-cognition, analogical-transfer, thinking-tool, epistemology]
-importance: 1.85  # auto
+importance: 1.91  # auto
 connections:
   - type: idea
     slug: "knowledge-transfer-fidelity"  # auto

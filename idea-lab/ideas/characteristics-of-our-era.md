@@ -3,7 +3,7 @@ id: "idea-20260128-d91e4f"
 summary: "The contemporary era is defined by five intertwined dimensions: technology marked by acceleration and iteration, economy and society by fragmentation and restructuring, individual spirit by anxiety and awakening, the global landscape by turmoil and connection, and narrative methods by fragmentation and algorithms. These conditions provoke urgent questions about whether power is shifting from traditional institutions to tech platforms and individuals, how truth is established in a post-truth environment where facts entangle with emotion and stance, what defines humanness as artificial intelligence capabilities expand, and whether unlimited economic growth must give way to a sustainable paradigm."
 title: "Characteristics of Our Era"
 tags: ["era-characteristics", "ai", "post-truth", "definition-of-human", "growth-reassessment", "information-cocoons", "power-shift", "technology", "economy", "globalization", "mental-health", "climate-crisis", "social-media", "algorithms", "inequality"]
-importance: 2.09  # auto
+importance: 1.82  # auto
 connections: []
 connections:
   - type: idea

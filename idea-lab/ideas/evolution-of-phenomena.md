@@ -8,7 +8,7 @@ tags:
 - technology-and-equipment
 - scientific-discovery
 summary: "Phenomena are discovered through "phenomenon capture," where scientists identify anomalies by revisiting experiments, noticing clues in theoretical derivation, or through trial and error. Discovered phenomena cluster into functional groups called phenomenon families, and finding one phenomenon makes others in the same family easier to discover. These phenomena are then domesticated into technology, which produces equipment that enables the discovery of yet more phenomena, forming a self-reinforcing cycle."
-importance: 0.92  # auto
+importance: 1.11  # auto
 connections:
 - type: idea
   slug: general-and-narrow-technology
@@ -18,6 +18,8 @@ connections:
     slug: "science"  # auto
   - type: idea
     slug: "the-gene-of-technology-phenomena"  # review: 0.591
+  - type: idea
+    slug: "fundamentally-new-technology"  # auto, review: 0.526
 ---
 # How Are Phenomena Captured (Discovered)?
 ## At the Logical Level

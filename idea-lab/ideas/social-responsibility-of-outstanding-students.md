@@ -3,7 +3,7 @@ id: "idea-20260123-b9d3f1"
 summary: "Leadership and serving others have devolved from selfless ideals into self-serving careerism, where high positions on the social pyramid matter most and service is merely charity that polishes resumes. Bureaucratic systems now promote caretakers who preserve the status quo without initiative or independent thought, while elite students, flourishing within this framework, lose critical dissatisfaction and ignore structural change, tackling only isolated problems like DIY-style social entrepreneurship. The necessary response is to become a thinker: a good citizen who questions common sense, strategically charts direction, and possesses the willpower and courage to defy tradition."
 title: "The Social Responsibility of Outstanding Students"
 tags: ["leadership-alienation", "social-responsibility", "critical-thinking", "social-structure", "thinker", "elite-education", "conformity", "higher-education"]
-importance: 2.39  # auto
+importance: 3.12  # auto
 connections: []
 connections:
   - type: idea
@@ -12,6 +12,8 @@ connections:
     slug: "characteristics-of-excellent-universities"  # review: 0.578
   - type: idea
     slug: "my-relationship-with-others-and-society"  # review: 0.567
+  - type: idea
+    slug: "liberal-arts-perspective-on-the-execution-line"  # auto, review: 0.507
 ---
 # Two Concepts in Transformation
 

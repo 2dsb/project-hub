@@ -8,7 +8,7 @@ tags:
 - meta-skill
 - actionable
 summary: "Breadth-first approaches to starting tasks—opening a flood of reference pages or mentally"
-importance: 5.21  # auto
+importance: 5.4  # auto
 connections:
   - type: project
     slug: ai-ability

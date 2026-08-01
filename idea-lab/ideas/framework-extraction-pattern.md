@@ -1,7 +1,7 @@
 ---
 id: idea-20260702-framework-extraction
 title: First Time — Framework Emerges from Content; Second Time — Framework Precedes Content
-importance: 5.7  # auto
+importance: 5.87  # auto
 tags:
   - methodology
   - learning

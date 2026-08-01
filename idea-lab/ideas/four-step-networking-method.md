@@ -3,7 +3,7 @@ id: "idea-20260731-nm4s"
 summary: "A networking method stress-tested at a CKGSB event sequences five steps: a genuine, answerable compliment tailored to the person’s role; a concise self-introduction providing a memorable identity anchor like “the PKU math freshman”; a contact exchange framed as a desire to learn; a specific question that shows preparation and curiosity; and a follow-up within 24 hours referencing the conversation without asking for favors. Order lowers defenses, specificity is respect, and the follow-up converts a fleeting contact into a compounding relationship through periodic, low-pressure touchpoints."
 title: "The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up"
 tags: [networking, social-skills, methodology, communication, mentorship]
-importance: 3.9  # auto
+importance: 4.04  # auto
 connections:
   - type: idea
     slug: "university-two-pillar-strategy"  # auto

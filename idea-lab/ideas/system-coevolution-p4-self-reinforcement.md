@@ -3,7 +3,7 @@ id: "idea-20260606-sce01-p4"
 summary: "The coevolution system risks self-reinforcing along a wrong direction because sparse user-chosen data introduces data bias and statistical learning amplifies confirmation bias, suppressing contradictory signals. To counter this, five safeguards are enabled: a human veto with rollback traces, deliberate tracking of counter-evidence against its own hypotheses, random exploration injections to break self-reinforcement, periodic resets that re-run analysis from raw data to detect distortion, and treating the user’s real-world experience as the ultimate correction signal. The metric shifts from model accuracy to whether the system stimulates the user to generate valuable new thoughts."
 title: "Coevolution - Problem 4: Preventing Self-Reinforcement in the Wrong Direction"
 tags: [system-coevolution, self-reinforcement, safety, feedback-control]
-importance: 1.95  # auto
+importance: 2.09  # auto
 connections:
   - type: idea
     slug: "system-coevolution"  # auto

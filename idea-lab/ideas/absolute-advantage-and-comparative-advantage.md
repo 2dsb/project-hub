@@ -7,8 +7,9 @@ tags:
 - opportunity-cost
 - gains-from-trade
 - specialization
-summary: "Absolute advantage means producing a good with fewer inputs. Comparative advantage, which is the ability to produce at a lower opportunity cost, is the basis for mutually beneficial trade. Trade allows everyone to specialize according to their comparative advantage, creating gains from trade. The price of trade falls between the opportunity costs of the two parties."
-importance: 2.36  # auto
+summary: "The core distinction lies between absolute advantage, which is producing a good using fewer inputs, and comparative advantage, which is producing a good at a lower opportunity cost. Gains from trade arise when parties specialize according to their comparative advantage. The trading price therefore settles between the opportunity costs of the two parties."
+body_hash: "52acbbf4"
+importance: 2.34  # auto
 connections:
 - type: idea
   slug: ten-principles-of-economics

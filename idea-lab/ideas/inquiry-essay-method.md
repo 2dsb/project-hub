@@ -8,7 +8,7 @@ tags:
 - methodology
 - inquiry
 summary: "The inquiry-based essay method starts by exhausting a concept's conceptual domain, using operational tactics like exemplify and generalize, analogical leaps, and dimensional exhaustion to map its intension (essential meaning) and extension (referents), then verifying accuracy with counterexample and substitution tests. For every question raised, answers are generated from multiple angles—such as positive/negative or historical/future—to expose different facets. These answers are then naturally woven into a coherent argument, avoiding mechanical stitching. This approach emphasizes conceptual clarity over structural frameworks and is the output-side counterpart to connection-reading, both valuing dense constraint relationships between concepts."
-importance: 5.38  # auto
+importance: 5.54  # auto
 connections:
   - type: idea
     slug: "reading-writing-unity"  # auto

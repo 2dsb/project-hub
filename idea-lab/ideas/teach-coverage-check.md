@@ -7,7 +7,7 @@ tags:
   - quality-assurance
   - cs61a
 summary: "After a CS61A lecture, generate notes with teach and cross-check them against the original lecture to find missing content. Teach is highly efficient but may omit material, so the lecture serves as a coverage baseline to catch omissions early. Flag any gaps and fill them manually or by prompting teach for follow-up. This quality-assurance practice prevents gaps from compounding and applies to any course using teach alongside an external reference like a textbook or syllabus."
-importance: 0.75  # auto
+importance: 0.78  # auto
 connections:
   - type: project
     slug: cs61a

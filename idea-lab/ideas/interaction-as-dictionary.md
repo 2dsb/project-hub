@@ -11,7 +11,7 @@ tags:
   - attention-filter
   - meta-model
 summary: "Every knowledge point is a dictionary mapping interaction contexts to interaction patterns — essence is irrelevant. Objects are names bound to stable interaction-pattern sets within a filter, and perspective is a selective filter that foregrounds some interactions while backgrounding others. Horizontal interactions compare patterns within a shared filter, vertical interactions connect names across filters, and class is merely the impression of dense vertical interactions. The methodology replaces "What is X?" with "What does it interact with?" — discovering interactions through the dictionary structure is the only goal."
-importance: 6.12  # auto
+importance: 6.35  # auto
 connections:
   - type: idea
     slug: "interaction-as-essence-heuristic"  # auto

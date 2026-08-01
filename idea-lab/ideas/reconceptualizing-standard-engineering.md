@@ -11,7 +11,7 @@ tags:
 - combinatorial-evolution
 - domains
 summary: "Standard engineering is the design process that creates new versions of existing technologies by recombining familiar combinatorial methods and structures in response to demand, proceeding from conceptual design to physical realization. This process can be seen as problem-solving, where a demand is broken into smaller sub-problems, or as a language-like activity in which engineers generate intentions and select elements from domains to form novel combinations. On a broader scale, technological innovation operates through sample and selection: many engineers produce diverse combinations, and technologies that are repeatedly reused become standardized modules via a positive feedback loop, analogous to Darwinism but directed by human demand rather than random variation."
-importance: 4.7  # auto
+importance: 5.83  # auto
 connections:
 - type: idea
   slug: technology-in-the-singular
@@ -23,6 +23,36 @@ connections:
   slug: ai-ability
   - type: idea
     slug: "fundamentally-new-technology"  # auto
+  - type: idea
+    slug: "external-and-internal-view-of-technology"  # auto
+  - type: idea
+    slug: "cycle-of-technology"  # auto
+  - type: idea
+    slug: "technology-domains"  # auto
+  - type: idea
+    slug: "general-evolution-of-technology"  # auto
+  - type: idea
+    slug: "the-gene-of-technology-phenomena"  # auto
+  - type: idea
+    slug: "technology-in-the-singular-sense"  # auto
+  - type: idea
+    slug: "three-definitions-of-technology"  # auto
+  - type: idea
+    slug: "math-competition-and-tech-innovation"  # auto, review: 0.576
+  - type: idea
+    slug: "new-technology-replacing-old"  # auto, review: 0.560
+  - type: idea
+    slug: "finding-examples"  # auto, review: 0.549
+  - type: idea
+    slug: "economic-evolution-driven-by-technological-evolution"  # auto, review: 0.548
+  - type: idea
+    slug: "how-domains-evolve"  # auto, review: 0.545
+  - type: idea
+    slug: "where-innovation-comes-from"  # auto, review: 0.543
+  - type: idea
+    slug: "technology"  # auto, review: 0.539
+  - type: idea
+    slug: "core-capability-supporting-infrastructure-pattern"  # auto, review: 0.538
 ---
 # How Does Technological Innovation Happen?
 

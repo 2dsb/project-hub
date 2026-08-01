@@ -6,6 +6,7 @@
 """
 
 import json
+import os
 import re
 from pathlib import Path
 
@@ -16,6 +17,10 @@ HIGH_CONFIDENCE = 0.60
 
 def write_connections(suggestions_path: Path, dry_run: bool = False) -> dict:
     """Write connection suggestions to .md files. Returns stats."""
+    if not suggestions_path.exists():
+        print(f"  WARN: {suggestions_path} not found — run compute_connections.py first")
+        return {"written_high": 0, "written_low": 0, "skipped_existing": 0, "files_touched": 0}
+
     data = json.loads(suggestions_path.read_text(encoding="utf-8"))
 
     stats = {"written_high": 0, "written_low": 0, "skipped_existing": 0, "files_touched": 0}
@@ -98,7 +103,9 @@ def write_connections(suggestions_path: Path, dry_run: bool = False) -> dict:
         new_content = f"{before}{new_fm}{after}"
 
         if not dry_run:
-            filepath.write_text(new_content, encoding="utf-8")
+            tmp = filepath.with_suffix(".tmp")
+            tmp.write_text(new_content, encoding="utf-8")
+            os.replace(tmp, filepath)
         stats["files_touched"] += 1
 
     return stats

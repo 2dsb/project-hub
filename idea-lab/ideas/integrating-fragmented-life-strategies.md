@@ -3,7 +3,7 @@ id: "idea-20260606-ifl01"
 summary: "The author recognizes that habits like recording ideas and daily reviews are currently fragmented life strategies, each fighting its own battle. The central aim is to discover a shared underlying logic that would integrate these practices into a cohesive system, enabling them to reinforce one another instead of competing for attention."
 title: "Integrating Fragmented Life Strategies"
 tags: [life-design, system-thinking, habit-integration, meta-cognition]
-importance: 3.8  # auto
+importance: 3.92  # auto
 connections:
   - type: idea
     slug: "nature-of-review"  # auto

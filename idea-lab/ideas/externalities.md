@@ -13,7 +13,7 @@ tags:
   - public-policy
   - pigovian-tax
 summary: "An externality is the uncompensated impact of one person’s actions on a bystander—negative if harmful, positive if beneficial. Internalizing the externality means altering incentives so actors account for these effects, typically through Pigovian taxes for negative externalities or subsidies for positive ones. Public policies include command-and-control regulation and market-based approaches like tradable permits. Private solutions, such as moral codes, business integration, or contracts, can also work, and the Coase Theorem asserts that with zero transaction costs, bargaining leads to an efficient outcome regardless of initial rights."
-importance: 3.29  # auto
+importance: 3.27  # auto
 connections:
   - type: project
     slug: naked-economics

@@ -11,7 +11,7 @@ tags:
   - technology-clusters
   - technology-evolution
 summary: "A technology domain is a cluster of interrelated technologies that share a common external form or latent potential to serve a common purpose, functioning as a toolbox with sub-domains and a grammar—rules for combining its elements. Engineering design begins with domain definition, the choice of a domain to achieve a goal. Innovation through re-domaining shifts from an existing domain to a new one; Domain B displaces Domain A if B offers richer potential technologies and diverse combination patterns, as when electronics supplanted mechanical technology. Domains have inherent strengths, like digital clarity, and limitations, such as an inability to evaluate fashion."
-importance: 2.79  # auto
+importance: 4.23  # auto
 connections:
   - type: idea
     slug: three-definitions-of-technology
@@ -19,6 +19,34 @@ connections:
     slug: ai-ability
   - type: idea
     slug: "how-domains-evolve"  # auto
+  - type: idea
+    slug: "impact-of-domains-on-economy"  # auto
+  - type: idea
+    slug: "reconceptualizing-standard-engineering"  # auto
+  - type: idea
+    slug: "technology-in-the-singular-sense"  # auto
+  - type: idea
+    slug: "fundamentally-new-technology"  # auto
+  - type: idea
+    slug: "standard-engineering"  # auto, review: 0.597
+  - type: idea
+    slug: "cycle-of-technology"  # auto, review: 0.586
+  - type: idea
+    slug: "classification-of-concepts"  # auto, review: 0.582
+  - type: idea
+    slug: "the-gene-of-technology-phenomena"  # auto, review: 0.573
+  - type: idea
+    slug: "general-evolution-of-technology"  # auto, review: 0.570
+  - type: idea
+    slug: "core-capability-supporting-infrastructure-pattern"  # auto, review: 0.567
+  - type: idea
+    slug: "broad-and-narrow-technology"  # auto, review: 0.549
+  - type: idea
+    slug: "external-and-internal-view-of-technology"  # auto, review: 0.531
+  - type: idea
+    slug: "finding-examples"  # auto, review: 0.526
+  - type: idea
+    slug: "technology"  # auto, review: 0.520
 ---
 # Domains: Clusters of Technology
 

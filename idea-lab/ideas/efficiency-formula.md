@@ -7,7 +7,7 @@ tags:
 - methodology
 - system-design
 summary: "Efficiency gains come from two intertwined paths: incremental updates that crystallize naturally during task execution via an embedded idea-to-skill pipeline, and systemic updates that demand stepping outside daily work to restructure the methodology itself. Incremental updates are fine-grained, synchronous with execution, and rely on a crystallization mechanism like the evaluation-to-solidification loop; systemic updates are coarse-grained, low-frequency, and involve a meta-perspective redesign of the underlying system. The two form a feedback loop where accumulated incremental tensions and patterns reach a critical point, triggering a qualitative systemic leap that then reshapes execution. This model overturns the earlier 80/20 time-split notion, recognizing that most efficiency improvements happen simultaneously with doing, not in separate blocks. The relationship reframes productivity as a dynamic interplay between learning while executing (incremental) and learning about learning methods (systemic)."
-importance: 5.91  # auto
+importance: 6.04  # auto
 connections:
 - type: project
   slug: ai-ability

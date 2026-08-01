@@ -10,7 +10,7 @@ tags:
   - philosophy-of-science
   - scientific-method
 summary: "Science is the formal knowledge of phenomena, providing explanation, prediction, observation, and methods for discovery. Technology harnesses phenomena, but technology predates science; ancient phenomena were intuitive, while modern ones require science to be observed and domesticated into technology. Science internalizes within technology through accumulated practice, and technology underlies science via instruments and experimental methods, forming a mutual construction. Beyond its methods, science embodies a conviction that nature is knowable, a culture, and a practice of thinking."
-importance: 2.26  # auto
+importance: 2.04  # auto
 connections:
   - type: idea
     slug: gene-of-technology-phenomena

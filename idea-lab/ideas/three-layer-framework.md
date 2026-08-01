@@ -7,7 +7,7 @@ tags:
 - meta-cognition
 - framework-design
 summary: "The three-layer framework—conceptual, technical architecture, and mathematical—should be applied as a starting lens rather than emerging bottom-up from content when building reconnection docs. By asking of each concept which layer it primarily occupies and how it bidirectionally links to the others, the sorting process becomes far more efficient. Conceptual ideas like the NFL theorem induce the technical (Q, A) architecture, while mathematical objects support concepts and embed into technical structures at specific insertion points. This top-down scaffold drives structure for future chapter reconnection documents."
-importance: 5.79  # auto
+importance: 6.39  # auto
 connections:
 - type: idea
   slug: content-independent-framework
@@ -25,6 +25,16 @@ connections:
   slug: residuals-as-honesty-device
   - type: idea
     slug: "knowledge-reconnection"  # auto
+  - type: idea
+    slug: "connection-reading"  # auto, review: 0.545
+  - type: idea
+    slug: "structural-patience"  # auto, review: 0.527
+  - type: idea
+    slug: "framework-extraction-pattern"  # auto, review: 0.524
+  - type: idea
+    slug: "framework-from-data"  # auto, review: 0.512
+  - type: idea
+    slug: "transfer-high-leverage"  # auto, review: 0.506
 ---
 # Three-Layer Framework as Starting Lens for Reconnection Docs
 

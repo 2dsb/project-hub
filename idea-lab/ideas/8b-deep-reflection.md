@@ -6,8 +6,9 @@ tags:
 - career-planning
 - action-guide
 - life-imagination
-summary: "The "learning to think" section in 8b currently describes actively seeking collisions of thought and new perspectives but needs a concrete action guide. This note requests a detailed breakdown of how to find a career using that method, and a separate detailed breakdown of how to find life imagination, both under the same approach."
-importance: 1.49  # auto
+summary: "The note requests a concrete action guide for the "learning to think" section of the 8b Deep Reflection framework, grounding it in the practice of actively seeking collisions of thought and new perspectives. It then asks for a step-by-step breakdown of how, under this method, one can find a career, and similarly, a detailed process for finding life imagination."
+body_hash: "776a187b"
+importance: 1.5  # auto
 connections:
   - type: project
     slug: "ai-ability"

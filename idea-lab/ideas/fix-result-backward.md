@@ -8,7 +8,7 @@ tags:
   - backward-reasoning
   - cross-domain
 summary: "The note presents a problem-solving method that first fixes the desired results of compositions f∘g and g∘f, then works backward from those target constraints to deduce properties of f and g before identifying the functions. It asks how this backward reasoning from target results can transfer to non-mathematical domains."
-importance: 1.26  # auto
+importance: 1.25  # auto
 connections:
   - type: project
     slug: ai-ability

@@ -31,7 +31,7 @@ def rebuild_index():
             elif s.startswith("title:"):
                 entry["title"] = s.removeprefix("title:").strip().strip('"').strip("'")
             elif s.startswith("summary:"):
-                entry["summary"] = s.removeprefix("summary:").strip().strip('"').strip("'")
+                entry["summary"] = s.removeprefix("summary:").strip().strip('"').strip("'").replace('\\"', '"')
             elif s.startswith("importance:"):
                 raw = s.removeprefix("importance:").strip().split("#")[0].strip()
                 try:
@@ -51,6 +51,10 @@ def rebuild_index():
                 cur = {}
             elif s.startswith("- ") and in_tags:
                 entry["tags"].append(s.removeprefix("- ").strip())
+            elif s.startswith("tags: [") or s.startswith('tags: ["'):
+                raw = s.removeprefix("tags:").strip().strip("[]")
+                entry["tags"] = [t.strip().strip('"').strip("'") for t in raw.split(",") if t.strip()]
+                in_tags = False
 
         ideas.append(entry)
 

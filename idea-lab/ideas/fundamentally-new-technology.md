@@ -11,7 +11,7 @@ tags:
 - standard-engineering
 - technology-evolution
 summary: "Standard engineering builds new technology through iterative updates on existing principles, so the principle remains identical to past technology while only sub-technology requirements change. In contrast, fundamentally new technology adopts a new principle to achieve an existing purpose, requiring the creation of a conceptual solution that links the requirement to phenomena. This solution is often discovered through appropriation from other domains, combining prior concepts, or sudden inspiration, and then materialized by recursively configuring sub-technologies. The recursive design method reflects the recursive nature of technology itself, and this inventive paradigm parallels the process of theory-building in science and mathematics."
-importance: 5.31  # auto
+importance: 6.34  # auto
 connections:
 - type: idea
   slug: standard-engineering-reconstruction
@@ -25,6 +25,36 @@ connections:
     slug: "cycle-of-technology"  # auto
   - type: idea
     slug: "the-gene-of-technology-phenomena"  # auto
+  - type: idea
+    slug: "technology-domains"  # auto
+  - type: idea
+    slug: "technology-in-the-singular-sense"  # auto
+  - type: idea
+    slug: "general-evolution-of-technology"  # auto
+  - type: idea
+    slug: "external-and-internal-view-of-technology"  # auto
+  - type: idea
+    slug: "technology"  # auto, review: 0.596
+  - type: idea
+    slug: "three-definitions-of-technology"  # auto, review: 0.587
+  - type: idea
+    slug: "math-competition-and-tech-innovation"  # auto, review: 0.585
+  - type: idea
+    slug: "classification-of-concepts"  # auto, review: 0.564
+  - type: idea
+    slug: "finding-examples"  # auto, review: 0.561
+  - type: idea
+    slug: "broad-and-narrow-technology"  # auto, review: 0.540
+  - type: idea
+    slug: "how-domains-evolve"  # auto, review: 0.528
+  - type: idea
+    slug: "evolution-of-phenomena"  # auto, review: 0.526
+  - type: idea
+    slug: "understanding-software-at-technical-level"  # auto, review: 0.523
+  - type: idea
+    slug: "where-innovation-comes-from"  # auto, review: 0.520
+  - type: idea
+    slug: "structural-understanding-in-daily-life"  # auto, review: 0.517
 ---
 Standard engineering understands new technology as iterative updates on existing technology, forming a "Darwinian" process.
 

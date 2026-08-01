@@ -3,7 +3,7 @@ id: "idea-20260606-sce01-p1"
 summary: "The central claim is that structure can emerge from data only"
 title: "Co-evolution - Problem 1: Data Granularity and Coverage"
 tags: [system-coevolution, data-model, meta-cognition, time-axis]
-importance: 2.66  # auto
+importance: 2.79  # auto
 connections:
   - type: idea
     slug: "system-coevolution"  # auto

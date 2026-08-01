@@ -9,7 +9,7 @@ tags:
   - pattern-discovery
   - teach-method
 summary: "The real advantage of AI learning is not a modest initial speedup but the massive increase in degrees of freedom—pace, sequence, depth, modality, interactivity—that enables active exploration. This exploration accelerates the accumulation of cross-domain learning experiences, providing dense comparison data that makes meta-level pattern discovery possible. Discoveries like the concept/practice split and two-axis model emerged only after enough tracks were completed, then fed back into the learning method as an ultimate efficiency multiplier. Over-structuring the teach method risks suppressing the exploration that generates this data, so fixes should be defaults rather than rigid rules."
-importance: 7.36  # auto
+importance: 7.62  # auto
 connections:
   - type: idea
     slug: knowledge-mastery-two-axis-model

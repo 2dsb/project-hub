@@ -1,6 +1,6 @@
 {
   "generated": "2026-08-01",
-  "total": 190,
+  "total": 191,
   "ideas": [
     {
       "id": "idea-20260302-60cabc",
@@ -11,7 +11,7 @@
         "action-guide",
         "life-imagination"
       ],
-      "importance": 1.49,
+      "importance": 1.5,
       "connections": [
         {
           "type": "project",
@@ -38,7 +38,7 @@
         "gains-from-trade",
         "specialization"
       ],
-      "importance": 2.36,
+      "importance": 2.34,
       "connections": [
         {
           "type": "idea",
@@ -63,7 +63,7 @@
       "id": "idea-20260711-ab01",
       "title": "Abstraction Barrier as the Bridge Between Program and Conceptual Layers",
       "tags": [],
-      "importance": 2.9,
+      "importance": 3.03,
       "connections": [
         {
           "type": "idea",
@@ -104,7 +104,7 @@
       "id": "idea-20260419-a3f7c2",
       "title": "After Sinopia Stops Buying Usonia's Treasury Bonds",
       "tags": [],
-      "importance": 1.78,
+      "importance": 1.86,
       "connections": [
         {
           "type": "idea",
@@ -117,7 +117,7 @@
       "id": "idea-20260620-ast01",
       "title": "AI Source Triage",
       "tags": [],
-      "importance": 2.04,
+      "importance": 2.12,
       "connections": [
         {
           "type": "idea",
@@ -142,7 +142,7 @@
       "id": "idea-20260608-at01",
       "title": "Applicability Conditions for Analogical Transfer",
       "tags": [],
-      "importance": 1.85,
+      "importance": 1.91,
       "connections": [
         {
           "type": "idea",
@@ -159,7 +159,7 @@
       "id": "idea-20260626-anki01",
       "title": "Anki Cards from English Conversations — Active Memory Maintenance",
       "tags": [],
-      "importance": 1.25,
+      "importance": 1.3,
       "connections": [
         {
           "type": "project",
@@ -180,7 +180,7 @@
       "id": "idea-20260626-attn01",
       "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
       "tags": [],
-      "importance": 3.99,
+      "importance": 4.14,
       "connections": [
         {
           "type": "idea",
@@ -221,7 +221,7 @@
       "id": "idea-20260711-ap01",
       "title": "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint",
       "tags": [],
-      "importance": 6.51,
+      "importance": 6.78,
       "connections": [
         {
           "type": "idea",
@@ -274,6 +274,14 @@
         {
           "type": "idea",
           "slug": "memorization-in-pipeline"
+        },
+        {
+          "type": "idea",
+          "slug": "data-structure-first-code-reading"
+        },
+        {
+          "type": "idea",
+          "slug": "human-machine-code-reading-gap"
         }
       ],
       "summary": "The attention-as-pointer model frames learning as reconstructing the global cohesion-coupling structure of a target system from sequential local samples under a memory decay constraint. Since the attention pointer can only occupy one location at a time, local views conceal inter-component relationships, and memory decays during traversal, connecting distant parts becomes difficult. Two-pass reading naturally addresses this by first building a rough map of the system's layout, then deep-diving with that context, avoiding the failure mode of premature deep dives. The model suggests that optimal reading order may not match linear presentation, and open questions include formalizing the sample complexity of reconstruction and whether reconnection docs serve as cached structural summaries."
@@ -289,7 +297,7 @@
         "M34",
         "design-review"
       ],
-      "importance": 4.14,
+      "importance": 5.27,
       "connections": [
         {
           "type": "idea",
@@ -326,6 +334,10 @@
         {
           "type": "idea",
           "slug": "standard-engineering"
+        },
+        {
+          "type": "idea",
+          "slug": "two-perspective-system-correctness"
         }
       ],
       "summary": "Spec-based review can only find discrepancies between implementation and spec; it is blind to gaps in the spec itself. The M34 recursive-planner audits failed to catch that template text was static and would never evolve, despite the system’s own co-evolution claim, because the audit criteria only verified that the spec’s explicit requirements were met. This structural blind spot creates a false sense of security as finding counts drop across rounds. To break through, audit methodology needs a Design Commitment Audit layer that checks whether publicly promised properties, like evolvability, are actually realized, supplemented by a Devil’s Advocate role asking naive questions and periodic commitment-reality comparisons driven by user inquiry."
@@ -359,7 +371,7 @@
       "id": "idea-20260623-ba01",
       "title": "Behavioral Activation Model: Low Scores Are Starting Conditions, Not Static Labels",
       "tags": [],
-      "importance": 3.07,
+      "importance": 3.18,
       "connections": [
         {
           "type": "skill",
@@ -406,7 +418,7 @@
         "meta-skill",
         "actionable"
       ],
-      "importance": 5.21,
+      "importance": 5.4,
       "connections": [
         {
           "type": "project",
@@ -469,7 +481,7 @@
         "behavioral-phenomena",
         "purposeful-system"
       ],
-      "importance": 1.19,
+      "importance": 3.16,
       "connections": [
         {
           "type": "project",
@@ -478,6 +490,50 @@
         {
           "type": "idea",
           "slug": "technology-in-the-singular-sense"
+        },
+        {
+          "type": "idea",
+          "slug": "three-definitions-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "cycle-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "external-and-internal-view-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "technology-domains"
+        },
+        {
+          "type": "idea",
+          "slug": "standard-engineering"
+        },
+        {
+          "type": "idea",
+          "slug": "finding-examples"
+        },
+        {
+          "type": "idea",
+          "slug": "fundamentally-new-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "reconceptualizing-standard-engineering"
+        },
+        {
+          "type": "idea",
+          "slug": "classification-of-concepts"
+        },
+        {
+          "type": "idea",
+          "slug": "the-gene-of-technology-phenomena"
+        },
+        {
+          "type": "idea",
+          "slug": "technology"
         }
       ],
       "summary": "Narrow technology is a system built upon physical phenomena to achieve a specific purpose. Broad technology, also termed a purposeful system, extends beyond the physical to include behavioral, institutional, and other phenomena layers. This distinction highlights that technology can be defined either narrowly, focusing on physical mechanisms, or broadly, encompassing a wider"
@@ -486,7 +542,7 @@
       "id": "idea-20260711-ct01",
       "title": "Call Tree as a Third Perspective on Program Execution",
       "tags": [],
-      "importance": 2.78,
+      "importance": 2.87,
       "connections": [
         {
           "type": "idea",
@@ -515,6 +571,10 @@
         {
           "type": "idea",
           "slug": "data-structure-first-code-reading"
+        },
+        {
+          "type": "idea",
+          "slug": "understanding-software-at-technical-level"
         }
       ],
       "summary": "A call tree captures the runtime invocation graph of function calls, showing which call triggers which and revealing branching structure distinct from the static def tree and dynamic but environment-focused frame tree. It makes explicit the directionality of computation flow—arguments flow down, return values flow up—complementing the Portal Model’s portal concept. Together, frame tree, def tree, and call tree potentially form a minimal complete set for program execution understanding, while the call tree itself serves as an intuitive teaching tool for recursion and highlights a dual perspective where conceptual reasoning compresses it and algorithmic execution fully expands it."
@@ -529,7 +589,7 @@
         "time-allocation",
         "exams"
       ],
-      "importance": 3.78,
+      "importance": 3.91,
       "connections": [
         {
           "type": "project",
@@ -586,7 +646,7 @@
         "higher-education",
         "undergraduate-experience"
       ],
-      "importance": 3.45,
+      "importance": 3.39,
       "connections": [
         {
           "type": "idea",
@@ -619,7 +679,7 @@
       "id": "idea-20260128-d91e4f",
       "title": "Characteristics of Our Era",
       "tags": [],
-      "importance": 2.09,
+      "importance": 1.82,
       "connections": [
         {
           "type": "idea",
@@ -656,7 +716,7 @@
       "id": "idea-20260606-cais01",
       "title": "WeChat Conversations as Idea Raw Material",
       "tags": [],
-      "importance": 1.77,
+      "importance": 1.85,
       "connections": [
         {
           "type": "idea",
@@ -701,7 +761,7 @@
         "verification",
         "knowledge-reconnection"
       ],
-      "importance": 3.24,
+      "importance": 3.4,
       "connections": [
         {
           "type": "idea",
@@ -750,7 +810,7 @@
         "economics",
         "microeconomics"
       ],
-      "importance": 2.1,
+      "importance": 2.14,
       "connections": [
         {
           "type": "project",
@@ -767,7 +827,7 @@
       "id": "idea-20260606-caup01",
       "title": "Clarity as a Universal Principle",
       "tags": [],
-      "importance": 4.01,
+      "importance": 4.15,
       "connections": [
         {
           "type": "idea",
@@ -828,7 +888,7 @@
       "id": "idea-20260512-c8e3a5",
       "title": "Class 9 Writing Advantage",
       "tags": [],
-      "importance": 0.51,
+      "importance": 0.52,
       "connections": [
         {
           "type": "project",
@@ -849,7 +909,7 @@
       "id": "idea-20260130-7845c2",
       "title": "The Classification of Concepts",
       "tags": [],
-      "importance": 5.52,
+      "importance": 6.34,
       "connections": [
         {
           "type": "idea",
@@ -914,6 +974,30 @@
         {
           "type": "idea",
           "slug": "reconceptualizing-standard-engineering"
+        },
+        {
+          "type": "idea",
+          "slug": "math-competition-and-tech-innovation"
+        },
+        {
+          "type": "idea",
+          "slug": "how-domains-evolve"
+        },
+        {
+          "type": "idea",
+          "slug": "broad-and-narrow-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "cycle-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "economic-evolution-driven-by-technological-evolution"
+        },
+        {
+          "type": "idea",
+          "slug": "economics"
         }
       ],
       "summary": "The note asks how the classification of concepts should be carried out abstractly, prompted by W. Brian Arthur's *The Nature of Technology*, which divides technology along a singular/plural/collective axis and also at a physical/behavioral level."
@@ -922,7 +1006,7 @@
       "id": "idea-20260711-cc01",
       "title": "Cohesion-Coupling Decomposition Heuristic — Migrated from Abstraction Barrier Concept",
       "tags": [],
-      "importance": 3.27,
+      "importance": 3.41,
       "connections": [
         {
           "type": "idea",
@@ -977,11 +1061,15 @@
         "monetary-policy",
         "foreign-exchange"
       ],
-      "importance": 3.19,
+      "importance": 3.34,
       "connections": [
         {
           "type": "idea",
           "slug": "inflation"
+        },
+        {
+          "type": "idea",
+          "slug": "impact-of-foreign-crises-on-the-us-and-quantitative-easing"
         }
       ],
       "summary": "When dollars in circulation surpassed gold reserves, foreign entities redeemed dollars for gold, triggering inflation; in response, the government closed the exchange window to foreigners, prohibiting gold conversion an event known as the Nixon shock, which ended the gold standard. The dollar's price plummeted internationally, determined solely by counterparty willingness, yet its status as the world's reserve currency remained unshaken."
@@ -996,7 +1084,7 @@
         "equilibrium",
         "supply-and-demand-theorem"
       ],
-      "importance": 5.72,
+      "importance": 6.9,
       "connections": [
         {
           "type": "idea",
@@ -1021,6 +1109,10 @@
         {
           "type": "idea",
           "slug": "market-efficiency"
+        },
+        {
+          "type": "idea",
+          "slug": "international-trade"
         }
       ],
       "summary": "In a perfectly competitive market, many buyers and sellers trade identical goods, and all participants are price takers with negligible market influence. The law of demand holds that quantity demanded falls as price rises, while the law of supply holds that quantity supplied rises with price. Market equilibrium occurs at the intersection of supply and demand curves, where the equilibrium price balances quantity supplied and demanded. Shifts in demand arise from changes in income (distinguishing normal and inferior goods), prices of substitutes or complements, tastes, expectations, and number of buyers. Shifts in supply arise from input prices, technology, expectations, and number of sellers. The law of supply and demand dictates that prices adjust spontaneously to eliminate surpluses or shortages."
@@ -1029,7 +1121,7 @@
       "id": "idea-20260512-a4d2f7",
       "title": "Completion vs. Quitting",
       "tags": [],
-      "importance": 2.97,
+      "importance": 3.09,
       "connections": [
         {
           "type": "idea",
@@ -1076,7 +1168,7 @@
         "conceptual-thinking",
         "methodology"
       ],
-      "importance": 3.78,
+      "importance": 3.89,
       "connections": [
         {
           "type": "idea",
@@ -1121,7 +1213,7 @@
       "id": "idea-20260731-cms",
       "title": "Contact Management Simplified: 4-Field Schema",
       "tags": [],
-      "importance": 2.3,
+      "importance": 2.4,
       "connections": [
         {
           "type": "idea",
@@ -1143,7 +1235,7 @@
         "relationships",
         "personal-data"
       ],
-      "importance": 1.84,
+      "importance": 1.92,
       "connections": [
         {
           "type": "project",
@@ -1152,6 +1244,10 @@
         {
           "type": "idea",
           "slug": "contact-management-simplified-schema"
+        },
+        {
+          "type": "idea",
+          "slug": "conversation-as-data-source"
         }
       ],
       "summary": "A systematic contact management system is needed to record people’s details, proactively maintain relationships by “catering to their interests”—remembering what they care about—and unlock latent network value. The two-way information asymmetry makes resources invisible, so the system tracks interest points and triggers contact when relevant content, events, or follow-ups arise. Monetizing the network involves demand matching, information arbitrage, and skill resource pooling. This could become a personal skill with a contact entity data layer and AI-driven reminders for interest-based outreach."
@@ -1164,7 +1260,7 @@
         "framework-design",
         "knowledge-reconnection"
       ],
-      "importance": 5.41,
+      "importance": 5.47,
       "connections": [
         {
           "type": "idea",
@@ -1235,7 +1331,7 @@
         "conversation",
         "M34"
       ],
-      "importance": 4.42,
+      "importance": 4.64,
       "connections": [
         {
           "type": "idea",
@@ -1272,7 +1368,7 @@
       "id": "idea-20260512-e2f8d3",
       "title": "Conversation Breadth vs Depth",
       "tags": [],
-      "importance": 1.57,
+      "importance": 1.63,
       "connections": [
         {
           "type": "project",
@@ -1297,7 +1393,7 @@
       "id": "idea-20260626-cflow01",
       "title": "How Conversation Topics Flow — Finding the Structure",
       "tags": [],
-      "importance": 2.96,
+      "importance": 3.09,
       "connections": [
         {
           "type": "idea",
@@ -1329,7 +1425,7 @@
         "agents",
         "patterns"
       ],
-      "importance": 4.04,
+      "importance": 3.54,
       "connections": [
         {
           "type": "idea",
@@ -1397,7 +1493,7 @@
         "knowledge-sharing",
         "collaboration"
       ],
-      "importance": 0.83,
+      "importance": 0.86,
       "connections": [
         {
           "type": "idea",
@@ -1428,7 +1524,7 @@
         "reverse-causality",
         "omitted-variables"
       ],
-      "importance": 3.35,
+      "importance": 3.51,
       "connections": [
         {
           "type": "idea",
@@ -1459,7 +1555,7 @@
         "path-dependence",
         "paradigm-shift"
       ],
-      "importance": 6.79,
+      "importance": 6.52,
       "connections": [
         {
           "type": "idea",
@@ -1528,6 +1624,34 @@
         {
           "type": "idea",
           "slug": "methodology-change-timing"
+        },
+        {
+          "type": "idea",
+          "slug": "impact-of-domains-on-economy"
+        },
+        {
+          "type": "idea",
+          "slug": "efficiency-formula"
+        },
+        {
+          "type": "idea",
+          "slug": "finding-examples"
+        },
+        {
+          "type": "idea",
+          "slug": "our-attitude-toward-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "structural-understanding-in-daily-life"
+        },
+        {
+          "type": "idea",
+          "slug": "classification-of-concepts"
+        },
+        {
+          "type": "idea",
+          "slug": "where-innovation-comes-from"
         }
       ],
       "summary": "The technology cycle describes how a fundamentally new principle emerges from demand in an immature, cobbled-together form, then rapidly spawns derivative technologies as different actors pursue varied purposes. Internal drivers like performance strengthening and safety enhancement propel development, but the technology eventually hits limitations from its own phenomena or external functionality, which are addressed through internal replacement of sub-technologies or structural deepening that adds supporting sub-layers. At maturity, performance cannot be improved further, yet lock-in occurs because the refined old technology outperforms crude new alternatives, marginal transition costs are high, and practitioners resist unfamiliar principles, causing adaptive extension where old methods are stretched to meet new demands. Ultimately, when adaptive extension fails, a newer principle gains a foothold and restarts the cycle, a pattern reflected in military systems as encrustation and in scientific theories as a similar periodic structure."
@@ -1536,7 +1660,7 @@
       "id": "idea-20260609-dp01",
       "title": "daily→ideas Pipeline Broken: Daily Ideas Not Auto-Extracted",
       "tags": [],
-      "importance": 3.31,
+      "importance": 3.48,
       "connections": [
         {
           "type": "idea",
@@ -1569,7 +1693,7 @@
       "id": "idea-20260626-dpp01",
       "title": "Data → Pattern → Prediction Chain",
       "tags": [],
-      "importance": 2.54,
+      "importance": 2.64,
       "connections": [
         {
           "type": "idea",
@@ -1604,7 +1728,7 @@
         "mental-model",
         "comprehension"
       ],
-      "importance": 4.04,
+      "importance": 4.2,
       "connections": [
         {
           "type": "idea",
@@ -1657,7 +1781,7 @@
         "market-distortion",
         "incentives"
       ],
-      "importance": 1.15,
+      "importance": 1.17,
       "connections": [
         {
           "type": "idea",
@@ -1687,7 +1811,7 @@
         "system-architecture",
         "meta-cognition"
       ],
-      "importance": 2.31,
+      "importance": 2.39,
       "connections": [
         {
           "type": "idea",
@@ -1718,7 +1842,7 @@
         "energy-management",
         "recovery"
       ],
-      "importance": 1.55,
+      "importance": 1.61,
       "connections": [
         {
           "type": "idea",
@@ -1727,6 +1851,10 @@
         {
           "type": "idea",
           "slug": "willingness-experiment"
+        },
+        {
+          "type": "idea",
+          "slug": "behavioral-activation-model"
         }
       ],
       "summary": "Intense deep-work bursts deplete physical reserves such as sleep and exercise, forcing mandatory recovery periods — a three-day gap after an intense session was not avoidance but necessary physical recovery. This insight led to incorporating Physical Capacity (P) as a global constraint on project dynamics, alongside the A⇄B oscillator that models work/leisure alternation and asymmetric drains like rhinitis. The full integrated framework now lives in the timeline-based project structure."
@@ -1739,7 +1867,7 @@
         "domain-theory",
         "cognitive-methods"
       ],
-      "importance": 1.58,
+      "importance": 1.61,
       "connections": [
         {
           "type": "project",
@@ -1764,7 +1892,7 @@
       "id": "idea-20260319-f7d2a9",
       "title": "Economic Evolution Driven by Technological Evolution",
       "tags": [],
-      "importance": 3.42,
+      "importance": 4.25,
       "connections": [
         {
           "type": "idea",
@@ -1789,6 +1917,54 @@
         {
           "type": "idea",
           "slug": "economics"
+        },
+        {
+          "type": "idea",
+          "slug": "impact-of-domains-on-economy"
+        },
+        {
+          "type": "idea",
+          "slug": "external-and-internal-view-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "how-domains-evolve"
+        },
+        {
+          "type": "idea",
+          "slug": "our-attitude-toward-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "cycle-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "technology"
+        },
+        {
+          "type": "idea",
+          "slug": "reconceptualizing-standard-engineering"
+        },
+        {
+          "type": "idea",
+          "slug": "characteristics-of-our-era"
+        },
+        {
+          "type": "idea",
+          "slug": "finding-examples"
+        },
+        {
+          "type": "idea",
+          "slug": "the-gene-of-technology-phenomena"
+        },
+        {
+          "type": "idea",
+          "slug": "classification-of-concepts"
+        },
+        {
+          "type": "idea",
+          "slug": "core-capability-supporting-infrastructure-pattern"
         }
       ],
       "summary": "The economy is constructed by technology, comprising a technological part—the arrangement of goods and services as a purposive system—and a non-technological part that forms around it. New technology enters, replacing old technology, which destroys existing opportunity niches and triggers chain reactions, while simultaneously providing new elements that prompt the emergence of fresh organizational institutions and establishing further opportunity niches by generating technological, economic, and social problems demanding solutions. Economic evolution proceeds through a “problem-and-solution, challenge-and-response” pattern, shaped by invariants such as human behavioral preferences and supply-demand equilibrium."
@@ -1801,7 +1977,7 @@
         "analytical-tools",
         "perspective"
       ],
-      "importance": 3.35,
+      "importance": 3.51,
       "connections": [
         {
           "type": "project",
@@ -1824,7 +2000,7 @@
         "theory-testing",
         "economic-methodology"
       ],
-      "importance": 5.31,
+      "importance": 5.36,
       "connections": [
         {
           "type": "permanent",
@@ -1865,7 +2041,7 @@
         "purposeful-system",
         "technology-evolution"
       ],
-      "importance": 1.51,
+      "importance": 2.61,
       "connections": [
         {
           "type": "permanent",
@@ -1878,6 +2054,42 @@
         {
           "type": "idea",
           "slug": "economic-evolution-driven-by-technological-evolution"
+        },
+        {
+          "type": "idea",
+          "slug": "general-evolution-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "finding-examples"
+        },
+        {
+          "type": "idea",
+          "slug": "new-technology-replacing-old"
+        },
+        {
+          "type": "idea",
+          "slug": "the-gene-of-technology-phenomena"
+        },
+        {
+          "type": "idea",
+          "slug": "technology"
+        },
+        {
+          "type": "idea",
+          "slug": "three-definitions-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "external-and-internal-view-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "our-attitude-toward-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "classification-of-concepts"
         }
       ],
       "summary": "The note questions whether the evolution of the economy, considered as a purposeful system, can be described using the framework of technology evolution in the general sense, as referenced in the note \"36 一般意义上技术的演化\"."
@@ -1892,7 +2104,7 @@
         "values",
         "consensus-and-disagreement"
       ],
-      "importance": 2.14,
+      "importance": 2.17,
       "connections": [
         {
           "type": "project",
@@ -1901,6 +2113,10 @@
         {
           "type": "idea",
           "slug": "the-ten-principles-of-economics"
+        },
+        {
+          "type": "idea",
+          "slug": "supply-demand-and-government-policy"
         }
       ],
       "summary": "Economists acting as policy advisors differ from scientists because they aim to improve society rather than just describe it, using both positive statements (descriptive claims verifiable by evidence, like \"minimum wage laws cause unemployment\") and normative statements (prescriptive claims incorporating values, like \"the government should raise the minimum wage\"). Disagreement among policy-advisor economists often stems from differing values, such as views on taxation. Nevertheless, they achieve consensus on many positive relationships, for example, the shared belief that rent control adversely affects housing availability and quality."
@@ -1914,7 +2130,7 @@
         "methodology",
         "system-design"
       ],
-      "importance": 5.91,
+      "importance": 6.04,
       "connections": [
         {
           "type": "project",
@@ -1999,7 +2215,7 @@
         "cognitive-bias",
         "growth-mindset"
       ],
-      "importance": 2.23,
+      "importance": 2.28,
       "connections": [
         {
           "type": "permanent",
@@ -2061,7 +2277,7 @@
         "microeconomics",
         "price-elasticity"
       ],
-      "importance": 3.29,
+      "importance": 3.31,
       "connections": [
         {
           "type": "project",
@@ -2086,7 +2302,7 @@
       "id": "idea-20260411-b7e3f1",
       "title": "The Elements of the Economy",
       "tags": [],
-      "importance": 3.28,
+      "importance": 3.34,
       "connections": [
         {
           "type": "idea",
@@ -2107,7 +2323,7 @@
       "id": "idea-20260627-ezone01",
       "title": "English Comfort Zone Vocabulary — Settling Into Familiar Expressions",
       "tags": [],
-      "importance": 1.21,
+      "importance": 1.26,
       "connections": [
         {
           "type": "project",
@@ -2138,7 +2354,7 @@
         "conceptual-compression",
         "code-reading"
       ],
-      "importance": 3.33,
+      "importance": 3.47,
       "connections": [
         {
           "type": "project",
@@ -2175,6 +2391,10 @@
         {
           "type": "idea",
           "slug": "data-structure-first-code-reading"
+        },
+        {
+          "type": "idea",
+          "slug": "object-attribute-migration"
         }
       ],
       "summary": "The note proposes a dual-perspective modeling framework for Environment Diagrams: a real pattern state-machine model where programs are paths through environment snapshots from the interpreter's perspective, and a comprehension view where code reading treats function bodies as frames and `return` as a portal for mental tracing, avoiding graphical diagrams. This reveals a deeper gap between human conceptual compression (e.g., reading `make_adder(3)` as a single semantic chunk) and machine algorithmic stepwise execution, mapping onto DL Chapter 5’s layers. The Portal Model captures the algorithmic half, but the conceptual half—how humans compress execution into meaning—remains unmodeled."
@@ -2189,7 +2409,7 @@
         "technology-and-equipment",
         "scientific-discovery"
       ],
-      "importance": 0.92,
+      "importance": 1.11,
       "connections": [
         {
           "type": "idea",
@@ -2206,6 +2426,10 @@
         {
           "type": "idea",
           "slug": "the-gene-of-technology-phenomena"
+        },
+        {
+          "type": "idea",
+          "slug": "fundamentally-new-technology"
         }
       ],
       "summary": "Phenomena are discovered through \"phenomenon capture,\" where scientists identify anomalies by revisiting experiments, noticing clues in theoretical derivation, or through trial and error. Discovered phenomena cluster into functional groups called phenomenon families, and finding one phenomenon makes others in the same family easier to discover. These phenomena are then domesticated into technology, which produces equipment that enables the discovery of yet more phenomena, forming a self-reinforcing cycle."
@@ -2218,7 +2442,7 @@
         "curriculum-design",
         "text-analysis"
       ],
-      "importance": 0.46,
+      "importance": 0.48,
       "connections": [
         {
           "type": "project",
@@ -2244,7 +2468,7 @@
         "modularity",
         "combinatorial-thinking"
       ],
-      "importance": 6.54,
+      "importance": 6.86,
       "connections": [
         {
           "type": "project",
@@ -2309,6 +2533,46 @@
         {
           "type": "idea",
           "slug": "impact-of-domains-on-economy"
+        },
+        {
+          "type": "idea",
+          "slug": "finding-examples"
+        },
+        {
+          "type": "idea",
+          "slug": "where-innovation-comes-from"
+        },
+        {
+          "type": "idea",
+          "slug": "broad-and-narrow-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "how-domains-evolve"
+        },
+        {
+          "type": "idea",
+          "slug": "math-competition-and-tech-innovation"
+        },
+        {
+          "type": "idea",
+          "slug": "core-capability-supporting-infrastructure-pattern"
+        },
+        {
+          "type": "idea",
+          "slug": "economics"
+        },
+        {
+          "type": "idea",
+          "slug": "technology-domains"
+        },
+        {
+          "type": "idea",
+          "slug": "characteristics-of-our-era"
+        },
+        {
+          "type": "idea",
+          "slug": "understanding-software-at-technical-level"
         }
       ],
       "summary": "The external view of technology considers its overall effects and interactions—like how short-form video impacts attention spans—without examining internal workings. The internal view asks what technology is and how it evolves, seeing new technologies as assembled from prior ones, forming a combinatorial process. Modern technology is shifting from fixed, standalone industrial processes to modular, recombinable elements, akin to an open language or chemistry, where components like GPS or algorithms can be endlessly combined for new purposes. This shift reflects a transformation from producing fixed physical products to endlessly configurable economic structures."
@@ -2328,7 +2592,7 @@
         "public-policy",
         "pigovian-tax"
       ],
-      "importance": 3.29,
+      "importance": 3.27,
       "connections": [
         {
           "type": "project",
@@ -2364,7 +2628,7 @@
         "academic-incentives",
         "contingent-faculty"
       ],
-      "importance": 1.09,
+      "importance": 1.12,
       "connections": [
         {
           "type": "permanent",
@@ -2393,7 +2657,7 @@
       "id": "idea-20260130-189e3e",
       "title": "Finding Examples",
       "tags": [],
-      "importance": 5.33,
+      "importance": 5.69,
       "connections": [
         {
           "type": "idea",
@@ -2454,6 +2718,30 @@
         {
           "type": "idea",
           "slug": "technology-domains"
+        },
+        {
+          "type": "idea",
+          "slug": "economic-evolution-driven-by-technological-evolution"
+        },
+        {
+          "type": "idea",
+          "slug": "math-competition-and-tech-innovation"
+        },
+        {
+          "type": "idea",
+          "slug": "general-evolution-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "standard-engineering"
+        },
+        {
+          "type": "idea",
+          "slug": "new-technology-replacing-old"
+        },
+        {
+          "type": "idea",
+          "slug": "characteristics-of-our-era"
         }
       ],
       "summary": "The note claims that technology's singular level is structured as central principles, primary integrations, and secondary integrations, and it demands a proof of this composition."
@@ -2468,7 +2756,7 @@
         "backward-reasoning",
         "cross-domain"
       ],
-      "importance": 1.26,
+      "importance": 1.25,
       "connections": [
         {
           "type": "project",
@@ -2493,7 +2781,7 @@
       "id": "idea-20260608-fb01",
       "title": "Flow-Based Thinking Framework",
       "tags": [],
-      "importance": 8.82,
+      "importance": 9.13,
       "connections": [
         {
           "type": "idea",
@@ -2561,7 +2849,7 @@
         "methodology",
         "framework"
       ],
-      "importance": 4.44,
+      "importance": 4.68,
       "connections": [
         {
           "type": "idea",
@@ -2614,7 +2902,7 @@
       "id": "idea-20260731-nm4s",
       "title": "The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up",
       "tags": [],
-      "importance": 3.9,
+      "importance": 4.04,
       "connections": [
         {
           "type": "idea",
@@ -2636,7 +2924,7 @@
         "pattern-extraction",
         "framework-design"
       ],
-      "importance": 5.7,
+      "importance": 5.87,
       "connections": [
         {
           "type": "idea",
@@ -2706,7 +2994,7 @@
         "structure-analysis",
         "research-method"
       ],
-      "importance": 4.09,
+      "importance": 4.53,
       "connections": [
         {
           "type": "project",
@@ -2739,6 +3027,22 @@
         {
           "type": "idea",
           "slug": "content-independent-framework"
+        },
+        {
+          "type": "idea",
+          "slug": "connection-reading"
+        },
+        {
+          "type": "idea",
+          "slug": "three-layer-framework"
+        },
+        {
+          "type": "idea",
+          "slug": "reconnection-doc-method"
+        },
+        {
+          "type": "idea",
+          "slug": "system-coevolution-p2-interpretability"
         }
       ],
       "summary": "A framework claiming universality collapsed because it was built from only five argumentative paragraphs, elevating topic→elaboration prematurely. The core principle is to accumulate data first, let patterns cluster naturally, then build frameworks rather than hunting for confirming examples after defining a taxonomy. Analysts should annotate conceptual constraints sentence by sentence using the stable 24 types and describe organizational patterns in natural language without terminologizing or imposing existing categories. Clustering should occur only after at least three chapters of analysis, and framework files like text-structure-types.md and structure-constraint-mapping.md must be frozen until that threshold, with current content archived as observation notes. Goal ambiguity is acceptable during data accumulation; the correct sequence is expanded analytical coverage, then natural clustering, then framework formation, learned from the v1→v2 refactoring where a single counterexample shattered a small-sample claim."
@@ -2754,7 +3058,7 @@
         "pattern-discovery",
         "teach-method"
       ],
-      "importance": 7.36,
+      "importance": 7.62,
       "connections": [
         {
           "type": "idea",
@@ -2844,7 +3148,7 @@
         "standard-engineering",
         "technology-evolution"
       ],
-      "importance": 5.31,
+      "importance": 6.34,
       "connections": [
         {
           "type": "idea",
@@ -2869,6 +3173,66 @@
         {
           "type": "idea",
           "slug": "the-gene-of-technology-phenomena"
+        },
+        {
+          "type": "idea",
+          "slug": "technology-domains"
+        },
+        {
+          "type": "idea",
+          "slug": "technology-in-the-singular-sense"
+        },
+        {
+          "type": "idea",
+          "slug": "general-evolution-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "external-and-internal-view-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "technology"
+        },
+        {
+          "type": "idea",
+          "slug": "three-definitions-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "math-competition-and-tech-innovation"
+        },
+        {
+          "type": "idea",
+          "slug": "classification-of-concepts"
+        },
+        {
+          "type": "idea",
+          "slug": "finding-examples"
+        },
+        {
+          "type": "idea",
+          "slug": "broad-and-narrow-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "how-domains-evolve"
+        },
+        {
+          "type": "idea",
+          "slug": "evolution-of-phenomena"
+        },
+        {
+          "type": "idea",
+          "slug": "understanding-software-at-technical-level"
+        },
+        {
+          "type": "idea",
+          "slug": "where-innovation-comes-from"
+        },
+        {
+          "type": "idea",
+          "slug": "structural-understanding-in-daily-life"
         }
       ],
       "summary": "Standard engineering builds new technology through iterative updates on existing principles, so the principle remains identical to past technology while only sub-technology requirements change. In contrast, fundamentally new technology adopts a new principle to achieve an existing purpose, requiring the creation of a conceptual solution that links the requirement to phenomena. This solution is often discovered through appropriation from other domains, combining prior concepts, or sudden inspiration, and then materialized by recursively configuring sub-technologies. The recursive design method reflects the recursive nature of technology itself, and this inventive paradigm parallels the process of theory-building in science and mathematics."
@@ -2896,7 +3260,7 @@
         "creative-destruction",
         "biological-evolution-comparison"
       ],
-      "importance": 5.28,
+      "importance": 5.03,
       "connections": [
         {
           "type": "idea",
@@ -2965,6 +3329,18 @@
         {
           "type": "idea",
           "slug": "classification-of-concepts"
+        },
+        {
+          "type": "idea",
+          "slug": "technology-domains"
+        },
+        {
+          "type": "idea",
+          "slug": "core-capability-supporting-infrastructure-pattern"
+        },
+        {
+          "type": "idea",
+          "slug": "finding-examples"
         }
       ],
       "summary": "Technology evolves as a self-organizing network, akin to a coral reef organism, where active technologies combine under opportunity niches—demand triggers arising from human needs and the technology network’s own requirements for supporting assemblies and problem solving. Each new technology becomes a node, replaces older components, shifts them to dead nodes, and cascadingly destroys the replaced technology’s demand, subordinate niches, and affiliated technologies. Simultaneously, it creates fresh opportunity niches, spawning trends. Unlike biological evolution’s mutation, technology’s fundamental mode is combination, driving a network of active and dead elements in perpetual creative destruction."
@@ -2973,7 +3349,7 @@
       "id": "idea-20260621-gs01",
       "title": "Goal Singularity",
       "tags": [],
-      "importance": 3.15,
+      "importance": 3.27,
       "connections": [
         {
           "type": "idea",
@@ -3014,7 +3390,7 @@
       "id": "idea-20260419-a3f7c2",
       "title": "Government Economic Rescue Measures",
       "tags": [],
-      "importance": 3.6,
+      "importance": 3.76,
       "connections": [
         {
           "type": "idea",
@@ -3094,7 +3470,7 @@
         "innovation-cycles",
         "technology-maturation"
       ],
-      "importance": 1.85,
+      "importance": 3.41,
       "connections": [
         {
           "type": "idea",
@@ -3107,6 +3483,50 @@
         {
           "type": "idea",
           "slug": "technology-domains"
+        },
+        {
+          "type": "idea",
+          "slug": "impact-of-domains-on-economy"
+        },
+        {
+          "type": "idea",
+          "slug": "general-evolution-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "economic-evolution-driven-by-technological-evolution"
+        },
+        {
+          "type": "idea",
+          "slug": "cycle-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "core-capability-supporting-infrastructure-pattern"
+        },
+        {
+          "type": "idea",
+          "slug": "new-technology-replacing-old"
+        },
+        {
+          "type": "idea",
+          "slug": "external-and-internal-view-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "reconceptualizing-standard-engineering"
+        },
+        {
+          "type": "idea",
+          "slug": "fundamentally-new-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "classification-of-concepts"
+        },
+        {
+          "type": "idea",
+          "slug": "technology-in-the-singular-sense"
         }
       ],
       "summary": "Domains form by coalescing around a core technology or a constructed family of phenomena, initially existing as a loosely structured toolbox that gradually accumulates experiential intuition, sometimes mixing with the parent domain to create a hybrid domain. Adolescence is marked by the emergence of viable technology—capable of major commercial application—triggering small enterprise formation, technological improvements, and investment bubbles. Maturity brings market calm and the consolidation of small enterprises into large corporations that profoundly influence the economy. Old age sees few new technologies, with most domains persisting as internalized parts of daily life. The cycle can break through variation caused by fundamental changes in key technologies or application shifts, or by throwing off secondary domains like the internet from computing and communication."
@@ -3115,7 +3535,7 @@
       "id": "idea-20260515-000001",
       "title": "Dealing with Complexity",
       "tags": [],
-      "importance": 3.32,
+      "importance": 3.42,
       "connections": [
         {
           "type": "project",
@@ -3195,7 +3615,7 @@
         "reasoning-fallacies",
         "writing-for-clarity"
       ],
-      "importance": 1.18,
+      "importance": 1.22,
       "connections": [
         {
           "type": "permanent",
@@ -3240,7 +3660,7 @@
         "mental-model",
         "semantics"
       ],
-      "importance": 2.88,
+      "importance": 3.0,
       "connections": [
         {
           "type": "idea",
@@ -3285,7 +3705,7 @@
         "human-ai-collaboration",
         "knowledge-reconnection"
       ],
-      "importance": 2.75,
+      "importance": 2.84,
       "connections": [
         {
           "type": "idea",
@@ -3328,7 +3748,7 @@
         "reframing",
         "values"
       ],
-      "importance": 2.03,
+      "importance": 2.1,
       "connections": [
         {
           "type": "project",
@@ -3371,7 +3791,7 @@
         "technological-frontier",
         "geography-of-innovation"
       ],
-      "importance": 2.15,
+      "importance": 2.6,
       "connections": [
         {
           "type": "idea",
@@ -3392,6 +3812,30 @@
         {
           "type": "idea",
           "slug": "economic-evolution-driven-by-technological-evolution"
+        },
+        {
+          "type": "idea",
+          "slug": "external-and-internal-view-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "new-technology-replacing-old"
+        },
+        {
+          "type": "idea",
+          "slug": "general-evolution-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "our-attitude-toward-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "cycle-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "technology"
         }
       ],
       "summary": "Technology bodies encounter industries not through simple adoption but through mutual co-creation, a process of re-domaining that yields disruptive change and secondary industries. This restructuring of economic arrangements takes decades, measured not as lag but as relational time involving both fast-time design and slow-time era-shaping. Geographic concentration of technological frontiers persists because leading-edge knowledge depends on esoteric craftsmanship—a shared, ineffable culture of knowing what works, which principles to trust, what to ignore, and how to manipulate poorly understood phenomena, reinforced by trade secrets that attract further success."
@@ -3400,7 +3844,7 @@
       "id": "idea-20260419-a3f7b2",
       "title": "Impact of Foreign Crises on the US and Quantitative Easing",
       "tags": [],
-      "importance": 4.99,
+      "importance": 5.23,
       "connections": [
         {
           "type": "idea",
@@ -3421,7 +3865,7 @@
       "id": "idea-20260626-impl01",
       "title": "Implicit Improvement — Getting Better Without Knowing How",
       "tags": [],
-      "importance": 5.04,
+      "importance": 5.23,
       "connections": [
         {
           "type": "idea",
@@ -3474,11 +3918,15 @@
       "id": "idea-20260419-a3f7b2",
       "title": "Inflation",
       "tags": [],
-      "importance": 3.19,
+      "importance": 3.34,
       "connections": [
         {
           "type": "idea",
           "slug": "collapse-of-the-gold-standard"
+        },
+        {
+          "type": "idea",
+          "slug": "impact-of-foreign-crises-on-the-us-and-quantitative-easing"
         }
       ],
       "summary": "The government established an artificial exchange ratio between intrinsically valueless US dollars and gold, initially ensuring all issued currency could redeem the gold reserves. Over time, the money supply was increased until outstanding dollars exceeded the gold available, and the dollar-to-gold ratio was adjusted to shrink each dollar's gold redemption. This reduced the real value of a dollar, leading to rising prices, declining consumer confidence, and diminished consumer savings."
@@ -3493,7 +3941,7 @@
         "llm",
         "abstraction"
       ],
-      "importance": 0.93,
+      "importance": 0.97,
       "connections": [
         {
           "type": "idea",
@@ -3516,7 +3964,7 @@
         "methodology",
         "inquiry"
       ],
-      "importance": 5.38,
+      "importance": 5.54,
       "connections": [
         {
           "type": "idea",
@@ -3609,7 +4057,7 @@
       "id": "idea-20260606-ifl01",
       "title": "Integrating Fragmented Life Strategies",
       "tags": [],
-      "importance": 3.8,
+      "importance": 3.92,
       "connections": [
         {
           "type": "idea",
@@ -3659,7 +4107,7 @@
         "attention-filter",
         "meta-model"
       ],
-      "importance": 6.12,
+      "importance": 6.35,
       "connections": [
         {
           "type": "idea",
@@ -3714,7 +4162,7 @@
         "relationism",
         "heuristic"
       ],
-      "importance": 1.87,
+      "importance": 1.94,
       "connections": [
         {
           "type": "idea",
@@ -3749,7 +4197,7 @@
         "protectionism",
         "trade-policy"
       ],
-      "importance": 4.83,
+      "importance": 5.89,
       "connections": [
         {
           "type": "project",
@@ -3758,6 +4206,22 @@
         {
           "type": "idea",
           "slug": "absolute-advantage-and-comparative-advantage"
+        },
+        {
+          "type": "idea",
+          "slug": "the-ten-principles-of-economics"
+        },
+        {
+          "type": "idea",
+          "slug": "externalities"
+        },
+        {
+          "type": "idea",
+          "slug": "sino-us-trade"
+        },
+        {
+          "type": "idea",
+          "slug": "competitive-markets"
         }
       ],
       "summary": "When a small economy opens to trade, it becomes an exporter if its domestic price is below the world price and an importer if above, reflecting comparative advantage. Trade increases total surplus even though producers gain and consumers lose when exporting, and the reverse when importing. A tariff on imports raises the domestic price toward the no-trade equilibrium, reducing imports, benefiting domestic sellers, harming buyers, and creating deadweight loss. Additional benefits of trade include greater variety, economies of scale, increased competition, and the exchange of ideas. Protectionist arguments cite job destruction, national security, infant industries, unfair competition, and bargaining chips."
@@ -3775,7 +4239,7 @@
         "humanities",
         "critical-thinking"
       ],
-      "importance": 4.57,
+      "importance": 4.62,
       "connections": [
         {
           "type": "project",
@@ -3820,7 +4284,7 @@
       "id": "idea-20260713-kp01",
       "title": "Knowledge as a Dictionary of Perspectives — Each Knowledge Point Is a Multi-Dimensional Embedding",
       "tags": [],
-      "importance": 6.53,
+      "importance": 6.8,
       "connections": [
         {
           "type": "idea",
@@ -3884,7 +4348,7 @@
         "teach-method",
         "interaction-as-dictionary"
       ],
-      "importance": 3.98,
+      "importance": 4.11,
       "connections": [
         {
           "type": "idea",
@@ -3901,6 +4365,26 @@
         {
           "type": "idea",
           "slug": "learning-dynamics"
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-and-thinking-at-university"
+        },
+        {
+          "type": "idea",
+          "slug": "teach-method-fixes"
+        },
+        {
+          "type": "idea",
+          "slug": "freedom-exploration-generator"
+        },
+        {
+          "type": "idea",
+          "slug": "transfer-high-leverage"
+        },
+        {
+          "type": "idea",
+          "slug": "practice-as-learning-purpose"
         }
       ],
       "summary": "Knowledge mastery has two axes—concept (horizontal interaction density) and practice ("
@@ -3914,7 +4398,7 @@
         "recovery",
         "productivity"
       ],
-      "importance": 5.24,
+      "importance": 5.44,
       "connections": [
         {
           "type": "project",
@@ -3955,7 +4439,7 @@
       "id": "idea-20260608-kf01",
       "title": "The Fidelity Problem in Knowledge Transfer",
       "tags": [],
-      "importance": 3.3,
+      "importance": 3.42,
       "connections": [
         {
           "type": "project",
@@ -3976,6 +4460,14 @@
         {
           "type": "idea",
           "slug": "transfer-high-leverage"
+        },
+        {
+          "type": "idea",
+          "slug": "implicit-improvement-pattern"
+        },
+        {
+          "type": "idea",
+          "slug": "learning-dynamics"
         }
       ],
       "summary": "Language cannot build experiential understanding from scratch because description functions only as an incremental patch onto existing anchoring experiences, not as a new construction. Without a shared implicit base—like the feel of school routines or workplace norms—the patch fails to apply. While school’s transparent rules allow some explicit transfer, a company’s massive implicit rules make knowledge transfer nearly impossible, so language has a fidelity ceiling that limits it to updating existing frameworks rather than creating new ones from nothing"
@@ -3990,7 +4482,7 @@
         "optimization",
         "actionable"
       ],
-      "importance": 5.3,
+      "importance": 5.5,
       "connections": [
         {
           "type": "idea",
@@ -4051,7 +4543,7 @@
       "id": "idea-20260621-lp01",
       "title": "Learning Pipeline",
       "tags": [],
-      "importance": 7.76,
+      "importance": 8.06,
       "connections": [
         {
           "type": "idea",
@@ -4104,6 +4596,26 @@
         {
           "type": "idea",
           "slug": "memorization-in-pipeline"
+        },
+        {
+          "type": "idea",
+          "slug": "freedom-exploration-generator"
+        },
+        {
+          "type": "idea",
+          "slug": "transfer-high-leverage"
+        },
+        {
+          "type": "idea",
+          "slug": "learning-dynamics"
+        },
+        {
+          "type": "idea",
+          "slug": "teach-method-fixes"
+        },
+        {
+          "type": "idea",
+          "slug": "implicit-improvement-pattern"
         }
       ],
       "summary": "The learning pipeline from flow-based thinking structures learning as Source→Router→Sink: finding quality sources, pre-judging value with AI source triage or peer cross-teaching, triaging reading blockers by severity (L1 skip, L2 batch later, L3 pause for prerequisites), and outputting understanding via analogy, translation, or a knowledge-reconnection document for future-self fast decode. A real-world run on MIT 6.S184 revealed L3 blockers have an internal severity spectrum (L3-mild vs. L3-severe) and that filling prerequisites can trigger a recursive spiral, requiring a boundary of only filling one layer with just-in-time AI support if needed."
@@ -4118,7 +4630,7 @@
         "skill-design",
         "efficiency"
       ],
-      "importance": 4.87,
+      "importance": 4.91,
       "connections": [
         {
           "type": "idea",
@@ -4180,7 +4692,7 @@
         "science-vs-art",
         "personal-growth"
       ],
-      "importance": 5.21,
+      "importance": 5.17,
       "connections": [
         {
           "type": "permanent",
@@ -4213,6 +4725,18 @@
         {
           "type": "idea",
           "slug": "liberal-education-and-the-zettelkasten"
+        },
+        {
+          "type": "idea",
+          "slug": "return-of-college"
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-and-thinking-at-university"
+        },
+        {
+          "type": "idea",
+          "slug": "thinking-and-literature"
         }
       ],
       "summary": "Liberal arts education investigates the process of knowledge production itself, spanning natural sciences and humanities, and ultimately aims to cultivate an ability to think beyond spatial and temporal constraints for both public good and a healthy, creative self. Art leads to truth by compelling attentive observation and breaking through the self-deception that makes truth hard to bear, because it recounts personal experience to evoke resonance rather than calculating objective data. Unlike science, which asks \"Is it true?\", the humanities and art prompt the question \"What is its relationship to me?\" Art not only provides models for living but also offers a method for questioning scholarship through stories that provoke reflection, integrating life experience with book learning into a unified self. This integration resolves the limitation that what we can measure is confined to what we know exists, and it reveals the past as the source of thoughts, feelings, laws, and social structures."
@@ -4228,7 +4752,7 @@
         "university-education-reflection",
         "social-system-reform"
       ],
-      "importance": 3.04,
+      "importance": 4.56,
       "connections": [
         {
           "type": "project",
@@ -4237,6 +4761,26 @@
         {
           "type": "idea",
           "slug": "liberal-arts-education-and-art"
+        },
+        {
+          "type": "idea",
+          "slug": "liberal-education-and-the-zettelkasten"
+        },
+        {
+          "type": "idea",
+          "slug": "thinking-and-literature"
+        },
+        {
+          "type": "idea",
+          "slug": "return-of-college"
+        },
+        {
+          "type": "idea",
+          "slug": "characteristics-of-excellent-universities"
+        },
+        {
+          "type": "idea",
+          "slug": "social-responsibility-of-outstanding-students"
         }
       ],
       "summary": "The humanities and arts cultivate the capacity for thought through past thinkers, entrusting the leadership class with responsibility for those powerless below the execution line. True liberal arts education fosters critical thinking for the public good by discarding common sense handed down by the university and forming one's own understanding, which reveals that providing opportunity for the impoverished requires reforming social institutions rather than devolving into us-versus-them antagonism or mere charity. Literary works allow readers to experience how the poor live, building the empathy needed to guide the transformation of social systems."
@@ -4251,7 +4795,7 @@
         "reflection",
         "learning-method"
       ],
-      "importance": 2.11,
+      "importance": 2.85,
       "connections": [
         {
           "type": "idea",
@@ -4276,6 +4820,14 @@
         {
           "type": "idea",
           "slug": "liberal-arts-education-and-art"
+        },
+        {
+          "type": "idea",
+          "slug": "liberal-arts-perspective-on-the-execution-line"
+        },
+        {
+          "type": "idea",
+          "slug": "return-of-college"
         }
       ],
       "summary": "The Zettelkasten method mirrors liberal education's focus on the process of knowledge production, as both involve following interests, extensive reading, and generating new understandings. Reflection in the humanities parallels the role of permanent notes, connecting deep feeling, art, and life. Liberal education aims to cultivate thinking beyond time and space by approaching specialized problems from multiple domains and perspectives, a skill developed when fleeting notes explain everyday phenomena through different theoretical lenses. Both the Zettelkasten method and liberal education cut across all disciplines."
@@ -4290,7 +4842,7 @@
         "induction",
         "framework-design"
       ],
-      "importance": 3.76,
+      "importance": 3.92,
       "connections": [
         {
           "type": "idea",
@@ -4327,6 +4879,22 @@
         {
           "type": "idea",
           "slug": "structural-patience"
+        },
+        {
+          "type": "idea",
+          "slug": "framework-extraction-pattern"
+        },
+        {
+          "type": "idea",
+          "slug": "data-pattern-prediction-chain"
+        },
+        {
+          "type": "idea",
+          "slug": "freedom-exploration-generator"
+        },
+        {
+          "type": "idea",
+          "slug": "system-coevolution-p2-interpretability"
         }
       ],
       "summary": "Continuous patching of local patterns fails to produce a global framework because each addition only fits a new local phenomenon onto an old structure, analogous to drawing tangents that never converge to the true curve. The correct method is to accumulate diverse samples, let patterns cluster, then induce the framework. This requires delaying framework labeling until a threshold (e.g., three chapters) is reached, freezing existing framework files in the meantime. The idea explains why the old approach fails, while framework-from-data.md describes the positive method; together they represent an inversion of induction and accumulation."
@@ -4335,7 +4903,7 @@
       "id": "idea-20260713-lp01",
       "title": "Locate-First, Model-Last — A Learning Paradigm Shift Driven by the Dictionary Model",
       "tags": [],
-      "importance": 4.79,
+      "importance": 4.98,
       "connections": [
         {
           "type": "idea",
@@ -4376,6 +4944,10 @@
         {
           "type": "idea",
           "slug": "speed-first-model-second-batch-tradeoff"
+        },
+        {
+          "type": "idea",
+          "slug": "learning-dynamics"
         }
       ],
       "summary": "The \"locate-first, model-last\" paradigm shifts learning from building a structural model simultaneously with learning to instead first locating each knowledge point in a provisional key hierarchy that is discovered iteratively through the points themselves, and deferring modeling until after full domain traversal. This avoids premature modeling unreliability because, as the dictionary model reveals, knowledge points exist in a high-dimensional space where clustering with few samples produces noise—you need enough points before PCA-like structure makes sense. It eliminates the merge-cost side of the reading-modeling decomposition tradeoff and avoids the breadth-first trap by enforcing breadth-first traversal, much like a two-pass reading strategy. The result is lower cognitive load, faster learning velocity, and highly accurate models built in one concentrated pass with complete information."
@@ -4384,7 +4956,7 @@
       "id": "idea-20260601-9d2e4f",
       "title": "Idea Generation in Low-Energy States",
       "tags": [],
-      "importance": 2.88,
+      "importance": 2.96,
       "connections": [
         {
           "type": "idea",
@@ -4437,7 +5009,7 @@
       "id": "idea-20260608-ms01",
       "title": "M34 Structural Defect: Source Layer Static Rigidity",
       "tags": [],
-      "importance": 3.24,
+      "importance": 3.44,
       "connections": [
         {
           "type": "idea",
@@ -4473,7 +5045,7 @@
         "market-failure",
         "welfare-economics"
       ],
-      "importance": 3.17,
+      "importance": 3.18,
       "connections": [
         {
           "type": "idea",
@@ -4503,7 +5075,7 @@
         "analogical-analysis",
         "problem-solving"
       ],
-      "importance": 3.0,
+      "importance": 2.72,
       "connections": [
         {
           "type": "project",
@@ -4557,7 +5129,7 @@
         "retention",
         "pipeline"
       ],
-      "importance": 4.36,
+      "importance": 4.53,
       "connections": [
         {
           "type": "idea",
@@ -4610,7 +5182,7 @@
       "id": "idea-20260627-memproc01",
       "title": "Memorized Offline Procedures — When Skills Can't Rely on AI Presence",
       "tags": [],
-      "importance": 1.32,
+      "importance": 1.37,
       "connections": [
         {
           "type": "skill",
@@ -4642,7 +5214,7 @@
         "meta-cognition",
         "decision-framework"
       ],
-      "importance": 2.08,
+      "importance": 2.1,
       "connections": [
         {
           "type": "project",
@@ -4681,7 +5253,7 @@
         "overall-economy",
         "economics"
       ],
-      "importance": 1.0,
+      "importance": 1.02,
       "connections": [
         {
           "type": "idea",
@@ -4708,7 +5280,7 @@
         "overflow-gate",
         "game-design"
       ],
-      "importance": 1.26,
+      "importance": 1.3,
       "connections": [
         {
           "type": "idea",
@@ -4731,7 +5303,7 @@
         "optimization",
         "game-design"
       ],
-      "importance": 1.26,
+      "importance": 1.3,
       "connections": [
         {
           "type": "idea",
@@ -4759,7 +5331,7 @@
         "productivity",
         "wage-labor"
       ],
-      "importance": 2.09,
+      "importance": 2.13,
       "connections": [
         {
           "type": "idea",
@@ -4787,7 +5359,7 @@
         "university-branding",
         "professor-celebrity"
       ],
-      "importance": 3.26,
+      "importance": 3.34,
       "connections": [
         {
           "type": "project",
@@ -4831,7 +5403,7 @@
         "self-awareness",
         "parenting"
       ],
-      "importance": 4.93,
+      "importance": 4.92,
       "connections": [
         {
           "type": "permanent",
@@ -4868,6 +5440,22 @@
         {
           "type": "idea",
           "slug": "origin-of-critical-dissatisfaction"
+        },
+        {
+          "type": "idea",
+          "slug": "thinking-and-literature"
+        },
+        {
+          "type": "idea",
+          "slug": "return-of-college"
+        },
+        {
+          "type": "idea",
+          "slug": "social-responsibility-of-outstanding-students"
+        },
+        {
+          "type": "idea",
+          "slug": "recording-and-questioning-beliefs"
         }
       ],
       "summary": "Society and others shape the self by instilling biased common sense and normalizing conformist behavior, leading to helicopter parenting, perfectionism, and suppressed needs. Common sense implies a lack of thinking, making individuals susceptible to herd mentality and superficial choices like pursuing prestige over fundamental change or treating volunteering as résumé padding. Through new perspectives and active debate, one can recognize and transform indoctrinated common sense into personal wisdom. This thinking builds the self, bridges ideals and reality, and resists the salmon race of conformity. Ultimately, independent thinking enables decisions in one’s own true interest."
@@ -4887,7 +5475,7 @@
         "government-failure",
         "economics"
       ],
-      "importance": 2.09,
+      "importance": 2.1,
       "connections": [
         {
           "type": "permanent",
@@ -4908,7 +5496,7 @@
       "id": "idea-20260711-nb01",
       "title": "Name-Object Binding as a Perspective on Program Execution",
       "tags": [],
-      "importance": 3.33,
+      "importance": 3.47,
       "connections": [
         {
           "type": "idea",
@@ -4958,7 +5546,7 @@
         "meta-cognition",
         "writing"
       ],
-      "importance": 3.26,
+      "importance": 3.36,
       "connections": [
         {
           "type": "project",
@@ -5019,7 +5607,7 @@
       "id": "idea-20260606-nor01",
       "title": "The Nature of \"Review\"",
       "tags": [],
-      "importance": 1.38,
+      "importance": 1.48,
       "connections": [
         {
           "type": "idea",
@@ -5048,7 +5636,7 @@
         "opportunity-niche",
         "innovation-theory"
       ],
-      "importance": 2.12,
+      "importance": 3.72,
       "connections": [
         {
           "type": "permanent",
@@ -5065,6 +5653,54 @@
         {
           "type": "idea",
           "slug": "economic-evolution-driven-by-technological-evolution"
+        },
+        {
+          "type": "idea",
+          "slug": "external-and-internal-view-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "cycle-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "technology"
+        },
+        {
+          "type": "idea",
+          "slug": "impact-of-domains-on-economy"
+        },
+        {
+          "type": "idea",
+          "slug": "economics"
+        },
+        {
+          "type": "idea",
+          "slug": "reconceptualizing-standard-engineering"
+        },
+        {
+          "type": "idea",
+          "slug": "how-domains-evolve"
+        },
+        {
+          "type": "idea",
+          "slug": "our-attitude-toward-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "three-definitions-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "math-competition-and-tech-innovation"
+        },
+        {
+          "type": "idea",
+          "slug": "finding-examples"
+        },
+        {
+          "type": "idea",
+          "slug": "fundamentally-new-technology"
         }
       ],
       "summary": "The note questions whether the replacement of old technology by new technology can be understood as an optimizing occupation of an opportunity niche."
@@ -5092,7 +5728,7 @@
         "epistemology",
         "knowledge-modeling"
       ],
-      "importance": 2.05,
+      "importance": 2.14,
       "connections": [
         {
           "type": "idea",
@@ -5121,7 +5757,7 @@
       "id": "idea-20260713-is01",
       "title": "Objective Importance Scoring — Two Orthogonal Dimensions for Idea Evaluation",
       "tags": [],
-      "importance": 2.16,
+      "importance": 2.3,
       "connections": [
         {
           "type": "idea",
@@ -5158,7 +5794,7 @@
         "framework-design",
         "classification"
       ],
-      "importance": 1.52,
+      "importance": 1.56,
       "connections": [
         {
           "type": "idea",
@@ -5219,7 +5855,7 @@
         "worldview",
         "human-technology-relationship"
       ],
-      "importance": 5.01,
+      "importance": 4.36,
       "connections": [
         {
           "type": "idea",
@@ -5302,7 +5938,7 @@
         "pass-criteria",
         "assessment"
       ],
-      "importance": 2.05,
+      "importance": 2.13,
       "connections": [
         {
           "type": "idea",
@@ -5323,7 +5959,7 @@
       "id": "idea-20260621-pct01",
       "title": "Peer Cross-Teaching",
       "tags": [],
-      "importance": 1.45,
+      "importance": 1.5,
       "connections": [
         {
           "type": "idea",
@@ -5344,7 +5980,7 @@
       "id": "idea-20260402-3c84f5",
       "title": "People Change Over Time",
       "tags": [],
-      "importance": 0.61,
+      "importance": 0.63,
       "connections": [
         {
           "type": "idea",
@@ -5365,7 +6001,7 @@
         "psychology",
         "self-improvement"
       ],
-      "importance": 0.65,
+      "importance": 0.67,
       "connections": [
         {
           "type": "idea",
@@ -5399,6 +6035,10 @@
         {
           "type": "idea",
           "slug": "classification-of-concepts"
+        },
+        {
+          "type": "idea",
+          "slug": "domain-power-and-perspective-taking"
         }
       ],
       "summary": "The note explores perspective classification by asking what angles can be used to analyze problems from books read, citing \"new technology\" as a specific lens."
@@ -5413,7 +6053,7 @@
         "knowledge-transfer",
         "internship"
       ],
-      "importance": 3.6,
+      "importance": 3.72,
       "connections": [
         {
           "type": "idea",
@@ -5456,7 +6096,7 @@
         "heuristics",
         "communication"
       ],
-      "importance": 0.88,
+      "importance": 0.9,
       "connections": [],
       "summary": "Precision is slow and costly while fuzziness—vagueness, approximation, or rough granularity—reduces cost and increases speed, a universal cost-speed tradeoff. Paying the precision tax is an investment to avoid downstream errors; fuzziness is leverage to move fast and cheap now, cleaning up later if needed. The optimal point shifts as a project matures: early exploration maximizes fuzziness for speed of learning, active building applies selective precision to interfaces, and production hardening maximizes precision on critical paths."
     },
@@ -5469,7 +6109,7 @@
         "trade-offs",
         "opportunity-cost"
       ],
-      "importance": 2.26,
+      "importance": 2.27,
       "connections": [
         {
           "type": "idea",
@@ -5494,7 +6134,7 @@
       "id": "idea-20260711-rm01",
       "title": "Reading-Modeling Decomposition Tradeoff — Explained by Cohesion-Coupling Heuristic",
       "tags": [],
-      "importance": 3.53,
+      "importance": 3.66,
       "connections": [
         {
           "type": "idea",
@@ -5545,7 +6185,7 @@
         "meta-cognition",
         "synthesis"
       ],
-      "importance": 1.44,
+      "importance": 1.49,
       "connections": [
         {
           "type": "idea",
@@ -5591,7 +6231,7 @@
         "combinatorial-evolution",
         "domains"
       ],
-      "importance": 4.7,
+      "importance": 5.83,
       "connections": [
         {
           "type": "idea",
@@ -5612,6 +6252,66 @@
         {
           "type": "idea",
           "slug": "fundamentally-new-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "external-and-internal-view-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "cycle-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "technology-domains"
+        },
+        {
+          "type": "idea",
+          "slug": "general-evolution-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "the-gene-of-technology-phenomena"
+        },
+        {
+          "type": "idea",
+          "slug": "technology-in-the-singular-sense"
+        },
+        {
+          "type": "idea",
+          "slug": "three-definitions-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "math-competition-and-tech-innovation"
+        },
+        {
+          "type": "idea",
+          "slug": "new-technology-replacing-old"
+        },
+        {
+          "type": "idea",
+          "slug": "finding-examples"
+        },
+        {
+          "type": "idea",
+          "slug": "economic-evolution-driven-by-technological-evolution"
+        },
+        {
+          "type": "idea",
+          "slug": "how-domains-evolve"
+        },
+        {
+          "type": "idea",
+          "slug": "where-innovation-comes-from"
+        },
+        {
+          "type": "idea",
+          "slug": "technology"
+        },
+        {
+          "type": "idea",
+          "slug": "core-capability-supporting-infrastructure-pattern"
         }
       ],
       "summary": "Standard engineering is the design process that creates new versions of existing technologies by recombining familiar combinatorial methods and structures in response to demand, proceeding from conceptual design to physical realization. This process can be seen as problem-solving, where a demand is broken into smaller sub-problems, or as a language-like activity in which engineers generate intentions and select elements from domains to form novel combinations. On a broader scale, technological innovation operates through sample and selection: many engineers produce diverse combinations, and technologies that are repeatedly reused become standardized modules via a positive feedback loop, analogous to Darwinism but directed by human demand rather than random variation."
@@ -5625,7 +6325,7 @@
         "framework",
         "meta-cognition"
       ],
-      "importance": 4.81,
+      "importance": 4.97,
       "connections": [
         {
           "type": "idea",
@@ -5679,7 +6379,7 @@
         "metacognition",
         "thinking-methods"
       ],
-      "importance": 2.88,
+      "importance": 2.92,
       "connections": [
         {
           "type": "project",
@@ -5712,7 +6412,7 @@
         "writing",
         "knowledge-reconnection"
       ],
-      "importance": 3.82,
+      "importance": 3.95,
       "connections": [
         {
           "type": "idea",
@@ -5767,7 +6467,7 @@
         "mentorship",
         "peer-learning"
       ],
-      "importance": 10.0,
+      "importance": 9.99,
       "connections": [
         {
           "type": "permanent",
@@ -5852,7 +6552,7 @@
         "philosophy-of-science",
         "scientific-method"
       ],
-      "importance": 2.26,
+      "importance": 2.04,
       "connections": [
         {
           "type": "idea",
@@ -5885,7 +6585,7 @@
       "id": "idea-20260419-b7d3e9",
       "title": "Sino-US Trade",
       "tags": [],
-      "importance": 1.15,
+      "importance": 1.11,
       "connections": [
         {
           "type": "idea",
@@ -5898,7 +6598,7 @@
       "id": "idea-20260123-b9d3f1",
       "title": "The Social Responsibility of Outstanding Students",
       "tags": [],
-      "importance": 2.39,
+      "importance": 3.12,
       "connections": [
         {
           "type": "idea",
@@ -5911,6 +6611,10 @@
         {
           "type": "idea",
           "slug": "my-relationship-with-others-and-society"
+        },
+        {
+          "type": "idea",
+          "slug": "liberal-arts-perspective-on-the-execution-line"
         }
       ],
       "summary": "Leadership and serving others have devolved from selfless ideals into self-serving careerism, where high positions on the social pyramid matter most and service is merely charity that polishes resumes. Bureaucratic systems now promote caretakers who preserve the status quo without initiative or independent thought, while elite students, flourishing within this framework, lose critical dissatisfaction and ignore structural change, tackling only isolated problems like DIY-style social entrepreneurship. The necessary response is to become a thinker: a good citizen who questions common sense, strategically charts direction, and possesses the willpower and courage to defy tradition."
@@ -5919,7 +6623,7 @@
       "id": "idea-20260626-spc01",
       "title": "Space as a Perspective — Spatial Thinking as a Cognitive Lens",
       "tags": [],
-      "importance": 2.26,
+      "importance": 2.35,
       "connections": [
         {
           "type": "idea",
@@ -5964,7 +6668,7 @@
         "speed",
         "tradeoff"
       ],
-      "importance": 4.45,
+      "importance": 4.63,
       "connections": [
         {
           "type": "idea",
@@ -6028,7 +6732,7 @@
         "systems-thinking",
         "combinatorial-evolution"
       ],
-      "importance": 3.52,
+      "importance": 4.04,
       "connections": [
         {
           "type": "idea",
@@ -6037,6 +6741,10 @@
         {
           "type": "idea",
           "slug": "reconceptualizing-standard-engineering"
+        },
+        {
+          "type": "idea",
+          "slug": "fundamentally-new-technology"
         }
       ],
       "summary": "Standard engineering is the process of creating a new version of an existing technology within a domain by using already-familiar combination methods and structures. Design is an attempted solution to a problem raised by demand, where engineers break down requirements into sub-requirements and express conceptual forms by selecting components from a toolkit, much like language expresses thought. The difficulty varies from conventional projects to hard versions where entering unknown territory introduces unpredictable problems and human factors. Over time, successful design variants become standardized through a Darwinian process: technologies that are reused and popular get locked in as standard modules, while poor ones fade—a positive feedback loop driven by demand, not random variation."
@@ -6045,7 +6753,7 @@
       "id": "idea-20260626-sconv01",
       "title": "The Stranger Conversation Loop — A Replicable Social Algorithm",
       "tags": [],
-      "importance": 1.27,
+      "importance": 1.32,
       "connections": [
         {
           "type": "idea",
@@ -6065,7 +6773,7 @@
         "optimization",
         "iteration"
       ],
-      "importance": 3.04,
+      "importance": 3.13,
       "connections": [
         {
           "type": "idea",
@@ -6107,7 +6815,7 @@
         "structure",
         "learning"
       ],
-      "importance": 4.71,
+      "importance": 4.89,
       "connections": [
         {
           "type": "idea",
@@ -6160,7 +6868,7 @@
       "id": "idea-20260319-7a9edc",
       "title": "Structural Understanding in Daily Life",
       "tags": [],
-      "importance": 5.14,
+      "importance": 4.72,
       "connections": [
         {
           "type": "idea",
@@ -6240,7 +6948,7 @@
         "learning",
         "heuristics"
       ],
-      "importance": 4.27,
+      "importance": 4.41,
       "connections": [
         {
           "type": "idea",
@@ -6299,7 +7007,7 @@
         "surplus",
         "government-policy"
       ],
-      "importance": 4.81,
+      "importance": 4.89,
       "connections": [
         {
           "type": "idea",
@@ -6336,7 +7044,7 @@
       "id": "idea-20260606-sce01-p1",
       "title": "Co-evolution - Problem 1: Data Granularity and Coverage",
       "tags": [],
-      "importance": 2.66,
+      "importance": 2.79,
       "connections": [
         {
           "type": "idea",
@@ -6365,7 +7073,7 @@
       "id": "idea-20260606-sce01-p2",
       "title": "Co-evolution - Question 2: Structural Interpretability",
       "tags": [],
-      "importance": 2.26,
+      "importance": 2.35,
       "connections": [
         {
           "type": "idea",
@@ -6394,7 +7102,7 @@
       "id": "idea-20260606-sce01-p3",
       "title": "System Coevolution - Problem 3: The Boundary of Self-Updating Systems",
       "tags": [],
-      "importance": 1.55,
+      "importance": 1.64,
       "connections": [
         {
           "type": "idea",
@@ -6415,7 +7123,7 @@
       "id": "idea-20260606-sce01-p4",
       "title": "Coevolution - Problem 4: Preventing Self-Reinforcement in the Wrong Direction",
       "tags": [],
-      "importance": 1.95,
+      "importance": 2.09,
       "connections": [
         {
           "type": "idea",
@@ -6440,7 +7148,7 @@
       "id": "idea-20260606-sce01",
       "title": "System-Human Coevolution",
       "tags": [],
-      "importance": 7.14,
+      "importance": 7.54,
       "connections": [
         {
           "type": "idea",
@@ -6526,7 +7234,7 @@
         "quality-assurance",
         "cs61a"
       ],
-      "importance": 0.75,
+      "importance": 0.78,
       "connections": [
         {
           "type": "project",
@@ -6552,7 +7260,7 @@
         "curriculum-design",
         "actionable"
       ],
-      "importance": 5.42,
+      "importance": 5.63,
       "connections": [
         {
           "type": "idea",
@@ -6606,7 +7314,7 @@
         "technology-clusters",
         "technology-evolution"
       ],
-      "importance": 2.79,
+      "importance": 4.23,
       "connections": [
         {
           "type": "idea",
@@ -6619,6 +7327,62 @@
         {
           "type": "idea",
           "slug": "how-domains-evolve"
+        },
+        {
+          "type": "idea",
+          "slug": "impact-of-domains-on-economy"
+        },
+        {
+          "type": "idea",
+          "slug": "reconceptualizing-standard-engineering"
+        },
+        {
+          "type": "idea",
+          "slug": "technology-in-the-singular-sense"
+        },
+        {
+          "type": "idea",
+          "slug": "fundamentally-new-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "standard-engineering"
+        },
+        {
+          "type": "idea",
+          "slug": "cycle-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "classification-of-concepts"
+        },
+        {
+          "type": "idea",
+          "slug": "the-gene-of-technology-phenomena"
+        },
+        {
+          "type": "idea",
+          "slug": "general-evolution-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "core-capability-supporting-infrastructure-pattern"
+        },
+        {
+          "type": "idea",
+          "slug": "broad-and-narrow-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "external-and-internal-view-of-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "finding-examples"
+        },
+        {
+          "type": "idea",
+          "slug": "technology"
         }
       ],
       "summary": "A technology domain is a cluster of interrelated technologies that share a common external form or latent potential to serve a common purpose, functioning as a toolbox with sub-domains and a grammar—rules for combining its elements. Engineering design begins with domain definition, the choice of a domain to achieve a goal. Innovation through re-domaining shifts from an existing domain to a new one; Domain B displaces Domain A if B offers richer potential technologies and diverse combination patterns, as when electronics supplanted mechanical technology. Domains have inherent strengths, like digital clarity, and limitations, such as an inability to evaluate fashion."
@@ -6636,7 +7400,7 @@
         "technology-definition",
         "systems-thinking"
       ],
-      "importance": 5.23,
+      "importance": 4.81,
       "connections": [
         {
           "type": "permanent",
@@ -6729,6 +7493,14 @@
         {
           "type": "idea",
           "slug": "core-capability-supporting-infrastructure-pattern"
+        },
+        {
+          "type": "idea",
+          "slug": "our-attitude-toward-technology"
+        },
+        {
+          "type": "idea",
+          "slug": "how-domains-evolve"
         }
       ],
       "summary": "Technology in the singular sense is a means of accomplishing a purpose, expressed equivalently as devices and processes. It is organized around a central principle executed by primary assemblies, with secondary assemblies providing support. This structure is hierarchical and recursive: higher-level technologies command lower-level ones, which determine capabilities, and any technology can become a component in a higher-level system. Modularity, or integration, emerges as functional grouping when a purpose is reused often enough to justify partitioning, offering simpler design and protection against change. Finally, fluidity means that integration patterns shift with changing purposes, so technology is never static."
@@ -6740,7 +7512,7 @@
         "philosophy-of-technology",
         "research-questions"
       ],
-      "importance": 5.28,
+      "importance": 6.04,
       "connections": [
         {
           "type": "project",
@@ -6805,6 +7577,34 @@
         {
           "type": "idea",
           "slug": "economic-evolution-driven-by-technological-evolution"
+        },
+        {
+          "type": "idea",
+          "slug": "economics"
+        },
+        {
+          "type": "idea",
+          "slug": "math-competition-and-tech-innovation"
+        },
+        {
+          "type": "idea",
+          "slug": "reconceptualizing-standard-engineering"
+        },
+        {
+          "type": "idea",
+          "slug": "impact-of-domains-on-economy"
+        },
+        {
+          "type": "idea",
+          "slug": "technology-domains"
+        },
+        {
+          "type": "idea",
+          "slug": "where-innovation-comes-from"
+        },
+        {
+          "type": "idea",
+          "slug": "broad-and-narrow-technology"
         }
       ],
       "summary": "The note raises the question of what further research questions, beyond defining technology and explaining its development and evolution, are worth exploring within the philosophy of technology. It seeks to expand the inquiry into the nature and dynamics of technology."
@@ -6821,7 +7621,7 @@
         "recursive-structure",
         "technology-theory"
       ],
-      "importance": 6.43,
+      "importance": 6.12,
       "connections": [
         {
           "type": "idea",
@@ -6894,6 +7694,26 @@
         {
           "type": "idea",
           "slug": "economics"
+        },
+        {
+          "type": "idea",
+          "slug": "structural-understanding-in-daily-life"
+        },
+        {
+          "type": "idea",
+          "slug": "core-capability-supporting-infrastructure-pattern"
+        },
+        {
+          "type": "idea",
+          "slug": "science"
+        },
+        {
+          "type": "idea",
+          "slug": "economic-evolution-driven-by-technological-evolution"
+        },
+        {
+          "type": "idea",
+          "slug": "broad-and-narrow-technology"
         }
       ],
       "summary": "Every technology depends on phenomena—independently existing regularities—which must be tamed by sub-technologies whose sole purpose is to harness them. A principle is a conceptual scheme that specifies how phenomena combine to achieve a purpose. Technology A embodies principle A, which orchestrates phenomena 1, 2, and 3 through corresponding sub-technologies, each with its own purpose. If the combination fails to achieve the goal, the process loops back. This yields a recursive purposive system where every technology is a physical realization of a principle that domesticates phenomena."
@@ -6913,7 +7733,7 @@
         "classroom-discussion",
         "personal-development"
       ],
-      "importance": 1.46,
+      "importance": 1.45,
       "connections": [
         {
           "type": "permanent",
@@ -6974,7 +7794,7 @@
         "living-standards",
         "monetary-policy"
       ],
-      "importance": 9.93,
+      "importance": 10.0,
       "connections": [
         {
           "type": "idea",
@@ -7039,7 +7859,7 @@
         "note-taking",
         "thinking"
       ],
-      "importance": 4.02,
+      "importance": 4.08,
       "connections": [
         {
           "type": "permanent",
@@ -7084,6 +7904,14 @@
         {
           "type": "idea",
           "slug": "liberal-education-and-the-zettelkasten"
+        },
+        {
+          "type": "idea",
+          "slug": "inquiry-essay-method"
+        },
+        {
+          "type": "idea",
+          "slug": "where-innovation-comes-from"
         }
       ],
       "summary": "The Zettelkasten Method is a note-taking system designed to improve thinking and writing by building an external knowledge base. It organizes four types of notes: fleeting notes for raw ideas, literature notes for reformulated readings, permanent notes for synthesized insights, and project notes for task-specific content. The process rejects linear writing in favor of the hermeneutic"
@@ -7100,7 +7928,7 @@
         "critical-thinking",
         "self-reflection"
       ],
-      "importance": 2.81,
+      "importance": 2.78,
       "connections": [
         {
           "type": "permanent",
@@ -7145,7 +7973,7 @@
         "means-and-integration",
         "technology-evolution"
       ],
-      "importance": 6.84,
+      "importance": 6.47,
       "connections": [
         {
           "type": "project",
@@ -7210,6 +8038,38 @@
         {
           "type": "idea",
           "slug": "understanding-software-at-technical-level"
+        },
+        {
+          "type": "idea",
+          "slug": "structural-understanding-in-daily-life"
+        },
+        {
+          "type": "idea",
+          "slug": "new-technology-replacing-old"
+        },
+        {
+          "type": "idea",
+          "slug": "characteristics-of-our-era"
+        },
+        {
+          "type": "idea",
+          "slug": "economics"
+        },
+        {
+          "type": "idea",
+          "slug": "economic-evolution-driven-by-technological-evolution"
+        },
+        {
+          "type": "idea",
+          "slug": "science"
+        },
+        {
+          "type": "idea",
+          "slug": "how-domains-evolve"
+        },
+        {
+          "type": "idea",
+          "slug": "impact-of-domains-on-economy"
         }
       ],
       "summary": "The note distinguishes three definitions of technology: singular (a means to fulfill human purposes, like a speech recognition algorithm), plural (the integration of practices and components, better termed bodies of technology), and general (the collection of devices and engineering practices in a culture). Distinguishing these is valuable because each forms and develops differently. Technology in the singular sense emerges as a new concept and develops by modifying its internal components; plural technology is built around phenomena"
@@ -7223,7 +8083,7 @@
         "meta-cognition",
         "framework-design"
       ],
-      "importance": 5.79,
+      "importance": 6.39,
       "connections": [
         {
           "type": "idea",
@@ -7256,6 +8116,26 @@
         {
           "type": "idea",
           "slug": "knowledge-reconnection"
+        },
+        {
+          "type": "idea",
+          "slug": "connection-reading"
+        },
+        {
+          "type": "idea",
+          "slug": "structural-patience"
+        },
+        {
+          "type": "idea",
+          "slug": "framework-extraction-pattern"
+        },
+        {
+          "type": "idea",
+          "slug": "framework-from-data"
+        },
+        {
+          "type": "idea",
+          "slug": "transfer-high-leverage"
         }
       ],
       "summary": "The three-layer framework—conceptual, technical architecture, and mathematical—should be applied as a starting lens rather than emerging bottom-up from content when building reconnection docs. By asking of each concept which layer it primarily occupies and how it bidirectionally links to the others, the sorting process becomes far more efficient. Conceptual ideas like the NFL theorem induce the technical (Q, A) architecture, while mathematical objects support concepts and embed into technical structures at specific insertion points. This top-down scaffold drives structure for future chapter reconnection documents."
@@ -7272,7 +8152,7 @@
         "todo-list",
         "mental-resources"
       ],
-      "importance": 2.05,
+      "importance": 2.11,
       "connections": [
         {
           "type": "permanent",
@@ -7321,7 +8201,7 @@
       "id": "idea-20260626-slp01",
       "title": "Timeline-Based Project Structure",
       "tags": [],
-      "importance": 6.58,
+      "importance": 6.83,
       "connections": [
         {
           "type": "idea",
@@ -7338,6 +8218,26 @@
         {
           "type": "idea",
           "slug": "willingness-experiment"
+        },
+        {
+          "type": "idea",
+          "slug": "attention-as-bottleneck"
+        },
+        {
+          "type": "idea",
+          "slug": "behavioral-activation-model"
+        },
+        {
+          "type": "idea",
+          "slug": "three-mental-resources"
+        },
+        {
+          "type": "idea",
+          "slug": "efficiency-formula"
+        },
+        {
+          "type": "idea",
+          "slug": "integrating-fragmented-life-strategies"
         }
       ],
       "summary": "Any project’s state can be losslessly represented by memory, artifacts, and physical capacity, where physical capacity is a global constraint that gates all work, decaying during deep work and recovering through rest and exercise. The study–slack oscillator shows that intense cognitive sessions deplete physical capacity via poor sleep, triggering recovery gaps, while rhinitis asymmetrically drains motivation during slack phases, making external social triggers the most reliable escape. The foundational strategy is a hard 20:30 cutoff for cognitive work to preserve physical capacity, enabling project rotation and exercise as physical‑capacity management."
@@ -7352,7 +8252,7 @@
         "methodology",
         "abstraction"
       ],
-      "importance": 6.24,
+      "importance": 6.45,
       "connections": [
         {
           "type": "idea",
@@ -7426,6 +8326,25 @@
       "summary": "Transfer, applying an abstract structure from one domain to another, is a high-leverage cognitive operation because it converts a single insight into many applications at near-zero additional learning cost. Successful transfer requires extracting the underlying structure—not the content—mapping it to a new domain, and verifying the mapping holds, as seen in moving the physics learning method to English learning, applying PCA's encode/decode architecture to knowledge reconnection, and using Git's six-layer system with precise sync semantics for human-AI interaction design. The asymmetric ROI—minutes to abstract, hours saved—makes systematic transfer after significant learning events a compoundingly valuable meta-skill."
     },
     {
+      "id": "idea-20260801-b7e3a1",
+      "title": "Two-Perspective System Correctness — Dependency Graph + Storage Matrix",
+      "tags": [
+        "system-design",
+        "maintenance",
+        "correctness",
+        "data-modeling",
+        "meta-cognition"
+      ],
+      "importance": -1.0,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "audit-blind-spot-spec-limitation"
+        }
+      ],
+      "summary": "The Two-Perspective System Correctness framework captures that a change in one part of a system requires updates elsewhere by using a horizontal data dependency graph and"
+    },
+    {
       "id": "idea-20260130-234ccd",
       "title": "Understanding Software at the Technical Level",
       "tags": [
@@ -7434,7 +8353,7 @@
         "layered-analysis",
         "recursive-structure"
       ],
-      "importance": 3.98,
+      "importance": 3.72,
       "connections": [
         {
           "type": "project",
@@ -7521,7 +8440,7 @@
       "id": "idea-20260711-um01",
       "title": "Unified Model of Python Program Execution — Coupling All Sub-Models",
       "tags": [],
-      "importance": 3.73,
+      "importance": 3.9,
       "connections": [
         {
           "type": "idea",
@@ -7570,7 +8489,7 @@
       "id": "idea-20260731-utp",
       "title": "University Four-Year Strategy: Two Pillars, Run in Parallel",
       "tags": [],
-      "importance": 3.22,
+      "importance": 3.3,
       "connections": [
         {
           "type": "idea",
@@ -7587,7 +8506,7 @@
       "id": "idea-20260626-vocab01",
       "title": "Vocabulary Priming Before Topic-Specific Conversation",
       "tags": [],
-      "importance": 2.15,
+      "importance": 2.25,
       "connections": [
         {
           "type": "project",
@@ -7619,7 +8538,7 @@
         "skill-automation",
         "creativity"
       ],
-      "importance": 5.53,
+      "importance": 5.38,
       "connections": [
         {
           "type": "permanent",
@@ -7744,7 +8663,7 @@
       "id": "idea-20260629-we01",
       "title": "Willingness Experiment: Continue vs. Switch",
       "tags": [],
-      "importance": 2.04,
+      "importance": 2.12,
       "connections": [
         {
           "type": "idea",
@@ -7753,6 +8672,14 @@
         {
           "type": "idea",
           "slug": "deep-work-recovery-cycle"
+        },
+        {
+          "type": "idea",
+          "slug": "attention-as-bottleneck"
+        },
+        {
+          "type": "idea",
+          "slug": "certainty-gravity"
         }
       ],
       "summary": "This note outlines an experiment to resolve the tension between continuity fatigue and milestone gravity in a timeline-based project structure. The core question is whether, when feeling resistance after consecutive days on a project, it is better to push through on the same project (Continue arm, using the Deep Learning Book) or switch to a different one (Switch arm, using PyTorch). Each arm runs for five sessions in the same deep work energy peak slot, measuring output quality, volume, session satisfaction, and next-day carryover"
@@ -7761,7 +8688,7 @@
       "id": "idea-20260626-xsrc01",
       "title": "X.com as Information Source — Curation & Alternatives",
       "tags": [],
-      "importance": 1.45,
+      "importance": 1.5,
       "connections": [
         {
           "type": "idea",

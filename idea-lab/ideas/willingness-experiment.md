@@ -3,12 +3,16 @@ id: "idea-20260629-we01"
 summary: "This note outlines an experiment to resolve the tension between continuity fatigue and milestone gravity in a timeline-based project structure. The core question is whether, when feeling resistance after consecutive days on a project, it is better to push through on the same project (Continue arm, using the Deep Learning Book) or switch to a different one (Switch arm, using PyTorch). Each arm runs for five sessions in the same deep work energy peak slot, measuring output quality, volume, session satisfaction, and next-day carryover"
 title: "Willingness Experiment: Continue vs. Switch"
 tags: [experiment, meta-cognition, willingness, decision-making, project-management]
-importance: 2.04  # auto
+importance: 2.12  # auto
 connections:
   - type: idea
     slug: "timeline-based-project-structure"  # auto
   - type: idea
     slug: "deep-work-recovery-cycle"  # auto
+  - type: idea
+    slug: "attention-as-bottleneck"  # auto, review: 0.562
+  - type: idea
+    slug: "certainty-gravity"  # auto, review: 0.525
 ---
 # Willingness Experiment: Continue vs. Switch
 

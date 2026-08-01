@@ -8,7 +8,7 @@ tags:
   - conceptual-thinking
   - methodology
 summary: "Connection-Oriented Reading reconceives reading as collecting constraint relationships that define logical connections between concepts, not as highlighting or summarizing. Each sentence is interrogated for the new constraint it imposes, labeled with types like defines, elaborates, presupposes, or degree dependency, to build a concept constraint graph. Argumentative force comes from constraint density and consistency, not concept novelty, enabling cross-disciplinary transfer by recognizing shared constraint structures rather than different labels. Deliberate practice involves drawing post-reading constraint graphs and recording new relationship types to refine the taxonomy."
-importance: 3.78  # auto
+importance: 3.89  # auto
 connections:
   - type: idea
     slug: "reading-writing-unity"  # auto

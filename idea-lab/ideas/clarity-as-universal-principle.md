@@ -3,7 +3,7 @@ id: "idea-20260606-caup01"
 summary: "The note posits "describe it clearly" as a universal meta-principle, applicable to any domain such as narrating text structure, recording ideas, or summarizing retrospectives. It insists this is not a local methodology but a cross-domain imperative to always pursue clearer, more precise description. Thus, clarity transcends specific contexts, serving as a guiding rule for effective communication and thought."
 title: "Clarity as a Universal Principle"
 tags: [principle, clarity, writing, methodology, communication]
-importance: 4.01  # auto
+importance: 4.15  # auto
 connections:
   - type: idea
     slug: "natural-language-narration-methodology"  # auto

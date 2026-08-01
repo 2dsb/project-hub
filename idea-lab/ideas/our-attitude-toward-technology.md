@@ -8,7 +8,7 @@ tags:
 - worldview
 - human-technology-relationship
 summary: "Modern technology’s defining trait is a biological nature—the ability to interact with the environment, self-repair, and integrate cognitively, forming a functional network rather than a fixed mechanism. This biological logic reshapes the economy into a reproductive system where competitive advantage arises from translating deep knowledge into new strategic combinations, not from resource reserves. The worldview shifts from seeing the world as a rationally composed order to embracing it as an open, evolving organic whole. Humans place hope in technology for a better life yet trust nature, creating conflict because technology exploits natural phenomena and feels unnatural, and its self-directed biological nature stirs deep unease about control and separation from nature."
-importance: 5.01  # auto
+importance: 4.36  # auto
 connections:
 - type: idea
   slug: three-definitions-of-technology

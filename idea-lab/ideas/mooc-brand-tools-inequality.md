@@ -9,7 +9,7 @@ tags:
   - university-branding
   - professor-celebrity
 summary: "Elite universities deploy MOOCs as brand tools to reinforce the higher education hierarchy, expanding their prestige while avoiding brand dilution by keeping on-campus interaction and facilities exclusive. The primary target is not online learners but selling courses to second- and third-tier universities as a revenue stream. Educational rigor declines as exercises lose depth and video replaces reading, fueling the professor-as-celebrity phenomenon. Despite massive investment, only 4% of users complete a course—mostly adults seeking targeted upskilling—yet self-orientation is precisely the capability university was supposed to cultivate."
-importance: 3.26  # auto
+importance: 3.34  # auto
 connections:
   - type: project
     slug: gaokao-chinese

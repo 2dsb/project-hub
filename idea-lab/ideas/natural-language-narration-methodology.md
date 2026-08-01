@@ -7,7 +7,7 @@ tags:
 - meta-cognition
 - writing
 summary: "The methodology of describing each paragraph's organizational pattern in natural language, termed "natural language narration," warrants investigation in its own right. The central questions are what defines a good description, what granularity is appropriate, and how to avoid inadvertently importing framework terminology."
-importance: 3.26  # auto
+importance: 3.36  # auto
 connections:
 - type: project
   slug: linguistic-structure-analysis

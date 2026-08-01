@@ -7,7 +7,7 @@ tags:
 - layered-analysis
 - recursive-structure
 summary: "The note asks how a mobile app would be decomposed using the two descriptions of a singular level of technology from *The Nature of Technology*: first, as a central principle combined with a main integration and sub‑integrations, and second, as a hierarchical, recursive structure."
-importance: 3.98  # auto
+importance: 3.72  # auto
 connections:
   - type: project
     slug: "ai-ability"

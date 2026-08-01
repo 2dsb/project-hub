@@ -3,7 +3,7 @@ id: "idea-20260606-cais01"
 summary: "WeChat conversations serve as raw material for idea development once refined. The dialogues, debates, and casually dropped opinions in these chats may contain seeds worth digging into, requiring cultivation to yield valuable insights."
 title: "WeChat Conversations as Idea Raw Material"
 tags: [idea-capture, social-interaction, methodology]
-importance: 1.77  # auto
+importance: 1.85  # auto
 connections:
   - type: idea
     slug: "conversation-as-data-source"  # auto

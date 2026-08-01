@@ -8,7 +8,7 @@ tags:
 - meta-cognition
 - synthesis
 summary: "Reading and writing form a single cognitive process operating bidirectionally on a concept constraint relationship web: reading untangles constraint relationships from text, while writing weaves them into natural language. The bottleneck in reading is identifying constraints in ambiguous sentences, whereas in writing it is clarifying concepts and creating constraints. Therefore, training should emphasize sentence-by-sentence constraint identification for reading and conceptual clarity for writing."
-importance: 1.44  # auto
+importance: 1.49  # auto
 connections:
 - type: idea
   slug: inquiry-essay-method

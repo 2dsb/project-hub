@@ -1,9 +1,10 @@
 ---
 id: "idea-20260419-a3f7c2"
-summary: "After Sinopia stops buying Usonia's Treasury bonds, its economy initially falls into chaos with many bankruptcies,"
+summary: "After Sinopia stops buying Usonia's treasury bonds, Sinopia experiences initial economic chaos and business bankruptcies, but new enterprises soon emerge to produce genuinely needed goods, leading to gradually improving living standards marked by increased production, higher consumption, and falling prices. Usonia, in contrast, faces intensified inflation and declining productivity. Sinopians later use "real fish" to purchase goods, achieving consumer power that surpasses that of native Usonians, which causes goods to flow into Sinopia."
+body_hash: "bf5a8aba"
 title: "After Sinopia Stops Buying Usonia's Treasury Bonds"
 tags: ["government-bonds", "decoupling", "living-standards", "inflation", "productivity", "consumer-power", "economic-shift", "trade-flows", "real-wealth"]
-importance: 1.78  # auto
+importance: 1.86  # auto
 connections: []
 connections:
   - type: idea

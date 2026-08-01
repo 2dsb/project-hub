@@ -3,7 +3,7 @@ id: idea-20260606-nor01
 summary: "Review is posited as more than a retrospective tool, prompting inquiry into its role within a knowledge system. It may function as a metacognitive operation, an experience extraction mechanism, or an intermediate layer that bridges concrete and abstract understanding, making this a meta-question deserving further exploration."
 title: 'The Nature of "Review"'
 tags: [meta-cognition, review, knowledge-management, methodology]
-importance: 1.38  # auto
+importance: 1.48  # auto
 connections:
   - type: idea
     slug: integrating-fragmented-life-strategies

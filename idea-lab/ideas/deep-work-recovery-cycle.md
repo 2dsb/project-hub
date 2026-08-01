@@ -8,12 +8,14 @@ tags:
   - energy-management
   - recovery
 summary: "Intense deep-work bursts deplete physical reserves such as sleep and exercise, forcing mandatory recovery periods — a three-day gap after an intense session was not avoidance but necessary physical recovery. This insight led to incorporating Physical Capacity (P) as a global constraint on project dynamics, alongside the A⇄B oscillator that models work/leisure alternation and asymmetric drains like rhinitis. The full integrated framework now lives in the timeline-based project structure."
-importance: 1.55  # auto
+importance: 1.61  # auto
 connections:
   - type: idea
     slug: timeline-based-project-structure
   - type: idea
     slug: "willingness-experiment"  # auto
+  - type: idea
+    slug: "behavioral-activation-model"  # auto, review: 0.505
 ---
 # Deep-Work Recovery Cycle
 

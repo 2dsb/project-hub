@@ -3,7 +3,7 @@ id: "idea-20260626-cflow01"
 summary: "This note poses the question of how conversation topics flow across family dinners, dialogues with Claude, and casual friend chats, asking what underlying structure governs topic movement. It considers possible structural elements such as topic transition rules, depth gradients, topic lifecycles, and whether silence or speaker-listener dynamics trigger shifts. No answers are provided yet, but potential analytical angles include applying a flow-based source-router-sink model, the (M, A) project model, or existing conversation analysis frameworks."
 title: "How Conversation Topics Flow — Finding the Structure"
 tags: [conversation, topic-flow, structure, interaction-dynamics, dialogue]
-importance: 2.96  # auto
+importance: 3.09  # auto
 connections:
   - type: idea
     slug: "flow-based-thinking"  # auto
