@@ -12,9 +12,9 @@ summary: "The Success Interrogation Heuristic prompts asking Generalize, Replica
 importance: 3
 connections:
   - type: idea
-    slug: "leverage-existing-vs-build-from-scratch"
+    slug: "leverage-existing-vs-build-from-scratch"  # auto
   - type: idea
-    slug: "transfer-high-leverage"
+    slug: "transfer-high-leverage"  # auto
   - type: idea
     slug: "framework-extraction-pattern"  # review: 0.579
   - type: idea

@@ -10,15 +10,15 @@ summary: "The central question is where deliberate memorization fits in the lear
 importance: 0
 connections:
   - type: idea
-    slug: "learning-pipeline"
+    slug: "learning-pipeline"  # auto
   - type: idea
-    slug: "knowledge-reconnection"
+    slug: "knowledge-reconnection"  # auto
   - type: idea
-    slug: "structural-patience"
+    slug: "structural-patience"  # auto
   - type: idea
-    slug: "learning-dynamics"
+    slug: "learning-dynamics"  # auto
   - type: idea
-    slug: "implicit-improvement-pattern"
+    slug: "implicit-improvement-pattern"  # auto
   - type: idea
     slug: "attention-pointer-learning-model"  # review: 0.590
   - type: idea

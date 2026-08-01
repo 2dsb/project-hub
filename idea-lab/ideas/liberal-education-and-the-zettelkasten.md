@@ -21,7 +21,7 @@ connections:
   - type: permanent
     slug: 卡片笔记写作法c3.19
   - type: idea
-    slug: "liberal-arts-education-and-art"
+    slug: "liberal-arts-education-and-art"  # auto
 ---
 # The Process of Knowledge Production
 

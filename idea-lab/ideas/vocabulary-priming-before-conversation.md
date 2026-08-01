@@ -8,7 +8,7 @@ connections:
   - type: project
     slug: "english-learning"
   - type: idea
-    slug: "space-as-perspective"
+    slug: "space-as-perspective"  # auto
   - type: idea
     slug: "english-comfort-zone-vocabulary"  # review: 0.525
 ---

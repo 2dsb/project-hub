@@ -17,13 +17,13 @@ connections:
   - type: idea
     slug: teach-method-fixes
   - type: idea
-    slug: "implicit-improvement-pattern"
+    slug: "implicit-improvement-pattern"  # auto
   - type: idea
-    slug: "freedom-exploration-generator"
+    slug: "freedom-exploration-generator"  # auto
   - type: idea
-    slug: "memorization-in-pipeline"
+    slug: "memorization-in-pipeline"  # auto
   - type: idea
-    slug: "attention-pointer-learning-model"
+    slug: "attention-pointer-learning-model"  # auto
   - type: idea
     slug: "speed-first-model-second-batch-tradeoff"  # review: 0.599
   - type: idea

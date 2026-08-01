@@ -8,7 +8,7 @@ connections:
   - type: project
     slug: "ai-ability"
   - type: idea
-    slug: "inquiry-essay-method"
+    slug: "inquiry-essay-method"  # auto
   - type: permanent
     slug: "优秀的绵羊c9.2"
 ---

@@ -13,7 +13,7 @@ connections:
   - type: idea
     slug: timeline-based-project-structure
   - type: idea
-    slug: "willingness-experiment"
+    slug: "willingness-experiment"  # auto
 ---
 # Deep-Work Recovery Cycle
 

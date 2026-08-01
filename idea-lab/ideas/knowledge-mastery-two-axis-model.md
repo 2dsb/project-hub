@@ -18,7 +18,7 @@ connections:
   - type: idea
     slug: strategy-three-component-model
   - type: idea
-    slug: "learning-dynamics"
+    slug: "learning-dynamics"  # auto
 ---
 # Knowledge Mastery — A Two-Axis Model with Recursive Levels
 

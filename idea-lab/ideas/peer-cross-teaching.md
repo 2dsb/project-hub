@@ -6,11 +6,11 @@ tags: [learning, efficiency, peer-instruction, flow-based-thinking, human-routin
 importance: 0
 connections:
   - type: idea
-    slug: "ai-source-triage"
+    slug: "ai-source-triage"  # auto
   - type: idea
-    slug: "flow-based-thinking"
+    slug: "flow-based-thinking"  # auto
   - type: idea
-    slug: "learning-pipeline"
+    slug: "learning-pipeline"  # auto
 ---
 # Peer Cross-Teaching
 

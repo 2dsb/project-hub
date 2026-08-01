@@ -15,7 +15,7 @@ connections:
 - type: project
   slug: naked-economics
   - type: idea
-    slug: "how-to-understand-price"
+    slug: "how-to-understand-price"  # auto
   - type: idea
     slug: "supply-demand-and-government-policy"  # review: 0.581
   - type: idea

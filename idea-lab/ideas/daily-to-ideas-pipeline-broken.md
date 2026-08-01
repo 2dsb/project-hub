@@ -6,17 +6,17 @@ tags: [process, pipeline, m34, daily-note, idea-extraction]
 importance: 5
 connections:
   - type: idea
-    slug: "m34-source-layer-static-rigidity"
+    slug: "m34-source-layer-static-rigidity"  # auto
   - type: idea
-    slug: "flow-based-thinking"
+    slug: "flow-based-thinking"  # auto
   - type: idea
-    slug: "conversation-as-data-source"
+    slug: "conversation-as-data-source"  # auto
   - type: idea
-    slug: "system-coevolution"
+    slug: "system-coevolution"  # auto
   - type: idea
-    slug: "system-coevolution-p1-data-coverage"
+    slug: "system-coevolution-p1-data-coverage"  # auto
   - type: idea
-    slug: "chat-as-idea-source"
+    slug: "chat-as-idea-source"  # auto
 ---
 # daily→ideas Pipeline Broken: Daily Ideas Not Auto-Extracted
 

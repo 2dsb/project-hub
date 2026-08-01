@@ -18,7 +18,7 @@ connections:
   - type: project
     slug: ai-ability
   - type: idea
-    slug: "technology-domains"
+    slug: "technology-domains"  # auto
 ---
 # Domain Formation
 

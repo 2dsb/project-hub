@@ -6,13 +6,13 @@ tags: [life-design, system-thinking, habit-integration, meta-cognition]
 importance: 0
 connections:
   - type: idea
-    slug: "nature-of-review"
+    slug: "nature-of-review"  # auto
   - type: idea
-    slug: "efficiency-formula"
+    slug: "efficiency-formula"  # auto
   - type: idea
-    slug: "system-coevolution"
+    slug: "system-coevolution"  # auto
   - type: idea
-    slug: "recording-and-questioning-beliefs"
+    slug: "recording-and-questioning-beliefs"  # auto
   - type: idea
     slug: "where-innovation-comes-from"  # review: 0.537
   - type: idea

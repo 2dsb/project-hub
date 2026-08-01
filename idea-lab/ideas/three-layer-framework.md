@@ -24,7 +24,7 @@ connections:
 - type: idea
   slug: residuals-as-honesty-device
   - type: idea
-    slug: "knowledge-reconnection"
+    slug: "knowledge-reconnection"  # auto
 ---
 # Three-Layer Framework as Starting Lens for Reconnection Docs
 

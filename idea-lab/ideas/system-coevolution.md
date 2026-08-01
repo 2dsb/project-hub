@@ -6,41 +6,41 @@ tags: [system-design, coevolution, meta-cognition, feedback-loop, self-improveme
 importance: 0
 connections:
   - type: idea
-    slug: "integrating-fragmented-life-strategies"
+    slug: "integrating-fragmented-life-strategies"  # auto
   - type: idea
-    slug: "nature-of-review"
+    slug: "nature-of-review"  # auto
   - type: idea
-    slug: "system-coevolution-p1"
+    slug: "system-coevolution-p1"  # auto
   - type: idea
-    slug: "system-coevolution-p2"
+    slug: "system-coevolution-p2"  # auto
   - type: idea
-    slug: "system-coevolution-p3"
+    slug: "system-coevolution-p3"  # auto
   - type: idea
-    slug: "system-coevolution-p4"
+    slug: "system-coevolution-p4"  # auto
   - type: idea
-    slug: "system-coevolution-p1-data-coverage"
+    slug: "system-coevolution-p1-data-coverage"  # auto
   - type: idea
-    slug: "system-coevolution-p2-interpretability"
+    slug: "system-coevolution-p2-interpretability"  # auto
   - type: idea
-    slug: "system-coevolution-p3-autonomy-boundary"
+    slug: "system-coevolution-p3-autonomy-boundary"  # auto
   - type: idea
-    slug: "system-coevolution-p4-self-reinforcement"
+    slug: "system-coevolution-p4-self-reinforcement"  # auto
   - type: idea
-    slug: "m34-source-layer-static-rigidity"
+    slug: "m34-source-layer-static-rigidity"  # auto
   - type: idea
-    slug: "conversation-as-data-source"
+    slug: "conversation-as-data-source"  # auto
   - type: idea
-    slug: "daily-to-ideas-pipeline-broken"
+    slug: "daily-to-ideas-pipeline-broken"  # auto
   - type: idea
-    slug: "audit-blind-spot-spec-limitation"
+    slug: "audit-blind-spot-spec-limitation"  # auto
   - type: idea
-    slug: "four-layer-quality-model"
+    slug: "four-layer-quality-model"  # auto
   - type: idea
-    slug: "flow-based-thinking"
+    slug: "flow-based-thinking"  # auto
   - type: idea
-    slug: "integrating-fragmented-life-strategies"
+    slug: "integrating-fragmented-life-strategies"  # auto
   - type: idea
-    slug: "how-to-deal-with-complexity"
+    slug: "how-to-deal-with-complexity"  # auto
 ---
 # System-Human Coevolution
 

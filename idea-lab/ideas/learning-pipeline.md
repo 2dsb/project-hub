@@ -6,15 +6,15 @@ tags: [learning, pipeline, meta-cognition, flow-based-thinking, synthesis]
 importance: 0
 connections:
   - type: idea
-    slug: "flow-based-thinking"
+    slug: "flow-based-thinking"  # auto
   - type: idea
-    slug: "ai-source-triage"
+    slug: "ai-source-triage"  # auto
   - type: idea
-    slug: "peer-cross-teaching"
+    slug: "peer-cross-teaching"  # auto
   - type: project
     slug: "reading-blocker-triage"
   - type: idea
-    slug: "goal-singularity"
+    slug: "goal-singularity"  # auto
   - type: permanent
     slug: "echo-rebuilding-0"
   - type: permanent
@@ -24,13 +24,13 @@ connections:
   - type: permanent
     slug: "echo-rebuilding-5.1"
   - type: idea
-    slug: "knowledge-reconnection"
+    slug: "knowledge-reconnection"  # auto
   - type: idea
-    slug: "locate-first-model-last"
+    slug: "locate-first-model-last"  # auto
   - type: permanent
     slug: "卡片笔记写作法c2.2"
   - type: idea
-    slug: "memorization-in-pipeline"
+    slug: "memorization-in-pipeline"  # auto
 ---
 # Learning Pipeline
 

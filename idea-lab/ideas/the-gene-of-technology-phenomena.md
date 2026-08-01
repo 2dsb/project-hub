@@ -19,21 +19,21 @@ connections:
 - type: project
   slug: ai-ability
   - type: idea
-    slug: "fundamentally-new-technology"
+    slug: "fundamentally-new-technology"  # auto
   - type: idea
-    slug: "three-definitions-of-technology"
+    slug: "three-definitions-of-technology"  # auto
   - type: idea
-    slug: "classification-of-concepts"
+    slug: "classification-of-concepts"  # auto
   - type: idea
-    slug: "general-evolution-of-technology"
+    slug: "general-evolution-of-technology"  # auto
   - type: idea
-    slug: "finding-examples"
+    slug: "finding-examples"  # auto
   - type: idea
-    slug: "technology"
+    slug: "technology"  # auto
   - type: idea
-    slug: "external-and-internal-view-of-technology"
+    slug: "external-and-internal-view-of-technology"  # auto
   - type: idea
-    slug: "reconceptualizing-standard-engineering"
+    slug: "reconceptualizing-standard-engineering"  # auto
   - type: idea
     slug: "evolution-of-phenomena"  # review: 0.591
   - type: idea

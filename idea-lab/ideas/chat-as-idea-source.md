@@ -6,9 +6,9 @@ tags: [idea-capture, social-interaction, methodology]
 importance: 0
 connections:
   - type: idea
-    slug: "conversation-as-data-source"
+    slug: "conversation-as-data-source"  # auto
   - type: idea
-    slug: "daily-to-ideas-pipeline-broken"
+    slug: "daily-to-ideas-pipeline-broken"  # auto
   - type: permanent
     slug: "卡片笔记写作法c3.6"
   - type: permanent

@@ -18,7 +18,7 @@ connections:
   - type: idea
     slug: standard-engineering-refactoring
   - type: idea
-    slug: "reconceptualizing-standard-engineering"
+    slug: "reconceptualizing-standard-engineering"  # auto
 ---
 Standard engineering, also known as technological innovation (in the singular sense) or "design," can be understood as the process of creating a new technology.
 

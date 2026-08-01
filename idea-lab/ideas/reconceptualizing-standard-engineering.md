@@ -22,7 +22,7 @@ connections:
 - type: project
   slug: ai-ability
   - type: idea
-    slug: "fundamentally-new-technology"
+    slug: "fundamentally-new-technology"  # auto
 ---
 # How Does Technological Innovation Happen?
 

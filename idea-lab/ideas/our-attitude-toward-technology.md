@@ -15,13 +15,13 @@ connections:
 - type: idea
   slug: ai-ability
   - type: idea
-    slug: "external-and-internal-view-of-technology"
+    slug: "external-and-internal-view-of-technology"  # auto
   - type: idea
-    slug: "general-evolution-of-technology"
+    slug: "general-evolution-of-technology"  # auto
   - type: idea
-    slug: "technology"
+    slug: "technology"  # auto
   - type: idea
-    slug: "economic-evolution-driven-by-technological-evolution"
+    slug: "economic-evolution-driven-by-technological-evolution"  # auto
   - type: idea
     slug: "characteristics-of-our-era"  # review: 0.593
   - type: idea

@@ -12,11 +12,11 @@ summary: "The only thing we need to do in life is continuously construct and exe
 importance: 0
 connections:
   - type: idea
-    slug: "freedom-exploration-generator"
+    slug: "freedom-exploration-generator"  # auto
   - type: idea
-    slug: "interaction-as-dictionary"
+    slug: "interaction-as-dictionary"  # auto
   - type: idea
-    slug: "knowledge-mastery-two-axis-model"
+    slug: "knowledge-mastery-two-axis-model"  # auto
   - type: idea
     slug: "efficient-thinking"  # review: 0.556
   - type: idea

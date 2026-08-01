@@ -12,11 +12,11 @@ connections:
   - type: project
     slug: "ai-ability"
   - type: idea
-    slug: "flow-based-thinking"
+    slug: "flow-based-thinking"  # auto
   - type: idea
-    slug: "technology-in-the-singular-sense"
+    slug: "technology-in-the-singular-sense"  # auto
   - type: idea
-    slug: "finding-examples"
+    slug: "finding-examples"  # auto
   - type: idea
     slug: "structural-understanding-in-daily-life"  # review: 0.574
   - type: idea

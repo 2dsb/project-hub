@@ -12,7 +12,7 @@ connections:
   - type: project
     slug: "ai-ability"
   - type: idea
-    slug: "integrating-fragmented-life-strategies"
+    slug: "integrating-fragmented-life-strategies"  # auto
   - type: idea
     slug: "8b-deep-reflection"  # review: 0.548
   - type: idea

@@ -6,23 +6,23 @@ tags: [system-design, modeling, decomposition, abstraction, cohesion, coupling, 
 importance: 6
 connections:
   - type: idea
-    slug: "abstraction-barrier-as-dual-perspective-bridge"
+    slug: "abstraction-barrier-as-dual-perspective-bridge"  # auto
   - type: idea
-    slug: "how-to-deal-with-complexity"
+    slug: "how-to-deal-with-complexity"  # auto
   - type: idea
-    slug: "concepts的划分"
+    slug: "concepts的划分"  # auto
   - type: idea
-    slug: "attention-pointer-learning-model"
+    slug: "attention-pointer-learning-model"  # auto
   - type: idea
-    slug: "unified-python-execution-model"
+    slug: "unified-python-execution-model"  # auto
   - type: idea
-    slug: "knowledge-as-dictionary-of-perspectives"
+    slug: "knowledge-as-dictionary-of-perspectives"  # auto
   - type: idea
-    slug: "locate-first-model-last"
+    slug: "locate-first-model-last"  # auto
   - type: idea
-    slug: "reading-modeling-decomposition-tradeoff"
+    slug: "reading-modeling-decomposition-tradeoff"  # auto
   - type: idea
-    slug: "objective-importance-scoring"
+    slug: "objective-importance-scoring"  # auto
 ---
 # Cohesion-Coupling Decomposition Heuristic
 

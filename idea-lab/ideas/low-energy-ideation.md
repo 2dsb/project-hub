@@ -6,11 +6,11 @@ tags: [productivity, low-energy, creativity, self-management]
 importance: 0
 connections:
   - type: idea
-    slug: "behavioral-activation-model"
+    slug: "behavioral-activation-model"  # auto
   - type: idea
-    slug: "illness-reframing"
+    slug: "illness-reframing"  # auto
   - type: idea
-    slug: "efficiency-formula"
+    slug: "efficiency-formula"  # auto
   - type: permanent
     slug: "卡片笔记写作法c3.4"
   - type: permanent

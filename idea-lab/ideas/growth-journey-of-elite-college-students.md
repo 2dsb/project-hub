@@ -30,7 +30,7 @@ connections:
   - type: project
     slug: "ai-ability"
   - type: idea
-    slug: "return-of-college"
+    slug: "return-of-college"  # auto
 ---
 # Elite Family Parents
 ## "Perfect Expectations" for Their Children

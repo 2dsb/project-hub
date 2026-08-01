@@ -13,13 +13,13 @@ connections:
   - type: project
     slug: "ai-ability"
   - type: idea
-    slug: "methodology-change-timing"
+    slug: "methodology-change-timing"  # auto
   - type: idea
-    slug: "completion-vs-quitting"
+    slug: "completion-vs-quitting"  # auto
   - type: idea
-    slug: "behavioral-activation-model"
+    slug: "behavioral-activation-model"  # auto
   - type: idea
-    slug: "breadth-first-trap"
+    slug: "breadth-first-trap"  # auto
   - type: permanent
     slug: "卡片笔记写作法c3.4"
   - type: permanent

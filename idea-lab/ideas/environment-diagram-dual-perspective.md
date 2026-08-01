@@ -17,21 +17,21 @@ connections:
   - type: project
     slug: "cs61a"
   - type: idea
-    slug: "human-machine-code-reading-gap"
+    slug: "human-machine-code-reading-gap"  # auto
   - type: project
     slug: "deep-learning-book"
   - type: idea
-    slug: "unified-python-execution-model"
+    slug: "unified-python-execution-model"  # auto
   - type: idea
-    slug: "call-tree-as-third-perspective"
+    slug: "call-tree-as-third-perspective"  # auto
   - type: idea
-    slug: "name-object-binding-as-perspective"
+    slug: "name-object-binding-as-perspective"  # auto
   - type: idea
-    slug: "abstraction-barrier-as-dual-perspective-bridge"
+    slug: "abstraction-barrier-as-dual-perspective-bridge"  # auto
   - type: idea
-    slug: "knowledge-as-dictionary-of-perspectives"
+    slug: "knowledge-as-dictionary-of-perspectives"  # auto
   - type: idea
-    slug: "data-structure-first-code-reading"
+    slug: "data-structure-first-code-reading"  # auto
 ---
 # Environment Diagram — Dual-Perspective Modeling Framework
 

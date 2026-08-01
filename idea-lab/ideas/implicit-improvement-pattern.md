@@ -6,15 +6,15 @@ tags: [implicit-learning, skill-acquisition, tetrio, english-learning, procedura
 importance: 0
 connections:
   - type: idea
-    slug: "data-pattern-prediction-chain"
+    slug: "data-pattern-prediction-chain"  # auto
   - type: project
     slug: "english-learning"
   - type: idea
-    slug: "timeline-based-project-structure"
+    slug: "timeline-based-project-structure"  # auto
   - type: idea
-    slug: "learning-dynamics"
+    slug: "learning-dynamics"  # auto
   - type: idea
-    slug: "memorization-in-pipeline"
+    slug: "memorization-in-pipeline"  # auto
   - type: idea
     slug: "speed-first-model-second-batch-tradeoff"  # review: 0.550
   - type: idea

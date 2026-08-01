@@ -6,11 +6,11 @@ tags: [learning, ai-amplifier, flow-based-thinking, information-filtering]
 importance: 0
 connections:
   - type: idea
-    slug: "flow-based-thinking"
+    slug: "flow-based-thinking"  # auto
   - type: idea
-    slug: "peer-cross-teaching"
+    slug: "peer-cross-teaching"  # auto
   - type: idea
-    slug: "learning-pipeline"
+    slug: "learning-pipeline"  # auto
   - type: idea
     slug: "x-com-information-source"  # review: 0.561
 ---

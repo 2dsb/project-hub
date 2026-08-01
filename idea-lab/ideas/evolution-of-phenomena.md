@@ -15,7 +15,7 @@ connections:
 - type: project
   slug: ai-ability
   - type: idea
-    slug: "science"
+    slug: "science"  # auto
   - type: idea
     slug: "the-gene-of-technology-phenomena"  # review: 0.591
 ---

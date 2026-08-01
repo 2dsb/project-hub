@@ -12,17 +12,17 @@ tags:
 summary: "The speed-first model-second learning strategy involves rapid raw intake followed by reflective structuring into a dictionary of perspectives. The batch size—how much is learned before modeling—trades off memory decay risk (from the timeline model’s M parameter) against cross-key pattern visibility (from the interaction-as-dictionary model). Small batches minimize decay but overhead, while large batches reveal richer interconnections yet risk decay and willingness depletion. Optimal size depends on M decay rate, knowledge structure density, and modeling cost, currently set intuitively at"
 connections:
   - type: idea
-    slug: "decision-model-as-next-domain-model"
+    slug: "decision-model-as-next-domain-model"  # auto
   - type: idea
-    slug: "interaction-as-dictionary"
+    slug: "interaction-as-dictionary"  # auto
   - type: idea
-    slug: "reading-modeling-decomposition-tradeoff"
+    slug: "reading-modeling-decomposition-tradeoff"  # auto
   - type: idea
-    slug: "data-structure-first-code-reading"
+    slug: "data-structure-first-code-reading"  # auto
   - type: idea
-    slug: "attention-pointer-learning-model"
+    slug: "attention-pointer-learning-model"  # auto
   - type: idea
-    slug: "locate-first-model-last"
+    slug: "locate-first-model-last"  # auto
   - type: idea
     slug: "learning-dynamics"  # review: 0.599
   - type: idea

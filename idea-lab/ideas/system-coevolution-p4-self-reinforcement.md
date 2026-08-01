@@ -6,13 +6,13 @@ tags: [system-coevolution, self-reinforcement, safety, feedback-control]
 importance: 0
 connections:
   - type: idea
-    slug: "system-coevolution"
+    slug: "system-coevolution"  # auto
   - type: idea
-    slug: "system-coevolution-p3-autonomy-boundary"
+    slug: "system-coevolution-p3-autonomy-boundary"  # auto
   - type: idea
-    slug: "audit-blind-spot-spec-limitation"
+    slug: "audit-blind-spot-spec-limitation"  # auto
   - type: idea
-    slug: "four-layer-quality-model"
+    slug: "four-layer-quality-model"  # auto
 ---
 # Coevolution - Problem 4: Preventing Self-Reinforcement in the Wrong Direction
 

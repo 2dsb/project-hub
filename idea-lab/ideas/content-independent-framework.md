@@ -9,21 +9,21 @@ summary: "A content-independent framework, defined by structural criteria rather
 importance: 2
 connections:
   - type: idea
-    slug: "three-layer-framework"
+    slug: "three-layer-framework"  # auto
   - type: idea
-    slug: "reconnection-doc-method"
+    slug: "reconnection-doc-method"  # auto
   - type: idea
-    slug: "checklist-completeness-audit"
+    slug: "checklist-completeness-audit"  # auto
   - type: idea
-    slug: "human-structure-ai-completeness"
+    slug: "human-structure-ai-completeness"  # auto
   - type: idea
-    slug: "operational-criteria-for-classification"
+    slug: "operational-criteria-for-classification"  # auto
   - type: idea
-    slug: "residuals-as-honesty-device"
+    slug: "residuals-as-honesty-device"  # auto
   - type: idea
-    slug: "framework-extraction-pattern"
+    slug: "framework-extraction-pattern"  # auto
   - type: idea
-    slug: "framework-from-data"
+    slug: "framework-from-data"  # auto
   - type: idea
     slug: "reading-modeling-decomposition-tradeoff"  # review: 0.565
   - type: idea

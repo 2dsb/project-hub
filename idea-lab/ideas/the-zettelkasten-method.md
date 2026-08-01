@@ -33,11 +33,11 @@ connections:
   - type: permanent
     slug: "卡片笔记写作法c3.18"
   - type: idea
-    slug: "where-does-innovation-come-from"
+    slug: "where-does-innovation-come-from"  # auto
   - type: idea
-    slug: "ai-ability"
+    slug: "ai-ability"  # auto
   - type: idea
-    slug: "liberal-education-and-the-zettelkasten"
+    slug: "liberal-education-and-the-zettelkasten"  # auto
 ---
 > A simple note-organizing tool and its accompanying method for improving thinking and writing ability. Its goal is to provide an external knowledge base that facilitates thought.
 

@@ -8,7 +8,7 @@ connections:
   - type: skill
     slug: "post-run-stretching"
   - type: idea
-    slug: "timeline-based-project-structure"
+    slug: "timeline-based-project-structure"  # auto
   - type: idea
     slug: "implicit-improvement-pattern"  # review: 0.537
   - type: idea

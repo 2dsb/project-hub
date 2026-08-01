@@ -22,9 +22,9 @@ connections:
 - type: idea
   slug: "classification-of-concepts"
   - type: idea
-    slug: "framework-extraction-pattern"
+    slug: "framework-extraction-pattern"  # auto
   - type: idea
-    slug: "content-independent-framework"
+    slug: "content-independent-framework"  # auto
 ---
 # Build Frameworks from Data, Not Find Data for Frameworks
 

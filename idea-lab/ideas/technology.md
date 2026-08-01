@@ -10,27 +10,27 @@ connections:
   - type: project
     slug: ai-ability
   - type: idea
-    slug: "three-definitions-of-technology"
+    slug: "three-definitions-of-technology"  # auto
   - type: idea
-    slug: "classification-of-concepts"
+    slug: "classification-of-concepts"  # auto
   - type: idea
-    slug: "external-and-internal-view-of-technology"
+    slug: "external-and-internal-view-of-technology"  # auto
   - type: idea
-    slug: "finding-examples"
+    slug: "finding-examples"  # auto
   - type: idea
-    slug: "the-gene-of-technology-phenomena"
+    slug: "the-gene-of-technology-phenomena"  # auto
   - type: idea
-    slug: "our-attitude-toward-technology"
+    slug: "our-attitude-toward-technology"  # auto
   - type: idea
-    slug: "technology-in-the-singular-sense"
+    slug: "technology-in-the-singular-sense"  # auto
   - type: idea
-    slug: "cycle-of-technology"
+    slug: "cycle-of-technology"  # auto
   - type: idea
-    slug: "general-evolution-of-technology"
+    slug: "general-evolution-of-technology"  # auto
   - type: idea
-    slug: "structural-understanding-in-daily-life"
+    slug: "structural-understanding-in-daily-life"  # auto
   - type: idea
-    slug: "new-technology-replacing-old"
+    slug: "new-technology-replacing-old"  # auto
   - type: idea
     slug: "fundamentally-new-technology"  # review: 0.596
   - type: idea

@@ -10,15 +10,15 @@ tags:
 summary: "When performing a task for the first time, the organizing framework must emerge bottom-up from the content because the structure is unknown; the real purpose of that pass is to extract a reusable framework, not merely produce the output. The extracted framework compresses a two-day"
 connections:
   - type: idea
-    slug: "three-layer-framework"
+    slug: "three-layer-framework"  # auto
   - type: idea
-    slug: "reconnection-doc-method"
+    slug: "reconnection-doc-method"  # auto
   - type: idea
-    slug: "content-independent-framework"
+    slug: "content-independent-framework"  # auto
   - type: idea
-    slug: "operational-criteria-for-classification"
+    slug: "operational-criteria-for-classification"  # auto
   - type: idea
-    slug: "framework-from-data"
+    slug: "framework-from-data"  # auto
   - type: idea
     slug: "success-interrogation-heuristic"  # review: 0.579
   - type: idea

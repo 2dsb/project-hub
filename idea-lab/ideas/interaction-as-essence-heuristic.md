@@ -11,13 +11,13 @@ summary: "The Interaction-as-Essence Heuristic shifts modeling from asking what 
 importance: 4
 connections:
   - type: idea
-    slug: "interaction-as-dictionary"
+    slug: "interaction-as-dictionary"  # auto
   - type: idea
-    slug: "three-layer-framework"
+    slug: "three-layer-framework"  # auto
   - type: idea
-    slug: "portal-model"
+    slug: "portal-model"  # auto
   - type: idea
-    slug: "cohesion-coupling-heuristic"
+    slug: "cohesion-coupling-heuristic"  # auto
 ---
 # Interaction-as-Essence Heuristic
 

@@ -8,9 +8,9 @@ connections:
   - type: project
     slug: "english-learning"
   - type: idea
-    slug: "timeline-based-project-structure"
+    slug: "timeline-based-project-structure"  # auto
   - type: idea
-    slug: "vocabulary-priming-before-conversation"
+    slug: "vocabulary-priming-before-conversation"  # auto
 ---
 # Anki Cards from English Conversations
 

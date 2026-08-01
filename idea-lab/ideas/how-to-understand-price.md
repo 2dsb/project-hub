@@ -10,7 +10,7 @@ connections:
   - type: project
     slug: naked-economics
   - type: idea
-    slug: "competitive-markets"
+    slug: "competitive-markets"  # auto
 ---
 Does price emerge spontaneously?
 

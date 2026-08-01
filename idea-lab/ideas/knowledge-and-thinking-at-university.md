@@ -16,7 +16,7 @@ connections:
   - type: project
     slug: ai-ability
   - type: idea
-    slug: "thinking-and-literature"
+    slug: "thinking-and-literature"  # auto
   - type: idea
     slug: "knowledge-mastery-two-axis-model"  # review: 0.585
   - type: idea

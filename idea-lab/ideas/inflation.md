@@ -7,7 +7,7 @@ importance: 1
 connections: []
 connections:
   - type: idea
-    slug: "collapse-of-the-gold-standard"
+    slug: "collapse-of-the-gold-standard"  # auto
 ---
 The government issued "US dollars" and set an exchange ratio between dollars and gold.
 

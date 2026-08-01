@@ -6,9 +6,9 @@ tags: [system-coevolution, emergent-structure, interpretability, clustering]
 importance: 0
 connections:
   - type: idea
-    slug: "system-coevolution"
+    slug: "system-coevolution"  # auto
   - type: idea
-    slug: "four-layer-quality-model"
+    slug: "four-layer-quality-model"  # auto
   - type: idea
     slug: "system-coevolution-p1-data-coverage"  # review: 0.554
   - type: idea

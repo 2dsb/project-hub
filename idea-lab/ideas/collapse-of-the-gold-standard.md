@@ -16,7 +16,7 @@ importance: 1
 connections: []
 connections:
   - type: idea
-    slug: "inflation"
+    slug: "inflation"  # auto
 ---
 - When the amount of dollars in circulation exceeded the gold reserves held in banks, foreign entities redeemed dollars for gold, triggering inflation;
 - In response, the government issued an order closing the exchange window to foreigners, prohibiting them from converting dollars into gold

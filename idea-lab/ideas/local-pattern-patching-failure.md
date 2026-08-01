@@ -27,7 +27,7 @@ connections:
 - type: idea
   slug: three-layer-framework
   - type: idea
-    slug: "structural-patience"
+    slug: "structural-patience"  # auto
 ---
 # Local Patterns Cannot Be Generalized Through Continuous Patching
 

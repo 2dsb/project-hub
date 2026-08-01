@@ -6,17 +6,17 @@ tags: [cs61a, recursion, program-execution, environment-diagram, mental-model, v
 importance: 7
 connections:
   - type: idea
-    slug: "environment-diagram-dual-perspective"
+    slug: "environment-diagram-dual-perspective"  # auto
   - type: idea
-    slug: "human-machine-code-reading-gap"
+    slug: "human-machine-code-reading-gap"  # auto
   - type: project
     slug: "cs61a"
   - type: idea
-    slug: "unified-python-execution-model"
+    slug: "unified-python-execution-model"  # auto
   - type: idea
-    slug: "name-object-binding-as-perspective"
+    slug: "name-object-binding-as-perspective"  # auto
   - type: idea
-    slug: "knowledge-as-dictionary-of-perspectives"
+    slug: "knowledge-as-dictionary-of-perspectives"  # auto
   - type: idea
     slug: "data-structure-first-code-reading"  # review: 0.569
 ---

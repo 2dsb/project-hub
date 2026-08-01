@@ -55,10 +55,10 @@ def write_connections(suggestions_path: Path, dry_run: bool = False) -> dict:
                 continue
 
             if sug["score"] >= HIGH_CONFIDENCE:
-                new_lines.append(f'  - type: idea\n    slug: "{sug["slug"]}"')
+                new_lines.append(f'  - type: idea\n    slug: "{sug["slug"]}"  # auto')
                 stats["written_high"] += 1
             else:
-                new_lines.append(f'  - type: idea\n    slug: "{sug["slug"]}"  # review: {sug["score"]:.3f}')
+                new_lines.append(f'  - type: idea\n    slug: "{sug["slug"]}"  # auto, review: {sug["score"]:.3f}')
                 stats["written_low"] += 1
 
         if not new_lines:

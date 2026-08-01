@@ -14,23 +14,23 @@ summary: "Every knowledge point is a dictionary mapping interaction contexts to 
 importance: 9
 connections:
   - type: idea
-    slug: "interaction-as-essence-heuristic"
+    slug: "interaction-as-essence-heuristic"  # auto
   - type: idea
-    slug: "strategy-three-component-model"
+    slug: "strategy-three-component-model"  # auto
   - type: idea
-    slug: "knowledge-as-dictionary-of-perspectives"
+    slug: "knowledge-as-dictionary-of-perspectives"  # auto
   - type: idea
-    slug: "three-layer-framework"
+    slug: "three-layer-framework"  # auto
   - type: idea
-    slug: "portal-model"
+    slug: "portal-model"  # auto
   - type: idea
-    slug: "cohesion-coupling-heuristic"
+    slug: "cohesion-coupling-heuristic"  # auto
   - type: idea
-    slug: "attention-pointer-learning-model"
+    slug: "attention-pointer-learning-model"  # auto
   - type: idea
-    slug: "locate-first-model-last"
+    slug: "locate-first-model-last"  # auto
   - type: idea
-    slug: "object-attribute-migration"
+    slug: "object-attribute-migration"  # auto
   - type: idea
     slug: "connection-reading"  # review: 0.549
 ---

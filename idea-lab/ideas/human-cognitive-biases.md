@@ -20,7 +20,7 @@ connections:
   - type: permanent
     slug: "卡片笔记写作法c3.12"
   - type: idea
-    slug: "the-zettelkasten-method"
+    slug: "the-zettelkasten-method"  # auto
   - type: project
     slug: "ai-ability"
   - type: idea

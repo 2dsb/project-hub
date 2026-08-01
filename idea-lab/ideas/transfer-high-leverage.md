@@ -11,17 +11,17 @@ summary: "Transfer, applying an abstract structure from one domain to another, i
 importance: 0
 connections:
   - type: idea
-    slug: "knowledge-reconnection"
+    slug: "knowledge-reconnection"  # auto
   - type: project
     slug: "english-learning"
   - type: project
     slug: "physics"
   - type: idea
-    slug: "analogical-transfer-conditions"
+    slug: "analogical-transfer-conditions"  # auto
   - type: idea
-    slug: "freedom-exploration-generator"
+    slug: "freedom-exploration-generator"  # auto
   - type: idea
-    slug: "knowledge-transfer-fidelity"
+    slug: "knowledge-transfer-fidelity"  # auto
   - type: idea
     slug: "learning-dynamics"  # review: 0.599
   - type: idea

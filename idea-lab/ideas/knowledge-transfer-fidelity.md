@@ -8,13 +8,13 @@ connections:
   - type: project
     slug: "linguistic-structure-analysis"
   - type: idea
-    slug: "analogical-transfer-conditions"
+    slug: "analogical-transfer-conditions"  # auto
   - type: idea
-    slug: "conversation-breadth-vs-depth"
+    slug: "conversation-breadth-vs-depth"  # auto
   - type: idea
-    slug: "clarity-as-universal-principle"
+    slug: "clarity-as-universal-principle"  # auto
   - type: idea
-    slug: "transfer-high-leverage"
+    slug: "transfer-high-leverage"  # auto
 ---
 # The Fidelity Problem in Knowledge Transfer
 

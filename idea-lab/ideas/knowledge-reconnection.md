@@ -12,19 +12,19 @@ connections:
   - type: project
     slug: "ai-ability"
   - type: idea
-    slug: "behavioral-activation-model"
+    slug: "behavioral-activation-model"  # auto
   - type: idea
-    slug: "illness-reframing"
+    slug: "illness-reframing"  # auto
   - type: idea
-    slug: "learning-pipeline"
+    slug: "learning-pipeline"  # auto
   - type: project
     slug: "deep-learning-book"
   - type: idea
-    slug: "transfer-high-leverage"
+    slug: "transfer-high-leverage"  # auto
   - type: idea
-    slug: "reconnection-doc-method"
+    slug: "reconnection-doc-method"  # auto
   - type: idea
-    slug: "three-layer-framework"
+    slug: "three-layer-framework"  # auto
 ---
 # Knowledge Reconnection Mechanism
 

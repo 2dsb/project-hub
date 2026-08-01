@@ -6,9 +6,9 @@ tags: [system-coevolution, autonomy, self-modification, trust]
 importance: 0
 connections:
   - type: idea
-    slug: "system-coevolution"
+    slug: "system-coevolution"  # auto
   - type: idea
-    slug: "system-coevolution-p4-self-reinforcement"
+    slug: "system-coevolution-p4-self-reinforcement"  # auto
   - type: idea
     slug: "m34-source-layer-static-rigidity"  # review: 0.580
 ---

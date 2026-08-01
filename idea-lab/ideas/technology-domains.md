@@ -18,7 +18,7 @@ connections:
   - type: project
     slug: ai-ability
   - type: idea
-    slug: "how-domains-evolve"
+    slug: "how-domains-evolve"  # auto
 ---
 # Domains: Clusters of Technology
 

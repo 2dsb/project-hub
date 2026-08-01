@@ -6,7 +6,7 @@ tags: [social, conversation, networking, algorithm, ice-breaking]
 importance: 8
 connections:
   - type: idea
-    slug: "four-step-networking-method"
+    slug: "four-step-networking-method"  # auto
 ---
 # The Stranger Conversation Loop
 

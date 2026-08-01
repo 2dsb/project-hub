@@ -17,7 +17,7 @@ connections:
   - type: project
     slug: naked-economics
   - type: idea
-    slug: "absolute-advantage-and-comparative-advantage"
+    slug: "absolute-advantage-and-comparative-advantage"  # auto
 ---
 # Definition
 

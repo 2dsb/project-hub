@@ -8,9 +8,9 @@ connections:
   - type: project
     slug: "english-learning"
   - type: idea
-    slug: "vocabulary-priming-before-conversation"
+    slug: "vocabulary-priming-before-conversation"  # auto
   - type: idea
-    slug: "implicit-improvement-pattern"
+    slug: "implicit-improvement-pattern"  # auto
 ---
 # English Comfort Zone Vocabulary
 

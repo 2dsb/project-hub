@@ -8,9 +8,9 @@ connections:
   - type: project
     slug: "ai-ability"
   - type: idea
-    slug: "flow-based-thinking"
+    slug: "flow-based-thinking"  # auto
   - type: idea
-    slug: "system-coevolution"
+    slug: "system-coevolution"  # auto
   - type: permanent
     slug: "卡片笔记写作法c1.3"
   - type: permanent

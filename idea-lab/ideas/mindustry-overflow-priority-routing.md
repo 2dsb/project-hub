@@ -11,9 +11,9 @@ summary: "In Mindustry, priority routing for resource distribution—such as sup
 importance: 0
 connections:
   - type: idea
-    slug: "mindustry-resource-routing"
+    slug: "mindustry-resource-routing"  # auto
   - type: idea
-    slug: "flow-based-thinking"
+    slug: "flow-based-thinking"  # auto
 ---
 # Mindustry Overflow Gate Priority Routing
 

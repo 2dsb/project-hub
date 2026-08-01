@@ -28,7 +28,7 @@ connections:
   - type: permanent
     slug: "优秀的绵羊c9.6"
   - type: idea
-    slug: "liberal-arts-education-and-art"
+    slug: "liberal-arts-education-and-art"  # auto
   - type: project
     slug: "gaokao-chinese"
   - type: idea

@@ -27,11 +27,11 @@ connections:
   - type: project
     slug: gaokao-chinese
   - type: idea
-    slug: "social-responsibility-of-outstanding-students"
+    slug: "social-responsibility-of-outstanding-students"  # auto
   - type: idea
-    slug: "growth-journey-of-elite-college-students"
+    slug: "growth-journey-of-elite-college-students"  # auto
   - type: idea
-    slug: "my-relationship-with-others-and-society"
+    slug: "my-relationship-with-others-and-society"  # auto
   - type: idea
     slug: "characteristics-of-excellent-universities"  # review: 0.586
   - type: idea

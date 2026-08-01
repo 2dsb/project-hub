@@ -6,13 +6,13 @@ tags: [system-design, coevolution, m34, data-source, rigidity, architecture]
 importance: 7
 connections:
   - type: idea
-    slug: "system-coevolution-p1-data-coverage"
+    slug: "system-coevolution-p1-data-coverage"  # auto
   - type: idea
-    slug: "conversation-as-data-source"
+    slug: "conversation-as-data-source"  # auto
   - type: idea
-    slug: "system-coevolution"
+    slug: "system-coevolution"  # auto
   - type: idea
-    slug: "daily-to-ideas-pipeline-broken"
+    slug: "daily-to-ideas-pipeline-broken"  # auto
   - type: idea
     slug: "system-coevolution-p3-autonomy-boundary"  # review: 0.580
 ---

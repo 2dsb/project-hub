@@ -6,7 +6,7 @@ tags: [human-nature, time, justice, punishment]
 importance: 1
 connections:
   - type: idea
-    slug: "completion-vs-quitting"
+    slug: "completion-vs-quitting"  # auto
 ---
 People change over time. Should past feelings extend to the present person? Should the present person extend to the future person?
 

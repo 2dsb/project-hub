@@ -13,9 +13,9 @@ connections:
 - type: project
   slug: "ai-ability"
   - type: idea
-    slug: "general-evolution-of-technology"
+    slug: "general-evolution-of-technology"  # auto
   - type: idea
-    slug: "economic-evolution-driven-by-technological-evolution"
+    slug: "economic-evolution-driven-by-technological-evolution"  # auto
 ---
 Can it be understood as an optimizing occupation of an opportunity niche?
 

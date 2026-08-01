@@ -32,7 +32,7 @@ connections:
   - type: idea
     slug: ai-ability
   - type: idea
-    slug: "origin-of-critical-dissatisfaction"
+    slug: "origin-of-critical-dissatisfaction"  # auto
 ---
 In notes 6, 7, and 8, others and society influence the self in two ways:
 

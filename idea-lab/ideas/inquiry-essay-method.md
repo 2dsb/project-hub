@@ -11,7 +11,7 @@ summary: "The inquiry-based essay method starts by exhausting a concept's concep
 importance: 0
 connections:
   - type: idea
-    slug: "reading-writing-unity"
+    slug: "reading-writing-unity"  # auto
   - type: project
     slug: "ai-ability"
   - type: permanent
@@ -23,11 +23,11 @@ connections:
   - type: permanent
     slug: "echo-rebuilding-5.1"
   - type: idea
-    slug: "connection-reading"
+    slug: "connection-reading"  # auto
   - type: idea
-    slug: "clarity-as-universal-principle"
+    slug: "clarity-as-universal-principle"  # auto
   - type: idea
-    slug: "class-9-writing"
+    slug: "class-9-writing"  # auto
   - type: permanent
     slug: "卡片笔记写作法c1.1"
   - type: permanent

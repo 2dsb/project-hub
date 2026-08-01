@@ -6,29 +6,29 @@ tags: [learning, modeling, attention, memory, abstraction, pointer-metaphor, rea
 importance: 8
 connections:
   - type: idea
-    slug: "timeline-based-project-structure"
+    slug: "timeline-based-project-structure"  # auto
   - type: idea
-    slug: "cohesion-coupling-decomposition-heuristic"
+    slug: "cohesion-coupling-decomposition-heuristic"  # auto
   - type: idea
-    slug: "reading-modeling-decomposition-tradeoff"
+    slug: "reading-modeling-decomposition-tradeoff"  # auto
   - type: idea
-    slug: "breadth-first-trap"
+    slug: "breadth-first-trap"  # auto
   - type: idea
-    slug: "attention-as-bottleneck"
+    slug: "attention-as-bottleneck"  # auto
   - type: idea
-    slug: "goal-singularity"
+    slug: "goal-singularity"  # auto
   - type: idea
-    slug: "structural-patience"
+    slug: "structural-patience"  # auto
   - type: idea
-    slug: "locate-first-model-last"
+    slug: "locate-first-model-last"  # auto
   - type: idea
-    slug: "knowledge-as-dictionary-of-perspectives"
+    slug: "knowledge-as-dictionary-of-perspectives"  # auto
   - type: project
     slug: "cs61a"
   - type: idea
-    slug: "speed-first-model-second-batch-tradeoff"
+    slug: "speed-first-model-second-batch-tradeoff"  # auto
   - type: idea
-    slug: "learning-dynamics"
+    slug: "learning-dynamics"  # auto
   - type: idea
     slug: "memorization-in-pipeline"  # review: 0.590
 ---

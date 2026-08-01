@@ -7,7 +7,7 @@ importance: 1
 connections: []
 connections:
   - type: idea
-    slug: "return-of-college"
+    slug: "return-of-college"  # auto
   - type: idea
     slug: "characteristics-of-excellent-universities"  # review: 0.578
   - type: idea

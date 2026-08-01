@@ -17,7 +17,7 @@ connections:
 - type: project
   slug: naked-economics
   - type: idea
-    slug: "international-trade"
+    slug: "international-trade"  # auto
 ---
 # Definition
 Absolute advantage: the ability of a producer to produce a good using fewer inputs than another producer

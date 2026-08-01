@@ -18,13 +18,13 @@ connections:
 - type: project
   slug: ai-ability
   - type: idea
-    slug: "reconceptualizing-standard-engineering"
+    slug: "reconceptualizing-standard-engineering"  # auto
   - type: idea
-    slug: "standard-engineering"
+    slug: "standard-engineering"  # auto
   - type: idea
-    slug: "cycle-of-technology"
+    slug: "cycle-of-technology"  # auto
   - type: idea
-    slug: "the-gene-of-technology-phenomena"
+    slug: "the-gene-of-technology-phenomena"  # auto
 ---
 Standard engineering understands new technology as iterative updates on existing technology, forming a "Darwinian" process.
 

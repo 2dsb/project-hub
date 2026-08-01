@@ -14,7 +14,7 @@ connections:
   - type: project
     slug: gaokao-chinese
   - type: idea
-    slug: "liberal-arts-education-and-art"
+    slug: "liberal-arts-education-and-art"  # auto
 ---
 The humanities and the arts are, at their core, about cultivating the capacity for thought through the wisdom of past thinkers. Those who live below the execution line are powerless to change their own circumstances, so the responsibility for changing this reality falls on the "leadership class."
 

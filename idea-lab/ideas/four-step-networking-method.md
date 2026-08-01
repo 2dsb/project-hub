@@ -6,7 +6,7 @@ tags: [networking, social-skills, methodology, communication, mentorship]
 importance: 9
 connections:
   - type: idea
-    slug: "university-two-pillar-strategy"
+    slug: "university-two-pillar-strategy"  # auto
   - type: idea
     slug: "stranger-conversation-loop"  # review: 0.506
 ---

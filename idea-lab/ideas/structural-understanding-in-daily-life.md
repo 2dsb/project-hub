@@ -6,17 +6,17 @@ tags: [structural-analysis, theory-building, concept-organization]
 importance: 2
 connections:
   - type: idea
-    slug: "framework-from-data"
+    slug: "framework-from-data"  # auto
   - type: idea
-    slug: "flow-based-thinking"
+    slug: "flow-based-thinking"  # auto
   - type: idea
-    slug: "external-and-internal-view-of-technology"
+    slug: "external-and-internal-view-of-technology"  # auto
   - type: idea
-    slug: "technology-in-the-singular-sense"
+    slug: "technology-in-the-singular-sense"  # auto
   - type: idea
-    slug: "technology"
+    slug: "technology"  # auto
   - type: idea
-    slug: "classification-of-concepts"
+    slug: "classification-of-concepts"  # auto
   - type: idea
     slug: "finding-examples"  # review: 0.587
   - type: idea

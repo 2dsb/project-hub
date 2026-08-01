@@ -6,19 +6,19 @@ tags: [principle, clarity, writing, methodology, communication]
 importance: 0
 connections:
   - type: idea
-    slug: "natural-language-narration-methodology"
+    slug: "natural-language-narration-methodology"  # auto
   - type: idea
-    slug: "goal-singularity"
+    slug: "goal-singularity"  # auto
   - type: idea
-    slug: "connection-reading"
+    slug: "connection-reading"  # auto
   - type: idea
-    slug: "inquiry-essay-method"
+    slug: "inquiry-essay-method"  # auto
   - type: idea
-    slug: "knowledge-transfer-fidelity"
+    slug: "knowledge-transfer-fidelity"  # auto
   - type: idea
-    slug: "conversation-breadth-vs-depth"
+    slug: "conversation-breadth-vs-depth"  # auto
   - type: idea
-    slug: "domain-power-and-perspective-taking"
+    slug: "domain-power-and-perspective-taking"  # auto
   - type: permanent
     slug: "卡片笔记写作法c3.6"
   - type: permanent

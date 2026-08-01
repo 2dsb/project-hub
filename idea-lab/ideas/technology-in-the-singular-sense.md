@@ -30,31 +30,31 @@ connections:
 - type: project
   slug: ai-ability
   - type: idea
-    slug: "finding-examples"
+    slug: "finding-examples"  # auto
   - type: idea
-    slug: "the-gene-of-technology-phenomena"
+    slug: "the-gene-of-technology-phenomena"  # auto
   - type: idea
-    slug: "external-and-internal-view-of-technology"
+    slug: "external-and-internal-view-of-technology"  # auto
   - type: idea
-    slug: "classification-of-concepts"
+    slug: "classification-of-concepts"  # auto
   - type: idea
-    slug: "broad-and-narrow-technology"
+    slug: "broad-and-narrow-technology"  # auto
   - type: idea
-    slug: "understanding-software-at-technical-level"
+    slug: "understanding-software-at-technical-level"  # auto
   - type: idea
-    slug: "technology-domains"
+    slug: "technology-domains"  # auto
   - type: idea
-    slug: "standard-engineering"
+    slug: "standard-engineering"  # auto
   - type: idea
-    slug: "fundamentally-new-technology"
+    slug: "fundamentally-new-technology"  # auto
   - type: idea
-    slug: "cycle-of-technology"
+    slug: "cycle-of-technology"  # auto
   - type: idea
-    slug: "structural-understanding-in-daily-life"
+    slug: "structural-understanding-in-daily-life"  # auto
   - type: idea
-    slug: "technology"
+    slug: "technology"  # auto
   - type: idea
-    slug: "reconceptualizing-standard-engineering"
+    slug: "reconceptualizing-standard-engineering"  # auto
   - type: idea
     slug: "general-evolution-of-technology"  # review: 0.585
   - type: idea

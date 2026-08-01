@@ -10,21 +10,21 @@ summary: "The Three-Layer Classification Method for Reconnection Docs applies th
 importance: 3
 connections:
   - type: idea
-    slug: "three-layer-framework"
+    slug: "three-layer-framework"  # auto
   - type: idea
-    slug: "knowledge-reconnection"
+    slug: "knowledge-reconnection"  # auto
   - type: idea
-    slug: "four-layer-quality-model"
+    slug: "four-layer-quality-model"  # auto
   - type: idea
-    slug: "checklist-completeness-audit"
+    slug: "checklist-completeness-audit"  # auto
   - type: idea
-    slug: "content-independent-framework"
+    slug: "content-independent-framework"  # auto
   - type: idea
-    slug: "human-structure-ai-completeness"
+    slug: "human-structure-ai-completeness"  # auto
   - type: idea
-    slug: "residuals-as-honesty-device"
+    slug: "residuals-as-honesty-device"  # auto
   - type: idea
-    slug: "structural-patience"
+    slug: "structural-patience"  # auto
   - type: idea
     slug: "transfer-high-leverage"  # review: 0.554
   - type: idea

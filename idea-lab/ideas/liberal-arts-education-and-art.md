@@ -26,9 +26,9 @@ connections:
   - type: project
     slug: gaokao-chinese
   - type: idea
-    slug: "liberal-arts-perspective-on-the-execution-line"
+    slug: "liberal-arts-perspective-on-the-execution-line"  # auto
   - type: idea
-    slug: "liberal-education-and-the-zettelkasten"
+    slug: "liberal-education-and-the-zettelkasten"  # auto
 ---
 # Liberal Arts Education
 

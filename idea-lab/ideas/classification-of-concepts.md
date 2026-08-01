@@ -6,23 +6,23 @@ tags: ["concept-analysis", "classification-methods", "essence-of-technology"]
 importance: 1
 connections:
   - type: idea
-    slug: "framework-from-data"
+    slug: "framework-from-data"  # auto
   - type: idea
-    slug: "three-definitions-of-technology"
+    slug: "three-definitions-of-technology"  # auto
   - type: idea
-    slug: "technology"
+    slug: "technology"  # auto
   - type: idea
-    slug: "finding-examples"
+    slug: "finding-examples"  # auto
   - type: idea
-    slug: "technology-in-the-singular-sense"
+    slug: "technology-in-the-singular-sense"  # auto
   - type: idea
-    slug: "the-gene-of-technology-phenomena"
+    slug: "the-gene-of-technology-phenomena"  # auto
   - type: idea
-    slug: "external-and-internal-view-of-technology"
+    slug: "external-and-internal-view-of-technology"  # auto
   - type: idea
-    slug: "perspective-classification"
+    slug: "perspective-classification"  # auto
   - type: idea
-    slug: "structural-understanding-in-daily-life"
+    slug: "structural-understanding-in-daily-life"  # auto
   - type: idea
     slug: "our-attitude-toward-technology"  # review: 0.583
   - type: idea

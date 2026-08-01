@@ -22,7 +22,7 @@ connections:
   - type: idea
     slug: interaction-as-dictionary
   - type: idea
-    slug: "transfer-high-leverage"
+    slug: "transfer-high-leverage"  # auto
   - type: idea
     slug: "speed-first-model-second-batch-tradeoff"  # review: 0.593
   - type: idea

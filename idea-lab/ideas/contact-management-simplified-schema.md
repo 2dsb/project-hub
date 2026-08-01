@@ -6,9 +6,9 @@ tags: [people-map, contact-management, simplification, design-decision, data-mod
 importance: 7
 connections:
   - type: idea
-    slug: "four-step-networking-method"
+    slug: "four-step-networking-method"  # auto
   - type: idea
-    slug: "contact-management"
+    slug: "contact-management"  # auto
 ---
 # Contact Management Simplified: 4-Field Schema
 

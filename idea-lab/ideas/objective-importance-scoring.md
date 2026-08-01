@@ -6,15 +6,15 @@ tags: [meta-cognition, importance-scoring, idea-evaluation, m33, cross-axis, sys
 importance: 8
 connections:
   - type: idea
-    slug: "knowledge-as-dictionary-of-perspectives"
+    slug: "knowledge-as-dictionary-of-perspectives"  # auto
   - type: idea
-    slug: "four-layer-quality-model"
+    slug: "four-layer-quality-model"  # auto
   - type: idea
-    slug: "cohesion-coupling-decomposition-heuristic"
+    slug: "cohesion-coupling-decomposition-heuristic"  # auto
   - type: idea
-    slug: "system-coevolution"
+    slug: "system-coevolution"  # auto
   - type: idea
-    slug: "audit-blind-spot-spec-limitation"
+    slug: "audit-blind-spot-spec-limitation"  # auto
   - type: project
     slug: "project-hub"
 ---

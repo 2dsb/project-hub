@@ -24,7 +24,7 @@ connections:
   - type: idea
     slug: learning-pipeline
   - type: idea
-    slug: "speed-first-model-second-batch-tradeoff"
+    slug: "speed-first-model-second-batch-tradeoff"  # auto
 ---
 # Locate-First, Model-Last — A Learning Paradigm Shift
 

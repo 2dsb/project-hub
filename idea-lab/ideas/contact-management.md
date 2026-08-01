@@ -12,7 +12,7 @@ connections:
   - type: project
     slug: ai-ability
   - type: idea
-    slug: "contact-management-simplified-schema"
+    slug: "contact-management-simplified-schema"  # auto
 ---
 # Contact Management System
 

@@ -6,9 +6,9 @@ tags: [abstraction, learning, pattern-recognition, prediction, cognitive-pipelin
 importance: 0
 connections:
   - type: idea
-    slug: "learning-pipeline"
+    slug: "learning-pipeline"  # auto
   - type: idea
-    slug: "flow-based-thinking"
+    slug: "flow-based-thinking"  # auto
   - type: idea
     slug: "human-machine-code-reading-gap"  # review: 0.556
   - type: idea

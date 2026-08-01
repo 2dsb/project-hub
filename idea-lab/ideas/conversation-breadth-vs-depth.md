@@ -8,9 +8,9 @@ connections:
   - type: project
     slug: "ai-ability"
   - type: idea
-    slug: "knowledge-transfer-fidelity"
+    slug: "knowledge-transfer-fidelity"  # auto
   - type: idea
-    slug: "clarity-as-universal-principle"
+    slug: "clarity-as-universal-principle"  # auto
   - type: idea
     slug: "conversation-topic-flow"  # review: 0.578
 ---

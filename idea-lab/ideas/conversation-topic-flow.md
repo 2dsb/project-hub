@@ -6,7 +6,7 @@ tags: [conversation, topic-flow, structure, interaction-dynamics, dialogue]
 importance: 0
 connections:
   - type: idea
-    slug: "flow-based-thinking"
+    slug: "flow-based-thinking"  # auto
   - type: idea
     slug: "conversation-breadth-vs-depth"  # review: 0.578
   - type: idea

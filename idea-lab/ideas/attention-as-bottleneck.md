@@ -6,11 +6,11 @@ tags: [attention, bottleneck, single-threading, goal-singularity, learning-desig
 importance: 0
 connections:
   - type: idea
-    slug: "goal-singularity"
+    slug: "goal-singularity"  # auto
   - type: idea
-    slug: "timeline-based-project-structure"
+    slug: "timeline-based-project-structure"  # auto
   - type: idea
-    slug: "attention-pointer-learning-model"
+    slug: "attention-pointer-learning-model"  # auto
   - type: idea
     slug: "willingness-experiment"  # review: 0.562
   - type: idea

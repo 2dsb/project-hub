@@ -6,27 +6,27 @@ tags: [knowledge-representation, multi-perspective, deep-learning, vector-embedd
 importance: 9
 connections:
   - type: idea
-    slug: "interaction-as-dictionary"
+    slug: "interaction-as-dictionary"  # auto
   - type: idea
-    slug: "cohesion-coupling-decomposition-heuristic"
+    slug: "cohesion-coupling-decomposition-heuristic"  # auto
   - type: idea
-    slug: "environment-diagram-dual-perspective"
+    slug: "environment-diagram-dual-perspective"  # auto
   - type: idea
-    slug: "unified-python-execution-model"
+    slug: "unified-python-execution-model"  # auto
   - type: idea
-    slug: "attention-pointer-learning-model"
+    slug: "attention-pointer-learning-model"  # auto
   - type: idea
-    slug: "locate-first-model-last"
+    slug: "locate-first-model-last"  # auto
   - type: idea
-    slug: "objective-importance-scoring"
+    slug: "objective-importance-scoring"  # auto
   - type: idea
-    slug: "four-layer-quality-model"
+    slug: "four-layer-quality-model"  # auto
   - type: project
     slug: "deep-learning-book"
   - type: idea
-    slug: "space-as-perspective"
+    slug: "space-as-perspective"  # auto
   - type: idea
-    slug: "perspective-classification"
+    slug: "perspective-classification"  # auto
   - type: idea
     slug: "object-attribute-migration"  # review: 0.518
 ---

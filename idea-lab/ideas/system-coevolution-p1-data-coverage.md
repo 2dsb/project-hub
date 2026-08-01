@@ -6,13 +6,13 @@ tags: [system-coevolution, data-model, meta-cognition, time-axis]
 importance: 0
 connections:
   - type: idea
-    slug: "system-coevolution"
+    slug: "system-coevolution"  # auto
   - type: idea
-    slug: "conversation-as-data-source"
+    slug: "conversation-as-data-source"  # auto
   - type: idea
-    slug: "m34-source-layer-static-rigidity"
+    slug: "m34-source-layer-static-rigidity"  # auto
   - type: idea
-    slug: "daily-to-ideas-pipeline-broken"
+    slug: "daily-to-ideas-pipeline-broken"  # auto
   - type: idea
     slug: "system-coevolution-p2-interpretability"  # review: 0.554
 ---

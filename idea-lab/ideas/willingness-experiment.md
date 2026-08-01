@@ -6,9 +6,9 @@ tags: [experiment, meta-cognition, willingness, decision-making, project-managem
 importance: 0
 connections:
   - type: idea
-    slug: "timeline-based-project-structure"
+    slug: "timeline-based-project-structure"  # auto
   - type: idea
-    slug: "deep-work-recovery-cycle"
+    slug: "deep-work-recovery-cycle"  # auto
 ---
 # Willingness Experiment: Continue vs. Switch
 

@@ -12,7 +12,7 @@ connections:
   - type: project
     slug: daily-exercise
   - type: idea
-    slug: "willingness-experiment"
+    slug: "willingness-experiment"  # auto
 ---
 # Timeline-Based Project Structure
 

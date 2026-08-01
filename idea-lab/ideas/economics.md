@@ -13,7 +13,7 @@ connections:
   - type: project
     slug: "naked-economics"
   - type: idea
-    slug: "economic-evolution-driven-by-technological-evolution"
+    slug: "economic-evolution-driven-by-technological-evolution"  # auto
 ---
 The economy as a purposeful system — can its evolution, along with that of technology in the narrow sense, be characterized through [[36 一般意义上技术的演化]]?
 

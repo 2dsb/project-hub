@@ -10,11 +10,11 @@ tags:
 summary: "The next non-specialist domain model to develop is a decision model, which determines what action"
 connections:
   - type: idea
-    slug: "timeline-based-project-structure"
+    slug: "timeline-based-project-structure"  # auto
   - type: idea
-    slug: "leverage-existing-vs-build-from-scratch"
+    slug: "leverage-existing-vs-build-from-scratch"  # auto
   - type: idea
-    slug: "precision-fuzziness-tradeoff"
+    slug: "precision-fuzziness-tradeoff"  # auto
   - type: idea
     slug: "strategy-three-component-model"  # review: 0.530
 ---

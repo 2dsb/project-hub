@@ -16,7 +16,7 @@ connections:
   - type: project
     slug: ai-ability
   - type: idea
-    slug: "my-relationship-with-others-and-society"
+    slug: "my-relationship-with-others-and-society"  # auto
 ---
 Compare two types of people: one is swayed by common sense, the other recognizes, questions, and thinks about common sense from new angles.
 What does the former become in real life? And the latter?

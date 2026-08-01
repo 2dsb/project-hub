@@ -12,11 +12,11 @@ connections:
   - type: project
     slug: naked-economics
   - type: idea
-    slug: "general-evolution-of-technology"
+    slug: "general-evolution-of-technology"  # auto
   - type: idea
-    slug: "new-technology-replacing-old"
+    slug: "new-technology-replacing-old"  # auto
   - type: idea
-    slug: "economics"
+    slug: "economics"  # auto
 ---
 # Two Views of the Economy
 

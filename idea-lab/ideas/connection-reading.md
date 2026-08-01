@@ -11,13 +11,13 @@ summary: "Connection-Oriented Reading reconceives reading as collecting constrai
 importance: 0
 connections:
   - type: idea
-    slug: "reading-writing-unity"
+    slug: "reading-writing-unity"  # auto
   - type: idea
-    slug: "inquiry-essay-method"
+    slug: "inquiry-essay-method"  # auto
   - type: idea
-    slug: "clarity-as-universal-principle"
+    slug: "clarity-as-universal-principle"  # auto
   - type: idea
-    slug: "natural-language-narration-methodology"
+    slug: "natural-language-narration-methodology"  # auto
   - type: project
     slug: "ai-ability"
   - type: idea

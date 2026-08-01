@@ -10,17 +10,17 @@ summary: "Structural patience is the principle that structural categories should
 importance: 0
 connections:
   - type: idea
-    slug: "knowledge-reconnection"
+    slug: "knowledge-reconnection"  # auto
   - type: idea
-    slug: "learning-pipeline"
+    slug: "learning-pipeline"  # auto
   - type: idea
-    slug: "locate-first-model-last"
+    slug: "locate-first-model-last"  # auto
   - type: idea
-    slug: "attention-pointer-learning-model"
+    slug: "attention-pointer-learning-model"  # auto
   - type: idea
-    slug: "local-pattern-patching-failure"
+    slug: "local-pattern-patching-failure"  # auto
   - type: idea
-    slug: "reconnection-doc-method"
+    slug: "reconnection-doc-method"  # auto
   - type: idea
     slug: "memorization-in-pipeline"  # review: 0.596
   - type: idea

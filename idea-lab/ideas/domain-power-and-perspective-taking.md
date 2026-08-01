@@ -11,7 +11,7 @@ connections:
   - type: project
     slug: "ai-ability"
   - type: idea
-    slug: "clarity-as-universal-principle"
+    slug: "clarity-as-universal-principle"  # auto
   - type: idea
     slug: "perspective-classification"  # review: 0.527
   - type: idea

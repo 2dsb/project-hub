@@ -13,7 +13,7 @@ connections:
   - type: idea
     slug: locate-first-model-last
   - type: idea
-    slug: "environment-diagram-dual-perspective"
+    slug: "environment-diagram-dual-perspective"  # auto
   - type: idea
     slug: "human-machine-code-reading-gap"  # review: 0.578
   - type: idea

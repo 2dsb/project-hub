@@ -13,7 +13,7 @@ connections:
   - type: idea
     slug: precision-fuzziness-tradeoff
   - type: idea
-    slug: "success-interrogation-heuristic"
+    slug: "success-interrogation-heuristic"  # auto
   - type: idea
     slug: "efficiency-formula"  # review: 0.586
   - type: idea

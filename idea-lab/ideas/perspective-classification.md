@@ -6,7 +6,7 @@ tags: [analysis-method, perspective, new-technology]
 importance: 2
 connections:
   - type: idea
-    slug: "classification-of-concepts"
+    slug: "classification-of-concepts"  # auto
 ---
 What angles can I use to analyze problems from the books I've read?
 

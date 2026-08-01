@@ -6,23 +6,23 @@ tags: [cs61a, program-execution, modeling, meta-model, portal-model, synthesis, 
 importance: 9
 connections:
   - type: idea
-    slug: "environment-diagram-dual-perspective"
+    slug: "environment-diagram-dual-perspective"  # auto
   - type: idea
-    slug: "call-tree-as-third-perspective"
+    slug: "call-tree-as-third-perspective"  # auto
   - type: idea
-    slug: "name-object-binding-as-perspective"
+    slug: "name-object-binding-as-perspective"  # auto
   - type: idea
-    slug: "abstraction-barrier-as-dual-perspective-bridge"
+    slug: "abstraction-barrier-as-dual-perspective-bridge"  # auto
   - type: project
     slug: "cs61a"
   - type: idea
-    slug: "knowledge-as-dictionary-of-perspectives"
+    slug: "knowledge-as-dictionary-of-perspectives"  # auto
   - type: idea
-    slug: "cohesion-coupling-decomposition-heuristic"
+    slug: "cohesion-coupling-decomposition-heuristic"  # auto
   - type: idea
-    slug: "attention-pointer-learning-model"
+    slug: "attention-pointer-learning-model"  # auto
   - type: idea
-    slug: "four-layer-quality-model"
+    slug: "four-layer-quality-model"  # auto
   - type: idea
     slug: "object-attribute-migration"  # review: 0.516
 ---

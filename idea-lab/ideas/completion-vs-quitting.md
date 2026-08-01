@@ -6,15 +6,15 @@ tags: [discipline, decision-making, sunk-cost, self-trust, principles]
 importance: 1
 connections:
   - type: idea
-    slug: "certainty-gravity"
+    slug: "certainty-gravity"  # auto
   - type: idea
-    slug: "goal-singularity"
+    slug: "goal-singularity"  # auto
   - type: idea
-    slug: "illness-reframing"
+    slug: "illness-reframing"  # auto
   - type: idea
-    slug: "breadth-first-trap"
+    slug: "breadth-first-trap"  # auto
   - type: idea
-    slug: "people-change-over-time"
+    slug: "people-change-over-time"  # auto
   - type: permanent
     slug: "卡片笔记写作法c3.4"
   - type: permanent

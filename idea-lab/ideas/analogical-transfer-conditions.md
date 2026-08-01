@@ -6,9 +6,9 @@ tags: [meta-cognition, analogical-transfer, thinking-tool, epistemology]
 importance: 0
 connections:
   - type: idea
-    slug: "knowledge-transfer-fidelity"
+    slug: "knowledge-transfer-fidelity"  # auto
   - type: idea
-    slug: "fix-result-backward"
+    slug: "fix-result-backward"  # auto
 ---
 # Applicability Conditions for Analogical Transfer
 

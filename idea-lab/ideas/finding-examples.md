@@ -6,17 +6,17 @@ tags: ["technology-theory", "proof-of-concept", "essence-of-technology"]
 importance: 1
 connections:
   - type: idea
-    slug: "technology-in-the-singular-sense"
+    slug: "technology-in-the-singular-sense"  # auto
   - type: idea
-    slug: "three-definitions-of-technology"
+    slug: "three-definitions-of-technology"  # auto
   - type: idea
-    slug: "classification-of-concepts"
+    slug: "classification-of-concepts"  # auto
   - type: idea
-    slug: "the-gene-of-technology-phenomena"
+    slug: "the-gene-of-technology-phenomena"  # auto
   - type: idea
-    slug: "technology"
+    slug: "technology"  # auto
   - type: idea
-    slug: "understanding-software-at-technical-level"
+    slug: "understanding-software-at-technical-level"  # auto
   - type: idea
     slug: "structural-understanding-in-daily-life"  # review: 0.587
   - type: idea

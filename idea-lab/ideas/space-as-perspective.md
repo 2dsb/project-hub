@@ -6,11 +6,11 @@ tags: [space, perspective, thinking-tool, metaphor, cognitive-lens, topology]
 importance: 0
 connections:
   - type: idea
-    slug: "conversation-topic-flow"
+    slug: "conversation-topic-flow"  # auto
   - type: idea
-    slug: "flow-based-thinking"
+    slug: "flow-based-thinking"  # auto
   - type: idea
-    slug: "knowledge-as-dictionary-of-perspectives"
+    slug: "knowledge-as-dictionary-of-perspectives"  # auto
 ---
 # Space as a Perspective
 

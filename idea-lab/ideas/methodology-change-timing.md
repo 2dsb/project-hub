@@ -14,9 +14,9 @@ connections:
   - type: project
     slug: "ai-ability"
   - type: idea
-    slug: "certainty-gravity"
+    slug: "certainty-gravity"  # auto
   - type: idea
-    slug: "efficiency-formula"
+    slug: "efficiency-formula"  # auto
   - type: idea
     slug: "cycle-of-technology"  # review: 0.544
   - type: idea

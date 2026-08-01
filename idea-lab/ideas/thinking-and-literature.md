@@ -25,7 +25,7 @@ connections:
   - type: project
     slug: ai-ability
   - type: idea
-    slug: "knowledge-and-thinking-at-university"
+    slug: "knowledge-and-thinking-at-university"  # auto
   - type: idea
     slug: "liberal-arts-perspective-on-the-execution-line"  # review: 0.545
 ---

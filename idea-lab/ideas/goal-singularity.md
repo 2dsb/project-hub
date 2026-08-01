@@ -6,17 +6,17 @@ tags: [meta-cognition, learning, productivity, focus, goal-design]
 importance: 0
 connections:
   - type: idea
-    slug: "learning-pipeline"
+    slug: "learning-pipeline"  # auto
   - type: skill
     slug: "reading-blocker-triage"
   - type: idea
-    slug: "completion-vs-quitting"
+    slug: "completion-vs-quitting"  # auto
   - type: idea
-    slug: "breadth-first-trap"
+    slug: "breadth-first-trap"  # auto
   - type: idea
-    slug: "clarity-as-universal-principle"
+    slug: "clarity-as-universal-principle"  # auto
   - type: idea
-    slug: "attention-pointer-learning-model"
+    slug: "attention-pointer-learning-model"  # auto
   - type: idea
     slug: "attention-as-bottleneck"  # review: 0.550
   - type: idea

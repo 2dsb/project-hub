@@ -19,11 +19,11 @@ connections:
 - type: project
   slug: naked-economics
   - type: idea
-    slug: "how-domains-evolve"
+    slug: "how-domains-evolve"  # auto
   - type: idea
-    slug: "technology-domains"
+    slug: "technology-domains"  # auto
   - type: idea
-    slug: "economic-evolution-driven-by-technological-evolution"
+    slug: "economic-evolution-driven-by-technological-evolution"  # auto
 ---
 Technology in the singular sense causes changes in prices and production relations within the economy.
 **Industry adopts technology.**

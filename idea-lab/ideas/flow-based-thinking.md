@@ -6,29 +6,29 @@ tags: [thinking-tool, system-analysis, flow, topology, meta-cognition]
 importance: 0
 connections:
   - type: idea
-    slug: "analogical-transfer-conditions"
+    slug: "analogical-transfer-conditions"  # auto
   - type: idea
-    slug: "knowledge-transfer-fidelity"
+    slug: "knowledge-transfer-fidelity"  # auto
   - type: idea
-    slug: "learning-pipeline"
+    slug: "learning-pipeline"  # auto
   - type: idea
-    slug: "mindustry-resource-routing"
+    slug: "mindustry-resource-routing"  # auto
   - type: idea
-    slug: "mindustry-overflow-priority-routing"
+    slug: "mindustry-overflow-priority-routing"  # auto
   - type: idea
-    slug: "breadth-first-trap"
+    slug: "breadth-first-trap"  # auto
   - type: idea
-    slug: "ai-source-triage"
+    slug: "ai-source-triage"  # auto
   - type: idea
-    slug: "peer-cross-teaching"
+    slug: "peer-cross-teaching"  # auto
   - type: idea
-    slug: "system-coevolution"
+    slug: "system-coevolution"  # auto
   - type: idea
-    slug: "structural-understanding-in-daily-life"
+    slug: "structural-understanding-in-daily-life"  # auto
   - type: idea
-    slug: "how-to-deal-with-complexity"
+    slug: "how-to-deal-with-complexity"  # auto
   - type: idea
-    slug: "understanding-software-at-technical-level"
+    slug: "understanding-software-at-technical-level"  # auto
   - type: idea
     slug: "space-as-perspective"  # review: 0.524
 ---

@@ -6,19 +6,19 @@ tags: [cs61a, binding, environment-diagram, mutation, identity, mental-model, py
 importance: 7
 connections:
   - type: idea
-    slug: "environment-diagram-dual-perspective"
+    slug: "environment-diagram-dual-perspective"  # auto
   - type: idea
-    slug: "call-tree-as-third-perspective"
+    slug: "call-tree-as-third-perspective"  # auto
   - type: idea
-    slug: "abstraction-barrier-as-dual-perspective-bridge"
+    slug: "abstraction-barrier-as-dual-perspective-bridge"  # auto
   - type: project
     slug: "cs61a"
   - type: idea
-    slug: "unified-python-execution-model"
+    slug: "unified-python-execution-model"  # auto
   - type: idea
-    slug: "knowledge-as-dictionary-of-perspectives"
+    slug: "knowledge-as-dictionary-of-perspectives"  # auto
   - type: idea
-    slug: "human-machine-code-reading-gap"
+    slug: "human-machine-code-reading-gap"  # auto
   - type: idea
     slug: "object-attribute-migration"  # review: 0.566
   - type: idea
