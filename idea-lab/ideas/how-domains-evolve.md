@@ -10,8 +10,9 @@ tags:
   - technology-adoption
   - innovation-cycles
   - technology-maturation
-summary: "Domains form by coalescing around a core technology or a constructed family of phenomena, initially existing as a loosely structured toolbox that gradually accumulates experiential intuition, sometimes mixing with the parent domain to create a hybrid domain. Adolescence is marked by the emergence of viable technology—capable of major commercial application—triggering small enterprise formation, technological improvements, and investment bubbles. Maturity brings market calm and the consolidation of small enterprises into large corporations that profoundly influence the economy. Old age sees few new technologies, with most domains persisting as internalized parts of daily life. The cycle can break through variation caused by fundamental changes in key technologies or application shifts, or by throwing off secondary domains like the internet from computing and communication."
-importance: 3.41  # auto
+summary: "Domains form around a core technology or a family of phenomena, with the original source known as the parent domain. They are born as a toolbox of loosely structured practices, sometimes mixing with the parent to create hybrid domains. Adolescence begins when viable technology emerges, triggering small enterprises, investment bubbles, and rapid improvement. Maturity brings market calm and large corporations, while old age sees few new technologies and internalization into daily life. The cycle breaks through variation when key technologies fundamentally change or application domains shift, compelling reinterpretation despite unchanged principles. Secondary domains, like the internet from computing, also splinter off and vary across contexts."
+body_hash: "18f5f070"
+importance: 3.11  # auto
 connections:
   - type: idea
     slug: three-definitions-of-technology
@@ -41,6 +42,8 @@ connections:
     slug: "classification-of-concepts"  # auto, review: 0.524
   - type: idea
     slug: "technology-in-the-singular-sense"  # auto, review: 0.502
+  - type: idea
+    slug: "standard-engineering"  # auto, review: 0.502
 ---
 # Domain Formation
 

@@ -8,8 +8,9 @@ tags:
   - systems-thinking
   - optimization
   - iteration
-summary: "The only thing we need to do in life is continuously construct and execute strategy, which is an iterative optimization process. Strategy at any moment is fully defined by three components: the objective function (what you're optimizing for), degrees of freedom (where you can act), and the system's internal structure (how actions propagate). Improving strategy follows the controlled variable method, with four levers: clarify the objective, clarify degrees of freedom, clarify system structure, and adjust the strategy itself—which splits into seeking the theoretical optimum and pursuing local optimization. These levers co-evolve bidirectionally: better knowledge refines strategy design, and executing strategy generates data that sharpens understanding of the first three levers. This complete meta-strategy forms a loop that optimizes strategy over time."
-importance: 3.13  # auto
+summary: "Strategy is the entire game of life, an iterative optimization of three components: the objective function (what you want), degrees of freedom (where you can act), and system internal structure (how actions propagate). Improving strategy uses four levers via the controlled variable method—clarifying each component and then adjusting the strategy itself, which co-evolves bidirectionally with the first three. Within lever 4, you move toward a theoretical optimum while also making local optimizations to avoid getting stuck. This meta-strategy loop of continuous refinement is the only necessary process, with everything else serving as input or output."
+body_hash: "720f954c"
+importance: 2.23  # auto
 connections:
   - type: idea
     slug: "freedom-exploration-generator"  # auto

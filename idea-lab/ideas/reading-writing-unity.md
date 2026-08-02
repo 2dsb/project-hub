@@ -7,8 +7,9 @@ tags:
 - methodology
 - meta-cognition
 - synthesis
-summary: "Reading and writing form a single cognitive process operating bidirectionally on a concept constraint relationship web: reading untangles constraint relationships from text, while writing weaves them into natural language. The bottleneck in reading is identifying constraints in ambiguous sentences, whereas in writing it is clarifying concepts and creating constraints. Therefore, training should emphasize sentence-by-sentence constraint identification for reading and conceptual clarity for writing."
-importance: 1.49  # auto
+summary: "Reading and writing are a single cognitive process operating bidirectionally on a shared concept constraint relationship web: reading extracts constraint relationships between concepts from text (untangling), while writing encodes them into natural language (weaving). Writing's bottleneck lies in clarifying concepts and creating constraints, whereas reading's bottleneck is identifying constraints from unannotated natural language, so training should emphasize sharpening conceptual domains for writing and sentence‑by‑sentence constraint identification for reading. The independently developed connection‑reading and inquiry‑essay methods share this cognitive foundation, which could eventually support a unified concept constraint workbench."
+body_hash: "6afbe073"
+importance: 2.16  # auto
 connections:
 - type: idea
   slug: inquiry-essay-method
@@ -20,6 +21,14 @@ connections:
   slug: natural-language-narration-methodology
 - type: project
   slug: linguistic-structure-analysis
+  - type: idea
+    slug: "framework-from-data"  # auto, review: 0.549
+  - type: idea
+    slug: "reading-modeling-decomposition-tradeoff"  # auto, review: 0.529
+  - type: idea
+    slug: "human-structure-ai-completeness"  # auto, review: 0.512
+  - type: idea
+    slug: "the-zettelkasten-method"  # auto, review: 0.511
 ---
 # The Unity of Reading and Writing — Constraint Relationships as the Cognitive Foundation
 

@@ -6,8 +6,9 @@ tags:
   - memorization
   - retention
   - pipeline
-summary: "The central question is where deliberate memorization fits in the learning pipeline, with a current intuition that it belongs at the Sink as a fourth mode distinct from expression-oriented outputs like analogy, translation, and reconnection doc. This candidate mode targets element-level retention of facts and formulas, enabling survival without full structural reconstruction. However, the idea remains untested and is deliberately withheld from integration per structural patience to avoid polluting a validated pipeline. Open issues include whether memorization is instead a parallel retention axis, interacts with Router stages for high-leverage decisions, or partly overlaps with reconnection docs."
-importance: 4.53  # auto
+summary: "The core question is where deliberate memorization fits in the learning pipeline, with a current intuition that it belongs as a fourth Sink mode distinct from expression-oriented analogy, translation, and reconnection docs. Memorization would serve element-level retention of facts, formulas, and vocabulary against decay, unlike reconnection docs which enable structural reconstruction of mental models. However, this remains an untested hunch, and structural patience dictates waiting rather than integrating it prematurely into a validated pipeline. Open questions include whether memorization is a parallel retention axis, how it might interact with Router stages to identify high-leverage concepts, and whether reconnection docs already reduce the need for explicit memorization."
+body_hash: "e08e7cc8"
+importance: 6.09  # auto
 connections:
   - type: idea
     slug: "learning-pipeline"  # auto
@@ -31,6 +32,26 @@ connections:
     slug: "data-structure-first-code-reading"  # review: 0.511
   - type: idea
     slug: "success-interrogation-heuristic"  # review: 0.503
+  - type: idea
+    slug: "knowledge-mastery-two-axis-model"  # auto
+  - type: idea
+    slug: "goal-singularity"  # auto, review: 0.572
+  - type: idea
+    slug: "data-pattern-prediction-chain"  # auto, review: 0.561
+  - type: idea
+    slug: "practice-as-learning-purpose"  # auto, review: 0.558
+  - type: idea
+    slug: "anki-for-english-conversation"  # auto, review: 0.539
+  - type: idea
+    slug: "three-layer-framework"  # auto, review: 0.530
+  - type: idea
+    slug: "attention-as-bottleneck"  # auto, review: 0.520
+  - type: idea
+    slug: "memorized-offline-procedures"  # auto, review: 0.513
+  - type: idea
+    slug: "teach-method-fixes"  # auto, review: 0.511
+  - type: idea
+    slug: "knowledge-transfer-fidelity"  # auto, review: 0.506
 ---
 # Memorization in the Learning Pipeline
 

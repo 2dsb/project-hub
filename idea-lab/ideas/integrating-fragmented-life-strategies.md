@@ -1,9 +1,10 @@
 ---
 id: "idea-20260606-ifl01"
-summary: "The author recognizes that habits like recording ideas and daily reviews are currently fragmented life strategies, each fighting its own battle. The central aim is to discover a shared underlying logic that would integrate these practices into a cohesive system, enabling them to reinforce one another instead of competing for attention."
 title: "Integrating Fragmented Life Strategies"
 tags: [life-design, system-thinking, habit-integration, meta-cognition]
-importance: 3.92  # auto
+summary: "The author’s current habits, such as recording ideas and conducting daily reviews, are fragmented life strategies operating in isolation. The goal is to integrate them into a unified system by uncovering their shared underlying logic. This would allow the strategies to reinforce each other instead of competing for attention."
+body_hash: "8a807839"
+importance: 4.69  # auto
 connections:
   - type: idea
     slug: "nature-of-review"  # auto
@@ -21,6 +22,16 @@ connections:
     slug: "framework-extraction-pattern"  # review: 0.504
   - type: idea
     slug: "timeline-based-project-structure"  # review: 0.500
+  - type: idea
+    slug: "attention-as-bottleneck"  # auto, review: 0.584
+  - type: idea
+    slug: "low-energy-ideation"  # auto, review: 0.577
+  - type: idea
+    slug: "the-zettelkasten-method"  # auto, review: 0.519
+  - type: idea
+    slug: "8b-deep-reflection"  # auto, review: 0.516
+  - type: idea
+    slug: "completion-vs-quitting"  # auto, review: 0.507
 ---
 # Integrating Fragmented Life Strategies
 

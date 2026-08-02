@@ -11,8 +11,9 @@ tags:
   - personal-growth
   - mentorship
   - peer-learning
-summary: "College’s value lies not in vocational training but in fostering critical thinking and self-formation. It provides a deliberately removed environment where students learn to recognize and question the biases of common sense through rigorous mentorship and dialectical peer exchange. This practice of thinking cultivates alertness, freedom, and wholeness. The ultimate object of thought is the self: by challenging inherited assumptions and integrating intellectual and emotional experiences, one builds a distinctive personal substance. The goal is to continually ask what constitutes a good life and how to pursue it."
-importance: 9.99  # auto
+summary: "College's real return beyond vocational skills is learning to think by questioning the biased common sense absorbed from society, and using that critical reflection to build the substance of a self—an integrated individual of morality, intellect, perception, and emotion. Its four-year removal from career and family provides a privileged distance for rigorous examination, with professors training mental precision and peers challenging or constructing ideas. By overturning prior identity assumptions, one connects thought to inner feeling and ideals to reality, then pursues a good life by asking what is truly worth seeking."
+body_hash: "9409721a"
+importance: 7.53  # auto
 connections:
   - type: permanent
     slug: 优秀的绵羊c5.1
@@ -48,6 +49,10 @@ connections:
     slug: "recording-and-questioning-beliefs"  # review: 0.520
   - type: idea
     slug: "liberal-arts-perspective-on-the-execution-line"  # review: 0.518
+  - type: idea
+    slug: "university-two-pillar-strategy"  # auto, review: 0.534
+  - type: idea
+    slug: "explaining-excellent-sheep-with-theory"  # auto, review: 0.501
 ---
 What do we gain from investing time and money in college?
 Beyond vocational skills and potential monetary returns, what else is there?

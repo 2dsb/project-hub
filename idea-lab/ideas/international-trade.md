@@ -11,8 +11,9 @@ tags:
   - deadweight-loss
   - protectionism
   - trade-policy
-summary: "When a small economy opens to trade, it becomes an exporter if its domestic price is below the world price and an importer if above, reflecting comparative advantage. Trade increases total surplus even though producers gain and consumers lose when exporting, and the reverse when importing. A tariff on imports raises the domestic price toward the no-trade equilibrium, reducing imports, benefiting domestic sellers, harming buyers, and creating deadweight loss. Additional benefits of trade include greater variety, economies of scale, increased competition, and the exchange of ideas. Protectionist arguments cite job destruction, national security, infant industries, unfair competition, and bargaining chips."
-importance: 5.89  # auto
+summary: "International trade equilibrium is determined by whether a country's domestic price is above or below the world price, revealing its comparative advantage, with a lower domestic price leading to exports and a higher price leading to imports. Under free trade, total surplus increases because gains to the winning group, either producers in an exporting country or consumers in an importing country, exceed the losses to the other group. A tariff taxes imported goods, raising the domestic price toward the no-trade equilibrium solely for importing countries, which generates deadweight loss and reduces import volume. Additional benefits include increased variety and economies of scale, while arguments for restricting trade include the infant-industry argument and the national-security argument, though job destruction concerns can be mitigated by transitioning workers to industries of comparative advantage."
+body_hash: "aca6a129"
+importance: 5.82  # auto
 connections:
   - type: project
     slug: naked-economics
@@ -26,6 +27,10 @@ connections:
     slug: "sino-us-trade"  # auto, review: 0.525
   - type: idea
     slug: "competitive-markets"  # auto, review: 0.509
+  - type: idea
+    slug: "deadweight-loss-of-taxation"  # auto, review: 0.556
+  - type: idea
+    slug: "supply-demand-and-government-policy"  # auto, review: 0.542
 ---
 # Definition
 

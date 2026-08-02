@@ -7,8 +7,9 @@ tags:
 - epistemology
 - induction
 - framework-design
-summary: "Continuous patching of local patterns fails to produce a global framework because each addition only fits a new local phenomenon onto an old structure, analogous to drawing tangents that never converge to the true curve. The correct method is to accumulate diverse samples, let patterns cluster, then induce the framework. This requires delaying framework labeling until a threshold (e.g., three chapters) is reached, freezing existing framework files in the meantime. The idea explains why the old approach fails, while framework-from-data.md describes the positive method; together they represent an inversion of induction and accumulation."
-importance: 3.92  # auto
+summary: "Local patterns cannot be generalized into a global pattern through continuous patching. In the linguistic structure project, the initial topic→elaboration rule was repeatedly patched with scene construction and other phenomena, causing the framework to grow complex without becoming universal. This is like drawing tangents point-by-point on a curve, where each local fit never converges to the overall shape. Induction must follow data accumulation, not react to each new sample. The corrective strategy bans framework labels during analysis, waits for an accumulation threshold of three chapters, and freezes framework files until clustering emerges, complementing the framework-from-data approach."
+body_hash: "72c089dc"
+importance: 3.54  # auto
 connections:
 - type: idea
   slug: framework-from-data
@@ -36,6 +37,12 @@ connections:
     slug: "freedom-exploration-generator"  # auto, review: 0.515
   - type: idea
     slug: "system-coevolution-p2-interpretability"  # auto, review: 0.512
+  - type: idea
+    slug: "human-structure-ai-completeness"  # auto, review: 0.582
+  - type: idea
+    slug: "reconnection-doc-method"  # auto, review: 0.543
+  - type: idea
+    slug: "knowledge-transfer-fidelity"  # auto, review: 0.514
 ---
 # Local Patterns Cannot Be Generalized Through Continuous Patching
 

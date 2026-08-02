@@ -10,8 +10,9 @@ tags:
   - dictionary-metaphor
   - attention-filter
   - meta-model
-summary: "Every knowledge point is a dictionary mapping interaction contexts to interaction patterns — essence is irrelevant. Objects are names bound to stable interaction-pattern sets within a filter, and perspective is a selective filter that foregrounds some interactions while backgrounding others. Horizontal interactions compare patterns within a shared filter, vertical interactions connect names across filters, and class is merely the impression of dense vertical interactions. The methodology replaces "What is X?" with "What does it interact with?" — discovering interactions through the dictionary structure is the only goal."
-importance: 6.35  # auto
+summary: "Every knowledge point is a dictionary mapping interaction contexts to interaction patterns, synthesizing the interaction-as-essence-heuristic and knowledge-as-dictionary-of-perspectives by defining what something is through its interaction patterns and storing them in a dictionary structure. Perspective is redefined as a selective filter that foregrounds certain interactions while suppressing others, so a knowledge key is a filter name and its value is the patterns that pass through. An object is a name bound to a stable set of interaction patterns within a given filter; class abstraction is merely the impression created by dense vertical interactions between names across filters. Knowledge construction reduces to finding objects and their interactions, recursively promoting interaction patterns to objects. The human attention filter constrains which interactions become visible, so importance is just an interaction's visibility through that filter, not an intrinsic property."
+body_hash: "382a97c8"
+importance: 5.15  # auto
 connections:
   - type: idea
     slug: "interaction-as-essence-heuristic"  # auto
@@ -33,6 +34,16 @@ connections:
     slug: "object-attribute-migration"  # auto
   - type: idea
     slug: "connection-reading"  # review: 0.549
+  - type: idea
+    slug: "knowledge-mastery-two-axis-model"  # auto
+  - type: idea
+    slug: "reconnection-doc-method"  # auto, review: 0.554
+  - type: idea
+    slug: "knowledge-transfer-fidelity"  # auto, review: 0.535
+  - type: idea
+    slug: "human-structure-ai-completeness"  # auto, review: 0.532
+  - type: idea
+    slug: "learning-dynamics"  # auto, review: 0.523
 ---
 # Interaction-as-Dictionary — A Unified Modeling Framework
 

@@ -11,6 +11,7 @@ import time
 from pathlib import Path
 from openai import OpenAI
 from rebuild_index import rebuild_index
+from frontmatter_utils import parse_idea
 
 # --- Config ---
 API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
@@ -41,47 +42,6 @@ SYSTEM_PROMPT = (
 )
 
 
-def read_idea(filepath: Path) -> dict | None:
-    """Parse an idea .md file. Returns dict with slug, title, tags, body, raw_frontmatter, raw_body."""
-    content = filepath.read_text(encoding="utf-8")
-    m = re.match(r"^---\s*\n(.*?)\n---\s*\n(.*)", content, re.DOTALL)
-    if not m:
-        return None
-
-    frontmatter = m.group(1)
-    body = m.group(2).strip()
-    slug = filepath.stem
-
-    title = ""
-    tags = []
-    in_tags = False
-
-    for line in frontmatter.split("\n"):
-        stripped = line.strip()
-        if stripped.startswith("title:"):
-            title = stripped.removeprefix("title:").strip().strip('"').strip("'")
-        elif stripped == "tags:":
-            in_tags = True
-        elif stripped.startswith("- ") and in_tags:
-            tags.append(stripped.removeprefix("- ").strip())
-        elif in_tags and not stripped.startswith("- "):
-            in_tags = False
-        elif stripped.startswith("tags: [") or stripped.startswith('tags: ["'):
-            # Bracket format: "tags: [a, b, c]" or 'tags: ["a", "b"]'
-            raw = stripped.removeprefix("tags:").strip().strip("[]")
-            tags = [t.strip().strip('"').strip("'") for t in raw.split(",") if t.strip()]
-            in_tags = False
-
-    return {
-        "slug": slug,
-        "title": title,
-        "tags": tags,
-        "body": body,
-        "raw_frontmatter": frontmatter,
-        "raw_body": m.group(2),  # including leading newline
-    }
-
-
 def body_hash(body: str) -> str:
     """Short hash of body text for change detection."""
     return hashlib.md5(body.strip().encode()).hexdigest()[:8]
@@ -89,14 +49,12 @@ def body_hash(body: str) -> str:
 
 def has_summary(frontmatter: str, body: str) -> bool:
     """Check if frontmatter has a non-empty summary and body hasn't changed."""
-    # Check summary exists and non-empty (capture everything after summary: up to end of line)
     m = re.search(r'^summary:\s*(.*)', frontmatter, re.MULTILINE)
     if not m:
         return False
     summary_val = m.group(1).strip().strip('"').strip("'")
     if len(summary_val) == 0:
         return False
-    # Check body hasn't changed since summary was generated
     hm = re.search(r'^body_hash:\s*"?(\w+)"?', frontmatter, re.MULTILINE)
     if hm:
         stored_hash = hm.group(1)
@@ -136,17 +94,13 @@ def generate_summary(title: str, tags: list[str], body: str) -> str:
         if finish == "stop" and len(summary.split()) < 5:
             # Model stopped but gave too little — body might be too short
             if len(body.strip()) < 30:
-                # Very short body — use body as summary, but not empty
                 text = body.strip()
                 if not text:
                     return title
                 return text
-            # Otherwise retry with higher max_tokens
         elif finish == "length":
-            # Hit token limit — definitely need more tokens
             continue
         else:
-            # Unknown issue — retry
             continue
 
     # Last resort: use body as summary, flattening newlines
@@ -180,8 +134,9 @@ def insert_summary_and_hash(frontmatter: str, summary: str, body: str) -> str:
             insert_idx = i
             in_tags = False
 
-    # insert_idx is now the last tag line (or title line). Insert summary + hash after it.
-    summary_line = f'summary: "{summary.replace(chr(34), chr(92)+chr(34))}"'
+    # Escape backslashes and double quotes for YAML double-quoted string
+    escaped = summary.replace("\\", "\\\\").replace('"', '\\"')
+    summary_line = f'summary: "{escaped}"'
     hash_line = f'body_hash: "{body_hash(body)}"'
     lines.insert(insert_idx + 1, summary_line)
     lines.insert(insert_idx + 2, hash_line)
@@ -198,7 +153,7 @@ def main():
     print(f"Processing {total} files...\n")
 
     for i, filepath in enumerate(md_files, 1):
-        idea = read_idea(filepath)
+        idea = parse_idea(filepath)
         if not idea:
             print(f"  [{i}/{total}] {filepath.stem} — SKIP (parse error)")
             skipped += 1
@@ -220,7 +175,7 @@ def main():
 
         # Insert into frontmatter (with body hash for change detection)
         new_fm = insert_summary_and_hash(idea["raw_frontmatter"], summary, idea["body"])
-        new_content = f"---\n{new_fm}\n---\n{idea['raw_body'].lstrip('\n')}"
+        new_content = f"---\n{new_fm}\n---\n{idea['raw_body'].lstrip(chr(10))}"
 
         # Atomic write: temp file then rename (safe against crashes)
         tmp = filepath.with_suffix(".tmp")

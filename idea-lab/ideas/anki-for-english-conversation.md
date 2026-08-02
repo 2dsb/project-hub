@@ -1,9 +1,10 @@
 ---
 id: "idea-20260626-anki01"
-summary: "Converting output from English conversations into Anki cards actively maintains explicit memory (M_explicit) against decay through scheduled micro-exposures, preventing forgetting rather than enabling later recovery. This contrasts with reconnection docs, which compress knowledge for rapid reload after long gaps. In the (M, A) model, Anki cards are artifacts whose sole function is to keep M warm continuously, while reconnection docs support fast decode after intervals. Together they form two complementary strategies—low-dose maintenance and rapid recovery—transforming memory from something that happens to you into something you design for."
 title: "Anki Cards from English Conversations — Active Memory Maintenance"
 tags: [english-learning, anki, spaced-repetition, memory, conversation, artifacts]
-importance: 1.3  # auto
+summary: "Turning English conversation output into Anki cards makes memory a designed process rather than something that passively happens. Within the (M, A) model, an Anki card is an artifact (A) whose sole function is to maintain M_explicit against decay. It prevents decay through scheduled spaced micro-exposures, unlike reconnection docs that compress for rapid recovery after long gaps. This continuous low-dose maintenance keeps memory warm, contrasting with the rapid reload strategy of reconnection docs."
+body_hash: "0f64cc7a"
+importance: 1.76  # auto
 connections:
   - type: project
     slug: "english-learning"
@@ -11,6 +12,12 @@ connections:
     slug: "timeline-based-project-structure"  # auto
   - type: idea
     slug: "vocabulary-priming-before-conversation"  # auto
+  - type: idea
+    slug: "memorization-in-pipeline"  # auto, review: 0.539
+  - type: idea
+    slug: "knowledge-reconnection"  # auto, review: 0.513
+  - type: idea
+    slug: "attention-as-bottleneck"  # auto, review: 0.511
 ---
 # Anki Cards from English Conversations
 

@@ -1,9 +1,10 @@
 ---
 id: "idea-20260130-7845c2"
-summary: "The note asks how the classification of concepts should be carried out abstractly, prompted by W. Brian Arthur's *The Nature of Technology*, which divides technology along a singular/plural/collective axis and also at a physical/behavioral level."
 title: "The Classification of Concepts"
 tags: ["concept-analysis", "classification-methods", "essence-of-technology"]
-importance: 6.34  # auto
+summary: "The note asks how the classification of concepts should be abstractly carried out, prompted by the framework in *The Nature of Technology* where technology is divided along a singular/plural/collective axis and a physical/behavioral level."
+body_hash: "e6d00e0c"
+importance: 6.47  # auto
 connections:
   - type: idea
     slug: "framework-from-data"  # auto
@@ -49,6 +50,16 @@ connections:
     slug: "economic-evolution-driven-by-technological-evolution"  # auto, review: 0.512
   - type: idea
     slug: "economics"  # auto, review: 0.511
+  - type: idea
+    slug: "three-layer-framework"  # auto, review: 0.533
+  - type: idea
+    slug: "reconnection-doc-method"  # auto, review: 0.533
+  - type: idea
+    slug: "science"  # auto, review: 0.532
+  - type: idea
+    slug: "standard-engineering"  # auto, review: 0.504
+  - type: idea
+    slug: "impact-of-domains-on-economy"  # auto, review: 0.500
 ---
 In the book *The Nature of Technology*, technology is conceptually divided along the singular / plural / collective axis.
 There is also a division at the physical / behavioral level.

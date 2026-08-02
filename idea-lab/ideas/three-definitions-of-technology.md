@@ -9,8 +9,9 @@ tags:
 - technology-body
 - means-and-integration
 - technology-evolution
-summary: "The note distinguishes three definitions of technology: singular (a means to fulfill human purposes, like a speech recognition algorithm), plural (the integration of practices and components, better termed bodies of technology), and general (the collection of devices and engineering practices in a culture). Distinguishing these is valuable because each forms and develops differently. Technology in the singular sense emerges as a new concept and develops by modifying its internal components; plural technology is built around phenomena"
-importance: 6.47  # auto
+summary: "Technology can be understood in three distinct senses: singular, as a means to fulfill human purposes like a speech recognition algorithm; plural, as the integration of practices and components forming bodies such as electronics; and general, as the collection of devices and practices deployed in a culture. Each sense develops differently—singular technology emerges by modifying internal components, plural technology builds around phenomena and evolves through modified practices, and general technology grows organically from new combinations of natural phenomena. Distinguishing these definitions clarifies their separate formation and evolutionary paths."
+body_hash: "79576511"
+importance: 5.27  # auto
 connections:
 - type: project
   slug: ai-ability

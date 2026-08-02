@@ -6,8 +6,9 @@ tags:
 - technological-innovation
 - analogical-analysis
 - problem-solving
-summary: "The note questions whether the process of conceiving fundamentally new technology resembles solving a math competition problem, and asks what the similarities and differences between these two creative problem-solving methods are, touching on analogical analysis and mathematical thinking."
-importance: 2.72  # auto
+summary: "The note questions whether the process of inventing radically new technology resembles solving math competition problems, and asks for an analogical analysis of their similarities and differences."
+body_hash: "35c0ab4a"
+importance: 2.56  # auto
 connections:
 - type: project
   slug: ai-ability
@@ -29,6 +30,8 @@ connections:
     slug: "new-technology-replacing-old"  # review: 0.520
   - type: idea
     slug: "finding-examples"  # review: 0.515
+  - type: idea
+    slug: "knowledge-and-thinking-at-university"  # auto, review: 0.528
 ---
 Is the method of conceiving fundamentally new technology somewhat similar to solving a math competition problem?
 

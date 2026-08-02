@@ -1,9 +1,10 @@
 ---
 id: "idea-20260713-lp01"
-summary: "The "locate-first, model-last" paradigm shifts learning from building a structural model simultaneously with learning to instead first locating each knowledge point in a provisional key hierarchy that is discovered iteratively through the points themselves, and deferring modeling until after full domain traversal. This avoids premature modeling unreliability because, as the dictionary model reveals, knowledge points exist in a high-dimensional space where clustering with few samples produces noise—you need enough points before PCA-like structure makes sense. It eliminates the merge-cost side of the reading-modeling decomposition tradeoff and avoids the breadth-first trap by enforcing breadth-first traversal, much like a two-pass reading strategy. The result is lower cognitive load, faster learning velocity, and highly accurate models built in one concentrated pass with complete information."
 title: "Locate-First, Model-Last — A Learning Paradigm Shift Driven by the Dictionary Model"
 tags: [learning, modeling, paradigm, methodology, knowledge-representation, multi-perspective, dictionary-model, two-pass, efficiency]
-importance: 4.98  # auto
+summary: "Locate-First, Model-Last proposes that learning should separate locating knowledge points within a provisional key hierarchy from building a structural model, because premature modeling is unreliable when only partial samples exist in a high-dimensional perspective space. The dictionary model shows each knowledge point lives across multiple perspectives, so clustering without full coverage is noise. The key hierarchy co-evolves with point discovery—each point extends the keys—after which modeling occurs in a final pass. This generalizes the two-pass reading strategy, avoids the breadth-first trap, and resolves the reading-modeling decomposition tradeoff by eliminating merge costs."
+body_hash: "e3db55b2"
+importance: 3.97  # auto
 connections:
   - type: idea
     slug: knowledge-as-dictionary-of-perspectives
@@ -27,6 +28,12 @@ connections:
     slug: "speed-first-model-second-batch-tradeoff"  # auto
   - type: idea
     slug: "learning-dynamics"  # auto, review: 0.502
+  - type: idea
+    slug: "interaction-as-dictionary"  # auto, review: 0.516
+  - type: idea
+    slug: "knowledge-reconnection"  # auto, review: 0.506
+  - type: idea
+    slug: "human-structure-ai-completeness"  # auto, review: 0.500
 ---
 # Locate-First, Model-Last — A Learning Paradigm Shift
 

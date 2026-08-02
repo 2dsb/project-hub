@@ -12,8 +12,9 @@ tags:
   - market-failure
   - government-failure
   - economics
-summary: "The note argues that markets coordinate through prices and incentives, but externalities, public resource depletion, and principal-agent misalignments cause failures. Government can internalize missing social costs or benefits to correct price signals, yet government itself is prone to inefficiency, misallocation, and political distortion. The central task is institutional design that rewrites rules so that individually rational choices, such as in involution where relative gains and absolute costs produce collectively worse outcomes, align with societal welfare. A hybrid approach of government funding with private execution can harness competitive efficiency for public goods."
-importance: 2.1  # auto
+summary: "Markets coordinate behavior through prices that create incentives, prompting individuals and businesses to re-evaluate tradeoffs. When externalities occur, government intervention can internalize missing costs or benefits onto decision-makers' ledgers. However, institutions themselves introduce incentive problems like the tragedy of the commons, principal-agent misalignment, and involution where private benefit pairs with shared cost or relative gains come with absolute costs. Because governments also suffer from information limits, political capture, and deadweight loss, effective institutional design must rewrite the rules so that privately rational choices produce better collective outcomes, often by having government finance public goods while private entities compete for execution."
+body_hash: "b2228c71"
+importance: 2.41  # auto
 connections:
   - type: permanent
     slug: 赤裸裸的经济学c1
@@ -21,6 +22,8 @@ connections:
     slug: "the-ten-principles-of-economics"  # review: 0.565
   - type: idea
     slug: "externalities"  # review: 0.540
+  - type: idea
+    slug: "supply-demand-and-government-policy"  # auto, review: 0.529
 ---
 # Chapter 1
 

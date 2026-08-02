@@ -1,14 +1,21 @@
 ---
 id: "idea-20260608-at01"
-summary: "Analogical transfer succeeds when it transports relational structure, not surface features. The check is to express the situation as "X did what to Y" and see if the relationship holds after swapping concrete entities. Transfer fails when surface similarity"
 title: "Applicability Conditions for Analogical Transfer"
 tags: [meta-cognition, analogical-transfer, thinking-tool, epistemology]
-importance: 1.91  # auto
+summary: "Analogical transfer succeeds only when it maps relational structure, not surface features. The transfer works if an abstract skeleton like \"an insider attempting to convey complex system knowledge to an outsider using only language\" remains valid after swapping concrete entities. To check, express the situation as a relationship between roles; if that relationship holds regardless of node labels, transfer applies. Transfer fails when surface similarity masks different underlying relationships, such as a company meeting involving power games and signaling versus a class with one-way broadcast. Ultimately, transfer works if and only if you are transferring topology, not node labels."
+body_hash: "d1342aa5"
+importance: 1.82  # auto
 connections:
   - type: idea
     slug: "knowledge-transfer-fidelity"  # auto
   - type: idea
     slug: "fix-result-backward"  # auto
+  - type: idea
+    slug: "transfer-high-leverage"  # auto
+  - type: idea
+    slug: "three-layer-framework"  # auto, review: 0.514
+  - type: idea
+    slug: "success-interrogation-heuristic"  # auto, review: 0.503
 ---
 # Applicability Conditions for Analogical Transfer
 

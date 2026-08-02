@@ -1,9 +1,10 @@
 ---
 id: "idea-20260606-sce01"
-summary: "The M33 entity-relationship analysis enables a project management system to self-evolve by integrating user inputs into a relationship network, autonomously discovering patterns, and adjusting its own behavior without awaiting commands. This evolution then reshapes the user’s thinking modes, habits, and decision-making, creating new inputs that close a coevolutionary feedback loop. The paradigm was refined by settling four conceptual questions: data recording uses a unified nestable timeline of state transitions, recursive substates, and conversation traces, with online drafting and offline AI-assisted retrospective narration. The system accepts non-interpretability, relinquishing the demand for human-readable labels on emergent structures. It may act with high autonomy, modifying its own rules and thresholds and notifying only after action, while five safeguards—human veto, counter-evidence maintenance, random exploration injection, periodic reset-to-zero checks, and the user as ultimate corrective signal—prevent self-reinforcement."
 title: "System-Human Coevolution"
 tags: [system-design, coevolution, meta-cognition, feedback-loop, self-improvement]
-importance: 7.54  # auto
+summary: "The project management system uses M33 entity-relationship analysis to self-evolve by autonomously discovering patterns in user inputs and adjusting its own behavior, then feeds back to reshape the user’s thinking and habits, creating a closed coevolutionary loop. The conceptual layer settled four questions: it captures all data with a nestable timeline of state transitions and conversation traces, accepts non-interpretability for emergent clusters, grants the system high trust to self-update and notify after the fact, and employs five safeguards—human veto, counter-evidence maintenance, random exploration, periodic reset-to-zero checks, and user corrective signal—to prevent self-reinforcement. Design work now begins."
+body_hash: "ee9ba0ef"
+importance: 7.14  # auto
 connections:
   - type: idea
     slug: "integrating-fragmented-life-strategies"  # auto
@@ -41,6 +42,14 @@ connections:
     slug: "integrating-fragmented-life-strategies"  # auto
   - type: idea
     slug: "how-to-deal-with-complexity"  # auto
+  - type: idea
+    slug: "decision-model-as-next-domain-model"  # auto
+  - type: idea
+    slug: "willingness-experiment"  # auto, review: 0.545
+  - type: idea
+    slug: "data-pattern-prediction-chain"  # auto, review: 0.515
+  - type: idea
+    slug: "attention-as-bottleneck"  # auto, review: 0.510
 ---
 # System-Human Coevolution
 

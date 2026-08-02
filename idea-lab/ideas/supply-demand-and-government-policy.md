@@ -11,8 +11,9 @@ tags:
 - shortage
 - surplus
 - government-policy
-summary: "A binding price ceiling legally prevents a price from rising to the market equilibrium, resulting in a persistent shortage, while a binding price floor causes a surplus, such as with minimum wage laws. Taxation dampens market activity by reducing the equilibrium quantity, and the burden of the tax is shared by buyers and sellers regardless of whether the tax is imposed on the sale or the purchase. The incidence of a tax depends on relative elasticities, with the burden falling more heavily on the side of the market that is less elastic; workers bear most of the payroll tax burden because labor supply is less elastic."
-importance: 4.89  # auto
+summary: "Government-imposed price controls disrupt competitive markets: a binding price ceiling below equilibrium creates a shortage and forces sellers to ration goods, while a binding price floor above equilibrium causes a surplus. Taxation dampens market activity and reduces equilibrium quantity, with the burden shared by buyers and sellers regardless of whether the tax is levied on sellers or buyers—the economic incidence is identical. The tax burden falls more heavily on the less elastic side of the market, such as workers bearing most of the payroll tax."
+body_hash: "45bd4378"
+importance: 5.06  # auto
 connections:
 - type: idea
   slug: competitive-market
@@ -28,6 +29,10 @@ connections:
     slug: "elasticity-of-supply-and-demand"  # review: 0.526
   - type: idea
     slug: "economists-as-policy-advisors"  # review: 0.510
+  - type: idea
+    slug: "international-trade"  # auto, review: 0.542
+  - type: idea
+    slug: "naked-economy"  # auto, review: 0.529
 ---
 # Price Controls
 

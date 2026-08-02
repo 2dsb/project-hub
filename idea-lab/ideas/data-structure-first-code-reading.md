@@ -1,14 +1,15 @@
 ---
 id: "idea-20260719-data-structure-first-code-reading"
 title: "Data Structure First — Memorize Shapes Before Reading Code"
-importance: 4.2  # auto
+importance: 3.47  # auto
 tags:
   - learning
   - code-reading
   - data-structures
   - mental-model
   - comprehension
-summary: "Data Structure First advocates memorizing core data shapes in a codebase before tracing control flow, because data structures are finite, stable, and provide the skeleton that makes code transformations obvious. This contrasts with locate-first-model-last, which maps perspectives at the knowledge-graph level, while data-structure-first operates within a single codebase. Rote memorization of shapes like `list[dict]` with specific keys is the highest-ROI investment, enabling code to be read as a story rather than a series of type puzzles."
+summary: "Memorizing core data structures before reading control flow improves comprehension because data shapes are finite and stable, making code transformations obvious. Once you know the input and output shapes, function bodies become just transformations between them, so code reads like a story instead of requiring constant questioning of types. Rote memorization is underrated: it provides the scaffolding that deeper understanding can later hang on. This data-structure-first approach operates at the single-codebase level and complements locate-first-model-last, which maps perspectives at a knowledge-graph level."
+body_hash: "d83552c5"
 connections:
   - type: idea
     slug: locate-first-model-last
@@ -28,6 +29,10 @@ connections:
     slug: "memorization-in-pipeline"  # review: 0.511
   - type: idea
     slug: "framework-extraction-pattern"  # review: 0.506
+  - type: idea
+    slug: "learning-pipeline"  # auto, review: 0.507
+  - type: idea
+    slug: "data-pattern-prediction-chain"  # auto, review: 0.501
 ---
 # Data Structure First — Memorize Shapes Before Reading Code
 

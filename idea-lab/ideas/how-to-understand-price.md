@@ -4,8 +4,9 @@ title: Understanding Price
 tags:
   - price-theory
   - economics
-summary: "The central question is whether price emerges spontaneously."
-importance: 1.07  # auto
+summary: "Does price emerge spontaneously?"
+body_hash: "1814aa80"
+importance: 0.84  # auto
 connections:
   - type: project
     slug: naked-economics

@@ -1,9 +1,10 @@
 ---
 id: "idea-20260319-f7d2a9"
-summary: "The economy is constructed by technology, comprising a technological part—the arrangement of goods and services as a purposive system—and a non-technological part that forms around it. New technology enters, replacing old technology, which destroys existing opportunity niches and triggers chain reactions, while simultaneously providing new elements that prompt the emergence of fresh organizational institutions and establishing further opportunity niches by generating technological, economic, and social problems demanding solutions. Economic evolution proceeds through a “problem-and-solution, challenge-and-response” pattern, shaped by invariants such as human behavioral preferences and supply-demand equilibrium."
 title: "Economic Evolution Driven by Technological Evolution"
 tags: ["economic-evolution", "technological-construction", "structural-change", "opportunity-niche", "problem-and-solution"]
-importance: 4.25  # auto
+summary: "The economy is constructed by technology, consisting of a technological part (a purposive arrangement of goods and services) and a non-technological part (activities, decision-making, logistics) that forms around it. New technology enters by replacing old technology, causing chain reactions and the loss of existing opportunity niches. It then provides novel elements that trigger the emergence of new organizational institutions and establishes further opportunity niches by generating technological, economic, and social problems that demand solutions. Economic evolution proceeds in a problem-and-solution, challenge-and-response pattern, driven by this cycle of niche destruction and creation, while invariants like human behavioral preferences and supply-demand equilibrium persist."
+body_hash: "eca78443"
+importance: 4.7  # auto
 connections:
   - type: idea
     slug: evolution-of-technology-in-general-sense
@@ -41,6 +42,12 @@ connections:
     slug: "classification-of-concepts"  # auto, review: 0.512
   - type: idea
     slug: "core-capability-supporting-infrastructure-pattern"  # auto, review: 0.507
+  - type: idea
+    slug: "standard-engineering"  # auto, review: 0.535
+  - type: idea
+    slug: "technology-in-the-singular-sense"  # auto, review: 0.510
+  - type: idea
+    slug: "production-possibilities-frontier"  # auto, review: 0.503
 ---
 # Two Views of the Economy
 

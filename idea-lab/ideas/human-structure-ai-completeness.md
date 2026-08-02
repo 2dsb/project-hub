@@ -5,8 +5,9 @@ tags:
 - methodology
 - human-ai-collaboration
 - knowledge-reconnection
-summary: "The optimal human-AI division for knowledge structuring has the human providing the structural skeleton—determining what each concept is and where it belongs—while the AI cross-references against an external checklist and maps detailed connections, because humans excel at structural insight but miss exhaustive enumeration, and AI can exhaustively enumerate but lacks reliable structural judgment. In the Ch5 collaboration pattern, the human placed SVM in the (Q, A) framework, and the AI checked a 116-concept list, flagging missing items like the kernel trick and φ(x). This refinement makes AI's primary role completeness verification rather than prose generation, contrasting with earlier workflows where AI assembled definitions."
-importance: 2.84  # auto
+summary: "The optimal human-AI division for knowledge structuring is for the human to provide the structural skeleton—specifying where each concept belongs in the framework and why—while the AI checks completeness against an external checklist like a 116-concept list and maps detailed linkages (e.g., noting missing kernel trick, φ(x), template matching, and kernel machine drawbacks). This split works because humans excel at structural insight but fail at exhaustive enumeration, whereas AI can exhaustively enumerate but cannot reliably generate structural insight. The pattern shifts AI’s primary role from producing polished prose to completeness verification, turning collaboration into a joint mental-model building exercise."
+body_hash: "5adaa257"
+importance: 6.07  # auto
 connections:
 - type: idea
   slug: knowledge-reconnection
@@ -22,6 +23,34 @@ connections:
   slug: three-layer-framework
   - type: idea
     slug: "structural-patience"  # review: 0.505
+  - type: idea
+    slug: "knowledge-as-dictionary-of-perspectives"  # auto
+  - type: idea
+    slug: "inquiry-essay-method"  # auto
+  - type: idea
+    slug: "framework-from-data"  # auto, review: 0.596
+  - type: idea
+    slug: "transfer-high-leverage"  # auto, review: 0.590
+  - type: idea
+    slug: "local-pattern-patching-failure"  # auto, review: 0.582
+  - type: idea
+    slug: "learning-pipeline"  # auto, review: 0.549
+  - type: idea
+    slug: "interaction-as-dictionary"  # auto, review: 0.532
+  - type: idea
+    slug: "human-machine-code-reading-gap"  # auto, review: 0.526
+  - type: idea
+    slug: "knowledge-transfer-fidelity"  # auto, review: 0.519
+  - type: idea
+    slug: "connection-reading"  # auto, review: 0.516
+  - type: idea
+    slug: "reading-writing-unity"  # auto, review: 0.512
+  - type: idea
+    slug: "data-pattern-prediction-chain"  # auto, review: 0.506
+  - type: idea
+    slug: "framework-extraction-pattern"  # auto, review: 0.500
+  - type: idea
+    slug: "locate-first-model-last"  # auto, review: 0.500
 ---
 # Human Provides Structural Skeleton; AI Checks Completeness and Maps Linkages
 

@@ -5,10 +5,10 @@ Uses Top-N + Gap Detection to avoid forcing low-quality suggestions.
 """
 
 import json
-import re
 from pathlib import Path
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
+from frontmatter_utils import parse_idea
 
 IDEAS_DIR = Path("idea-lab/ideas")
 OUTPUT_PATH = Path("idea-lab/connection-suggestions.json")
@@ -17,69 +17,6 @@ MIN_SCORE = 0.50     # absolute floor — below this, never suggest
 MIN_GAP = 0.06       # minimum gap to trigger a cut — smaller gaps mean scores are all close
 MAX_SUGGESTIONS = 15 # hard cap per idea
 BODY_MAX_CHARS = 300
-
-
-def read_idea(filepath: Path) -> dict | None:
-    """Read an idea .md file and extract metadata + embedding text."""
-    content = filepath.read_text(encoding="utf-8")
-    match = re.match(r"^---\s*\n(.*?)\n---\s*\n(.*)", content, re.DOTALL)
-    if not match:
-        return None
-
-    frontmatter = match.group(1)
-    body = match.group(2).strip()
-    slug = filepath.stem
-
-    title = ""
-    tags = []
-    summary = ""
-    existing_conns = []
-    in_tags = False
-    in_connections = False
-    current_conn = {}
-
-    for line in frontmatter.split("\n"):
-        stripped = line.strip()
-        if stripped.startswith("id:"):
-            pass
-        elif stripped.startswith("title:"):
-            title = stripped.removeprefix("title:").strip().strip('"').strip("'")
-        elif stripped.startswith("summary:"):
-            summary = stripped.removeprefix("summary:").strip().strip('"').strip("'").replace('\\"', '"')
-        elif stripped == "tags:":
-            in_tags = True
-            in_connections = False
-        elif stripped == "connections:":
-            in_connections = True
-            in_tags = False
-        elif stripped.startswith("- type:") and in_connections:
-            current_conn = {"type": stripped.removeprefix("- type:").strip()}
-        elif stripped.startswith("slug:") and in_connections:
-            raw = stripped.removeprefix("slug:").strip().strip('"')
-            current_conn["slug"] = raw.split("#")[0].strip().strip('"')  # strip inline comments
-            existing_conns.append(current_conn)
-            current_conn = {}
-        elif stripped.startswith("- ") and in_tags:
-            tags.append(stripped.removeprefix("- ").strip())
-        elif stripped.startswith("tags: [") or stripped.startswith('tags: ["'):
-            raw = stripped.removeprefix("tags:").strip().strip("[]")
-            tags = [t.strip().strip('"').strip("'") for t in raw.split(",") if t.strip()]
-            in_tags = False
-
-    tag_str = " ".join(f"#{t}" for t in tags)
-    # Use summary if available, fall back to body[:300] for backwards compatibility
-    text_source = summary if summary else body[:BODY_MAX_CHARS]
-    text_for_embedding = f"{title}. {tag_str}. {text_source}"
-
-    existing_slugs = {conn["slug"] for conn in existing_conns}
-
-    return {
-        "slug": slug,
-        "title": title,
-        "tags": tags,
-        "text": text_for_embedding,
-        "existing_connections": existing_slugs,
-    }
 
 
 def apply_gap_detection(candidates: list) -> list:
@@ -127,9 +64,23 @@ def main():
     print(f"Reading ideas from {IDEAS_DIR}...")
     ideas = []
     for md_file in sorted(IDEAS_DIR.glob("*.md")):
-        idea = read_idea(md_file)
-        if idea:
-            ideas.append(idea)
+        idea = parse_idea(md_file)
+        if not idea:
+            continue
+
+        tag_str = " ".join(f"#{t}" for t in idea["tags"])
+        # Use summary if available, fall back to body[:300] for backwards compatibility
+        text_source = idea["summary"] if idea["summary"] else idea["body"][:BODY_MAX_CHARS]
+        text_for_embedding = f"{idea['title']}. {tag_str}. {text_source}"
+
+        existing_slugs = {conn["slug"] for conn in idea["connections"]}
+
+        ideas.append({
+            "slug": idea["slug"],
+            "title": idea["title"],
+            "text": text_for_embedding,
+            "existing_connections": existing_slugs,
+        })
 
     texts = [i["text"] for i in ideas]
     slugs = [i["slug"] for i in ideas]

@@ -1,9 +1,10 @@
 ---
 id: "idea-20260711-cc01"
-summary: "The cohesion-coupling decomposition heuristic states that a good system decomposition requires subsystems with high internal cohesion and sparse external coupling, ideally zero coupling. Derived from the abstraction barrier concept, this principle applies recursively at every scale. High cohesion allows each subsystem to be understood in isolation, while low coupling enables composability, reuse, and localized debugging. For multi-perspective models like the unified Python execution model, each sub-model should be internally coherent with minimal, well-defined interfaces to other sub-models, and zero coupling indicates they should remain separate."
 title: "Cohesion-Coupling Decomposition Heuristic — Migrated from Abstraction Barrier Concept"
 tags: [system-design, modeling, decomposition, abstraction, cohesion, coupling, methodology, shallow-migration]
-importance: 3.41  # auto
+summary: "A system decomposition is good when subsystems exhibit high internal cohesion and sparse external coupling, ideally approaching zero coupling. This heuristic, migrated from the abstraction barrier concept separating representation from use, applies recursively at every scale: each subsystem can itself be decomposed until further division adds more interface complexity than it removes. It works because low coupling enables independent understanding, composability, and localized debugging, with the abstraction barrier as a special case of a narrow interface. Applied to the unified-python-execution-model, sub-models like the def tree and binding graph should maintain tight internal coherence and connect through minimal, well-defined interfaces."
+body_hash: "63905c7d"
+importance: 3.94  # auto
 connections:
   - type: idea
     slug: "abstraction-barrier-as-dual-perspective-bridge"  # auto
@@ -23,6 +24,12 @@ connections:
     slug: "reading-modeling-decomposition-tradeoff"  # auto
   - type: idea
     slug: "objective-importance-scoring"  # auto
+  - type: idea
+    slug: "name-object-binding-as-perspective"  # auto, review: 0.531
+  - type: idea
+    slug: "call-tree-as-third-perspective"  # auto, review: 0.531
+  - type: idea
+    slug: "environment-diagram-dual-perspective"  # auto, review: 0.505
 ---
 # Cohesion-Coupling Decomposition Heuristic
 

@@ -7,8 +7,9 @@ tags:
   - efficiency
   - heuristics
   - communication
-summary: "Precision is slow and costly while fuzziness—vagueness, approximation, or rough granularity—reduces cost and increases speed, a universal cost-speed tradeoff. Paying the precision tax is an investment to avoid downstream errors; fuzziness is leverage to move fast and cheap now, cleaning up later if needed. The optimal point shifts as a project matures: early exploration maximizes fuzziness for speed of learning, active building applies selective precision to interfaces, and production hardening maximizes precision on critical paths."
-importance: 0.9  # auto
+summary: "Precision brings high cost and low speed, while fuzziness—vagueness, approximation, rough granularity—reduces cost and increases speed, forming a universal tradeoff. The strategic question is when to pay the precision tax: precision is an investment that avoids downstream errors, while fuzziness acts as leverage for speed. The optimal point lies on a spectrum that shifts with project maturity, from maximum fuzziness in early exploration, to selective precision on interfaces during active building, to maximum precision on critical paths in production hardening."
+body_hash: "c753adcd"
+importance: 0.65  # auto
 connections: []
 ---
 # Precision vs. Fuzziness — Cost-Speed Tradeoff

@@ -1,10 +1,13 @@
 ---
 id: "idea-20260419-a3f7c2"
-summary: "Banks discover mortgage lending is profitable, lower interest rates, and attract investor capital, fueling housing demand and price increases that draw in speculators. When a single house fails to sell and its borrower defaults, panic selling ensues, supply exceeds demand, and prices crash. Defaults and bad debt accumulate, investor confidence declines, and the resulting contagion impacts other industries, causing unemployment to rise."
 title: "Real Estate Bubble"
 tags: ["real-estate-bubble", "mortgage-loan", "interest-rate", "speculation", "housing-crash", "bad-debt", "unemployment"]
-importance: 0.0  # auto
-connections: []
+summary: "Banks initially profit from mortgage lending, lowering interest rates and attracting investor capital, which boosts housing demand and prices while creating speculators. When one borrower defaults, a rush to sell causes supply to exceed demand and housing prices to crash. Rising defaults and bad debt erode investor confidence, spill over into other industries, and drive up unemployment."
+body_hash: "46dc5760"
+importance: 1.33  # auto
+connections:
+  - type: idea
+    slug: "banks-venture-capital-and-government"  # auto, review: 0.524
 ---
 1. Banks discover that "providing mortgages" is a great business.
 2. Banks lower mortgage interest rates; investor capital keeps pouring in.

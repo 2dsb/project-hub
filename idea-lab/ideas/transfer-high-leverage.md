@@ -7,8 +7,9 @@ tags:
   - transfer
   - methodology
   - abstraction
-summary: "Transfer, applying an abstract structure from one domain to another, is a high-leverage cognitive operation because it converts a single insight into many applications at near-zero additional learning cost. Successful transfer requires extracting the underlying structure—not the content—mapping it to a new domain, and verifying the mapping holds, as seen in moving the physics learning method to English learning, applying PCA's encode/decode architecture to knowledge reconnection, and using Git's six-layer system with precise sync semantics for human-AI interaction design. The asymmetric ROI—minutes to abstract, hours saved—makes systematic transfer after significant learning events a compoundingly valuable meta-skill."
-importance: 6.45  # auto
+summary: "Transfer is a high-leverage cognitive operation that converts one structural insight into multiple applications at near-zero additional cost. The pattern succeeds by extracting abstract structure—not surface content—from a source domain, mapping it to a target, and verifying the mapping holds; false transfers occur when surface similarity masks structural mismatch. Three instances illustrate this: the Physics method’s adaptive step-selection became an English learning method, PCA’s encode/decode architecture informed a knowledge-reconnection mechanism, and Git’s six-layer model with its persistent proposal buffer, isomorphic commit DAG, and remote-tracking as a local cache with silent staleness failure mode suggests protocols for distributed human–AI collaboration. Because the abstraction step is not prompted by the original task, deliberate transfer after each significant learning event yields asymmetric ROI—minutes of extraction can save hours or days."
+body_hash: "e8e94034"
+importance: 5.99  # auto
 connections:
   - type: idea
     slug: "knowledge-reconnection"  # auto
@@ -44,6 +45,18 @@ connections:
     slug: "three-layer-framework"  # review: 0.506
   - type: idea
     slug: "efficiency-formula"  # review: 0.504
+  - type: idea
+    slug: "data-pattern-prediction-chain"  # auto
+  - type: idea
+    slug: "human-structure-ai-completeness"  # auto, review: 0.590
+  - type: idea
+    slug: "structural-patience"  # auto, review: 0.578
+  - type: idea
+    slug: "peer-cross-teaching"  # auto, review: 0.532
+  - type: idea
+    slug: "flow-based-thinking"  # auto, review: 0.524
+  - type: idea
+    slug: "attention-pointer-learning-model"  # auto, review: 0.507
 ---
 # Transfer as a High-Leverage Cognitive Operation
 

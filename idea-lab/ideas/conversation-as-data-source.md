@@ -7,8 +7,9 @@ tags:
 - data-source
 - conversation
 - M34
-summary: "Conversations are the sole entry point for information into the system, yet they are not currently saved, resulting in the loss of the richest behavioral data. The M34 system uses four data sources—daily notes, entity CRUD, M33 relations, and raw analysis—and a fifth source of conversation logs should be added. Treating the chat window as a conveyor belt, archiving what moves across it prevents valuable data from dropping away uncollected. Unresolved implementation issues include whether to save raw transcripts or extract structured ideas, where to store the logs, and how to handle long conversations through compression or summarization."
-importance: 4.64  # auto
+summary: "The core claim is that conversation logs are an essential but currently missing data source for the M34 system, because the chat window is the sole entry point for information, and failing to archive conversations means losing the richest behavioral data. The solution proposes saving conversations before each session ends to feed them into the M34 timeline, likening the unarchived flow to ore dropping off a conveyor belt. Implementation issues include deciding between raw transcript versus structured extraction and choosing a save location."
+body_hash: "06dd021f"
+importance: 3.73  # auto
 connections:
 - type: idea
   slug: system-coevolution-p1-data-coverage

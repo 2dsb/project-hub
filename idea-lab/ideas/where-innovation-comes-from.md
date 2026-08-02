@@ -12,8 +12,9 @@ tags:
   - deliberate-practice
   - skill-automation
   - creativity
-summary: "Innovation originates from experts who have turned proficiency into intuition through deliberate practice, freeing their finite mental energy to focus on the essence of problems rather than on formal derivations. This innovation chain mirrors the hermeneutic cycle, where knowledge becomes internalized as automatic habits, conserving energy for higher-level thought. To promote innovation, manage energy by imposing constraints that reduce friction—such as standardized note formats—and by pursuing interest-guided work that acts as fuel. The common belief that one should constantly think about what one is doing is overturned, because energy is a limited resource; experts do more without thinking, and that enables innovation. Building such automatic habits is difficult because rational goals have little force, but gradually introducing simple new habits can shift long-term behavior."
-importance: 5.38  # auto
+summary: "Innovation stems from expertise, not sudden flashes of novice insight, because experts have automated foundational operations into intuition, conserving finite mental energy to focus on a problem's essence. This process—deliberately applying knowledge until it becomes an effortless habit—mirrors the hermeneutic cycle of internalizing deductive steps. To promote innovation, one should manage energy by fostering creativity through constraints, like standardized note-taking that reduces formatting friction, and using interest-guided work to fuel engagement. Constraints reduce energy loss while interest adds energy, much like reducing an engine's friction and adding fuel, which explains why building new, simple habits is essential yet difficult, as rational goals have little force against long-term behavioral inertia."
+body_hash: "b27b60e2"
+importance: 5.26  # auto
 connections:
   - type: permanent
     slug: 卡片笔记写作法c2.3
@@ -73,6 +74,14 @@ connections:
     slug: "cycle-of-technology"  # review: 0.513
   - type: idea
     slug: "our-attitude-toward-technology"  # review: 0.508
+  - type: idea
+    slug: "attention-as-bottleneck"  # auto, review: 0.520
+  - type: idea
+    slug: "completion-vs-quitting"  # auto, review: 0.519
+  - type: idea
+    slug: "timeline-based-project-structure"  # auto, review: 0.515
+  - type: idea
+    slug: "goal-singularity"  # auto, review: 0.511
 ---
 Let us explore a question: where does innovation come from?
 

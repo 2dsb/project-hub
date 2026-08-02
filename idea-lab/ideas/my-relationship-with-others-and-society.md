@@ -12,8 +12,9 @@ tags:
   - social-pressure
   - self-awareness
   - parenting
-summary: "Society and others shape the self by instilling biased common sense and normalizing conformist behavior, leading to helicopter parenting, perfectionism, and suppressed needs. Common sense implies a lack of thinking, making individuals susceptible to herd mentality and superficial choices like pursuing prestige over fundamental change or treating volunteering as résumé padding. Through new perspectives and active debate, one can recognize and transform indoctrinated common sense into personal wisdom. This thinking builds the self, bridges ideals and reality, and resists the salmon race of conformity. Ultimately, independent thinking enables decisions in one’s own true interest."
-importance: 4.92  # auto
+summary: "Society imposes biased common sense and herd behavior that shape thought and suppress independent thinking, leading to conformity, infantilization, and perfectionism. This unexamined common sense makes individuals susceptible to herd mentality and uncritical acceptance of values like social hierarchy or DIY entrepreneurship over systemic change. Recognizing, questioning, and actively rethinking this common sense—through new perspectives and debate—transforms it into personal wisdom and builds a resilient self, enabling resistance to social pressure and genuine life direction beyond the salmon race."
+body_hash: "965b438b"
+importance: 3.24  # auto
 connections:
   - type: permanent
     slug: 优秀的绵羊c6.1

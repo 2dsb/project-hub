@@ -1,10 +1,15 @@
 ---
 id: "idea-20260212-31a458"
-summary: "The note contrasts a personal ideal that friends should be permanent and solid against the observed reality of temporary fellow travelers who can fall out over a single remark, then extends this dialectic to love as either a value exchange or instinctual mating behavior. It raises empirical and analytical questions about how friendships form, change, and end, and what assumptions underlie the author’s “common sense.” The author’s social pattern involves actively probing for depth in initial interactions; those perceived as lacking depth become passive, entertainment-only acquaintances, while those with depth are cultivated as permanent friends. The novel *Someone to Talk To* is proposed as a case study to document relationship trajectories and test whether a new standard of friendship aligns with the author’s desires and logical coherence."
 title: "Understanding the Word \"Friend\""
 tags: [friendship, interpersonal-relationships, love, social-patterns, self-analysis]
-importance: 0.0  # auto
+summary: "The note interrogates whether friendship should be permanent and solid versus a temporary alignment of conversational chemistry, and extends this tension to love as value exchange or instinctual behavior. The author examines a personal social pattern of seeking \"depth\" to identify real friends and suspects that framing feelings for \"zyw\" as friendship might be a defense mechanism. They plan to analyze relationship trajectories in the novel \"Someone to Talk To\" to derive universal patterns and to test a new, logically coherent standard for friendship."
+body_hash: "c28e358a"
+importance: 2.56  # auto
 connections:
+  - type: idea
+    slug: "r7-dating-guide-and-true-love"  # auto, review: 0.561
+  - type: idea
+    slug: "four-step-networking-method"  # auto, review: 0.548
 ---
 Common sense (my view): Friends should be permanent, solid
 

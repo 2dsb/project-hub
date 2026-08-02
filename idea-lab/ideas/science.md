@@ -9,8 +9,9 @@ tags:
   - mutual-construction
   - philosophy-of-science
   - scientific-method
-summary: "Science is the formal knowledge of phenomena, providing explanation, prediction, observation, and methods for discovery. Technology harnesses phenomena, but technology predates science; ancient phenomena were intuitive, while modern ones require science to be observed and domesticated into technology. Science internalizes within technology through accumulated practice, and technology underlies science via instruments and experimental methods, forming a mutual construction. Beyond its methods, science embodies a conviction that nature is knowable, a culture, and a practice of thinking."
-importance: 2.04  # auto
+summary: "Science is the formal knowledge of phenomena, explaining, predicting, and providing means to observe and discover them. Technology harnesses phenomena, and while it existed long before science, they became bundled in the mid-19th century because modern phenomena require scientific explanation and observation. Technology domesticates phenomena into practical forms, internalizing science over time through accumulated experience, while science itself is built upon technological instruments, experiments, and theory structures that resemble technological assembly. Yet science is more than its content: it is also a conviction in nature’s knowability, a set of thinking and practice methods, and a culture."
+body_hash: "3f9a5506"
+importance: 2.55  # auto
 connections:
   - type: idea
     slug: gene-of-technology-phenomena
@@ -24,6 +25,16 @@ connections:
     slug: "economics-as-a-science"  # review: 0.530
   - type: idea
     slug: "the-gene-of-technology-phenomena"  # review: 0.523
+  - type: idea
+    slug: "technology-in-the-singular-sense"  # auto, review: 0.534
+  - type: idea
+    slug: "classification-of-concepts"  # auto, review: 0.532
+  - type: idea
+    slug: "technology"  # auto, review: 0.509
+  - type: idea
+    slug: "finding-examples"  # auto, review: 0.503
+  - type: idea
+    slug: "external-and-internal-view-of-technology"  # auto, review: 0.502
 ---
 Science is the formal knowledge of phenomena.
 

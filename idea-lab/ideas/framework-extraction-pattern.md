@@ -1,13 +1,14 @@
 ---
 id: idea-20260702-framework-extraction
 title: First Time — Framework Emerges from Content; Second Time — Framework Precedes Content
-importance: 5.87  # auto
+importance: 4.63  # auto
 tags:
   - methodology
   - learning
   - pattern-extraction
   - framework-design
-summary: "When performing a task for the first time, the organizing framework must emerge bottom-up from the content because the structure is unknown; the real purpose of that pass is to extract a reusable framework, not merely produce the output. The extracted framework compresses a two-day"
+summary: "The first time you do something, the organizing framework must emerge bottom-up from the content because the structure is unknown, but the real purpose is to extract that framework so the second time is far faster. In the example, a first chapter took 6 hours of iterative sorting of 116 concepts, while subsequent chapters used three operational questions, classification into layers, mapping of four standard connections, and handling of residuals, reducing the time to about 1 hour. The key is to treat the first instance as framework extraction rather than mere production—the deliverable is not just the output but the reusable method. After finishing significant work, separate what was content-specific from what was structural, and launch the next instance from the structural part, not from scratch."
+body_hash: "d3fbd8d2"
 connections:
   - type: idea
     slug: "three-layer-framework"  # auto
@@ -37,6 +38,10 @@ connections:
     slug: "data-structure-first-code-reading"  # review: 0.506
   - type: idea
     slug: "integrating-fragmented-life-strategies"  # review: 0.504
+  - type: idea
+    slug: "reading-modeling-decomposition-tradeoff"  # auto, review: 0.537
+  - type: idea
+    slug: "human-structure-ai-completeness"  # auto, review: 0.500
 ---
 # Framework Extraction Pattern: First Time Discovery, Second Time Reuse
 

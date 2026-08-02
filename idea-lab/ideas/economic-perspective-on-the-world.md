@@ -5,13 +5,16 @@ tags:
   - economics
   - analytical-tools
   - perspective
-summary: "In economics, curves serve as analytical tools with inherent limitations."
-importance: 3.51  # auto
+summary: "In economics, curves serve as analytical tools, but they come with limitations."
+body_hash: "1557190b"
+importance: 1.64  # auto
 connections:
   - type: project
     slug: "naked-economics"
   - type: idea
     slug: "curves-in-economics"  # review: 0.568
+  - type: idea
+    slug: "perspective-classification"  # auto, review: 0.514
 ---
 In economics, curves are just a tool, with limitations.
 

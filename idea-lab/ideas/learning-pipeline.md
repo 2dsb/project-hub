@@ -1,9 +1,10 @@
 ---
 id: "idea-20260621-lp01"
-summary: "The learning pipeline from flow-based thinking structures learning as Source→Router→Sink: finding quality sources, pre-judging value with AI source triage or peer cross-teaching, triaging reading blockers by severity (L1 skip, L2 batch later, L3 pause for prerequisites), and outputting understanding via analogy, translation, or a knowledge-reconnection document for future-self fast decode. A real-world run on MIT 6.S184 revealed L3 blockers have an internal severity spectrum (L3-mild vs. L3-severe) and that filling prerequisites can trigger a recursive spiral, requiring a boundary of only filling one layer with just-in-time AI support if needed."
 title: "Learning Pipeline"
 tags: [learning, pipeline, meta-cognition, flow-based-thinking, synthesis]
-importance: 8.06  # auto
+summary: "The learning pipeline structures the process of acquiring new knowledge from source to output using flow-based-thinking’s source-router-sink framework. Quality sources are identified through AI recommendations, pioneer advice, and reference tracing. A router stage then pre-judges material value via AI source triage and peer cross-teaching to filter noise before investing time. During learning, reading blocker triage grades stuck points into L1 (skip), L2 (mark and batch-process), or L3 (pause to fill prerequisites), with an explicit rule against emotionally escalating L1 to L3. The sink stage outputs understanding through analogy for others, translation for expression practice, or a reconnection doc for future you, which encodes compressed conceptual relationships that can be decoded quickly after a gap. Real-world runs with MIT 6.S184 revealed that L3 blockers span a severity spectrum, where L3-mild is a single concept fillable in minutes while L3-severe represents entire prerequisite systems requiring systematic study. Filling prerequisites can trigger recursive L3s, but the principle is to fill only one layer and switch to just-in-time lookup if further depths are needed, ensuring boundary checks prevent infinite descent."
+body_hash: "45e10426"
+importance: 10.0  # auto
 connections:
   - type: idea
     slug: "flow-based-thinking"  # auto
@@ -41,6 +42,40 @@ connections:
     slug: "teach-method-fixes"  # auto, review: 0.508
   - type: idea
     slug: "implicit-improvement-pattern"  # auto, review: 0.501
+  - type: idea
+    slug: "knowledge-mastery-two-axis-model"  # auto
+  - type: idea
+    slug: "data-pattern-prediction-chain"  # auto
+  - type: idea
+    slug: "structural-patience"  # auto, review: 0.582
+  - type: idea
+    slug: "three-layer-framework"  # auto, review: 0.556
+  - type: idea
+    slug: "breadth-first-trap"  # auto, review: 0.552
+  - type: idea
+    slug: "reconnection-doc-method"  # auto, review: 0.550
+  - type: idea
+    slug: "human-structure-ai-completeness"  # auto, review: 0.549
+  - type: idea
+    slug: "success-interrogation-heuristic"  # auto, review: 0.548
+  - type: idea
+    slug: "attention-as-bottleneck"  # auto, review: 0.535
+  - type: idea
+    slug: "leverage-existing-vs-build-from-scratch"  # auto, review: 0.526
+  - type: idea
+    slug: "knowledge-transfer-fidelity"  # auto, review: 0.526
+  - type: idea
+    slug: "attention-pointer-learning-model"  # auto, review: 0.523
+  - type: idea
+    slug: "daily-to-ideas-pipeline-broken"  # auto, review: 0.515
+  - type: idea
+    slug: "pass-criteria-as-curriculum-design"  # auto, review: 0.513
+  - type: idea
+    slug: "data-structure-first-code-reading"  # auto, review: 0.507
+  - type: idea
+    slug: "inquiry-essay-method"  # auto, review: 0.505
+  - type: idea
+    slug: "the-zettelkasten-method"  # auto, review: 0.504
 ---
 # Learning Pipeline
 

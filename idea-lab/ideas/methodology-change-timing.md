@@ -8,8 +8,9 @@ tags:
   - time-window
   - meta-cognition
   - decision-framework
-summary: "Methodology changes before a critical event present a trade-off between two risks: the danger of an unpracticed new method and the danger of persisting with a flawed old one. The three-layer model distinguishes low-risk L1 cognitive upgrades (new understanding), medium-risk L2 strategic adjustments (workflow changes), and high-risk L3 technical replacements (operational overhauls). The decision framework assesses the layer, the old method's reliability, and the time window, with the core principle that insufficient time for L3 operational replacement means upgrading understanding without changing execution. Explicit mode switching between learning and execution, minimum viable changes, and designing fallback triggers help manage the transition."
-importance: 2.1  # auto
+summary: "Adopting a new methodology before a high-stakes exam poses a timing risk because the immediate performance drop from unpracticed changes can outweigh potential gains. The danger depends on the layer of change: L1 (cognitive understanding) is safe, L2 (strategic workflow) carries moderate risk, but L3 (technical operational) replacements require sufficient practice time, and near the deadline are forbidden unless the old method is guaranteed to fail. The decision framework weighs time remaining, method solidity, whether the change supplements or replaces, and fallback options. To manage interference, explicitly separate learning and execution modes, restrict new insights to analysis and review phases, and make minimal viable changes with a pre-planned fallback trigger."
+body_hash: "9831d7f6"
+importance: 1.55  # auto
 connections:
   - type: project
     slug: "ai-ability"

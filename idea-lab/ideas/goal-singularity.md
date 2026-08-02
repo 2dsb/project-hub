@@ -1,9 +1,10 @@
 ---
 id: "idea-20260621-gs01"
-summary: "The Goal Singularity principle asserts that every activity should pursue exactly one goal, because splitting attention between two sets of evaluation criteria overloads limited working memory and degrades both outcomes. Instead of attempting to "kill two birds with one stone," separate tasks like understanding and language expression into two independent activities (e.g., first draft in native language, then translate), halving cognitive load and improving total efficiency. This cognitive goal perspective complements the learning pipeline's source-route-sink decomposition, demanding that during the sink stage, "output in your own words" and "express in the target language" be split. The principle applies mainly to learning and creation scenarios, with natural communication as an exception, and its detection question is noticing simultaneous weighing of two evaluation criteria."
 title: "Goal Singularity"
 tags: [meta-cognition, learning, productivity, focus, goal-design]
-importance: 3.27  # auto
+summary: "Every activity should pursue exactly one cognitive goal—\"one bird, one stone\"—because mixing goals like understanding and language expression splits attention and burdens limited working memory. Goal singularity, coined here, argues that drafting in one's native language first to check understanding, then translating to practice language, avoids the cognitive interference that arises when both criteria compete simultaneously. This principle complements the learning pipeline by demanding that output in one's own words and target-language expression be separate activities, preventing working memory overflow and raising total efficiency."
+body_hash: "1beadaf0"
+importance: 6.21  # auto
 connections:
   - type: idea
     slug: "learning-pipeline"  # auto
@@ -21,6 +22,30 @@ connections:
     slug: "attention-as-bottleneck"  # review: 0.550
   - type: idea
     slug: "success-interrogation-heuristic"  # review: 0.507
+  - type: idea
+    slug: "practice-as-learning-purpose"  # auto, review: 0.599
+  - type: idea
+    slug: "memorization-in-pipeline"  # auto, review: 0.572
+  - type: idea
+    slug: "freedom-exploration-generator"  # auto, review: 0.556
+  - type: idea
+    slug: "no-language-mixing-pattern"  # auto, review: 0.554
+  - type: idea
+    slug: "implicit-improvement-pattern"  # auto, review: 0.543
+  - type: idea
+    slug: "the-zettelkasten-method"  # auto, review: 0.543
+  - type: idea
+    slug: "three-mental-resources"  # auto, review: 0.528
+  - type: idea
+    slug: "knowledge-mastery-two-axis-model"  # auto, review: 0.522
+  - type: idea
+    slug: "low-energy-ideation"  # auto, review: 0.516
+  - type: idea
+    slug: "leverage-existing-vs-build-from-scratch"  # auto, review: 0.515
+  - type: idea
+    slug: "learning-dynamics"  # auto, review: 0.513
+  - type: idea
+    slug: "where-innovation-comes-from"  # auto, review: 0.511
 ---
 # Goal Singularity
 

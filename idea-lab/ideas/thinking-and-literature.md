@@ -9,10 +9,11 @@ tags:
   - social-cognition
   - critical-thinking
   - self-reflection
-summary: "Full title: **From the Nature of Thinking as Cleansing Common Sense, to How Literature Can Improve Thinking Ability — Using *A Single Sentence Is Worth Ten Thousand* as an Example**
+summary: "Full title: **From the Nature of Thinking as Cleansing Common Sense, to How Literature Can Improve Thinking Ability — Using *A Single Sentence Is Worth Ten Thousand* as an Example**  # 1. Thinking is "
+body_hash: "ab6b4ace"
 
 # 1. Thinking is "
-importance: 2.78  # auto
+importance: 2.7  # auto
 connections:
   - type: permanent
     slug: 优秀的绵羊c8.1
@@ -28,6 +29,10 @@ connections:
     slug: "knowledge-and-thinking-at-university"  # auto
   - type: idea
     slug: "liberal-arts-perspective-on-the-execution-line"  # review: 0.545
+  - type: idea
+    slug: "the-zettelkasten-method"  # auto, review: 0.539
+  - type: idea
+    slug: "explaining-excellent-sheep-with-theory"  # auto, review: 0.521
 ---
 Full title: **From the Nature of Thinking as Cleansing Common Sense, to How Literature Can Improve Thinking Ability — Using *A Single Sentence Is Worth Ten Thousand* as an Example**
 

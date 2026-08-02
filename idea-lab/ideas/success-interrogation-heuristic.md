@@ -8,8 +8,9 @@ tags:
   - migration
   - learning
   - heuristics
-summary: "The Success Interrogation Heuristic prompts asking Generalize, Replicate, and Migrate each time something works unusually well, converting single wins into permanent capability upgrades by focusing on the reusable mechanism rather than the one-shot outcome. For a learning sprint that succeeded because the teach skill automated transforming structured source material into interactive lessons, the abstract pattern is automated transformation of raw material into consumable output, which is replicable via the skill file and might migrate to other structured-input-to-structured-output pipelines like code generation or note summarization. The interrogation includes a falsification step identifying when the mechanism is context-bound, person-bound, or phase-bound, ensuring portability is not assumed blindly."
-importance: 4.41  # auto
+summary: "The Success Interrogation Heuristic—Generalize, Replicate, Migrate—turns a single win into a permanent capability upgrade by identifying the reusable mechanism behind a success. When something works unusually well, ask three questions: generalize to find the abstract pattern, replicate to reuse the exact mechanism, and migrate to port the underlying principle to a different domain. For example, the teach skill automated transformation of structured source material into interactive lessons, enabling an intense learning sprint. The heuristic includes a falsification step to detect context-bound, person-bound, or phase-bound constraints that block migration. While the teach skill is confirmed reusable, whether the automated-transformation principle can migrate beyond learning remains an open question."
+body_hash: "4f5cd439"
+importance: 4.98  # auto
 connections:
   - type: idea
     slug: "leverage-existing-vs-build-from-scratch"  # auto
@@ -31,6 +32,18 @@ connections:
     slug: "methodology-change-timing"  # review: 0.506
   - type: idea
     slug: "memorization-in-pipeline"  # review: 0.503
+  - type: idea
+    slug: "learning-pipeline"  # auto, review: 0.548
+  - type: idea
+    slug: "pass-criteria-as-curriculum-design"  # auto, review: 0.535
+  - type: idea
+    slug: "knowledge-mastery-two-axis-model"  # auto, review: 0.535
+  - type: idea
+    slug: "teach-coverage-check"  # auto, review: 0.527
+  - type: idea
+    slug: "peer-cross-teaching"  # auto, review: 0.505
+  - type: idea
+    slug: "analogical-transfer-conditions"  # auto, review: 0.503
 ---
 # Success Interrogation Heuristic — Generalize, Replicate, Migrate
 

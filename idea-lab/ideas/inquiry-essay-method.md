@@ -7,8 +7,9 @@ tags:
 - chinese
 - methodology
 - inquiry
-summary: "The inquiry-based essay method starts by exhausting a concept's conceptual domain, using operational tactics like exemplify and generalize, analogical leaps, and dimensional exhaustion to map its intension (essential meaning) and extension (referents), then verifying accuracy with counterexample and substitution tests. For every question raised, answers are generated from multiple angles—such as positive/negative or historical/future—to expose different facets. These answers are then naturally woven into a coherent argument, avoiding mechanical stitching. This approach emphasizes conceptual clarity over structural frameworks and is the output-side counterpart to connection-reading, both valuing dense constraint relationships between concepts."
-importance: 5.54  # auto
+summary: "The Inquiry-Based Essay Method proposes that writing begins not with a thesis but by exhausting a concept’s intension and extension through questions and exemplify-generalize loops to map its content domain. This step uses counterexample, substitution, and trimming tests to refine accuracy, stopping when new examples no longer force pattern revision. Multi-angle inquiry then answers the resulting questions from diverse perspectives, after which natural weaving organizes the answers into a coherent flow. Unlike traditional thesis-first approaches, this method prioritizes conceptual clarity over structural frameworks. It complements connection-reading as the output-side methodology, both grounded in the belief that understanding hinges on dense constraint relationships between concepts. An AI assistant could accelerate the first two steps as a divergence engine while leaving weaving to the writer."
+body_hash: "7957d403"
+importance: 5.09  # auto
 connections:
   - type: idea
     slug: "reading-writing-unity"  # auto
@@ -52,6 +53,16 @@ connections:
     slug: "content-independent-framework"  # review: 0.501
   - type: idea
     slug: "teach-method-fixes"  # review: 0.500
+  - type: idea
+    slug: "human-structure-ai-completeness"  # auto
+  - type: idea
+    slug: "three-layer-framework"  # auto, review: 0.529
+  - type: idea
+    slug: "framework-from-data"  # auto, review: 0.527
+  - type: idea
+    slug: "knowledge-as-dictionary-of-perspectives"  # auto, review: 0.514
+  - type: idea
+    slug: "learning-pipeline"  # auto, review: 0.505
 ---
 # Inquiry-Based Essay Method — Concept Exhaustion → Multi-Angle Answers → Natural Weaving
 

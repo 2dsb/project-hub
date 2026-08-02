@@ -8,8 +8,9 @@ tags:
 - wechat
 - knowledge-sharing
 - collaboration
-summary: "The core idea is to crowd-source structured knowledge modeling because one person can't cover all domains. Not everything can be modeled—only knowledge with inherent structure like frameworks, taxonomies, causal chains, and dependency graphs qualifies, while experiences and narratives are excluded. The proposal uses a"
-importance: 0.86  # auto
+summary: "The proposal crowd-sources structured knowledge modeling via a WeChat Official Account and GitHub repository, extending the author's personal reconnection doc method because one person cannot model all domains. Only inherently structured knowledge—taxonomies, causal chains, dependency graphs—is in scope, excluding narratives and experiences. Friends are initially invited by sharing example models like reconnection docs, then steady-state content lives in the repository while the official account becomes a discovery entry point. This leverages trust to lower the contribution barrier and transforms knowledge-reconnection from individual to distributed use."
+body_hash: "f584e2cc"
+importance: 0.58  # auto
 connections:
 - type: idea
   slug: knowledge-reconnection

@@ -9,8 +9,9 @@ tags:
 - purposive-systems
 - recursive-structure
 - technology-theory
-summary: "Every technology depends on phenomena—independently existing regularities—which must be tamed by sub-technologies whose sole purpose is to harness them. A principle is a conceptual scheme that specifies how phenomena combine to achieve a purpose. Technology A embodies principle A, which orchestrates phenomena 1, 2, and 3 through corresponding sub-technologies, each with its own purpose. If the combination fails to achieve the goal, the process loops back. This yields a recursive purposive system where every technology is a physical realization of a principle that domesticates phenomena."
-importance: 6.12  # auto
+summary: "Every technology depends on independently existing regularities called phenomena, which must be tamed through sub-technologies that make them usable and controllable. A principle is the conceptual scheme dictating how multiple domesticated phenomena combine to achieve a purpose. In this framework, a technology serves as the physical realization of a principle, while each phenomenon within that principle requires its own dedicated technology to fulfill its assigned function. If the specified result is not achieved, the sequence loops back to the first phenomenon."
+body_hash: "6877f06d"
+importance: 4.85  # auto
 connections:
 - type: idea
   slug: technology-in-the-singular-sense

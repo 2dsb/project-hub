@@ -17,8 +17,9 @@ tags:
   - trade
   - living-standards
   - monetary-policy
-summary: "Economics is organized around ten principles spanning decision-making, interaction, and economy-wide forces. People face trade-offs, so the true cost of any choice is its opportunity cost. Rational individuals think at the margin, evaluating marginal changes, and incentives alter behavior by changing benefits and costs. Trade and markets generally organize activity efficiently, but government intervention can improve outcomes when market failures like externalities or market power arise. A country’s standard of living depends on its productivity. Inflation results from excessive money creation, and society faces a short-run trade-off between inflation and unemployment, a relationship central to understanding the business cycle."
-importance: 10.0  # auto
+summary: "Economics rests on principles of decision-making, interaction, and economy-wide behavior. Individuals face trade-offs, evaluate opportunity cost, and respond to incentives by thinking at the margin of small incremental adjustments. Trade allows specialization and benefits all, while markets typically organize activity efficiently through decentralized decisions, though government can improve outcomes by enforcing property rights or correcting market failures like externalities and market power. A country's standard of living depends on its productivity, the quantity of goods and services produced per unit of labor input. Printing too much money causes inflation, and in the short run, a trade-off between inflation and unemployment reflects the business cycle."
+body_hash: "c3f392f9"
+importance: 7.6  # auto
 connections:
   - type: idea
     slug: production-possibility-frontier

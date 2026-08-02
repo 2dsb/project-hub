@@ -1,9 +1,10 @@
 ---
 id: "idea-20260601-9d2e4f"
-summary: "When mental_score falls below 30, a "no ideas" dysfunctional state emerges where all mental activity—generating ideas, reading, thinking, deciding, creating—becomes hard to initiate. The contradiction is that these activities drain mental energy, yet low-energy states are precisely when energy is scarce. The solution is to find low-energy versions for each type: instead of active brainstorming, answer preset questions or record observations; for reading, skim or listen to audio; for problem-solving, only define the problem or note intuitive answers without verifying; for decisions, defer or use a simple rule like picking the first good-enough option; for creative work, modify existing material or imitate rather than originate."
 title: "Idea Generation in Low-Energy States"
 tags: [productivity, low-energy, creativity, self-management]
-importance: 2.96  # auto
+summary: "When mental energy drops below a threshold (mental_score < 30), one often enters a \"no ideas\" dysfunctional state where all mental activities—reading, thinking, deciding, creating—become difficult. Because mental activities consume energy, a contradiction arises in low-energy states. The goal is to find low-energy alternatives: idea generation becomes answering preset questions or recording fragmented observations; reading shifts to skimming or listening; problem-solving reduces to defining the problem without solving; decision-making defaults to simple rules or deferral; creative work becomes modifying existing work or organizing materials. This approach sustains mental activity without draining scarce energy."
+body_hash: "b58793c2"
+importance: 4.62  # auto
 connections:
   - type: idea
     slug: "behavioral-activation-model"  # auto
@@ -27,6 +28,20 @@ connections:
     slug: "efficient-thinking"  # review: 0.573
   - type: idea
     slug: "three-mental-resources"  # review: 0.525
+  - type: idea
+    slug: "timeline-based-project-structure"  # auto, review: 0.589
+  - type: idea
+    slug: "integrating-fragmented-life-strategies"  # auto, review: 0.577
+  - type: idea
+    slug: "attention-as-bottleneck"  # auto, review: 0.562
+  - type: idea
+    slug: "the-zettelkasten-method"  # auto, review: 0.553
+  - type: idea
+    slug: "deep-work-recovery-cycle"  # auto, review: 0.547
+  - type: idea
+    slug: "goal-singularity"  # auto, review: 0.516
+  - type: idea
+    slug: "8b-deep-reflection"  # auto, review: 0.508
 ---
 # Maintaining mental activity during low-energy states
 

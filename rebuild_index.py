@@ -1,8 +1,8 @@
 """Rebuild ideas-index.json from all .md files in idea-lab/ideas/."""
 import json
-import re
 import time
 from pathlib import Path
+from frontmatter_utils import parse_idea
 
 IDEAS_DIR = Path("idea-lab/ideas")
 INDEX_PATH = Path("idea-lab/ideas-index.json")
@@ -11,51 +11,18 @@ INDEX_PATH = Path("idea-lab/ideas-index.json")
 def rebuild_index():
     ideas = []
     for f in sorted(IDEAS_DIR.glob("*.md")):
-        content = f.read_text(encoding="utf-8")
-        m = re.match(r"^---\s*\n(.*?)\n---", content, re.DOTALL)
-        if not m:
+        idea = parse_idea(f)
+        if not idea:
             continue
-        fm = m.group(1)
 
         entry = {
-            "id": "", "title": "", "tags": [],
-            "importance": 1, "connections": [], "summary": "",
+            "id": idea["id"],
+            "title": idea["title"],
+            "tags": idea["tags"],
+            "summary": idea["summary"],
+            "importance": idea["importance"],
+            "connections": idea["connections"],
         }
-        in_tags, in_conn = False, False
-        cur = {}
-
-        for line in fm.split("\n"):
-            s = line.strip()
-            if s.startswith("id:"):
-                entry["id"] = s.removeprefix("id:").strip().strip('"')
-            elif s.startswith("title:"):
-                entry["title"] = s.removeprefix("title:").strip().strip('"').strip("'")
-            elif s.startswith("summary:"):
-                entry["summary"] = s.removeprefix("summary:").strip().strip('"').strip("'").replace('\\"', '"')
-            elif s.startswith("importance:"):
-                raw = s.removeprefix("importance:").strip().split("#")[0].strip()
-                try:
-                    entry["importance"] = float(raw)
-                except ValueError:
-                    pass
-            elif s == "tags:":
-                in_tags, in_conn = True, False
-            elif s == "connections:":
-                in_conn, in_tags = True, False
-            elif s.startswith("- type:") and in_conn:
-                cur = {"type": s.removeprefix("- type:").strip()}
-            elif s.startswith("slug:") and in_conn:
-                raw = s.removeprefix("slug:").strip().strip('"')
-                cur["slug"] = raw.split("#")[0].strip().strip('"')  # strip inline comments
-                entry["connections"].append(cur)
-                cur = {}
-            elif s.startswith("- ") and in_tags:
-                entry["tags"].append(s.removeprefix("- ").strip())
-            elif s.startswith("tags: [") or s.startswith('tags: ["'):
-                raw = s.removeprefix("tags:").strip().strip("[]")
-                entry["tags"] = [t.strip().strip('"').strip("'") for t in raw.split(",") if t.strip()]
-                in_tags = False
-
         ideas.append(entry)
 
     index = {"generated": time.strftime("%Y-%m-%d"), "total": len(ideas), "ideas": ideas}

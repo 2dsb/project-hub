@@ -8,8 +8,9 @@ tags:
   - service-to-others
   - university-education-reflection
   - social-system-reform
-summary: "The humanities and arts cultivate the capacity for thought through past thinkers, entrusting the leadership class with responsibility for those powerless below the execution line. True liberal arts education fosters critical thinking for the public good by discarding common sense handed down by the university and forming one's own understanding, which reveals that providing opportunity for the impoverished requires reforming social institutions rather than devolving into us-versus-them antagonism or mere charity. Literary works allow readers to experience how the poor live, building the empathy needed to guide the transformation of social systems."
-importance: 4.56  # auto
+summary: "The humanities and arts cultivate thought through past thinkers, but those below the \"execution line\" are powerless, placing responsibility on the leadership class. True liberal arts education fosters critical thinking that serves the public good by analyzing and discarding the university's common sense, replacing it with one's own understanding. This reveals that only reforming social institutions can provide opportunity for the poor. Literary works help by letting readers experience the lived reality of poverty, guiding the ultimate aim of transforming social institutions."
+body_hash: "dc11bd06"
+importance: 3.55  # auto
 connections:
   - type: project
     slug: gaokao-chinese
@@ -25,6 +26,8 @@ connections:
     slug: "characteristics-of-excellent-universities"  # auto, review: 0.514
   - type: idea
     slug: "social-responsibility-of-outstanding-students"  # auto, review: 0.507
+  - type: idea
+    slug: "the-teacher"  # auto, review: 0.503
 ---
 The humanities and the arts are, at their core, about cultivating the capacity for thought through the wisdom of past thinkers. Those who live below the execution line are powerless to change their own circumstances, so the responsibility for changing this reality falls on the "leadership class."
 

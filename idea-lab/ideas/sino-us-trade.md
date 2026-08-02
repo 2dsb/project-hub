@@ -1,13 +1,21 @@
 ---
 id: "idea-20260419-b7d3e9"
-summary: "Sino-US trade operates through contracts where China provides gold and goods in exchange for US dollars. This arrangement fuels a manufacturing boom in China and a services boom in the US. It enables Americans to consume beyond their production while Chinese consumption is suppressed below output. Consequently, US inflation and interest rates fall."
 title: "Sino-US Trade"
 tags: ["sino-us-trade", "us-dollar", "manufacturing", "consumption", "inflation", "interest-rates"]
-importance: 1.11  # auto
-connections: []
+summary: "China exchanges gold for US dollars, then transitions to exchanging goods for dollars. This causes China's manufacturing sector to boom and America's services sector to boom. Americans can consume more than they produce, while Chinese must consume less than they produce. US inflation falls and US interest rates decline as a result."
+body_hash: "9ffeaf9f"
+importance: 4.17  # auto
 connections:
   - type: idea
     slug: "international-trade"  # review: 0.525
+  - type: idea
+    slug: "government-economic-rescue-measures"  # auto
+  - type: idea
+    slug: "after-sinopia-stops-buying-usonia-treasury-bonds"  # auto, review: 0.582
+  - type: idea
+    slug: "collapse-of-the-gold-standard"  # auto, review: 0.541
+  - type: idea
+    slug: "inflation"  # auto, review: 0.540
 ---
 Contract: China exchanges gold for US dollars
 ```

@@ -1,8 +1,9 @@
 ---
 id: "idea-20260411-d4e8f1"
-summary: "All economic contracts are either loans or investments. A loan entails a fixed repayment of principal plus interest (10 + t) at a later time, while an investment provides capital upfront but repays a larger amount (20) only if a future condition is met, and nothing otherwise."
 title: "Three Types of Economic Behavior"
 tags: ["loan", "investment", "contract", "economic-behavior"]
+summary: "Economic contracts can be reduced to only two types: loan and investment. In a loan, agent X gives capital to Y at one time, and Y returns the capital plus a fixed increment later. In an investment, X gives capital to Y now, and Y returns a larger amount if a future condition is met, but nothing otherwise."
+body_hash: "5986e783"
 importance: 0.0  # auto
 connections: []
 ---

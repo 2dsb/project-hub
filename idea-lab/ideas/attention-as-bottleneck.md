@@ -1,9 +1,10 @@
 ---
 id: "idea-20260626-attn01"
-summary: "Human attention is a hardware constraint that permits only one focus at a time, making multitasking rapid context-switching rather than true parallelism. This single-threaded execution bottleneck means project time blocks are mutually exclusive, so the central design problem becomes scheduling which project receives the next attention slot while M-decay degrades all unattended projects simultaneously. Goal-singularity mirrors this at the purpose level. The note explores leveraging the constraint for simplification, scheduling algorithms within the (M, A) model, and using reconnection docs as clean save points to reduce attention residue when switching contexts."
 title: "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life"
 tags: [attention, bottleneck, single-threading, goal-singularity, learning-design, life-modeling]
-importance: 4.14  # auto
+summary: "Human attention is a single-threaded bottleneck, like a CPU that can only execute one project at a time, so time blocks are mutually exclusive and the central design problem becomes scheduling which project gets the next attention slot. Unattended projects experience M-decay simultaneously while focus is elsewhere. Goal-singularity and attention-singularity are the same constraint at different levels—purpose and execution. Attention residue, carrying project A’s mental state into project B’s time block, may impair effective M dynamics, and reconnection docs could reduce this residue by acting as clean save points, enabling full release and engagement."
+body_hash: "ec855027"
+importance: 6.85  # auto
 connections:
   - type: idea
     slug: "goal-singularity"  # auto
@@ -21,6 +22,32 @@ connections:
     slug: "speed-first-model-second-batch-tradeoff"  # review: 0.507
   - type: idea
     slug: "transfer-high-leverage"  # review: 0.506
+  - type: idea
+    slug: "integrating-fragmented-life-strategies"  # auto, review: 0.584
+  - type: idea
+    slug: "deep-work-recovery-cycle"  # auto, review: 0.574
+  - type: idea
+    slug: "low-energy-ideation"  # auto, review: 0.562
+  - type: idea
+    slug: "completion-vs-quitting"  # auto, review: 0.555
+  - type: idea
+    slug: "learning-dynamics"  # auto, review: 0.549
+  - type: idea
+    slug: "practice-as-learning-purpose"  # auto, review: 0.544
+  - type: idea
+    slug: "structural-patience"  # auto, review: 0.537
+  - type: idea
+    slug: "learning-pipeline"  # auto, review: 0.535
+  - type: idea
+    slug: "memorization-in-pipeline"  # auto, review: 0.520
+  - type: idea
+    slug: "where-innovation-comes-from"  # auto, review: 0.520
+  - type: idea
+    slug: "anki-for-english-conversation"  # auto, review: 0.511
+  - type: idea
+    slug: "system-coevolution"  # auto, review: 0.510
+  - type: idea
+    slug: "freedom-exploration-generator"  # auto, review: 0.504
 ---
 # Attention as the Bottleneck
 

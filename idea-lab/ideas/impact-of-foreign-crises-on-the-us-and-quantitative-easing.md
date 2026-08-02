@@ -1,10 +1,10 @@
 ---
 id: "idea-20260419-a3f7b2"
-summary: "The Great Depression-like crisis in Country A caused capital flight and bank failures, prompting an IMF bailout with U.S. dollars that temporarily diverted attention from and eased the U.S. crisis. However, low production and high consumption persisted, so the U.S. government implemented quantitative easing by injecting capital through project investments and loans, stimulating consumption and rising prices. When quantitative easing stopped, the economic bubble burst, leading to a policy of indefinite quantitative easing that fueled inflation and high unemployment, sparking the Occupy Wall Street movement. In the subsequent election, Okuda defeated the Wall Street-backed Rufei by harnessing anger over inequality and advocating higher taxes on the rich, while the Senate introduced the "Ocean Explorer" scheme to address the fiscal cliff through modest tax increases and spending cuts."
 title: "Impact of Foreign Crises on the US and Quantitative Easing"
 tags: ["financial-crisis", "quantitative-easing", "imf", "inflation", "occupy-wall-street", "fiscal-cliff", "monetary-policy", "economic-cycle", "government-intervention"]
-importance: 5.23  # auto
-connections: []
+summary: "A foreign crisis similar to the US Great Depression led to capital flight and an IMF bailout funded by US dollars, but the distressed country’s inability to repay diverted attention and eased the US crisis while US prices and consumption still declined. The US then implemented quantitative easing by investing in projects rather than direct handouts, renewing consumption and rising prices. When quantitative easing stopped, the economic bubble burst, so the government pursued indefinite quantitative easing, resulting in inflation, high unemployment, and the Occupy Wall Street movement. In the subsequent election, candidate Okuda harnessed class inequality anger, advocated taxing the rich, and defeated Wall Street’s Rufei, while the Senate used the \"Ocean Explorer\" scheme to address the fiscal cliff with modest tax hikes and spending cuts."
+body_hash: "ebaf3dbc"
+importance: 2.46  # auto
 connections:
   - type: idea
     slug: "government-economic-rescue-measures"  # review: 0.531

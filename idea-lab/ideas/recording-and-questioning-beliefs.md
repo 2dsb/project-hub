@@ -6,8 +6,9 @@ tags:
 - belief-examination
 - metacognition
 - thinking-methods
-summary: "Proactively document and interrogate your own beliefs, such as views on love or career, to foster self-reflection and metacognitive examination."
-importance: 2.92  # auto
+summary: "Proactively record and question your personal beliefs, such as views on love and career, to engage in self-reflection and metacognitive examination."
+body_hash: "eaf68221"
+importance: 1.85  # auto
 connections:
   - type: project
     slug: "ai-ability"

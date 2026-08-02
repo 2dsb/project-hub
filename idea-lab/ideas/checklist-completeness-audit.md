@@ -5,8 +5,9 @@ tags:
   - methodology
   - verification
   - knowledge-reconnection
-summary: "Self-consistent frameworks deceive by feeling complete while missing significant content because gaps manifest as silence rather than contradictions. An external checklist, like a 116-concept inventory, is the only reliable way to audit completeness and uncover hidden omissions. The first pass of the model appeared structurally sound but the external reference revealed 56 gaps; a second audit then exposed 10 more weak spots, all invisible to internal consistency checks. Therefore, before declaring structured work complete, you must hold it against an independent reference point."
-importance: 3.4  # auto
+summary: "A self-consistent framework can feel complete while missing up to 30% of its content because gaps produce silence, not contradictions, making them invisible from within. Only an external checklist independent of the framework reliably reveals these gaps. Evidence from Chapter 5: a model felt complete but a 116-concept inventory exposed 56 gaps, and after filling those, a second audit found 10 more weak spots. Self-consistency is deceptive, so before declaring completeness, validate the work against an external reference like a source checklist or another domain model."
+body_hash: "aaa604c2"
+importance: 2.4  # auto
 connections:
   - type: idea
     slug: knowledge-reconnection

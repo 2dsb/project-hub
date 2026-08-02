@@ -1,13 +1,14 @@
 ---
 id: "idea-20260719-decision-model-as-next-domain-model"
 title: "Decision Model as Next Non-Specialist Domain Model"
-importance: 2.39  # auto
+importance: 2.47  # auto
 tags:
   - decision-making
   - modeling
   - system-architecture
   - meta-cognition
-summary: "The next non-specialist domain model to develop is a decision model, which determines what action"
+summary: "The next non-specialist domain model to develop is a decision model, intended to complement or merge with the timeline-based project structure. The timeline model describes how projects evolve, while the decision model determines what action to take right now given the state of all projects. Candidate factors for the decision model include Leverage Factor, Precision vs. Fuzziness, Pass criteria clarity, and Practice proximity, plus timeline-inherent factors like P adequacy, Tension, Willingness state, and Oscillator phase. A possible merger would form a sense-act loop where the timeline model senses state and the decision model outputs actions. Currently this is only an intention with no design work started."
+body_hash: "b23b3a79"
 connections:
   - type: idea
     slug: "timeline-based-project-structure"  # auto
@@ -17,6 +18,10 @@ connections:
     slug: "precision-fuzziness-tradeoff"  # auto
   - type: idea
     slug: "strategy-three-component-model"  # review: 0.530
+  - type: idea
+    slug: "system-coevolution"  # auto
+  - type: idea
+    slug: "willingness-experiment"  # auto, review: 0.553
 ---
 # Decision Model as Next Non-Specialist Domain Model
 

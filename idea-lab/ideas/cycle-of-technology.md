@@ -11,8 +11,9 @@ tags:
 - technology-evolution
 - path-dependence
 - paradigm-shift
-summary: "The technology cycle describes how a fundamentally new principle emerges from demand in an immature, cobbled-together form, then rapidly spawns derivative technologies as different actors pursue varied purposes. Internal drivers like performance strengthening and safety enhancement propel development, but the technology eventually hits limitations from its own phenomena or external functionality, which are addressed through internal replacement of sub-technologies or structural deepening that adds supporting sub-layers. At maturity, performance cannot be improved further, yet lock-in occurs because the refined old technology outperforms crude new alternatives, marginal transition costs are high, and practitioners resist unfamiliar principles, causing adaptive extension where old methods are stretched to meet new demands. Ultimately, when adaptive extension fails, a newer principle gains a foothold and restarts the cycle, a pattern reflected in military systems as encrustation and in scientific theories as a similar periodic structure."
-importance: 6.52  # auto
+summary: "Technology domains evolve through a recurring cycle from origin to replacement. Initial new principles are immature, but a domain rapidly forms as derivative technologies emerge for varied purposes and internal development drivers. Setbacks from fundamental limits are addressed through internal replacement, swapping out limiting components, or structural deepening, adding sub-layers to assist weak components. A technology reaches maturity when refinement stops yielding performance gains, leading to lock-in, where the established technology persists due to its refined state, high transition costs, and psychological resistance to unknown new principles. Lock-in causes adaptive extension, using old principles to solve new problems beyond their limits. Replacement occurs when adaptive extension fails, allowing an emerging technology based on new principles to restart the cycle. This cyclical structure also applies to non-technological purposive systems and scientific theories, where encrustation and theoretical extension precede eventual paradigm shift."
+body_hash: "839ff5ee"
+importance: 6.03  # auto
 connections:
 - type: idea
   slug: three-definitions-of-technology
@@ -62,6 +63,10 @@ connections:
     slug: "classification-of-concepts"  # auto, review: 0.514
   - type: idea
     slug: "where-innovation-comes-from"  # auto, review: 0.513
+  - type: idea
+    slug: "perspective-classification"  # auto, review: 0.522
+  - type: idea
+    slug: "evolution-of-phenomena"  # auto, review: 0.511
 ---
 This refers to the process from the emergence of a new technology to its replacement by an even newer technology (here, "technology" is used in the plural sense).
 

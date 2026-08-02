@@ -12,8 +12,9 @@ tags:
   - publish-or-perish
   - academic-incentives
   - contingent-faculty
-summary: "Teaching effectiveness in higher education is eroded by economic incentives that prioritize research over instruction, a shift rooted in post-WWII space race funding and the subsequent privatization of research outcomes, which led universities to recruit star professors for grants—often exempting them from teaching—and to replace tenured faculty with contingent faculty like overworked adjunct instructors who teach foundational courses despite high turnover. An oversupply of PhDs and the publish-or-perish consensus further divert professors’ focus to colleagues, graduate students, and conferences, not undergraduates. Moreover, the specialized, jargon-heavy, impersonal logic of rigorous research directly contradicts the accessible, vivid, cross-disciplinary, and personality-driven qualities of effective teaching."
-importance: 1.12  # auto
+summary: "Undergraduate teaching effectiveness is undermined by the economic incentive for universities to prioritize funded research, a shift that intensified after World War II and became self-reinforcing as privatized research outcomes generated revenue. This research-first model leads to replacing tenured professors with overworked, high-turnover contingent faculty in foundational courses and fosters a “publish or perish” mindset where professors allocate time to colleagues and conferences rather than undergraduates. Better scholars are not better teachers because the logic of rigorous academic research directly contradicts teaching capacities: accessible, vivid, cross-disciplinary instruction clashes with specialized, impersonal jargon."
+body_hash: "08ccae23"
+importance: 0.73  # auto
 connections:
   - type: permanent
     slug: "优秀的绵羊c9.7"

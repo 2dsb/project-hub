@@ -7,8 +7,9 @@ tags:
   - physical-phenomena
   - behavioral-phenomena
   - purposeful-system
-summary: "Narrow technology is a system built upon physical phenomena to achieve a specific purpose. Broad technology, also termed a purposeful system, extends beyond the physical to include behavioral, institutional, and other phenomena layers. This distinction highlights that technology can be defined either narrowly, focusing on physical mechanisms, or broadly, encompassing a wider"
-importance: 3.16  # auto
+summary: "Narrow technology is a system built solely upon physical phenomena to achieve a specific purpose, while broad technology is a purposeful system that additionally builds upon behavioral, institutional, and other layers of phenomena."
+body_hash: "1e37e113"
+importance: 2.64  # auto
 connections:
   - type: project
     slug: ai-ability

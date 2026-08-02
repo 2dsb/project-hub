@@ -1,9 +1,10 @@
 ---
 id: "idea-20260626-vocab01"
-summary: "The tactic of vocabulary priming involves pre-loading 30–100 domain-specific words before a conversation or writing session to warm up working memory, hypothesized to reduce cognitive load and yield a disproportionate fluency gain. Uncertainties include whether it is actually effective or merely a comforting ritual, the optimal number of words, the decay rate of priming, and whether pre-loading or post-session review is more beneficial. For topic spaces, deliberate priming might accelerate early fluency in new domains, supplementing the natural vocabulary build from repeated sessions."
 title: "Vocabulary Priming Before Topic-Specific Conversation"
 tags: [english-learning, vocabulary, priming, topic-space, conversation-design]
-importance: 2.25  # auto
+summary: "A tactic of pre-loading 30–100 domain-specific vocabulary words before a conversation aims to reduce cognitive load by keeping those words active in working memory, producing a fluency gain disproportionate to the effort. It is uncertain whether this is an effective mechanism or merely a ritual, how many words are needed, and how long the priming lasts. Each topic space could have an associated vocabulary bank, and deliberate priming might accelerate early sessions in an unfamiliar domain."
+body_hash: "706015f0"
+importance: 1.5  # auto
 connections:
   - type: project
     slug: "english-learning"
@@ -11,6 +12,8 @@ connections:
     slug: "space-as-perspective"  # auto
   - type: idea
     slug: "english-comfort-zone-vocabulary"  # review: 0.525
+  - type: idea
+    slug: "anki-for-english-conversation"  # auto, review: 0.585
 ---
 # Vocabulary Priming Before Topic Conversation
 

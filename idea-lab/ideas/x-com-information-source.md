@@ -1,9 +1,10 @@
 ---
 id: "idea-20260626-xsrc01"
-summary: "X.com is a high-noise, high-velocity information source in a Source→Router→Sink pipeline, whose value depends entirely on curation through one's follow list. It serves a discovery role, not depth role, so the Router layer is the bottleneck; tactics like using AI as a Router to extract key items and a hard time cap are essential. Comparable sources include Reddit and HN with collective curation via community voting, and arXiv with self-curation, representing complementary filtering mechanisms that, alongside X.com's personal curation, provide broader signal coverage."
 title: "X.com as Information Source — Curation & Alternatives"
 tags: [information-source, curation, x-com, flow-based-thinking, noise-filtering]
-importance: 1.5  # auto
+summary: "X.com serves as a high-velocity discovery source in the Source→Router→Sink flow-based thinking pipeline, where quality is entirely curation-dependent on one’s follow list. Its role is strictly identifying what exists, not deep learning, requiring a Router layer—such as AI filtering a daily timeline into 3–5 deep-read items and a strict time cap—to handle the noise. Complementary sources like Reddit and Hacker News use community voting for collective curation, while arXiv relies on author self-curation, so no single filter covers all signal."
+body_hash: "7fd94b7a"
+importance: 1.03  # auto
 connections:
   - type: idea
     slug: flow-based-thinking

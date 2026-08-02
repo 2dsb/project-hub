@@ -8,8 +8,9 @@ tags:
   - knowledge-modeling
   - teach-method
   - interaction-as-dictionary
-summary: "Knowledge mastery has two axes—concept (horizontal interaction density) and practice ("
-importance: 4.11  # auto
+summary: "Knowledge mastery decomposes into two independent but mutually catalytic axes: concept (horizontal interaction density within a conceptual filter) and practice (cross-filter vertical binding automaticity). The \"phantom quadrant\" of strong practice with weak concept cannot exist for complex domains because stable bindings require sufficient conceptual density, and practice itself surfaces new interactions. This two-axis framework applies recursively to higher-level objects like learning strategies via pattern promotion from interaction-as-dictionary, but advancing levels is exponentially harder because objects at level N≥1 must be constructed from multiple cross-domain instances before they can be interacted with."
+body_hash: "e217a0dc"
+importance: 5.32  # auto
 connections:
   - type: idea
     slug: interaction-as-dictionary
@@ -29,6 +30,24 @@ connections:
     slug: "transfer-high-leverage"  # auto, review: 0.527
   - type: idea
     slug: "practice-as-learning-purpose"  # auto, review: 0.504
+  - type: idea
+    slug: "learning-pipeline"  # auto
+  - type: idea
+    slug: "implicit-improvement-pattern"  # auto
+  - type: idea
+    slug: "memorization-in-pipeline"  # auto
+  - type: idea
+    slug: "structural-patience"  # auto, review: 0.584
+  - type: idea
+    slug: "knowledge-transfer-fidelity"  # auto, review: 0.572
+  - type: idea
+    slug: "success-interrogation-heuristic"  # auto, review: 0.535
+  - type: idea
+    slug: "goal-singularity"  # auto, review: 0.522
+  - type: idea
+    slug: "peer-cross-teaching"  # auto, review: 0.503
+  - type: idea
+    slug: "knowledge-as-dictionary-of-perspectives"  # auto, review: 0.500
 ---
 # Knowledge Mastery — A Two-Axis Model with Recursive Levels
 

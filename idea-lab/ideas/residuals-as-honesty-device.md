@@ -5,8 +5,9 @@ tags:
 - methodology
 - writing
 - knowledge-reconnection
-summary: "A residuals table—listing content that resisted structuring along with explicit reasons—is not a failure but a transparency mechanism. It prevents the silent failure mode of a framework that appears complete yet has dropped important content, by making incompleteness visible. Knowing what is intentionally excluded becomes structural information, so future readers can see at a glance what’s missing and why, without rediscovering gaps or erroneously assuming completeness. Rather than forcing every concept into a framework and destroying clarity, or silently dropping what doesn’t fit, the residuals table offers a third option: keep the framework clean and make gaps explicit."
-importance: 3.95  # auto
+summary: "A residuals table explicitly listing excluded content with reasons is a structural honesty device, not a failure, because it transforms incompleteness from a hidden defect into a visible feature. It prevents the silent failure mode where a framework appears complete but drops important content, letting future-you see intentional gaps at a glance rather than rediscovering omissions or assuming a partial model is whole. This contrasts with forcing every concept in, which destroys clarity, or silently discarding what doesn’t fit, creating hidden gaps. Any structured model should include a \"What's Not Here and Why\" section."
+body_hash: "9d2070da"
+importance: 2.69  # auto
 connections:
 - type: idea
   slug: knowledge-reconnection

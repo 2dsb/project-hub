@@ -7,8 +7,9 @@ tags:
   - teach
   - pass-criteria
   - assessment
-summary: "Pass criteria are a first-class curriculum design element that should be stated before lesson content, not after. They define the observable behavior that counts as evidence of learning, dictating where learners invest effort and whether the lesson format fits. A Pass Bar statement clarifies the exit-gate capability, distinct from learning objectives. This micro-level pass bar pairs with the macro-level practice-as-purpose principle, creating a two-level purpose hierarchy where the internship deadline answers why learn and the pass bar specifies what "learned" looks like for each lesson."
-importance: 2.13  # auto
+summary: "Pass criteria should be treated as a first-class curriculum design element, not an afterthought, and must be stated before any lesson content because they define the observable behavior that constitutes evidence of learning. An explicit Pass Bar specifies precisely what the learner must be able to do at the exit gate—for example, trace an agent loop rather than write one from scratch—which directly shapes where effort is invested and calms “am I done?” anxiety. This approach reveals whether the lesson’s medium even suits its goal, since a document is wrong when the pass criteria demand a working pipeline. Distinct from learning objectives, the pass criteria form the micro-level of the practice-as-purpose hierarchy, with the internship deadline as the macro-level reason to learn, together creating a two-level purpose structure."
+body_hash: "b5aa7984"
+importance: 2.04  # auto
 connections:
   - type: idea
     slug: practice-as-learning-purpose
@@ -16,6 +17,12 @@ connections:
     slug: "teach-method-fixes"  # review: 0.565
   - type: idea
     slug: "teach-coverage-check"  # review: 0.508
+  - type: idea
+    slug: "explaining-excellent-sheep-with-theory"  # auto, review: 0.547
+  - type: idea
+    slug: "success-interrogation-heuristic"  # auto, review: 0.535
+  - type: idea
+    slug: "learning-pipeline"  # auto, review: 0.513
 ---
 # Pass Criteria as a First-Class Curriculum Design Element
 

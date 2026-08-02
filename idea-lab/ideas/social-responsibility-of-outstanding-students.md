@@ -1,10 +1,10 @@
 ---
 id: "idea-20260123-b9d3f1"
-summary: "Leadership and serving others have devolved from selfless ideals into self-serving careerism, where high positions on the social pyramid matter most and service is merely charity that polishes resumes. Bureaucratic systems now promote caretakers who preserve the status quo without initiative or independent thought, while elite students, flourishing within this framework, lose critical dissatisfaction and ignore structural change, tackling only isolated problems like DIY-style social entrepreneurship. The necessary response is to become a thinker: a good citizen who questions common sense, strategically charts direction, and possesses the willpower and courage to defy tradition."
 title: "The Social Responsibility of Outstanding Students"
 tags: ["leadership-alienation", "social-responsibility", "critical-thinking", "social-structure", "thinker", "elite-education", "conformity", "higher-education"]
-importance: 3.12  # auto
-connections: []
+summary: "The concepts of leadership and service have narrowed from altruistic, humble contributions to self-serving status-seeking and charity that polishes résumés, alienating them from genuine social responsibility. Bureaucratic systems elevate \"caretakers\"—those who preserve the status quo without independent thought—because upward mobility rewards conformity over expertise. Elite students thrive within this system, so they lack critical dissatisfaction with the status quo and focus on isolated problems like food production rather than structural change. The solution is to become \"thinkers\" who critically examine their social environment, question common sense, raise questions, reflect on value, and chart strategic direction for companies or nations, requiring strong willpower and courage to oppose tradition."
+body_hash: "c6f6eee5"
+importance: 4.21  # auto
 connections:
   - type: idea
     slug: "return-of-college"  # auto
@@ -14,6 +14,12 @@ connections:
     slug: "my-relationship-with-others-and-society"  # review: 0.567
   - type: idea
     slug: "liberal-arts-perspective-on-the-execution-line"  # auto, review: 0.507
+  - type: idea
+    slug: "origin-of-critical-dissatisfaction"  # auto, review: 0.562
+  - type: idea
+    slug: "growth-journey-of-elite-college-students"  # auto, review: 0.552
+  - type: idea
+    slug: "university-two-pillar-strategy"  # auto, review: 0.500
 ---
 # Two Concepts in Transformation
 

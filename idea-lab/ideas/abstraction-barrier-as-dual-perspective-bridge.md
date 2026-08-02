@@ -4,7 +4,7 @@ summary: "The abstraction barrier is a deliberately constructed bridge between t
 body_hash: "80592919"
 title: "Abstraction Barrier as the Bridge Between Program and Conceptual Layers"
 tags: [cs61a, abstraction, data-abstraction, dual-perspective, program-execution, mental-model]
-importance: 3.03  # auto
+importance: 2.48  # auto
 connections:
   - type: idea
     slug: environment-diagram-dual-perspective
@@ -22,6 +22,8 @@ connections:
     slug: four-layer-quality-model
   - type: idea
     slug: "name-object-binding-as-perspective"  # review: 0.504
+  - type: idea
+    slug: "content-independent-framework"  # auto, review: 0.537
 ---
 # Abstraction Barrier as the Bridge Between Program and Conceptual Layers
 

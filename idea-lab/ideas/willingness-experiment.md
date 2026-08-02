@@ -1,9 +1,10 @@
 ---
 id: "idea-20260629-we01"
-summary: "This note outlines an experiment to resolve the tension between continuity fatigue and milestone gravity in a timeline-based project structure. The core question is whether, when feeling resistance after consecutive days on a project, it is better to push through on the same project (Continue arm, using the Deep Learning Book) or switch to a different one (Switch arm, using PyTorch). Each arm runs for five sessions in the same deep work energy peak slot, measuring output quality, volume, session satisfaction, and next-day carryover"
 title: "Willingness Experiment: Continue vs. Switch"
 tags: [experiment, meta-cognition, willingness, decision-making, project-management]
-importance: 2.12  # auto
+summary: "This note outlines a personal experiment testing the willingness dynamics from the timeline-based project structure, specifically the tension between continuity fatigue and milestone gravity, by comparing two arms when resistance arises after consecutive days on a project. Fixed conditions include the Deep Work I time block, with the Continue arm staying on Deep Learning Book chapters and the Switch arm moving to a PyTorch torch.nn module session. Outcome metrics are output quality, output volume, session satisfaction, and next-day carryover, with the hypothesis that Continue may yield higher volume but lower satisfaction and carryover. After ten total sessions, the analysis will check for significant differences, trade-off patterns, and adaptation effects."
+body_hash: "c0d10beb"
+importance: 2.49  # auto
 connections:
   - type: idea
     slug: "timeline-based-project-structure"  # auto
@@ -13,6 +14,12 @@ connections:
     slug: "attention-as-bottleneck"  # auto, review: 0.562
   - type: idea
     slug: "certainty-gravity"  # auto, review: 0.525
+  - type: idea
+    slug: "completion-vs-quitting"  # auto
+  - type: idea
+    slug: "decision-model-as-next-domain-model"  # auto, review: 0.553
+  - type: idea
+    slug: "system-coevolution"  # auto, review: 0.545
 ---
 # Willingness Experiment: Continue vs. Switch
 

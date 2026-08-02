@@ -1,9 +1,10 @@
 ---
 id: "idea-20260402-3c84f5"
-summary: "The note questions whether moral obligations and feelings should remain fixed when a person changes over time, using the scenario of a relative who vowed to kill a murderer after the murderer undergoes a spiritual awakening and reformation. It connects this dilemma to the broader debate on whether the primary goal of sentencing is punishment or rehabilitation."
 title: "People Change Over Time"
 tags: [human-nature, time, justice, punishment]
-importance: 0.63  # auto
+summary: "The note questions whether personal identity continuity obligates past feelings or commitments to persist, using the example of a reformed murderer and a victim’s relative who vowed revenge. It asks if a spiritual awakening should nullify prior intentions, and whether the present self must answer for a past self’s actions. This dilemma links to the fundamental purpose of sentencing, contrasting punishment with rehabilitation."
+body_hash: "4c7f3b95"
+importance: 0.37  # auto
 connections:
   - type: idea
     slug: "completion-vs-quitting"  # auto

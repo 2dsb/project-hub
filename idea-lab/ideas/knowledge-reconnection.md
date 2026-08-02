@@ -6,8 +6,9 @@ tags:
 - learning
 - recovery
 - productivity
-summary: "The Knowledge Reconnection Mechanism treats knowledge"
-importance: 5.44  # auto
+summary: "The Knowledge Reconnection Mechanism treats knowledge recovery after a gap as an encode/decode process analogous to PCA, where encoding compresses learned material into a low-dimensional structural representation that preserves relational directions of variance rather than all details. The reconnection doc, written via a human-AI division of labor, must satisfy four constraints: low decode cost, structured model output, preservation of main points, and minimal length, with residuals explicitly listed to make incompleteness transparent. Decoding starts with a ≤30-second entry point, traverses the structural model, checks residuals, and accepts gaps, enabling efficient mental reconstruction by treating the doc as a projection that requires active reconstruction during retrieval."
+body_hash: "05a8eebd"
+importance: 4.73  # auto
 connections:
   - type: project
     slug: "ai-ability"
@@ -25,6 +26,18 @@ connections:
     slug: "reconnection-doc-method"  # auto
   - type: idea
     slug: "three-layer-framework"  # auto
+  - type: idea
+    slug: "structural-patience"  # auto
+  - type: idea
+    slug: "human-structure-ai-completeness"  # auto
+  - type: idea
+    slug: "attention-pointer-learning-model"  # auto, review: 0.589
+  - type: idea
+    slug: "memorization-in-pipeline"  # auto, review: 0.584
+  - type: idea
+    slug: "anki-for-english-conversation"  # auto, review: 0.513
+  - type: idea
+    slug: "locate-first-model-last"  # auto, review: 0.506
 ---
 # Knowledge Reconnection Mechanism
 

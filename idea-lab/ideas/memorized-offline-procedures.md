@@ -1,9 +1,10 @@
 ---
 id: "idea-20260627-memproc01"
-summary: "Some procedures occur away from screens and AI, requiring full memorization instead of real-time AI guidance. This creates two classes of skills: AI-present, where AI walks you through steps, and offline-memorized, where you must recall the procedure from memory. The skill file becomes a canonical source for review and correction, not an execution guide. In the (M, A) model, an offline-memorized procedure lives entirely in memory during execution, with the artifact consulted only when memory fails or updates are needed. Post-run stretching is the first recognized instance of this class."
 title: "Memorized Offline Procedures — When Skills Can't Rely on AI Presence"
 tags: [skill-design, memorization, offline, physical, constraint, procedure]
-importance: 1.37  # auto
+summary: "Some procedures occur away from screens and AI, such as stretching or cooking, and must be fully memorized rather than referenced during execution. This splits skills into two classes: AI-present skills where AI guides in real time, and offline-memorized skills where AI serves only as a post-hoc reviewer and corrector. The offline-memorized skill lives entirely in memory during execution, with the skill file acting as an artifact backup consulted only when memory fails or an update is needed."
+body_hash: "80ca6180"
+importance: 1.46  # auto
 connections:
   - type: skill
     slug: "post-run-stretching"
@@ -13,6 +14,10 @@ connections:
     slug: "implicit-improvement-pattern"  # review: 0.537
   - type: idea
     slug: "success-interrogation-heuristic"  # review: 0.512
+  - type: idea
+    slug: "practice-as-learning-purpose"  # auto, review: 0.520
+  - type: idea
+    slug: "memorization-in-pipeline"  # auto, review: 0.513
 ---
 # Memorized Offline Procedures
 

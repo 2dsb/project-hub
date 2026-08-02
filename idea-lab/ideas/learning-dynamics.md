@@ -7,8 +7,9 @@ tags:
   - dynamics
   - optimization
   - actionable
-summary: "The two-axis model represents knowledge mastery as a state with horizontal interaction density c and vertical cross-filter binding strength p, and learning dynamics are the forces that change that state. Acquisition forces like exposure, deliberate mapping, execution, cross-domain transfer, and teaching push c and p upward, while drag forces such as decay, interference, complexity ceilings, and attention competition pull them down. Phase transitions to higher recursion levels require saturation, deliberate comparison across objects, or external perturbation. Open questions"
-importance: 5.5  # auto
+summary: "The note extends the two-axis model of knowledge mastery, where objects have horizontal interaction density c and vertical cross-filter binding p, by defining forces that drive acquisition, drag, and phase transitions. Acquisition forces like exposure, deliberate mapping, and execution push c and p upward, while drag forces such as decay, interference, and attention competition pull them downward. Phase transitions to higher recursion levels are triggered by saturation, deliberate comparison, or external perturbation. The framework raises open questions about optimal sequencing, decay curves, transfer efficiency, and individual parameters, and it integrates with the /teach method and the MAP model’s M and Willingness. Explicit per-track tracking of c and p is proposed as a next step."
+body_hash: "e497d141"
+importance: 4.51  # auto
 connections:
   - type: idea
     slug: knowledge-mastery-two-axis-model
@@ -36,6 +37,12 @@ connections:
     slug: "knowledge-transfer-fidelity"  # review: 0.527
   - type: idea
     slug: "locate-first-model-last"  # review: 0.502
+  - type: idea
+    slug: "attention-as-bottleneck"  # auto, review: 0.549
+  - type: idea
+    slug: "practice-as-learning-purpose"  # auto, review: 0.515
+  - type: idea
+    slug: "goal-singularity"  # auto, review: 0.513
 ---
 # Learning Dynamics — Forces Governing Knowledge Acquisition
 

@@ -10,8 +10,9 @@ tags:
   - technology-innovation
   - technology-clusters
   - technology-evolution
-summary: "A technology domain is a cluster of interrelated technologies that share a common external form or latent potential to serve a common purpose, functioning as a toolbox with sub-domains and a grammar—rules for combining its elements. Engineering design begins with domain definition, the choice of a domain to achieve a goal. Innovation through re-domaining shifts from an existing domain to a new one; Domain B displaces Domain A if B offers richer potential technologies and diverse combination patterns, as when electronics supplanted mechanical technology. Domains have inherent strengths, like digital clarity, and limitations, such as an inability to evaluate fashion."
-importance: 4.23  # auto
+summary: "A domain is a cluster of interrelated technologies sharing common external form or purpose, viewed as a toolbox and a language whose grammar defines combination rules. Engineering design begins with domain definition, choosing a domain to achieve a goal. Innovation arises through re-domaining: replacing an existing domain with a new one built on novel phenomena or theories. The new domain displaces the old if it offers greater possibilities—more potential technologies—and diverse combination patterns, exemplified by the shift from the mechanical domain to the electronic domain."
+body_hash: "de59473c"
+importance: 3.54  # auto
 connections:
   - type: idea
     slug: three-definitions-of-technology

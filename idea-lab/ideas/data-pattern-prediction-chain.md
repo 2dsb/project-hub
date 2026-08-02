@@ -1,9 +1,10 @@
 ---
 id: "idea-20260626-dpp01"
-summary: "The Data → Pattern → Prediction chain describes a universal abstraction progression: raw observations (data) are compressed into regularities (patterns), which then enable forecasts for novel situations (predictions). This sequence appears in science (experiment results, theories, hypotheses), machine learning (training sets, model weights, inference), learning, conversation, and daily life, demonstrating domain-independence. It differs from process-design pipelines like Source→Router→Sink by focusing on abstraction levels rather than flow topology, with the pattern layer corresponding to compressed memory artifacts in project structures."
 title: "Data → Pattern → Prediction Chain"
 tags: [abstraction, learning, pattern-recognition, prediction, cognitive-pipeline]
-importance: 2.64  # auto
+summary: "The Data → Pattern → Prediction chain posits three universal abstraction stages: raw observations (data) are compressed into regularities (patterns), which then enable forecasts for unseen situations (prediction). This same process appears across science, machine learning, learning, conversation, and daily life—only the substrate changes. Comparatively, the learning pipeline addresses process design rather than abstraction levels, while flow-based thinking situates this chain as the underlying cognitive layer. In project structure, memory (M) represents the pattern layer, where compressed data constitutes pattern artifacts."
+body_hash: "3fc0105e"
+importance: 5.44  # auto
 connections:
   - type: idea
     slug: "learning-pipeline"  # auto
@@ -15,6 +16,34 @@ connections:
     slug: "local-pattern-patching-failure"  # review: 0.519
   - type: idea
     slug: "framework-extraction-pattern"  # review: 0.513
+  - type: idea
+    slug: "transfer-high-leverage"  # auto
+  - type: idea
+    slug: "structural-patience"  # auto
+  - type: idea
+    slug: "reconnection-doc-method"  # auto, review: 0.585
+  - type: idea
+    slug: "memorization-in-pipeline"  # auto, review: 0.561
+  - type: idea
+    slug: "speed-first-model-second-batch-tradeoff"  # auto, review: 0.552
+  - type: idea
+    slug: "environment-diagram-dual-perspective"  # auto, review: 0.548
+  - type: idea
+    slug: "freedom-exploration-generator"  # auto, review: 0.538
+  - type: idea
+    slug: "attention-pointer-learning-model"  # auto, review: 0.531
+  - type: idea
+    slug: "implicit-improvement-pattern"  # auto, review: 0.518
+  - type: idea
+    slug: "system-coevolution"  # auto, review: 0.515
+  - type: idea
+    slug: "three-layer-framework"  # auto, review: 0.514
+  - type: idea
+    slug: "breadth-first-trap"  # auto, review: 0.507
+  - type: idea
+    slug: "human-structure-ai-completeness"  # auto, review: 0.506
+  - type: idea
+    slug: "data-structure-first-code-reading"  # auto, review: 0.501
 ---
 # Data → Pattern → Prediction Chain
 

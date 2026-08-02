@@ -1,9 +1,10 @@
 ---
 id: "idea-20260626-slp01"
-summary: "Any project’s state can be losslessly represented by memory, artifacts, and physical capacity, where physical capacity is a global constraint that gates all work, decaying during deep work and recovering through rest and exercise. The study–slack oscillator shows that intense cognitive sessions deplete physical capacity via poor sleep, triggering recovery gaps, while rhinitis asymmetrically drains motivation during slack phases, making external social triggers the most reliable escape. The foundational strategy is a hard 20:30 cutoff for cognitive work to preserve physical capacity, enabling project rotation and exercise as physical‑capacity management."
 title: "Timeline-Based Project Structure"
 tags: [time-management, project-structure, meta-cognition, daily-flow, energy-management, recovery, physical-health]
-importance: 6.83  # auto
+summary: "The universal structure of any project is captured losslessly by the tuple (Memory, Artifacts, and Physical Capacity), where P is a single global resource that gates all cognitive work and recovers with rest. Deep work depletes P, causing a drop below a floor that forces a mandatory B (slack) phase, but the natural A⇄B oscillator alternates study and slack as willingness fatigue and leisure satiation drive transitions. The rhinitis drain makes B phases descend, requiring external triggers or a minimal viable A to escape. The hard cutoff at 20:30 is the prerequisite for all other strategies because it prevents the P depletion that overrides any intention to rotate projects or exercise. Exercise itself is a project subject to willingness dynamics, so the only sustainable form is zero-friction indoor bodyweight work that maintains P baseline without dread."
+body_hash: "a696a3ac"
+importance: 5.38  # auto
 connections:
   - type: idea
     slug: learning-pipeline
@@ -23,6 +24,14 @@ connections:
     slug: "efficiency-formula"  # auto, review: 0.509
   - type: idea
     slug: "integrating-fragmented-life-strategies"  # auto, review: 0.500
+  - type: idea
+    slug: "low-energy-ideation"  # auto, review: 0.589
+  - type: idea
+    slug: "completion-vs-quitting"  # auto, review: 0.570
+  - type: idea
+    slug: "decision-model-as-next-domain-model"  # auto, review: 0.537
+  - type: idea
+    slug: "where-innovation-comes-from"  # auto, review: 0.515
 ---
 # Timeline-Based Project Structure
 

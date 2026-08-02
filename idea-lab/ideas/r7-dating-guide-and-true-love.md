@@ -1,10 +1,13 @@
 ---
 id: "idea-20260129-8f6ab9"
-summary: "In r7, women judge a man's power through feeling triggered by environmental cues like a candlelit dinner"
 title: "R7 Dating Guide and True Love"
 tags: [love, interpersonal-attraction, emotional-psychology, environmental-effect, rational-analysis]
-importance: 0.0  # auto
-connections: []
+summary: "In r7, a woman judges a man's power not by his raw wealth but by the emotional atmosphere he can create, such as a candlelit dinner. This reveals a mismatch between gene-driven feelings and modern social conditions: money enables a romantic atmosphere that triggers attraction, yet women disdain a man who merely displays 100 bitcoins. The mechanism is transference, where the woman blurs the boundary between her environment-induced joy and her perception of the man, boosting his charisma. The thought experiment, controlling for the man except dining setting and using a sample size of over ten, shows that charisma is not fixed but environmentally dependent, exposing a rational contradiction in attraction."
+body_hash: "831346cf"
+importance: 1.33  # auto
+connections:
+  - type: idea
+    slug: "understanding-the-word-friend"  # auto, review: 0.561
 ---
 In r7, women judge whether a man is "powerful" by "feeling" — a candlelit dinner moves them, not 100 bitcoins in a wallet.
 

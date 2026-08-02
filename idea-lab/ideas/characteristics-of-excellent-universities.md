@@ -9,8 +9,9 @@ tags:
   - social-good
   - higher-education
   - undergraduate-experience
-summary: "Excellent universities feature curious, open peers who act as intellectual partners, offering idea exchange and mutual support under shared graduation pressures. They guide students in with an "Introduction to Liberal Arts" course—a humanities syllabus covering discipline essentials to broaden interests and find direction. They proactively prepare all majors for life after graduation through year-round systematic programs, not just last-minute senior-year vocational skills repackaged as leadership. For example, Bennington College's Center for Social Good allows students to choose themes like poverty, public health, or the environment, conducting project-based inquiry to use resources for advancing social progress, which redefines leadership's actual meaning."
-importance: 3.39  # auto
+summary: "Excellent universities are defined by students who are curious and collegial, acting as partners for intellectual exchange rather than competitors. They guide students in with an \"Introduction to Liberal Arts\" course that exposes them to core disciplinary essentials, rather than leaving them to navigate a catalog alone. The transition out is equally deliberate: these institutions make long-term investments through year-round learning programs, not last-minute senior-year workshops that rebrand vocational skills as leadership. Bennington College’s Center for Social Good exemplifies this by letting students investigate themes like poverty or public health through projects, grounding leadership in using one’s resources to advance social progress."
+body_hash: "d4d82b3c"
+importance: 2.97  # auto
 connections:
   - type: idea
     slug: teachers
@@ -24,6 +25,8 @@ connections:
     slug: "university-two-pillar-strategy"  # review: 0.524
   - type: idea
     slug: "liberal-arts-perspective-on-the-execution-line"  # review: 0.514
+  - type: idea
+    slug: "mooc-brand-tools-inequality"  # auto, review: 0.560
 ---
 # Professors
 

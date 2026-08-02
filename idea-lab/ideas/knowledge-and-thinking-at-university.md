@@ -10,8 +10,9 @@ tags:
   - natural-sciences
   - humanities
   - critical-thinking
-summary: "The note argues that university thinking requires questioning common sense, exemplified by testing the claim that knowledge production in natural sciences is understanding domain assumptions then analyzing further, while in humanities it is dialectical engagement between old and new knowledge. This is interrogated by seeking evidence for and against it in disciplines like mathematics, asking what constitutes knowledge and its framework, to reveal its validity and limits. Understanding this production process aids thinking by enabling analysis of domain-specific common sense as a kind of standard engineering, where problem-solving becomes a technique built from familiarity with diverse habitual domains and their grammars. Exchanging thinking patterns with peers expands one’s set of domains, and erudite teachers who share life experience offer"
-importance: 4.62  # auto
+summary: "The note explores the link between knowledge production and thinking, drawing on *Excellent Sheep*. It presents the claim that natural sciences advance by analyzing domain assumptions, while humanities progress through dialectical engagement between old and new knowledge. To verify this, one can seek evidence that proves or refutes these models within specific disciplines like mathematics. Thinking is framed as problem-solving by combining familiar knowledge domains and their grammars. Enhancing thinking requires exposure to diverse domains and the exchange of \"habitual domains\" with erudite teachers and peers, akin to developing standard engineering techniques for problem-solving."
+body_hash: "b4ff34eb"
+importance: 4.24  # auto
 connections:
   - type: project
     slug: ai-ability
@@ -31,6 +32,12 @@ connections:
     slug: "domain-power-and-perspective-taking"  # review: 0.521
   - type: idea
     slug: "inquiry-essay-method"  # review: 0.503
+  - type: idea
+    slug: "liberal-education-and-the-zettelkasten"  # auto, review: 0.539
+  - type: idea
+    slug: "math-competition-and-tech-innovation"  # auto, review: 0.528
+  - type: idea
+    slug: "explaining-excellent-sheep-with-theory"  # auto, review: 0.510
 ---
 # Knowledge and Thinking
 

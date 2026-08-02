@@ -8,8 +8,9 @@ tags:
   - market-efficiency
   - market-failure
   - welfare-economics
-summary: "Welfare economics studies how resource allocation affects economic well-being. Consumer surplus, the difference between willingness to pay and price, is captured as the area below the demand curve and above the price line. Producer surplus, the difference between price received and cost, is the area above the supply curve and below the price line. Total surplus equals consumer surplus plus producer surplus, which reduces to buyer’s valuation minus seller’s cost. A market outcome is efficient if it maximizes total surplus; free markets achieve this by allocating goods to buyers with the highest valuation and sellers with the lowest cost, producing the surplus-maximizing quantity. This efficiency rests on the assumptions of perfect competition (no market power) and no externalities, and the violation of either condition constitutes a market failure."
-importance: 3.18  # auto
+summary: "Welfare economics studies how resource allocation affects well-being. Consumer surplus is the difference between a buyer’s willingness to pay and the price actually paid, while producer surplus is the difference between the price received and the seller’s cost. Total surplus, the sum of consumer and producer surplus, measures economic efficiency. Free markets maximize total surplus by allocating goods to the highest-valuing buyers and the lowest-cost producers, but this efficiency relies on perfectly competitive markets and no externalities; the absence of these conditions constitutes market failure."
+body_hash: "d631d86d"
+importance: 3.76  # auto
 connections:
   - type: idea
     slug: competitive-markets
@@ -19,6 +20,8 @@ connections:
     slug: "the-ten-principles-of-economics"  # review: 0.539
   - type: idea
     slug: "elasticity-of-supply-and-demand"  # review: 0.509
+  - type: idea
+    slug: "understanding-willingness-to-pay"  # auto, review: 0.505
 ---
 Welfare Economics: the study of how resource allocation affects economic well-being.
 

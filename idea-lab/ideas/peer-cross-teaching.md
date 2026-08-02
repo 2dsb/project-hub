@@ -1,9 +1,10 @@
 ---
 id: "idea-20260621-pct01"
-summary: "Peer cross-teaching is a structured learning strategy where two people pre-divide a large domain into chunks, each first learning one chunk deeply, then cross-teaching the other. This inserts a human value-judgment layer before information reaches the learner, similar to AI source triage but with a peer. Because each person only needs to first-pass their own chunk, learning is dramatically accelerated, as illustrated by one person saving half the time on a deep learning course after guidance from a peer. The method generalizes to any splittable domain, structured by clear boundaries and handoff points."
 title: "Peer Cross-Teaching"
 tags: [learning, efficiency, peer-instruction, flow-based-thinking, human-routing]
-importance: 1.5  # auto
+summary: "Peer cross-teaching is a structured method where two learners split a domain, each first-learning a different chunk, then teaching the other to accelerate mastery, because a good guide can dramatically improve learning efficiency by inserting a human value-judgment layer. In flow-based thinking, parallel flows cross-route information, with each person acting as both source and sink for different chunks, analogous to ai-source-triage but using peer judgment instead of AI pre-filtering. The split must be pre-planned with aligned boundaries and handoff points, not random, to ensure efficient knowledge transfer. This approach could scale to networks of more than two and stack with AI tools for content preparation."
+body_hash: "f1048613"
+importance: 2.73  # auto
 connections:
   - type: idea
     slug: "ai-source-triage"  # auto
@@ -11,6 +12,18 @@ connections:
     slug: "flow-based-thinking"  # auto
   - type: idea
     slug: "learning-pipeline"  # auto
+  - type: idea
+    slug: "freedom-exploration-generator"  # auto, review: 0.537
+  - type: idea
+    slug: "transfer-high-leverage"  # auto, review: 0.532
+  - type: idea
+    slug: "leverage-existing-vs-build-from-scratch"  # auto, review: 0.529
+  - type: idea
+    slug: "teach-method-fixes"  # auto, review: 0.524
+  - type: idea
+    slug: "success-interrogation-heuristic"  # auto, review: 0.505
+  - type: idea
+    slug: "knowledge-mastery-two-axis-model"  # auto, review: 0.503
 ---
 # Peer Cross-Teaching
 

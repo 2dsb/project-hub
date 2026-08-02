@@ -1,9 +1,10 @@
 ---
 id: "idea-20260608-ms01"
-summary: "M34's claim of coevolution is contradicted by a static source layer: six hardcoded entity directories and daily notes. All evolutionary capability resides in the routing layer, leaving the perception boundary fixed. As the user's working methods evolve, coverage breadth steadily declines. This is a structural defect, not a bug, because a system that cannot evolve its own perception boundary cannot truly coevolve. A self-extension mechanism—periodic scanning for new directories, pattern detection, or manual registration—is needed to close this design-level gap."
 title: "M34 Structural Defect: Source Layer Static Rigidity"
 tags: [system-design, coevolution, m34, data-source, rigidity, architecture]
-importance: 3.44  # auto
+summary: "M34 suffers from a structural defect called source layer static rigidity: its data sources are hardcoded, while coevolution claims sit only in the routing layer. Because the perception boundary cannot evolve, the system's coverage breadth declines as the user's working methods change, creating a contradiction. This is not a bug but a missing design dimension; the improvement direction is a self-extension mechanism to dynamically discover new data sources or allow manual registration."
+body_hash: "d0426ee7"
+importance: 2.68  # auto
 connections:
   - type: idea
     slug: "system-coevolution-p1-data-coverage"  # auto

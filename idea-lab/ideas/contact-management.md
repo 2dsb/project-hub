@@ -6,8 +6,9 @@ tags:
 - crm
 - relationships
 - personal-data
-summary: "A systematic contact management system is needed to record people’s details, proactively maintain relationships by “catering to their interests”—remembering what they care about—and unlock latent network value. The two-way information asymmetry makes resources invisible, so the system tracks interest points and triggers contact when relevant content, events, or follow-ups arise. Monetizing the network involves demand matching, information arbitrage, and skill resource pooling. This could become a personal skill with a contact entity data layer and AI-driven reminders for interest-based outreach."
-importance: 1.92  # auto
+summary: "A systematic contact management system addresses the two-way information asymmetry problem—where direct and indirect resources are invisible to both sides—by recording people’s details, interests, and recent updates. Relationship maintenance is built on the principle of “cater to their interests,” using interest-based triggers like forwarding relevant content, sharing field developments, or following up on personal goals, supported by periodic reminders and a tiered effort model (core, regular, weak ties). This foundation enables monetizing the network through demand matching, information arbitrage, a skill resource pool, collaboration matchmaking, and opportunity distribution, creating triple-win value. The idea may evolve into a personal skill combining entity storage with smart, interest-aligned maintenance prompts and demand/resource matching queries."
+body_hash: "f154d01e"
+importance: 1.55  # auto
 connections:
   - type: project
     slug: ai-ability

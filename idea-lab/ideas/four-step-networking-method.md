@@ -1,14 +1,17 @@
 ---
 id: "idea-20260731-nm4s"
-summary: "A networking method stress-tested at a CKGSB event sequences five steps: a genuine, answerable compliment tailored to the person’s role; a concise self-introduction providing a memorable identity anchor like “the PKU math freshman”; a contact exchange framed as a desire to learn; a specific question that shows preparation and curiosity; and a follow-up within 24 hours referencing the conversation without asking for favors. Order lowers defenses, specificity is respect, and the follow-up converts a fleeting contact into a compounding relationship through periodic, low-pressure touchpoints."
 title: "The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up"
 tags: [networking, social-skills, methodology, communication, mentorship]
-importance: 4.04  # auto
+summary: "The Networking Method structures relationship-building into five sequential steps: open with a specific, answerable compliment that invites dialogue, then establish an identity anchor to serve as a mental hook, exchange contacts while framing the ask around a genuine intent to learn, and ask a question that demonstrates prepared curiosity by targeting the space between public and insider knowledge. The method’s central argument is that the follow-up within 24 hours, which references a specific conversation point without making an immediate ask, is the essential multiplier that converts a fleeting contact into a compounding, long-term relationship."
+body_hash: "df57d893"
+importance: 3.89  # auto
 connections:
   - type: idea
     slug: "university-two-pillar-strategy"  # auto
   - type: idea
     slug: "stranger-conversation-loop"  # review: 0.506
+  - type: idea
+    slug: "understanding-the-word-friend"  # auto, review: 0.548
 ---
 # The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up
 

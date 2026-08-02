@@ -6,8 +6,9 @@ tags:
 - structure-analysis
 - meta-cognition
 - writing
-summary: "The methodology of describing each paragraph's organizational pattern in natural language, termed "natural language narration," warrants investigation in its own right. The central questions are what defines a good description, what granularity is appropriate, and how to avoid inadvertently importing framework terminology."
-importance: 3.36  # auto
+summary: "The \"Natural Language Narration\" methodology involves describing each paragraph's organizational pattern in natural language, a practice that merits exploration. Core questions concern what constitutes a good description, at what level of detail one should describe, and how to avoid unconsciously applying framework terminology."
+body_hash: "809ef60e"
+importance: 2.45  # auto
 connections:
 - type: project
   slug: linguistic-structure-analysis
@@ -35,6 +36,8 @@ connections:
   slug: residuals-as-honesty-device
   - type: idea
     slug: "inquiry-essay-method"  # review: 0.518
+  - type: idea
+    slug: "three-layer-framework"  # auto, review: 0.527
 ---
 # Natural Language Narration Methodology
 

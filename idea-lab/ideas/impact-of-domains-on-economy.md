@@ -11,8 +11,9 @@ tags:
 - economic-evolution
 - technological-frontier
 - geography-of-innovation
-summary: "Technology bodies encounter industries not through simple adoption but through mutual co-creation, a process of re-domaining that yields disruptive change and secondary industries. This restructuring of economic arrangements takes decades, measured not as lag but as relational time involving both fast-time design and slow-time era-shaping. Geographic concentration of technological frontiers persists because leading-edge knowledge depends on esoteric craftsmanship—a shared, ineffable culture of knowing what works, which principles to trust, what to ignore, and how to manipulate poorly understood phenomena, reinforced by trade secrets that attract further success."
-importance: 2.6  # auto
+summary: "Technology in the plural sense involves technology bodies encountering industries, leading to re-domaining and disruptive change through co-variation and co-creation. This mutual restructuring, not mere adoption, explains why the economic impact of a domain unfolds over decades, requiring the accumulation of craft knowledge, supporting technologies, and institutional alignment. The process unfolds in relational time, with fast-time capturing the pace of new activities and slow-time defining an era. The geographic concentration of technological frontiers stems from esoteric craftsmanship—a shared, ineffable cognitive culture that includes knowing what works, what to ignore, and how to manipulate poorly understood phenomena, reinforced by trade secrets."
+body_hash: "9dac03ff"
+importance: 2.88  # auto
 connections:
 - type: idea
   slug: three-definitions-of-technology
@@ -36,6 +37,12 @@ connections:
     slug: "cycle-of-technology"  # auto, review: 0.541
   - type: idea
     slug: "technology"  # auto, review: 0.521
+  - type: idea
+    slug: "finding-examples"  # auto, review: 0.591
+  - type: idea
+    slug: "reconceptualizing-standard-engineering"  # auto, review: 0.504
+  - type: idea
+    slug: "classification-of-concepts"  # auto, review: 0.500
 ---
 Technology in the singular sense causes changes in prices and production relations within the economy.
 **Industry adopts technology.**

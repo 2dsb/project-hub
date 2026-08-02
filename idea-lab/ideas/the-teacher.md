@@ -12,8 +12,9 @@ tags:
   - essay-feedback
   - classroom-discussion
   - personal-development
-summary: "The teacher's true role is to awaken dormant potential in students, helping their souls conceive and release ideas, akin to installing data processing software. Excellent teachers lead small discussion classes, questioning students to refine thinking, and outside class provide detailed essay feedback on logic while using questioning to address deeper personal issues. The teacher-student bond is intimate, sacred, and lifelong. Good teachers share personal details, speak truth, are authentic, and apply broad knowledge to life."
-importance: 1.45  # auto
+summary: "A teacher’s core purpose is to awaken a student’s dormant intellectual energy, effectively installing “data processing” software for knowledge production. An excellent teacher uses small, discussion-driven classes to push students beyond vague views, and outside the classroom critiques essays for logical clarity while also addressing deeper personal questions through attentive listening. The ideal teacher-student bond is intimate and sacred, leaving a lasting impression. A teacher’s quality correlates with their life experience: if they never share personal anecdotes, there is little to learn, whereas an authentic, widely learned teacher speaks truth and applies knowledge fluidly."
+body_hash: "1dd462e2"
+importance: 2.23  # auto
 connections:
   - type: permanent
     slug: "优秀的绵羊c9.1"
@@ -33,6 +34,12 @@ connections:
     slug: "gaokao-chinese"
   - type: idea
     slug: "return-of-college"  # review: 0.525
+  - type: idea
+    slug: "teach-method-fixes"  # auto, review: 0.527
+  - type: idea
+    slug: "liberal-education-and-the-zettelkasten"  # auto, review: 0.521
+  - type: idea
+    slug: "liberal-arts-perspective-on-the-execution-line"  # auto, review: 0.503
 ---
 In [Liberal Arts Education and Art](../ideas/liberal-arts-education-and-art.md), the purpose of liberal arts education is to cultivate students' proficiency in "the process of knowledge production," enabling them to think across time and space — and the teacher is the key to achieving this goal.
 

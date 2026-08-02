@@ -7,8 +7,9 @@ tags:
   - migration
   - epistemology
   - knowledge-modeling
-summary: "The object-attribute model from Python, where dot acts as a universal accessor to yield a thing's manifestation under a lens, is proposed as a migratable thinking tool beyond programming. Unlike bracket notation’s open-ended map, dot enforces a schema of finite, stable, named perspectives, forcing commitment to a fixed set of lenses. Potential migrations include relationships (alice.workplace), concepts (recursion.math), and identity (me.presentation). This idea remains immature and requires testing whether the dot metaphor adds genuine value over the existing dictionary-of-perspectives framework."
-importance: 2.14  # auto
+summary: "The Python object-attribute model’s dot operator acts as a universal accessor returning a thing’s manifestation under a named, structured lens. The core question is whether this dot-based schema—requiring finite, design-time-fixed attributes—adds productive rigor beyond the open-ended bracket notation’s key-value map, by forcing commitment to a stable set of perspectives. Potential migration targets include relationships, concepts, and identity, but it remains unclear if this is a genuine advance over the existing dictionary-of-perspectives framework or merely a syntactic variant."
+body_hash: "4dbf94d1"
+importance: 1.52  # auto
 connections:
   - type: idea
     slug: knowledge-as-dictionary-of-perspectives

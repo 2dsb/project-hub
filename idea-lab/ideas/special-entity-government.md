@@ -10,7 +10,8 @@ tags:
   - principal-agent
   - public-finance
   - legal-subject
-summary: "The government is a purposeful system composed of entities including government departments and officials, individuals, and corporations, with the Constitution defining the powers and duties of all. Power and duty correspond one-to-one and arise simultaneously. Government departments are parts of the whole government, and officials are members of those departments. Economically, individuals and corporations pay taxes to the government, which in turn bears the duty to protect property rights. The government can grant and revoke powers and duties to officials, where power and duty often coincide, such as a general being given both the power and duty to carry out a military order."
+summary: "Government is a purposeful hierarchical system composed of departments and officials, with the Constitution as a special entity defining the powers and duties of all entities—government, officials, individuals, and corporations. Power and duty correspond one-to-one and arise simultaneously. Individuals and corporations pay taxes to the government, while the government bears the duty to protect property rights from infringement. The government can grant and revoke powers and duties to its officials, often treating power and duty as identical."
+body_hash: "5729832a"
 importance: 0.0  # auto
 connections: []
 ---

@@ -1,9 +1,10 @@
 ---
 id: "idea-20260608-kf01"
-summary: "Language cannot build experiential understanding from scratch because description functions only as an incremental patch onto existing anchoring experiences, not as a new construction. Without a shared implicit base—like the feel of school routines or workplace norms—the patch fails to apply. While school’s transparent rules allow some explicit transfer, a company’s massive implicit rules make knowledge transfer nearly impossible, so language has a fidelity ceiling that limits it to updating existing frameworks rather than creating new ones from nothing"
 title: "The Fidelity Problem in Knowledge Transfer"
 tags: [meta-cognition, knowledge-transfer, language-limits, communication]
-importance: 3.42  # auto
+summary: "Language as a knowledge transfer medium has a fidelity ceiling because it can only function as an incremental patch on top of a shared experiential base, never building experiential understanding from scratch. Describing something like school to someone who never attended is near impossible because the listener lacks anchoring experience for the implicit feel of classes, rankings, and social dynamics. Even when explicit rules are transparent, as in a closed system, massive implicit knowledge remains untransferable without that common ground."
+body_hash: "a1db7e71"
+importance: 4.04  # auto
 connections:
   - type: project
     slug: "linguistic-structure-analysis"
@@ -19,6 +20,18 @@ connections:
     slug: "implicit-improvement-pattern"  # auto, review: 0.537
   - type: idea
     slug: "learning-dynamics"  # auto, review: 0.527
+  - type: idea
+    slug: "knowledge-mastery-two-axis-model"  # auto, review: 0.572
+  - type: idea
+    slug: "interaction-as-dictionary"  # auto, review: 0.535
+  - type: idea
+    slug: "learning-pipeline"  # auto, review: 0.526
+  - type: idea
+    slug: "human-structure-ai-completeness"  # auto, review: 0.519
+  - type: idea
+    slug: "local-pattern-patching-failure"  # auto, review: 0.514
+  - type: idea
+    slug: "memorization-in-pipeline"  # auto, review: 0.506
 ---
 # The Fidelity Problem in Knowledge Transfer
 

@@ -7,7 +7,8 @@ tags:
   - correctness
   - data-modeling
   - meta-cognition
-summary: "The Two-Perspective System Correctness framework captures that a change in one part of a system requires updates elsewhere by using a horizontal data dependency graph and"
+summary: "The note presents a framework for maintaining system correctness by modeling data dependencies as an abstract horizontal boss-to-boss graph and tracking concrete worker copies in a vertical storage matrix. Changes propagate by alternating horizontal recomputation edges with vertical syncs to all storage locations, separating clean macro-level structure from messy micro-level implementation details like specific algorithms and CRUD logic. This separation enables systematic coverage verification: every dependency edge must have a corresponding operation, and every occupied cell in the storage matrix must have a propagation path from the source of truth. The framework quarantines complexity, turning intuitive “did I update everything?” into a completeness checklist."
+body_hash: "1e056b36"
 importance: -1
 connections:
   - type: idea

@@ -7,8 +7,9 @@ tags:
   - social-science
   - conceptual-thinking
   - methodology
-summary: "Connection-Oriented Reading reconceives reading as collecting constraint relationships that define logical connections between concepts, not as highlighting or summarizing. Each sentence is interrogated for the new constraint it imposes, labeled with types like defines, elaborates, presupposes, or degree dependency, to build a concept constraint graph. Argumentative force comes from constraint density and consistency, not concept novelty, enabling cross-disciplinary transfer by recognizing shared constraint structures rather than different labels. Deliberate practice involves drawing post-reading constraint graphs and recording new relationship types to refine the taxonomy."
-importance: 3.89  # auto
+summary: "Connection-oriented reading reorients humanities and social science comprehension away from highlighting concepts or summarizing, instead focusing on the constraint relationships each sentence imposes between concepts, such as defines, elaborates, presupposes, or serves as counterexample. The core insight is that an article’s argumentative force lies in the density and consistency of these constraints, not in concept novelty. Deliberate practice involves interrogating every sentence for new constraints, labeling their types, and afterward drawing a concept constraint graph of nodes linked by directed edges, then checking for isolated nodes or contradictions. This method makes cross-disciplinary transfer possible by revealing structural similarities beneath different concept labels and integrates with tools like knowledge-reconnection summaries or an AI-assisted reading skill."
+body_hash: "841a05fb"
+importance: 3.35  # auto
 connections:
   - type: idea
     slug: "reading-writing-unity"  # auto
@@ -28,6 +29,12 @@ connections:
     slug: "framework-from-data"  # review: 0.526
   - type: idea
     slug: "knowledge-and-thinking-at-university"  # review: 0.524
+  - type: idea
+    slug: "reconnection-doc-method"  # auto, review: 0.549
+  - type: idea
+    slug: "reading-modeling-decomposition-tradeoff"  # auto, review: 0.546
+  - type: idea
+    slug: "human-structure-ai-completeness"  # auto, review: 0.516
 ---
 # Connection-Oriented Reading — Conceptual Constraint-Relationship Mapping
 

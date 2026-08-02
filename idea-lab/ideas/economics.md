@@ -5,8 +5,9 @@ tags:
   - economic-system
   - purposeful-system
   - technology-evolution
-summary: "The note questions whether the evolution of the economy, considered as a purposeful system, can be described using the framework of technology evolution in the general sense, as referenced in the note "36 一般意义上技术的演化"."
-importance: 2.61  # auto
+summary: "Can the economy as a purposeful system and the evolution of technology be characterized through 一般意义上技术的演化 (the general evolution of technology)?"
+body_hash: "75eb9163"
+importance: 2.21  # auto
 connections:
   - type: permanent
     slug: "21a-技术的基因：现象"

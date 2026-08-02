@@ -1,8 +1,9 @@
 ---
 id: "idea-20260411-a3f7c2"
-summary: "The game distills island economics into a two-person simulation driven by Action Points that regenerate and convert to Labor, which combined with Capital like a fishing net yields Savings. Savings deplete via Consumption and can be riskily invested to create new Capital. Agents can gift, borrow, lend, or invest via Contracts, and accidents destroy Capital and Savings. Founding a partnership pools resources into a corporation with shared employees. A global economy variable tracks total daily Savings, linking productivity to Capital stock."
 title: "Gamifying Island Economics (Static Game)"
 tags: ["island-economics", "gamification", "action-points", "capital", "savings", "lending", "investment", "partnership", "game-design", "economic-simulation", "game-mechanics"]
+summary: "The note outlines a static game design to simulate island economics using two players and a timeline, where action points regenerate and convert into labor. Labor applied to capital yields savings at an improved ratio, while savings deplete over time due to consumption. Savings and action points can be riskily converted into capital, and players can transfer savings or capital directly. Contracts bind actions to create lending, borrowing, and investment structures, while events like natural disasters destroy assets. Partnerships allow pooling of savings and capital into a corporation with employees. A global economy variable tracks daily savings changes, linking total capital to economic output."
+body_hash: "624cf0b4"
 importance: 0.0  # auto
 connections: []
 ---

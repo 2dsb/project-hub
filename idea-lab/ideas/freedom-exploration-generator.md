@@ -8,8 +8,9 @@ tags:
   - degrees-of-freedom
   - pattern-discovery
   - teach-method
-summary: "The real advantage of AI learning is not a modest initial speedup but the massive increase in degrees of freedom—pace, sequence, depth, modality, interactivity—that enables active exploration. This exploration accelerates the accumulation of cross-domain learning experiences, providing dense comparison data that makes meta-level pattern discovery possible. Discoveries like the concept/practice split and two-axis model emerged only after enough tracks were completed, then fed back into the learning method as an ultimate efficiency multiplier. Over-structuring the teach method risks suppressing the exploration that generates this data, so fixes should be defaults rather than rigid rules."
-importance: 7.62  # auto
+summary: "The real advantage of AI learning is not a modest initial speed-up, but the massive increase in degrees of freedom—pace, sequence, depth, modality—that enables active exploration through recursive questioning and cross-domain hopping. This accelerates the accumulation of diverse learning experiences, providing dense data for meta-level pattern discovery like the concept/practice split and two-axis model. These discovered patterns feed back into the learning method as an exponential second-order efficiency multiplier. The risk is that over-structuring to optimize lessons can kill the exploration that generates meta-learning data, so added structure should remain defaults, not rigid rules."
+body_hash: "ebfb977e"
+importance: 6.31  # auto
 connections:
   - type: idea
     slug: knowledge-mastery-two-axis-model
@@ -47,6 +48,14 @@ connections:
     slug: "practice-as-learning-purpose"  # review: 0.513
   - type: idea
     slug: "framework-extraction-pattern"  # review: 0.507
+  - type: idea
+    slug: "goal-singularity"  # auto, review: 0.556
+  - type: idea
+    slug: "data-pattern-prediction-chain"  # auto, review: 0.538
+  - type: idea
+    slug: "peer-cross-teaching"  # auto, review: 0.537
+  - type: idea
+    slug: "attention-as-bottleneck"  # auto, review: 0.504
 ---
 # Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning
 

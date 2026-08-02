@@ -6,8 +6,9 @@ tags:
 - technology-evolution
 - modularity
 - combinatorial-thinking
-summary: "The external view of technology considers its overall effects and interactions—like how short-form video impacts attention spans—without examining internal workings. The internal view asks what technology is and how it evolves, seeing new technologies as assembled from prior ones, forming a combinatorial process. Modern technology is shifting from fixed, standalone industrial processes to modular, recombinable elements, akin to an open language or chemistry, where components like GPS or algorithms can be endlessly combined for new purposes. This shift reflects a transformation from producing fixed physical products to endlessly configurable economic structures."
-importance: 6.86  # auto
+summary: "Technology is shifting from fixed, standalone industrial processes to modular components that can be endlessly combined, evolving into an open language or \"chemistry\" for creating new functions. The external view of technology focuses on its whole manifestation and societal interactions, like how short-form video affects attention. The internal view examines the principles and combinatorial evolution of technology itself, where new technologies are assembled from existing ones and provide building blocks for future innovation."
+body_hash: "5ec733d1"
+importance: 6.39  # auto
 connections:
   - type: project
     slug: "ai-ability"
@@ -61,6 +62,10 @@ connections:
     slug: "characteristics-of-our-era"  # auto, review: 0.528
   - type: idea
     slug: "understanding-software-at-technical-level"  # auto, review: 0.515
+  - type: idea
+    slug: "perspective-classification"  # auto, review: 0.565
+  - type: idea
+    slug: "science"  # auto, review: 0.502
 ---
 There is a shift in perspective here — from viewing technology as standalone objects with fixed purposes to viewing technology as things that can be endlessly combined into new configurations.
 

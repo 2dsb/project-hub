@@ -7,8 +7,9 @@ tags:
 - models
 - theory-testing
 - economic-methodology
-summary: "Economics is a science that employs the scientific method by proposing theories, collecting and analyzing natural data provided by history, and testing those theories, where theory explains observations and observations test theory. Assumptions simplify complex realities, making the world easier to explain, and models built upon these assumptions serve as the means of describing economic theories."
-importance: 5.36  # auto
+summary: "Economics is a science that follows the scientific method by proposing a theory, collecting historical data, analyzing it, and testing the theory, such that theory explains observations and observations test theory. The data observed are natural data provided by history. Assumptions simplify complex realities to make them easier to explain, and models built upon those assumptions are the means of describing theories."
+body_hash: "d0a48eb9"
+importance: 4.54  # auto
 connections:
 - type: permanent
   slug: 微观经济学原理c2.1.1
@@ -24,6 +25,8 @@ connections:
     slug: "science"  # review: 0.530
   - type: idea
     slug: "the-ten-principles-of-economics"  # review: 0.528
+  - type: idea
+    slug: "economists-as-policy-advisors"  # auto, review: 0.523
 ---
 As a science, economics employs the scientific method:
 - The general pattern: propose a theory, then collect data, analyze the data, and test the theory

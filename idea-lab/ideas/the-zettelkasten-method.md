@@ -13,8 +13,9 @@ tags:
   - writing
   - note-taking
   - thinking
-summary: "The Zettelkasten Method is a note-taking system designed to improve thinking and writing by building an external knowledge base. It organizes four types of notes: fleeting notes for raw ideas, literature notes for reformulated readings, permanent notes for synthesized insights, and project notes for task-specific content. The process rejects linear writing in favor of the hermeneutic"
-importance: 4.08  # auto
+summary: "The Zettelkasten Method is a note-taking system using fleeting notes, literature notes, permanent notes, and project notes to build an external knowledge base that improves thinking and writing. By daily reviewing fleeting and literature notes against permanent notes, you create derivative ideas through connection and collision, leveraging the hermeneutic circle for cyclical understanding. This process generates a compound effect where more notes yield richer idea networks, and a virtuous feedback loop where expressing ideas in your own words tests comprehension, making sustained practice effortless through frequent, small-scale feedback."
+body_hash: "be5e4caa"
+importance: 4.88  # auto
 connections:
   - type: permanent
     slug: "卡片笔记写作法c1.1"
@@ -42,6 +43,18 @@ connections:
     slug: "inquiry-essay-method"  # auto, review: 0.510
   - type: idea
     slug: "where-innovation-comes-from"  # auto, review: 0.501
+  - type: idea
+    slug: "low-energy-ideation"  # auto, review: 0.553
+  - type: idea
+    slug: "goal-singularity"  # auto, review: 0.543
+  - type: idea
+    slug: "thinking-and-literature"  # auto, review: 0.539
+  - type: idea
+    slug: "integrating-fragmented-life-strategies"  # auto, review: 0.519
+  - type: idea
+    slug: "reading-writing-unity"  # auto, review: 0.511
+  - type: idea
+    slug: "learning-pipeline"  # auto, review: 0.504
 ---
 > A simple note-organizing tool and its accompanying method for improving thinking and writing ability. Its goal is to provide an external knowledge base that facilitates thought.
 

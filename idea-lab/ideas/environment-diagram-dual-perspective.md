@@ -11,8 +11,9 @@ tags:
   - human-vs-machine
   - conceptual-compression
   - code-reading
-summary: "The note proposes a dual-perspective modeling framework for Environment Diagrams: a real pattern state-machine model where programs are paths through environment snapshots from the interpreter's perspective, and a comprehension view where code reading treats function bodies as frames and `return` as a portal for mental tracing, avoiding graphical diagrams. This reveals a deeper gap between human conceptual compression (e.g., reading `make_adder(3)` as a single semantic chunk) and machine algorithmic stepwise execution, mapping onto DL Chapter 5’s layers. The Portal Model captures the algorithmic half, but the conceptual half—how humans compress execution into meaning—remains unmodeled."
-importance: 3.47  # auto
+summary: "The Environment Diagram is modeled via two complementary perspectives: a state-machine view where environments are snapshots and execution sequences form paths, and a comprehension view where function bodies are frames and return is a portal for mental tracing. This reveals a gap between the human conceptual layer, which compresses multi-step calls like make_adder(3) into semantic chunks, and the machine algorithmic layer of discrete execution steps. The conceptual layer is not reducible to execution, paralleling DL Chapter 5’s split between high-entropy priors and low-entropy architectures, and the bridge from algorithmic worlds to compressed understanding remains unmodeled."
+body_hash: "1d33648e"
+importance: 3.66  # auto
 connections:
   - type: project
     slug: "cs61a"
@@ -34,6 +35,14 @@ connections:
     slug: "data-structure-first-code-reading"  # auto
   - type: idea
     slug: "object-attribute-migration"  # auto, review: 0.520
+  - type: idea
+    slug: "attention-pointer-learning-model"  # auto, review: 0.557
+  - type: idea
+    slug: "data-pattern-prediction-chain"  # auto, review: 0.548
+  - type: idea
+    slug: "breadth-first-trap"  # auto, review: 0.511
+  - type: idea
+    slug: "cohesion-coupling-decomposition-heuristic"  # auto, review: 0.505
 ---
 # Environment Diagram — Dual-Perspective Modeling Framework
 

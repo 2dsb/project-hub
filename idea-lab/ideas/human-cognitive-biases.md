@@ -8,8 +8,9 @@ tags:
   - ambiguity
   - reasoning-fallacies
   - writing-for-clarity
-summary: "Human cognitive biases like confirmation bias, the feature presence effect (availability heuristic), and ambiguity affect everyone by distorting reasoning. Confirmation bias leads people to seek views that feel comfortable, while the availability heuristic causes overestimation of the most accessible information. Ambiguity blurs logic in pursuit of coherence, introducing errors. Countermeasures include reversing the writing process to gather diverse perspectives before forming a view and writing arguments in consistent, coherent language to expose flaws."
-importance: 1.22  # auto
+summary: "Human reasoning is prone to confirmation bias, the availability heuristic (termed Feature Presence Effect), and ambiguity-induced logical errors. Confirmation bias leads people to seek confirming information because it feels comfortable; a countermeasure is to reverse the writing process by first gathering all relevant perspectives before forming a view. The availability heuristic causes overemphasis on psychologically salient information even when irrelevant. Ambiguity makes the brain blur logic in pursuit of coherence, introducing fallacies; writing down arguments in consistent, coherent language exposes such errors."
+body_hash: "8fed2683"
+importance: 0.79  # auto
 connections:
   - type: permanent
     slug: "卡片笔记写作法c3.7"

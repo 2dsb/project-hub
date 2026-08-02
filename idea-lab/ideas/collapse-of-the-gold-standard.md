@@ -11,14 +11,18 @@ tags:
   - nixon-shock
   - monetary-policy
   - foreign-exchange
-summary: "When dollars in circulation surpassed gold reserves, foreign entities redeemed dollars for gold, triggering inflation; in response, the government closed the exchange window to foreigners, prohibiting gold conversion an event known as the Nixon shock, which ended the gold standard. The dollar's price plummeted internationally, determined solely by counterparty willingness, yet its status as the world's reserve currency remained unshaken."
-importance: 3.34  # auto
-connections: []
+summary: "Excessive dollar issuance relative to gold reserves led foreign entities to redeem dollars for gold, fueling inflation. In response, the Nixon administration closed the exchange window to foreigners, prohibiting gold conversion. Consequently, the dollar's international value plummeted to whatever counterparties would pay, yet its world reserve currency status remained unshaken."
+body_hash: "ce64b8b4"
+importance: 3.3  # auto
 connections:
   - type: idea
     slug: "inflation"  # auto
   - type: idea
     slug: "impact-of-foreign-crises-on-the-us-and-quantitative-easing"  # auto, review: 0.522
+  - type: idea
+    slug: "sino-us-trade"  # auto, review: 0.541
+  - type: idea
+    slug: "government-economic-rescue-measures"  # auto, review: 0.538
 ---
 - When the amount of dollars in circulation exceeded the gold reserves held in banks, foreign entities redeemed dollars for gold, triggering inflation;
 - In response, the government issued an order closing the exchange window to foreigners, prohibiting them from converting dollars into gold

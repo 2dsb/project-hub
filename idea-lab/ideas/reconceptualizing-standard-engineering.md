@@ -10,8 +10,9 @@ tags:
 - problem-solving
 - combinatorial-evolution
 - domains
-summary: "Standard engineering is the design process that creates new versions of existing technologies by recombining familiar combinatorial methods and structures in response to demand, proceeding from conceptual design to physical realization. This process can be seen as problem-solving, where a demand is broken into smaller sub-problems, or as a language-like activity in which engineers generate intentions and select elements from domains to form novel combinations. On a broader scale, technological innovation operates through sample and selection: many engineers produce diverse combinations, and technologies that are repeatedly reused become standardized modules via a positive feedback loop, analogous to Darwinism but directed by human demand rather than random variation."
-importance: 5.83  # auto
+summary: "Standard engineering is the process of creating a new version of an existing technology through familiar combinatorial methods, triggered by demand and executed via conceptual design and physical realization. From a problem-solving perspective, the engineer decomposes the demand into smaller problems, iteratively fitting components and resolving conflicts, with difficulty increasing when venturing into unknown territory or managing human factors. Domains function like languages, where the engineer generates an intention and selects technologies as words to form a sentence-like combination. At the plural level, many engineers generate vastly different combinations, and successful technologies become standard modules through reuse, a selection process akin to Darwinism but directed by demand rather than random variation."
+body_hash: "1a80936e"
+importance: 5.41  # auto
 connections:
 - type: idea
   slug: technology-in-the-singular
@@ -53,6 +54,12 @@ connections:
     slug: "technology"  # auto, review: 0.539
   - type: idea
     slug: "core-capability-supporting-infrastructure-pattern"  # auto, review: 0.538
+  - type: idea
+    slug: "classification-of-concepts"  # auto, review: 0.559
+  - type: idea
+    slug: "impact-of-domains-on-economy"  # auto, review: 0.504
+  - type: idea
+    slug: "perspective-classification"  # auto, review: 0.503
 ---
 # How Does Technological Innovation Happen?
 

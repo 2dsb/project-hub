@@ -7,8 +7,9 @@ tags:
   - teach
   - skill-design
   - efficiency
-summary: "The default instinct to build solutions from scratch is a tax on speed, as shown by a compressed learning sprint where a "teach" skill—a wrapper for executing externally designed curricula—enabled rapid progress across three tracks. The decision system’s weight allocation should shift toward first exhausting search for existing tutorials, libraries, or reference implementations before self-creation. This can be formalized as a Leverage Factor (L) axis: high L tasks favor composing or adapting external work, while low L tasks justify original creation when truly novel or proprietary needs arise. The theoretical framing exists but has not yet been formalized into a skill."
-importance: 4.91  # auto
+summary: "The teach skill’s success across three learning tracks in a compressed 3-day window demonstrates that other people's work is high-leverage, and the default instinct to build from scratch is a tax on speed. This suggests shifting decision weights to exhaust existing solutions before self-creation, asking \"who has already solved this?\" first. The proposed Leverage Factor (L) measures how much a task can be accomplished by composing external work; tasks with high L, like adapting existing tutorials and papers, favor leveraging, while low L demands original creation. The teach skill worked because Python, RAG, and agent resources had high L."
+body_hash: "e6441eaa"
+importance: 4.45  # auto
 connections:
   - type: idea
     slug: precision-fuzziness-tradeoff
@@ -32,6 +33,12 @@ connections:
     slug: "transfer-high-leverage"  # review: 0.508
   - type: idea
     slug: "standard-engineering"  # review: 0.503
+  - type: idea
+    slug: "peer-cross-teaching"  # auto, review: 0.529
+  - type: idea
+    slug: "learning-pipeline"  # auto, review: 0.526
+  - type: idea
+    slug: "goal-singularity"  # auto, review: 0.515
 ---
 # Leverage Existing Solutions vs. Build from Scratch — A Decision System Axis
 

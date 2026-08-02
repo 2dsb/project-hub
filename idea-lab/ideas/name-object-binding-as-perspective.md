@@ -1,9 +1,10 @@
 ---
 id: "idea-20260711-nb01"
-summary: "Name-object binding deserves status as a first-class perspective on program execution because the three structural tree views—def tree, frame tree, and call tree—leave referential relationships implicit. The binding perspective explicitly tracks which names refer to which objects, revealing that a name can change its binding through rebinding or mutation, each with distinct propagation rules. This lens clarifies identity versus equality, the mutable default argument trap, nonlocal rebinding, and how immutable containers can still hold mutable objects. Frame trees already show name-to-object arrows in the Portal Model’s environment diagrams, but treating binding as a separate perspective, a binding graph, makes aliasing and the rebinding–mutation distinction central, not incidental. This suggests a complete four-perspective framework and a teaching sequence where binding is understood before mutation."
 title: "Name-Object Binding as a Perspective on Program Execution"
 tags: [cs61a, binding, environment-diagram, mutation, identity, mental-model, python]
-importance: 3.47  # auto
+summary: "In Python, names are references to objects, not values. The name-object binding perspective focuses on which names refer to which objects, distinguishing rebinding (changing a name’s target) from mutation (changing an object’s state). This referential lens clarifies identity versus equality, aliasing, mutable default argument traps, nonlocal, and immutable containers with mutable elements. Elevating binding from an implementation detail to a first-class perspective alongside structural tree views (def, frame, call) reveals a binding graph of references, suggesting that teaching binding before mutation prevents confusion and offers a general tool for understanding languages with reference semantics."
+body_hash: "127fea52"
+importance: 2.82  # auto
 connections:
   - type: idea
     slug: "environment-diagram-dual-perspective"  # auto
@@ -23,6 +24,8 @@ connections:
     slug: "object-attribute-migration"  # review: 0.566
   - type: idea
     slug: "data-structure-first-code-reading"  # review: 0.523
+  - type: idea
+    slug: "cohesion-coupling-decomposition-heuristic"  # auto, review: 0.531
 ---
 # Name-Object Binding as a Perspective on Program Execution
 

@@ -9,8 +9,9 @@ tags:
   - simple-ideas
   - cognitive-bias
   - growth-mindset
-summary: "Efficient thinking demands constant micro-feedback loops to adjust habits and understanding, testing comprehension continuously. Distinguishing details from essentials requires deliberate practice of extracting and rephrasing main points. You must verify that your interpretation matches what the content actually says, avoiding coherence illusions. To counter survivorship bias, study failures and ask "What if...?" to rediscover solutions to already-solved problems. Take simple ideas seriously because they can underlie complex theories; for example, "buy low, sell high" deepens when you recognize that a stock represents partial business ownership, market pricing, and competitive dynamics."
-importance: 2.28  # auto
+summary: "Efficient thinking demands a growth mindset that uses constant micro-feedback to verify and refine your understanding. It requires deliberately extracting key points from details and checking whether your perception matches reality, not an illusion of coherence. Additionally, attend to what is relevant but unseen, such as failures, to avoid survivorship bias. Take simple ideas seriously—\"buy low, sell high\" is not a strategy unless you grasp that a stock represents part-ownership of a business—because simple foundations undergird complex theories."
+body_hash: "db44f3e0"
+importance: 1.65  # auto
 connections:
   - type: permanent
     slug: "卡片笔记写作法c3.8"

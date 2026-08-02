@@ -1,15 +1,19 @@
 ---
 id: "idea-20260731-utp"
-summary: "The university strategy rests on two pillars run in parallel from day one: skill mastery and social network building. Skill development uses industry-first reverse planning, mapping AI or embodied intelligence products and supply chains to pick a sub-field, then back-tracing required courses to reach top 0.1% production-grade depth. The social ladder ascends from class monitor to external relations department (for corporate-facing networking) and culminates as Math Department Student Union President, deliberately surfacing opportunities that directly feed back into skill growth. Both tracks advance simultaneously because early social positions enable internships and mentors, while deep expertise gives the network substance, avoiding the trap of having either visibility without value or value without visibility."
 title: "University Four-Year Strategy: Two Pillars, Run in Parallel"
 tags: [career-planning, university, AI, embodied-intelligence, entrepreneurship, networking, social-capital, methodology, student-union]
-importance: 3.3  # auto
-connections: []
+summary: "A four-year university strategy demands running two pillars in parallel from day one: skill-building via industry-first reverse planning and network-building via a deliberate leadership ladder. For an incoming Peking University math freshman, skill focuses on AI or embodied intelligence, working backward from company products to map the industry chain, identify a sub-field, and back-trace required courses to achieve production-grade, top-0.1% depth. Simultaneously, the social track ascends from class monitor to External Relations Department member for corporate-facing sponsorship and alumni connections, culminating as Math Department Student Union President to control opportunity flow. The parallel structure ensures market-relevant expertise feeds a network that, in turn, surfaces internships and mentors, eliminating the false choice between deep specialization and social capital."
+body_hash: "c1eddaf4"
+importance: 3.35  # auto
 connections:
   - type: idea
     slug: "characteristics-of-excellent-universities"  # review: 0.524
   - type: idea
     slug: "mooc-brand-tools-inequality"  # review: 0.516
+  - type: idea
+    slug: "return-of-college"  # auto, review: 0.534
+  - type: idea
+    slug: "social-responsibility-of-outstanding-students"  # auto, review: 0.500
 ---
 # University Four-Year Strategy: Two Pillars, Run in Parallel
 

@@ -9,13 +9,18 @@ tags:
   - lending
   - savings
   - monetary-policy
-summary: "Banks intermediate between depositors and borrowers, while venture capital firms direct funds to high-risk, high-return companies. The Federal Reserve, as an extension of the U.S. Treasury, sets a benchmark interest rate based on the collective wisdom of economists to stimulate or cool the economy. This policy of low interest rates artificially stimulates borrowing and suppresses saving, sending a false signal of economic health. The approach is fundamentally flawed because the Fed's decisions are driven by political considerations and its premise incorrectly assumes that central planners know the appropriate interest rate better than the market."
-importance: 0.0  # auto
+summary: "Banks intermediate between savers and borrowers, while venture capital firms take high-risk equity stakes in companies. The government, via the Federal Reserve, sets a benchmark interest rate, aiming to use economists' collective wisdom to stabilize the economy—lowering rates to stimulate borrowing in slumps and raising them to curb excess in booms. This manipulation distorts market signals by spurring borrowing and suppressing saving, falsely signaling that investments are sound. The approach is inherently flawed because it assumes the Fed knows the appropriate rate better than the market, and decisions are often politically rather than economically motivated."
+body_hash: "3543b134"
+importance: 2.56  # auto
 connections:
   - type: idea
     slug: the-gamification-of-island-economics-static-game
   - type: idea
     slug: money-social-division-of-labor-and-workers
+  - type: idea
+    slug: "elements-of-the-economy"  # auto, review: 0.532
+  - type: idea
+    slug: "real-estate-bubble"  # auto, review: 0.524
 ---
 Banks take deposits from savers, lend/invest the funds, and pay interest to depositors.
 

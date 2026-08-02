@@ -1,7 +1,7 @@
 ---
 id: "idea-20260719-speed-first-model-second-batch-tradeoff"
 title: "Speed-First Model-Second — Batch Size Tradeoff in Learning"
-importance: 4.63  # auto
+importance: 3.68  # auto
 tags:
   - learning-strategy
   - modeling
@@ -9,7 +9,8 @@ tags:
   - batch-size
   - speed
   - tradeoff
-summary: "The speed-first model-second learning strategy involves rapid raw intake followed by reflective structuring into a dictionary of perspectives. The batch size—how much is learned before modeling—trades off memory decay risk (from the timeline model’s M parameter) against cross-key pattern visibility (from the interaction-as-dictionary model). Small batches minimize decay but overhead, while large batches reveal richer interconnections yet risk decay and willingness depletion. Optimal size depends on M decay rate, knowledge structure density, and modeling cost, currently set intuitively at"
+summary: "The speed-first model-second learning strategy raises a critical batch size question at the convergence of two frameworks: the timeline model’s M decay dynamic and the interaction-as-dictionary view where knowledge consists of perspective keys. Larger batches risk memory decay of earlier raw input but expose richer cross-key patterns for modeling, while smaller batches minimize decay at the cost of flow interruption. The optimal batch size depends on M decay rate, knowledge structure density, and modeling cost, reflecting a tradeoff between the timeline model's decay pressure and the dictionary model's need for pattern visibility. Currently set intuitively at approximately one day of learning, the strategy remains untested in the modeling phase."
+body_hash: "67a38c39"
 connections:
   - type: idea
     slug: "decision-model-as-next-domain-model"  # auto
@@ -33,6 +34,10 @@ connections:
     slug: "memorization-in-pipeline"  # review: 0.549
   - type: idea
     slug: "attention-as-bottleneck"  # review: 0.507
+  - type: idea
+    slug: "data-pattern-prediction-chain"  # auto, review: 0.552
+  - type: idea
+    slug: "structural-patience"  # auto, review: 0.541
 ---
 # Speed-First Model-Second — Batch Size Tradeoff in Learning
 

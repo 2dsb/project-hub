@@ -1,9 +1,10 @@
 ---
 id: "idea-20260713-is01"
-summary: "The note proposes an objective importance scoring system for ideas using two orthogonal dimensions: Knowledge-Layer Centrality and Execution-Layer Penetration. Centrality measures an idea's position in the idea graph via hubness (backlink strength) and generativity (backlinks with generative relations like extends or builds-on), while penetration measures how many projects and skills reference the idea, giving higher weight to projects. These dimensions are independent because an idea can be highly central in the knowledge graph yet never used in execution, and vice versa. A composite score combines them with a slight bias toward penetration, reflecting that behavioral impact matters more than theoretical weight. The system relies on M33 cross-axis scanning to compute penetration; without it, penetration is zero, collapsing the scoring to one dimension. Scores are auto-computed and stored as computed_importance, with manual importance fields becoming read-only to prevent subjective drift."
 title: "Objective Importance Scoring — Two Orthogonal Dimensions for Idea Evaluation"
 tags: [meta-cognition, importance-scoring, idea-evaluation, m33, cross-axis, system-design, methodology, objective-metrics]
-importance: 2.3  # auto
+summary: "The note proposes replacing subjective importance scores with an objective two-dimensional metric: Knowledge-Layer Centrality, measuring an idea's structural position in the idea graph via hubness and generativity, and Execution-Layer Penetration, measuring how many projects and skills reference the idea, with projects weighted double. These dimensions are orthogonal because an idea can be deeply central yet unused, or widely applied without being theoretically central. The composite score weights penetration slightly higher (0.55) as a bias toward action, but dependency on M33 cross-axis scanning makes M33 maintenance essential to compute penetration and prevent collapse into a single dimension."
+body_hash: "5cabbc0b"
+importance: 1.69  # auto
 connections:
   - type: idea
     slug: "knowledge-as-dictionary-of-perspectives"  # auto

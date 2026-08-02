@@ -7,8 +7,9 @@ tags:
 - policy-advisors
 - values
 - consensus-and-disagreement
-summary: "Economists acting as policy advisors differ from scientists because they aim to improve society rather than just describe it, using both positive statements (descriptive claims verifiable by evidence, like "minimum wage laws cause unemployment") and normative statements (prescriptive claims incorporating values, like "the government should raise the minimum wage"). Disagreement among policy-advisor economists often stems from differing values, such as views on taxation. Nevertheless, they achieve consensus on many positive relationships, for example, the shared belief that rent control adversely affects housing availability and quality."
-importance: 2.17  # auto
+summary: "Economists serve as scientists by making positive, descriptive statements about how the world is, which can be confirmed or refuted with evidence. As policy advisors, they make normative, prescriptive statements about how the world ought to be, which involve values. Disagreement among economists often arises from differing values, but there is broad consensus on issues like rent control, where economists agree it adversely affects housing availability and quality."
+body_hash: "18c32419"
+importance: 2.29  # auto
 connections:
 - type: project
   slug: naked-economics
@@ -16,6 +17,8 @@ connections:
     slug: "the-ten-principles-of-economics"  # review: 0.590
   - type: idea
     slug: "supply-demand-and-government-policy"  # auto, review: 0.510
+  - type: idea
+    slug: "economics-as-a-science"  # auto, review: 0.523
 ---
 # The Difference Between Policy Advisors and Scientists
 

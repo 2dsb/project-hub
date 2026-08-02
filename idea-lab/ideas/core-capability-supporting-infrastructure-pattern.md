@@ -1,7 +1,7 @@
 ---
 id: "idea-20260719-core-capability-supporting-infrastructure"
 title: "Core Capability → Supporting Infrastructure as Technology Evolution Pattern"
-importance: 3.54  # auto
+importance: 3.42  # auto
 tags:
   - technology-evolution
   - llm
@@ -9,8 +9,8 @@ tags:
   - rag
   - agents
   - patterns
-summary: "A narrow core capability often emerges first, then a surrounding layer of supporting infrastructure develops to make it practically useful. The LLM's pure sentence-to-sentence transform, for example, is augmented by RAG for knowledge grounding, agents for action routing, guardrails for safety, orchestration for multi-step workflows, and memory for state management. This same pattern appears with databases (ORMs, connection pools), CPUs (operating systems, compilers), and HTTP (caches, load balancers). The infrastructure categories are predictable: input enrichment, output routing, safety wrapping, state management, and composition. The pattern's universality remains uncertain, as the internet’s core capability in TCP/IP was itself infrastructure, potentially inverting the model."
-connections: []
+summary: "A core capability like an LLM's text-to-text transform is narrow and pure, but infrastructure such as RAG for knowledge grounding and Agents for action routing emerges to bridge the gap to practical applications. This pattern repeats across technologies: databases got ORMs and connection pools, CPUs got operating systems and compilers, HTTP got caching and load balancers. When a new core capability appears, predictable infrastructure categories follow including input enrichment, output routing, safety wrapping, state management, and composition. The pattern's universality is still being tested, with potential counterexamples like TCP/IP where the core capability itself was infrastructure."
+body_hash: "b61d5ca6"
 connections:
   - type: idea
     slug: "cycle-of-technology"  # review: 0.575
@@ -38,6 +38,10 @@ connections:
     slug: "structural-understanding-in-daily-life"  # review: 0.508
   - type: idea
     slug: "economic-evolution-driven-by-technological-evolution"  # review: 0.507
+  - type: idea
+    slug: "three-layer-framework"  # auto, review: 0.518
+  - type: idea
+    slug: "technology"  # auto, review: 0.515
 ---
 # Core Capability → Supporting Infrastructure as Technology Evolution Pattern
 

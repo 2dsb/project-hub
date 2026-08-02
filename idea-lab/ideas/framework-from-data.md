@@ -6,8 +6,9 @@ tags:
 - meta-cognition
 - structure-analysis
 - research-method
-summary: "A framework claiming universality collapsed because it was built from only five argumentative paragraphs, elevating topic→elaboration prematurely. The core principle is to accumulate data first, let patterns cluster naturally, then build frameworks rather than hunting for confirming examples after defining a taxonomy. Analysts should annotate conceptual constraints sentence by sentence using the stable 24 types and describe organizational patterns in natural language without terminologizing or imposing existing categories. Clustering should occur only after at least three chapters of analysis, and framework files like text-structure-types.md and structure-constraint-mapping.md must be frozen until that threshold, with current content archived as observation notes. Goal ambiguity is acceptable during data accumulation; the correct sequence is expanded analytical coverage, then natural clustering, then framework formation, learned from the v1→v2 refactoring where a single counterexample shattered a small-sample claim."
-importance: 4.53  # auto
+summary: "Build frameworks from data, not find data for frameworks, because prematurely elevating a pattern like topic→elaboration to universal status from only five argumentative paragraphs causes the framework to shatter when encountering counterexamples such as scene construction. The correct methodology is to accumulate a large dataset first, annotating each paragraph's conceptual constraints using stable types like the 24 constraint types and describing organizational patterns in natural language without terminologizing them, then allowing clusters to emerge naturally from at least three full chapters of analysis before constructing any general taxonomy. Framework files should be frozen until data volume reaches the threshold, and goal ambiguity should be tolerated, as the objective clarifies with more ore. The Linguistic Structure Analysis project learned this lesson from its v1→v2 refactoring, where v1 collapsed from a single counterexample after being built on only five paragraphs, demonstrating that expanding analytical coverage must precede framework formation."
+body_hash: "05375692"
+importance: 4.41  # auto
 connections:
 - type: project
   slug: "linguistic-structure-analysis"
@@ -33,6 +34,14 @@ connections:
     slug: "reconnection-doc-method"  # auto, review: 0.512
   - type: idea
     slug: "system-coevolution-p2-interpretability"  # auto, review: 0.505
+  - type: idea
+    slug: "human-structure-ai-completeness"  # auto, review: 0.596
+  - type: idea
+    slug: "reading-writing-unity"  # auto, review: 0.549
+  - type: idea
+    slug: "inquiry-essay-method"  # auto, review: 0.527
+  - type: idea
+    slug: "reading-modeling-decomposition-tradeoff"  # auto, review: 0.513
 ---
 # Build Frameworks from Data, Not Find Data for Frameworks
 

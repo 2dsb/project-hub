@@ -1,10 +1,10 @@
 ---
 id: "idea-20260411-b7e3f1"
-summary: "Underconsumption drives risk-taking and innovation, which create tools and capital. These tools boost productivity, leading to more goods and savings. Savings are channeled into hoarding, consumption, lending, or investment, with lending and investment potentially further improving productivity. This cycle fuels economic development, and the entire process is guided by demand."
 title: "The Elements of the Economy"
 tags: ["underconsumption", "risk-taking-innovation", "capital-accumulation", "productivity", "savings", "investment", "demand-driven"]
-importance: 3.34  # auto
-connections: []
+summary: "Underconsumption drives risk-taking and innovation, leading to the creation of tools and capital that boost productivity. This productivity generates more goods and savings, which can be hoarded, consumed, lent, or invested—often combined. Lending and investment may further improve productivity, propelling economic development, with the entire process guided by demand."
+body_hash: "245e7ca8"
+importance: 3.89  # auto
 connections:
   - type: idea
     slug: "the-ten-principles-of-economics"  # review: 0.546
@@ -12,6 +12,8 @@ connections:
     slug: "money-social-division-of-labor-and-the-worker"  # review: 0.540
   - type: idea
     slug: "circular-flow-diagram"  # review: 0.515
+  - type: idea
+    slug: "banks-venture-capital-and-government"  # auto, review: 0.532
 ---
 Underconsumption drives risk-taking and innovation, leading to the creation of tools and capital.
 

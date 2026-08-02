@@ -6,8 +6,9 @@ tags:
   - knowledge-management
   - structure
   - learning
-summary: "Structural patience is the principle that structural categories should only be formed when at least three independent instances of a pattern are observed, preventing fragile false structures that later evidence would dismantle. With only one or two instances and a clear pattern direction, an embryonic link is created instead—a placeholder that honestly acknowledges a potential structure without forcing premature categorization. This approach is analogous to the PCA elbow, where one stops adding principal components when residual variance is noise. Embryonic links, as used in the knowledge-reconnection workflow, tag low-frequency cross-domain connections and describe what would complete them, allowing structure to accumulate naturally from data."
-importance: 4.89  # auto
+summary: "Structural patience dictates that cross-domain connections observed with insufficient instances should not be forced into formal categories, as fragile structures built from 1-2 data points lead to false framing and later unlearning. Instead, they should be marked as embryonic links—honest placeholders that describe what would complete the pattern—and revisited when at least three independent instances naturally accumulate. This data-gated structure formation, analogous to stopping at the PCA elbow rather than overfitting noise, treats sparse patterns as residuals to avoid premature categorization. Embryonic links are discovered in the knowledge-reconnection workflow’s sink stage, serving as the meta-principle justifying that mechanism’s existence."
+body_hash: "22de3508"
+importance: 5.26  # auto
 connections:
   - type: idea
     slug: "knowledge-reconnection"  # auto
@@ -31,6 +32,20 @@ connections:
     slug: "freedom-exploration-generator"  # review: 0.526
   - type: idea
     slug: "human-structure-ai-completeness"  # review: 0.505
+  - type: idea
+    slug: "data-pattern-prediction-chain"  # auto
+  - type: idea
+    slug: "knowledge-mastery-two-axis-model"  # auto, review: 0.584
+  - type: idea
+    slug: "transfer-high-leverage"  # auto, review: 0.578
+  - type: idea
+    slug: "speed-first-model-second-batch-tradeoff"  # auto, review: 0.541
+  - type: idea
+    slug: "attention-as-bottleneck"  # auto, review: 0.537
+  - type: idea
+    slug: "implicit-improvement-pattern"  # auto, review: 0.531
+  - type: idea
+    slug: "knowledge-as-dictionary-of-perspectives"  # auto, review: 0.527
 ---
 # Structural Patience — Data-Gated Structure Formation
 

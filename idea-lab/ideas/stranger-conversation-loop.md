@@ -1,12 +1,15 @@
 ---
 id: "idea-20260626-sconv01"
-summary: "The Stranger Conversation Loop is a replicable social algorithm defined as a cyclical pattern: greet, ask a question, listen to the answer, then express your view while asking a follow-up, looping as curiosity persists. It works because asking first, not telling, lowers the barrier for the other person, since people are better at answering than initiating. Listening before expressing ensures your response is grounded in their actual words rather than a pre-planned script. The loop is self-feeding because each answer naturally contains threads to pull into the next question."
 title: "The Stranger Conversation Loop — A Replicable Social Algorithm"
 tags: [social, conversation, networking, algorithm, ice-breaking]
-importance: 1.32  # auto
+summary: "The Stranger Conversation Loop is a replicable social algorithm for initiating conversation with a stranger by following a cycle of greeting, asking a question, listening, then expressing a view and asking a follow-up, looping as long as curiosity holds. The approach works because asking first lowers the other person's barrier (people answer more easily than they initiate), listening before responding grounds the interaction in what was actually said rather than a pre-planned script, and each answer supplies threads that self-feed the next question, sustaining the loop."
+body_hash: "106a004d"
+importance: 1.47  # auto
 connections:
   - type: idea
     slug: "four-step-networking-method"  # auto
+  - type: idea
+    slug: "conversation-topic-flow"  # auto, review: 0.534
 ---
 # The Stranger Conversation Loop
 

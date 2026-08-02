@@ -1,189 +1,54 @@
 """Generate an interactive relationship graph for all ideas.
 
 Output: idea-lab/graph.html — open in browser.
-Default view hides nodes with ≤1 connection (toggle to show all).
+Default view hides nodes with <= 1 connection (toggle to show all).
 """
 
 import colorsys
-import json
-import re
 from pathlib import Path
 from collections import Counter
 
 import networkx as nx
 from networkx.algorithms import community
 from pyvis.network import Network
+from frontmatter_utils import parse_idea
 
 IDEAS_DIR = Path("idea-lab/ideas")
-INDEX_PATH = Path("idea-lab/ideas-index.json")
 OUTPUT_PATH = Path("idea-lab/graph.html")
 
 # Layout tuning
 SPRING_LENGTH = 250
-GRAVITY = -8000
-MIN_CONN_FILTER = 2  # hide nodes with ≤ this many connections in default view
-
-
-def load_ideas() -> list[dict]:
-    """Load all ideas from index JSON."""
-    with open(INDEX_PATH, encoding="utf-8") as f:
-        data = json.load(f)
-    return data["ideas"]
-
-
-def build_graph(ideas: list[dict]) -> nx.Graph:
-    """Build a networkx graph from idea data."""
-    G = nx.Graph()
-
-    for idea in ideas:
-        conn_count = len(idea.get("connections", []))
-        # Only count idea-to-idea connections
-        G.add_node(
-            idea["id"],
-            title=idea.get("title", ""),
-            tags=idea.get("tags", []),
-            summary=idea.get("summary", "")[:120],
-            importance=idea.get("importance", 1),
-            conn_count=conn_count,
-        )
-
-    # Add edges from connections
-    id_to_slug = {idea["id"]: Path(f).stem for f in sorted(IDEAS_DIR.glob("*.md"))
-                  for idea in [json.loads(Path(f).read_text(encoding="utf-8").split("---")[1] + "}")]
-                  if False}  # not used, compute differently
-
-    # Build slug → id map
-    slug_to_id = {}
-    for idea in ideas:
-        slug_to_id[idea["id"]] = idea["id"]
-
-    # Actually, connections use slugs. Let's read from files directly.
-    edges = set()
-    for idea in ideas:
-        for conn in idea.get("connections", []):
-            if conn.get("type") == "idea":
-                target_id = conn.get("slug", "")
-                if target_id and target_id in {i["id"] for i in ideas}:
-                    edge = tuple(sorted([idea["id"], target_id]))
-                    edges.add(edge)
-
-    for a, b in edges:
-        G.add_edge(a, b)
-
-    return G
+MIN_CONN_FILTER = 2  # hide nodes with <= this many connections in default view
 
 
 def build_graph_from_files() -> nx.Graph:
     """Build graph by reading .md files directly (connections use slugs not ids)."""
     G = nx.Graph()
-    slug_to_title = {}
-    slug_to_data = {}
 
-    # First pass: collect all nodes
-    for f in sorted(IDEAS_DIR.glob("*.md")):
-        content = f.read_text(encoding="utf-8")
-        m = re.match(r"^---\s*\n(.*?)\n---\s*\n(.*)", content, re.DOTALL)
-        if not m:
-            continue
-
-        fm = m.group(1)
-        body = m.group(2).strip()
-        slug = f.stem
-
-        title = ""
-        tags = []
-        summary = ""
-        importance = 1
-
-        in_tags = False
-        for line in fm.split("\n"):
-            s = line.strip()
-            if s.startswith("title:"):
-                title = s.removeprefix("title:").strip().strip('"').strip("'")
-            elif s.startswith("summary:"):
-                summary = s.removeprefix("summary:").strip().strip('"').strip("'").replace('\\"', '"')
-            elif s.startswith("importance:"):
-                raw = s.removeprefix("importance:").strip().split("#")[0].strip()
-                try:
-                    importance = float(raw)
-                except ValueError:
-                    pass
-            elif s == "tags:":
-                in_tags = True
-            elif s.startswith("- ") and in_tags:
-                tags.append(s.removeprefix("- ").strip())
-            elif in_tags and not s.startswith("- "):
-                in_tags = False
-            elif s.startswith("tags: [") or s.startswith('tags: ["'):
-                raw = s.removeprefix("tags:").strip().strip("[]")
-                tags = [t.strip().strip('"').strip("'") for t in raw.split(",") if t.strip()]
-                in_tags = False
-
-        slug_to_data[slug] = {
-            "title": title,
-            "tags": tags,
-            "summary": summary,
-            "importance": importance,
-        }
-        slug_to_title[slug] = title
-
-    # Second pass: add nodes and edges
-    # Count connections per slug first
-    conn_counts = Counter()
+    # Collect all valid slugs for edge validation
+    all_slugs = {f.stem for f in IDEAS_DIR.glob("*.md")}
 
     for f in sorted(IDEAS_DIR.glob("*.md")):
-        content = f.read_text(encoding="utf-8")
-        m = re.match(r"^---\s*\n(.*?)\n---", content, re.DOTALL)
-        if not m:
+        idea = parse_idea(f)
+        if not idea:
             continue
-        fm = m.group(1)
-        slug = f.stem
 
-        connections = []
-        in_conn = False
-        cur = {}
-        for line in fm.split("\n"):
-            s = line.strip()
-            if s == "connections:":
-                in_conn = True
-            elif in_conn and s.startswith("- type:"):
-                cur = {"type": s.removeprefix("- type:").strip()}
-            elif in_conn and s.startswith("slug:"):
-                raw = s.removeprefix("slug:").strip().strip('"')
-                cur["slug"] = raw.split("#")[0].strip().strip('"')  # strip inline comments
-                connections.append(cur)
-                cur = {}
-            elif in_conn and not s.startswith(("- ", "slug:")):
-                in_conn = False
+        slug = idea["slug"]
+        idea_conns = [c for c in idea["connections"] if c.get("type") == "idea" and c.get("slug") in all_slugs]
 
-        # Filter to idea-to-idea only
-        idea_conns = [c for c in connections if c.get("type") == "idea" and c.get("slug") in slug_to_data]
-        conn_counts[slug] = len(idea_conns)
+        G.add_node(
+            slug,
+            title=idea["title"],
+            tags=idea["tags"],
+            summary=idea["summary"][:120],
+            importance=idea["importance"],
+            conn_count=len(idea_conns),
+        )
 
-        if slug in slug_to_data:
-            d = slug_to_data[slug]
-            G.add_node(
-                slug,
-                title=d["title"],
-                tags=d["tags"],
-                summary=d["summary"][:120],
-                importance=d["importance"],
-                conn_count=len(idea_conns),
-            )
-
-        # Add edges (only once, since we process all files)
+        # Add edges — undirected graph handles dedup automatically
         for conn in idea_conns:
             other = conn["slug"]
-            if other in slug_to_data:
-                # Only add edge once (slug < other)
-                if slug < other:
-                    G.add_edge(slug, other)
-
-    # Second pass already computed conn_counts
-    # Update node attributes
-    for node in G.nodes:
-        if node in conn_counts:
-            G.nodes[node]["conn_count"] = conn_counts[node]
+            G.add_edge(slug, other)
 
     return G
 
@@ -287,7 +152,7 @@ def render_graph(G: nx.Graph, communities: dict, output_path: Path):
 
         net.add_node(
             node,
-            label=data["title"][:30] + ("…" if len(data["title"]) > 30 else ""),
+            label=data["title"][:30] + ("..." if len(data["title"]) > 30 else ""),
             title=tooltip,
             size=size,
             color=color,
@@ -307,7 +172,7 @@ def render_graph(G: nx.Graph, communities: dict, output_path: Path):
         cursor:pointer;font-size:14px;">
         Show All (190)
       </button>
-      <input id="searchBox" type="text" placeholder="Search ideas…" oninput="doSearch()" onkeydown="if(event.key==='Enter')selectFirst()" style="
+      <input id="searchBox" type="text" placeholder="Search ideas..." oninput="doSearch()" onkeydown="if(event.key==='Enter')selectFirst()" style="
         padding:6px 12px;background:#2a2a3e;color:#e0e0e0;border:1px solid #555;border-radius:4px;
         font-size:13px;width:200px;outline:none;">
       </input>
@@ -328,7 +193,7 @@ def render_graph(G: nx.Graph, communities: dict, output_path: Path):
           count.textContent = "Showing all " + totalNodes + " nodes";
         } else {
           btn.textContent = "Show All (" + totalNodes + ")";
-          count.textContent = "Showing " + coreCount + " core nodes (≥""" + str(MIN_CONN_FILTER) + """ connections)";
+          count.textContent = "Showing " + coreCount + " core nodes (>=""" + str(MIN_CONN_FILTER) + """ connections)";
         }
       }
 
@@ -371,7 +236,7 @@ def render_graph(G: nx.Graph, communities: dict, output_path: Path):
               + '" onmouseenter="this.style.background=\\'#4e79a7\\'" onmouseleave="this.style.background=\\'\\'">'
               + (n.label || n.id) + '</div>';
           });
-          if (matches.length > 15) html += '<div style="padding:6px 12px;color:#888;">… and ' + (matches.length - 15) + ' more</div>';
+          if (matches.length > 15) html += '<div style="padding:6px 12px;color:#888;">... and ' + (matches.length - 15) + ' more</div>';
           results.innerHTML = html;
           results.style.display = "block";
         }
@@ -444,7 +309,7 @@ def main():
     conn_values = [G.nodes[n].get("conn_count", 0) for n in G.nodes]
     core = sum(1 for c in conn_values if c >= MIN_CONN_FILTER)
     peripheral = sum(1 for c in conn_values if c < MIN_CONN_FILTER)
-    print(f"  Core (≥{MIN_CONN_FILTER} conns): {core}")
+    print(f"  Core (>={MIN_CONN_FILTER} conns): {core}")
     print(f"  Peripheral (<{MIN_CONN_FILTER} conns): {peripheral}")
 
     print("Detecting communities...")

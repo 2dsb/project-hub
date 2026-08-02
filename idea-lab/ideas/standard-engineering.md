@@ -12,8 +12,9 @@ tags:
   - engineering-design
   - systems-thinking
   - combinatorial-evolution
-summary: "Standard engineering is the process of creating a new version of an existing technology within a domain by using already-familiar combination methods and structures. Design is an attempted solution to a problem raised by demand, where engineers break down requirements into sub-requirements and express conceptual forms by selecting components from a toolkit, much like language expresses thought. The difficulty varies from conventional projects to hard versions where entering unknown territory introduces unpredictable problems and human factors. Over time, successful design variants become standardized through a Darwinian process: technologies that are reused and popular get locked in as standard modules, while poor ones fade—a positive feedback loop driven by demand, not random variation."
-importance: 4.04  # auto
+summary: "Standard engineering, also called technological innovation or design, is the process of creating a new version of an old technology within a domain by reusing familiar combination methods and structures. It proceeds from a requirement, first at the conceptual level then the physical, breaking down problems into sub-problems and integrating components. Harder cases introduce unpredictable unknowns and human coordination. Design is essentially an attempted solution to a demand-driven problem, expressed much like language by selecting from standard modules. Over time, successful technologies become locked-in standards through a Darwinian feedback loop, with demand, not random variation, giving technological evolution its direction."
+body_hash: "239bd0a6"
+importance: 4.43  # auto
 connections:
   - type: idea
     slug: standard-engineering-refactoring
@@ -21,6 +22,34 @@ connections:
     slug: "reconceptualizing-standard-engineering"  # auto
   - type: idea
     slug: "fundamentally-new-technology"  # auto
+  - type: idea
+    slug: "technology-in-the-singular-sense"  # auto
+  - type: idea
+    slug: "cycle-of-technology"  # auto
+  - type: idea
+    slug: "three-definitions-of-technology"  # auto
+  - type: idea
+    slug: "technology-domains"  # auto
+  - type: idea
+    slug: "the-gene-of-technology-phenomena"  # auto
+  - type: idea
+    slug: "external-and-internal-view-of-technology"  # auto, review: 0.580
+  - type: idea
+    slug: "general-evolution-of-technology"  # auto, review: 0.567
+  - type: idea
+    slug: "finding-examples"  # auto, review: 0.560
+  - type: idea
+    slug: "economic-evolution-driven-by-technological-evolution"  # auto, review: 0.535
+  - type: idea
+    slug: "broad-and-narrow-technology"  # auto, review: 0.519
+  - type: idea
+    slug: "new-technology-replacing-old"  # auto, review: 0.513
+  - type: idea
+    slug: "classification-of-concepts"  # auto, review: 0.504
+  - type: idea
+    slug: "how-domains-evolve"  # auto, review: 0.502
+  - type: idea
+    slug: "technology"  # auto, review: 0.501
 ---
 Standard engineering, also known as technological innovation (in the singular sense) or "design," can be understood as the process of creating a new technology.
 

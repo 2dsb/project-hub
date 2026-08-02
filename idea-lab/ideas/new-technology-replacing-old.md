@@ -5,8 +5,9 @@ tags:
 - technology-evolution
 - opportunity-niche
 - innovation-theory
-summary: "The note questions whether the replacement of old technology by new technology can be understood as an optimizing occupation of an opportunity niche."
-importance: 3.72  # auto
+summary: "Can the process of new technology replacing old technology be understood as an optimizing occupation of an opportunity niche?"
+body_hash: "b2e436a7"
+importance: 3.39  # auto
 connections:
 - type: permanent
   slug: "36-一般意义上技术的演化"
@@ -40,6 +41,8 @@ connections:
     slug: "finding-examples"  # auto, review: 0.507
   - type: idea
     slug: "fundamentally-new-technology"  # auto, review: 0.506
+  - type: idea
+    slug: "standard-engineering"  # auto, review: 0.513
 ---
 Can it be understood as an optimizing occupation of an opportunity niche?
 

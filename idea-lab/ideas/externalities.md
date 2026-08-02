@@ -12,8 +12,9 @@ tags:
   - market-failure
   - public-policy
   - pigovian-tax
-summary: "An externality is the uncompensated impact of one person’s actions on a bystander—negative if harmful, positive if beneficial. Internalizing the externality means altering incentives so actors account for these effects, typically through Pigovian taxes for negative externalities or subsidies for positive ones. Public policies include command-and-control regulation and market-based approaches like tradable permits. Private solutions, such as moral codes, business integration, or contracts, can also work, and the Coase Theorem asserts that with zero transaction costs, bargaining leads to an efficient outcome regardless of initial rights."
-importance: 3.27  # auto
+summary: "An externality is the uncompensated impact of one person's actions on a bystander, either harmful (negative) or beneficial (positive). To correct the resulting market failure, governments can internalize the externality through Pigovian taxes on negative externalities or subsidies for positive ones, aligning private incentives with social costs. The Coase Theorem argues that private bargaining can resolve externalities efficiently if transaction costs are negligible, regardless of initial rights distribution. In practice, high transaction costs often impede such private solutions."
+body_hash: "9e39758b"
+importance: 2.39  # auto
 connections:
   - type: project
     slug: naked-economics

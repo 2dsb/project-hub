@@ -1,9 +1,10 @@
 ---
 id: idea-20260515-000001
-summary: "The note poses the open question of how to deal with complexity, indicating it requires specific user context to develop further."
 title: Dealing with Complexity
 tags: []
-importance: 3.42  # auto
+summary: "How to deal with complexity is posed as an open question that requires specific context from the user to develop further."
+body_hash: "5dfca7d7"
+importance: 2.46  # auto
 connections:
   - type: project
     slug: "ai-ability"

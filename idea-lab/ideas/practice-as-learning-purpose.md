@@ -7,9 +7,9 @@ tags:
   - motivation
   - knowledge-transfer
   - internship
-summary: "Learning with an imminent practice goal, like an internship starting Monday, is qualitatively different: it provides an unambiguous purpose anchor, eliminates motivational friction, and leverages the temporal proximity effect where brief gaps between learning and application make knowledge actionable rather than archival. This forces an abstract-to-concrete transition—converting concepts into deployable skills—which creates richer memory traces and better transfer. Personal evidence shows completing Python, RAG, and Agents tracks to 100% in three days, far exceeding prior velocity. The design principle is to always attach learning to a concrete, dated practice event."
-importance: 3.72  # auto
-connections: []
+summary: "Learning is qualitatively different when driven by a concrete, near-term practice goal, as shown by three mechanisms: the practice anchor eliminates motivational friction by clarifying why each piece of knowledge is needed, the temporal proximity effect causes the brain to process information as actionable rather than archival when the learning-to-application gap is short, and an imminent deadline triggers an abstract-to-concrete transition that enriches memory and transfer. This was demonstrated by completing Python, RAG, and Agents tracks with high throughput just before an internship, suggesting that self-directed learning should always be tied to a specific, dated practice event."
+body_hash: "04e0dc6f"
+importance: 4.13  # auto
 connections:
   - type: idea
     slug: "teach-method-fixes"  # review: 0.565
@@ -25,6 +25,20 @@ connections:
     slug: "freedom-exploration-generator"  # review: 0.513
   - type: idea
     slug: "knowledge-mastery-two-axis-model"  # review: 0.504
+  - type: idea
+    slug: "goal-singularity"  # auto, review: 0.599
+  - type: idea
+    slug: "pass-criteria-as-curriculum-design"  # auto, review: 0.573
+  - type: idea
+    slug: "memorization-in-pipeline"  # auto, review: 0.558
+  - type: idea
+    slug: "implicit-improvement-pattern"  # auto, review: 0.546
+  - type: idea
+    slug: "attention-as-bottleneck"  # auto, review: 0.544
+  - type: idea
+    slug: "memorized-offline-procedures"  # auto, review: 0.520
+  - type: idea
+    slug: "learning-dynamics"  # auto, review: 0.515
 ---
 # Practice as Learning Purpose — Purpose-Driven Learning Effectiveness
 

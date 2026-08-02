@@ -1,9 +1,10 @@
 ---
 id: "idea-20260711-rm01"
-summary: "Modeling a book's content involves a tradeoff between merge costs from poor decomposition boundaries and memory decay costs from delayed modeling. Modeling chapter-by-chapter forces editorial boundaries that ignore conceptual cohesion, causing later model merging when concepts span chapters, but waiting until after reading the whole book allows a structurally optimal decomposition at the cost of degraded memory for early chapters. The optimal strategy balances these two costs by modeling after natural conceptual clusters—units with high internal cohesion and sparse external coupling—rather than chapters. This explains why premature structure is suboptimal and aligns with structural patience: editorial boundaries imposed too early lead to unnecessary merge costs."
 title: "Reading-Modeling Decomposition Tradeoff — Explained by Cohesion-Coupling Heuristic"
 tags: [reading, modeling, methodology, decomposition, learning, cohesion-coupling, tradeoff]
-importance: 3.66  # auto
+summary: "The reading-modeling decomposition tradeoff arises from two competing costs: merge costs when modeling after each chapter, which are editorial boundaries that often don't align with natural conceptual subsystems, and memory decay costs when modeling after the whole book, since memory (M) fades over time. The cohesion-coupling heuristic shows that optimal decomposition chooses boundaries to maximize internal cohesion and minimize coupling, not inherit editorial splits; chapters are narrative units, not structural ones. Consequently, the ideal strategy is somewhere between per-chapter and whole-book modeling, such as after a natural conceptual cluster, balancing merge costs against memory decay. Pre-reading lowers merge costs by providing a rough map, and structural patience avoids forcing structure on non-conceptual boundaries."
+body_hash: "2ce1ca2c"
+importance: 3.77  # auto
 connections:
   - type: idea
     slug: cohesion-coupling-decomposition-heuristic
@@ -23,6 +24,14 @@ connections:
     slug: deep-learning-book
   - type: idea
     slug: "content-independent-framework"  # review: 0.565
+  - type: idea
+    slug: "connection-reading"  # auto, review: 0.546
+  - type: idea
+    slug: "framework-extraction-pattern"  # auto, review: 0.537
+  - type: idea
+    slug: "reading-writing-unity"  # auto, review: 0.529
+  - type: idea
+    slug: "framework-from-data"  # auto, review: 0.513
 ---
 # Reading-Modeling Decomposition Tradeoff
 

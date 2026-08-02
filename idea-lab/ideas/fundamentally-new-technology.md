@@ -10,8 +10,9 @@ tags:
 - innovation-modes
 - standard-engineering
 - technology-evolution
-summary: "Standard engineering builds new technology through iterative updates on existing principles, so the principle remains identical to past technology while only sub-technology requirements change. In contrast, fundamentally new technology adopts a new principle to achieve an existing purpose, requiring the creation of a conceptual solution that links the requirement to phenomena. This solution is often discovered through appropriation from other domains, combining prior concepts, or sudden inspiration, and then materialized by recursively configuring sub-technologies. The recursive design method reflects the recursive nature of technology itself, and this inventive paradigm parallels the process of theory-building in science and mathematics."
-importance: 6.34  # auto
+summary: "Fundamentally new technology is innovation that adopts a new principle for an existing purpose, unlike standard engineering which merely iterates on identical principles from past technology. In standard engineering, the primary phenomena and their combination remain unchanged; only the sub-technology requirements differ. Generating a fundamentally new technology requires conceiving a principle—a conceptual chain linking a requirement to phenomena—often through appropriation from other domains, mental association, and inspiration. This design is recursive: after a rough principle forms, its subordinate sub-technologies are clarified, sometimes borrowing from existing solutions. The process parallels science and mathematics, where rough conceptual approaches are systematized into complete theories."
+body_hash: "bb36c1f2"
+importance: 5.74  # auto
 connections:
 - type: idea
   slug: standard-engineering-reconstruction
@@ -55,6 +56,14 @@ connections:
     slug: "where-innovation-comes-from"  # auto, review: 0.520
   - type: idea
     slug: "structural-understanding-in-daily-life"  # auto, review: 0.517
+  - type: idea
+    slug: "perspective-classification"  # auto, review: 0.541
+  - type: idea
+    slug: "new-technology-replacing-old"  # auto, review: 0.541
+  - type: idea
+    slug: "three-layer-framework"  # auto, review: 0.534
+  - type: idea
+    slug: "core-capability-supporting-infrastructure-pattern"  # auto, review: 0.507
 ---
 Standard engineering understands new technology as iterative updates on existing technology, forming a "Darwinian" process.
 

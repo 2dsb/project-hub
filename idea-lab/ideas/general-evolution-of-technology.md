@@ -12,8 +12,9 @@ tags:
   - dead-technology
   - creative-destruction
   - biological-evolution-comparison
-summary: "Technology evolves as a self-organizing network, akin to a coral reef organism, where active technologies combine under opportunity niches—demand triggers arising from human needs and the technology network’s own requirements for supporting assemblies and problem solving. Each new technology becomes a node, replaces older components, shifts them to dead nodes, and cascadingly destroys the replaced technology’s demand, subordinate niches, and affiliated technologies. Simultaneously, it creates fresh opportunity niches, spawning trends. Unlike biological evolution’s mutation, technology’s fundamental mode is combination, driving a network of active and dead elements in perpetual creative destruction."
-importance: 5.03  # auto
+summary: "Technology evolves like a coral reef organism through exponential combination. Opportunity niches, triggered by human needs and the demands of existing technologies, guide active technologies to combine into new nodes. A new node replaces older components, turning them and their dependent niches into dead technologies, while generating further niches and becoming a precursor for future combinations. This cascading destruction collapses subordinate technologies and niches, but also establishes trends. The core mechanism differs from biological evolution: technology evolves primarily by combination, not mutation."
+body_hash: "8873a586"
+importance: 4.53  # auto
 connections:
   - type: idea
     slug: three-definitions-of-technology
@@ -55,6 +56,8 @@ connections:
     slug: "core-capability-supporting-infrastructure-pattern"  # auto, review: 0.556
   - type: idea
     slug: "finding-examples"  # auto, review: 0.512
+  - type: idea
+    slug: "evolution-of-phenomena"  # auto, review: 0.519
 ---
 > Technology self-organizes, self-creates, and indeed has life — but as an organism in the "coral reef" sense.
 

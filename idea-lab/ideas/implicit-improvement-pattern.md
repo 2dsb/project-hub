@@ -1,9 +1,10 @@
 ---
 id: "idea-20260626-impl01"
-summary: "Skill improvement in tetr.io and English fluency occurs without conscious awareness of what was learned, following a repetition → implicit pattern extraction → measurable improvement loop. The underlying Data→Pattern→Prediction chain runs entirely below awareness, with only output metrics like APM, PPS, and APP visible. This suggests memory should be split into M_explicit (articulable knowledge) and M_implicit (opaque but decay-prone skill) in a project model. It questions whether the same mechanism drives both conscious learning and subconscious acquisition, differing only in access to the intermediate pattern layer."
 title: "Implicit Improvement — Getting Better Without Knowing How"
 tags: [implicit-learning, skill-acquisition, tetrio, english-learning, procedural-memory]
-importance: 5.23  # auto
+summary: "Repetition in skills like tetr.io and English drives implicit improvement via subconscious pattern extraction, yielding measurable gains without conscious access to the underlying pattern. This suggests the Data→Pattern→Prediction chain operates below awareness, extracting and applying patterns automatically. The author proposes splitting memory into M_explicit for articulable knowledge and M_implicit for unconscious procedural skill, raising the question of whether conscious and subconscious learning share the same mechanism with only differential access to the pattern layer."
+body_hash: "18c560dd"
+importance: 4.63  # auto
 connections:
   - type: idea
     slug: "data-pattern-prediction-chain"  # auto
@@ -27,6 +28,14 @@ connections:
     slug: "efficiency-formula"  # review: 0.525
   - type: idea
     slug: "learning-pipeline"  # review: 0.501
+  - type: idea
+    slug: "knowledge-mastery-two-axis-model"  # auto
+  - type: idea
+    slug: "practice-as-learning-purpose"  # auto, review: 0.546
+  - type: idea
+    slug: "goal-singularity"  # auto, review: 0.543
+  - type: idea
+    slug: "structural-patience"  # auto, review: 0.531
 ---
 # Implicit Improvement Pattern
 

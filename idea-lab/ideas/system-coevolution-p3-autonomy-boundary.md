@@ -1,9 +1,10 @@
 ---
 id: "idea-20260606-sce01-p3"
-summary: "All system structure—entity types, AI behavior rules, M33 dimension definitions, trigger thresholds, user preference rules—is provisional because it emerges entirely from data, meaning the system’s own architecture can be overridden. The boundary of self-updating systems is resolved at the notification level: the system directly modifies its own behavior rules autonomously and then notifies the user after the change, granting significant autonomous coevolution while maintaining user awareness."
 title: "System Coevolution - Problem 3: The Boundary of Self-Updating Systems"
 tags: [system-coevolution, autonomy, self-modification, trust]
-importance: 1.64  # auto
+summary: "In System Coevolution, the boundary of self-updating systems concerns autonomy when all structure—entity types, AI behavior rules, dimension definitions, thresholds—emerges provisionally from data. Three levels exist: proposal level requiring user confirmation, notification level where the system acts and then informs, and silent level with only log visibility. The conclusion adopts the high-trust notification level, granting the system direct modification of its own behavior rules while notifying the user after the fact, enabling significant autonomous evolution."
+body_hash: "d7c1e1b7"
+importance: 1.29  # auto
 connections:
   - type: idea
     slug: "system-coevolution"  # auto

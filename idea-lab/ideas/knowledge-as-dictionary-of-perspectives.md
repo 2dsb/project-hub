@@ -1,9 +1,10 @@
 ---
 id: "idea-20260713-kp01"
-summary: "Every knowledge point is a dictionary of perspective-keys and values, forming a multi-dimensional embedding where each key represents a distinct angle, and values can recursively nest as sub-dictionaries. Inspired by deep learning’s data-to-vector abstraction, this model reveals that fields like philosophy nest deeply under a single top key while CS spreads across many shallow keys. Complete understanding requires filling all keys, since each missing key omits a dimension. The dictionary structure unifies existing multi-perspective frameworks as specific key sets, aligns with the cohesion-coupling decomposition heuristic, and provides a generation heuristic to systematically enumerate perspectives."
 title: "Knowledge as a Dictionary of Perspectives — Each Knowledge Point Is a Multi-Dimensional Embedding"
 tags: [knowledge-representation, multi-perspective, deep-learning, vector-embedding, abstraction, modeling, meta-model, dictionary-metaphor]
-importance: 6.8  # auto
+summary: "Every knowledge point is a dictionary of perspective-key to value mappings, functioning like a multi-dimensional embedding from deep learning. A complete understanding requires the full set of perspectives because any single view is just one vector component. This dictionary structure unifies existing models (the three-layer scaffold, dual-perspective model) as subsets of keys, and values can nest recursively, so a field like philosophy with one top-level key gains depth through sub-keys while a cross-layer domain like computer science gains breadth through many top-level keys. The model yields a generation heuristic—systematically enumerate missing keys—and aligns with the cohesion-coupling decomposition heuristic, where good decompositions have high cohesion within a perspective-key and low coupling across keys."
+body_hash: "135e61ae"
+importance: 6.6  # auto
 connections:
   - type: idea
     slug: "interaction-as-dictionary"  # auto
@@ -29,6 +30,18 @@ connections:
     slug: "perspective-classification"  # auto
   - type: idea
     slug: "object-attribute-migration"  # review: 0.518
+  - type: idea
+    slug: "reconnection-doc-method"  # auto
+  - type: idea
+    slug: "human-structure-ai-completeness"  # auto
+  - type: idea
+    slug: "three-layer-framework"  # auto, review: 0.572
+  - type: idea
+    slug: "structural-patience"  # auto, review: 0.527
+  - type: idea
+    slug: "inquiry-essay-method"  # auto, review: 0.514
+  - type: idea
+    slug: "knowledge-mastery-two-axis-model"  # auto, review: 0.500
 ---
 # Knowledge as a Dictionary of Perspectives
 

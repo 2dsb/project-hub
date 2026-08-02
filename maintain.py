@@ -31,12 +31,16 @@ def main():
     start = time.time()
     failed = []
 
+    total_steps = len(STEPS) - (1 if skip_summaries else 0)
+    step_num = 0
+
     for script, desc in STEPS:
         if skip_summaries and script == "generate_summaries.py":
             print(f"[SKIP] {desc}\n")
             continue
 
-        print(f"[{len(failed) + 1}/{len(STEPS)}] {desc}...")
+        step_num += 1
+        print(f"[{step_num}/{total_steps}] {desc}...")
         step_start = time.time()
 
         result = subprocess.run(

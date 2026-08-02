@@ -6,13 +6,16 @@ tags:
   - efficiency
   - trade-offs
   - opportunity-cost
-summary: "The production possibilities frontier graphs the maximum output combinations an economy can produce with available factors and technology, with points on the curve representing efficient use of scarce resources. A technological improvement in one good shifts the frontier outward. Choosing a point on the frontier entails a trade-off, while moving along it to produce more of one good incurs an opportunity cost of forgone units of the other, reflected in the slope."
-importance: 2.27  # auto
+summary: "The production possibilities frontier graphs the combinations of two goods an economy can produce given available factors and technology, with points on the frontier representing efficient outcomes. A technological advance in producing one good shifts the frontier outward. Choosing a point on the frontier entails a trade-off, as moving along it to produce more of one good incurs an opportunity cost—the forgone amount of the other good—determined by the slope at that point."
+body_hash: "815dc116"
+importance: 1.82  # auto
 connections:
   - type: idea
     slug: principles-of-economics-10-principles
   - type: project
     slug: naked-economics
+  - type: idea
+    slug: "economic-evolution-driven-by-technological-evolution"  # auto, review: 0.503
 ---
 # Definition
 

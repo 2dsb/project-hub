@@ -1,9 +1,10 @@
 ---
 id: "idea-20260608-fb01"
-summary: "The Flow-Based Thinking Framework posits that systems across physical, social, and cognitive domains—such as Mindustry logistics, school information flow, and self-study knowledge flow—share an isomorphic source–routing–sink structure. By asking where the source is, how it routes, and where it goes, and then examining capacity, priority, and congestion handling, one can view any system as a flow graph to immediately identify bottlenecks, redundancies, and single points of failure. This is an application of analogical transfer that strips away surface details to reveal the same directed graph topology."
 title: "Flow-Based Thinking Framework"
 tags: [thinking-tool, system-analysis, flow, topology, meta-cognition]
-importance: 9.13  # auto
+summary: "The Flow-Based Thinking Framework posits that any system—physical, social, or cognitive—can be modeled as a directed graph with three universal elements: source, routing, and sink. By asking where something originates, how it moves, and where it terminates, and by examining capacity, priority, and congestion handling at each stage, one can immediately identify bottlenecks, redundancies, and single points of failure. This approach unifies disparate domains like Mindustry logistics, school information flow, and self-study knowledge flow through analogical transfer, stripping away surface details to reveal an invariant flow topology."
+body_hash: "b1509605"
+importance: 7.41  # auto
 connections:
   - type: idea
     slug: "analogical-transfer-conditions"  # auto
@@ -31,6 +32,14 @@ connections:
     slug: "understanding-software-at-technical-level"  # auto
   - type: idea
     slug: "space-as-perspective"  # review: 0.524
+  - type: idea
+    slug: "data-pattern-prediction-chain"  # auto
+  - type: idea
+    slug: "three-layer-framework"  # auto, review: 0.564
+  - type: idea
+    slug: "reconnection-doc-method"  # auto, review: 0.546
+  - type: idea
+    slug: "transfer-high-leverage"  # auto, review: 0.524
 ---
 # Flow-Based Thinking Framework
 

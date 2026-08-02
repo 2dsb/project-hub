@@ -1,9 +1,10 @@
 ---
 id: "idea-20260130-189e3e"
-summary: "The note claims that technology's singular level is structured as central principles, primary integrations, and secondary integrations, and it demands a proof of this composition."
 title: "Finding Examples"
 tags: ["technology-theory", "proof-of-concept", "essence-of-technology"]
-importance: 5.69  # auto
+summary: "The note proposes that at the singular level, technology’s essence decomposes into central principles, primary integrations, and secondary integrations. It frames this as a proof-of-concept, calling for concrete examples to validate the tripartite model and ground the technology theory in observable instances."
+body_hash: "36b4ad0c"
+importance: 5.63  # auto
 connections:
   - type: idea
     slug: "technology-in-the-singular-sense"  # auto
@@ -47,6 +48,12 @@ connections:
     slug: "new-technology-replacing-old"  # auto, review: 0.507
   - type: idea
     slug: "characteristics-of-our-era"  # auto, review: 0.502
+  - type: idea
+    slug: "impact-of-domains-on-economy"  # auto, review: 0.591
+  - type: idea
+    slug: "interaction-as-essence-heuristic"  # auto, review: 0.541
+  - type: idea
+    slug: "science"  # auto, review: 0.503
 ---
 Prove that at the singular level, technology is composed of central principles, primary integrations, and secondary integrations.
 
