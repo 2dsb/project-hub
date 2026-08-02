@@ -2,7 +2,7 @@
 
 - Undirected: connections are treated as mutual links (no hub/authority split)
 - Existing importance values != 1 are preserved (manually set)
-- Output scaled to 0-10 with one decimal place
+- Output scaled to 0-10 with two decimal places
 """
 
 import json
