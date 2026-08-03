@@ -122,4 +122,5 @@ If they reply warmly, the follow-up window opens. Reference something specific f
 ## Related
 
 - [[networking-5-step-method]] — the in-person method that precedes this digital follow-up
+- [[cold-start-online-to-offline]] — cold-start networking: from online chat to confirmed offline meeting
 - [[contact-management-simplified-schema]] — how contacts are stored in people-map
