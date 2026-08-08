@@ -9,8 +9,11 @@ Single table with 5 columns: `Project | Directory | Priority | Type | Status`.
 - **Status**: `active` / `completed` / `paused` / `archived`
 - **Type**: `project` (has an end point) or `ongoing` (continuous — track frequency, not completion)
 
-## Individual Project Cards
+## Naming Convention
 
-One file per project. Frontmatter + one-sentence body summary. Frontmatter fields: `title`, `directory`, `priority`, `status`, `type`, `deadline` (optional), `tags`.
+All projects use one of two prefixes:
 
-Each project lives in `~/<slug>/README.md`. The card in mission-control is the metadata entry in the registry.
+- **`teach-*`** — learning anything (courses, books, skills, tools). Uses the `/teach` skill.
+- **`project-*`** — building, creating, exercising, or managing. Does NOT use `/teach`.
+
+Directory name and registry name must match exactly.
