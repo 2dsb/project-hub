@@ -1,10 +1,11 @@
 """Generate an interactive relationship graph for all ideas.
 
 Output: idea-lab/graph.html — open in browser.
-Default view hides nodes with <= 1 connection (toggle to show all).
+Default view shows Top 1/2 nodes by importance (button cycles through 6 tiers).
 """
 
 import colorsys
+import json as _json
 from pathlib import Path
 from collections import Counter
 
@@ -18,7 +19,9 @@ OUTPUT_PATH = Path("idea-lab/graph.html")
 
 # Layout tuning
 SPRING_LENGTH = 250
-MIN_CONN_FILTER = 2  # hide nodes with <= this many connections in default view
+TIER_FRACTIONS = [1, 1/2, 1/4, 1/8, 1/16, 1/32]
+TIER_LABELS = ["All", "Top 1/2", "Top 1/4", "Top 1/8", "Top 1/16", "Top 1/32"]
+DEFAULT_TIER = 1  # start at Top 1/2
 
 
 def build_graph_from_files() -> nx.Graph:
@@ -80,8 +83,11 @@ def detect_communities(G: nx.Graph) -> dict:
     return node_to_comm
 
 
-def render_graph(G: nx.Graph, communities: dict, output_path: Path):
-    """Render the graph to an interactive HTML file using pyvis."""
+def render_graph(G: nx.Graph, communities: dict, output_path: Path) -> dict:
+    """Render the graph to an interactive HTML file using pyvis.
+
+    Returns tier stats for logging: {pinned, thresholds, counts, labels}.
+    """
     # Curated palette of 20 visually distinct colors (hand-picked for contrast)
     palette_20 = [
         "#4e79a7", "#f28e2b", "#e15759", "#76b7b2", "#59a14f",
@@ -115,13 +121,30 @@ def render_graph(G: nx.Graph, communities: dict, output_path: Path):
         damping=0.4,
     )
 
-    # Find min/max for scaling
-    conn_values = [G.nodes[n].get("conn_count", 0) for n in G.nodes]
-    max_conn = max(conn_values) if conn_values else 1
-    min_conn = min(conn_values) if conn_values else 0
+    # Compute importance tiers for progressive filtering
+    # -1 (manual pin) nodes are always visible at every tier
+    pinned_count = sum(1 for n in G.nodes if G.nodes[n].get("importance", 1.0) == -1)
+    auto_imps = sorted(
+        [G.nodes[n].get("importance", 1.0) for n in G.nodes if G.nodes[n].get("importance", 1.0) != -1],
+        reverse=True,
+    )
+    N = len(auto_imps)
+    tier_thresholds = []
+    tier_counts = []
+    if N == 0:
+        tier_thresholds = [0.0] * len(TIER_FRACTIONS)
+        tier_counts = [pinned_count] * len(TIER_FRACTIONS)
+    else:
+        for frac in TIER_FRACTIONS:
+            count = max(1, int(N * frac + 0.5))
+            thresh = auto_imps[count - 1]
+            tier_thresholds.append(thresh)
+            visible_auto = sum(1 for v in auto_imps if v >= thresh)
+            tier_counts.append(pinned_count + visible_auto)
 
     for node in G.nodes:
         data = G.nodes[node]
+        imp = data.get("importance", 1.0)
         conn = data.get("conn_count", 0)
         comm = communities.get(node, 0)
         if comm < 0:
@@ -129,26 +152,21 @@ def render_graph(G: nx.Graph, communities: dict, output_path: Path):
         else:
             color = palette[comm % len(palette)]
 
-        # Node size: scale between 8 and 40 based on connections
-        if max_conn > min_conn:
-            size = 8 + (conn - min_conn) / (max_conn - min_conn) * 32
+        # Node size: importance 0→5, 10→55, -1 (manual pin)→100
+        if imp == -1:
+            size = 100
         else:
-            size = 20
-
-        # Is this a "core" node?
-        is_core = conn >= MIN_CONN_FILTER
+            size = 5 + imp * 5
 
         # Build tooltip
         summary = data.get("summary", "")
         tags_str = ", ".join(data.get("tags", [])[:5])
         tooltip = f"<b>{data['title']}</b><br>"
         tooltip += f"<i>{tags_str}</i><br>"
+        tooltip += f"Importance: {imp}<br>"
         tooltip += f"Connections: {conn}<br>"
         if summary:
             tooltip += f"<br>{summary}"
-
-        # Store core/peripheral in a custom field (NOT 'group' — pyvis drops color when group is set)
-        node_group = "core" if is_core else "peripheral"
 
         net.add_node(
             node,
@@ -158,19 +176,23 @@ def render_graph(G: nx.Graph, communities: dict, output_path: Path):
             color=color,
             borderWidth=1,
             borderWidthSelected=3,
-            nodeGroup=node_group,  # custom attr, vis.js passes it through
         )
 
     for a, b in G.edges:
         net.add_edge(a, b, color="#555577", width=0.5, hoverWidth=2)
 
-    # Add controls: toggle button, search box, node count
-    controls_html = """
+    # Add controls: tier toggle button, search box, node count
+    # Build a JS map of node importance for filtering
+    imp_map = {}
+    for n in G.nodes:
+        imp_map[n] = G.nodes[n].get("importance", 1.0)
+
+    controls_html = f"""
     <div id="controls" style="position:fixed;top:10px;left:10px;z-index:1000;display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
-      <button id="toggleBtn" onclick="togglePeripheral()" style="
+      <button id="toggleBtn" onclick="toggleTier()" style="
         padding:8px 16px;background:#4e79a7;color:#fff;border:none;border-radius:4px;
         cursor:pointer;font-size:14px;">
-        Show All (190)
+        {TIER_LABELS[DEFAULT_TIER]} ({tier_counts[DEFAULT_TIER]})
       </button>
       <input id="searchBox" type="text" placeholder="Search ideas..." oninput="doSearch()" onkeydown="if(event.key==='Enter')selectFirst()" style="
         padding:6px 12px;background:#2a2a3e;color:#e0e0e0;border:1px solid #555;border-radius:4px;
@@ -181,103 +203,103 @@ def render_graph(G: nx.Graph, communities: dict, output_path: Path):
       <span id="nodeCount" style="color:#aaa;font-size:13px;"></span>
     </div>
     <script>
-      var showingAll = false;
-      var totalNodes = """ + str(G.number_of_nodes()) + """;
-      var coreCount = """ + str(sum(1 for n in G.nodes if G.nodes[n].get("conn_count", 0) >= MIN_CONN_FILTER)) + """;
+      var totalNodes = {G.number_of_nodes()};
+      var tierLabels = {_json.dumps(TIER_LABELS)};
+      var tierThresholds = {_json.dumps(tier_thresholds)};
+      var tierCounts = {_json.dumps(tier_counts)};
+      var nodeImportance = {_json.dumps(imp_map)};
+      var currentTier = {DEFAULT_TIER};
 
-      function updateUI() {
+      function updateUI() {{
         var btn = document.getElementById("toggleBtn");
         var count = document.getElementById("nodeCount");
-        if (showingAll) {
-          btn.textContent = "Core Only (" + coreCount + ")";
-          count.textContent = "Showing all " + totalNodes + " nodes";
-        } else {
-          btn.textContent = "Show All (" + totalNodes + ")";
-          count.textContent = "Showing " + coreCount + " core nodes (>=""" + str(MIN_CONN_FILTER) + """ connections)";
-        }
-      }
+        var nextTier = (currentTier + 1) % tierLabels.length;
+        btn.textContent = tierLabels[nextTier] + " (" + tierCounts[nextTier] + ")";
+        count.textContent = "Showing " + tierLabels[currentTier] + ": " + tierCounts[currentTier] + " nodes";
+      }}
 
-      function togglePeripheral() {
-        showingAll = !showingAll;
+      function toggleTier() {{
+        currentTier = (currentTier + 1) % tierLabels.length;
+        var threshold = tierThresholds[currentTier];
         var items = network.body.data.nodes.get();
-        items.forEach(function(n) {
-          var isCore = n.nodeGroup === "core";
-          n.hidden = showingAll ? false : !isCore;
-        });
+        items.forEach(function(n) {{
+          var imp = nodeImportance[n.id];
+          if (imp === undefined) imp = 1.0;
+          n.hidden = !(imp === -1 || imp >= threshold);
+        }});
         network.body.data.nodes.update(items);
         updateUI();
-      }
+      }}
 
       // --- Search ---
-      function doSearch() {
+      function doSearch() {{
         var q = document.getElementById("searchBox").value.toLowerCase().trim();
         var results = document.getElementById("searchResults");
-        if (!q) { results.style.display = "none"; return; }
+        if (!q) {{ results.style.display = "none"; return; }}
 
         var allNodes = network.body.data.nodes.get();
-        var matches = allNodes.filter(function(n) {
+        var matches = allNodes.filter(function(n) {{
           var label = (n.label || "").toLowerCase();
           var title = (n.title || "").toLowerCase();
           return label.indexOf(q) >= 0 || title.indexOf(q) >= 0;
-        });
+        }});
 
-        if (matches.length === 0) {
+        if (matches.length === 0) {{
           results.innerHTML = '<div style="padding:8px 12px;color:#888;">No matches</div>';
           results.style.display = "block";
-        } else if (matches.length === 1) {
-          // Single match: focus and select it
+        }} else if (matches.length === 1) {{
           focusNode(matches[0].id);
           results.style.display = "none";
-        } else {
+        }} else {{
           var html = "";
-          matches.slice(0, 15).forEach(function(n, i) {
+          matches.slice(0, 15).forEach(function(n, i) {{
             html += '<div data-nid="' + n.id + '" onmousedown="focusNode(this.dataset.nid)" style="padding:6px 12px;cursor:pointer;color:#e0e0e0;'
               + (i === 0 ? 'background:#4e79a7;' : '')
               + '" onmouseenter="this.style.background=\\'#4e79a7\\'" onmouseleave="this.style.background=\\'\\'">'
               + (n.label || n.id) + '</div>';
-          });
+          }});
           if (matches.length > 15) html += '<div style="padding:6px 12px;color:#888;">... and ' + (matches.length - 15) + ' more</div>';
           results.innerHTML = html;
           results.style.display = "block";
-        }
-      }
+        }}
+      }}
 
-      function selectFirst() {
+      function selectFirst() {{
         var results = document.getElementById("searchResults");
         var first = results.querySelector("div");
         if (first && first.onmousedown) first.onmousedown();
-      }
+      }}
 
-      function focusNode(nodeId) {
-        // Unhide the node if hidden
+      function focusNode(nodeId) {{
         var items = network.body.data.nodes.get();
-        items.forEach(function(n) {
+        items.forEach(function(n) {{
           if (n.id === nodeId) n.hidden = false;
-        });
+        }});
         network.body.data.nodes.update(items);
-        // Select and focus
         network.selectNodes([nodeId]);
-        network.focus(nodeId, {scale: 1.5, animation: true});
+        network.focus(nodeId, {{scale: 1.5, animation: true}});
         document.getElementById("searchResults").style.display = "none";
         document.getElementById("searchBox").value = "";
-      }
+      }}
 
-      // Click outside to close search results
-      document.addEventListener("click", function(e) {
-        if (!e.target.closest("#searchBox") && !e.target.closest("#searchResults")) {
+      document.addEventListener("click", function(e) {{
+        if (!e.target.closest("#searchBox") && !e.target.closest("#searchResults")) {{
           document.getElementById("searchResults").style.display = "none";
-        }
-      });
+        }}
+      }});
 
-      // Hide peripheral nodes on load
-      setTimeout(function() {
+      // Apply default tier filter on load
+      setTimeout(function() {{
+        var threshold = tierThresholds[currentTier];
         var items = network.body.data.nodes.get();
-        items.forEach(function(n) {
-          if (n.nodeGroup !== "core") n.hidden = true;
-        });
+        items.forEach(function(n) {{
+          var imp = nodeImportance[n.id];
+          if (imp === undefined) imp = 1.0;
+          n.hidden = !(imp === -1 || imp >= threshold);
+        }});
         network.body.data.nodes.update(items);
         updateUI();
-      }, 500);
+      }}, 500);
     </script>
     """
 
@@ -289,13 +311,19 @@ def render_graph(G: nx.Graph, communities: dict, output_path: Path):
     title_html = """
     <div style="position:fixed;top:10px;right:20px;z-index:1000;color:#aaa;font-size:13px;text-align:right;">
       <b style="color:#e0e0e0;font-size:16px;">idea-lab relationship graph</b><br>
-      nodes sized by connection count · colored by community · drag to explore
+      nodes sized by importance · colored by community · drag to explore
     </div>
     """
     html = html.replace("</body>", title_html + "\n</body>")
 
     output_path.write_text(html, encoding="utf-8")
-    return net
+
+    return {
+        "pinned": pinned_count,
+        "thresholds": tier_thresholds,
+        "counts": tier_counts,
+        "labels": TIER_LABELS,
+    }
 
 
 def main():
@@ -305,13 +333,6 @@ def main():
     print(f"  Nodes: {G.number_of_nodes()}")
     print(f"  Edges: {G.number_of_edges()}")
 
-    # Connection stats
-    conn_values = [G.nodes[n].get("conn_count", 0) for n in G.nodes]
-    core = sum(1 for c in conn_values if c >= MIN_CONN_FILTER)
-    peripheral = sum(1 for c in conn_values if c < MIN_CONN_FILTER)
-    print(f"  Core (>={MIN_CONN_FILTER} conns): {core}")
-    print(f"  Peripheral (<{MIN_CONN_FILTER} conns): {peripheral}")
-
     print("Detecting communities...")
     communities = detect_communities(G)
     n_large = sum(1 for c in set(communities.values()) if c >= 0)
@@ -319,7 +340,12 @@ def main():
     print(f"  Large communities: {n_large}, Misc (small): {n_misc}")
 
     print(f"Rendering graph to {OUTPUT_PATH}...")
-    render_graph(G, communities, OUTPUT_PATH)
+    stats = render_graph(G, communities, OUTPUT_PATH)
+
+    print(f"  Pinned (-1): {stats['pinned']}")
+    for i, (label, count) in enumerate(zip(stats['labels'], stats['counts'])):
+        marker = " ← default" if i == DEFAULT_TIER else ""
+        print(f"  {label}: {count} nodes{marker}")
     print(f"  Done! Open {OUTPUT_PATH} in browser.")
 
 
