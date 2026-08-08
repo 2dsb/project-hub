@@ -32,3 +32,13 @@ All projects use one of two prefixes:
 - **`project-*`** — building, creating, exercising, or managing. Does NOT use `/teach`.
 
 Directory name and registry name must match exactly.
+
+## SKILLS_REPORT.md
+
+Auto-generated skill inventory across all `teach-*` projects. Regenerate via workflow when significant progress is made across multiple projects. Contains:
+
+- Per-project skill breakdown (domain, level, concrete skills, hours, completion %)
+- Skill map by domain (Programming & CS, AI/ML, Academic, Meta-learning)
+- Proficiency matrix (17 skill areas × 21 projects)
+
+Purely descriptive — no recommendations or learning paths.
