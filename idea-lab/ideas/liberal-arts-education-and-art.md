@@ -12,7 +12,7 @@ tags:
   - personal-growth
 summary: "Liberal arts education is the process of knowledge production cultivating the ability to think beyond constraints. Art uncovers truth we evade because truth is hard to bear; it breaks invisible constraints, setting us free through personal resonance, not objective data. Art asks \"What is its relationship to me?\" and integrates life with book learning to build the self. It reveals measurable knowledge's limits by exposing human habits, and understanding the past as the source of present motives completes this self-building."
 body_hash: "62ff1048"
-importance: 3.3  # auto
+importance: 8.06  # auto
 connections:
   - type: permanent
     slug: 优秀的绵羊c8.1

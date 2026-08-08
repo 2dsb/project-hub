@@ -4,7 +4,7 @@ title: "Sino-US Trade"
 tags: ["sino-us-trade", "us-dollar", "manufacturing", "consumption", "inflation", "interest-rates"]
 summary: "China exchanges gold for US dollars, then transitions to exchanging goods for dollars. This causes China's manufacturing sector to boom and America's services sector to boom. Americans can consume more than they produce, while Chinese must consume less than they produce. US inflation falls and US interest rates decline as a result."
 body_hash: "9ffeaf9f"
-importance: 4.17  # auto
+importance: 2.93  # auto
 connections:
   - type: idea
     slug: "international-trade"  # review: 0.525

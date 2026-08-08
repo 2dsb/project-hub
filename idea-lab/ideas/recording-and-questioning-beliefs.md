@@ -8,7 +8,7 @@ tags:
 - thinking-methods
 summary: "Proactively record and question your personal beliefs, such as views on love and career, to engage in self-reflection and metacognitive examination."
 body_hash: "eaf68221"
-importance: 1.85  # auto
+importance: 0.77  # auto
 connections:
   - type: project
     slug: "ai-ability"

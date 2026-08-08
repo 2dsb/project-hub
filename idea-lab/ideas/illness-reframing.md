@@ -9,7 +9,7 @@ tags:
 - values
 summary: "Illness is a valuable exclusive experience opportunity, not a setback, because its unique constraints enable exploration of coping methods inaccessible to healthy people. The intrinsic difficulty of maintaining basic functioning under such constraints may surpass that of conventional achievements, even though it lacks external recognition. Practical implications involve separating physiological distress from self-negating judgment, documenting experiential accumulation instead of output, and comparing oneself only against previous constrained states. This reframing provides the foundational value support for low-energy cognitive practices by dismantling the self-negation that compounds the hardship."
 body_hash: "4ba22534"
-importance: 1.4  # auto
+importance: 2.52  # auto
 connections:
 - type: project
   slug: "ai-ability"

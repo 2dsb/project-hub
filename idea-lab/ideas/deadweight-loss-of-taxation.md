@@ -11,7 +11,7 @@ tags:
   - incentives
 summary: "Deadweight loss of taxation is the reduction in total surplus from market distortions that prevent mutually beneficial trades. The magnitude of this loss increases with the price elasticity of supply and demand, and with the tax rate itself, leading to inefficient resource allocation. Tax revenue initially rises but eventually falls as higher taxes shrink the tax base—this relationship is captured by the Laffer curve. Ultimately, taxes distort incentives and cause greater potential losses in total welfare."
 body_hash: "31a3d63c"
-importance: 1.57  # auto
+importance: 0.0  # auto
 connections:
   - type: idea
     slug: ten-principles-of-economics

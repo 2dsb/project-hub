@@ -9,7 +9,7 @@ tags:
   - abstraction
 summary: "Transfer is a high-leverage cognitive operation that converts one structural insight into multiple applications at near-zero additional cost. The pattern succeeds by extracting abstract structure—not surface content—from a source domain, mapping it to a target, and verifying the mapping holds; false transfers occur when surface similarity masks structural mismatch. Three instances illustrate this: the Physics method’s adaptive step-selection became an English learning method, PCA’s encode/decode architecture informed a knowledge-reconnection mechanism, and Git’s six-layer model with its persistent proposal buffer, isomorphic commit DAG, and remote-tracking as a local cache with silent staleness failure mode suggests protocols for distributed human–AI collaboration. Because the abstraction step is not prompted by the original task, deliberate transfer after each significant learning event yields asymmetric ROI—minutes of extraction can save hours or days."
 body_hash: "e8e94034"
-importance: 5.99  # auto
+importance: 3.53  # auto
 connections:
   - type: idea
     slug: "knowledge-reconnection"  # auto

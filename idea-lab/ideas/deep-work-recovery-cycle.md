@@ -9,7 +9,7 @@ tags:
   - recovery
 summary: "A 3-day gap following an intense deep-work session revealed physical depletion—sleep debt and exercise deficit—requiring recovery, not avoidance. This insight established Physical Capacity (P) as a third dimension alongside mental focus (M) and arousal (A), where P decays during deep work and recovers through rest mediated by an evening-arousal-to-sleep mechanism. The A⇄B oscillator describes cycles between concentrated work (A) and recovery or social phases (B), but B is a descending slope due to rhinitis asymmetric drain rather than neutral recovery. The framework identifies five gap types, including the rhinitis spiral, and prescribes practical interventions like hard cutoffs and weaponizing external triggers to minimize B-phase duration."
 body_hash: "bc546168"
-importance: 1.7  # auto
+importance: 1.33  # auto
 connections:
   - type: idea
     slug: timeline-based-project-structure

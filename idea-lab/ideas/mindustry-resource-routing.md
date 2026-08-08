@@ -9,7 +9,7 @@ tags:
   - game-design
 summary: "The note rejects a split-distribution approach (Plan A) for Mindustry core routing because splitting each conveyor belt into 12 equal shares scales poorly and is complex to deploy. Instead, Plan B merges N belts into 12 groups via routers, directing each group to a dedicated core port, and uses overflow gates to reroute excess when per-port throughput exceeds 4/s. This adopted Plan B achieves O(N) linear complexity, scaling directly with the core’s port count."
 body_hash: "b0286b87"
-importance: 1.01  # auto
+importance: 1.3  # auto
 connections:
   - type: idea
     slug: flow-based-thinking

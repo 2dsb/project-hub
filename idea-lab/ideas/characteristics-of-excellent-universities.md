@@ -11,7 +11,7 @@ tags:
   - undergraduate-experience
 summary: "Excellent universities are defined by students who are curious and collegial, acting as partners for intellectual exchange rather than competitors. They guide students in with an \"Introduction to Liberal Arts\" course that exposes them to core disciplinary essentials, rather than leaving them to navigate a catalog alone. The transition out is equally deliberate: these institutions make long-term investments through year-round learning programs, not last-minute senior-year workshops that rebrand vocational skills as leadership. Bennington College’s Center for Social Good exemplifies this by letting students investigate themes like poverty or public health through projects, grounding leadership in using one’s resources to advance social progress."
 body_hash: "d4d82b3c"
-importance: 2.97  # auto
+importance: 0.0  # auto
 connections:
   - type: idea
     slug: teachers

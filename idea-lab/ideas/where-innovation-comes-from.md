@@ -14,7 +14,7 @@ tags:
   - creativity
 summary: "Innovation stems from expertise, not sudden flashes of novice insight, because experts have automated foundational operations into intuition, conserving finite mental energy to focus on a problem's essence. This process—deliberately applying knowledge until it becomes an effortless habit—mirrors the hermeneutic cycle of internalizing deductive steps. To promote innovation, one should manage energy by fostering creativity through constraints, like standardized note-taking that reduces formatting friction, and using interest-guided work to fuel engagement. Constraints reduce energy loss while interest adds energy, much like reducing an engine's friction and adding fuel, which explains why building new, simple habits is essential yet difficult, as rational goals have little force against long-term behavioral inertia."
 body_hash: "b27b60e2"
-importance: 5.26  # auto
+importance: 1.46  # auto
 connections:
   - type: permanent
     slug: 卡片笔记写作法c2.3
@@ -82,6 +82,8 @@ connections:
     slug: "timeline-based-project-structure"  # auto, review: 0.515
   - type: idea
     slug: "goal-singularity"  # auto, review: 0.511
+  - type: idea
+    slug: "ai-centered-new-education-industry"  # auto, review: 0.504
 ---
 Let us explore a question: where does innovation come from?
 

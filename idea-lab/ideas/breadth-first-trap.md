@@ -9,7 +9,7 @@ tags:
 - actionable
 summary: "The note contrasts two cognitive bottlenecks: using breadth-first search where depth-first execution is needed, due to anxiety-driven pseudo-efficiency that incurs high switching costs, and recursive dependency nesting that overloads working memory like a stack overflow. For the first, the fix is to externalize a step chain before any searching, throttle result openings, and search only when stuck—or ask AI for step-by-step guidance. For the second, one should draw the full dependency tree to offload cognitive load, then execute from the bottom-up leaves, adding newly discovered prerequisites as child nodes without mentally maintaining the entire hierarchy."
 body_hash: "1f7e4338"
-importance: 4.53  # auto
+importance: 3.75  # auto
 connections:
   - type: project
     slug: ai-ability

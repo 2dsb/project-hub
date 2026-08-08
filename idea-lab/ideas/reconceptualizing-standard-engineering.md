@@ -12,7 +12,7 @@ tags:
 - domains
 summary: "Standard engineering is the process of creating a new version of an existing technology through familiar combinatorial methods, triggered by demand and executed via conceptual design and physical realization. From a problem-solving perspective, the engineer decomposes the demand into smaller problems, iteratively fitting components and resolving conflicts, with difficulty increasing when venturing into unknown territory or managing human factors. Domains function like languages, where the engineer generates an intention and selects technologies as words to form a sentence-like combination. At the plural level, many engineers generate vastly different combinations, and successful technologies become standard modules through reuse, a selection process akin to Darwinism but directed by demand rather than random variation."
 body_hash: "1a80936e"
-importance: 5.41  # auto
+importance: 3.26  # auto
 connections:
 - type: idea
   slug: technology-in-the-singular

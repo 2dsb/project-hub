@@ -4,7 +4,7 @@ title: "The Elements of the Economy"
 tags: ["underconsumption", "risk-taking-innovation", "capital-accumulation", "productivity", "savings", "investment", "demand-driven"]
 summary: "Underconsumption drives risk-taking and innovation, leading to the creation of tools and capital that boost productivity. This productivity generates more goods and savings, which can be hoarded, consumed, lent, or invested—often combined. Lending and investment may further improve productivity, propelling economic development, with the entire process guided by demand."
 body_hash: "245e7ca8"
-importance: 3.89  # auto
+importance: 0.0  # auto
 connections:
   - type: idea
     slug: "the-ten-principles-of-economics"  # review: 0.546

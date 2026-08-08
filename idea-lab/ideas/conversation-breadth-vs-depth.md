@@ -4,7 +4,7 @@ title: "Conversation Breadth vs Depth"
 tags: [communication, social, framework, information-exchange, observation]
 summary: "Information exchange during meals divides into broad-but-shallow and narrow-but-deep modes. Broad-but-shallow communication covers wide scope but the initiator lacks a clear grasp of the big picture, resulting in unfocused, confused narration. Narrow-but-deep communication focuses on a tight scope where the initiator understands the macro structure down to details, enabling more effective and precise information transfer."
 body_hash: "6575c0ca"
-importance: 1.19  # auto
+importance: 1.27  # auto
 connections:
   - type: project
     slug: "ai-ability"

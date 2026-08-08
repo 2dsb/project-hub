@@ -7,7 +7,7 @@ tags:
   - technology-evolution
 summary: "Can the economy as a purposeful system and the evolution of technology be characterized through 一般意义上技术的演化 (the general evolution of technology)?"
 body_hash: "75eb9163"
-importance: 2.21  # auto
+importance: 0.41  # auto
 connections:
   - type: permanent
     slug: "21a-技术的基因：现象"

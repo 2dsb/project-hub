@@ -4,7 +4,7 @@ title: "Implicit Improvement — Getting Better Without Knowing How"
 tags: [implicit-learning, skill-acquisition, tetrio, english-learning, procedural-memory]
 summary: "Repetition in skills like tetr.io and English drives implicit improvement via subconscious pattern extraction, yielding measurable gains without conscious access to the underlying pattern. This suggests the Data→Pattern→Prediction chain operates below awareness, extracting and applying patterns automatically. The author proposes splitting memory into M_explicit for articulable knowledge and M_implicit for unconscious procedural skill, raising the question of whether conscious and subconscious learning share the same mechanism with only differential access to the pattern layer."
 body_hash: "18c560dd"
-importance: 4.63  # auto
+importance: 3.25  # auto
 connections:
   - type: idea
     slug: "data-pattern-prediction-chain"  # auto
@@ -36,6 +36,8 @@ connections:
     slug: "goal-singularity"  # auto, review: 0.543
   - type: idea
     slug: "structural-patience"  # auto, review: 0.531
+  - type: idea
+    slug: "learning-method-v2"  # auto, review: 0.560
 ---
 # Implicit Improvement Pattern
 

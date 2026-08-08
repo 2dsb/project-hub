@@ -4,7 +4,7 @@ title: "M34 Structural Defect: Source Layer Static Rigidity"
 tags: [system-design, coevolution, m34, data-source, rigidity, architecture]
 summary: "M34 suffers from a structural defect called source layer static rigidity: its data sources are hardcoded, while coevolution claims sit only in the routing layer. Because the perception boundary cannot evolve, the system's coverage breadth declines as the user's working methods change, creating a contradiction. This is not a bug but a missing design dimension; the improvement direction is a self-extension mechanism to dynamically discover new data sources or allow manual registration."
 body_hash: "d0426ee7"
-importance: 2.68  # auto
+importance: 2.83  # auto
 connections:
   - type: idea
     slug: "system-coevolution-p1-data-coverage"  # auto

@@ -14,7 +14,7 @@ tags:
   - contingent-faculty
 summary: "Undergraduate teaching effectiveness is undermined by the economic incentive for universities to prioritize funded research, a shift that intensified after World War II and became self-reinforcing as privatized research outcomes generated revenue. This research-first model leads to replacing tenured professors with overworked, high-turnover contingent faculty in foundational courses and fosters a “publish or perish” mindset where professors allocate time to colleagues and conferences rather than undergraduates. Better scholars are not better teachers because the logic of rigorous academic research directly contradicts teaching capacities: accessible, vivid, cross-disciplinary instruction clashes with specialized, impersonal jargon."
 body_hash: "08ccae23"
-importance: 0.73  # auto
+importance: 0.0  # auto
 connections:
   - type: permanent
     slug: "优秀的绵羊c9.7"

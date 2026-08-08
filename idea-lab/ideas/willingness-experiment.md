@@ -4,7 +4,7 @@ title: "Willingness Experiment: Continue vs. Switch"
 tags: [experiment, meta-cognition, willingness, decision-making, project-management]
 summary: "This note outlines a personal experiment testing the willingness dynamics from the timeline-based project structure, specifically the tension between continuity fatigue and milestone gravity, by comparing two arms when resistance arises after consecutive days on a project. Fixed conditions include the Deep Work I time block, with the Continue arm staying on Deep Learning Book chapters and the Switch arm moving to a PyTorch torch.nn module session. Outcome metrics are output quality, output volume, session satisfaction, and next-day carryover, with the hypothesis that Continue may yield higher volume but lower satisfaction and carryover. After ten total sessions, the analysis will check for significant differences, trade-off patterns, and adaptation effects."
 body_hash: "c0d10beb"
-importance: 2.49  # auto
+importance: 2.05  # auto
 connections:
   - type: idea
     slug: "timeline-based-project-structure"  # auto

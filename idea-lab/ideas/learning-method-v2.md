@@ -9,8 +9,48 @@ tags:
   - knowledge-mastery
   - maintenance
   - two-axis-model
+summary: "The two-axis model of knowledge mastery separates concept (horizontal interaction density, c) from practice (vertical cross-filter binding, p), with the hard constraint that c must precede p because bindings require an existing conceptual framework. Learning cycles push rapid concept lessons followed by practice lessons that introduce no new concepts, then a three-tier exam spanning all knowledge points to build full-breadth p across easy, medium, and hard tiers. After mastery, maintenance resists decay by first restoring c through free recall (unprompted reconstruction of the concept map) and then restoring p through structured testing with variants—modified tasks that force genuine re-derivation rather than rote recall—scheduled weekly using an Ebbinghaus forgetting curve. This sequencing accounts for p decaying faster than c and c requiring restoration before p can effectively recover, while domain adaptation allows collapsing the practice axis for theory-only fields like CPA Economic Law."
+body_hash: "045a8b7f"
+connections:
+  - type: idea
+    slug: "knowledge-mastery-two-axis-model"  # auto
+  - type: idea
+    slug: "memorization-in-pipeline"  # auto
+  - type: idea
+    slug: "learning-dynamics"  # auto
+  - type: idea
+    slug: "teach-method-fixes"  # auto
+  - type: idea
+    slug: "hermeneutic-circle-learning"  # auto
+  - type: idea
+    slug: "learning-pipeline"  # auto
+  - type: idea
+    slug: "enumerative-as-scaffold-for-generative"  # auto
+  - type: idea
+    slug: "practice-as-learning-purpose"  # auto, review: 0.594
+  - type: idea
+    slug: "implicit-improvement-pattern"  # auto, review: 0.560
+  - type: idea
+    slug: "freedom-exploration-generator"  # auto, review: 0.553
+  - type: idea
+    slug: "structural-patience"  # auto, review: 0.549
+  - type: idea
+    slug: "goal-singularity"  # auto, review: 0.544
+  - type: idea
+    slug: "attention-as-bottleneck"  # auto, review: 0.528
+  - type: idea
+    slug: "success-interrogation-heuristic"  # auto, review: 0.526
+  - type: idea
+    slug: "pass-criteria-as-curriculum-design"  # auto, review: 0.525
+  - type: idea
+    slug: "knowledge-reconnection"  # auto, review: 0.522
+  - type: idea
+    slug: "data-structure-first-code-reading"  # auto, review: 0.518
+  - type: idea
+    slug: "speed-first-model-second-batch-tradeoff"  # auto, review: 0.502
+  - type: idea
+    slug: "attention-pointer-learning-model"  # auto, review: 0.500
 ---
-
 # Learning Method v2
 
 ## Design Principles

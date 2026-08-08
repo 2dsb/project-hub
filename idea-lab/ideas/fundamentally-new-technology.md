@@ -12,7 +12,7 @@ tags:
 - technology-evolution
 summary: "Fundamentally new technology is innovation that adopts a new principle for an existing purpose, unlike standard engineering which merely iterates on identical principles from past technology. In standard engineering, the primary phenomena and their combination remain unchanged; only the sub-technology requirements differ. Generating a fundamentally new technology requires conceiving a principle—a conceptual chain linking a requirement to phenomena—often through appropriation from other domains, mental association, and inspiration. This design is recursive: after a rough principle forms, its subordinate sub-technologies are clarified, sometimes borrowing from existing solutions. The process parallels science and mathematics, where rough conceptual approaches are systematized into complete theories."
 body_hash: "bb36c1f2"
-importance: 5.74  # auto
+importance: 2.9  # auto
 connections:
 - type: idea
   slug: standard-engineering-reconstruction

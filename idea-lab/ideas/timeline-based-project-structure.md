@@ -4,7 +4,7 @@ title: "Timeline-Based Project Structure"
 tags: [time-management, project-structure, meta-cognition, daily-flow, energy-management, recovery, physical-health]
 summary: "The universal structure of any project is captured losslessly by the tuple (Memory, Artifacts, and Physical Capacity), where P is a single global resource that gates all cognitive work and recovers with rest. Deep work depletes P, causing a drop below a floor that forces a mandatory B (slack) phase, but the natural A⇄B oscillator alternates study and slack as willingness fatigue and leisure satiation drive transitions. The rhinitis drain makes B phases descend, requiring external triggers or a minimal viable A to escape. The hard cutoff at 20:30 is the prerequisite for all other strategies because it prevents the P depletion that overrides any intention to rotate projects or exercise. Exercise itself is a project subject to willingness dynamics, so the only sustainable form is zero-friction indoor bodyweight work that maintains P baseline without dread."
 body_hash: "a696a3ac"
-importance: 5.38  # auto
+importance: 5.91  # auto
 connections:
   - type: idea
     slug: learning-pipeline

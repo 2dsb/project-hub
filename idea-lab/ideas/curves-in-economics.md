@@ -9,7 +9,7 @@ tags:
 - omitted-variables
 summary: "Interpreting economic curves requires separating correlation from causation. The slope represents the degree of response between quantities, but correlation alone does not establish cause and effect. Two linked variables may exhibit reverse causation, as with cigarette lighters and cancer, or both may be driven by an omitted variable, as with police presence and crime rates."
 body_hash: "7f849972"
-importance: 0.94  # auto
+importance: 0.0  # auto
 connections:
 - type: idea
   slug: production-possibility-frontier

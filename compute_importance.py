@@ -36,6 +36,8 @@ def build_graph() -> nx.Graph:
         G.add_node(slug, title=idea["title"], importance=importance, manual=manual)
 
         for conn in idea["connections"]:
+            if conn.get("low_confidence"):
+                continue
             if conn.get("type") == "idea" and (IDEAS_DIR / f"{conn['slug']}.md").exists():
                 G.add_edge(slug, conn["slug"])
 

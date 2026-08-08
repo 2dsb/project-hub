@@ -9,7 +9,7 @@ tags:
 - supply-and-demand-theorem
 summary: "A competitive market consists of many buyers and sellers acting as price takers because no single participant can influence the price. The law of demand states that quantity demanded falls when price rises, and the law of supply states that quantity supplied increases when price rises. Market demand and supply curves shift due to factors like income changes, where normal goods see increased demand with higher income and inferior goods see decreased demand, or due to substitutes and complements. Equilibrium occurs at the intersection where quantity supplied equals quantity demanded, and surpluses or shortages are corrected by price adjustments per the law of supply and demand."
 body_hash: "03ddd5e3"
-importance: 5.34  # auto
+importance: 6.08  # auto
 connections:
 - type: idea
   slug: the-ten-principles-of-economics

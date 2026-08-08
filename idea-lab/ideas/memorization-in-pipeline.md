@@ -8,7 +8,7 @@ tags:
   - pipeline
 summary: "The core question is where deliberate memorization fits in the learning pipeline, with a current intuition that it belongs as a fourth Sink mode distinct from expression-oriented analogy, translation, and reconnection docs. Memorization would serve element-level retention of facts, formulas, and vocabulary against decay, unlike reconnection docs which enable structural reconstruction of mental models. However, this remains an untested hunch, and structural patience dictates waiting rather than integrating it prematurely into a validated pipeline. Open questions include whether memorization is a parallel retention axis, how it might interact with Router stages to identify high-leverage concepts, and whether reconnection docs already reduce the need for explicit memorization."
 body_hash: "e08e7cc8"
-importance: 6.09  # auto
+importance: 4.25  # auto
 connections:
   - type: idea
     slug: "learning-pipeline"  # auto
@@ -52,6 +52,12 @@ connections:
     slug: "teach-method-fixes"  # auto, review: 0.511
   - type: idea
     slug: "knowledge-transfer-fidelity"  # auto, review: 0.506
+  - type: idea
+    slug: "learning-method-v2"  # auto
+  - type: idea
+    slug: "hermeneutic-circle-learning"  # auto
+  - type: idea
+    slug: "enumerative-as-scaffold-for-generative"  # auto
 ---
 # Memorization in the Learning Pipeline
 

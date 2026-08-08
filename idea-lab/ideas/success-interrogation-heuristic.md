@@ -10,7 +10,7 @@ tags:
   - heuristics
 summary: "The Success Interrogation Heuristic—Generalize, Replicate, Migrate—turns a single win into a permanent capability upgrade by identifying the reusable mechanism behind a success. When something works unusually well, ask three questions: generalize to find the abstract pattern, replicate to reuse the exact mechanism, and migrate to port the underlying principle to a different domain. For example, the teach skill automated transformation of structured source material into interactive lessons, enabling an intense learning sprint. The heuristic includes a falsification step to detect context-bound, person-bound, or phase-bound constraints that block migration. While the teach skill is confirmed reusable, whether the automated-transformation principle can migrate beyond learning remains an open question."
 body_hash: "4f5cd439"
-importance: 4.98  # auto
+importance: 1.36  # auto
 connections:
   - type: idea
     slug: "leverage-existing-vs-build-from-scratch"  # auto
@@ -44,6 +44,14 @@ connections:
     slug: "peer-cross-teaching"  # auto, review: 0.505
   - type: idea
     slug: "analogical-transfer-conditions"  # auto, review: 0.503
+  - type: idea
+    slug: "hermeneutic-circle-learning"  # auto, review: 0.547
+  - type: idea
+    slug: "learning-method-v2"  # auto, review: 0.526
+  - type: idea
+    slug: "ai-centered-new-education-industry"  # auto, review: 0.513
+  - type: idea
+    slug: "enumerative-as-scaffold-for-generative"  # auto, review: 0.513
 ---
 # Success Interrogation Heuristic — Generalize, Replicate, Migrate
 

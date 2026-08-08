@@ -9,7 +9,7 @@ tags:
 - consensus-and-disagreement
 summary: "Economists serve as scientists by making positive, descriptive statements about how the world is, which can be confirmed or refuted with evidence. As policy advisors, they make normative, prescriptive statements about how the world ought to be, which involve values. Disagreement among economists often arises from differing values, but there is broad consensus on issues like rent control, where economists agree it adversely affects housing availability and quality."
 body_hash: "18c32419"
-importance: 2.29  # auto
+importance: 0.0  # auto
 connections:
 - type: project
   slug: naked-economics

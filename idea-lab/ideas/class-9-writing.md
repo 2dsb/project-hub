@@ -4,7 +4,7 @@ title: "Class 9 Writing Advantage"
 tags: [observation, education, writing, class-dynamics]
 summary: "The class is evenly split among former Classes 8, 9, and 10, yet all standout essays come from former Class 9 students, hinting that factors like teacher quality, student intake, or ingrained habits might be at play, though the cause remains unclear."
 body_hash: "85b4d855"
-importance: 0.32  # auto
+importance: 0.68  # auto
 connections:
   - type: project
     slug: "ai-ability"

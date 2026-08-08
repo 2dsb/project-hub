@@ -11,7 +11,7 @@ tags:
 - technology-theory
 summary: "Every technology depends on independently existing regularities called phenomena, which must be tamed through sub-technologies that make them usable and controllable. A principle is the conceptual scheme dictating how multiple domesticated phenomena combine to achieve a purpose. In this framework, a technology serves as the physical realization of a principle, while each phenomenon within that principle requires its own dedicated technology to fulfill its assigned function. If the specified result is not achieved, the sequence loops back to the first phenomenon."
 body_hash: "6877f06d"
-importance: 4.85  # auto
+importance: 3.69  # auto
 connections:
 - type: idea
   slug: technology-in-the-singular-sense

@@ -4,7 +4,7 @@ title: "University Four-Year Strategy: Two Pillars, Run in Parallel"
 tags: [career-planning, university, AI, embodied-intelligence, entrepreneurship, networking, social-capital, methodology, student-union]
 summary: "A four-year university strategy demands running two pillars in parallel from day one: skill-building via industry-first reverse planning and network-building via a deliberate leadership ladder. For an incoming Peking University math freshman, skill focuses on AI or embodied intelligence, working backward from company products to map the industry chain, identify a sub-field, and back-trace required courses to achieve production-grade, top-0.1% depth. Simultaneously, the social track ascends from class monitor to External Relations Department member for corporate-facing sponsorship and alumni connections, culminating as Math Department Student Union President to control opportunity flow. The parallel structure ensures market-relevant expertise feeds a network that, in turn, surfaces internships and mentors, eliminating the false choice between deep specialization and social capital."
 body_hash: "c1eddaf4"
-importance: 3.35  # auto
+importance: 3.56  # auto
 connections:
   - type: idea
     slug: "characteristics-of-excellent-universities"  # review: 0.524
@@ -14,6 +14,8 @@ connections:
     slug: "return-of-college"  # auto, review: 0.534
   - type: idea
     slug: "social-responsibility-of-outstanding-students"  # auto, review: 0.500
+  - type: idea
+    slug: "ai-centered-new-education-industry"  # auto
 ---
 # University Four-Year Strategy: Two Pillars, Run in Parallel
 

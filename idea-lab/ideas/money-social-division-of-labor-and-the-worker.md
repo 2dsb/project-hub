@@ -14,7 +14,7 @@ tags:
 - wage-labor
 summary: "Money serves as a universal medium of exchange with intrinsic value that sets ratios for other goods. As capital grows, occupations emerge, attaching an occupation and industry to each person alongside attributes like action points, labor, savings, capital, and consumption. Labor determined by occupation transforms into production, which then converts to savings measured in money. When a worker sells labor to a corporation via an employment contract, wages depend on the savings exchangeable for the production resulting from applying capital to that labor. Comparative advantage is the efficiency of converting a person's action points into different labor types, then labor into production and further into services."
 body_hash: "278d1418"
-importance: 2.61  # auto
+importance: 0.0  # auto
 connections:
 - type: idea
   slug: gamification-of-island-economics-static-game

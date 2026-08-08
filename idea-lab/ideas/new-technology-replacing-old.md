@@ -7,7 +7,7 @@ tags:
 - innovation-theory
 summary: "Can the process of new technology replacing old technology be understood as an optimizing occupation of an opportunity niche?"
 body_hash: "b2e436a7"
-importance: 3.39  # auto
+importance: 1.84  # auto
 connections:
 - type: permanent
   slug: "36-一般意义上技术的演化"

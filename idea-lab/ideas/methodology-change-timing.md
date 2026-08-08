@@ -10,7 +10,7 @@ tags:
   - decision-framework
 summary: "Adopting a new methodology before a high-stakes exam poses a timing risk because the immediate performance drop from unpracticed changes can outweigh potential gains. The danger depends on the layer of change: L1 (cognitive understanding) is safe, L2 (strategic workflow) carries moderate risk, but L3 (technical operational) replacements require sufficient practice time, and near the deadline are forbidden unless the old method is guaranteed to fail. The decision framework weighs time remaining, method solidity, whether the change supplements or replaces, and fallback options. To manage interference, explicitly separate learning and execution modes, restrict new insights to analysis and review phases, and make minimal viable changes with a pre-planned fallback trigger."
 body_hash: "9831d7f6"
-importance: 1.55  # auto
+importance: 1.5  # auto
 connections:
   - type: project
     slug: "ai-ability"

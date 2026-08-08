@@ -63,6 +63,7 @@ def parse_idea(filepath: Path) -> dict | None:
         elif in_conn and s.startswith("slug:"):
             raw = s.removeprefix("slug:").strip().strip('"')
             cur["slug"] = raw.split("#")[0].strip().strip('"')  # strip inline comments
+            cur["low_confidence"] = "review:" in raw
             connections.append(cur)
             cur = {}
         elif in_conn and not s.startswith(("- ", "slug:")):

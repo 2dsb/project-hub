@@ -4,7 +4,7 @@ title: "Data → Pattern → Prediction Chain"
 tags: [abstraction, learning, pattern-recognition, prediction, cognitive-pipeline]
 summary: "The Data → Pattern → Prediction chain posits three universal abstraction stages: raw observations (data) are compressed into regularities (patterns), which then enable forecasts for unseen situations (prediction). This same process appears across science, machine learning, learning, conversation, and daily life—only the substrate changes. Comparatively, the learning pipeline addresses process design rather than abstraction levels, while flow-based thinking situates this chain as the underlying cognitive layer. In project structure, memory (M) represents the pattern layer, where compressed data constitutes pattern artifacts."
 body_hash: "3fc0105e"
-importance: 5.44  # auto
+importance: 2.55  # auto
 connections:
   - type: idea
     slug: "learning-pipeline"  # auto

@@ -8,7 +8,7 @@ tags:
   - actionable
 summary: "The /teach method should split lessons into concept (no code, horizontal interaction density) and practice (code reading, vertical cross-filter bindings), sequenced bottom-up from the lowest abstraction. Mixing horizontal and vertical learning in one lesson triggers recursive questioning, as does top-down sequencing from high abstractions. Alternating concept maps then code reading, bottom-up, eliminates the dependency chain problem. This restructured rapid-concept-push cycle reserves independent writing for the integrative exam. Retrofit existing tracks only when lessons fail due to recursive questioning."
 body_hash: "0ad93588"
-importance: 4.87  # auto
+importance: 2.78  # auto
 connections:
   - type: idea
     slug: knowledge-mastery-two-axis-model
@@ -36,6 +36,14 @@ connections:
     slug: "peer-cross-teaching"  # auto, review: 0.524
   - type: idea
     slug: "memorization-in-pipeline"  # auto, review: 0.511
+  - type: idea
+    slug: "learning-method-v2"  # auto
+  - type: idea
+    slug: "enumerative-as-scaffold-for-generative"  # auto
+  - type: idea
+    slug: "hermeneutic-circle-learning"  # auto, review: 0.535
+  - type: idea
+    slug: "ai-centered-new-education-industry"  # auto, review: 0.502
 ---
 # /teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing
 

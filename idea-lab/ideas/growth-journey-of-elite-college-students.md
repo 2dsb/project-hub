@@ -12,7 +12,7 @@ tags:
 - extrinsic-motivation
 summary: "Elite families’ helicopter parenting and perfectionist expectations infantilize children, depriving them of a personal value system and leaving them to tie self-worth entirely to external achievement. Their confidence is brittle, collapsing with any setback, causing them to oscillate between arrogance and self-loathing. They adopt a Hobbesian, ruthlessly competitive materialism and view peers’ success as a threat. The parent-child bond is hollow, as praise and criticism replace genuine warmth and guidance, so parents are everywhere except in their children’s hearts."
 body_hash: "8365bdad"
-importance: 1.07  # auto
+importance: 1.27  # auto
 connections:
   - type: permanent
     slug: "优秀的绵羊c3.1"

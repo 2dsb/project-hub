@@ -7,7 +7,7 @@ tags:
   - perspective
 summary: "In economics, curves serve as analytical tools, but they come with limitations."
 body_hash: "1557190b"
-importance: 1.64  # auto
+importance: 0.0  # auto
 connections:
   - type: project
     slug: "naked-economics"

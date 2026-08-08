@@ -12,7 +12,7 @@ tags:
   - price-elasticity
 summary: "Price elasticity of demand measures responsiveness of quantity demanded to price changes, calculated via the midpoint method to avoid bias, and determines whether total revenue moves with or against price depending on whether demand is inelastic or elastic. Key determinants include the availability of close substitutes, whether a good is a necessity or luxury, and the breadth of market definition. Price elasticity of supply analogously measures responsiveness of quantity supplied, driven by sellers’ production flexibility and the time horizon, where long-run elasticity exceeds short-run elasticity. The agricultural paradox demonstrates that because wheat demand is price-inelastic, a supply increase from a new hybrid variety lowers equilibrium price sharply while quantity rises only slightly, causing total revenue and farmer income to fall even though each competitive farmer adopts the innovation to gain individually. Similarly, OPEC struggles to maintain high oil prices over the long run because both supply and demand become more elastic as non-OPEC production expands and consumers adopt fuel efficiency, muting the price impact of any supply cut."
 body_hash: "83489a8b"
-importance: 2.55  # auto
+importance: 0.0  # auto
 connections:
   - type: project
     slug: naked-economics

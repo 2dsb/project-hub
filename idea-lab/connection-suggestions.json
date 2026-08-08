@@ -4,18 +4,188 @@
   "min_score": 0.5,
   "max_candidates": 20,
   "generated": "2026-08-01",
-  "total_ideas": 191,
-  "ideas_with_suggestions": 0,
-  "total_suggestions": 0,
+  "total_ideas": 197,
+  "ideas_with_suggestions": 10,
+  "total_suggestions": 21,
   "stats": {
     "suggestion_count_distribution": {
-      "0": 191
+      "0": 187,
+      "1": 5,
+      "2": 3,
+      "4": 1,
+      "6": 1
     },
     "score_range": {
-      "min": null,
-      "max": null,
-      "avg": null
+      "min": 0.5002,
+      "max": 0.6029,
+      "avg": 0.5295
     }
   },
-  "suggestions": []
+  "suggestions": [
+    {
+      "slug": "ai-organization-programming-language",
+      "title": "AI Organization Programming Language — Higher-Level LangGraph for Agent Orchestration",
+      "suggestions": [
+        {
+          "slug": "core-capability-supporting-infrastructure-pattern",
+          "title": "Core Capability → Supporting Infrastructure as Technology Evolution Pattern",
+          "score": 0.5305
+        }
+      ]
+    },
+    {
+      "slug": "freedom-exploration-generator",
+      "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+      "suggestions": [
+        {
+          "slug": "learning-method-v2",
+          "title": "Learning Method v2 — Two-Axis Mastery Cycle with Decay-Aware Maintenance",
+          "score": 0.5532
+        },
+        {
+          "slug": "enumerative-as-scaffold-for-generative",
+          "title": "Enumerative Taxonomy as Deliberate Scaffold for Generative Derivation",
+          "score": 0.5378
+        }
+      ]
+    },
+    {
+      "slug": "hermeneutic-circle-learning",
+      "title": "Hermeneutic Circle as Learning Macro-Structure",
+      "suggestions": [
+        {
+          "slug": "domain-power-and-perspective-taking",
+          "title": "Domain Power and Perspective-Taking",
+          "score": 0.5114
+        },
+        {
+          "slug": "goal-singularity",
+          "title": "Goal Singularity",
+          "score": 0.511
+        },
+        {
+          "slug": "attention-as-bottleneck",
+          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
+          "score": 0.5085
+        },
+        {
+          "slug": "knowledge-as-dictionary-of-perspectives",
+          "title": "Knowledge as a Dictionary of Perspectives — Each Knowledge Point Is a Multi-Dimensional Embedding",
+          "score": 0.5073
+        },
+        {
+          "slug": "attention-pointer-learning-model",
+          "title": "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint",
+          "score": 0.5063
+        },
+        {
+          "slug": "structural-understanding-in-daily-life",
+          "title": "Structural Understanding in Daily Life",
+          "score": 0.5032
+        }
+      ]
+    },
+    {
+      "slug": "knowledge-mastery-two-axis-model",
+      "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
+      "suggestions": [
+        {
+          "slug": "enumerative-as-scaffold-for-generative",
+          "title": "Enumerative Taxonomy as Deliberate Scaffold for Generative Derivation",
+          "score": 0.5699
+        }
+      ]
+    },
+    {
+      "slug": "learning-dynamics",
+      "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
+      "suggestions": [
+        {
+          "slug": "hermeneutic-circle-learning",
+          "title": "Hermeneutic Circle as Learning Macro-Structure",
+          "score": 0.5703
+        }
+      ]
+    },
+    {
+      "slug": "learning-method-v2",
+      "title": "Learning Method v2 — Two-Axis Mastery Cycle with Decay-Aware Maintenance",
+      "suggestions": [
+        {
+          "slug": "knowledge-reconnection",
+          "title": "Knowledge Reconnection Mechanism",
+          "score": 0.5216
+        },
+        {
+          "slug": "data-structure-first-code-reading",
+          "title": "Data Structure First — Memorize Shapes Before Reading Code",
+          "score": 0.5181
+        },
+        {
+          "slug": "speed-first-model-second-batch-tradeoff",
+          "title": "Speed-First Model-Second — Batch Size Tradeoff in Learning",
+          "score": 0.5025
+        },
+        {
+          "slug": "attention-pointer-learning-model",
+          "title": "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint",
+          "score": 0.5002
+        }
+      ]
+    },
+    {
+      "slug": "learning-pipeline",
+      "title": "Learning Pipeline",
+      "suggestions": [
+        {
+          "slug": "ai-centered-new-education-industry",
+          "title": "AI-Centered New Education Industry (AI + Education)",
+          "score": 0.5102
+        }
+      ]
+    },
+    {
+      "slug": "memorization-in-pipeline",
+      "title": "Memorization in the Learning Pipeline",
+      "suggestions": [
+        {
+          "slug": "hermeneutic-circle-learning",
+          "title": "Hermeneutic Circle as Learning Macro-Structure",
+          "score": 0.6029
+        },
+        {
+          "slug": "enumerative-as-scaffold-for-generative",
+          "title": "Enumerative Taxonomy as Deliberate Scaffold for Generative Derivation",
+          "score": 0.6
+        }
+      ]
+    },
+    {
+      "slug": "organization-as-code-ai-human",
+      "title": "Organization as Code — Formal Description and Optimization of AI-Human Structures",
+      "suggestions": [
+        {
+          "slug": "ai-centered-new-education-industry",
+          "title": "AI-Centered New Education Industry (AI + Education)",
+          "score": 0.5168
+        }
+      ]
+    },
+    {
+      "slug": "teach-method-fixes",
+      "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
+      "suggestions": [
+        {
+          "slug": "hermeneutic-circle-learning",
+          "title": "Hermeneutic Circle as Learning Macro-Structure",
+          "score": 0.5355
+        },
+        {
+          "slug": "ai-centered-new-education-industry",
+          "title": "AI-Centered New Education Industry (AI + Education)",
+          "score": 0.5024
+        }
+      ]
+    }
+  ]
 }

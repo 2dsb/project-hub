@@ -9,7 +9,7 @@ tags:
   - game-design
 summary: "In Mindustry, overflow gates can be chained in series to implement priority routing, ensuring ammo reaches turrets first and only surplus flows back to recycling. This works because overflow gates prioritize the straight path and divert to the side output only when full, allowing a priority ladder where cascaded gates auto-fill from highest to lowest priority. Adding buffer storage such as vaults or containers before turrets smooths out wave surges, preventing bottlenecks during intense attacks."
 body_hash: "0e600aec"
-importance: 1.01  # auto
+importance: 1.3  # auto
 connections:
   - type: idea
     slug: "mindustry-resource-routing"  # auto

@@ -12,7 +12,7 @@ tags:
 - systems-thinking
 summary: "Technology in the singular sense is a means to accomplish a purpose, manifesting equivalently as devices and processes. It possesses an anatomical structure: a central principle realized by primary assemblies, supported by secondary assemblies. Hierarchically, it decomposes into integrations—primary, secondary, tertiary—and exhibits recursion, as technology is built from other technologies; higher-level technologies command lower ones, which in turn determine what higher levels can accomplish. Modularity, or the grouping of functions, emerges when a linked series of parts is reused frequently enough to justify a functional module. This integration pattern is fluid because when purpose changes, technologies recombine, giving rise to new forms."
 body_hash: "1095edf0"
-importance: 4.8  # auto
+importance: 5.77  # auto
 connections:
 - type: permanent
   slug: 技术的本质c2.1

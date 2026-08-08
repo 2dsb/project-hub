@@ -14,7 +14,7 @@ tags:
   - personal-development
 summary: "A teacher’s core purpose is to awaken a student’s dormant intellectual energy, effectively installing “data processing” software for knowledge production. An excellent teacher uses small, discussion-driven classes to push students beyond vague views, and outside the classroom critiques essays for logical clarity while also addressing deeper personal questions through attentive listening. The ideal teacher-student bond is intimate and sacred, leaving a lasting impression. A teacher’s quality correlates with their life experience: if they never share personal anecdotes, there is little to learn, whereas an authentic, widely learned teacher speaks truth and applies knowledge fluidly."
 body_hash: "1dd462e2"
-importance: 2.23  # auto
+importance: 1.22  # auto
 connections:
   - type: permanent
     slug: "优秀的绵羊c9.1"

@@ -1,7 +1,7 @@
 ---
 id: idea-20260702-framework-extraction
 title: First Time — Framework Emerges from Content; Second Time — Framework Precedes Content
-importance: 4.63  # auto
+importance: 2.32  # auto
 tags:
   - methodology
   - learning
@@ -42,6 +42,8 @@ connections:
     slug: "reading-modeling-decomposition-tradeoff"  # auto, review: 0.537
   - type: idea
     slug: "human-structure-ai-completeness"  # auto, review: 0.500
+  - type: idea
+    slug: "hermeneutic-circle-learning"  # auto, review: 0.527
 ---
 # Framework Extraction Pattern: First Time Discovery, Second Time Reuse
 

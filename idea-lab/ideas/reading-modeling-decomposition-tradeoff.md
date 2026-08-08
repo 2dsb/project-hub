@@ -4,7 +4,7 @@ title: "Reading-Modeling Decomposition Tradeoff — Explained by Cohesion-Coupli
 tags: [reading, modeling, methodology, decomposition, learning, cohesion-coupling, tradeoff]
 summary: "The reading-modeling decomposition tradeoff arises from two competing costs: merge costs when modeling after each chapter, which are editorial boundaries that often don't align with natural conceptual subsystems, and memory decay costs when modeling after the whole book, since memory (M) fades over time. The cohesion-coupling heuristic shows that optimal decomposition chooses boundaries to maximize internal cohesion and minimize coupling, not inherit editorial splits; chapters are narrative units, not structural ones. Consequently, the ideal strategy is somewhere between per-chapter and whole-book modeling, such as after a natural conceptual cluster, balancing merge costs against memory decay. Pre-reading lowers merge costs by providing a rough map, and structural patience avoids forcing structure on non-conceptual boundaries."
 body_hash: "2ce1ca2c"
-importance: 3.77  # auto
+importance: 3.82  # auto
 connections:
   - type: idea
     slug: cohesion-coupling-decomposition-heuristic

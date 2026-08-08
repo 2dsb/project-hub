@@ -4,7 +4,7 @@ title: "Characteristics of Our Era"
 tags: ["era-characteristics", "ai", "post-truth", "definition-of-human", "growth-reassessment", "information-cocoons", "power-shift", "technology", "economy", "globalization", "mental-health", "climate-crisis", "social-media", "algorithms", "inequality"]
 summary: "The contemporary era is characterized by accelerating AI and biotechnology, economic fragmentation and widening inequality, widespread individual anxiety amidst information overload, global turmoil alongside fragile cooperation, and algorithm-driven fragmented narratives that create information cocoons. These intersecting forces provoke urgent questions about power shifting from traditional institutions to tech platforms and algorithms, how truth is defined in a post-truth context where facts intertwine with emotion and stance, the boundary of what makes us human as AI capabilities grow, and the reassessment of unlimited economic growth in the face of environmental and resource constraints."
 body_hash: "dbbb15f0"
-importance: 1.55  # auto
+importance: 0.0  # auto
 connections:
   - type: idea
     slug: "our-attitude-toward-technology"  # review: 0.593

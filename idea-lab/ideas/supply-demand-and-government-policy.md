@@ -13,7 +13,7 @@ tags:
 - government-policy
 summary: "Government-imposed price controls disrupt competitive markets: a binding price ceiling below equilibrium creates a shortage and forces sellers to ration goods, while a binding price floor above equilibrium causes a surplus. Taxation dampens market activity and reduces equilibrium quantity, with the burden shared by buyers and sellers regardless of whether the tax is levied on sellers or buyers—the economic incidence is identical. The tax burden falls more heavily on the less elastic side of the market, such as workers bearing most of the payroll tax."
 body_hash: "45bd4378"
-importance: 5.06  # auto
+importance: 0.0  # auto
 connections:
 - type: idea
   slug: competitive-market

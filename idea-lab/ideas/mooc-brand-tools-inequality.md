@@ -10,7 +10,7 @@ tags:
   - professor-celebrity
 summary: "Elite universities deploy MOOCs to reinforce academic hierarchy: Harvard students interact with professors while San Jose State students merely watch, elevating prestige and diminishing others. Brand dilution fears lead universities to mandate on-campus living even for MOOC credits. The real revenue comes from selling courses to lower-tier institutions. MOOCs have minimal impact—4% completion, lax exercises, video replacing reading, fueling the professor-as-celebrity phenomenon—and serve only self-directed adults, failing to cultivate the self-orientation universities aim to develop."
 body_hash: "bf76247f"
-importance: 2.86  # auto
+importance: 0.0  # auto
 connections:
   - type: project
     slug: gaokao-chinese

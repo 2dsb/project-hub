@@ -14,7 +14,7 @@ tags:
   - pigovian-tax
 summary: "An externality is the uncompensated impact of one person's actions on a bystander, either harmful (negative) or beneficial (positive). To correct the resulting market failure, governments can internalize the externality through Pigovian taxes on negative externalities or subsidies for positive ones, aligning private incentives with social costs. The Coase Theorem argues that private bargaining can resolve externalities efficiently if transaction costs are negligible, regardless of initial rights distribution. In practice, high transaction costs often impede such private solutions."
 body_hash: "9e39758b"
-importance: 2.39  # auto
+importance: 0.0  # auto
 connections:
   - type: project
     slug: naked-economics

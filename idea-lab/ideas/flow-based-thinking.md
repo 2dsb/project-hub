@@ -4,7 +4,7 @@ title: "Flow-Based Thinking Framework"
 tags: [thinking-tool, system-analysis, flow, topology, meta-cognition]
 summary: "The Flow-Based Thinking Framework posits that any system—physical, social, or cognitive—can be modeled as a directed graph with three universal elements: source, routing, and sink. By asking where something originates, how it moves, and where it terminates, and by examining capacity, priority, and congestion handling at each stage, one can immediately identify bottlenecks, redundancies, and single points of failure. This approach unifies disparate domains like Mindustry logistics, school information flow, and self-study knowledge flow through analogical transfer, stripping away surface details to reveal an invariant flow topology."
 body_hash: "b1509605"
-importance: 7.41  # auto
+importance: 10.0  # auto
 connections:
   - type: idea
     slug: "analogical-transfer-conditions"  # auto

@@ -11,7 +11,7 @@ tags:
   - growth-mindset
 summary: "Efficient thinking demands a growth mindset that uses constant micro-feedback to verify and refine your understanding. It requires deliberately extracting key points from details and checking whether your perception matches reality, not an illusion of coherence. Additionally, attend to what is relevant but unseen, such as failures, to avoid survivorship bias. Take simple ideas seriously—\"buy low, sell high\" is not a strategy unless you grasp that a stock represents part-ownership of a business—because simple foundations undergird complex theories."
 body_hash: "db44f3e0"
-importance: 1.65  # auto
+importance: 0.0  # auto
 connections:
   - type: permanent
     slug: "卡片笔记写作法c3.8"

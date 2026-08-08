@@ -12,7 +12,7 @@ tags:
   - critical-thinking
 summary: "The note explores the link between knowledge production and thinking, drawing on *Excellent Sheep*. It presents the claim that natural sciences advance by analyzing domain assumptions, while humanities progress through dialectical engagement between old and new knowledge. To verify this, one can seek evidence that proves or refutes these models within specific disciplines like mathematics. Thinking is framed as problem-solving by combining familiar knowledge domains and their grammars. Enhancing thinking requires exposure to diverse domains and the exchange of \"habitual domains\" with erudite teachers and peers, akin to developing standard engineering techniques for problem-solving."
 body_hash: "b4ff34eb"
-importance: 4.24  # auto
+importance: 1.27  # auto
 connections:
   - type: project
     slug: ai-ability

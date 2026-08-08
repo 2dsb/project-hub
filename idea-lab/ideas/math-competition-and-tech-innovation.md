@@ -8,7 +8,7 @@ tags:
 - problem-solving
 summary: "The note questions whether the process of inventing radically new technology resembles solving math competition problems, and asks for an analogical analysis of their similarities and differences."
 body_hash: "35c0ab4a"
-importance: 2.56  # auto
+importance: 0.78  # auto
 connections:
 - type: project
   slug: ai-ability

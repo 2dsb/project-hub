@@ -8,7 +8,7 @@ tags:
 - value-theory
 summary: "Willingness to pay represents the internal price a consumer assigns to a good, making it the key measure of consumer welfare. When the internal price exceeds the market price, the consumer experiences a gain equal to the difference. For instance, a 10-yuan internal price versus a 7-yuan market price yields a 3-yuan consumer surplus."
 body_hash: "e38368df"
-importance: 0.92  # auto
+importance: 0.0  # auto
 connections:
   - type: project
     slug: naked-economics

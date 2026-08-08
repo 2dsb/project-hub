@@ -9,7 +9,7 @@ tags:
   - efficiency
 summary: "The teach skill’s success across three learning tracks in a compressed 3-day window demonstrates that other people's work is high-leverage, and the default instinct to build from scratch is a tax on speed. This suggests shifting decision weights to exhaust existing solutions before self-creation, asking \"who has already solved this?\" first. The proposed Leverage Factor (L) measures how much a task can be accomplished by composing external work; tasks with high L, like adapting existing tutorials and papers, favor leveraging, while low L demands original creation. The teach skill worked because Python, RAG, and agent resources had high L."
 body_hash: "e6441eaa"
-importance: 4.45  # auto
+importance: 2.27  # auto
 connections:
   - type: idea
     slug: precision-fuzziness-tradeoff
@@ -39,6 +39,8 @@ connections:
     slug: "learning-pipeline"  # auto, review: 0.526
   - type: idea
     slug: "goal-singularity"  # auto, review: 0.515
+  - type: idea
+    slug: "ai-centered-new-education-industry"  # auto, review: 0.563
 ---
 # Leverage Existing Solutions vs. Build from Scratch — A Decision System Axis
 

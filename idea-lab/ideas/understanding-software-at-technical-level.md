@@ -8,7 +8,7 @@ tags:
 - recursive-structure
 summary: "The note asks how a mobile app would be decomposed using the two descriptions of a singular technology from *The Nature of Technology*: (1) as a central principle with main and sub-integrations, and (2) as a hierarchical, recursive structure."
 body_hash: "2183144c"
-importance: 2.96  # auto
+importance: 1.32  # auto
 connections:
   - type: project
     slug: "ai-ability"

@@ -9,7 +9,7 @@ tags:
   - exams
 summary: "Certainty Gravity refers to a psychological force where high-certainty sub-goals, even if minimally contributory to an overarching objective, crowd out larger but uncertain tasks at the execution layer. Despite correct priority judgments—essay and practice sections outweighing rote memorization for a Chinese exam score—the guaranteed return of that small task exerts a disproportionate pull, leading to a local optimum that sacrifices the global optimum. This failure of execution, not of judgment, becomes especially consequential when time margins shrink."
 body_hash: "fa36867b"
-importance: 2.73  # auto
+importance: 2.68  # auto
 connections:
   - type: project
     slug: "ai-ability"

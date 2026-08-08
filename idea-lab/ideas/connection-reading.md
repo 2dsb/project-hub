@@ -9,7 +9,7 @@ tags:
   - methodology
 summary: "Connection-oriented reading reorients humanities and social science comprehension away from highlighting concepts or summarizing, instead focusing on the constraint relationships each sentence imposes between concepts, such as defines, elaborates, presupposes, or serves as counterexample. The core insight is that an article’s argumentative force lies in the density and consistency of these constraints, not in concept novelty. Deliberate practice involves interrogating every sentence for new constraints, labeling their types, and afterward drawing a concept constraint graph of nodes linked by directed edges, then checking for isolated nodes or contradictions. This method makes cross-disciplinary transfer possible by revealing structural similarities beneath different concept labels and integrates with tools like knowledge-reconnection summaries or an AI-assisted reading skill."
 body_hash: "841a05fb"
-importance: 3.35  # auto
+importance: 2.57  # auto
 connections:
   - type: idea
     slug: "reading-writing-unity"  # auto

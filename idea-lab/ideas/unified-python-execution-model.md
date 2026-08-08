@@ -4,7 +4,7 @@ title: "Unified Model of Python Program Execution — Coupling All Sub-Models"
 tags: [cs61a, program-execution, modeling, meta-model, portal-model, synthesis, architecture]
 summary: "The note proposes a unified model of Python program execution that integrates sub-models—def tree, frame tree, call tree, name-object binding, taxonomy of change, and abstraction barrier—into a single coherent framework, making their coupling mechanisms explicit. The Portal Model’s dual-perspective seed generalizes to N perspectives, with the hard problem residing in how models relate, whether through layered architecture, multi-projection from a shared execution trace, or process-algebraic derivation. The goal is to position each sub-model, define completeness criteria, and eliminate redundancy, so the unified model can explain what no single sub-model can."
 body_hash: "422b1ebc"
-importance: 2.84  # auto
+importance: 3.75  # auto
 connections:
   - type: idea
     slug: "environment-diagram-dual-perspective"  # auto

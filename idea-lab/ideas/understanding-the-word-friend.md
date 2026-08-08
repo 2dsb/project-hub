@@ -4,7 +4,7 @@ title: "Understanding the Word \"Friend\""
 tags: [friendship, interpersonal-relationships, love, social-patterns, self-analysis]
 summary: "The note interrogates whether friendship should be permanent and solid versus a temporary alignment of conversational chemistry, and extends this tension to love as value exchange or instinctual behavior. The author examines a personal social pattern of seeking \"depth\" to identify real friends and suspects that framing feelings for \"zyw\" as friendship might be a defense mechanism. They plan to analyze relationship trajectories in the novel \"Someone to Talk To\" to derive universal patterns and to test a new, logically coherent standard for friendship."
 body_hash: "c28e358a"
-importance: 2.56  # auto
+importance: 0.0  # auto
 connections:
   - type: idea
     slug: "r7-dating-guide-and-true-love"  # auto, review: 0.561

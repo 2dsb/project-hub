@@ -4,7 +4,7 @@ title: "Goal Singularity"
 tags: [meta-cognition, learning, productivity, focus, goal-design]
 summary: "Every activity should pursue exactly one cognitive goal—\"one bird, one stone\"—because mixing goals like understanding and language expression splits attention and burdens limited working memory. Goal singularity, coined here, argues that drafting in one's native language first to check understanding, then translating to practice language, avoids the cognitive interference that arises when both criteria compete simultaneously. This principle complements the learning pipeline by demanding that output in one's own words and target-language expression be separate activities, preventing working memory overflow and raising total efficiency."
 body_hash: "1beadaf0"
-importance: 6.21  # auto
+importance: 3.28  # auto
 connections:
   - type: idea
     slug: "learning-pipeline"  # auto
@@ -46,6 +46,10 @@ connections:
     slug: "learning-dynamics"  # auto, review: 0.513
   - type: idea
     slug: "where-innovation-comes-from"  # auto, review: 0.511
+  - type: idea
+    slug: "learning-method-v2"  # auto, review: 0.544
+  - type: idea
+    slug: "hermeneutic-circle-learning"  # auto, review: 0.511
 ---
 # Goal Singularity
 

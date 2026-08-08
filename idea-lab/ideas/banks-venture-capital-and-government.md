@@ -11,7 +11,7 @@ tags:
   - monetary-policy
 summary: "Banks intermediate between savers and borrowers, while venture capital firms take high-risk equity stakes in companies. The government, via the Federal Reserve, sets a benchmark interest rate, aiming to use economists' collective wisdom to stabilize the economy—lowering rates to stimulate borrowing in slumps and raising them to curb excess in booms. This manipulation distorts market signals by spurring borrowing and suppressing saving, falsely signaling that investments are sound. The approach is inherently flawed because it assumes the Fed knows the appropriate rate better than the market, and decisions are often politically rather than economically motivated."
 body_hash: "3543b134"
-importance: 2.56  # auto
+importance: 0.0  # auto
 connections:
   - type: idea
     slug: the-gamification-of-island-economics-static-game

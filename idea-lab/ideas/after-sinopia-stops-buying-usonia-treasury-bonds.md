@@ -4,7 +4,7 @@ summary: "After Sinopia stops buying Usonia's treasury bonds, Sinopia experience
 body_hash: "bf5a8aba"
 title: "After Sinopia Stops Buying Usonia's Treasury Bonds"
 tags: ["government-bonds", "decoupling", "living-standards", "inflation", "productivity", "consumer-power", "economic-shift", "trade-flows", "real-wealth"]
-importance: 1.62  # auto
+importance: 0.0  # auto
 connections:
   - type: idea
     slug: "government-economic-rescue-measures"  # review: 0.545

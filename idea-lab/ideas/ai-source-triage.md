@@ -4,7 +4,7 @@ summary: "Linear traversal of information sources is inefficient because the use
 body_hash: "815c321a"
 title: "AI Source Triage"
 tags: [learning, ai-amplifier, flow-based-thinking, information-filtering]
-importance: 1.39  # auto
+importance: 2.17  # auto
 connections:
   - type: idea
     slug: "flow-based-thinking"  # auto

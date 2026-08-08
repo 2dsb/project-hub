@@ -7,7 +7,7 @@ tags:
 - knowledge-reconnection
 summary: "The optimal human-AI division for knowledge structuring is for the human to provide the structural skeleton—specifying where each concept belongs in the framework and why—while the AI checks completeness against an external checklist like a 116-concept list and maps detailed linkages (e.g., noting missing kernel trick, φ(x), template matching, and kernel machine drawbacks). This split works because humans excel at structural insight but fail at exhaustive enumeration, whereas AI can exhaustively enumerate but cannot reliably generate structural insight. The pattern shifts AI’s primary role from producing polished prose to completeness verification, turning collaboration into a joint mental-model building exercise."
 body_hash: "5adaa257"
-importance: 6.07  # auto
+importance: 3.83  # auto
 connections:
 - type: idea
   slug: knowledge-reconnection

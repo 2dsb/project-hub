@@ -4,7 +4,7 @@ title: "System Coevolution - Problem 3: The Boundary of Self-Updating Systems"
 tags: [system-coevolution, autonomy, self-modification, trust]
 summary: "In System Coevolution, the boundary of self-updating systems concerns autonomy when all structure—entity types, AI behavior rules, dimension definitions, thresholds—emerges provisionally from data. Three levels exist: proposal level requiring user confirmation, notification level where the system acts and then informs, and silent level with only log visibility. The conclusion adopts the high-trust notification level, granting the system direct modification of its own behavior rules while notifying the user after the fact, enabling significant autonomous evolution."
 body_hash: "d7c1e1b7"
-importance: 1.29  # auto
+importance: 1.12  # auto
 connections:
   - type: idea
     slug: "system-coevolution"  # auto

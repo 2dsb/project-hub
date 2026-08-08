@@ -4,7 +4,7 @@ title: "Real Estate Bubble"
 tags: ["real-estate-bubble", "mortgage-loan", "interest-rate", "speculation", "housing-crash", "bad-debt", "unemployment"]
 summary: "Banks initially profit from mortgage lending, lowering interest rates and attracting investor capital, which boosts housing demand and prices while creating speculators. When one borrower defaults, a rush to sell causes supply to exceed demand and housing prices to crash. Rising defaults and bad debt erode investor confidence, spill over into other industries, and drive up unemployment."
 body_hash: "46dc5760"
-importance: 1.33  # auto
+importance: 0.0  # auto
 connections:
   - type: idea
     slug: "banks-venture-capital-and-government"  # auto, review: 0.524

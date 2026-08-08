@@ -7,7 +7,7 @@ tags:
   - text-analysis
 summary: "The author attempts to explain why the curriculum in \"Excellent Sheep\" section 9.11 cannot be broken down, after organizing previously unclear content from sections 9.1-9.11 and applying learned theories."
 body_hash: "0573744f"
-importance: 2.0  # auto
+importance: 0.0  # auto
 connections:
   - type: project
     slug: gaokao-chinese
@@ -23,6 +23,8 @@ connections:
     slug: "knowledge-and-thinking-at-university"  # auto, review: 0.510
   - type: idea
     slug: "return-of-college"  # auto, review: 0.501
+  - type: idea
+    slug: "enumerative-as-scaffold-for-generative"  # auto, review: 0.519
 ---
 I didn't fully understand the content in 9.1-9.11. After organizing, I attempt to explain: in 9.11, why can't the curriculum be broken down?
 

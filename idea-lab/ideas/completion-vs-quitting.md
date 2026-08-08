@@ -4,7 +4,7 @@ title: Completion vs. Quitting
 tags: [discipline, decision-making, sunk-cost, self-trust, principles]
 summary: "The note challenges the belief that finishing every task builds self-trust, arguing it instead triggers irrational behavior when a task no longer holds value. It advocates deciding based on importance and planning: if something lacks value, quit decisively even one day from completion; if it has value, persist indefinitely. This shift from completion-for-its-own-sake to value-based decision-making avoids the sunk-cost fallacy and builds genuine discipline."
 body_hash: "f1e3ca0f"
-importance: 3.8  # auto
+importance: 4.1  # auto
 connections:
   - type: idea
     slug: "certainty-gravity"  # auto
