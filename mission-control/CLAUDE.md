@@ -42,3 +42,5 @@ Auto-generated skill inventory across all `teach-*` projects. Regenerate via wor
 - Proficiency matrix (17 skill areas × 21 projects)
 
 Purely descriptive — no recommendations or learning paths.
+
+To update: say "更新技能报告" and Claude will re-scan all `teach-*` directories and regenerate. Do this every 2-3 completed projects or monthly.
