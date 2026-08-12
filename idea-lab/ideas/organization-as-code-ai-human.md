@@ -16,7 +16,7 @@ connections:
     slug: "ai-organization-programming-language"  # auto
   - type: idea
     slug: "ai-centered-new-education-industry"  # auto, review: 0.517
-importance: 2.93  # auto
+importance: 2.94  # auto
 ---
 # Organization as Code — Formal Description and Optimization of AI-Human Structures
 

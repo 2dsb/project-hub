@@ -13,7 +13,7 @@ tags:
 - paradigm-shift
 summary: "Technology domains evolve through a recurring cycle from origin to replacement. Initial new principles are immature, but a domain rapidly forms as derivative technologies emerge for varied purposes and internal development drivers. Setbacks from fundamental limits are addressed through internal replacement, swapping out limiting components, or structural deepening, adding sub-layers to assist weak components. A technology reaches maturity when refinement stops yielding performance gains, leading to lock-in, where the established technology persists due to its refined state, high transition costs, and psychological resistance to unknown new principles. Lock-in causes adaptive extension, using old principles to solve new problems beyond their limits. Replacement occurs when adaptive extension fails, allowing an emerging technology based on new principles to restart the cycle. This cyclical structure also applies to non-technological purposive systems and scientific theories, where encrustation and theoretical extension precede eventual paradigm shift."
 body_hash: "839ff5ee"
-importance: 4.09  # auto
+importance: 4.11  # auto
 connections:
 - type: idea
   slug: three-definitions-of-technology

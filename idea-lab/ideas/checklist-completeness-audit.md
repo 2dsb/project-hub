@@ -7,7 +7,7 @@ tags:
   - knowledge-reconnection
 summary: "A self-consistent framework can feel complete while missing up to 30% of its content because gaps produce silence, not contradictions, making them invisible from within. Only an external checklist independent of the framework reliably reveals these gaps. Evidence from Chapter 5: a model felt complete but a 116-concept inventory exposed 56 gaps, and after filling those, a second audit found 10 more weak spots. Self-consistency is deceptive, so before declaring completeness, validate the work against an external reference like a source checklist or another domain model."
 body_hash: "aaa604c2"
-importance: 2.72  # auto
+importance: 2.73  # auto
 connections:
   - type: idea
     slug: knowledge-reconnection

@@ -4,7 +4,7 @@ title: "The Classification of Concepts"
 tags: ["concept-analysis", "classification-methods", "essence-of-technology"]
 summary: "The note asks how the classification of concepts should be abstractly carried out, prompted by the framework in *The Nature of Technology* where technology is divided along a singular/plural/collective axis and a physical/behavioral level."
 body_hash: "e6d00e0c"
-importance: 3.73  # auto
+importance: 3.74  # auto
 connections:
   - type: idea
     slug: "framework-from-data"  # auto

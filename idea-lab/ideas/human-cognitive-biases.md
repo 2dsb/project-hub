@@ -10,7 +10,7 @@ tags:
   - writing-for-clarity
 summary: "Human reasoning is prone to confirmation bias, the availability heuristic (termed Feature Presence Effect), and ambiguity-induced logical errors. Confirmation bias leads people to seek confirming information because it feels comfortable; a countermeasure is to reverse the writing process by first gathering all relevant perspectives before forming a view. The availability heuristic causes overemphasis on psychologically salient information even when irrelevant. Ambiguity makes the brain blur logic in pursuit of coherence, introducing fallacies; writing down arguments in consistent, coherent language exposes such errors."
 body_hash: "8fed2683"
-importance: 1.46  # auto
+importance: 1.47  # auto
 connections:
   - type: permanent
     slug: "卡片笔记写作法c3.7"

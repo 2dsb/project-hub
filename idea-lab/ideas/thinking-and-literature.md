@@ -13,7 +13,7 @@ summary: "Full title: **From the Nature of Thinking as Cleansing Common Sense, t
 body_hash: "ab6b4ace"
 
 # 1. Thinking is "
-importance: 3.95  # auto
+importance: 3.97  # auto
 connections:
   - type: permanent
     slug: 优秀的绵羊c8.1

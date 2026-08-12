@@ -52,6 +52,8 @@ connections:
     slug: "ai-centered-new-education-industry"  # auto, review: 0.513
   - type: idea
     slug: "enumerative-as-scaffold-for-generative"  # auto, review: 0.513
+  - type: idea
+    slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.501
 ---
 # Success Interrogation Heuristic — Generalize, Replicate, Migrate
 

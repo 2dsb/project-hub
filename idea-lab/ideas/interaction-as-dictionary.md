@@ -12,8 +12,10 @@ tags:
   - meta-model
 summary: "Every knowledge point is a dictionary mapping interaction contexts to interaction patterns, synthesizing the interaction-as-essence-heuristic and knowledge-as-dictionary-of-perspectives by defining what something is through its interaction patterns and storing them in a dictionary structure. Perspective is redefined as a selective filter that foregrounds certain interactions while suppressing others, so a knowledge key is a filter name and its value is the patterns that pass through. An object is a name bound to a stable set of interaction patterns within a given filter; class abstraction is merely the impression created by dense vertical interactions between names across filters. Knowledge construction reduces to finding objects and their interactions, recursively promoting interaction patterns to objects. The human attention filter constrains which interactions become visible, so importance is just an interaction's visibility through that filter, not an intrinsic property."
 body_hash: "382a97c8"
-importance: 6.35  # auto
+importance: 7.78  # auto
 connections:
+  - type: idea
+    slug: "behavior-chain-modeling"
   - type: idea
     slug: "interaction-as-essence-heuristic"  # auto
   - type: idea

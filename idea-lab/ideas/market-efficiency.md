@@ -10,7 +10,7 @@ tags:
   - welfare-economics
 summary: "Welfare economics studies how resource allocation affects well-being. Consumer surplus is the difference between a buyer’s willingness to pay and the price actually paid, while producer surplus is the difference between the price received and the seller’s cost. Total surplus, the sum of consumer and producer surplus, measures economic efficiency. Free markets maximize total surplus by allocating goods to the highest-valuing buyers and the lowest-cost producers, but this efficiency relies on perfectly competitive markets and no externalities; the absence of these conditions constitutes market failure."
 body_hash: "d631d86d"
-importance: 1.87  # auto
+importance: 1.88  # auto
 connections:
   - type: idea
     slug: competitive-markets

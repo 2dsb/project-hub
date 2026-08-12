@@ -9,7 +9,7 @@ tags:
   - internship
 summary: "Learning is qualitatively different when driven by a concrete, near-term practice goal, as shown by three mechanisms: the practice anchor eliminates motivational friction by clarifying why each piece of knowledge is needed, the temporal proximity effect causes the brain to process information as actionable rather than archival when the learning-to-application gap is short, and an imminent deadline triggers an abstract-to-concrete transition that enriches memory and transfer. This was demonstrated by completing Python, RAG, and Agents tracks with high throughput just before an internship, suggesting that self-directed learning should always be tied to a specific, dated practice event."
 body_hash: "04e0dc6f"
-importance: 2.93  # auto
+importance: 2.94  # auto
 connections:
   - type: idea
     slug: "teach-method-fixes"  # review: 0.565
@@ -41,6 +41,12 @@ connections:
     slug: "learning-dynamics"  # auto, review: 0.515
   - type: idea
     slug: "learning-method-v2"  # auto, review: 0.594
+  - type: idea
+    slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.571
+  - type: idea
+    slug: "teach-task-volume-scaling"  # auto, review: 0.534
+  - type: idea
+    slug: "low-occupancy-segment-reflection"  # auto, review: 0.501
 ---
 # Practice as Learning Purpose — Purpose-Driven Learning Effectiveness
 

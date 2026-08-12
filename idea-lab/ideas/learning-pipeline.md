@@ -4,7 +4,7 @@ title: "Learning Pipeline"
 tags: [learning, pipeline, meta-cognition, flow-based-thinking, synthesis]
 summary: "The learning pipeline structures the process of acquiring new knowledge from source to output using flow-based-thinking’s source-router-sink framework. Quality sources are identified through AI recommendations, pioneer advice, and reference tracing. A router stage then pre-judges material value via AI source triage and peer cross-teaching to filter noise before investing time. During learning, reading blocker triage grades stuck points into L1 (skip), L2 (mark and batch-process), or L3 (pause to fill prerequisites), with an explicit rule against emotionally escalating L1 to L3. The sink stage outputs understanding through analogy for others, translation for expression practice, or a reconnection doc for future you, which encodes compressed conceptual relationships that can be decoded quickly after a gap. Real-world runs with MIT 6.S184 revealed that L3 blockers span a severity spectrum, where L3-mild is a single concept fillable in minutes while L3-severe represents entire prerequisite systems requiring systematic study. Filling prerequisites can trigger recursive L3s, but the principle is to fill only one layer and switch to just-in-time lookup if further depths are needed, ensuring boundary checks prevent infinite descent."
 body_hash: "45e10426"
-importance: 7.75  # auto
+importance: 7.71  # auto
 connections:
   - type: idea
     slug: "flow-based-thinking"  # auto
@@ -84,6 +84,10 @@ connections:
     slug: "enumerative-as-scaffold-for-generative"  # auto, review: 0.595
   - type: idea
     slug: "ai-centered-new-education-industry"  # auto, review: 0.510
+  - type: idea
+    slug: "teach-task-volume-scaling"  # auto, review: 0.538
+  - type: idea
+    slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.503
 ---
 # Learning Pipeline
 

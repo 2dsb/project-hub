@@ -52,7 +52,11 @@ connections:
     slug: "attention-pointer-learning-model"  # auto, review: 0.506
   - type: idea
     slug: "structural-understanding-in-daily-life"  # auto, review: 0.503
-importance: 2.8  # auto
+  - type: idea
+    slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.537
+  - type: idea
+    slug: "teach-task-volume-scaling"  # auto, review: 0.517
+importance: 2.82  # auto
 ---
 # Hermeneutic Circle as Learning Macro-Structure
 

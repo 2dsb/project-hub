@@ -2,9 +2,9 @@
 id: "idea-20260626-slp01"
 title: "Timeline-Based Project Structure"
 tags: [time-management, project-structure, meta-cognition, daily-flow, energy-management, recovery, physical-health]
-summary: "The universal structure of any project is captured losslessly by the tuple (Memory, Artifacts, and Physical Capacity), where P is a single global resource that gates all cognitive work and recovers with rest. Deep work depletes P, causing a drop below a floor that forces a mandatory B (slack) phase, but the natural A⇄B oscillator alternates study and slack as willingness fatigue and leisure satiation drive transitions. The rhinitis drain makes B phases descend, requiring external triggers or a minimal viable A to escape. The hard cutoff at 20:30 is the prerequisite for all other strategies because it prevents the P depletion that overrides any intention to rotate projects or exercise. Exercise itself is a project subject to willingness dynamics, so the only sustainable form is zero-friction indoor bodyweight work that maintains P baseline without dread."
-body_hash: "a696a3ac"
-importance: 5.91  # auto
+summary: "The Timeline-Based Project Structure framework models any project's complete state as the lossless tuple (memory, artifacts, physical capacity), where P is a single shared resource gating all cognitive work. Projects advance in daily time blocks, but deep work depletes P, often triggering an A⇄B oscillator cycle between productive and slack phases, driven by continuity fatigue willingness depletion and asymmetric rhinitis drains that prolong B. Practical optimization includes reconnection docs to rapidly restore memory after gaps, a hard 20:30 cognitive work cutoff to protect P and sleep quality, and pre-planted external social triggers as the most reliable escape from B phases when internal motivation is suppressed. The overarching objective is maximizing cumulative self-transformation value across projects under P constraints."
+body_hash: "408d30fd"
+importance: -1
 connections:
   - type: idea
     slug: learning-pipeline
@@ -12,6 +12,10 @@ connections:
     slug: deep-work-recovery-cycle
   - type: project
     slug: daily-exercise
+  - type: idea
+    slug: teach-task-volume-scaling
+  - type: idea
+    slug: occupancy-pair-scheduling
   - type: idea
     slug: "willingness-experiment"  # auto
   - type: idea
@@ -32,6 +36,10 @@ connections:
     slug: "decision-model-as-next-domain-model"  # auto, review: 0.537
   - type: idea
     slug: "where-innovation-comes-from"  # auto, review: 0.515
+  - type: idea
+    slug: "system-coevolution"  # auto
+  - type: idea
+    slug: "low-occupancy-segment-reflection"  # auto, review: 0.564
 ---
 # Timeline-Based Project Structure
 
@@ -293,6 +301,46 @@ Exercise doesn't solve the willingness problem — it **inherits** it. The same 
 - What determines the relative speed of leisure satiation vs. rhinitis drain? Can we predict which will win for a given starting state?
 - Does exercise willingness fail at the same time and for the same reasons as study willingness, or can they offset each other? (If study willingness is low, can exercise willingness still be high — giving you a P boost even during a B-like period?)
 - How often does boredom kill exercise willingness? What's the minimum variety needed to prevent it?
+
+### 6.7 Empirical Observations
+
+> Collected 2026-08-09 from the user's experiential records. Add to this subsection as new data points emerge.
+
+**Observation 1 — 5-day willingness ceiling (2026-08-09):** After 5 consecutive days of studying technology (teach-openclaw-companion project), willingness to study technology was completely depleted by Saturday and Sunday. This establishes a rough empirical bound: ~5 consecutive days on the same cognitive project exhausts willingness, with recovery requiring at least 2 days of zero engagement. The 5→2 pattern (5 on, 2 off) may be a natural upper limit for sustained single-project focus.
+
+**Implications for the model:**
+
+- Continuity fatigue doesn't need weeks to kick in — 5 days is enough to hit zero
+- The weekend (2-day gap) appears sufficient for at least partial willingness recovery, since the pattern can repeat weekly
+- This is consistent with §5.1's A→B trigger model: willingness fatigue alone (without P depletion) can force a transition, and the trigger threshold is ~5 days for technology/cognitive work
+- Open question: is the 5-day ceiling domain-dependent? (Would a non-technical project allow longer streaks?)
+
+**Observation 2 — Rain degrades sustainability via two pathways (2026-08-09):** Rainy days make learning less sustainable through two distinct mechanisms:
+
+1. **Rest quality collapse:** After finishing a task, the natural break activity is going outside for a walk. Rain blocks this. Without a default outdoor break, the user doesn't know what to do during rest intervals, gets bored, and defaults to phone/games — but these are *not* genuine brain rest. They occupy time without restoring cognitive resources, leading to a distinctive discomfort: the feeling of having "rested" while actually accumulating drain. This is **pseudo-rest** — it fills the break slot functionally but doesn't fulfill the restoration function.
+
+2. **Cognition-environment coupling:** When the task requires reasoning or memorization, being outdoors makes the user more efficient — they "feel more at ease" (更自在). Rain removes this cognitive amplifier for a whole class of work.
+
+**New concepts introduced:**
+
+| Concept | Definition |
+|---------|-----------|
+| **Rest quality** | Not all break activities are equal. Outdoor movement provides genuine cognitive restoration; phone/games provide only attentional diversion. The difference is measurable in how you feel *after* the break, not during it. |
+| **Pseudo-rest** | An activity that occupies a break slot and feels like rest in the moment, but fails to restore cognitive resources — and may even deplete them further. The user *thinks* they rested, but their mental state didn't recover. |
+| **Environment-gated cognition** | Some cognitive operations (reasoning, memory) have an environment-dependent efficiency — they run faster or with less friction outdoors. This isn't about P or willingness; it's about the *quality* of cognitive output per unit effort. |
+
+**Implications for the model:**
+
+- The A⇄B oscillator currently treats "B" (slack) as a uniform recovery phase. Observation 2 suggests B has internal structure: **restoration quality** varies by activity type. Outdoor walking → genuine recovery; phone/games → pseudo-rest that extends B without recovery.
+- Rain is an environmental variable that doesn't directly affect P, M, or willingness, but degrades the *mechanism* by which they recover. It's a constraint on the recovery pathway, not on the work pathway — an asymmetry the current model doesn't capture.
+- The cognition-environment coupling suggests that optimal task scheduling should consider weather: save reasoning/memory-heavy work for days when outdoor access is possible, and reserve rainy days for tasks less dependent on that mode (e.g., mechanical edits, review, organization).
+- This may partially explain B-phase overshoot (§5.4): if a B phase coincides with rainy days, the pseudo-rest trap extends B beyond what leisure satiation alone would predict. You're trying to recover but using the wrong tool.
+
+**Open questions:**
+
+- Does pseudo-rest actively *deplete* resources (net negative), or merely fail to restore them (net zero)? The user reports feeling "难受" (uncomfortable/bad), suggesting active depletion.
+- Is the cognition-environment effect about movement (walking itself aids thinking), or about environment (outdoor stimuli), or both? Would a treadmill desk capture part of the benefit?
+- Does rain also affect willingness directly (mood → lower willingness) in addition to the rest-quality pathway?
 
 ## 7. Ideal State & Value Objective
 

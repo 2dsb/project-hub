@@ -35,7 +35,11 @@ connections:
     slug: "success-interrogation-heuristic"  # auto, review: 0.513
   - type: idea
     slug: "inquiry-essay-method"  # auto, review: 0.511
-importance: 1.85  # auto
+  - type: idea
+    slug: "teach-task-volume-scaling"  # auto, review: 0.569
+  - type: idea
+    slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.520
+importance: 1.86  # auto
 ---
 # Enumerative Taxonomy as Deliberate Scaffold for Generative Derivation
 

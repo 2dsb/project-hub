@@ -19,7 +19,7 @@ tags:
   - monetary-policy
 summary: "Economics rests on principles of decision-making, interaction, and economy-wide behavior. Individuals face trade-offs, evaluate opportunity cost, and respond to incentives by thinking at the margin of small incremental adjustments. Trade allows specialization and benefits all, while markets typically organize activity efficiently through decentralized decisions, though government can improve outcomes by enforcing property rights or correcting market failures like externalities and market power. A country's standard of living depends on its productivity, the quantity of goods and services produced per unit of labor input. Printing too much money causes inflation, and in the short run, a trade-off between inflation and unemployment reflects the business cycle."
 body_hash: "c3f392f9"
-importance: 1.87  # auto
+importance: 1.88  # auto
 connections:
   - type: idea
     slug: production-possibility-frontier

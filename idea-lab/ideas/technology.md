@@ -6,7 +6,7 @@ tags:
   - research-questions
 summary: "This note prompts an expansion of philosophy of technology’s research agenda beyond foundational questions like “What is technology?” and “How does technology develop and evolve?” by seeking additional questions worth exploring."
 body_hash: "722438b7"
-importance: 4.19  # auto
+importance: 4.21  # auto
 connections:
   - type: project
     slug: ai-ability

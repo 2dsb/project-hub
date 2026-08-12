@@ -4,7 +4,7 @@ title: "The Social Responsibility of Outstanding Students"
 tags: ["leadership-alienation", "social-responsibility", "critical-thinking", "social-structure", "thinker", "elite-education", "conformity", "higher-education"]
 summary: "The concepts of leadership and service have narrowed from altruistic, humble contributions to self-serving status-seeking and charity that polishes résumés, alienating them from genuine social responsibility. Bureaucratic systems elevate \"caretakers\"—those who preserve the status quo without independent thought—because upward mobility rewards conformity over expertise. Elite students thrive within this system, so they lack critical dissatisfaction with the status quo and focus on isolated problems like food production rather than structural change. The solution is to become \"thinkers\" who critically examine their social environment, question common sense, raise questions, reflect on value, and chart strategic direction for companies or nations, requiring strong willpower and courage to oppose tradition."
 body_hash: "c6f6eee5"
-importance: 1.27  # auto
+importance: 1.28  # auto
 connections:
   - type: idea
     slug: "return-of-college"  # auto

@@ -7,7 +7,7 @@ tags:
 - knowledge-reconnection
 summary: "A residuals table explicitly listing excluded content with reasons is a structural honesty device, not a failure, because it transforms incompleteness from a hidden defect into a visible feature. It prevents the silent failure mode where a framework appears complete but drops important content, letting future-you see intentional gaps at a glance rather than rediscovering omissions or assuming a partial model is whole. This contrasts with forcing every concept in, which destroys clarity, or silently discarding what doesn’t fit, creating hidden gaps. Any structured model should include a \"What's Not Here and Why\" section."
 body_hash: "9d2070da"
-importance: 3.28  # auto
+importance: 3.29  # auto
 connections:
 - type: idea
   slug: knowledge-reconnection

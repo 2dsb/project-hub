@@ -42,6 +42,8 @@ connections:
     slug: "goal-singularity"  # auto, review: 0.516
   - type: idea
     slug: "8b-deep-reflection"  # auto, review: 0.508
+  - type: idea
+    slug: "low-occupancy-segment-reflection"  # auto, review: 0.590
 ---
 # Maintaining mental activity during low-energy states
 

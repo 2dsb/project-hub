@@ -15,7 +15,7 @@ connections:
     slug: "organization-as-code-ai-human"  # auto
   - type: idea
     slug: "core-capability-supporting-infrastructure-pattern"  # auto, review: 0.530
-importance: 2.93  # auto
+importance: 2.94  # auto
 ---
 # AI Organization Programming Language — Higher-Level LangGraph for Agent Orchestration
 

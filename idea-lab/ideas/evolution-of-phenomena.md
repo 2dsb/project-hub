@@ -9,7 +9,7 @@ tags:
 - scientific-discovery
 summary: "Phenomena cluster into phenomenon families, and discovering one member of a family makes it easier to discover others. Scientists capture phenomena by discovering anomalies, often through revisiting experiments for overlooked details, finding clues in theoretical derivations, or recognizing byproducts of trial and error. Discovered phenomena are domesticated into technology, technology produces equipment, and equipment is then used to discover new phenomena."
 body_hash: "65894403"
-importance: 2.93  # auto
+importance: 2.94  # auto
 connections:
 - type: idea
   slug: general-and-narrow-technology

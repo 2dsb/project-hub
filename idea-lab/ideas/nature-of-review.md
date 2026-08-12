@@ -4,7 +4,7 @@ title: 'The Nature of "Review"'
 tags: [meta-cognition, review, knowledge-management, methodology]
 summary: "The note interrogates review’s role in a knowledge system, proposing that it may be a metacognitive operation, an experience extraction mechanism, or an intermediate layer bridging the concrete and the abstract, and frames this self-referential question as a meta-question worth exploring."
 body_hash: "9762aee0"
-importance: 1.84  # auto
+importance: 1.83  # auto
 connections:
   - type: idea
     slug: integrating-fragmented-life-strategies

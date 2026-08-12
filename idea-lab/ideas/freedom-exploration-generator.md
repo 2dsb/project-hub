@@ -10,7 +10,7 @@ tags:
   - teach-method
 summary: "The real advantage of AI learning is not a modest initial speed-up, but the massive increase in degrees of freedom—pace, sequence, depth, modality—that enables active exploration through recursive questioning and cross-domain hopping. This accelerates the accumulation of diverse learning experiences, providing dense data for meta-level pattern discovery like the concept/practice split and two-axis model. These discovered patterns feed back into the learning method as an exponential second-order efficiency multiplier. The risk is that over-structuring to optimize lessons can kill the exploration that generates meta-learning data, so added structure should remain defaults, not rigid rules."
 body_hash: "ebfb977e"
-importance: 3.39  # auto
+importance: 3.44  # auto
 connections:
   - type: idea
     slug: knowledge-mastery-two-axis-model
@@ -62,6 +62,8 @@ connections:
     slug: "learning-method-v2"  # auto, review: 0.553
   - type: idea
     slug: "enumerative-as-scaffold-for-generative"  # auto, review: 0.538
+  - type: idea
+    slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.548
 ---
 # Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning
 

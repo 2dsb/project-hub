@@ -8,7 +8,7 @@ tags:
   - opportunity-cost
 summary: "The production possibilities frontier graphs the combinations of two goods an economy can produce given available factors and technology, with points on the frontier representing efficient outcomes. A technological advance in producing one good shifts the frontier outward. Choosing a point on the frontier entails a trade-off, as moving along it to produce more of one good incurs an opportunity cost—the forgone amount of the other good—determined by the slope at that point."
 body_hash: "815dc116"
-importance: 3.43  # auto
+importance: 3.45  # auto
 connections:
   - type: idea
     slug: principles-of-economics-10-principles

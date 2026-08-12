@@ -4,7 +4,7 @@ title: "Anki Cards from English Conversations — Active Memory Maintenance"
 tags: [english-learning, anki, spaced-repetition, memory, conversation, artifacts]
 summary: "Turning English conversation output into Anki cards makes memory a designed process rather than something that passively happens. Within the (M, A) model, an Anki card is an artifact (A) whose sole function is to maintain M_explicit against decay. It prevents decay through scheduled spaced micro-exposures, unlike reconnection docs that compress for rapid recovery after long gaps. This continuous low-dose maintenance keeps memory warm, contrasting with the rapid reload strategy of reconnection docs."
 body_hash: "0f64cc7a"
-importance: 1.38  # auto
+importance: 1.32  # auto
 connections:
   - type: project
     slug: "english-learning"
@@ -18,6 +18,8 @@ connections:
     slug: "knowledge-reconnection"  # auto, review: 0.513
   - type: idea
     slug: "attention-as-bottleneck"  # auto, review: 0.511
+  - type: idea
+    slug: "low-occupancy-segment-reflection"  # auto, review: 0.520
 ---
 # Anki Cards from English Conversations
 

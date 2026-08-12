@@ -50,6 +50,10 @@ connections:
     slug: "speed-first-model-second-batch-tradeoff"  # auto, review: 0.502
   - type: idea
     slug: "attention-pointer-learning-model"  # auto, review: 0.500
+  - type: idea
+    slug: "practice-necessity-willingness-tradeoff"  # auto
+  - type: idea
+    slug: "teach-task-volume-scaling"  # auto
 ---
 # Learning Method v2
 
