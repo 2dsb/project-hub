@@ -13,7 +13,7 @@ When content spans categories, **duplicate** the file into both subsystems rathe
 ├── idea-lab/          ← Knowledge layer
 ├── skill-forge/       ← Behavior layer
 ├── mission-control/   ← Project command center
-├── people-map/        ← Relationship & networking
+├── social-resources/   ← Social resources & networking
 └── life-console/      ← Daily operations
 ```
 
@@ -29,5 +29,5 @@ Each subsystem has its own `CLAUDE.md` with module-specific conventions.
 - **File naming**: kebab-case English slugs for all entity files.
 - **Project directory naming**: All projects under `~/` follow `teach-*` (learning, uses `/teach` skill) or `project-*` (building/creating/exercising, no `/teach`). See `mission-control/CLAUDE.md` for details.
 - **Dates**: YYYY-MM-DD throughout.
-- **Translation**: ideas/, skills/, people-map/, daily/ are in scope for Chinese→English translation. literature-notes/ is NOT auto-translated (Obsidian imports, Chinese is source of truth).
+- **Translation**: ideas/, skills/, social-resources/, daily/ are in scope for Chinese→English translation. literature-notes/ is NOT auto-translated (Obsidian imports, Chinese is source of truth).
 - **Deliberate duplication**: Cross-module content is copied, not linked. Each copy lives independently in its own subsystem.

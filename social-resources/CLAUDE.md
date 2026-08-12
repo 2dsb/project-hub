@@ -1,4 +1,4 @@
-# people-map — Relationship & Networking
+# social-resources — Social Resources & Networking
 
 ## Contacts
 
@@ -17,4 +17,4 @@ Files stored in `entities/<family-name>-<given-name>.md`.
 
 ## Templates
 
-Networking methods and message templates stored as reference files at the people-map root. These are practical playbooks, not idea entities — duplicates from idea-lab are intentional.
+Networking methods and message templates stored as reference files at the social-resources root. These are practical playbooks, not idea entities — duplicates from idea-lab are intentional.

@@ -1,10 +1,10 @@
 ---
 id: "idea-20260731-cms"
 title: "Contact Management Simplified: 4-Field Schema"
-tags: [people-map, contact-management, simplification, design-decision, data-model]
+tags: [social-resources, contact-management, simplification, design-decision, data-model]
 summary: "The contact management schema was simplified from over 12 fields to just four: name, contact, maintenance_tier (core, general, or weak), and contact_dates (a list of YYYY-MM-DD dates of active outreach or meaningful encounters). The old fields like interests, recent_updates, resources, needs, birthday, identity, and tags were overbuilt because they required constant manual maintenance and became stale, while premature categorization didn't suit a small set of contacts. The contact_dates field replaces free-text interaction logs, acting as a relationship health metric based on frequency and recency. Existing contacts will be migrated by dropping the obsolete fields."
 body_hash: "73947901"
-importance: 3.56  # auto
+importance: 3.58  # auto
 connections:
   - type: idea
     slug: "four-step-networking-method"  # auto
@@ -15,7 +15,7 @@ connections:
 
 ## Source
 
-After the CKGSB event, while preparing to add new contacts to the people-map, the existing 12+ field schema (with `interests`, `recent_updates`, `resources`, `needs`, `birthday`, `identity`, etc.) felt like premature structure. The decision: strip it down to what actually matters.
+After the CKGSB event, while preparing to add new contacts to the social-resources, the existing 12+ field schema (with `interests`, `recent_updates`, `resources`, `needs`, `birthday`, `identity`, etc.) felt like premature structure. The decision: strip it down to what actually matters.
 
 ## The New Schema
 
