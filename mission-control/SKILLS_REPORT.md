@@ -1,7 +1,7 @@
-# Skill Report — All 21 teach-* Learning Projects
+# Skill Report — All 23 teach-* Learning Projects
 
-**Generated:** 2026-08-08
-**Scope:** `C:\Users\61602\teach-*` (21 projects)
+**Generated:** 2026-08-13
+**Scope:** `C:\Users\61602\teach-*` (23 projects)
 **Methodology:** Exhaustive file reading of MISSION.md, NOTES.md, learning records, code files, HTML lessons, and reference materials from every project. Proficiency assessments are evidence-based — citations drawn directly from artifacts produced.
 
 ---
@@ -11,211 +11,232 @@
 ### teach-Agent (AI Agents)
 | Field | Detail |
 |---|---|
-| **Domain** | AI Agents — ReAct loop, function calling protocol, tool design, guardrails, prompt engineering |
-| **Skill level** | Advanced — can read, trace, debug, and explain a production agent loop end-to-end |
-| **Concrete skills** | Writes agent loop from memory (3-branch: content / tool_calls / empty); designs system prompts using 5-question framework; debugs agents via 4-layer diagnostic model (prompt / tool schema / loop-guardrails / data structure); understands "every error is an observation" architectural principle; found 3 structural bugs in course materials |
-| **Hours invested** | ~8 hours (one-day sprint) |
-| **Completion** | 100% (5/5 lessons + deep-dive + coding practice + TOMORROW.md internship prep) |
-| **Key evidence** | `learning-records/0006-track-complete.md` — all MISSION.md success criteria verified; `TOMORROW.md` — "think like an agent" meta-framing (maps workplace behavior onto agent concepts); `lessons/0005-coding-practice.html` — 4-bug diagnostic exercise with realistic e-commerce scenario |
+| **Domain** | AI Agents — ReAct agent loop, function/tool calling protocol, tool schema design, guardrails, prompt engineering |
+| **Skill level** | Intermediate — reads/traces a Python agent loop end-to-end, diagnoses which of 4 layers (prompt / tool schema / loop / data structure) a bug lives in, and designs agent system prompts; reading fluency > writing (exercises scaffolded) |
+| **Concrete skills** | Traces a Python agent loop (Thought → Action → Observation) through prompt, tools, messages, and guardrails; diagnoses which layer a bug lives in; understands tool/function-calling protocol and schemas; designs system prompts (5 questions, stopping cues, negative guidance); maps guardrails to failure modes; bug-hunts course materials — found and fixed 3 structural bugs |
+| **Hours invested** | ~8 hours (one-day sprint, 2026-07-19) |
+| **Completion** | 100% (5/5 lessons + deep-dive + coding practice; track-complete marker; all MISSION.md success criteria met) |
+| **Key evidence** | `learning-records/0006-track-complete.md`; `learning-records/0004-robust-agent-loop.md`; `lessons/0005-coding-practice.html` |
 
 ### teach-andrej-karpathy-zero-to-hero (Deep Learning)
 | Field | Detail |
 |---|---|
-| **Domain** | Deep Learning — backpropagation, autograd, neural network training |
-| **Skill level** | Beginner — 1 of 8 modules completed, no independent code written |
-| **Concrete skills** | Understands scalar-level autograd (micrograd `engine.py`); can explain chain rule on computation graphs; built a faithful `Value` class from reading source code |
+| **Domain** | Deep Learning / neural networks — Karpathy's Zero to Hero (micrograd → makemore → GPT), PyTorch |
+| **Skill level** | Beginner — read and understood micrograd `engine.py` (autograd Value class, backward pass, topological sort); no independent implementation written from scratch |
+| **Concrete skills** | Understands micrograd autograd engine (Value class, `_backward` closures, topological-sort backward pass); explains backpropagation / chain-rule gradient flow on computation graphs; familiar with deep learning fundamentals |
 | **Hours invested** | ~3 hours |
-| **Completion** | 13% (micrograd done; makemore P1-P5, GPT tokenizer, GPT from scratch — all pending) |
-| **Key evidence** | `resources/micrograd.md` — verbatim `Value` class with topological sort and backward pass; no custom experiments or training runs |
+| **Completion** | 13% (1 of 8 checklist milestones — micrograd only; makemore P1–P5, GPT tokenizer, GPT from scratch all pending; README frontmatter `status: paused`) |
+| **Key evidence** | `README.md`; `resources/micrograd.md` |
 
 ### teach-CPA-JJF (CPA Economic Law)
 | Field | Detail |
 |---|---|
-| **Domain** | Chinese CPA exam — Economic Law (公司法, 合同法, etc.) |
-| **Skill level** | Intermediate beginner — 5 of ~20+ chapters complete |
-| **Concrete skills** | Legal concept classification (memorization vs. understanding as two separate axes); legal foundations mapping; curriculum redesign insight; civil legal acts analysis |
-| **Hours invested** | ~15-20 hours |
-| **Completion** | ~25% (5 lessons complete: nature of law, sources, legal subjects, legal relationships/facts, civil legal acts) |
-| **Key evidence** | 5 HTML lessons with quiz widgets; `learning-records/0003-curriculum-redesign.md` — independently restructured the textbook order for better pedagogy; `extract_pdf.py` — PDF extraction tool; glossary with Chinese legal terminology |
+| **Domain** | CPA 经济法 (Chinese Economic Law) — understanding-oriented legal study, not exam prep |
+| **Skill level** | Advanced beginner — decomposes legal scenarios via a 6-step analysis template and re-expresses law as Python OOP models (law = class, legal act = `__init__`, 位阶 = MRO); co-authored lesson content and caught genuine errors in teaching material |
+| **Concrete skills** | 6-step legal scenario decomposition (is-it-law → rank → subjects → object → rights/obligations → trigger); classifies civil legal acts by validity tier (无效/可撤销/效力待定) with underlying rationale; two-way memorization-understanding pedagogical framework |
+| **Hours invested** | ~10 hours |
+| **Completion** | 15% (5 of 28 lessons + 0 of 5 exams; Cycle 1 法律基础 is 5/7 through; last session 2026-08-02) |
+| **Key evidence** | `learning-records/0008-lesson-0005-passed.md`; `learning-records/0007-lesson-0004-passed.md`; `NOTES.md`; `lessons/0005-civil-legal-acts.html` |
 
 ### teach-cs61a (CS Fundamentals)
 | Field | Detail |
 |---|---|
-| **Domain** | Computer Science — UC Berkeley CS61A (functions, recursion, sequences, data abstraction, OOP) |
-| **Skill level** | Intermediate — 3 of 10 weeks complete, two substantial projects finished |
-| **Concrete skills** | Higher-order functions, closures, recursion (mutual + tree), list comprehensions, iterators/generators, tree data structures, OOP basics, type annotations; completed Hog (dice game) and Cats (typing test) projects; created original "Portal Model" for environment diagrams — a pedagogical innovation not present in the course |
-| **Hours invested** | ~60-80 hours (lectures, labs, homeworks, projects for 3 weeks) |
-| **Completion** | 30% (Weeks 1-3 done; Weeks 4-10 cover sequences, OOP, Scheme, interpreters, SQL) |
-| **Key evidence** | `resources/comprehension-view-portal-model.md` — original conceptual framework; `resources/cs61a-su26-lec11/` — full teaching module with student/solution pairs, pytest tests, ruff config, coverage reports; all labs/homeworks passed via ok autograder |
+| **Domain** | UC Berkeley CS61A — Python programming fundamentals (functions, recursion, sequences, objects, interpreters, SQL) |
+| **Skill level** | Intermediate — implemented both full CS61A projects (Hog dice game, Cats typing game) passing all ok-autograder questions; fluent in higher-order functions, closures, recursion; authored an original "portal model" of frame-tree program execution |
+| **Concrete skills** | HOFs / closures / function factories; recursion and tree/mutual recursion; memoization; string/list processing; TDD via ok-autograder + pytest with coverage; debugging and algorithm design; abstract model-building of program execution |
+| **Hours invested** | ~30 hours |
+| **Completion** | 30% (Weeks 1–3 of 10 complete: Hog + HW01-03 + labs; Week 4 next; README frontmatter `status: active`) |
+| **Key evidence** | `README.md`; `resources/hog/hog.py`; `resources/cats/cats.py`; `resources/comprehension-view-portal-model.md` |
 
 ### teach-database (SQL/SQLite)
 | Field | Detail |
 |---|---|
-| **Domain** | Databases — SQLite, SQL (SELECT, JOIN, GROUP BY, indexes, FTS5) |
-| **Skill level** | Intermediate — can query production databases from memory, understands execution plans |
-| **Concrete skills** | SELECT/WHERE/ORDER BY/LIMIT from memory; INNER/LEFT JOIN with aliases; GROUP BY with HAVING; regular indexes (B-tree, EXPLAIN QUERY PLAN); FTS5 virtual tables (MATCH, inverted index); independently discovered 3 conceptual insights (GROUP BY/COUNT as composable tools, passthrough-vs-implicit-single-group distinction, virtual tables as encapsulation) |
-| **Hours invested** | ~8-10 hours |
-| **Completion** | 100% (5/5 lessons, all mission goals met) |
-| **Key evidence** | `learning-records/0006-no-group-by-two-modes.md` — self-derived truth table resolving conceptual confusion; `lessons/0005-indexes-fts5.html` — capstone lesson used production `state.db` as exercise material |
+| **Domain** | SQLite / SQL — read and query a production `.db`, indexes, FTS5 |
+| **Skill level** | Intermediate — from absolute zero on 07-22 to independently querying a 21-table production schema (Hermes state.db) from memory by 07-24; understands execution plans and FTS5 virtual tables |
+| **Concrete skills** | SQLite CLI fluency (`.tables`, `.schema`, dot-commands); SELECT/WHERE/ORDER BY/LIMIT/JOIN/GROUP BY/aggregates from memory; reading CREATE TABLE schema; regular index vs FTS5 abstraction; querying a real production database without reference; self-derived truth table (no-GROUP-BY two modes) |
+| **Hours invested** | ~5 hours (2 days: 07-22, 07-24) |
+| **Completion** | 100% (5/5 lessons; all 5 MISSION goals met; course-complete marker `0008`) |
+| **Key evidence** | `learning-records/0008-course-complete.md`; `learning-records/0007-virtual-table-mental-model.md`; `learning-records/0006-no-group-by-two-modes.md`; `lessons/0005-indexes-fts5.html` |
 
 ### teach-deep-learning-book (DL Theory)
 | Field | Detail |
 |---|---|
-| **Domain** | Deep Learning — mathematical foundations (linear algebra, probability, numerical computation, ML basics) |
-| **Skill level** | Advanced (analytical) / Beginner (implementation) — extensive note-taking and conceptual synthesis; no code written |
-| **Concrete skills** | Restructures textbook content into novel architectures (4-layer model for linear algebra, dual-domain for probability, (Q,A) universe for optimization, 3-layer scaffold for ML); precise LaTeX-quality math notation; systematic residual tracking (content that resists modeling); cross-chapter linkage mapping |
-| **Hours invested** | ~30-40 hours |
-| **Completion** | 17% (Part I complete: Ch2-5 notes written at 300-800 lines each; Parts II-III not started) |
-| **Key evidence** | `resources/ch5-machine-learning-basics.md` — 590 lines, 3-layer scaffold (conceptual/technical/pure-mathematical), 116 concepts covered, entropy-based layer distinction criteria; MLE equivalence chain (MLE = min NLL = min KL = min cross-entropy = ERM) |
+| **Domain** | Reading Goodfellow's "Deep Learning" textbook sequentially with per-chapter notes |
+| **Skill level** | Intermediate — synthesizes dense math-textbook chapters into original multi-layer mental models with rigorous notation (MLE ≡ NLL ≡ KL ≡ cross-entropy ≡ ERM, Bayes error, Cramér–Rao, conjugate priors) and concept dependency graphs |
+| **Concrete skills** | Linear algebra / matrix-calculus reasoning (eigendecomposition, SVD, PCA); probability & information theory (Bayes, KL, MLE equivalence chain); numerical computation & gradient-based optimization; ML fundamentals (capacity/bias-variance/estimators/SGD); knowledge synthesis into layered mental-model architectures |
+| **Hours invested** | ~16 hours |
+| **Completion** | 17% (4 of 20 chapters: Ch2 linear algebra, Ch3 probability, Ch4 numerical computation, Ch5 ML basics; Parts II–III untouched; README frontmatter `status: active`) |
+| **Key evidence** | `README.md`; `resources/ch5-machine-learning-basics.md` (590 lines); `resources/ch2-linear-algebra.md` |
 
 ### teach-english-learning (English)
 | Field | Detail |
 |---|---|
-| **Domain** | English as L2 — speaking, writing, reading |
-| **Skill level** | Early intermediate (CEFR A2-B1) — comfortable with Lv.1-2 conversation; Lv.5 debate too hard |
-| **Concrete skills** | Can write 200+ word structured articles; strong technical vocabulary (git, programming, AI/ML); designed self-assessment system (pattern registry, difficulty progression, two-tier practice); demonstrates SLA theory knowledge (CLIL, Noticing Hypothesis) |
-| **Hours invested** | ~5 hours (3 sessions) |
-| **Completion** | Ongoing (no endpoint defined) |
-| **Key evidence** | `resources/articles/2026-06-27.md` — first English article (~215 words); `resources/sessions/2026-06-27.md` — 12 exchanges across two abstract topics; `resources/interleaving-methodology.md` — archived 5-day plan (~1100 lines), abandoned for over-engineering |
+| **Domain** | English conversational fluency (target MIT, IELTS 7.5+) — SLA-grounded conversation training, concept-first in Chinese |
+| **Skill level** | A2–B1 baseline (per MISSION.md) — solid conceptual mastery of the collaborative conversation model; can explain, self-diagnose, analyze real dialogues, and teach it; no confirmed speaking practice yet (practice lesson pending) |
+| **Concrete skills** | Explains performance-vs-collaborative model of conversation; identifies own performance-mindset patterns in past conversations; analyzes a real conversation for communication strategies; teaches a newly learned concept (learn-by-teaching) |
+| **Hours invested** | ~4 hours |
+| **Completion** | 20% (Cycle 1 step 1 of 5 complete; Lesson 0002 built with passing criteria, Lesson 0003 announced; Practice and Exam lessons pending) |
+| **Key evidence** | `learning-records/0001-performance-vs-collaborative-model.md`; `lessons/0001-conversation-is-not-performance.html`; `lessons/0002-communication-strategies.html` |
 
 ### teach-github-learning (Git/GitHub)
 | Field | Detail |
 |---|---|
-| **Domain** | Git version control, GitHub collaboration |
-| **Skill level** | Late beginner / early intermediate — proficient with ~40 commands; conceptual understanding exceeds typical beginner |
-| **Concrete skills** | Full local workflow (add, commit, diff, log, restore, amend); branching (branch, switch, merge, fast-forward vs 3-way); remotes (push, fetch, pull, clone); PR workflow; independently built "Two Areas, One Graph, Three Pointer Sets" mental model — rigorous layered architecture of Git; understands stale reference problem as silent failure mode |
-| **Hours invested** | ~15-20 hours |
-| **Completion** | 51% (T1-T25 done of 42 tasks; Phase 3-4 pending: conflicts, stashing, rebasing, capstone) |
-| **Key evidence** | `resources/git-mental-model.md` — self-authored deep conceptual reference with 6-layer full picture, command-layer impact matrix, pointer independence analysis; `resources/git-commands-T1-T25.md` — self-authored command reference with safety annotations and frequency-based quick reference |
+| **Domain** | Git & GitHub via a sequential 42-task checklist (T1–T42), Pro Git + GitHub Docs based |
+| **Skill level** | Beginner-to-intermediate — full local + remote workflow fluent (init/commit/branch/merge/push/PR); wrote a deep conceptual mental-model doc; Phases 3–4 (conflicts, stash, rebase, Issues) not yet done |
+| **Concrete skills** | Full local workflow; branching & merging (fast-forward vs 3-way); GitHub remotes (SSH, push/pull/fetch, clone); PR lifecycle; branch cleanup & sync; history fixes (amend, restore); conceived a formal git mental model (two areas, one graph, three pointer sets, remote-tracking staleness) |
+| **Hours invested** | ~15 hours |
+| **Completion** | 51% (24/42 tasks checked, T1–T25; Phases 1–2 complete; README frontmatter `status: active`) |
+| **Key evidence** | `README.md`; `resources/git-commands-T1-T25.md`; `resources/git-mental-model.md` |
 
-### teach-hello-world (Empty)
+### teach-hello-world (World Systems)
 | Field | Detail |
 |---|---|
-| **Domain** | N/A |
-| **Skill level** | N/A |
-| **Concrete skills** | None |
-| **Hours invested** | 0 |
-| **Completion** | 0% — directory created but empty |
+| **Domain** | Understanding how world systems work — markets, finance, geopolitics, governance (世界运行规律) |
+| **Skill level** | Intermediate — independently builds and applies a unified market model (six-dimension framework + Five Filters compression) and an A/B/C static→strategy→dynamic protocol to real industrial cases (polysilicon/wafer markets), reasoning under limited public data |
+| **Concrete skills** | Unified multi-layer market model; A/B/C three-stage analysis protocol on real market cases; entity-first analysis under limited public data (financial-signal, structural, boundary-framing, conditional reasoning); cross-subsystem causal-trace reasoning; first-principles critique of taxonomy-vs-derivation gaps; falsifiable counterfactual prediction design |
+| **Hours invested** | ~12 hours (intense first week: sessions 08-08, 08-09, 08-11, 08-12) |
+| **Completion** | 45% (explicitly open-ended course — hermeneutic circle; Cycle 1 market subsystem ~90% complete: lessons 0001–0004 done, unified model built) |
+| **Key evidence** | `reference/polysilicon-market-data.html`; `reference/entity-first-analysis-protocol.html`; `learning-records/0009-abc-analysis-method.md`; `learning-records/0010-market-as-perspective-superposition.md` |
 
 ### teach-hermes-agent (Agent Framework)
 | Field | Detail |
 |---|---|
-| **Domain** | Agent frameworks — Hermes Agent source code, cron scheduling, memory architecture, FTS5 database design |
-| **Skill level** | Intermediate — can read a 40K-line production codebase, built working mini-agent and cron scheduler from scratch |
-| **Concrete skills** | Read Hermes source code (5 infrastructure layers, 4-layer memory architecture, 7-guardrail cron scheduler); built from-scratch mini-agent (DeepSeek API, 3 tools, agent loop); built from-scratch cron scheduler (human-readable schedule parsing, JSON persistence); traced FTS5 composite column design through 3-table JOIN; reduced 40K-line codebase to 100-line core + hardening layers |
-| **Hours invested** | ~20-25 hours (9 lessons, extensive drill practice) |
-| **Completion** | ~75% (paused when manager redirected to LangChain/LangGraph; memory architecture understood, database basics hit prerequisite wall — spun off teach-database) |
-| **Key evidence** | `mini-agent/agent.py` (143 lines) — working DeepSeek agent from scratch; `mini-agent/cron.py` (99 lines) — cron scheduler from scratch; `learning-records/0014-layer-2-synthesis.md` — reduced session database to "1 storage + 1 tool + 1 rule"; `learning-records/0009-file-io-drills-and-cron-rewrite-2026-07-22.md` — 7 progressive drills to file I/O fluency |
+| **Domain** | Hermes Agent source code — cron scheduling, tool calling, 4-layer memory architecture, FTS5 database design; plus a from-scratch Python mini agent |
+| **Skill level** | Intermediate — wrote a working tool-calling agent loop + cron scheduler (~100-line Python, `agent.py` + `cron.py`) from memory with zero Hermes deps; reads production framework source (4-layer memory, FTS5 composite-column pattern) with correct mental models |
+| **Concrete skills** | From-scratch autonomous agent (3-branch loop + OpenAI-compatible tool calling + JSON persistence); cron scheduler from memory (parse/load/save/cron_loop); Python file-I/O fluency via 7 progressive drills; operated Hermes from source (0.18.2, DeepSeek API); traces FTS5 composite columns, MATCH/snippet()/rank, triggers; debugged real API issues |
+| **Hours invested** | ~20 hours (9 lessons + drill practice) |
+| **Completion** | 75% (lessons 0001–0007 complete; track paused 2026-07-24 when manager redirected to LangGraph → teach-langgraph-agent) |
+| **Key evidence** | `mini-agent/agent.py` (143 lines); `mini-agent/cron.py` (99 lines); `learning-records/0014-layer-2-synthesis.md`; `NOTES.md` |
+
+### teach-HTML (Frontend/HTML)
+| Field | Detail |
+|---|---|
+| **Domain** | HTML as the first step of the frontend stack (HTML → CSS → JavaScript → Vue), required for an internship |
+| **Skill level** | Intermediate — writes a complete, semantically correct multi-page HTML site from memory (skeleton, semantic HTML5, tables with colspan/rowspan, forms); maps form submission to an HTTP request; understands SVG (retained-mode) vs Canvas (immediate-mode); zero frontend experience → 15/15 lessons in ~3 days |
+| **Concrete skills** | Semantic HTML5 documents from memory; complex tables (one-slot-one-owner grid model); forms (20+ input types, validation, GET vs POST, enctype) mapped to HTTP; multi-page site structure (relative links, iframes, head glue); HTML5 APIs (Canvas/SVG/DnD awareness); self-editing — catches structural tag mismatches and stale runoob "fossils" |
+| **Hours invested** | ~12 hours (3 sessions, Aug 10–12) |
+| **Completion** | 100% (15/15 lessons + three-tier exam passed Aug 10–12: Easy 6/6, Medium 2/2, Hard 1/1; MISSION success criteria 1–4 met; hands off to teach-CSS) |
+| **Key evidence** | `learning-records/0015-exam-passed.md`; `NOTES.md`; `practice/semantic-blog.html`; `practice/forms-demo.html` |
 
 ### teach-langgraph-agent (LangGraph)
 | Field | Detail |
 |---|---|
-| **Domain** | Agent frameworks — LangGraph (StateGraph, ToolNode, checkpointing, streaming) |
-| **Skill level** | Intermediate — can design and build non-trivial agents independently |
-| **Concrete skills** | Writes complete LangGraph agents from memory (state.py + agent.py + main.py, proven in Exam 0001 with zero errors on pass 3); state design (TypedDict, reducers, custom reducers); 3-branch routing; `astream_events` streaming; MemorySaver checkpointing; independently designed 5-node linear pipeline (LGA project — not taught pattern); integrated real API (Wallstreetcn); iterated through 5 approaches for region classification |
-| **Hours invested** | ~15-20 hours |
-| **Completion** | ~60% (4/4 concept lessons complete + exam + self-directed project; streaming, checkpointing, parallelism lessons planned but not started) |
-| **Key evidence** | `hands-on/agent.py` (127 lines) — working ReAct agent with 4 tools, manual execute_tools, retry node; `learning-records/0003-exam-0001-complete.md` — 12 errors down to 0 in 3 passes, all 7 self-check cases passed; `learning-records/0004-first-real-world-project-lga.md` — self-directed architecture design |
+| **Domain** | LangGraph (StateGraph, ToolNode, checkpointing, streaming) — graph-based agent framework |
+| **Skill level** | Intermediate — writes a full 3-file LangGraph agent (state.py / agent.py / main.py) from memory, including a 3-branch router and custom reducer; built an independent 5-node linear-pipeline app (LGA) with real API integration |
+| **Concrete skills** | StateGraph from scratch (add_node/add_edge/add_conditional_edges/compile); TypedDict + Annotated reducers (add_messages, custom add_tool_log); 3-branch conditional routers with hand-written tool execution; debugs to zero errors unaided (Exam 0001: 12→3→0 over 3 passes); real-world app with API discovery, pagination, timezone, .env secrets, Chinese JSON; iterates pragmatically (5 region-classification approaches) |
+| **Hours invested** | ~12 hours |
+| **Completion** | 80% (4/4 lessons + Exam 0001 + real-world capstone; all 4 MISSION criteria met; streaming/checkpointing lessons planned) |
+| **Key evidence** | `lessons/0004-tools-and-routing.html`; `hands-on/agent.py` (127 lines); `learning-records/0003-exam-0001-complete.md`; `learning-records/0004-first-real-world-project-lga.md` |
 
 ### teach-mit-6s184 (Diffusion Models)
 | Field | Detail |
 |---|---|
-| **Domain** | Generative AI — Flow Matching, diffusion models, SDEs |
-| **Skill level** | Pre-beginner — prerequisite gap identified, paused |
-| **Concrete skills** | None yet demonstrated in this domain; strong metacognition: recognized missing probability prerequisites, made deliberate decision to pause rather than skim |
-| **Hours invested** | ~2 hours (read pages 1-18 of lecture notes, drafted Chinese analogy story) |
-| **Completion** | 0% |
-| **Key evidence** | `README.md` — 0% progress, paused since 2026-06-22; `idea-lab/ideas/learning-pipeline.md` — documented prerequisite spiral risk and goal-singularity validation |
+| **Domain** | MIT 6.S184 — Flow Matching & Diffusion Models (generative AI / deep learning) |
+| **Skill level** | Beginner — read pp.1–18 of the lecture notes and drafted an analogy-based explanation of generative modeling as sampling (mountain story); no labs, no code written |
+| **Concrete skills** | Read and summarized technical ML lecture notes; explained generative-modeling-as-sampling via an original analogy (4-section Chinese story); maintained structured project docs (frontmatter status, syllabus checklist) |
+| **Hours invested** | ~4 hours |
+| **Completion** | 2% (0/7 chapters, 0/3 labs; only pp.1–18 read; README frontmatter `status: paused` — prerequisite gap identified) |
+| **Key evidence** | `README.md`; `resources/lecture_notes.pdf` |
 
 ### teach-naked-economics (Economics)
 | Field | Detail |
 |---|---|
-| **Domain** | Economics — information economics, adverse selection, signaling, screening, market structure |
-| **Skill level** | Advanced (analytical depth on Chapter 5) / Beginner (breadth — only 1/14 chapters) |
-| **Concrete skills** | Extreme close reading: 157 sentences individually annotated across 3 structural layers; systematic constraint-type taxonomy (definition, causal, trade-off, contrast, precondition, evidence, pattern-recurrence); form-content convergence analysis (where syntax mirrors semantics); Mermaid concept constraint graph (200+ lines); interactive zoomable HTML visualization |
-| **Hours invested** | ~20-30 hours (on a single chapter) |
-| **Completion** | 7% (Chapter 5 of 14 analyzed in extraordinary depth) |
-| **Key evidence** | `resources/ch05-structural-analysis.md` (53 KB) — 3-layer structural analysis of all 157 sentences; `resources/ch05-section1-full-structure.md` (19 KB) — sentence-level 5-paragraph argument arc with form-content convergence instances; linked to 50+ entities in broader project-hub economics knowledge graph |
+| **Domain** | Reading Charles Wheelan's "Naked Economics" via connection-based reading — per-chapter bilingual sentence annotation + concept-constraint graphs |
+| **Skill level** | Advanced (analytical depth) / Beginner (breadth — only 1 of 14 chapters) — produced sentence-level 3-layer structural analysis of a full English chapter (157 sentences, 18 sections) with constraint-typed Mermaid concept-constraint graphs |
+| **Concrete skills** | 3-layer text-structure analysis (sentence → paragraph → article) with structural-role tagging; bilingual EN–CN sentence-by-sentence annotation (157 sentences); Mermaid concept-constraint graph + interactive zoomable HTML graph; systematic connection-reading methodology; economics concept mapping (adverse selection, asymmetric information, signaling, lemon markets, death spiral) |
+| **Hours invested** | ~15 hours (on a single chapter) |
+| **Completion** | 7% (Ch5 Economics of Information complete; 13 chapters + epilogue unchecked; README frontmatter `status: paused`) |
+| **Key evidence** | `resources/ch05-structural-analysis.md` (53 KB); `resources/ch05-section1-full-structure.md` (19 KB); `resources/ch05-graph.html` |
 
 ### teach-openclaw-companion (Backend Development)
 | Field | Detail |
 |---|---|
-| **Domain** | Full-stack backend — FastAPI, SQLAlchemy async, LangGraph, MCP protocol, SSE streaming |
-| **Skill level** | Intermediate — built a production-style backend with 25+ hand-written Python files across 4 phases |
-| **Concrete skills** | FastAPI CRUD APIs with async SQLAlchemy; Pydantic v2 with field validators, serializers, `BaseSettings`; async Python (asyncio.Queue, create_task, create_subprocess_exec, wait_for); MCP JSON-RPC 2.0 implementation from scratch (process spawning, stdin/stdout communication, id-based correlation); SSE streaming with POST+SSE pattern and LangGraph astream_events; 3-model Pydantic pattern for every resource |
-| **Hours invested** | ~40-50 hours (largest single project) |
-| **Completion** | ~50% (4 of ~8 phases done: FastAPI skeleton, Model Providers, Agent Host with SSE, MCP Integration; RAG, scheduling, multi-agent, frontend pending) |
-| **Key evidence** | `backend/src/mcp_servers/manager.py` (204 lines) — MCP server manager from scratch; `backend/src/api/routers/chat.py` (126 lines) — POST+SSE with asyncio.Queue and astream_events; `learning-records/0007-retrieval-practice-error-patterns.md` — systematic error cluster analysis |
+| **Domain** | Backend for OpenClaw Companion, a Windows desktop AI assistant — FastAPI + async SQLAlchemy + LangGraph + MCP + SSE (RAG/scheduler planned) |
+| **Skill level** | Intermediate — writes and debugs a real FastAPI + LangGraph + MCP backend by hand (async SSE streaming pipeline, MCP subprocess lifecycle, async SQLAlchemy); self-diagnoses recall errors clustering in SQLAlchemy type names and HTTP method mapping |
+| **Concrete skills** | FastAPI + async SQLAlchemy (REST CRUD, Pydantic schemas, DI, lifespan, async engine); async Python deep dive (event loop, asyncio.Queue, backpressure); SSE streaming (POST+SSE, async generator, is_disconnected); LangGraph orchestration (astream_events, MemorySaver, ToolNode); MCP protocol + SDK (subprocess spawn/health-check/shutdown, stdio transport); deliberate retrieval practice |
+| **Hours invested** | ~30 hours (largest single project, internship deliverable) |
+| **Completion** | 50% (4 of ~8 phases: Skeleton, Model Provider, Agent Host, MCP Integration; Phases 1–3 fully tested; RAG, scheduling, multi-agent, frontend pending) |
+| **Key evidence** | `NOTES.md`; `backend/src/mcp_servers/manager.py` (204 lines); `reference/learning-roadmap.html`; `learning-records/0007-retrieval-practice-error-patterns.md` |
 
 ### teach-physics (Physics)
 | Field | Detail |
 |---|---|
-| **Domain** | Physics — mechanics, electromagnetism, thermodynamics, quantum mechanics |
-| **Skill level** | Pre-beginner — methodology research only, zero content executed |
-| **Concrete skills** | Learning system design; prompt engineering awareness (imported friend's AI Tutor prompt); resource evaluation across 7 textbooks and ~1800-file Google Drive archive |
+| **Domain** | University physics (mechanics → EM → thermo → waves/optics → modern), AI-navigated derivation-first self-study from zero |
+| **Skill level** | Beginner — physics not started (progress 0%); strong math background, but only method + resource library imported |
+| **Concrete skills** | Curriculum scoping (5-branch university physics coverage with ordered sequence); learning-system design (AI-navigator loop, single-smallest-step, state-file discipline); resource curation (Landau, Morin, Susskind, Feynman, Goldstein, Tong, MIT 8.223) |
 | **Hours invested** | ~2 hours |
-| **Completion** | 0% |
-| **Key evidence** | `resources/AI Tutor Instructions.md` — imported 178-line prompt (friend's work, not user's); `resources/Physics Learning State.md` — friend's active learning state used as template; project paused since creation |
+| **Completion** | 0% (progress per README frontmatter; `status: paused`; only method & resource library imported 06-22) |
+| **Key evidence** | `README.md`; `resources/AI Tutor Instructions.md`; `resources/Physics Learning State.md` (both friend's artifacts, not user's own progress) |
 
 ### teach-pku-freshman-prep (University Prep)
 | Field | Detail |
 |---|---|
-| **Domain** | Meta-learning, systems thinking, university transition strategy |
-| **Skill level** | Exceptional — meta-cognitive sophistication at graduate level |
-| **Concrete skills** | Built ~46-object, ~200-interaction unified model of university life; applied Bayesian optimization, POMDPs, and control theory to everyday tasks; articulated reusable 5-step lesson extraction pipeline; recognized techniques as disposable and model structure as the only thing worth keeping; identified convergence of two independently-developed frameworks (batch size); discovered "P as universal gate" (physical capacity as precondition, not parameter); dual-language content production (English lessons + Chinese "初入燕园" desktop series for peer sharing) |
-| **Hours invested** | ~30-40 hours |
-| **Completion** | ~90% (model structurally complete; strategy layer pending) |
-| **Key evidence** | `reference/unified-model.html` — canonical master with 8 subsystems, cross-subsystem bridge table, full object index — all in Chinese; `learning-records/0011-methodology-as-input-model-as-output.md` — articulates that methodologies are input data, models are the output; `learning-records/0013-p-as-universal-gate.md` — identifies physical capacity as categorically different from other parameters; `learning-records/0025-senior-as-missing-node.md` — models senior interaction as structurally unique node (low activation energy + high information asymmetry) |
+| **Domain** | Transition to Peking University — practical, academic, and mental prep for an incoming freshman (Class of 2030) |
+| **Skill level** | Advanced — independently built a structurally complete ~46-object / ~200-interaction unified model of university life from raw OCR'd official documents; discovered structural properties (emotion as modulation layer, senior as dual-property node) and made methodology-level decisions |
+| **Concrete skills** | Systems modeling (objects + interactions); knowledge extraction from raw OCR documents; applied own epistemological frameworks to a high-stakes domain; structural property discovery (signal decay law, activation-energy gradient); self-contained technical document authoring (HTML + Mermaid, dual English/Chinese); dual-language product creation (初入燕园 desktop series); meta-learning methodology (batch-size convergence) |
+| **Hours invested** | ~30 hours |
+| **Completion** | 80% (model phase 100% — 26/26 learning records "accepted", structurally complete; the strategy/action layer is pending) |
+| **Key evidence** | `reference/unified-model.html`; `learning-records/0026-emotion-as-modulation-layer.md`; `NOTES.md`; `reference/subsystems/01-core-campus.html` |
 
 ### teach-pytorch (PyTorch)
 | Field | Detail |
 |---|---|
-| **Domain** | Deep learning framework — PyTorch tensors, autograd, nn.Module |
-| **Skill level** | Beginner — tensor basics complete, autograd partially done, blocked |
-| **Concrete skills** | Tensor creation and manipulation (rand, ones, zeros, cat, arithmetic, @, broadcast); first half of autograd tutorial; micrograd engine.py understood (scalar-level backprop foundation) |
-| **Hours invested** | ~3 hours |
-| **Completion** | 11% (tensors done, autograd blocked at L2, nn/optim/data/training/deployment untouched) |
-| **Key evidence** | `README.md` — 9-topic checklist, autograd L2 blocker noted; progress stalled ~7 weeks; micrograd understanding as transfer foundation |
+| **Domain** | PyTorch / deep-learning framework fundamentals (tensor ops, autograd, torch.nn) |
+| **Skill level** | Beginner — tensor construction and ops fluent; first half of autograd tutorial complete; second half blocked at L2 (missing prerequisite knowledge) |
+| **Concrete skills** | Tensor construction and elementwise/matrix operations (rand, zeros, cat, @, broadcast); autograd gradient tracking (first half); read and understood micrograd engine.py (transfer foundation) |
+| **Hours invested** | ~4 hours |
+| **Completion** | 11% (1/9 learning-path items checked; autograd half-done; README frontmatter `status: paused`) |
+| **Key evidence** | `README.md` |
 
 ### teach-RAG (Retrieval-Augmented Generation)
 | Field | Detail |
 |---|---|
-| **Domain** | AI — RAG pipelines, embeddings, vector search, chunking, failure modes |
-| **Skill level** | Intermediate — can explain the full pipeline, build one, and diagnose failure modes |
-| **Concrete skills** | Full RAG pipeline implementation (load -> chunk -> embed -> store -> retrieve -> generate); sentence-transformers + ChromaDB + OpenAI integration; 4 failure modes with standard fixes (chunk size, irrelevant retrieval, keyword-semantic gap, vocabulary mismatch); debugging decision tree; internship Day 1 survival kit with phrases to use/avoid |
-| **Hours invested** | ~8 hours (one-day sprint) |
-| **Completion** | 100% (6/6 lessons, all MISSION.md success criteria met) |
-| **Key evidence** | `demo/rag_pipeline.py` (299 lines) — clean, typed, well-commented pipeline with dual-mode operation (demo/full); `lessons/0004-chunking-and-failure-modes.html` — debugging decision tree; `lessons/0006-coding-practice.html` — extend-the-pipeline exercises |
+| **Domain** | RAG — embeddings, vector search, chunking, retrieval-augmented generation, failure modes |
+| **Skill level** | Beginner-to-Intermediate — builds and runs a minimal end-to-end RAG pipeline (Chroma + sentence-transformers, all-MiniLM-L6-v2); explains embeddings, vector search, chunking, and standard failure-mode fixes (re-ranking, hybrid search/BM25, HyDE); from-memory Python still error-prone |
+| **Concrete skills** | End-to-end RAG pipeline (load → chunk → embed → store → retrieve → generate); vector search with sentence-transformers + Chroma PersistentClient; explains naive-RAG failure modes and fixes; systematic retrieval debugging; manual vector similarity with numpy (cosine scaffolding) |
+| **Hours invested** | ~8 hours (one-day sprint, 2026-07-18) |
+| **Completion** | 100% (5/5 core lessons; all 4 MISSION success criteria met; track complete — record 0006 confirms) |
+| **Key evidence** | `demo/rag_pipeline.py` (299 lines); `learning-records/0006-lesson-0005-complete.md`; `lessons/0006-coding-practice.html` |
 
 ### teach-runoob-python (Python)
 | Field | Detail |
 |---|---|
-| **Domain** | Python — dicts/JSON, file I/O, venv, OOP, modules, type annotations, HTTP/requests, decorators, async/await |
-| **Skill level** | Intermediate — reading fluency strong; writing fluency on advanced topics still developing |
-| **Concrete skills** | Dicts/JSON from memory; file I/O with context managers and error handling; virtual environments; OOP reading fluent (classes, __init__, @property, super(), inheritance); module/package structure with relative imports; type annotations reading fluent; requests library (GET/POST, 3-layer error handling); decorators conceptual understanding (closure basis, @wraps); **async/await mastered at first-principles level** (built toy event loop, understands 6-operation model, 3-zone scheduler, await transparency, gather semantics) |
-| **Hours invested** | ~15-20 hours |
-| **Completion** | ~85% (9 of 11 lessons complete; decorators partial, generators/coroutines deprioritized; glossary with 30+ terms) |
-| **Key evidence** | `learning-records/0011-async-mastered.md` — simulated entire 3-level 7-task scenario correctly on paper; `reference/async-first-principles.html` — canonical async reference with six-operation model; `GLOSSARY.md` — 30+ terms with precise definitions and "avoid" notes; `textutils/` — clean package with __init__.py, __all__, relative imports, type annotations |
+| **Domain** | Practical Python for an AI internship (runoob.com/python3 curriculum) — reading/writing real AI-codebase Python |
+| **Skill level** | Intermediate — reads AI-codebase Python fluently (classes, type hints, requests, async) and writes real scripts/packages from scratch (textutils package); models async/await from first principles (six-operation event loop); known gap: authoring decorators from scratch |
+| **Concrete skills** | HTTP/JSON API scripting with requests (3-layer error handling); OOP; modules/packages/import system (built textutils package); venv/pip; file I/O + exceptions; type annotations; async/await from first principles (generators → coroutines, event-loop scheduling simulation, gather); dict/list comprehensions |
+| **Hours invested** | ~14 hours |
+| **Completion** | 95% (all 5 MISSION criteria met; 10/11 lessons + async/await mastered; decorators writing deliberately deferred) |
+| **Key evidence** | `learning-records/0011-async-mastered.md`; `NOTES.md`; `reference/async-first-principles.html`; `textutils/cleaning.py` |
+
+### teach-social-resources (Social Resources)
+| Field | Detail |
+|---|---|
+| **Domain** | Theory-layer conceptual model of social resources (connections, channels, platforms, endorsements, information) as a system, to be deployed strategically at PKU from Sep 2026 |
+| **Skill level** | Beginner-intermediate — recalls a 5-subsystem taxonomy from memory; independently formalizes node/edge (connection/channel) models beyond the lesson-1 passing bar; applying the theory to own 36 contacts still pending |
+| **Concrete skills** | Recalls structured 5-subsystem taxonomy from memory; models social structure as a graph (node = connection, edge = channel); decomposes connection value into position × willingness-to-activate; independently derives unifying formalizations (directed connection graph; channel as state→state transform); reasons about when to formalize vs. stay enumerative |
+| **Hours invested** | ~6 hours (created 2026-08-12, two sessions) |
+| **Completion** | 20% (1 of 6 cycle-1 steps complete; Lesson 0002 written but passing criteria pending; Practice 0005 and Exam 0006 to come) |
+| **Key evidence** | `lessons/0001-social-resources-full-map.html`; `learning-records/0001-five-subsystem-map-internalized.md`; `reference/glossary.html` |
 
 ### teach-technical-terms (Technical Vocabulary)
 | Field | Detail |
 |---|---|
-| **Domain** | Technical terminology — API design, web architecture, protocols, tool design |
-| **Skill level** | Intermediate — extracted ~235 terms from 6 courses, learned 4 new frontier topics |
-| **Concrete skills** | Vocabulary extraction and clustering (235 terms across 9 semantic clusters); semantic proximity ordering for curriculum design; MCP protocol architecture (Host/Client/Server, JSON-RPC); frontend/backend architecture (SPA vs MPA, SSR); REST API design (resources + HTTP verbs, statelessness); MCP tool design (processing boundary, granularity, context budget) |
-| **Hours invested** | ~8-10 hours |
-| **Completion** | ~40% (4 lessons complete; 8 frontier directions identified; ~235 terms banked) |
-| **Key evidence** | `reference/glossary.html` (68 KB) — comprehensive vocabulary bank with course provenance tags; `reference/semantic-map.html` — visual map of known territory vs. 8 frontier directions; `learning-records/0002-vocabulary-bank-established.md` — extraction methodology |
+| **Domain** | Workplace technical vocabulary for an intern — glossary bank + semantic-proximity learning of tech terms |
+| **Skill level** | Beginner-to-Intermediate — explains MCP Host/Client/Server split, REST vs JSON-RPC, and SPA/SSR vs full-stack from memory; built on 6 prior self-study courses (Agent, RAG, Python, DB, Hermes, LangGraph) |
+| **Concrete skills** | MCP architecture from memory (Host/Client/Server, JSON-RPC, Tools/Resources/Prompts); REST vs JSON-RPC paradigms and HTTP status categories; frontend/backend split, SPA vs SSR; MCP tool granularity (processing boundary + context-budget reasoning); extracted ~235-term glossary into 9 semantic clusters |
+| **Hours invested** | ~4 hours (one intensive session 2026-07-28) |
+| **Completion** | 20% (glossary criterion met — ~235 terms, 9 clusters; 4 lessons delivered: MCP → API Design frontier; 8 more frontier directions identified) |
+| **Key evidence** | `lessons/0001-mcp-protocol.html`; `lessons/0004-tool-design.html`; `reference/glossary.html` (68 KB); `learning-records/0005-lesson-0001-completed.md` |
 
 ### teach-x1 (AI Industry Value Chain)
 | Field | Detail |
 |---|---|
-| **Domain** | AI industry analysis — semiconductor manufacturing, GPU economics, model training costs, downstream applications, bottleneck theory |
-| **Skill level** | Advanced (analytical) — self-derived 3 theoretical insights (graph model, dual-graph duality, unified mixed-graph) |
-| **Concrete skills** | Built comprehensive 67-company entity inventory across 5 layers; 58-row input-output transformation table; 10-step semiconductor chain with cost breakdowns; profit pool mapping (upstream 73% gross margin); independently discovered dual-graph representation (company graph + material graph are projections of one unified mixed graph); reformulated bottleneck analysis as supply-demand dynamics, not graph structural property |
-| **Hours invested** | ~15-20 hours |
-| **Completion** | ~50% (4 concept lessons complete; practice lesson, exam, entrepreneurial entry analysis pending) |
-| **Key evidence** | `learning-records/0001-value-chain-as-directed-graph.md` — bottleneck invisibility in static graphs; `learning-records/0002-dual-graphs-companies-vs-materials.md` — duality discovery; `learning-records/0003-mixed-graph-unified-model.md` — unified graph with only 2 edge types; `reference/value-chain-map.md` — dense single-page reference with bottleneck migration timeline and inverted value chain comparison |
+| **Domain** | AI industry value chain (upstream/midstream/downstream) analysis to identify a defensible startup niche — the declared core freshman-year task |
+| **Skill level** | Advanced (analytical) — independently derived a dual-graph duality (company-consumer vs material-service) and a unified mixed-graph abstraction for industry-chain analysis; PKU math-department background |
+| **Concrete skills** | Formal graph-theoretic modeling of a value chain (topology-defined layers); dual-graph analysis to locate bottleneck/pricing-power nodes; bottleneck analysis via edge capacity, path-equivalence, supply-demand growth-rate differentials; unified mixed-graph model (2 node types, layer projection); deep mapping of the AI chain (58+ companies, 6 consumer types, 24 materials, 31 services); synthesizing primary research into quantified cheat-sheets; interactive HTML visualizations |
+| **Hours invested** | ~5 hours (single substantive session 2026-08-05) |
+| **Completion** | 40% (4/4 concept lessons + 3 learning records; practice lesson 0005, three-tier exam, and entrepreneurial-entry analysis pending) |
+| **Key evidence** | `learning-records/0002-dual-graphs-companies-vs-materials.md`; `learning-records/0003-mixed-graph-unified-model.md`; `reference/company-transformation-table.md`; `reference/value-chain-map.md` |
 
 ---
 
@@ -225,42 +246,44 @@
 
 | Sub-domain | Level | Source Projects | Evidence Summary |
 |---|---|---|---|
-| **Python** | Intermediate | cs61a, runoob-python, hermes-agent, langgraph-agent, openclaw-companion, RAG | Writes complete agents from memory; type annotations, async/await, FastAPI CRUD, SQLAlchemy ORM, Pydantic v2, MCP protocol implementation. |
-| **Git/GitHub** | Late beginner | github-learning | ~40 commands fluent; deep conceptual model (layered architecture, 3 pointer sets). |
-| **Databases/SQL** | Intermediate | database, hermes-agent, openclaw-companion | SELECT/JOIN/GROUP BY from memory; FTS5; EXPLAIN QUERY PLAN; SQLAlchemy async ORM. |
-| **CS Fundamentals** | Intermediate | cs61a | Recursion, HOFs, closures, trees, OOP, iterators/generators, environment diagrams. Created original Portal Model. |
+| **Python** | Intermediate | cs61a, runoob-python, hermes-agent, langgraph-agent, openclaw-companion, RAG | Writes complete agents from scratch; async/await from first principles; FastAPI CRUD, async SQLAlchemy, Pydantic v2, MCP protocol implementation. |
+| **Git/GitHub** | Late beginner | github-learning | ~40 commands fluent; layered-architecture mental model (two areas, one graph, three pointer sets). |
+| **Databases/SQL** | Intermediate | database, hermes-agent, openclaw-companion | SELECT/JOIN/GROUP BY from memory; FTS5 virtual tables; EXPLAIN QUERY PLAN; async SQLAlchemy ORM. |
+| **CS Fundamentals** | Intermediate | cs61a | Recursion, HOFs, closures, trees, OOP, iterators/generators, environment diagrams; created original Portal Model. |
 | **Backend Development** | Intermediate | openclaw-companion, langgraph-agent | FastAPI, async SQLAlchemy, SSE streaming, MCP JSON-RPC, asyncio subprocess management. |
-| **CS Theory** | Beginner | hermes-agent (identified gaps) | Regex, state machines, threads identified as prerequisite gaps. Process/PID, event loop internals, TCP socket layer — flagged for future CS foundations. |
+| **Frontend/HTML** | Intermediate | HTML, technical-terms | Semantic HTML5 multi-page sites from memory; forms mapped to HTTP; SVG vs Canvas; SPA/SSR concepts. |
+| **CS Theory** | Beginner | hermes-agent | Regex, state machines, threads identified as prerequisite gaps; event loop internals. |
 
 ### AI/ML
 
 | Sub-domain | Level | Source Projects | Evidence Summary |
 |---|---|---|---|
-| **AI Agents** | Intermediate-Advanced | Agent, hermes-agent, langgraph-agent, RAG | ReAct loop, tool calling protocol, guardrails, 4-layer debugging; Hermes 40K-line codebase traced; LangGraph StateGraph from memory; built cron scheduler from scratch. |
-| **RAG** | Intermediate | RAG | Full pipeline implementation; embedding/vector search/chunking; 4 failure modes with fixes. |
-| **Deep Learning Theory** | Advanced (analytical) | deep-learning-book, andrej-karpathy-zero-to-hero | Linear algebra, probability, optimization, ML basics — restructured into novel architectures. MLE equivalence chain. Autograd/backprop from first principles. |
-| **Deep Learning Practice** | Beginner | pytorch, andrej-karpathy-zero-to-hero, mit-6s184 | Tensor basics only; autograd blocked; no training loops, no GPU usage, no model architectures built. |
-| **PyTorch** | Beginner | pytorch | Tensor creation/manipulation; autograd partially done. |
-| **Diffusion Models** | Pre-beginner | mit-6s184 | Prerequisite gap identified (probability). No content attempted. |
-| **AI Industry Analysis** | Advanced (analytical) | x1 | Full value chain modeled; dual-graph theory; bottleneck dynamics; 67-company inventory with financial data. |
+| **AI Agents** | Intermediate-Advanced | Agent, hermes-agent, langgraph-agent, RAG | ReAct loop, tool-calling protocol, 4-layer debugging; Hermes 40K-line codebase traced; LangGraph StateGraph from memory; cron scheduler from scratch. |
+| **RAG** | Intermediate | RAG | Full pipeline implementation; embeddings/vector search/chunking; 4 failure modes with fixes. |
+| **Deep Learning Theory** | Advanced (analytical) | deep-learning-book, andrej-karpathy | Linear algebra, probability, optimization, ML basics — restructured into novel architectures; MLE equivalence chain; autograd/backprop from first principles. |
+| **Deep Learning Practice** | Beginner | pytorch, andrej-karpathy, mit-6s184 | Tensor basics only; autograd blocked; no training loops, no GPU usage, no model architectures built. |
+| **Diffusion Models** | Pre-beginner | mit-6s184 | Prerequisite gap (probability) identified; no content attempted. |
+| **AI Industry Analysis** | Advanced (analytical) | x1 | Full value chain modeled; dual-graph theory; bottleneck dynamics; 58+ company inventory with financial data. |
 
 ### Academic
 
 | Sub-domain | Level | Source Projects | Evidence Summary |
 |---|---|---|---|
-| **Economics** | Intermediate | naked-economics | Deep analysis of information economics (Chapter 5); 50+ linked entities in broader knowledge graph; connected to microeconomics fundamentals. |
-| **CPA Law (Chinese)** | Intermediate beginner | CPA-JJF | 5 chapters complete; legal concept taxonomy; curriculum restructuring. |
+| **Economics** | Intermediate | naked-economics | Deep analysis of information economics (Ch5); bilingual 3-layer structural analysis of 157 sentences. |
+| **World Systems / Markets** | Intermediate | hello-world | Unified six-dimension market model; A/B/C analysis protocol on polysilicon/wafer cases; counterfactual prediction design. |
+| **CPA Law (Chinese)** | Advanced beginner | CPA-JJF | 6-step legal scenario decomposition; law-as-OOP-model; 5 chapters of a redesigned 28-lesson curriculum. |
 | **Physics** | Pre-beginner | physics | Methodology research only; no content executed. |
-| **University Strategy** | Exceptional | pku-freshman-prep | Graduate-level systems thinking applied to university life. Bayesian optimization, POMDP, control theory applied in practice. |
+| **University Strategy** | Exceptional | pku-freshman-prep | Graduate-level systems thinking; ~46-object unified model; Bayesian optimization, POMDP, control theory applied in practice. |
 
 ### Meta-learning & Communication
 
 | Sub-domain | Level | Source Projects | Evidence Summary |
 |---|---|---|---|
-| **English (L2)** | Early intermediate | english-learning | CEFR A2-B1; 200-word articles; Lv.1-2 conversation; strong technical vocabulary; SLA methodology knowledge. |
-| **Technical Vocabulary** | Intermediate | technical-terms | ~235 terms extracted into 9 clusters; 4 frontier topics learned; MCP, REST, frontend/backend, tool design. |
-| **Knowledge Modeling** | Advanced | pku-freshman-prep, deep-learning-book, naked-economics, x1 | Reusable pattern: extract invariant model structure from any domain. 5-step lesson extraction pipeline. Rejection of technique memorization in favor of model extraction. |
-| **Instructional Design** | Strong | Agent, RAG, database, runoob-python, hermes-agent, langgraph-agent, technical-terms, x1 | 8+ curricula designed (for AI teacher persona); consistent methodology: progressive disclosure, criterion-referenced assessment, hands-on practice, learning record journaling. |
+| **English (L2)** | Early intermediate | english-learning | CEFR A2-B1; collaborative conversation model; SLA methodology knowledge. |
+| **Technical Vocabulary** | Intermediate | technical-terms | ~235 terms in 9 clusters; MCP, REST, frontend/backend, tool design concepts. |
+| **Social Resource Modeling** | Beginner-intermediate | social-resources | 5-subsystem taxonomy from memory; node/edge (connection/channel) formalization. |
+| **Knowledge Modeling** | Advanced | pku-freshman-prep, deep-learning-book, naked-economics, x1, hello-world, social-resources | Reusable pattern: extract invariant model structure from any domain. 5-step lesson extraction pipeline. |
+| **Instructional Design** | Strong | Agent, RAG, database, runoob-python, hermes-agent, langgraph-agent, HTML, technical-terms, x1, hello-world | 10+ curricula designed (for AI teacher persona); consistent methodology: progressive disclosure, criterion-referenced assessment, hands-on practice, learning record journaling. |
 
 ---
 
@@ -268,25 +291,27 @@
 
 Rows = skill areas. Columns = contributing projects. Values = contribution level (1 = foundational exposure, 2 = developing, 3 = proficient, 4 = advanced, 5 = exceptional).
 
-| Skill Area | cs61a | runoob | database | github | Agent | RAG | hermes | langgraph | openclaw | dl-book | karpathy | pytorch | CPA | econ | english | physics | mit-6s184 | pku | terms | x1 | **Composite** |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Python | 3 | 4 | 1 | — | 2 | 3 | 3 | 3 | 4 | — | — | 1 | — | — | — | — | — | — | — | — | **4 (Intermediate)** |
-| Git | — | — | — | 3 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | **3** |
-| SQL/Databases | — | — | 4 | — | — | — | 3 | — | 3 | — | — | — | — | — | — | — | — | — | — | — | **4 (Intermediate)** |
-| CS Fundamentals | 4 | 2 | — | — | — | — | 1 | 1 | 2 | — | — | — | — | — | — | — | — | — | — | — | **4 (Intermediate)** |
-| Backend Dev | — | 1 | — | — | — | 1 | 1 | 2 | 4 | — | — | — | — | — | — | — | — | — | — | — | **4 (Intermediate)** |
-| AI Agents | — | — | — | — | 4 | — | 4 | 4 | 3 | — | — | — | — | — | — | — | — | — | — | — | **4 (Advanced)** |
-| RAG | — | — | — | — | — | 4 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | **4** |
-| DL Theory | — | — | — | — | — | — | — | — | — | 5 | 2 | — | — | — | — | — | — | — | — | — | **5 (Exceptional)** |
-| DL Practice | — | — | — | — | — | — | — | — | — | — | 1 | 1 | — | — | — | — | 0 | — | — | — | **1 (Beginner)** |
-| AI Industry | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | 4 | **4 (Advanced)** |
-| Economics | — | — | — | — | — | — | — | — | — | — | — | — | — | 4 | — | — | — | — | — | — | **4 (Intermediate)** |
-| CPA Law | — | — | — | — | — | — | — | — | — | — | — | — | 3 | — | — | — | — | — | — | — | **3** |
-| English | — | — | — | — | — | — | — | — | — | — | — | — | — | — | 3 | — | — | — | — | — | **3** |
-| Technical Vocab | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | 4 | — | **4** |
-| Systems Thinking | — | — | — | — | — | — | — | — | — | 4 | — | — | — | 3 | — | — | — | 5 | — | 5 | **5 (Exceptional)** |
-| Meta-learning | 2 | 3 | 3 | 2 | 3 | 3 | 4 | 4 | 4 | 5 | 2 | 2 | 2 | 3 | 4 | 2 | 2 | 5 | 3 | 4 | **5 (Exceptional)** |
-| Instructional Design | — | 3 | 4 | — | 4 | 4 | 4 | 4 | — | — | — | — | — | — | — | — | — | 5 | 4 | 4 | **5 (Exceptional)** |
+| Skill Area | cs61a | runoob | database | github | Agent | RAG | hermes | langgraph | openclaw | HTML | dl-book | karpathy | pytorch | CPA | econ | hello-world | english | physics | mit-6s184 | pku | terms | social-resources | x1 | **Composite** |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Python | 3 | 4 | 1 | — | 2 | 3 | 3 | 3 | 4 | — | — | 1 | 1 | — | — | — | — | — | — | — | — | — | — | **4 (Intermediate)** |
+| Git | — | — | — | 3 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | **3** |
+| SQL/Databases | — | — | 4 | — | — | — | 3 | — | 3 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | **4 (Intermediate)** |
+| CS Fundamentals | 4 | 2 | — | — | — | — | 1 | 1 | 2 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | **4 (Intermediate)** |
+| Backend Dev | — | 1 | — | — | — | 1 | 1 | 2 | 4 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | **4 (Intermediate)** |
+| Frontend/HTML | — | — | — | — | — | — | — | — | — | 3 | — | — | — | — | — | — | — | — | — | — | 2 | — | — | **3 (Intermediate)** |
+| AI Agents | — | — | — | — | 4 | — | 4 | 4 | 3 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | **4 (Advanced)** |
+| RAG | — | — | — | — | — | 4 | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | **4** |
+| DL Theory | — | — | — | — | — | — | — | — | — | — | 5 | 2 | — | — | — | — | — | — | — | — | — | — | — | **5 (Exceptional)** |
+| DL Practice | — | — | — | — | — | — | — | — | — | — | — | 1 | 1 | — | — | — | — | — | 1 | — | — | — | — | **1 (Beginner)** |
+| AI Industry | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | 4 | **4 (Advanced)** |
+| Economics | — | — | — | — | — | — | — | — | — | — | — | — | — | — | 4 | — | — | — | — | — | — | — | — | **4 (Intermediate)** |
+| Markets & World Systems | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | 3 | — | — | — | — | — | — | — | **3 (Intermediate)** |
+| CPA Law | — | — | — | — | — | — | — | — | — | — | — | — | — | 3 | — | — | — | — | — | — | — | — | — | **3** |
+| English | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | 3 | — | — | — | — | — | — | **3** |
+| Technical Vocab | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | 4 | — | — | **4** |
+| Systems Thinking | — | — | — | — | — | — | — | — | — | — | 4 | — | — | — | 3 | 4 | — | — | — | 5 | — | 3 | 5 | **5 (Exceptional)** |
+| Meta-learning | 2 | 3 | 3 | 2 | 3 | 3 | 4 | 4 | 4 | 2 | 5 | 2 | 2 | 3 | 3 | 3 | 4 | 2 | 2 | 5 | 3 | 3 | 4 | **5 (Exceptional)** |
+| Instructional Design | — | 3 | 4 | — | 4 | 4 | 4 | 4 | — | 4 | — | — | — | — | — | 4 | — | — | — | 5 | 4 | 3 | 4 | **5 (Exceptional)** |
 
 **"Exceptional" defined as:** Producing original theoretical insights, novel frameworks, or graduate-level analysis beyond what the learning materials themselves contain. Meta-cognitive sophistication that distinguishes expert learners.
 
@@ -295,18 +320,20 @@ Rows = skill areas. Columns = contributing projects. Values = contribution level
 ## Project Status Summary
 
 ```
-ACTIVE (4):    langgraph-agent (60%), openclaw-companion (50%),
-               x1 (50%), technical-terms (40%)
-PAUSED (12):   pku-freshman-prep (90%), runoob-python (85%),
-               hermes-agent (75%), github-learning (51%),
-               CPA-JJF (25%), deep-learning-book (17%),
-               andrej-karpathy (13%), pytorch (11%),
-               naked-economics (7%), mit-6s184 (0%),
-               physics (0%), hello-world (0%)
-COMPLETE (5):  Agent, RAG, database, cs61a, english-learning (ongoing)
+COMPLETE (5):   Agent (100%), database (100%), HTML (100%),
+                RAG (100%), runoob-python (95%)
+ACTIVE (12):    langgraph-agent (80%), pku-freshman-prep (80%),
+                github-learning (51%), openclaw-companion (50%),
+                hello-world (45%), x1 (40%), cs61a (30%),
+                english-learning (20%), social-resources (20%),
+                technical-terms (20%), deep-learning-book (17%),
+                CPA-JJF (15%)
+PAUSED (6):     hermes-agent (75%), andrej-karpathy (13%),
+                pytorch (11%), naked-economics (7%),
+                mit-6s184 (2%), physics (0%)
 ```
 
-**Total estimated hours:** ~320-420
-**Projects complete:** 5 of 21 (24%)
-**Projects with active progress:** 4 of 21 (19%)
-**Most hours in:** openclaw-companion (~45h), cs61a (~70h), deep-learning-book (~35h), pku-freshman-prep (~35h)
+**Total estimated hours:** ~269
+**Projects complete:** 5 of 23 (22%)
+**Projects with active progress:** 12 of 23 (52%)
+**Most hours in:** cs61a (~30h), openclaw-companion (~30h), pku-freshman-prep (~30h), hermes-agent (~20h), deep-learning-book (~16h), github-learning (~15h), naked-economics (~15h), runoob-python (~14h)
