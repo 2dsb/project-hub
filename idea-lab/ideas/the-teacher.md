@@ -40,6 +40,8 @@ connections:
     slug: "liberal-education-and-the-zettelkasten"  # auto, review: 0.521
   - type: idea
     slug: "liberal-arts-perspective-on-the-execution-line"  # auto, review: 0.503
+  - type: idea
+    slug: "empirical-observations-latent-value"  # auto, review: 0.539
 ---
 In [Liberal Arts Education and Art](../ideas/liberal-arts-education-and-art.md), the purpose of liberal arts education is to cultivate students' proficiency in "the process of knowledge production," enabling them to think across time and space — and the teacher is the key to achieving this goal.
 

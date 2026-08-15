@@ -9,7 +9,7 @@ tags:
 - economic-methodology
 summary: "Economics is a science that follows the scientific method by proposing a theory, collecting historical data, analyzing it, and testing the theory, such that theory explains observations and observations test theory. The data observed are natural data provided by history. Assumptions simplify complex realities to make them easier to explain, and models built upon those assumptions are the means of describing theories."
 body_hash: "d0a48eb9"
-importance: 5.43  # auto
+importance: 5.44  # auto
 connections:
 - type: permanent
   slug: 微观经济学原理c2.1.1

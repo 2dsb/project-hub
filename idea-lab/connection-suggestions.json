@@ -4,33 +4,48 @@
   "min_score": 0.5,
   "max_candidates": 20,
   "generated": "2026-08-01",
-  "total_ideas": 202,
-  "ideas_with_suggestions": 28,
-  "total_suggestions": 61,
+  "total_ideas": 208,
+  "ideas_with_suggestions": 14,
+  "total_suggestions": 45,
   "stats": {
     "suggestion_count_distribution": {
-      "0": 174,
-      "1": 13,
-      "2": 9,
-      "3": 4,
-      "4": 1,
-      "14": 1
+      "0": 194,
+      "1": 9,
+      "2": 1,
+      "4": 2,
+      "11": 1,
+      "15": 1
     },
     "score_range": {
-      "min": 0.5011,
-      "max": 0.71,
-      "avg": 0.5646
+      "min": 0.5002,
+      "max": 0.6245,
+      "avg": 0.5475
     }
   },
   "suggestions": [
     {
-      "slug": "anki-for-english-conversation",
-      "title": "Anki Cards from English Conversations — Active Memory Maintenance",
+      "slug": "async-work-mode",
+      "title": "Async Work Mode — Overlap Tasks Instead of Idling While You Wait",
       "suggestions": [
+        {
+          "slug": "attention-as-bottleneck",
+          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
+          "score": 0.546
+        },
         {
           "slug": "low-occupancy-segment-reflection",
           "title": "Opportunistic Reflection During Low-Occupancy Segments — Free Consolidation of Recent Deep Work",
-          "score": 0.5198
+          "score": 0.5377
+        },
+        {
+          "slug": "timeline-based-project-structure",
+          "title": "Timeline-Based Project Structure",
+          "score": 0.5356
+        },
+        {
+          "slug": "efficiency-formula",
+          "title": "The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates",
+          "score": 0.5036
         }
       ]
     },
@@ -39,133 +54,84 @@
       "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
       "suggestions": [
         {
-          "slug": "low-occupancy-segment-reflection",
-          "title": "Opportunistic Reflection During Low-Occupancy Segments — Free Consolidation of Recent Deep Work",
-          "score": 0.671
-        }
-      ]
-    },
-    {
-      "slug": "completion-vs-quitting",
-      "title": "Completion vs. Quitting",
-      "suggestions": [
-        {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.5247
-        }
-      ]
-    },
-    {
-      "slug": "deep-work-recovery-cycle",
-      "title": "Deep-Work Recovery Cycle — Physical Constraint on Project Dynamics",
-      "suggestions": [
-        {
-          "slug": "low-occupancy-segment-reflection",
-          "title": "Opportunistic Reflection During Low-Occupancy Segments — Free Consolidation of Recent Deep Work",
-          "score": 0.543
-        }
-      ]
-    },
-    {
-      "slug": "enumerative-as-scaffold-for-generative",
-      "title": "Enumerative Taxonomy as Deliberate Scaffold for Generative Derivation",
-      "suggestions": [
-        {
           "slug": "teach-task-volume-scaling",
           "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
-          "score": 0.569
-        },
-        {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.5198
-        }
-      ]
-    },
-    {
-      "slug": "freedom-exploration-generator",
-      "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
-      "suggestions": [
-        {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.548
-        }
-      ]
-    },
-    {
-      "slug": "goal-singularity",
-      "title": "Goal Singularity",
-      "suggestions": [
-        {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.5611
-        },
-        {
-          "slug": "teach-task-volume-scaling",
-          "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
-          "score": 0.5138
-        }
-      ]
-    },
-    {
-      "slug": "hermeneutic-circle-learning",
-      "title": "Hermeneutic Circle as Learning Macro-Structure",
-      "suggestions": [
-        {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.5366
-        },
-        {
-          "slug": "teach-task-volume-scaling",
-          "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
-          "score": 0.5167
-        }
-      ]
-    },
-    {
-      "slug": "integrating-fragmented-life-strategies",
-      "title": "Integrating Fragmented Life Strategies",
-      "suggestions": [
-        {
-          "slug": "low-occupancy-segment-reflection",
-          "title": "Opportunistic Reflection During Low-Occupancy Segments — Free Consolidation of Recent Deep Work",
-          "score": 0.5426
-        }
-      ]
-    },
-    {
-      "slug": "knowledge-mastery-two-axis-model",
-      "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
-      "suggestions": [
-        {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.5739
-        }
-      ]
-    },
-    {
-      "slug": "learning-dynamics",
-      "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
-      "suggestions": [
-        {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.5718
+          "score": 0.6055
         },
         {
           "slug": "occupancy-pair-scheduling",
           "title": "Occupancy-Pair Scheduling — a Recursive Instance of the Optimal-Curve Problem",
-          "score": 0.5161
+          "score": 0.5675
         },
         {
-          "slug": "teach-task-volume-scaling",
-          "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
-          "score": 0.5082
+          "slug": "async-work-mode",
+          "title": "Async Work Mode — Overlap Tasks Instead of Idling While You Wait",
+          "score": 0.546
+        },
+        {
+          "slug": "practice-necessity-willingness-tradeoff",
+          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
+          "score": 0.5439
+        }
+      ]
+    },
+    {
+      "slug": "efficiency-formula",
+      "title": "The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates",
+      "suggestions": [
+        {
+          "slug": "async-work-mode",
+          "title": "Async Work Mode — Overlap Tasks Instead of Idling While You Wait",
+          "score": 0.5036
+        }
+      ]
+    },
+    {
+      "slug": "empirical-observations-latent-value",
+      "title": "Empirical Observations Carry Latent Value — Don't Discard Them for Not Fitting Current Theory",
+      "suggestions": [
+        {
+          "slug": "the-teacher",
+          "title": "The Teacher",
+          "score": 0.5389
+        },
+        {
+          "slug": "explaining-excellent-sheep-with-theory",
+          "title": "Explaining \"Excellent Sheep\" 9.11 Using Learned Theories",
+          "score": 0.5136
+        }
+      ]
+    },
+    {
+      "slug": "explaining-excellent-sheep-with-theory",
+      "title": "Explaining \"Excellent Sheep\" 9.11 Using Learned Theories",
+      "suggestions": [
+        {
+          "slug": "empirical-observations-latent-value",
+          "title": "Empirical Observations Carry Latent Value — Don't Discard Them for Not Fitting Current Theory",
+          "score": 0.5136
+        }
+      ]
+    },
+    {
+      "slug": "four-step-networking-method",
+      "title": "The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up",
+      "suggestions": [
+        {
+          "slug": "framework-as-community-core",
+          "title": "Framework-as-Core: Building a Community Around the Social-Resources Decomposition",
+          "score": 0.6245
+        }
+      ]
+    },
+    {
+      "slug": "framework-as-community-core",
+      "title": "Framework-as-Core: Building a Community Around the Social-Resources Decomposition",
+      "suggestions": [
+        {
+          "slug": "four-step-networking-method",
+          "title": "The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up",
+          "score": 0.6245
         }
       ]
     },
@@ -174,52 +140,9 @@
       "title": "Learning Method v2 — Two-Axis Mastery Cycle with Decay-Aware Maintenance",
       "suggestions": [
         {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.71
-        },
-        {
-          "slug": "teach-task-volume-scaling",
-          "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
-          "score": 0.6647
-        }
-      ]
-    },
-    {
-      "slug": "learning-pipeline",
-      "title": "Learning Pipeline",
-      "suggestions": [
-        {
-          "slug": "teach-task-volume-scaling",
-          "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
-          "score": 0.5379
-        },
-        {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.5028
-        }
-      ]
-    },
-    {
-      "slug": "leverage-existing-vs-build-from-scratch",
-      "title": "Leverage Existing Solutions vs. Build from Scratch — A Decision System Axis",
-      "suggestions": [
-        {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.574
-        }
-      ]
-    },
-    {
-      "slug": "low-energy-ideation",
-      "title": "Idea Generation in Low-Energy States",
-      "suggestions": [
-        {
-          "slug": "low-occupancy-segment-reflection",
-          "title": "Opportunistic Reflection During Low-Occupancy Segments — Free Consolidation of Recent Deep Work",
-          "score": 0.5896
+          "slug": "occupancy-pair-scheduling",
+          "title": "Occupancy-Pair Scheduling — a Recursive Instance of the Optimal-Curve Problem",
+          "score": 0.5563
         }
       ]
     },
@@ -228,88 +151,70 @@
       "title": "Opportunistic Reflection During Low-Occupancy Segments — Free Consolidation of Recent Deep Work",
       "suggestions": [
         {
-          "slug": "attention-as-bottleneck",
-          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
-          "score": 0.671
-        }
-      ]
-    },
-    {
-      "slug": "memorization-in-pipeline",
-      "title": "Memorization in the Learning Pipeline",
-      "suggestions": [
-        {
-          "slug": "teach-task-volume-scaling",
-          "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
-          "score": 0.5457
+          "slug": "low-energy-ideation",
+          "title": "Idea Generation in Low-Energy States",
+          "score": 0.5896
         },
         {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.5167
-        }
-      ]
-    },
-    {
-      "slug": "occupancy-pair-scheduling",
-      "title": "Occupancy-Pair Scheduling — a Recursive Instance of the Optimal-Curve Problem",
-      "suggestions": [
-        {
-          "slug": "attention-as-bottleneck",
-          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
-          "score": 0.5675
+          "slug": "willingness-experiment",
+          "title": "Willingness Experiment: Continue vs. Switch",
+          "score": 0.577
         },
         {
-          "slug": "learning-method-v2",
-          "title": "Learning Method v2 — Two-Axis Mastery Cycle with Decay-Aware Maintenance",
-          "score": 0.5563
+          "slug": "timeline-based-project-structure",
+          "title": "Timeline-Based Project Structure",
+          "score": 0.5643
         },
         {
           "slug": "three-mental-resources",
           "title": "The Three Mental Resources",
-          "score": 0.5339
+          "score": 0.5542
         },
         {
-          "slug": "learning-dynamics",
-          "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
-          "score": 0.5161
-        }
-      ]
-    },
-    {
-      "slug": "pass-criteria-as-curriculum-design",
-      "title": "Pass Criteria as a First-Class Curriculum Design Element",
-      "suggestions": [
-        {
-          "slug": "teach-task-volume-scaling",
-          "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
-          "score": 0.5926
+          "slug": "deep-work-recovery-cycle",
+          "title": "Deep-Work Recovery Cycle — Physical Constraint on Project Dynamics",
+          "score": 0.543
         },
         {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.5774
-        }
-      ]
-    },
-    {
-      "slug": "practice-as-learning-purpose",
-      "title": "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness",
-      "suggestions": [
+          "slug": "integrating-fragmented-life-strategies",
+          "title": "Integrating Fragmented Life Strategies",
+          "score": 0.5426
+        },
         {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.5706
+          "slug": "async-work-mode",
+          "title": "Async Work Mode — Overlap Tasks Instead of Idling While You Wait",
+          "score": 0.5377
         },
         {
           "slug": "teach-task-volume-scaling",
           "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
-          "score": 0.534
+          "score": 0.5324
         },
         {
-          "slug": "low-occupancy-segment-reflection",
-          "title": "Opportunistic Reflection During Low-Occupancy Segments — Free Consolidation of Recent Deep Work",
+          "slug": "anki-for-english-conversation",
+          "title": "Anki Cards from English Conversations — Active Memory Maintenance",
+          "score": 0.5198
+        },
+        {
+          "slug": "practice-as-learning-purpose",
+          "title": "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness",
           "score": 0.5011
+        },
+        {
+          "slug": "practice-necessity-willingness-tradeoff",
+          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
+          "score": 0.5002
+        }
+      ]
+    },
+    {
+      "slug": "math-to-ai-phd-learning-path",
+      "title": "The Math-to-AI-PhD Learning Path",
+      "suggestions": [
+        {
+          "slug": "university-two-pillar-strategy",
+          "title": "University Four-Year Strategy: Two Pillars, Run in Parallel",
+          "score": 0.5311
         }
       ]
     },
@@ -318,144 +223,90 @@
       "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
       "suggestions": [
         {
-          "slug": "learning-method-v2",
-          "title": "Learning Method v2 — Two-Axis Mastery Cycle with Decay-Aware Maintenance",
-          "score": 0.71
-        }
-      ]
-    },
-    {
-      "slug": "success-interrogation-heuristic",
-      "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
-      "suggestions": [
-        {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.5013
-        }
-      ]
-    },
-    {
-      "slug": "system-coevolution",
-      "title": "System-Human Coevolution",
-      "suggestions": [
-        {
-          "slug": "timeline-based-project-structure",
-          "title": "Timeline-Based Project Structure",
-          "score": 0.6486
-        }
-      ]
-    },
-    {
-      "slug": "teach-method-fixes",
-      "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
-      "suggestions": [
-        {
-          "slug": "teach-task-volume-scaling",
-          "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
-          "score": 0.6325
-        },
-        {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.5944
-        }
-      ]
-    },
-    {
-      "slug": "teach-task-volume-scaling",
-      "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
-      "suggestions": [
-        {
-          "slug": "learning-method-v2",
-          "title": "Learning Method v2 — Two-Axis Mastery Cycle with Decay-Aware Maintenance",
-          "score": 0.6647
-        },
-        {
           "slug": "teach-method-fixes",
           "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
-          "score": 0.6325
-        },
-        {
-          "slug": "attention-as-bottleneck",
-          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
-          "score": 0.6055
+          "score": 0.5944
         },
         {
           "slug": "pass-criteria-as-curriculum-design",
           "title": "Pass Criteria as a First-Class Curriculum Design Element",
-          "score": 0.5926
+          "score": 0.5774
         },
         {
-          "slug": "enumerative-as-scaffold-for-generative",
-          "title": "Enumerative Taxonomy as Deliberate Scaffold for Generative Derivation",
-          "score": 0.569
+          "slug": "leverage-existing-vs-build-from-scratch",
+          "title": "Leverage Existing Solutions vs. Build from Scratch — A Decision System Axis",
+          "score": 0.574
         },
         {
-          "slug": "three-mental-resources",
-          "title": "The Three Mental Resources",
-          "score": 0.5594
-        },
-        {
-          "slug": "memorization-in-pipeline",
-          "title": "Memorization in the Learning Pipeline",
-          "score": 0.5457
-        },
-        {
-          "slug": "learning-pipeline",
-          "title": "Learning Pipeline",
-          "score": 0.5379
-        },
-        {
-          "slug": "practice-as-learning-purpose",
-          "title": "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness",
-          "score": 0.534
-        },
-        {
-          "slug": "low-occupancy-segment-reflection",
-          "title": "Opportunistic Reflection During Low-Occupancy Segments — Free Consolidation of Recent Deep Work",
-          "score": 0.5324
-        },
-        {
-          "slug": "willingness-experiment",
-          "title": "Willingness Experiment: Continue vs. Switch",
-          "score": 0.5204
-        },
-        {
-          "slug": "hermeneutic-circle-learning",
-          "title": "Hermeneutic Circle as Learning Macro-Structure",
-          "score": 0.5167
-        },
-        {
-          "slug": "goal-singularity",
-          "title": "Goal Singularity",
-          "score": 0.5138
+          "slug": "knowledge-mastery-two-axis-model",
+          "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
+          "score": 0.5739
         },
         {
           "slug": "learning-dynamics",
           "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
-          "score": 0.5082
+          "score": 0.5718
+        },
+        {
+          "slug": "practice-as-learning-purpose",
+          "title": "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness",
+          "score": 0.5706
+        },
+        {
+          "slug": "willingness-experiment",
+          "title": "Willingness Experiment: Continue vs. Switch",
+          "score": 0.5635
+        },
+        {
+          "slug": "goal-singularity",
+          "title": "Goal Singularity",
+          "score": 0.5611
+        },
+        {
+          "slug": "freedom-exploration-generator",
+          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+          "score": 0.548
+        },
+        {
+          "slug": "attention-as-bottleneck",
+          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
+          "score": 0.5439
+        },
+        {
+          "slug": "hermeneutic-circle-learning",
+          "title": "Hermeneutic Circle as Learning Macro-Structure",
+          "score": 0.5366
+        },
+        {
+          "slug": "completion-vs-quitting",
+          "title": "Completion vs. Quitting",
+          "score": 0.5247
+        },
+        {
+          "slug": "enumerative-as-scaffold-for-generative",
+          "title": "Enumerative Taxonomy as Deliberate Scaffold for Generative Derivation",
+          "score": 0.5198
+        },
+        {
+          "slug": "memorization-in-pipeline",
+          "title": "Memorization in the Learning Pipeline",
+          "score": 0.5167
+        },
+        {
+          "slug": "learning-pipeline",
+          "title": "Learning Pipeline",
+          "score": 0.5028
         }
       ]
     },
     {
-      "slug": "three-mental-resources",
-      "title": "The Three Mental Resources",
+      "slug": "the-teacher",
+      "title": "The Teacher",
       "suggestions": [
         {
-          "slug": "teach-task-volume-scaling",
-          "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
-          "score": 0.5594
-        },
-        {
-          "slug": "low-occupancy-segment-reflection",
-          "title": "Opportunistic Reflection During Low-Occupancy Segments — Free Consolidation of Recent Deep Work",
-          "score": 0.5542
-        },
-        {
-          "slug": "occupancy-pair-scheduling",
-          "title": "Occupancy-Pair Scheduling — a Recursive Instance of the Optimal-Curve Problem",
-          "score": 0.5339
+          "slug": "empirical-observations-latent-value",
+          "title": "Empirical Observations Carry Latent Value — Don't Discard Them for Not Fitting Current Theory",
+          "score": 0.5389
         }
       ]
     },
@@ -464,35 +315,20 @@
       "title": "Timeline-Based Project Structure",
       "suggestions": [
         {
-          "slug": "system-coevolution",
-          "title": "System-Human Coevolution",
-          "score": 0.6486
-        },
-        {
-          "slug": "low-occupancy-segment-reflection",
-          "title": "Opportunistic Reflection During Low-Occupancy Segments — Free Consolidation of Recent Deep Work",
-          "score": 0.5643
+          "slug": "async-work-mode",
+          "title": "Async Work Mode — Overlap Tasks Instead of Idling While You Wait",
+          "score": 0.5356
         }
       ]
     },
     {
-      "slug": "willingness-experiment",
-      "title": "Willingness Experiment: Continue vs. Switch",
+      "slug": "university-two-pillar-strategy",
+      "title": "University Four-Year Strategy: Two Pillars, Run in Parallel",
       "suggestions": [
         {
-          "slug": "low-occupancy-segment-reflection",
-          "title": "Opportunistic Reflection During Low-Occupancy Segments — Free Consolidation of Recent Deep Work",
-          "score": 0.577
-        },
-        {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.5635
-        },
-        {
-          "slug": "teach-task-volume-scaling",
-          "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
-          "score": 0.5204
+          "slug": "math-to-ai-phd-learning-path",
+          "title": "The Math-to-AI-PhD Learning Path",
+          "score": 0.5311
         }
       ]
     }

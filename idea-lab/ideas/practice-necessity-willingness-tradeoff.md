@@ -18,6 +18,36 @@ connections:
     slug: "occupancy-pair-scheduling"
   - type: idea
     slug: "learning-method-v2"  # auto
+  - type: idea
+    slug: "teach-method-fixes"  # auto, review: 0.594
+  - type: idea
+    slug: "pass-criteria-as-curriculum-design"  # auto, review: 0.577
+  - type: idea
+    slug: "leverage-existing-vs-build-from-scratch"  # auto, review: 0.574
+  - type: idea
+    slug: "knowledge-mastery-two-axis-model"  # auto, review: 0.574
+  - type: idea
+    slug: "learning-dynamics"  # auto, review: 0.572
+  - type: idea
+    slug: "practice-as-learning-purpose"  # auto, review: 0.571
+  - type: idea
+    slug: "willingness-experiment"  # auto, review: 0.564
+  - type: idea
+    slug: "goal-singularity"  # auto, review: 0.561
+  - type: idea
+    slug: "freedom-exploration-generator"  # auto, review: 0.548
+  - type: idea
+    slug: "attention-as-bottleneck"  # auto, review: 0.544
+  - type: idea
+    slug: "hermeneutic-circle-learning"  # auto, review: 0.537
+  - type: idea
+    slug: "completion-vs-quitting"  # auto, review: 0.525
+  - type: idea
+    slug: "enumerative-as-scaffold-for-generative"  # auto, review: 0.520
+  - type: idea
+    slug: "memorization-in-pipeline"  # auto, review: 0.517
+  - type: idea
+    slug: "learning-pipeline"  # auto, review: 0.503
 importance: 1.56  # auto
 ---
 # The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss

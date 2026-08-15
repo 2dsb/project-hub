@@ -44,6 +44,8 @@ connections:
     slug: "timeline-based-project-structure"  # review: 0.509
   - type: idea
     slug: "transfer-high-leverage"  # review: 0.504
+  - type: idea
+    slug: "async-work-mode"  # auto, review: 0.504
 ---
 # The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates
 

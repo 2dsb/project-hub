@@ -21,6 +21,28 @@ connections:
     slug: "occupancy-pair-scheduling"
   - type: idea
     slug: "attention-as-bottleneck"  # auto
+  - type: idea
+    slug: "low-energy-ideation"  # auto, review: 0.590
+  - type: idea
+    slug: "willingness-experiment"  # auto, review: 0.577
+  - type: idea
+    slug: "timeline-based-project-structure"  # auto, review: 0.564
+  - type: idea
+    slug: "three-mental-resources"  # auto, review: 0.554
+  - type: idea
+    slug: "deep-work-recovery-cycle"  # auto, review: 0.543
+  - type: idea
+    slug: "integrating-fragmented-life-strategies"  # auto, review: 0.543
+  - type: idea
+    slug: "async-work-mode"  # auto, review: 0.538
+  - type: idea
+    slug: "teach-task-volume-scaling"  # auto, review: 0.532
+  - type: idea
+    slug: "anki-for-english-conversation"  # auto, review: 0.520
+  - type: idea
+    slug: "practice-as-learning-purpose"  # auto, review: 0.501
+  - type: idea
+    slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.500
 importance: 1.99  # auto
 ---
 # Opportunistic Reflection During Low-Occupancy Segments — Free Consolidation of Recent Deep Work

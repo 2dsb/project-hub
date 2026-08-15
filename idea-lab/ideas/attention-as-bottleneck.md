@@ -54,6 +54,14 @@ connections:
     slug: "hermeneutic-circle-learning"  # auto, review: 0.508
   - type: idea
     slug: "low-occupancy-segment-reflection"  # auto
+  - type: idea
+    slug: "teach-task-volume-scaling"  # auto
+  - type: idea
+    slug: "occupancy-pair-scheduling"  # auto, review: 0.568
+  - type: idea
+    slug: "async-work-mode"  # auto, review: 0.546
+  - type: idea
+    slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.544
 ---
 # Attention as the Bottleneck
 

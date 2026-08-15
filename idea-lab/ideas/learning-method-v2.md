@@ -54,6 +54,8 @@ connections:
     slug: "practice-necessity-willingness-tradeoff"  # auto
   - type: idea
     slug: "teach-task-volume-scaling"  # auto
+  - type: idea
+    slug: "occupancy-pair-scheduling"  # auto, review: 0.556
 ---
 # Learning Method v2
 

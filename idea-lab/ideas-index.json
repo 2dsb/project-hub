@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-12",
-  "total": 202,
+  "generated": "2026-08-15",
+  "total": 208,
   "ideas": [
     {
       "id": "idea-20260302-60cabc",
@@ -143,6 +143,21 @@
       ]
     },
     {
+      "id": "idea-20260815-advice01",
+      "title": "The Advice-Seeking Method: Prepared Angles, Then Ask for More",
+      "tags": [
+        "conversation",
+        "advice",
+        "questioning",
+        "social-skills",
+        "learning",
+        "networking"
+      ],
+      "summary": "The Advice-Seeking Method is a structured approach to asking for advice that surfaces both what you know to ask about and what you do not know to ask about. It begins by requesting advice, then moves through several prepared angles one at a time so you do not blank and each topic receives a full answer. After all prepared angles are covered, asking is there any other advice flips the frame from your questions to the other person's knowledge. A final that's it anything else acts as a cheap completeness check that squeezes out remaining advice.",
+      "importance": 0.0,
+      "connections": []
+    },
+    {
       "id": "idea-20260419-a3f7c2",
       "title": "After Sinopia Stops Buying Usonia's Treasury Bonds",
       "tags": [
@@ -181,7 +196,7 @@
         "education"
       ],
       "summary": "The core idea is to start a company that rebuilds the education industry with AI as the organizational core, not as a teaching aid bolted onto existing structures, but by redesigning education around what AI makes possible. This placeholder direction is captured early under the principle of \"capture early, evaluate later,\" based on the belief that ideas formed before full domain knowledge are less constrained by prior attempts and may point toward more novel angles.",
-      "importance": 1.74,
+      "importance": 1.7,
       "connections": [
         {
           "type": "idea",
@@ -376,6 +391,41 @@
       ]
     },
     {
+      "id": "idea-20260814-async-work-mode",
+      "title": "Async Work Mode — Overlap Tasks Instead of Idling While You Wait",
+      "tags": [
+        "time-management",
+        "productivity",
+        "async",
+        "workflow",
+        "task-overlap"
+      ],
+      "summary": "The note argues for switching from a synchronous, single-threaded work mode to an async work mode where waiting on an agent is treated like a Python coroutine that yields to other tasks. Instead of idle-waiting, use the waiting window as a slot to start the next task, draft the next piece, or drain another queue, because idle-waiting splits the day into non-overlapping working and waiting stretches with a hidden cost. The open question is how to choose gap-filling work without letting context-switching costs eat the time gain.",
+      "importance": 0.0,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "attention-as-bottleneck",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "low-occupancy-segment-reflection",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "timeline-based-project-structure",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "efficiency-formula",
+          "low_confidence": true
+        }
+      ]
+    },
+    {
       "id": "idea-20260626-attn01",
       "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
       "tags": [
@@ -508,6 +558,26 @@
           "type": "idea",
           "slug": "low-occupancy-segment-reflection",
           "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "teach-task-volume-scaling",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "occupancy-pair-scheduling",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "async-work-mode",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "practice-necessity-willingness-tradeoff",
+          "low_confidence": true
         }
       ]
     },
@@ -638,6 +708,21 @@
           "low_confidence": true
         }
       ]
+    },
+    {
+      "id": "idea-20260815-attrib01",
+      "title": "Attribution of Achievement: A Questioning Technique for Learning from Accomplished People",
+      "tags": [
+        "networking",
+        "conversation",
+        "social-skills",
+        "questioning",
+        "learning",
+        "mentorship"
+      ],
+      "summary": "Attribution of Achievement is a conversational technique for extracting insight from accomplished or promising people by repeatedly asking what they attribute their achievement to. Opening with genuine admiration lowers defenses, and the attribution question itself flatters by inviting them to narrate their own success story. Each answer is chased vertically by asking what causes each named factor, and horizontally by testing whether the list is complete up to luck, until a minimal, complete causal model emerges. The luck framing is disarming because conceding that they are only luck away makes it easier for them to identify what is not luck.",
+      "importance": 0.0,
+      "connections": []
     },
     {
       "id": "idea-20260610-ar01",
@@ -1346,7 +1431,7 @@
         "microeconomics"
       ],
       "summary": "The circular flow diagram models how money circulates between households and firms through two distinct markets, assuming only these two decision-makers. Households own the factors of production—labor, land, and capital—and sell them to firms in the factor market, while firms use these inputs to produce goods and services sold in the goods-and-services market. Money flows from households buying goods to firms, which then spend it in the factor market on wages and rent, completing the cycle back to households.",
-      "importance": 1.69,
+      "importance": 1.68,
       "connections": [
         {
           "type": "project",
@@ -1750,7 +1835,7 @@
         "supply-and-demand-theorem"
       ],
       "summary": "A competitive market consists of many buyers and sellers acting as price takers because no single participant can influence the price. The law of demand states that quantity demanded falls when price rises, and the law of supply states that quantity supplied increases when price rises. Market demand and supply curves shift due to factors like income changes, where normal goods see increased demand with higher income and inferior goods see decreased demand, or due to substitutes and complements. Equilibrium occurs at the intersection where quantity supplied equals quantity demanded, and surpluses or shortages are corrected by price adjustments per the law of supply and demand.",
-      "importance": 6.1,
+      "importance": 6.12,
       "connections": [
         {
           "type": "idea",
@@ -1959,8 +2044,8 @@
         "design-decision",
         "data-model"
       ],
-      "summary": "The contact management schema was simplified from over 12 fields to just four: name, contact, maintenance_tier (core, general, or weak), and contact_dates (a list of YYYY-MM-DD dates of active outreach or meaningful encounters). The old fields like interests, recent_updates, resources, needs, birthday, identity, and tags were overbuilt because they required constant manual maintenance and became stale, while premature categorization didn't suit a small set of contacts. The contact_dates field replaces free-text interaction logs, acting as a relationship health metric based on frequency and recency. Existing contacts will be migrated by dropping the obsolete fields.",
-      "importance": 3.58,
+      "summary": "After the CKGSB event, the contact management schema was stripped from an overbuilt twelve-plus field structure to four fields: name, contact, maintenance_tier (core, general, or weak), and contact_dates. The old fields like interests, recent_updates, resources, needs, birthday, identity, and tags demanded constant manual maintenance and became stale or premature. The contact_dates list replaces free-text interaction logs by recording every outreach or deepening encounter, making frequency and recency the relationship health metric. Existing thirty-eight classmate contacts will be migrated and the old fields dropped.",
+      "importance": 3.48,
       "connections": [
         {
           "type": "idea",
@@ -1984,7 +2069,7 @@
         "personal-data"
       ],
       "summary": "A systematic contact management system addresses the two-way information asymmetry problem—where direct and indirect resources are invisible to both sides—by recording people’s details, interests, and recent updates. Relationship maintenance is built on the principle of “cater to their interests,” using interest-based triggers like forwarding relevant content, sharing field developments, or following up on personal goals, supported by periodic reminders and a tiered effort model (core, regular, weak ties). This foundation enables monetizing the network through demand matching, information arbitrage, a skill resource pool, collaboration matchmaking, and opportunity distribution, creating triple-win value. The idea may evolve into a personal skill combining entity storage with smart, interest-aligned maintenance prompts and demand/resource matching queries.",
-      "importance": 1.74,
+      "importance": 1.7,
       "connections": [
         {
           "type": "project",
@@ -3105,7 +3190,7 @@
         "economic-methodology"
       ],
       "summary": "Economics is a science that follows the scientific method by proposing a theory, collecting historical data, analyzing it, and testing the theory, such that theory explains observations and observations test theory. The data observed are natural data provided by history. Assumptions simplify complex realities to make them easier to explain, and models built upon those assumptions are the means of describing theories.",
-      "importance": 5.43,
+      "importance": 5.44,
       "connections": [
         {
           "type": "permanent",
@@ -3353,6 +3438,11 @@
           "type": "idea",
           "slug": "transfer-high-leverage",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "async-work-mode",
+          "low_confidence": true
         }
       ]
     },
@@ -3499,6 +3589,31 @@
         {
           "type": "idea",
           "slug": "banks-venture-capital-and-government",
+          "low_confidence": true
+        }
+      ]
+    },
+    {
+      "id": "idea-20260814-empirical-observations-latent-value",
+      "title": "Empirical Observations Carry Latent Value — Don't Discard Them for Not Fitting Current Theory",
+      "tags": [
+        "epistemology",
+        "empirical-observation",
+        "theory-building",
+        "note-taking",
+        "learning-method"
+      ],
+      "summary": "While summarizing lesson 0002 in teach-social-resources, the author nearly discarded the observation that family relationships do not decay after relocation but friendships do, judging it unimportant because it did not fit the current theory. The agent showed the observation carries practical guidance for relationship-maintenance effort and latent theory that later lessons develop. Importance should not be scored on a single axis of current theoretical fit at one point in time; value is multi-axial and time-dependent. Therefore the note-taking rule is to record empirical observations anyway because they may guide practice immediately and theorize later.",
+      "importance": 0.0,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "the-teacher",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "explaining-excellent-sheep-with-theory",
           "low_confidence": true
         }
       ]
@@ -3808,6 +3923,11 @@
         {
           "type": "idea",
           "slug": "enumerative-as-scaffold-for-generative",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "empirical-observations-latent-value",
           "low_confidence": true
         }
       ]
@@ -4406,7 +4526,7 @@
         "mentorship"
       ],
       "summary": "The Networking Method structures relationship-building into five sequential steps: open with a specific, answerable compliment that invites dialogue, then establish an identity anchor to serve as a mental hook, exchange contacts while framing the ask around a genuine intent to learn, and ask a question that demonstrates prepared curiosity by targeting the space between public and insider knowledge. The method’s central argument is that the follow-up within 24 hours, which references a specific conversation point without making an immediate ask, is the essential multiplier that converts a fleeting contact into a compounding, long-term relationship.",
-      "importance": 5.33,
+      "importance": 7.0,
       "connections": [
         {
           "type": "idea",
@@ -4422,6 +4542,32 @@
           "type": "idea",
           "slug": "understanding-the-word-friend",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "framework-as-community-core",
+          "low_confidence": false
+        }
+      ]
+    },
+    {
+      "id": "idea-20260815-fwcore01",
+      "title": "Framework-as-Core: Building a Community Around the Social-Resources Decomposition",
+      "tags": [
+        "networking",
+        "community",
+        "social-capital",
+        "framework",
+        "brokerage",
+        "growth"
+      ],
+      "summary": "Use the social-resources decomposition—connections, channels, platforms, endorsements, and information—as the core framework for building and expanding a community. After good conversations, offer the mindset, show a shallow map, name the hope for long-term tie strength without active maintenance, and invite people into a group chat where members make position, channel, and platform transparent, creating tie strength that can carry information between strangers. It works because the framework is a genuine gift, transparency compounds into a standing reach map, and the organizer benefits as middleman and third-party beneficiary. The no-maintenance promise requires making tie decay common knowledge; shared awareness turns silent erosion into automatic, low-cost sustaining through group information flow.",
+      "importance": 1.6,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "four-step-networking-method",
+          "low_confidence": false
         }
       ]
     },
@@ -7329,6 +7475,11 @@
           "type": "idea",
           "slug": "teach-task-volume-scaling",
           "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "occupancy-pair-scheduling",
+          "low_confidence": true
         }
       ]
     },
@@ -8174,6 +8325,61 @@
           "type": "idea",
           "slug": "attention-as-bottleneck",
           "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "low-energy-ideation",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "willingness-experiment",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "timeline-based-project-structure",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "three-mental-resources",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "deep-work-recovery-cycle",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "integrating-fragmented-life-strategies",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "async-work-mode",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "teach-task-volume-scaling",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "anki-for-english-conversation",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "practice-as-learning-purpose",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "practice-necessity-willingness-tradeoff",
+          "low_confidence": true
         }
       ]
     },
@@ -8324,6 +8530,28 @@
         {
           "type": "idea",
           "slug": "knowledge-and-thinking-at-university",
+          "low_confidence": true
+        }
+      ]
+    },
+    {
+      "id": "idea-20260815-mathai01",
+      "title": "The Math-to-AI-PhD Learning Path",
+      "tags": [
+        "learning",
+        "math",
+        "ai",
+        "phd",
+        "career",
+        "strategy",
+        "roadmap"
+      ],
+      "summary": "A PKU math freshman aiming for an AI PhD should study analysis, algebra, and probability/statistics together and integrated (融会贯通), using foreign textbooks such as Zhang Zhusheng's analysis text because domestic texts are insufficient. After the sophomore gates of ODEs, real analysis, and functional analysis, later topics come easily. Math foundations cannot be shortcut by AI tutoring, since comprehension requires grasping the self-consistent logic. AI self-study means mastering 西瓜书 and 花书, then reading papers by OpenAI, Google, Anthropic, and DeepSeek, with the 2017 Transformer \"Attention Is All You Need\" as the landmark origin of LLMs. Abroad, master's and PhD are separate direct-PhD tracks, so choose a frontier AI professor from sophomore year and target Ivy League programs with full funding. TOEFL and alumni relationships are binding constraints; the meta-lesson is that narrow information is expensive.",
+      "importance": 0.0,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "university-two-pillar-strategy",
           "low_confidence": true
         }
       ]
@@ -8575,7 +8803,7 @@
         "economics"
       ],
       "summary": "Microeconomics and macroeconomics are distinguished by their level of analysis: microeconomics examines the decisions and market interactions of households and firms, while macroeconomics investigates economy-wide phenomena such as inflation, unemployment, and economic growth.",
-      "importance": 1.69,
+      "importance": 1.68,
       "connections": [
         {
           "type": "idea",
@@ -9880,6 +10108,81 @@
           "type": "idea",
           "slug": "learning-method-v2",
           "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "teach-method-fixes",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pass-criteria-as-curriculum-design",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "leverage-existing-vs-build-from-scratch",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-mastery-two-axis-model",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "learning-dynamics",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "practice-as-learning-purpose",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "willingness-experiment",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "goal-singularity",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "freedom-exploration-generator",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "attention-as-bottleneck",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "hermeneutic-circle-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "completion-vs-quitting",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "enumerative-as-scaffold-for-generative",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "memorization-in-pipeline",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "learning-pipeline",
+          "low_confidence": true
         }
       ]
     },
@@ -9907,7 +10210,7 @@
         "opportunity-cost"
       ],
       "summary": "The production possibilities frontier graphs the combinations of two goods an economy can produce given available factors and technology, with points on the frontier representing efficient outcomes. A technological advance in producing one good shifts the frontier outward. Choosing a point on the frontier entails a trade-off, as moving along it to produce more of one good incurs an opportunity cost—the forgone amount of the other good—determined by the slope at that point.",
-      "importance": 3.45,
+      "importance": 3.44,
       "connections": [
         {
           "type": "idea",
@@ -10474,7 +10777,7 @@
         "peer-learning"
       ],
       "summary": "College's real return beyond vocational skills is learning to think by questioning the biased common sense absorbed from society, and using that critical reflection to build the substance of a self—an integrated individual of morality, intellect, perception, and emotion. Its four-year removal from career and family provides a privileged distance for rigorous examination, with professors training mental precision and peers challenging or constructing ideas. By overturning prior identity assumptions, one connects thought to inner feeling and ideals to reality, then pursues a good life by asking what is truly worth seeking.",
-      "importance": 5.51,
+      "importance": 5.5,
       "connections": [
         {
           "type": "permanent",
@@ -10989,7 +11292,7 @@
         "ice-breaking"
       ],
       "summary": "The Stranger Conversation Loop is a replicable social algorithm for initiating conversation with a stranger by following a cycle of greeting, asking a question, listening, then expressing a view and asking a follow-up, looping as long as curiosity holds. The approach works because asking first lowers the other person's barrier (people answer more easily than they initiate), listening before responding grounds the interaction in what was actually said rather than a pre-planned script, and each answer supplies threads that self-feed the next question, sustaining the loop.",
-      "importance": 1.66,
+      "importance": 1.6,
       "connections": [
         {
           "type": "idea",
@@ -12599,6 +12902,11 @@
           "type": "idea",
           "slug": "liberal-arts-perspective-on-the-execution-line",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "empirical-observations-latent-value",
+          "low_confidence": true
         }
       ]
     },
@@ -12699,7 +13007,7 @@
         "thinking"
       ],
       "summary": "The Zettelkasten Method is a note-taking system using fleeting notes, literature notes, permanent notes, and project notes to build an external knowledge base that improves thinking and writing. By daily reviewing fleeting and literature notes against permanent notes, you create derivative ideas through connection and collision, leveraging the hermeneutic circle for cyclical understanding. This process generates a compound effect where more notes yield richer idea networks, and a virtuous feedback loop where expressing ideas in your own words tests comprehension, making sustained practice effortless through frequent, small-scale feedback.",
-      "importance": 8.11,
+      "importance": 8.12,
       "connections": [
         {
           "type": "permanent",
@@ -13350,6 +13658,11 @@
           "type": "idea",
           "slug": "low-occupancy-segment-reflection",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "async-work-mode",
+          "low_confidence": true
         }
       ]
     },
@@ -13718,7 +14031,7 @@
         "student-union"
       ],
       "summary": "A four-year university strategy demands running two pillars in parallel from day one: skill-building via industry-first reverse planning and network-building via a deliberate leadership ladder. For an incoming Peking University math freshman, skill focuses on AI or embodied intelligence, working backward from company products to map the industry chain, identify a sub-field, and back-trace required courses to achieve production-grade, top-0.1% depth. Simultaneously, the social track ascends from class monitor to External Relations Department member for corporate-facing sponsorship and alumni connections, culminating as Math Department Student Union President to control opportunity flow. The parallel structure ensures market-relevant expertise feeds a network that, in turn, surfaces internships and mentors, eliminating the false choice between deep specialization and social capital.",
-      "importance": 3.58,
+      "importance": 3.48,
       "connections": [
         {
           "type": "idea",
@@ -13744,6 +14057,11 @@
           "type": "idea",
           "slug": "ai-centered-new-education-industry",
           "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "math-to-ai-phd-learning-path",
+          "low_confidence": true
         }
       ]
     },
