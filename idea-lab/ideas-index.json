@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-15",
-  "total": 208,
+  "generated": "2026-08-26",
+  "total": 223,
   "ideas": [
     {
       "id": "idea-20260302-60cabc",
@@ -57,7 +57,7 @@
         "specialization"
       ],
       "summary": "The core distinction lies between absolute advantage, which is producing a good using fewer inputs, and comparative advantage, which is producing a good at a lower opportunity cost. Gains from trade arise when parties specialize according to their comparative advantage. The trading price therefore settles between the opportunity costs of the two parties.",
-      "importance": 3.62,
+      "importance": 3.63,
       "connections": [
         {
           "type": "idea",
@@ -93,7 +93,7 @@
         "mental-model"
       ],
       "summary": "The abstraction barrier is a deliberately constructed bridge between the program layer (representation, using constructors and selectors) and the conceptual layer (use, where operations treat data as abstract units) in the dual-perspective Portal Model. It enforces a contract that enables conceptual compression,",
-      "importance": 3.33,
+      "importance": 3.37,
       "connections": [
         {
           "type": "idea",
@@ -187,6 +187,67 @@
       ]
     },
     {
+      "id": "idea-20260826-ai-cannot-learn-after-training",
+      "title": "AI Cannot Learn After Training — Conversation Isn't Learning, Fine-Tuning Needs Data",
+      "tags": [
+        "ai",
+        "llm",
+        "meta-cognition",
+        "learning",
+        "knowledge-transfer",
+        "human-ai-collaboration"
+      ],
+      "summary": "AI cannot learn after training: conversation does not modify model weights, fine-tuning requires non-trivial data, and an AI cannot directly accept a knowledge point the way a human can from a single exposure. Because knowledge is fixed at training time, durable knowledge must live outside the model in notes, the vault, or retrieval context, making the AI a reasoning engine with a static base. Its understanding is context-scoped: real within the context window but leaving no trace afterward. If models could durably absorb knowledge points, RAG and external memory would shrink, one-time teaching would become permanent, and interaction would shift from stateless re-briefing to persistent memory, at the cost of accumulated biases.",
+      "importance": 0.0,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "implicit-improvement-pattern",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-reconnection",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "transfer-high-leverage",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "freedom-exploration-generator",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-mastery-two-axis-model",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-transfer-fidelity",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "memorization-in-pipeline",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "attention-pointer-learning-model",
+          "low_confidence": true
+        }
+      ]
+    },
+    {
       "id": "idea-20260808-ai-centered-education-industry",
       "title": "AI-Centered New Education Industry (AI + Education)",
       "tags": [
@@ -196,7 +257,7 @@
         "education"
       ],
       "summary": "The core idea is to start a company that rebuilds the education industry with AI as the organizational core, not as a teaching aid bolted onto existing structures, but by redesigning education around what AI makes possible. This placeholder direction is captured early under the principle of \"capture early, evaluate later,\" based on the belief that ideas formed before full domain knowledge are less constrained by prior attempts and may point toward more novel angles.",
-      "importance": 1.7,
+      "importance": 1.5,
       "connections": [
         {
           "type": "idea",
@@ -236,6 +297,11 @@
         {
           "type": "idea",
           "slug": "8b-deep-reflection",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
           "low_confidence": true
         }
       ]
@@ -310,7 +376,7 @@
         "epistemology"
       ],
       "summary": "Analogical transfer succeeds only when it maps relational structure, not surface features. The transfer works if an abstract skeleton like \"an insider attempting to convey complex system knowledge to an outsider using only language\" remains valid after swapping concrete entities. To check, express the situation as a relationship between roles; if that relationship holds regardless of node labels, transfer applies. Transfer fails when surface similarity masks different underlying relationships, such as a company meeting involving power games and signaling versus a class with one-way broadcast. Ultimately, transfer works if and only if you are transferring topology, not node labels.",
-      "importance": 2.51,
+      "importance": 2.48,
       "connections": [
         {
           "type": "idea",
@@ -351,7 +417,7 @@
         "artifacts"
       ],
       "summary": "Turning English conversation output into Anki cards makes memory a designed process rather than something that passively happens. Within the (M, A) model, an Anki card is an artifact (A) whose sole function is to maintain M_explicit against decay. It prevents decay through scheduled spaced micro-exposures, unlike reconnection docs that compress for rapid recovery after long gaps. This continuous low-dose maintenance keeps memory warm, contrasting with the rapid reload strategy of reconnection docs.",
-      "importance": 1.32,
+      "importance": 1.33,
       "connections": [
         {
           "type": "project",
@@ -437,7 +503,7 @@
         "life-modeling"
       ],
       "summary": "Human attention is a single-threaded bottleneck, like a CPU that can only execute one project at a time, so time blocks are mutually exclusive and the central design problem becomes scheduling which project gets the next attention slot. Unattended projects experience M-decay simultaneously while focus is elsewhere. Goal-singularity and attention-singularity are the same constraint at different levels—purpose and execution. Attention residue, carrying project A’s mental state into project B’s time block, may impair effective M dynamics, and reconnection docs could reduce this residue by acting as clean save points, enabling full release and engagement.",
-      "importance": 3.04,
+      "importance": 3.12,
       "connections": [
         {
           "type": "idea",
@@ -578,6 +644,11 @@
           "type": "idea",
           "slug": "practice-necessity-willingness-tradeoff",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "sunk-cost-tug-and-salvage",
+          "low_confidence": true
         }
       ]
     },
@@ -595,7 +666,7 @@
         "synthesis"
       ],
       "summary": "The attention-as-pointer model frames learning as reconstructing a global knowledge structure from sequential local samples, where attention is a single, sequential pointer and memory is a limited, decaying buffer. This is difficult because local samples reveal content but not structural relationships, and memory decay prevents connecting distant parts. A two-pass reading strategy emerges naturally: a first pass builds a rough map to reduce coupling uncertainty, then a second pass enables deep understanding with context. Linear reading order often conflicts with the target system’s dependency structure, imposing extra reconstruction cost. Reconnection docs may serve as cached structural summaries that ease the memory burden during local sampling.",
-      "importance": 6.27,
+      "importance": 7.14,
       "connections": [
         {
           "type": "idea",
@@ -706,6 +777,16 @@
           "type": "idea",
           "slug": "learning-method-v2",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "ai-cannot-learn-after-training",
+          "low_confidence": true
         }
       ]
     },
@@ -722,7 +803,13 @@
       ],
       "summary": "Attribution of Achievement is a conversational technique for extracting insight from accomplished or promising people by repeatedly asking what they attribute their achievement to. Opening with genuine admiration lowers defenses, and the attribution question itself flatters by inviting them to narrate their own success story. Each answer is chased vertically by asking what causes each named factor, and horizontally by testing whether the list is complete up to luck, until a minimal, complete causal model emerges. The luck framing is disarming because conceding that they are only luck away makes it easier for them to identify what is not luck.",
       "importance": 0.0,
-      "connections": []
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "cultivating-a-single-person",
+          "low_confidence": true
+        }
+      ]
     },
     {
       "id": "idea-20260610-ar01",
@@ -736,7 +823,7 @@
         "design-review"
       ],
       "summary": "Spec-based audits can only find gaps between implementation and spec, not what the spec itself fails to specify, a structural blind spot revealed when three rounds of M34 recursive-planner audits never caught that template text was static and would never evolve despite the system’s name “co-evolution” promising otherwise. The audit criteria validated that YAML templates matched format specs but didn’t ask whether templates should themselves be capable of evolution. This ceiling is broken by adding a design commitment review layer that checks if publicly claimed promises are fully realized, plus an external challenger role, periodic commitment-reality comparisons, and leveraging user’s naive questions to detect unfulfilled commitments. The finding applies to all future system audits, not just M34.",
-      "importance": 3.86,
+      "importance": 3.87,
       "connections": [
         {
           "type": "idea",
@@ -839,7 +926,7 @@
         "meta-model"
       ],
       "summary": "Behavior unfolds in near-deterministic chains within the person–environment system, where each step appears coincidental but is almost certain given the system state. These chains can be modeled by identifying stable objects and their interaction patterns, per the interaction-as-dictionary method. Key patterns include state mismatch causing ignition, hub routing through highly connected objects like money, value mutation where an object’s valence flips such as physiological aversion to the bed, and low-friction wins at choice points. Once modeled, designers can break weak links, add friction, or reroute around constraint nodes to reshape behavior.",
-      "importance": 0.47,
+      "importance": 0.5,
       "connections": [
         {
           "type": "idea",
@@ -860,7 +947,7 @@
         "skill-design"
       ],
       "summary": "Low morning energy scores are not static labels but transient starting conditions that can improve through behavioral activation. The key insight is that pushing through low energy—especially with social accountability, where a friend expects full performance—can trigger recovery after about three hours. Social accountability appears to be the highest-leverage trigger, more effective than solo endurance. This model reframes low-energy days from downward adaptation to a reversible state, though distinguishing genuine sickness from transient low energy remains an open question.",
-      "importance": 2.54,
+      "importance": 2.58,
       "connections": [
         {
           "type": "skill",
@@ -915,7 +1002,7 @@
         "actionable"
       ],
       "summary": "The note contrasts two cognitive bottlenecks: using breadth-first search where depth-first execution is needed, due to anxiety-driven pseudo-efficiency that incurs high switching costs, and recursive dependency nesting that overloads working memory like a stack overflow. For the first, the fix is to externalize a step chain before any searching, throttle result openings, and search only when stuck—or ask AI for step-by-step guidance. For the second, one should draw the full dependency tree to offload cognitive load, then execute from the bottom-up leaves, adding newly discovered prerequisites as child nodes without mentally maintaining the entire hierarchy.",
-      "importance": 3.74,
+      "importance": 3.85,
       "connections": [
         {
           "type": "project",
@@ -1075,6 +1162,61 @@
       ]
     },
     {
+      "id": "idea-20260822-broad-then-deep-recursion",
+      "title": "Broad-Then-Deep: Recursive Information and Connection Acquisition",
+      "tags": [
+        "methodology",
+        "information-acquisition",
+        "networking",
+        "recursion",
+        "field-selection"
+      ],
+      "summary": "Information and connection acquisition advance together because pre-research enables real conversations that open connections, while a person's first-hand view provides information beyond web search. Field selection follows a broad-then-deep pattern applied recursively: spread knowledge and connections across fields, commit to one, then repeat the same broad map and narrowing within that field's sub-directions. This recursive descent down a tree means \"draw the map, then dive deep\" at each level, operating on information and connection simultaneously rather than cycling over a fixed map. Endorsement, platform, and channel are outside this information-level pattern.",
+      "importance": 2.89,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "attention-pointer-learning-model",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "hermeneutic-circle-learning",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "understanding-a-field-in-layers",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "cultivating-a-single-person",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "three-layer-framework",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "reconnection-doc-method",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "structural-patience",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-as-dictionary-of-perspectives",
+          "low_confidence": true
+        }
+      ]
+    },
+    {
       "id": "idea-20260711-ct01",
       "title": "Call Tree as a Third Perspective on Program Execution",
       "tags": [
@@ -1086,7 +1228,7 @@
         "visualization"
       ],
       "summary": "The call tree is a distinct runtime perspective showing which function invocations spawn which sub-calls, capturing the branching structure of the computational process. It complements the static def tree (definition nesting) and the dynamic frame tree (environment parent links) by revealing the directionality of computation flow—arguments down, return values up—as described by the Portal Model’s concept of return as a portal. This three-tree synthesis may provide a minimal complete picture of program execution, and the call tree’s intuitive nature makes it a powerful teaching tool for recursion.",
-      "importance": 2.36,
+      "importance": 2.39,
       "connections": [
         {
           "type": "idea",
@@ -1146,7 +1288,7 @@
         "exams"
       ],
       "summary": "Certainty Gravity refers to a psychological force where high-certainty sub-goals, even if minimally contributory to an overarching objective, crowd out larger but uncertain tasks at the execution layer. Despite correct priority judgments—essay and practice sections outweighing rote memorization for a Chinese exam score—the guaranteed return of that small task exerts a disproportionate pull, leading to a local optimum that sacrifices the global optimum. This failure of execution, not of judgment, becomes especially consequential when time margins shrink.",
-      "importance": 2.67,
+      "importance": 2.75,
       "connections": [
         {
           "type": "project",
@@ -1196,6 +1338,11 @@
         {
           "type": "idea",
           "slug": "human-cognitive-biases",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "sunk-cost-tug-and-salvage",
           "low_confidence": true
         }
       ]
@@ -1374,7 +1521,7 @@
         "knowledge-reconnection"
       ],
       "summary": "A self-consistent framework can feel complete while missing up to 30% of its content because gaps produce silence, not contradictions, making them invisible from within. Only an external checklist independent of the framework reliably reveals these gaps. Evidence from Chapter 5: a model felt complete but a 116-concept inventory exposed 56 gaps, and after filling those, a second audit found 10 more weak spots. Self-consistency is deceptive, so before declaring completeness, validate the work against an external reference like a source checklist or another domain model.",
-      "importance": 2.73,
+      "importance": 2.75,
       "connections": [
         {
           "type": "idea",
@@ -1431,7 +1578,7 @@
         "microeconomics"
       ],
       "summary": "The circular flow diagram models how money circulates between households and firms through two distinct markets, assuming only these two decision-makers. Households own the factors of production—labor, land, and capital—and sell them to firms in the factor market, while firms use these inputs to produce goods and services sold in the goods-and-services market. Money flows from households buying goods to firms, which then spend it in the factor market on wages and rent, completing the cycle back to households.",
-      "importance": 1.68,
+      "importance": 1.69,
       "connections": [
         {
           "type": "project",
@@ -1461,7 +1608,7 @@
         "communication"
       ],
       "summary": "Clarity should be treated as a universal meta-principle, not limited to any single domain. Whether crafting natural-language narration of text structure, recording ideas, or summarizing retrospectives, always pursue clearer and more precise description. This cross-domain principle elevates clarity to a foundational standard for all communication and methodology.",
-      "importance": 4.8,
+      "importance": 4.82,
       "connections": [
         {
           "type": "idea",
@@ -1568,7 +1715,7 @@
         "essence-of-technology"
       ],
       "summary": "The note asks how the classification of concepts should be abstractly carried out, prompted by the framework in *The Nature of Technology* where technology is divided along a singular/plural/collective axis and a physical/behavioral level.",
-      "importance": 3.74,
+      "importance": 3.75,
       "connections": [
         {
           "type": "idea",
@@ -1704,6 +1851,11 @@
           "type": "idea",
           "slug": "impact-of-domains-on-economy",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "discipline-division-and-internal-structure",
+          "low_confidence": true
         }
       ]
     },
@@ -1721,7 +1873,7 @@
         "shallow-migration"
       ],
       "summary": "A system decomposition is good when subsystems exhibit high internal cohesion and sparse external coupling, ideally approaching zero coupling. This heuristic, migrated from the abstraction barrier concept separating representation from use, applies recursively at every scale: each subsystem can itself be decomposed until further division adds more interface complexity than it removes. It works because low coupling enables independent understanding, composability, and localized debugging, with the abstraction barrier as a special case of a narrow interface. Applied to the unified-python-execution-model, sub-models like the def tree and binding graph should maintain tight internal coherence and connect through minimal, well-defined interfaces.",
-      "importance": 4.61,
+      "importance": 4.68,
       "connections": [
         {
           "type": "idea",
@@ -1782,6 +1934,11 @@
           "type": "idea",
           "slug": "environment-diagram-dual-perspective",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "decoupling",
+          "low_confidence": true
         }
       ]
     },
@@ -1835,7 +1992,7 @@
         "supply-and-demand-theorem"
       ],
       "summary": "A competitive market consists of many buyers and sellers acting as price takers because no single participant can influence the price. The law of demand states that quantity demanded falls when price rises, and the law of supply states that quantity supplied increases when price rises. Market demand and supply curves shift due to factors like income changes, where normal goods see increased demand with higher income and inferior goods see decreased demand, or due to substitutes and complements. Equilibrium occurs at the intersection where quantity supplied equals quantity demanded, and surpluses or shortages are corrected by price adjustments per the law of supply and demand.",
-      "importance": 6.12,
+      "importance": 6.14,
       "connections": [
         {
           "type": "idea",
@@ -1885,7 +2042,7 @@
         "principles"
       ],
       "summary": "The note challenges the belief that finishing every task builds self-trust, arguing it instead triggers irrational behavior when a task no longer holds value. It advocates deciding based on importance and planning: if something lacks value, quit decisively even one day from completion; if it has value, persist indefinitely. This shift from completion-for-its-own-sake to value-based decision-making avoids the sunk-cost fallacy and builds genuine discipline.",
-      "importance": 4.07,
+      "importance": 5.22,
       "connections": [
         {
           "type": "idea",
@@ -1956,6 +2113,11 @@
           "type": "idea",
           "slug": "practice-necessity-willingness-tradeoff",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "sunk-cost-tug-and-salvage",
+          "low_confidence": false
         }
       ]
     },
@@ -1970,7 +2132,7 @@
         "methodology"
       ],
       "summary": "Connection-oriented reading reorients humanities and social science comprehension away from highlighting concepts or summarizing, instead focusing on the constraint relationships each sentence imposes between concepts, such as defines, elaborates, presupposes, or serves as counterexample. The core insight is that an article’s argumentative force lies in the density and consistency of these constraints, not in concept novelty. Deliberate practice involves interrogating every sentence for new constraints, labeling their types, and afterward drawing a concept constraint graph of nodes linked by directed edges, then checking for isolated nodes or contradictions. This method makes cross-disciplinary transfer possible by revealing structural similarities beneath different concept labels and integrates with tools like knowledge-reconnection summaries or an AI-assisted reading skill.",
-      "importance": 2.57,
+      "importance": 2.58,
       "connections": [
         {
           "type": "idea",
@@ -2045,7 +2207,7 @@
         "data-model"
       ],
       "summary": "After the CKGSB event, the contact management schema was stripped from an overbuilt twelve-plus field structure to four fields: name, contact, maintenance_tier (core, general, or weak), and contact_dates. The old fields like interests, recent_updates, resources, needs, birthday, identity, and tags demanded constant manual maintenance and became stale or premature. The contact_dates list replaces free-text interaction logs by recording every outreach or deepening encounter, making frequency and recency the relationship health metric. Existing thirty-eight classmate contacts will be migrated and the old fields dropped.",
-      "importance": 3.48,
+      "importance": 3.0,
       "connections": [
         {
           "type": "idea",
@@ -2069,7 +2231,7 @@
         "personal-data"
       ],
       "summary": "A systematic contact management system addresses the two-way information asymmetry problem—where direct and indirect resources are invisible to both sides—by recording people’s details, interests, and recent updates. Relationship maintenance is built on the principle of “cater to their interests,” using interest-based triggers like forwarding relevant content, sharing field developments, or following up on personal goals, supported by periodic reminders and a tiered effort model (core, regular, weak ties). This foundation enables monetizing the network through demand matching, information arbitrage, a skill resource pool, collaboration matchmaking, and opportunity distribution, creating triple-win value. The idea may evolve into a personal skill combining entity storage with smart, interest-aligned maintenance prompts and demand/resource matching queries.",
-      "importance": 1.7,
+      "importance": 1.5,
       "connections": [
         {
           "type": "project",
@@ -2097,7 +2259,7 @@
         "knowledge-reconnection"
       ],
       "summary": "A framework organized by structural criteria independent of subject matter—such as conceptual, technical architecture, and mathematical layers—outlasts content-bound frameworks like an abstraction hierarchy for linear algebra. The three-layer framework proved reusable across multiple chapters because it references properties any content possesses, while chapter-specific splits died with their domains. The design rule: ensure the organizing principle references structural properties, not specific content, to achieve cross-domain reusability.",
-      "importance": 3.76,
+      "importance": 3.78,
       "connections": [
         {
           "type": "idea",
@@ -2178,6 +2340,11 @@
           "type": "idea",
           "slug": "abstraction-barrier-as-dual-perspective-bridge",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "decoupling",
+          "low_confidence": true
         }
       ]
     },
@@ -2192,7 +2359,7 @@
         "M34"
       ],
       "summary": "The core claim is that conversation logs are an essential but currently missing data source for the M34 system, because the chat window is the sole entry point for information, and failing to archive conversations means losing the richest behavioral data. The solution proposes saving conversations before each session ends to feed them into the M34 timeline, likening the unarchived flow to ore dropping off a conveyor belt. Implementation issues include deciding between raw transcript versus structured extraction and choosing a save location.",
-      "importance": 2.98,
+      "importance": 2.99,
       "connections": [
         {
           "type": "idea",
@@ -2444,6 +2611,50 @@
       ]
     },
     {
+      "id": "idea-20260822-cultivating-a-single-person",
+      "title": "Cultivating One Person: The Reciprocity Playbook",
+      "tags": [
+        "methodology",
+        "networking",
+        "social-capital",
+        "relationship-building"
+      ],
+      "summary": "The load-bearing principle: **symmetric exchange, not extraction.** Approach every person as a two-way exchange — each side holds first-hand truth the other lacks. Map the exchange before the first me",
+      "importance": 2.96,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "understanding-a-field-in-layers",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "four-step-networking-method",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "understanding-the-word-friend",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "framework-as-community-core",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "attribution-of-achievement",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "my-relationship-with-others-and-society",
+          "low_confidence": true
+        }
+      ]
+    },
+    {
       "id": "idea-20260201-a3f7d2",
       "title": "Curves in Economics",
       "tags": [
@@ -2619,6 +2830,11 @@
           "type": "idea",
           "slug": "evolution-of-phenomena",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "discipline-division-and-internal-structure",
+          "low_confidence": true
         }
       ]
     },
@@ -2633,7 +2849,7 @@
         "idea-extraction"
       ],
       "summary": "The daily→ideas pipeline is broken because no automated extraction converts idea sections from daily notes into independent idea files, leaving them invisible to M34. The discovery on 06-09 revealed that all 7 ideas from the 06-08 daily note, including the explicitly labeled \"Flow-Based Thinking Framework,\" were stranded in the journal and absent from the ideas directory. This failure prevents knowledge-axis scanning and pattern detection from using the most valuable daily cognitive output. The root cause is a missing automated or semi-automated extraction step. Possible fixes include end-of-day prompts, expanding the source concept, or adding a backfill check to the start flow.",
-      "importance": 3.53,
+      "importance": 3.54,
       "connections": [
         {
           "type": "idea",
@@ -2683,7 +2899,7 @@
         "cognitive-pipeline"
       ],
       "summary": "The Data → Pattern → Prediction chain posits three universal abstraction stages: raw observations (data) are compressed into regularities (patterns), which then enable forecasts for unseen situations (prediction). This same process appears across science, machine learning, learning, conversation, and daily life—only the substrate changes. Comparatively, the learning pipeline addresses process design rather than abstraction levels, while flow-based thinking situates this chain as the underlying cognitive layer. In project structure, memory (M) represents the pattern layer, where compressed data constitutes pattern artifacts.",
-      "importance": 2.54,
+      "importance": 3.01,
       "connections": [
         {
           "type": "idea",
@@ -2779,6 +2995,16 @@
           "type": "idea",
           "slug": "data-structure-first-code-reading",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
         }
       ]
     },
@@ -2793,7 +3019,7 @@
         "comprehension"
       ],
       "summary": "Memorizing core data structures before reading control flow improves comprehension because data shapes are finite and stable, making code transformations obvious. Once you know the input and output shapes, function bodies become just transformations between them, so code reads like a story instead of requiring constant questioning of types. Rote memorization is underrated: it provides the scaffolding that deeper understanding can later hang on. This data-structure-first approach operates at the single-codebase level and complements locate-first-model-last, which maps perspectives at a knowledge-graph level.",
-      "importance": 1.42,
+      "importance": 1.45,
       "connections": [
         {
           "type": "idea",
@@ -2859,6 +3085,11 @@
           "type": "idea",
           "slug": "learning-method-v2",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
         }
       ]
     },
@@ -2914,7 +3145,7 @@
         "meta-cognition"
       ],
       "summary": "The next non-specialist domain model to develop is a decision model, intended to complement or merge with the timeline-based project structure. The timeline model describes how projects evolve, while the decision model determines what action to take right now given the state of all projects. Candidate factors for the decision model include Leverage Factor, Precision vs. Fuzziness, Pass criteria clarity, and Practice proximity, plus timeline-inherent factors like P adequacy, Tension, Willingness state, and Oscillator phase. A possible merger would form a sense-act loop where the timeline model senses state and the decision model outputs actions. Currently this is only an intention with no design work started.",
-      "importance": 3.19,
+      "importance": 3.13,
       "connections": [
         {
           "type": "idea",
@@ -2949,6 +3180,31 @@
       ]
     },
     {
+      "id": "idea-20260826-decoupling",
+      "title": "Decoupling Is a Rather Interesting Idea",
+      "tags": [
+        "decoupling",
+        "architecture",
+        "modularity",
+        "refactoring",
+        "design"
+      ],
+      "summary": "Decoupling—separating components that don't need to be coupled—is a powerful design move because each part can change, be replaced, or evolve independently without breaking the whole. Coupling forces big-bang rewrites, whereas decoupling converts \"rewrite everything\" into \"swap a part.\" The failed half-refactor in plugin-architecture-vs-defaults was fundamentally a coupling problem, and the /teach connection shows decoupling made concrete through an immutable engine separated from swappable strategy plugins. The project-hub system applies the same principle by keeping five subsystems independent through internal cohesion and deliberately sacrificing cross-module connections so each can evolve on its own.",
+      "importance": 0.0,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "cohesion-coupling-decomposition-heuristic",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "content-independent-framework",
+          "low_confidence": true
+        }
+      ]
+    },
+    {
       "id": "idea-20260705-recovery-cycle",
       "title": "Deep-Work Recovery Cycle — Physical Constraint on Project Dynamics",
       "tags": [
@@ -2959,7 +3215,7 @@
         "recovery"
       ],
       "summary": "A 3-day gap following an intense deep-work session revealed physical depletion—sleep debt and exercise deficit—requiring recovery, not avoidance. This insight established Physical Capacity (P) as a third dimension alongside mental focus (M) and arousal (A), where P decays during deep work and recovers through rest mediated by an evening-arousal-to-sleep mechanism. The A⇄B oscillator describes cycles between concentrated work (A) and recovery or social phases (B), but B is a descending slope due to rhinitis asymmetric drain rather than neutral recovery. The framework identifies five gap types, including the rhinitis spiral, and prescribes practical interventions like hard cutoffs and weaponizing external triggers to minimize B-phase duration.",
-      "importance": 1.26,
+      "importance": 1.29,
       "connections": [
         {
           "type": "idea",
@@ -2989,6 +3245,90 @@
         {
           "type": "idea",
           "slug": "low-occupancy-segment-reflection",
+          "low_confidence": true
+        }
+      ]
+    },
+    {
+      "id": "idea-20260822-discipline-division-internal-structure",
+      "title": "Discipline Division and Internal Structure",
+      "tags": [
+        "discipline-boundaries",
+        "knowledge-graph",
+        "epistemology",
+        "knowledge-structure"
+      ],
+      "summary": "Discipline boundaries are subjective convention rather than essential truth, and a three-factor model explains how disciplines divide: intrinsic complexity, mechanicalness as current level of understanding, and position in the knowledge graph. These factors interlock, so when a discipline's position shifts, its mechanicalness flips and it moves from independent discipline to embedded component inside a larger non-mechanical learning system, a process called the mechanism of attachment. A discipline's internal structure is defined by a small set of core materials: graphics and vision both orbit only 2D images, 3D scenes, and the camera, so their boundary degrades from essential to conventional.",
+      "importance": 0.0,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "reconnection-doc-method",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "structural-understanding-in-daily-life",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "hermeneutic-circle-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "three-layer-framework",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "understanding-a-field-in-layers",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "science",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-and-thinking-at-university",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-as-dictionary-of-perspectives",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "space-as-perspective",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "structural-patience",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "interaction-as-essence-heuristic",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "external-and-internal-view-of-technology",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "cycle-of-technology",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "classification-of-concepts",
           "low_confidence": true
         }
       ]
@@ -3042,7 +3382,7 @@
         "problem-and-solution"
       ],
       "summary": "The economy is constructed by technology, consisting of a technological part (a purposive arrangement of goods and services) and a non-technological part (activities, decision-making, logistics) that forms around it. New technology enters by replacing old technology, causing chain reactions and the loss of existing opportunity niches. It then provides novel elements that trigger the emergence of new organizational institutions and establishes further opportunity niches by generating technological, economic, and social problems that demand solutions. Economic evolution proceeds in a problem-and-solution, challenge-and-response pattern, driven by this cycle of niche destruction and creation, while invariants like human behavioral preferences and supply-demand equilibrium persist.",
-      "importance": 3.85,
+      "importance": 3.86,
       "connections": [
         {
           "type": "idea",
@@ -3190,7 +3530,7 @@
         "economic-methodology"
       ],
       "summary": "Economics is a science that follows the scientific method by proposing a theory, collecting historical data, analyzing it, and testing the theory, such that theory explains observations and observations test theory. The data observed are natural data provided by history. Assumptions simplify complex realities to make them easier to explain, and models built upon those assumptions are the means of describing theories.",
-      "importance": 5.44,
+      "importance": 5.45,
       "connections": [
         {
           "type": "permanent",
@@ -3352,7 +3692,7 @@
         "system-design"
       ],
       "summary": "Efficiency improvements occur through two interconnected paths, not by reserving separate time blocks as the rejected 80/20 model suggested. Incremental updates are automatically crystallized during task execution into skills via an idea → skill pipeline and an evaluation → solidification loop, requiring no dedicated time. Systemic updates are occasional, high-impact restructurings of the underlying methodology or architecture, triggered when accumulated tension from incremental patches exposes structural limits. These two paths form a feedback loop: incremental updates build quantitative changes that, at a critical point, prompt qualitative systemic leaps, which then reshape daily execution.",
-      "importance": 2.37,
+      "importance": 2.4,
       "connections": [
         {
           "type": "project",
@@ -3630,7 +3970,7 @@
         "expression-bank"
       ],
       "summary": "The comfort zone in English fluency is a local optimum: repeated use of familiar expressions feels natural but halts vocabulary growth, an error of omission invisible because nothing triggers correction. Implicit learning's shadow side, it converges to a plateau without deliberate perturbation. Solutions include vocabulary quotas, expression rotation, deliberate stretch phrases, diversity metrics, and forced rephrasing to inject unfamiliar words and break the pattern.",
-      "importance": 1.29,
+      "importance": 1.3,
       "connections": [
         {
           "type": "project",
@@ -3661,7 +4001,7 @@
         "two-phase"
       ],
       "summary": "Within concept learning, enumerative taxonomy and generative derivation are two sequential layers that must never be taught simultaneously. The enumerative layer builds fluency in recognizing and classifying pieces, deliberately offloading the “what” so that working memory can later focus on the “why.” This sequencing prevents cognitive load overflow and makes generative understanding land harder because it explains a taxonomy the learner already uses. The arc mirrors the Pre-cycle Reconnaissance rule, deferring deeper systems like FWT conditions until enumerative recognition is effortless. Incorporating this two-phase structure into course design means cycle one is deliberately enumerative, flagging pending generative anchors without deriving them yet.",
-      "importance": 1.86,
+      "importance": 1.96,
       "connections": [
         {
           "type": "idea",
@@ -3732,6 +4072,11 @@
           "type": "idea",
           "slug": "practice-necessity-willingness-tradeoff",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
         }
       ]
     },
@@ -3750,7 +4095,7 @@
         "code-reading"
       ],
       "summary": "The Environment Diagram is modeled via two complementary perspectives: a state-machine view where environments are snapshots and execution sequences form paths, and a comprehension view where function bodies are frames and return is a portal for mental tracing. This reveals a gap between the human conceptual layer, which compresses multi-step calls like make_adder(3) into semantic chunks, and the machine algorithmic layer of discrete execution steps. The conceptual layer is not reducible to execution, paralleling DL Chapter 5’s split between high-entropy priors and low-entropy architectures, and the bridge from algorithmic worlds to compressed understanding remains unmodeled.",
-      "importance": 3.39,
+      "importance": 3.43,
       "connections": [
         {
           "type": "project",
@@ -3942,7 +4287,7 @@
         "combinatorial-thinking"
       ],
       "summary": "Technology is shifting from fixed, standalone industrial processes to modular components that can be endlessly combined, evolving into an open language or \"chemistry\" for creating new functions. The external view of technology focuses on its whole manifestation and societal interactions, like how short-form video affects attention. The internal view examines the principles and combinatorial evolution of technology itself, where new technologies are assembled from existing ones and provide building blocks for future innovation.",
-      "importance": 5.3,
+      "importance": 5.31,
       "connections": [
         {
           "type": "project",
@@ -4082,6 +4427,11 @@
         {
           "type": "idea",
           "slug": "science",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "discipline-division-and-internal-structure",
           "low_confidence": true
         }
       ]
@@ -4315,7 +4665,7 @@
         "cross-domain"
       ],
       "summary": "A problem-solving approach fixes the target compositions f∘g and g∘f first, then works backward from those result constraints to deduce the required properties of f and g, finally identifying the functions. The note questions how this backward reasoning from a fixed target result can transfer to non-math domains.",
-      "importance": 2.26,
+      "importance": 2.25,
       "connections": [
         {
           "type": "project",
@@ -4441,6 +4791,11 @@
           "type": "idea",
           "slug": "transfer-high-leverage",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
         }
       ]
     },
@@ -4456,7 +4811,7 @@
         "framework"
       ],
       "summary": "The Four-Layer Product Quality Model decomposes any product into Philosophy, Acceptance Criteria, Spec, and Product, yielding an exhaustive 10-dimensional audit space: the six cross-layer comparisons from all pairwise combinations (e.g., Philosophy↔Acceptance Criteria, Spec↔Product) plus internal consistency checks within each layer. The M34 audit blind spot — rigid templates contradicting the coevolution philosophy — arose because audits were confined to Spec↔Product correspondence, missing the Philosophy↔Product audit that would have caught it. Only a full-dimensional audit, incorporating roles like a Devil’s Advocate holding philosophy directly against product behavior, can surface what the spec should have mandated but didn’t. This closed classification, with no eleventh dimension, is a universal audit law applicable to any system with a philosophy layer.",
-      "importance": 4.61,
+      "importance": 4.64,
       "connections": [
         {
           "type": "idea",
@@ -4526,7 +4881,7 @@
         "mentorship"
       ],
       "summary": "The Networking Method structures relationship-building into five sequential steps: open with a specific, answerable compliment that invites dialogue, then establish an identity anchor to serve as a mental hook, exchange contacts while framing the ask around a genuine intent to learn, and ask a question that demonstrates prepared curiosity by targeting the space between public and insider knowledge. The method’s central argument is that the follow-up within 24 hours, which references a specific conversation point without making an immediate ask, is the essential multiplier that converts a fleeting contact into a compounding, long-term relationship.",
-      "importance": 7.0,
+      "importance": 7.05,
       "connections": [
         {
           "type": "idea",
@@ -4547,6 +4902,11 @@
           "type": "idea",
           "slug": "framework-as-community-core",
           "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "cultivating-a-single-person",
+          "low_confidence": false
         }
       ]
     },
@@ -4562,12 +4922,17 @@
         "growth"
       ],
       "summary": "Use the social-resources decomposition—connections, channels, platforms, endorsements, and information—as the core framework for building and expanding a community. After good conversations, offer the mindset, show a shallow map, name the hope for long-term tie strength without active maintenance, and invite people into a group chat where members make position, channel, and platform transparent, creating tie strength that can carry information between strangers. It works because the framework is a genuine gift, transparency compounds into a standing reach map, and the organizer benefits as middleman and third-party beneficiary. The no-maintenance promise requires making tie decay common knowledge; shared awareness turns silent erosion into automatic, low-cost sustaining through group information flow.",
-      "importance": 1.6,
+      "importance": 1.29,
       "connections": [
         {
           "type": "idea",
           "slug": "four-step-networking-method",
           "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "cultivating-a-single-person",
+          "low_confidence": true
         }
       ]
     },
@@ -4581,7 +4946,7 @@
         "framework-design"
       ],
       "summary": "The first time you do something, the organizing framework must emerge bottom-up from the content because the structure is unknown, but the real purpose is to extract that framework so the second time is far faster. In the example, a first chapter took 6 hours of iterative sorting of 116 concepts, while subsequent chapters used three operational questions, classification into layers, mapping of four standard connections, and handling of residuals, reducing the time to about 1 hour. The key is to treat the first instance as framework extraction rather than mere production—the deliverable is not just the output but the reusable method. After finishing significant work, separate what was content-specific from what was structural, and launch the next instance from the structural part, not from scratch.",
-      "importance": 2.34,
+      "importance": 2.35,
       "connections": [
         {
           "type": "idea",
@@ -4667,6 +5032,11 @@
           "type": "idea",
           "slug": "hermeneutic-circle-learning",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
         }
       ]
     },
@@ -4680,7 +5050,7 @@
         "research-method"
       ],
       "summary": "Build frameworks from data, not find data for frameworks, because prematurely elevating a pattern like topic→elaboration to universal status from only five argumentative paragraphs causes the framework to shatter when encountering counterexamples such as scene construction. The correct methodology is to accumulate a large dataset first, annotating each paragraph's conceptual constraints using stable types like the 24 constraint types and describing organizational patterns in natural language without terminologizing them, then allowing clusters to emerge naturally from at least three full chapters of analysis before constructing any general taxonomy. Framework files should be frozen until data volume reaches the threshold, and goal ambiguity should be tolerated, as the objective clarifies with more ore. The Linguistic Structure Analysis project learned this lesson from its v1→v2 refactoring, where v1 collapsed from a single counterexample after being built on only five paragraphs, demonstrating that expanding analytical coverage must precede framework formation.",
-      "importance": 3.64,
+      "importance": 3.65,
       "connections": [
         {
           "type": "project",
@@ -4776,7 +5146,7 @@
         "teach-method"
       ],
       "summary": "The real advantage of AI learning is not a modest initial speed-up, but the massive increase in degrees of freedom—pace, sequence, depth, modality—that enables active exploration through recursive questioning and cross-domain hopping. This accelerates the accumulation of diverse learning experiences, providing dense data for meta-level pattern discovery like the concept/practice split and two-axis model. These discovered patterns feed back into the learning method as an exponential second-order efficiency multiplier. The risk is that over-structuring to optimize lessons can kill the exploration that generates meta-learning data, so added structure should remain defaults, not rigid rules.",
-      "importance": 3.44,
+      "importance": 4.06,
       "connections": [
         {
           "type": "idea",
@@ -4906,6 +5276,121 @@
         {
           "type": "idea",
           "slug": "practice-necessity-willingness-tradeoff",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "plugin-architecture-vs-defaults",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "ai-cannot-learn-after-training",
+          "low_confidence": true
+        }
+      ]
+    },
+    {
+      "id": "idea-20260826-fundamental-model-of-learning",
+      "title": "Fundamental Model of Learning",
+      "tags": [
+        "learning",
+        "knowledge-map",
+        "teach-method",
+        "meta-cognition",
+        "model"
+      ],
+      "summary": "A five-part theory of learning holds that the knowledge map is constructed, partial, and revisable, not discovered, and forms a recursive DAG of minimal indivisible knowledge nodes with binary 0/1 states. Learning is single-threaded: exactly one minimal node flips from 0 to 1 only when its prerequisites are already 1. The goal is a verification predicate f that evaluates the constructed map and determines how much map to construct. With f fixed, only two unit operations exist: reconstruct the map using a new information source or choose which zero node to flip. The model separates learning invariants from implementation machinery and remains valuable despite the rolled-back /teach optimization.",
+      "importance": 2.94,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "knowledge-map-format",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "learning-dynamics",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-mastery-two-axis-model",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "attention-pointer-learning-model",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "hermeneutic-circle-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "freedom-exploration-generator",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "goal-predicate-f",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-reconnection",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "learning-method-v2",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "data-pattern-prediction-chain",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "transfer-high-leverage",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "memorization-in-pipeline",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "reconnection-doc-method",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "learning-pipeline",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "ai-cannot-learn-after-training",
           "low_confidence": true
         }
       ]
@@ -5199,6 +5684,45 @@
       ]
     },
     {
+      "id": "idea-20260826-goal-predicate-f",
+      "title": "Goal Predicate f",
+      "tags": [
+        "goal-predicate",
+        "teach-method",
+        "mission-design",
+        "learning"
+      ],
+      "summary": "The Goal Predicate f expresses \"done\" as a checkable conjunction of falsifiable clauses, each referencing MAP.md nodes or an external arbiter such as an exam or deadline. It is the only workspace element that comes from outside learning and serves as the arbiter of completion. f may begin fuzzy, so a provisional direction-f is written and clarifying f becomes a first learning goal, updated as the user's understanding sharpens. Evaluation makes f true only when all f-critical nodes are checked and non-node check procedures pass, with pending external results recorded as awaiting-arbiter. Only the user changes f; external arbiters are ground truth.",
+      "importance": 0.0,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "knowledge-map-format",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "success-interrogation-heuristic",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pass-criteria-as-curriculum-design",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "goal-singularity",
+          "low_confidence": true
+        }
+      ]
+    },
+    {
       "id": "idea-20260621-gs01",
       "title": "Goal Singularity",
       "tags": [
@@ -5209,7 +5733,7 @@
         "goal-design"
       ],
       "summary": "Every activity should pursue exactly one cognitive goal—\"one bird, one stone\"—because mixing goals like understanding and language expression splits attention and burdens limited working memory. Goal singularity, coined here, argues that drafting in one's native language first to check understanding, then translating to practice language, avoids the cognitive interference that arises when both criteria compete simultaneously. This principle complements the learning pipeline by demanding that output in one's own words and target-language expression be separate activities, preventing working memory overflow and raising total efficiency.",
-      "importance": 3.23,
+      "importance": 3.32,
       "connections": [
         {
           "type": "idea",
@@ -5330,6 +5854,16 @@
           "type": "idea",
           "slug": "teach-task-volume-scaling",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "goal-predicate-f",
+          "low_confidence": true
         }
       ]
     },
@@ -5445,6 +5979,26 @@
       ]
     },
     {
+      "id": "idea-20260826-heard-vocabulary-completeness",
+      "title": "The Vocabulary You Hear Is (Almost) All the Field's Working Vocabulary",
+      "tags": [
+        "learning",
+        "vocabulary",
+        "domain-entry",
+        "meta-cognition",
+        "confidence"
+      ],
+      "summary": "For a field you're new to, the vocabulary you hear through normal exposure is almost the entire working vocabulary, so given a good exposure path you should not doubt whether you're hearing the complete set. A field's operational vocabulary is small and immersion surfaces it quickly, which relieves comprehensiveness anxiety and redirects effort toward mastering heard terms rather than hunting for unknown ones. However, heard does not mean understood: vocabulary is a keyring, not a map. Completeness is conditional on exposure quality, vocabulary is dynamic, and frequency does not equal importance, since rare load-bearing terms can be gateways.",
+      "importance": 0.0,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "vocabulary-priming-before-conversation",
+          "low_confidence": true
+        }
+      ]
+    },
+    {
       "id": "idea-20260808-hermeneutic-circle-learning",
       "title": "Hermeneutic Circle as Learning Macro-Structure",
       "tags": [
@@ -5455,7 +6009,7 @@
         "systems-thinking"
       ],
       "summary": "Learning a complex domain is an indefinite hermeneutic circle, not a linear sequence. Each iteration draws a structural map of subsystems, dives deep into one, then revises the entire map using insights from that dive. Map revision is mandatory—it’s where learning compounds, because correcting boundaries, connections, and hidden subsystems improves the global structure guiding subsequent dives. This macro-structure sits above the learning cycle, making explicit the step of updating the domain decomposition before choosing the next subsystem, preventing isolated silos. The map evolves qualitatively, with each layer of understanding serving as pre-understanding for the next iteration.",
-      "importance": 2.82,
+      "importance": 4.09,
       "connections": [
         {
           "type": "idea",
@@ -5571,6 +6125,26 @@
           "type": "idea",
           "slug": "teach-task-volume-scaling",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "discipline-division-and-internal-structure",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "sunk-cost-tug-and-salvage",
+          "low_confidence": true
         }
       ]
     },
@@ -5672,7 +6246,7 @@
       "title": "Dealing with Complexity",
       "tags": [],
       "summary": "How to deal with complexity is posed as an open question that requires specific context from the user to develop further.",
-      "importance": 2.0,
+      "importance": 2.02,
       "connections": [
         {
           "type": "project",
@@ -5817,7 +6391,7 @@
         "semantics"
       ],
       "summary": "Human code reading compresses multi-step machine execution into semantic chunks, such as interpreting `make_adder(3)` as “n=3 and get a function” in a single conceptual leap, while the machine decomposes it into discrete steps like creating a frame and binding n. This compression distinguishes the conceptual layer from the algorithmic layer. The note questions whether human reading and machine execution are equivalent and explores the relationship between these layers, extending the environment-diagram-dual-perspective framework by identifying compression as the mechanism separating the pattern-as-state-machine view from the code-as-mental-model view, mirroring the inside/outside duality from the deep-learning-book.",
-      "importance": 1.9,
+      "importance": 1.93,
       "connections": [
         {
           "type": "idea",
@@ -5863,6 +6437,11 @@
           "type": "idea",
           "slug": "human-structure-ai-completeness",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
         }
       ]
     },
@@ -5875,7 +6454,7 @@
         "knowledge-reconnection"
       ],
       "summary": "The optimal human-AI division for knowledge structuring is for the human to provide the structural skeleton—specifying where each concept belongs in the framework and why—while the AI checks completeness against an external checklist like a 116-concept list and maps detailed linkages (e.g., noting missing kernel trick, φ(x), template matching, and kernel machine drawbacks). This split works because humans excel at structural insight but fail at exhaustive enumeration, whereas AI can exhaustively enumerate but cannot reliably generate structural insight. The pattern shifts AI’s primary role from producing polished prose to completeness verification, turning collaboration into a joint mental-model building exercise.",
-      "importance": 3.85,
+      "importance": 3.88,
       "connections": [
         {
           "type": "idea",
@@ -5981,6 +6560,16 @@
           "type": "idea",
           "slug": "locate-first-model-last",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
         }
       ]
     },
@@ -5995,7 +6584,7 @@
         "values"
       ],
       "summary": "Illness is a valuable exclusive experience opportunity, not a setback, because its unique constraints enable exploration of coping methods inaccessible to healthy people. The intrinsic difficulty of maintaining basic functioning under such constraints may surpass that of conventional achievements, even though it lacks external recognition. Practical implications involve separating physiological distress from self-negating judgment, documenting experiential accumulation instead of output, and comparing oneself only against previous constrained states. This reframing provides the foundational value support for low-energy cognitive practices by dismantling the self-negation that compounds the hardship.",
-      "importance": 2.52,
+      "importance": 2.58,
       "connections": [
         {
           "type": "project",
@@ -6044,7 +6633,7 @@
         "geography-of-innovation"
       ],
       "summary": "Technology in the plural sense involves technology bodies encountering industries, leading to re-domaining and disruptive change through co-variation and co-creation. This mutual restructuring, not mere adoption, explains why the economic impact of a domain unfolds over decades, requiring the accumulation of craft knowledge, supporting technologies, and institutional alignment. The process unfolds in relational time, with fast-time capturing the pace of new activities and slow-time defining an era. The geographic concentration of technological frontiers stems from esoteric craftsmanship—a shared, ineffable cognitive culture that includes knowing what works, what to ignore, and how to manipulate poorly understood phenomena, reinforced by trade secrets.",
-      "importance": 1.55,
+      "importance": 1.56,
       "connections": [
         {
           "type": "idea",
@@ -6163,7 +6752,7 @@
         "procedural-memory"
       ],
       "summary": "Repetition in skills like tetr.io and English drives implicit improvement via subconscious pattern extraction, yielding measurable gains without conscious access to the underlying pattern. This suggests the Data→Pattern→Prediction chain operates below awareness, extracting and applying patterns automatically. The author proposes splitting memory into M_explicit for articulable knowledge and M_implicit for unconscious procedural skill, raising the question of whether conscious and subconscious learning share the same mechanism with only differential access to the pattern layer.",
-      "importance": 3.21,
+      "importance": 3.23,
       "connections": [
         {
           "type": "idea",
@@ -6244,6 +6833,21 @@
           "type": "idea",
           "slug": "learning-method-v2",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "ai-cannot-learn-after-training",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
         }
       ]
     },
@@ -6297,7 +6901,7 @@
         "abstraction"
       ],
       "summary": "Information exchange is a mechanical cycle of packaging state into a structured format, sending it across a boundary, receiving a package back, unpacking, acting, and repackaging. The key insight is that the package format—the list of dicts message structure—is the interface itself, not just an implementation detail; it defines the protocol and contract. This makes the agent loop transparent on your side of the boundary, even though the LLM’s intelligence remains a black box. The agent loop’s package format explicitly accumulates history each cycle, turning it into a conversation rather than a transaction.",
-      "importance": 1.01,
+      "importance": 1.05,
       "connections": [
         {
           "type": "idea",
@@ -6322,7 +6926,7 @@
         "inquiry"
       ],
       "summary": "The Inquiry-Based Essay Method proposes that writing begins not with a thesis but by exhausting a concept’s intension and extension through questions and exemplify-generalize loops to map its content domain. This step uses counterexample, substitution, and trimming tests to refine accuracy, stopping when new examples no longer force pattern revision. Multi-angle inquiry then answers the resulting questions from diverse perspectives, after which natural weaving organizes the answers into a coherent flow. Unlike traditional thesis-first approaches, this method prioritizes conceptual clarity over structural frameworks. It complements connection-reading as the output-side methodology, both grounded in the belief that understanding hinges on dense constraint relationships between concepts. An AI assistant could accelerate the first two steps as a divergence engine while leaving weaving to the writer.",
-      "importance": 3.47,
+      "importance": 3.48,
       "connections": [
         {
           "type": "idea",
@@ -6471,7 +7075,7 @@
         "meta-cognition"
       ],
       "summary": "The author’s current habits, such as recording ideas and conducting daily reviews, are fragmented life strategies operating in isolation. The goal is to integrate them into a unified system by uncovering their shared underlying logic. This would allow the strategies to reinforce each other instead of competing for attention.",
-      "importance": 3.11,
+      "importance": 3.13,
       "connections": [
         {
           "type": "idea",
@@ -6559,7 +7163,7 @@
         "meta-model"
       ],
       "summary": "Every knowledge point is a dictionary mapping interaction contexts to interaction patterns, synthesizing the interaction-as-essence-heuristic and knowledge-as-dictionary-of-perspectives by defining what something is through its interaction patterns and storing them in a dictionary structure. Perspective is redefined as a selective filter that foregrounds certain interactions while suppressing others, so a knowledge key is a filter name and its value is the patterns that pass through. An object is a name bound to a stable set of interaction patterns within a given filter; class abstraction is merely the impression created by dense vertical interactions between names across filters. Knowledge construction reduces to finding objects and their interactions, recursively promoting interaction patterns to objects. The human attention filter constrains which interactions become visible, so importance is just an interaction's visibility through that filter, not an intrinsic property.",
-      "importance": 7.78,
+      "importance": 8.9,
       "connections": [
         {
           "type": "idea",
@@ -6640,6 +7244,11 @@
           "type": "idea",
           "slug": "learning-dynamics",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
         }
       ]
     },
@@ -6654,7 +7263,7 @@
         "heuristic"
       ],
       "summary": "The Interaction-as-Essence Heuristic replaces “what is X?” with “how does X interact with other things?” A property is a regularity, and what we call essence is simply a property whose interaction scope is exceptionally wide, not a qualitatively different kind. This dissolves essentialist problems by treating object internals as irrelevant black boxes and focusing on interface patterns. The heuristic explains frameworks like the three-layer model, the portal model, and cohesion-coupling, all of which derive their value from interaction patterns rather than intrinsic nature.",
-      "importance": 2.02,
+      "importance": 2.08,
       "connections": [
         {
           "type": "idea",
@@ -6689,6 +7298,11 @@
         {
           "type": "idea",
           "slug": "reconnection-doc-method",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "discipline-division-and-internal-structure",
           "low_confidence": true
         }
       ]
@@ -6827,6 +7441,11 @@
           "type": "idea",
           "slug": "explaining-excellent-sheep-with-theory",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "discipline-division-and-internal-structure",
+          "low_confidence": true
         }
       ]
     },
@@ -6844,7 +7463,7 @@
         "dictionary-metaphor"
       ],
       "summary": "Every knowledge point is a dictionary of perspective-key to value mappings, functioning like a multi-dimensional embedding from deep learning. A complete understanding requires the full set of perspectives because any single view is just one vector component. This dictionary structure unifies existing models (the three-layer scaffold, dual-perspective model) as subsets of keys, and values can nest recursively, so a field like philosophy with one top-level key gains depth through sub-keys while a cross-layer domain like computer science gains breadth through many top-level keys. The model yields a generation heuristic—systematically enumerate missing keys—and aligns with the cohesion-coupling decomposition heuristic, where good decompositions have high cohesion within a perspective-key and low coupling across keys.",
-      "importance": 8.84,
+      "importance": 8.99,
       "connections": [
         {
           "type": "idea",
@@ -6940,6 +7559,80 @@
           "type": "idea",
           "slug": "hermeneutic-circle-learning",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "understanding-a-field-in-layers",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "discipline-division-and-internal-structure",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "broad-then-deep-recursion",
+          "low_confidence": true
+        }
+      ]
+    },
+    {
+      "id": "idea-20260826-knowledge-map-format",
+      "title": "Knowledge Map Format (MAP.md)",
+      "tags": [
+        "knowledge-map",
+        "teach-method",
+        "format-design",
+        "learning"
+      ],
+      "summary": "MAP.md is a workspace-root file serving as the single source of truth for a constructed, provisional, revisable knowledge map. It records nodes at every level, dependency edges, the 0/1 state of every minimal leaf node, anchors marking good-enough bottoms, and the single-thread open flip. The format uses frozen node ids, needs prerequisites, and learning-record citations such as LR-NNNN to evidence every checked leaf. Its state machine enforces one lesson at a time through IDLE, AWAITING-DEMONSTRATION, and AWAITING-RESOLUTION, with reconstruction as unit operation a. Reconstruction may change structure but preserves authored check states and node ids, and the only allowed reversal is a traceable re-zero with a superseding learning record.",
+      "importance": 2.94,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "goal-predicate-f",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-reconnection",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "learning-method-v2",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-mastery-two-axis-model",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "teach-application-scope",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "plugin-architecture-vs-defaults",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "teach-method-fixes",
+          "low_confidence": true
         }
       ]
     },
@@ -6955,7 +7648,7 @@
         "interaction-as-dictionary"
       ],
       "summary": "Knowledge mastery decomposes into two independent but mutually catalytic axes: concept (horizontal interaction density within a conceptual filter) and practice (cross-filter vertical binding automaticity). The \"phantom quadrant\" of strong practice with weak concept cannot exist for complex domains because stable bindings require sufficient conceptual density, and practice itself surfaces new interactions. This two-axis framework applies recursively to higher-level objects like learning strategies via pattern promotion from interaction-as-dictionary, but advancing levels is exponentially harder because objects at level N≥1 must be constructed from multiple cross-domain instances before they can be interacted with.",
-      "importance": 5.34,
+      "importance": 6.02,
       "connections": [
         {
           "type": "idea",
@@ -7066,6 +7759,16 @@
           "type": "idea",
           "slug": "practice-necessity-willingness-tradeoff",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
         }
       ]
     },
@@ -7079,7 +7782,7 @@
         "productivity"
       ],
       "summary": "The Knowledge Reconnection Mechanism treats knowledge recovery after a gap as an encode/decode process analogous to PCA, where encoding compresses learned material into a low-dimensional structural representation that preserves relational directions of variance rather than all details. The reconnection doc, written via a human-AI division of labor, must satisfy four constraints: low decode cost, structured model output, preservation of main points, and minimal length, with residuals explicitly listed to make incompleteness transparent. Decoding starts with a ≤30-second entry point, traverses the structural model, checks residuals, and accepts gaps, enabling efficient mental reconstruction by treating the doc as a projection that requires active reconstruction during retrieval.",
-      "importance": 6.12,
+      "importance": 6.14,
       "connections": [
         {
           "type": "project",
@@ -7155,6 +7858,21 @@
           "type": "idea",
           "slug": "learning-method-v2",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-map-format",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "ai-cannot-learn-after-training",
+          "low_confidence": true
         }
       ]
     },
@@ -7168,7 +7886,7 @@
         "communication"
       ],
       "summary": "Language as a knowledge transfer medium has a fidelity ceiling because it can only function as an incremental patch on top of a shared experiential base, never building experiential understanding from scratch. Describing something like school to someone who never attended is near impossible because the listener lacks anchoring experience for the implicit feel of classes, rankings, and social dynamics. Even when explicit rules are transparent, as in a closed system, massive implicit knowledge remains untransferable without that common ground.",
-      "importance": 3.15,
+      "importance": 3.12,
       "connections": [
         {
           "type": "project",
@@ -7234,6 +7952,11 @@
           "type": "idea",
           "slug": "memorization-in-pipeline",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "ai-cannot-learn-after-training",
+          "low_confidence": true
         }
       ]
     },
@@ -7248,7 +7971,7 @@
         "actionable"
       ],
       "summary": "The note extends the two-axis model of knowledge mastery, where objects have horizontal interaction density c and vertical cross-filter binding p, by defining forces that drive acquisition, drag, and phase transitions. Acquisition forces like exposure, deliberate mapping, and execution push c and p upward, while drag forces such as decay, interference, and attention competition pull them downward. Phase transitions to higher recursion levels are triggered by saturation, deliberate comparison, or external perturbation. The framework raises open questions about optimal sequencing, decay curves, transfer efficiency, and individual parameters, and it integrates with the /teach method and the MAP model’s M and Willingness. Explicit per-track tracking of c and p is proposed as a next step.",
-      "importance": 3.76,
+      "importance": 3.92,
       "connections": [
         {
           "type": "idea",
@@ -7353,6 +8076,16 @@
         {
           "type": "idea",
           "slug": "teach-task-volume-scaling",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
           "low_confidence": true
         }
       ]
@@ -7480,6 +8213,31 @@
           "type": "idea",
           "slug": "occupancy-pair-scheduling",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-map-format",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "sunk-cost-tug-and-salvage",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "teach-application-scope",
+          "low_confidence": true
         }
       ]
     },
@@ -7494,7 +8252,7 @@
         "synthesis"
       ],
       "summary": "The learning pipeline structures the process of acquiring new knowledge from source to output using flow-based-thinking’s source-router-sink framework. Quality sources are identified through AI recommendations, pioneer advice, and reference tracing. A router stage then pre-judges material value via AI source triage and peer cross-teaching to filter noise before investing time. During learning, reading blocker triage grades stuck points into L1 (skip), L2 (mark and batch-process), or L3 (pause to fill prerequisites), with an explicit rule against emotionally escalating L1 to L3. The sink stage outputs understanding through analogy for others, translation for expression practice, or a reconnection doc for future you, which encodes compressed conceptual relationships that can be decoded quickly after a gap. Real-world runs with MIT 6.S184 revealed that L3 blockers span a severity spectrum, where L3-mild is a single concept fillable in minutes while L3-severe represents entire prerequisite systems requiring systematic study. Filling prerequisites can trigger recursive L3s, but the principle is to fill only one layer and switch to just-in-time lookup if further depths are needed, ensuring boundary checks prevent infinite descent.",
-      "importance": 7.71,
+      "importance": 8.26,
       "connections": [
         {
           "type": "idea",
@@ -7700,6 +8458,16 @@
           "type": "idea",
           "slug": "practice-necessity-willingness-tradeoff",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
         }
       ]
     },
@@ -7714,7 +8482,7 @@
         "efficiency"
       ],
       "summary": "The teach skill’s success across three learning tracks in a compressed 3-day window demonstrates that other people's work is high-leverage, and the default instinct to build from scratch is a tax on speed. This suggests shifting decision weights to exhaust existing solutions before self-creation, asking \"who has already solved this?\" first. The proposed Leverage Factor (L) measures how much a task can be accomplished by composing external work; tasks with high L, like adapting existing tutorials and papers, favor leveraging, while low L demands original creation. The teach skill worked because Python, RAG, and agent resources had high L.",
-      "importance": 2.25,
+      "importance": 2.07,
       "connections": [
         {
           "type": "idea",
@@ -7795,6 +8563,21 @@
           "type": "idea",
           "slug": "practice-necessity-willingness-tradeoff",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "plugin-architecture-vs-defaults",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "sunk-cost-tug-and-salvage",
+          "low_confidence": true
         }
       ]
     },
@@ -7812,7 +8595,7 @@
         "personal-growth"
       ],
       "summary": "Liberal arts education is the process of knowledge production cultivating the ability to think beyond constraints. Art uncovers truth we evade because truth is hard to bear; it breaks invisible constraints, setting us free through personal resonance, not objective data. Art asks \"What is its relationship to me?\" and integrates life with book learning to build the self. It reveals measurable knowledge's limits by exposing human habits, and understanding the past as the source of present motives completes this self-building.",
-      "importance": 8.1,
+      "importance": 8.11,
       "connections": [
         {
           "type": "permanent",
@@ -8008,7 +8791,7 @@
         "framework-design"
       ],
       "summary": "Local patterns cannot be generalized into a global pattern through continuous patching. In the linguistic structure project, the initial topic→elaboration rule was repeatedly patched with scene construction and other phenomena, causing the framework to grow complex without becoming universal. This is like drawing tangents point-by-point on a curve, where each local fit never converges to the overall shape. Induction must follow data accumulation, not react to each new sample. The corrective strategy bans framework labels during analysis, waits for an accumulation threshold of three chapters, and freezes framework files until clustering emerges, complementing the framework-from-data approach.",
-      "importance": 2.49,
+      "importance": 2.51,
       "connections": [
         {
           "type": "idea",
@@ -8089,6 +8872,11 @@
           "type": "idea",
           "slug": "knowledge-transfer-fidelity",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
         }
       ]
     },
@@ -8107,7 +8895,7 @@
         "efficiency"
       ],
       "summary": "Locate-First, Model-Last proposes that learning should separate locating knowledge points within a provisional key hierarchy from building a structural model, because premature modeling is unreliable when only partial samples exist in a high-dimensional perspective space. The dictionary model shows each knowledge point lives across multiple perspectives, so clustering without full coverage is noise. The key hierarchy co-evolves with point discovery—each point extends the keys—after which modeling occurs in a final pass. This generalizes the two-pass reading strategy, avoids the breadth-first trap, and resolves the reading-modeling decomposition tradeoff by eliminating merge costs.",
-      "importance": 5.28,
+      "importance": 5.4,
       "connections": [
         {
           "type": "idea",
@@ -8191,7 +8979,7 @@
         "self-management"
       ],
       "summary": "When mental energy drops below a threshold (mental_score < 30), one often enters a \"no ideas\" dysfunctional state where all mental activities—reading, thinking, deciding, creating—become difficult. Because mental activities consume energy, a contradiction arises in low-energy states. The goal is to find low-energy alternatives: idea generation becomes answering preset questions or recording fragmented observations; reading shifts to skimming or listening; problem-solving reduces to defining the problem without solving; decision-making defaults to simple rules or deferral; creative work becomes modifying existing work or organizing materials. This approach sustains mental activity without draining scarce energy.",
-      "importance": 2.11,
+      "importance": 2.14,
       "connections": [
         {
           "type": "idea",
@@ -8304,7 +9092,7 @@
         "attention"
       ],
       "summary": "During low-occupancy segments like walking or eating, automatically reflect on recent high-occupancy deep work to convert idle mental capacity into consolidation. This habit leverages free spaced retrieval at near-zero willingness cost, releases attention residue between segments, and slows memory decay. The reflection must stay effortless and low-occupancy—no required structure, just following any angle like review, metacognitive description, formalization, or self-critique—to avoid turning the idle interval into another high-occupancy segment. This requires pairing high- and low-occupancy segments with immediate gaps, using cognitive occupancy as a design variable in daily scheduling. Key mechanisms include attention-as-bottleneck residue release, timeline-based-project-structure's memory model, and the practice-necessity-willingness-tradeoff's optimal curve applied at the segment level.",
-      "importance": 1.99,
+      "importance": 2.05,
       "connections": [
         {
           "type": "idea",
@@ -8395,7 +9183,7 @@
         "architecture"
       ],
       "summary": "M34 suffers from a structural defect called source layer static rigidity: its data sources are hardcoded, while coevolution claims sit only in the routing layer. Because the perception boundary cannot evolve, the system's coverage breadth declines as the user's working methods change, creating a contradiction. This is not a bug but a missing design dimension; the improvement direction is a self-extension mechanism to dynamically discover new data sources or allow manual registration.",
-      "importance": 2.82,
+      "importance": 2.83,
       "connections": [
         {
           "type": "idea",
@@ -8566,7 +9354,7 @@
         "pipeline"
       ],
       "summary": "The core question is where deliberate memorization fits in the learning pipeline, with a current intuition that it belongs as a fourth Sink mode distinct from expression-oriented analogy, translation, and reconnection docs. Memorization would serve element-level retention of facts, formulas, and vocabulary against decay, unlike reconnection docs which enable structural reconstruction of mental models. However, this remains an untested hunch, and structural patience dictates waiting rather than integrating it prematurely into a validated pipeline. Open questions include whether memorization is a parallel retention axis, how it might interact with Router stages to identify high-leverage concepts, and whether reconnection docs already reduce the need for explicit memorization.",
-      "importance": 4.26,
+      "importance": 4.84,
       "connections": [
         {
           "type": "idea",
@@ -8697,6 +9485,21 @@
           "type": "idea",
           "slug": "practice-necessity-willingness-tradeoff",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "ai-cannot-learn-after-training",
+          "low_confidence": true
         }
       ]
     },
@@ -8712,7 +9515,7 @@
         "procedure"
       ],
       "summary": "Some procedures occur away from screens and AI, such as stretching or cooking, and must be fully memorized rather than referenced during execution. This splits skills into two classes: AI-present skills where AI guides in real time, and offline-memorized skills where AI serves only as a post-hoc reviewer and corrector. The offline-memorized skill lives entirely in memory during execution, with the skill file acting as an artifact backup consulted only when memory fails or an update is needed.",
-      "importance": 0.56,
+      "importance": 0.57,
       "connections": [
         {
           "type": "skill",
@@ -8743,6 +9546,11 @@
           "type": "idea",
           "slug": "memorization-in-pipeline",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
         }
       ]
     },
@@ -8758,7 +9566,7 @@
         "decision-framework"
       ],
       "summary": "Adopting a new methodology before a high-stakes exam poses a timing risk because the immediate performance drop from unpracticed changes can outweigh potential gains. The danger depends on the layer of change: L1 (cognitive understanding) is safe, L2 (strategic workflow) carries moderate risk, but L3 (technical operational) replacements require sufficient practice time, and near the deadline are forbidden unless the old method is guaranteed to fail. The decision framework weighs time remaining, method solidity, whether the change supplements or replaces, and fallback options. To manage interference, explicitly separate learning and execution modes, restrict new insights to analysis and review phases, and make minimal viable changes with a pre-planned fallback trigger.",
-      "importance": 1.5,
+      "importance": 1.52,
       "connections": [
         {
           "type": "project",
@@ -8803,7 +9611,7 @@
         "economics"
       ],
       "summary": "Microeconomics and macroeconomics are distinguished by their level of analysis: microeconomics examines the decisions and market interactions of households and firms, while macroeconomics investigates economy-wide phenomena such as inflation, unemployment, and economic growth.",
-      "importance": 1.68,
+      "importance": 1.69,
       "connections": [
         {
           "type": "idea",
@@ -8979,7 +9787,7 @@
         "parenting"
       ],
       "summary": "Society imposes biased common sense and herd behavior that shape thought and suppress independent thinking, leading to conformity, infantilization, and perfectionism. This unexamined common sense makes individuals susceptible to herd mentality and uncritical acceptance of values like social hierarchy or DIY entrepreneurship over systemic change. Recognizing, questioning, and actively rethinking this common sense—through new perspectives and debate—transforms it into personal wisdom and builds a resilient self, enabling resistance to social pressure and genuine life direction beyond the salmon race.",
-      "importance": 5.26,
+      "importance": 5.27,
       "connections": [
         {
           "type": "permanent",
@@ -9045,6 +9853,11 @@
           "type": "idea",
           "slug": "recording-and-questioning-beliefs",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "cultivating-a-single-person",
+          "low_confidence": true
         }
       ]
     },
@@ -9101,7 +9914,7 @@
         "python"
       ],
       "summary": "In Python, names are references to objects, not values. The name-object binding perspective focuses on which names refer to which objects, distinguishing rebinding (changing a name’s target) from mutation (changing an object’s state). This referential lens clarifies identity versus equality, aliasing, mutable default argument traps, nonlocal, and immutable containers with mutable elements. Elevating binding from an implementation detail to a first-class perspective alongside structural tree views (def, frame, call) reveals a binding graph of references, suggesting that teaching binding before mutation prevents confusion and offers a general tool for understanding languages with reference semantics.",
-      "importance": 3.38,
+      "importance": 3.43,
       "connections": [
         {
           "type": "idea",
@@ -9165,7 +9978,7 @@
         "writing"
       ],
       "summary": "The \"Natural Language Narration\" methodology involves describing each paragraph's organizational pattern in natural language, a practice that merits exploration. Core questions concern what constitutes a good description, at what level of detail one should describe, and how to avoid unconsciously applying framework terminology.",
-      "importance": 3.47,
+      "importance": 3.48,
       "connections": [
         {
           "type": "project",
@@ -9249,7 +10062,7 @@
         "methodology"
       ],
       "summary": "The note interrogates review’s role in a knowledge system, proposing that it may be a metacognitive operation, an experience extraction mechanism, or an intermediate layer bridging the concrete and the abstract, and frames this self-referential question as a meta-question worth exploring.",
-      "importance": 1.83,
+      "importance": 1.84,
       "connections": [
         {
           "type": "idea",
@@ -9282,7 +10095,7 @@
         "innovation-theory"
       ],
       "summary": "Can the process of new technology replacing old technology be understood as an optimizing occupation of an opportunity niche?",
-      "importance": 1.84,
+      "importance": 1.85,
       "connections": [
         {
           "type": "permanent",
@@ -9407,7 +10220,7 @@
         "knowledge-modeling"
       ],
       "summary": "The Python object-attribute model’s dot operator acts as a universal accessor returning a thing’s manifestation under a named, structured lens. The core question is whether this dot-based schema—requiring finite, design-time-fixed attributes—adds productive rigor beyond the open-ended bracket notation’s key-value map, by forcing commitment to a stable set of perspectives. Potential migration targets include relationships, concepts, and identity, but it remains unclear if this is a genuine advance over the existing dictionary-of-perspectives framework or merely a syntactic variant.",
-      "importance": 1.39,
+      "importance": 1.43,
       "connections": [
         {
           "type": "idea",
@@ -9450,7 +10263,7 @@
         "objective-metrics"
       ],
       "summary": "The note proposes replacing subjective importance scores with an objective two-dimensional metric: Knowledge-Layer Centrality, measuring an idea's structural position in the idea graph via hubness and generativity, and Execution-Layer Penetration, measuring how many projects and skills reference the idea, with projects weighted double. These dimensions are orthogonal because an idea can be deeply central yet unused, or widely applied without being theoretically central. The composite score weights penetration slightly higher (0.55) as a bias toward action, but dependency on M33 cross-axis scanning makes M33 maintenance essential to compute penetration and prevent collapse into a single dimension.",
-      "importance": 2.47,
+      "importance": 2.49,
       "connections": [
         {
           "type": "idea",
@@ -9497,7 +10310,7 @@
         "meta-model"
       ],
       "summary": "The design of occupancy-pair scheduling across a day—alternating high-occupancy and low-occupancy segments to enable reflection via spaced retrieval and attention-residue release—is a recursive instance of the optimal-curve problem, the same structure seen at the cycle level in the practice-necessity-willingness tradeoff. Both allocate a scarce budget (cognitive capacity per day or willingness per session) across differently-costed units to maximize consolidation or mastery, making the optimal curve a scale-invariant pattern. This recursion deepens because reflection is needed most precisely when capacity is lowest—after a draining high-occupancy block—mirroring the necessity-willingness dilemma, which forces the low-occupancy segment to be exploitatively cheap rather than effortful. The invariant suggests a single design rule might propagate upward to week and month scales.",
-      "importance": 2.2,
+      "importance": 2.25,
       "connections": [
         {
           "type": "idea",
@@ -9550,7 +10363,7 @@
         "classification"
       ],
       "summary": "Operational yes/no criteria outperform descriptive labels for classification because binary questions collapse understanding and application into a single 30-second decision tool, eliminating the need to internalize the entire framework first. The three criteria from Ch5—\"Is it precise and unambiguous? No → Conceptual\", \"Does it explain why something works? Yes → Math, No → Technical\", and \"Would it still be true if no algorithm used it? Yes → Math, No → Technical\"—exemplify this approach. Each criterion functions as an immediate binary test, making the system usable even without prior comprehension. When designing classification systems, always ensure an uninformed user can classify a new item rapidly; otherwise, the labels are descriptive rather than operational.",
-      "importance": 1.82,
+      "importance": 1.83,
       "connections": [
         {
           "type": "idea",
@@ -9751,7 +10564,7 @@
         "assessment"
       ],
       "summary": "Pass criteria should be treated as a first-class curriculum design element, not an afterthought, and must be stated before any lesson content because they define the observable behavior that constitutes evidence of learning. An explicit Pass Bar specifies precisely what the learner must be able to do at the exit gate—for example, trace an agent loop rather than write one from scratch—which directly shapes where effort is invested and calms “am I done?” anxiety. This approach reveals whether the lesson’s medium even suits its goal, since a document is wrong when the pass criteria demand a working pipeline. Distinct from learning objectives, the pass criteria form the micro-level of the practice-as-purpose hierarchy, with the internship deadline as the macro-level reason to learn, together creating a two-level purpose structure.",
-      "importance": 2.94,
+      "importance": 2.65,
       "connections": [
         {
           "type": "idea",
@@ -9801,6 +10614,112 @@
         {
           "type": "idea",
           "slug": "practice-necessity-willingness-tradeoff",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "goal-predicate-f",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "teach-application-scope",
+          "low_confidence": false
+        }
+      ]
+    },
+    {
+      "id": "idea-20260826-pattern-pipeline",
+      "title": "The Pattern Pipeline: Data → Operational Space → Understanding → Action",
+      "tags": [
+        "meta-cognition",
+        "pattern-recognition",
+        "abstraction",
+        "action",
+        "modeling",
+        "learning"
+      ],
+      "summary": "The Pattern Pipeline argues that observing large amounts of data yields a formalized pattern that makes the already-present operational space explicit rather than creating or expanding it. Because this formalized description reveals the levers and dimensions of choice, it produces deeper essential understanding and thus better action. This distinguishes the pipeline from the data-pattern-prediction chain, which stops at what comes next. The author suspects almost everything they do follows this pipeline, with the /teach system as a concrete instance: around ten tracks of data led to a two-axis concept/practice pattern and formalized defaults/templates that clarify learning operations and improve learning action.",
+      "importance": 3.51,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "data-pattern-prediction-chain",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "learning-pipeline",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "freedom-exploration-generator",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-mastery-two-axis-model",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "success-interrogation-heuristic",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "hermeneutic-circle-learning",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "memorization-in-pipeline",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "human-machine-code-reading-gap",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "implicit-improvement-pattern",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "transfer-high-leverage",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "structural-patience",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "learning-dynamics",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "enumerative-as-scaffold-for-generative",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "leverage-existing-vs-build-from-scratch",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "learning-method-v2",
           "low_confidence": true
         }
       ]
@@ -9875,7 +10794,7 @@
         "punishment"
       ],
       "summary": "The note questions whether personal identity continuity obligates past feelings or commitments to persist, using the example of a reformed murderer and a victim’s relative who vowed revenge. It asks if a spiritual awakening should nullify prior intentions, and whether the present self must answer for a past self’s actions. This dilemma links to the fundamental purpose of sentencing, contrasting punishment with rehabilitation.",
-      "importance": 0.65,
+      "importance": 0.7,
       "connections": [
         {
           "type": "idea",
@@ -9935,7 +10854,7 @@
         "new-technology"
       ],
       "summary": "The user queries what angles from books can be used to analyze problems. New technology is highlighted as one possible perspective. This suggests a framework for classifying analytical lenses derived from literature.",
-      "importance": 0.84,
+      "importance": 0.85,
       "connections": [
         {
           "type": "idea",
@@ -9975,6 +10894,71 @@
       ]
     },
     {
+      "id": "idea-20260826-plugin-architecture-vs-defaults",
+      "title": "Plugin Architecture vs Distilled Defaults — The /teach Optimization Post-Mortem",
+      "tags": [
+        "teach-method",
+        "architecture",
+        "strategy",
+        "degrees-of-freedom",
+        "refactoring"
+      ],
+      "summary": "The /teach optimization attempt failed because it introduced a plugin architecture as a half-refactor, bolting new files like MAP.md and STRATEGY-SPACE.md onto the old procedural SKILL.md instead of rewriting the core into a model plus strategy-selection engine. The resulting hybrid contradicted itself by treating concept/practice and the three-tier exam as both fixed structure and replaceable strategies. Its incomplete strategy pool underperformed the old defaults, which were distilled winning combinations from ten real tracks via freedom-exploration-generator. The general lesson is that a plugin or strategy architecture only pays off when the refactor is fully committed and the plugin pool is complete enough to beat the defaults; otherwise the distilled defaults win and partial migration is strictly worse than either coherent state.",
+      "importance": 0.0,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "success-interrogation-heuristic",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "teach-method-fixes",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "sunk-cost-tug-and-salvage",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "strategy-three-component-model",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "freedom-exploration-generator",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "practice-necessity-willingness-tradeoff",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-map-format",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "leverage-existing-vs-build-from-scratch",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "teach-application-scope",
+          "low_confidence": true
+        }
+      ]
+    },
+    {
       "id": "idea-20260719-practice-as-learning-purpose",
       "title": "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness",
       "tags": [
@@ -9985,7 +10969,7 @@
         "internship"
       ],
       "summary": "Learning is qualitatively different when driven by a concrete, near-term practice goal, as shown by three mechanisms: the practice anchor eliminates motivational friction by clarifying why each piece of knowledge is needed, the temporal proximity effect causes the brain to process information as actionable rather than archival when the learning-to-application gap is short, and an imminent deadline triggers an abstract-to-concrete transition that enriches memory and transfer. This was demonstrated by completing Python, RAG, and Agents tracks with high throughput just before an internship, suggesting that self-directed learning should always be tied to a specific, dated practice event.",
-      "importance": 2.94,
+      "importance": 1.35,
       "connections": [
         {
           "type": "idea",
@@ -10076,6 +11060,11 @@
           "type": "idea",
           "slug": "low-occupancy-segment-reflection",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
         }
       ]
     },
@@ -10092,7 +11081,7 @@
         "trade-off"
       ],
       "summary": "The mastery trade-off describes a dilemma where complex content requires proportionally more practice to master, but longer practice sessions erode learner willingness to continue. The necessity curve and willingness curve move in opposite directions, so the hardest material is least sustainable to practice deeply. For simple content, a single compact cycle fits within the willingness budget, but complex content forces a choice between sacrificing mastery or pushing past fatigue. The note proposes breaking this coupling by capping session volume and raising cycle count, or boosting willingness with purpose anchoring and interleaving to reset single-domain satiation. It suggests treating the concept–practice–exam sequence as an optimal curve design parameter to maximize mastery per willingness spent, with candidate shapes like many small mini-cycles or front-loaded hard tasks.",
-      "importance": 1.56,
+      "importance": 1.61,
       "connections": [
         {
           "type": "idea",
@@ -10183,6 +11172,36 @@
           "type": "idea",
           "slug": "learning-pipeline",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "sunk-cost-tug-and-salvage",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "plugin-architecture-vs-defaults",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "success-interrogation-heuristic",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "low-occupancy-segment-reflection",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "teach-application-scope",
+          "low_confidence": true
         }
       ]
     },
@@ -10197,7 +11216,7 @@
         "communication"
       ],
       "summary": "Precision brings high cost and low speed, while fuzziness—vagueness, approximation, rough granularity—reduces cost and increases speed, forming a universal tradeoff. The strategic question is when to pay the precision tax: precision is an investment that avoids downstream errors, while fuzziness acts as leverage for speed. The optimal point lies on a spectrum that shifts with project maturity, from maximum fuzziness in early exploration, to selective precision on interfaces during active building, to maximum precision on critical paths in production hardening.",
-      "importance": 1.42,
+      "importance": 1.35,
       "connections": []
     },
     {
@@ -10210,7 +11229,7 @@
         "opportunity-cost"
       ],
       "summary": "The production possibilities frontier graphs the combinations of two goods an economy can produce given available factors and technology, with points on the frontier representing efficient outcomes. A technological advance in producing one good shifts the frontier outward. Choosing a point on the frontier entails a trade-off, as moving along it to produce more of one good incurs an opportunity cost—the forgone amount of the other good—determined by the slope at that point.",
-      "importance": 3.44,
+      "importance": 3.45,
       "connections": [
         {
           "type": "idea",
@@ -10262,7 +11281,7 @@
         "tradeoff"
       ],
       "summary": "The reading-modeling decomposition tradeoff arises from two competing costs: merge costs when modeling after each chapter, which are editorial boundaries that often don't align with natural conceptual subsystems, and memory decay costs when modeling after the whole book, since memory (M) fades over time. The cohesion-coupling heuristic shows that optimal decomposition chooses boundaries to maximize internal cohesion and minimize coupling, not inherit editorial splits; chapters are narrative units, not structural ones. Consequently, the ideal strategy is somewhere between per-chapter and whole-book modeling, such as after a natural conceptual cluster, balancing merge costs against memory decay. Pre-reading lowers merge costs by providing a rough map, and structural patience avoids forcing structure on non-conceptual boundaries.",
-      "importance": 3.82,
+      "importance": 3.89,
       "connections": [
         {
           "type": "idea",
@@ -10342,7 +11361,7 @@
         "synthesis"
       ],
       "summary": "Reading and writing are a single cognitive process operating bidirectionally on a shared concept constraint relationship web: reading extracts constraint relationships between concepts from text (untangling), while writing encodes them into natural language (weaving). Writing's bottleneck lies in clarifying concepts and creating constraints, whereas reading's bottleneck is identifying constraints from unannotated natural language, so training should emphasize sharpening conceptual domains for writing and sentence‑by‑sentence constraint identification for reading. The independently developed connection‑reading and inquiry‑essay methods share this cognitive foundation, which could eventually support a unified concept constraint workbench.",
-      "importance": 1.9,
+      "importance": 1.91,
       "connections": [
         {
           "type": "idea",
@@ -10432,7 +11451,7 @@
         "domains"
       ],
       "summary": "Standard engineering is the process of creating a new version of an existing technology through familiar combinatorial methods, triggered by demand and executed via conceptual design and physical realization. From a problem-solving perspective, the engineer decomposes the demand into smaller problems, iteratively fitting components and resolving conflicts, with difficulty increasing when venturing into unknown territory or managing human factors. Domains function like languages, where the engineer generates an intention and selects technologies as words to form a sentence-like combination. At the plural level, many engineers generate vastly different combinations, and successful technologies become standard modules through reuse, a selection process akin to Darwinism but directed by demand rather than random variation.",
-      "importance": 3.27,
+      "importance": 3.28,
       "connections": [
         {
           "type": "idea",
@@ -10561,7 +11580,7 @@
         "meta-cognition"
       ],
       "summary": "The three-layer classification method uses the conceptual, technical architecture, and math layers as a starting lens to partition any important concept via three yes/no questions: is it precise and unambiguous, does it explain why something works, and would it still be true if no algorithm used it. Within each layer, concepts are organized by causal direction, Q→A constraint chain, or object-to-features-to-embedding correspondence. Cross-layer connections follow exactly four patterns: conceptual induces technical structure, math yields high-entropy conceptual ideas, math embeds at specific positions in the technical architecture, and within technical, Q leads to A through constraint. Any content resisting classification is listed explicitly as a residual. This approach, validated on 116 concepts, makes classification mechanical and redirects human effort to the intellectually interesting cross-layer connections. It extends the knowledge-reconnection method by adding a systematic, universal classification step before encoding, derived from the static three-layer framework.",
-      "importance": 5.11,
+      "importance": 5.15,
       "connections": [
         {
           "type": "idea",
@@ -10662,6 +11681,31 @@
           "type": "idea",
           "slug": "fix-result-backward",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "understanding-a-field-in-layers",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "discipline-division-and-internal-structure",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "broad-then-deep-recursion",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
         }
       ]
     },
@@ -10675,7 +11719,7 @@
         "thinking-methods"
       ],
       "summary": "Proactively record and question your personal beliefs, such as views on love and career, to engage in self-reflection and metacognitive examination.",
-      "importance": 0.77,
+      "importance": 0.78,
       "connections": [
         {
           "type": "project",
@@ -10713,7 +11757,7 @@
         "knowledge-reconnection"
       ],
       "summary": "A residuals table explicitly listing excluded content with reasons is a structural honesty device, not a failure, because it transforms incompleteness from a hidden defect into a visible feature. It prevents the silent failure mode where a framework appears complete but drops important content, letting future-you see intentional gaps at a glance rather than rediscovering omissions or assuming a partial model is whole. This contrasts with forcing every concept in, which destroys clarity, or silently discarding what doesn’t fit, creating hidden gaps. Any structured model should include a \"What's Not Here and Why\" section.",
-      "importance": 3.29,
+      "importance": 3.32,
       "connections": [
         {
           "type": "idea",
@@ -10777,7 +11821,7 @@
         "peer-learning"
       ],
       "summary": "College's real return beyond vocational skills is learning to think by questioning the biased common sense absorbed from society, and using that critical reflection to build the substance of a self—an integrated individual of morality, intellect, perception, and emotion. Its four-year removal from career and family provides a privileged distance for rigorous examination, with professors training mental precision and peers challenging or constructing ideas. By overturning prior identity assumptions, one connects thought to inner feeling and ideals to reality, then pursues a good life by asking what is truly worth seeking.",
-      "importance": 5.5,
+      "importance": 5.51,
       "connections": [
         {
           "type": "permanent",
@@ -10945,6 +11989,11 @@
           "type": "idea",
           "slug": "external-and-internal-view-of-technology",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "discipline-division-and-internal-structure",
+          "low_confidence": true
         }
       ]
     },
@@ -11054,7 +12103,7 @@
         "topology"
       ],
       "summary": "Shifting from a temporal or sequential frame to a spatial frame can reveal insights hidden by time's sequence, because space allows simultaneity, distance, position, boundaries, and neighborhoods. Specific examples like topic space, state space, possibility space, review space, and conversation space show how bounded regions with measurable distance and clear inside/outside distinctions clarify structure. This spatial perspective complements temporal flow-based thinking, providing a necessary cognitive lens for understanding complex systems.",
-      "importance": 2.44,
+      "importance": 2.46,
       "connections": [
         {
           "type": "idea",
@@ -11070,6 +12119,11 @@
           "type": "idea",
           "slug": "knowledge-as-dictionary-of-perspectives",
           "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "discipline-division-and-internal-structure",
+          "low_confidence": true
         }
       ]
     },
@@ -11102,7 +12156,7 @@
         "tradeoff"
       ],
       "summary": "The speed-first model-second learning strategy raises a critical batch size question at the convergence of two frameworks: the timeline model’s M decay dynamic and the interaction-as-dictionary view where knowledge consists of perspective keys. Larger batches risk memory decay of earlier raw input but expose richer cross-key patterns for modeling, while smaller batches minimize decay at the cost of flow interruption. The optimal batch size depends on M decay rate, knowledge structure density, and modeling cost, reflecting a tradeoff between the timeline model's decay pressure and the dictionary model's need for pattern visibility. Currently set intuitively at approximately one day of learning, the strategy remains untested in the modeling phase.",
-      "importance": 3.0,
+      "importance": 3.07,
       "connections": [
         {
           "type": "idea",
@@ -11192,7 +12246,7 @@
         "combinatorial-evolution"
       ],
       "summary": "Standard engineering, also called technological innovation or design, is the process of creating a new version of an old technology within a domain by reusing familiar combination methods and structures. It proceeds from a requirement, first at the conceptual level then the physical, breaking down problems into sub-problems and integrating components. Harder cases introduce unpredictable unknowns and human coordination. Design is essentially an attempted solution to a demand-driven problem, expressed much like language by selecting from standard modules. Over time, successful technologies become locked-in standards through a Darwinian feedback loop, with demand, not random variation, giving technological evolution its direction.",
-      "importance": 3.27,
+      "importance": 3.28,
       "connections": [
         {
           "type": "idea",
@@ -11292,7 +12346,7 @@
         "ice-breaking"
       ],
       "summary": "The Stranger Conversation Loop is a replicable social algorithm for initiating conversation with a stranger by following a cycle of greeting, asking a question, listening, then expressing a view and asking a follow-up, looping as long as curiosity holds. The approach works because asking first lowers the other person's barrier (people answer more easily than they initiate), listening before responding grounds the interaction in what was actually said rather than a pre-planned script, and each answer supplies threads that self-feed the next question, sustaining the loop.",
-      "importance": 1.6,
+      "importance": 1.29,
       "connections": [
         {
           "type": "idea",
@@ -11318,7 +12372,7 @@
         "iteration"
       ],
       "summary": "Strategy is the entire game of life, an iterative optimization of three components: the objective function (what you want), degrees of freedom (where you can act), and system internal structure (how actions propagate). Improving strategy uses four levers via the controlled variable method—clarifying each component and then adjusting the strategy itself, which co-evolves bidirectionally with the first three. Within lever 4, you move toward a theoretical optimum while also making local optimizations to avoid getting stuck. This meta-strategy loop of continuous refinement is the only necessary process, with everything else serving as input or output.",
-      "importance": 1.4,
+      "importance": 1.45,
       "connections": [
         {
           "type": "idea",
@@ -11359,6 +12413,16 @@
           "type": "idea",
           "slug": "hermeneutic-circle-learning",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "plugin-architecture-vs-defaults",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "sunk-cost-tug-and-salvage",
+          "low_confidence": true
         }
       ]
     },
@@ -11372,7 +12436,7 @@
         "learning"
       ],
       "summary": "Structural patience dictates that cross-domain connections observed with insufficient instances should not be forced into formal categories, as fragile structures built from 1-2 data points lead to false framing and later unlearning. Instead, they should be marked as embryonic links—honest placeholders that describe what would complete the pattern—and revisited when at least three independent instances naturally accumulate. This data-gated structure formation, analogous to stopping at the PCA elbow rather than overfitting noise, treats sparse patterns as residuals to avoid premature categorization. Embryonic links are discovered in the knowledge-reconnection workflow’s sink stage, serving as the meta-principle justifying that mechanism’s existence.",
-      "importance": 4.21,
+      "importance": 4.24,
       "connections": [
         {
           "type": "idea",
@@ -11473,6 +12537,26 @@
           "type": "idea",
           "slug": "learning-method-v2",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "broad-then-deep-recursion",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "discipline-division-and-internal-structure",
+          "low_confidence": true
         }
       ]
     },
@@ -11485,7 +12569,7 @@
         "concept-organization"
       ],
       "summary": "Understanding should begin with a thing's organizational structure, a theoretical prototype that must be refined into a full theory by examining its principles and methods of action; this leads to asking what technology's structure is from a purely logical perspective.",
-      "importance": 2.53,
+      "importance": 2.54,
       "connections": [
         {
           "type": "idea",
@@ -11576,6 +12660,11 @@
           "type": "idea",
           "slug": "hermeneutic-circle-learning",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "discipline-division-and-internal-structure",
+          "low_confidence": true
         }
       ]
     },
@@ -11591,7 +12680,7 @@
         "heuristics"
       ],
       "summary": "The Success Interrogation Heuristic—Generalize, Replicate, Migrate—turns a single win into a permanent capability upgrade by identifying the reusable mechanism behind a success. When something works unusually well, ask three questions: generalize to find the abstract pattern, replicate to reuse the exact mechanism, and migrate to port the underlying principle to a different domain. For example, the teach skill automated transformation of structured source material into interactive lessons, enabling an intense learning sprint. The heuristic includes a falsification step to detect context-bound, person-bound, or phase-bound constraints that block migration. While the teach skill is confirmed reusable, whether the automated-transformation principle can migrate beyond learning remains an open question.",
-      "importance": 1.36,
+      "importance": 1.77,
       "connections": [
         {
           "type": "idea",
@@ -11696,6 +12785,96 @@
         {
           "type": "idea",
           "slug": "practice-necessity-willingness-tradeoff",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "plugin-architecture-vs-defaults",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "goal-predicate-f",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "sunk-cost-tug-and-salvage",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "teach-application-scope",
+          "low_confidence": true
+        }
+      ]
+    },
+    {
+      "id": "idea-20260826-sunk-cost-tug-and-salvage",
+      "title": "The Sunk-Cost Tug Survives the Right Decision",
+      "tags": [
+        "sunk-cost",
+        "decision-making",
+        "meta-cognition",
+        "quitting",
+        "self-observation"
+      ],
+      "summary": "The sunk-cost tug survives the right decision: after roughly 10 hours spent optimizing /teach, the rollback was correctly made on future value alone, but the emotional temptation to avoid wasting that effort remained intense. Winning at the action level does not disarm the standing sunk-cost force, so it must be re-fought every time. The disarming reframe is salvage: extracting insights such as the fundamental model, the MAP.md design, and the goal-predicate f design converts the failed experiment into expensive tuition rather than waste, undermining the sunk-cost argument at its root.",
+      "importance": 0.7,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "completion-vs-quitting",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "plugin-architecture-vs-defaults",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "practice-necessity-willingness-tradeoff",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "success-interrogation-heuristic",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "strategy-three-component-model",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "hermeneutic-circle-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "learning-method-v2",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "attention-as-bottleneck",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "certainty-gravity",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "leverage-existing-vs-build-from-scratch",
           "low_confidence": true
         }
       ]
@@ -11818,7 +12997,7 @@
         "clustering"
       ],
       "summary": "Emergent structures from data often resist familiar categories like \"project\" or \"note,\" forming clusters that mix chat threads, book notes, ruminations, and abandoned plans along latent dimensions no existing vocabulary describes. Moving from human-designed to data-generated systems sacrifices not just control over structure but also the right to name that structure. Therefore, the system can present statistically meaningful clusters without human-understandable labels, and the user accepts this uninterpretability, exploring the associations directly rather than demanding a conventional category name.",
-      "importance": 1.01,
+      "importance": 1.02,
       "connections": [
         {
           "type": "idea",
@@ -11886,7 +13065,7 @@
         "feedback-control"
       ],
       "summary": "The risk of self-reinforcement in the wrong direction arises because sparse but structured input, uninterpretable emergence, and autonomous self-modification combine with data bias and confirmation bias to amplify mistaken patterns. Safeguards include a human veto with rollback trace, deliberate tracking of counter-evidence such as monitoring periods of zero new data for a topic, random exploration injection to break reinforcement, periodic reset by re-running association analysis from raw data to detect distortion, and the user as the ultimate correction signal, where success is measured not by accuracy but by whether the system stimulates valuable new thoughts and actions.",
-      "importance": 2.24,
+      "importance": 2.25,
       "connections": [
         {
           "type": "idea",
@@ -11921,7 +13100,7 @@
         "self-improvement"
       ],
       "summary": "The project management system uses M33 entity-relationship analysis to self-evolve by autonomously discovering patterns in user inputs and adjusting its own behavior, then feeds back to reshape the user’s thinking and habits, creating a closed coevolutionary loop. The conceptual layer settled four questions: it captures all data with a nestable timeline of state transitions and conversation traces, accepts non-interpretability for emergent clusters, grants the system high trust to self-update and notify after the fact, and employs five safeguards—human veto, counter-evidence maintenance, random exploration, periodic reset-to-zero checks, and user corrective signal—to prevent self-reinforcement. Design work now begins.",
-      "importance": 9.47,
+      "importance": 9.5,
       "connections": [
         {
           "type": "idea",
@@ -12041,6 +13220,37 @@
       ]
     },
     {
+      "id": "idea-20260826-teach-application-scope",
+      "title": "Teach Application Scope — Project-Oriented > Pure Learning > Exam Prep",
+      "tags": [
+        "teach",
+        "teach-method",
+        "learning-method",
+        "project-based-learning",
+        "exam-prep",
+        "meta-cognition"
+      ],
+      "summary": "The /teach skill fits learning goals in a clear hierarchy: project-oriented learning is the strongest fit because building gives a concrete target, pure learning is a medium fit for open-ended knowledge acquisition, and exam preparation is weakest because teach cannot guarantee full coverage of the exam syllabus (考纲). Exam prep demands total coverage of every knowledge point, but teach is efficient and selective rather than built for completeness. Therefore use /teach primarily for project-oriented learning and secondarily for pure learning. For exams, use a two-stage hybrid strategy: a teach pass over the syllabus, then a textbook pass for gap-filling (查漏补缺) to catch omissions and ensure full coverage.",
+      "importance": 3.22,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "teach-method-fixes",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "teach-coverage-check",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "pass-criteria-as-curriculum-design",
+          "low_confidence": false
+        }
+      ]
+    },
+    {
       "id": "idea-20260717-teach-coverage-check",
       "title": "Teach Coverage Check — Cross-Reference Teach Output Against Course Content",
       "tags": [
@@ -12050,7 +13260,7 @@
         "cs61a"
       ],
       "summary": "The Teach Coverage Check practice cross-references teach’s auto-generated lecture notes with the original CS61A lecture to detect missing content. Because teach is efficient but may overlook points, the lecture acts as a coverage baseline, and immediate gap detection prevents compounding omissions. The workflow involves watching the lecture, generating teach notes, scanning for gaps, and filling them manually or with a follow-up teach request. This quality-assurance method applies to any course where teach is the primary tool and an external reference exists, such as Runoob Python.",
-      "importance": 0.0,
+      "importance": 1.06,
       "connections": [
         {
           "type": "project",
@@ -12076,6 +13286,11 @@
           "type": "idea",
           "slug": "success-interrogation-heuristic",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "teach-application-scope",
+          "low_confidence": false
         }
       ]
     },
@@ -12089,7 +13304,7 @@
         "actionable"
       ],
       "summary": "The /teach method should split lessons into concept (no code, horizontal interaction density) and practice (code reading, vertical cross-filter bindings), sequenced bottom-up from the lowest abstraction. Mixing horizontal and vertical learning in one lesson triggers recursive questioning, as does top-down sequencing from high abstractions. Alternating concept maps then code reading, bottom-up, eliminates the dependency chain problem. This restructured rapid-concept-push cycle reserves independent writing for the integrative exam. Retrofit existing tracks only when lessons fail due to recursive questioning.",
-      "importance": 3.35,
+      "importance": 4.53,
       "connections": [
         {
           "type": "idea",
@@ -12185,6 +13400,26 @@
           "type": "idea",
           "slug": "practice-necessity-willingness-tradeoff",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "plugin-architecture-vs-defaults",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-map-format",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "teach-application-scope",
+          "low_confidence": false
         }
       ]
     },
@@ -12201,7 +13436,7 @@
         "curriculum-design"
       ],
       "summary": "In the /teach method, practice + exam volume inflates with content complexity, causing late-stage mental fatigue and single-domain physiological aversion that force partial completion and deferral, which fragments the cycle and leaves Zeigarnik residue. This violates the method’s own prescriptions for short, spaced sessions and working-memory-friendly chunk sizes, because 5–6 hours of practice are delivered in one sitting without interleaving. The missing design parameter is a volume cap on the cycle: complexity should raise cycle count, not cycle size, constrained to a session-scale budget. The solution involves decomposing complex cycles into multiple sessions, front-loading hard material, and applying interleaving at the cycle level to prevent single-domain satiation. Aversion and deferral should be treated as design failures, not personal ones.",
-      "importance": 3.16,
+      "importance": 3.29,
       "connections": [
         {
           "type": "idea",
@@ -12286,6 +13521,11 @@
         {
           "type": "idea",
           "slug": "learning-dynamics",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "teach-application-scope",
           "low_confidence": true
         }
       ]
@@ -12407,7 +13647,7 @@
         "systems-thinking"
       ],
       "summary": "Technology in the singular sense is a means to accomplish a purpose, manifesting equivalently as devices and processes. It possesses an anatomical structure: a central principle realized by primary assemblies, supported by secondary assemblies. Hierarchically, it decomposes into integrations—primary, secondary, tertiary—and exhibits recursion, as technology is built from other technologies; higher-level technologies command lower ones, which in turn determine what higher levels can accomplish. Modularity, or the grouping of functions, emerges when a linked series of parts is reused frequently enough to justify a functional module. This integration pattern is fluid because when purpose changes, technologies recombine, giving rise to new forms.",
-      "importance": 5.79,
+      "importance": 5.8,
       "connections": [
         {
           "type": "permanent",
@@ -12559,7 +13799,7 @@
         "research-questions"
       ],
       "summary": "This note prompts an expansion of philosophy of technology’s research agenda beyond foundational questions like “What is technology?” and “How does technology develop and evolve?” by seeking additional questions worth exploring.",
-      "importance": 4.21,
+      "importance": 4.22,
       "connections": [
         {
           "type": "project",
@@ -12706,7 +13946,7 @@
         "technology-theory"
       ],
       "summary": "Every technology depends on independently existing regularities called phenomena, which must be tamed through sub-technologies that make them usable and controllable. A principle is the conceptual scheme dictating how multiple domesticated phenomena combine to achieve a purpose. In this framework, a technology serves as the physical realization of a principle, while each phenomenon within that principle requires its own dedicated technology to fulfill its assigned function. If the specified result is not achieved, the sequence loops back to the first phenomenon.",
-      "importance": 3.7,
+      "importance": 3.71,
       "connections": [
         {
           "type": "idea",
@@ -13007,7 +14247,7 @@
         "thinking"
       ],
       "summary": "The Zettelkasten Method is a note-taking system using fleeting notes, literature notes, permanent notes, and project notes to build an external knowledge base that improves thinking and writing. By daily reviewing fleeting and literature notes against permanent notes, you create derivative ideas through connection and collision, leveraging the hermeneutic circle for cyclical understanding. This process generates a compound effect where more notes yield richer idea networks, and a virtuous feedback loop where expressing ideas in your own words tests comprehension, making sustained practice effortless through frequent, small-scale feedback.",
-      "importance": 8.12,
+      "importance": 8.14,
       "connections": [
         {
           "type": "permanent",
@@ -13112,6 +14352,26 @@
       ]
     },
     {
+      "id": "idea-20260822-theory-as-compressive-filter",
+      "title": "Theory as a Compressive Filter",
+      "tags": [
+        "epistemology",
+        "philosophy-of-science",
+        "modeling",
+        "abstraction",
+        "self-reference"
+      ],
+      "summary": "The note defines human thought-plus-time as constant manifold A and observed phenomena-plus-time as constant manifold B, with time folded into each manifold so change appears only as variation between slices, and since cognition is itself a phenomenon, A is a subset of B. A theory is a filter that uses one component of A to examine B, yielding a compressed time-carrying B′; physics uses a time-translation-invariant filter while sociology is reflexive because observation itself changes A and B. The only criterion for a good theory is that it characterizes B accurately and broadly. Publication stability, the fixed point T = Φ(T), is optional and adopted only to simplify. A stable core exists just when that self-referential equation has an approximate fixed point, the strict generative core.",
+      "importance": 0.5,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "interaction-as-dictionary",
+          "low_confidence": false
+        }
+      ]
+    },
+    {
       "id": "idea-20260207-a3f8c2",
       "title": "Thinking and Literature",
       "tags": [
@@ -13124,7 +14384,7 @@
         "self-reflection"
       ],
       "summary": "Full title: **From the Nature of Thinking as Cleansing Common Sense, to How Literature Can Improve Thinking Ability — Using *A Single Sentence Is Worth Ten Thousand* as an Example**  # 1. Thinking is ",
-      "importance": 3.97,
+      "importance": 3.98,
       "connections": [
         {
           "type": "permanent",
@@ -13186,7 +14446,7 @@
         "technology-evolution"
       ],
       "summary": "Technology can be understood in three distinct senses: singular, as a means to fulfill human purposes like a speech recognition algorithm; plural, as the integration of practices and components forming bodies such as electronics; and general, as the collection of devices and practices deployed in a culture. Each sense develops differently—singular technology emerges by modifying internal components, plural technology builds around phenomena and evolves through modified practices, and general technology grows organically from new combinations of natural phenomena. Distinguishing these definitions clarifies their separate formation and evolutionary paths.",
-      "importance": 5.74,
+      "importance": 5.75,
       "connections": [
         {
           "type": "project",
@@ -13320,7 +14580,7 @@
         "framework-design"
       ],
       "summary": "The three-layer framework—conceptual, technical architecture, and mathematical—should serve as the starting scaffold for building reconnection docs rather than emerging bottom-up from content analysis. Asking of each concept which layer it primarily inhabits and how it links bidirectionally to the others is more efficient than retroactively sorting concepts, as was done with 116 concepts in Ch5. The conceptual layer contains ideas like the NFL theorem, Occam's razor, and the curse of dimensionality that induce technical architecture; the technical architecture layer defines the (Q, A) structure and constraining operation from high-entropy natural language to low-entropy math; the mathematical layer holds precise objects connected to the conceptual layer via natural-language bridges and embedded into technical architecture at specific insertion points. Concepts often span two layers with different meanings at each.",
-      "importance": 5.25,
+      "importance": 5.32,
       "connections": [
         {
           "type": "idea",
@@ -13465,6 +14725,16 @@
         {
           "type": "idea",
           "slug": "hermeneutic-circle-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "discipline-division-and-internal-structure",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "broad-then-deep-recursion",
           "low_confidence": true
         }
       ]
@@ -13677,7 +14947,7 @@
         "abstraction"
       ],
       "summary": "Transfer is a high-leverage cognitive operation that converts one structural insight into multiple applications at near-zero additional cost. The pattern succeeds by extracting abstract structure—not surface content—from a source domain, mapping it to a target, and verifying the mapping holds; false transfers occur when surface similarity masks structural mismatch. Three instances illustrate this: the Physics method’s adaptive step-selection became an English learning method, PCA’s encode/decode architecture informed a knowledge-reconnection mechanism, and Git’s six-layer model with its persistent proposal buffer, isomorphic commit DAG, and remote-tracking as a local cache with silent staleness failure mode suggests protocols for distributed human–AI collaboration. Because the abstraction step is not prompted by the original task, deliberate transfer after each significant learning event yields asymmetric ROI—minutes of extraction can save hours or days.",
-      "importance": 3.54,
+      "importance": 3.36,
       "connections": [
         {
           "type": "idea",
@@ -13793,6 +15063,21 @@
           "type": "idea",
           "slug": "attention-pointer-learning-model",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pattern-pipeline",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "fundamental-model-of-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "ai-cannot-learn-after-training",
+          "low_confidence": true
         }
       ]
     },
@@ -13818,6 +15103,35 @@
           "type": "idea",
           "slug": "cohesion-coupling-decomposition-heuristic",
           "low_confidence": false
+        }
+      ]
+    },
+    {
+      "id": "idea-20260822-understanding-field-in-layers",
+      "title": "Understanding a Field in Layers",
+      "tags": [
+        "methodology",
+        "learning-methods",
+        "field-mapping",
+        "knowledge-structure"
+      ],
+      "summary": "Understanding a domain does not require knowing everything; it requires identifying its layers, and for graphics and vision there are exactly three: the math layer (Monte Carlo/probability, differential geometry/topology, statistics/optimization/signal processing, numerical methods), the tech layer (Mitsuba, gsplat, nerfstudio, NeRF/3DGS, UE5 Nanite/Lumen), and the business layer (VAST/Tripo, Meshy, HeyGen, and the shift from asset generation toward world models). The method generalizes because any sub-field can be decomposed into layers, and that decomposition is the fastest route to an overview.",
+      "importance": 1.71,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "reconnection-doc-method",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-as-dictionary-of-perspectives",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "discipline-division-and-internal-structure",
+          "low_confidence": true
         }
       ]
     },
@@ -13922,6 +15236,11 @@
           "type": "idea",
           "slug": "four-step-networking-method",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "cultivating-a-single-person",
+          "low_confidence": true
         }
       ]
     },
@@ -13962,7 +15281,7 @@
         "architecture"
       ],
       "summary": "The note proposes a unified model of Python program execution that integrates sub-models—def tree, frame tree, call tree, name-object binding, taxonomy of change, and abstraction barrier—into a single coherent framework, making their coupling mechanisms explicit. The Portal Model’s dual-perspective seed generalizes to N perspectives, with the hard problem residing in how models relate, whether through layered architecture, multi-projection from a shared execution trace, or process-algebraic derivation. The goal is to position each sub-model, define completeness criteria, and eliminate redundancy, so the unified model can explain what no single sub-model can.",
-      "importance": 3.76,
+      "importance": 3.82,
       "connections": [
         {
           "type": "idea",
@@ -14031,7 +15350,7 @@
         "student-union"
       ],
       "summary": "A four-year university strategy demands running two pillars in parallel from day one: skill-building via industry-first reverse planning and network-building via a deliberate leadership ladder. For an incoming Peking University math freshman, skill focuses on AI or embodied intelligence, working backward from company products to map the industry chain, identify a sub-field, and back-trace required courses to achieve production-grade, top-0.1% depth. Simultaneously, the social track ascends from class monitor to External Relations Department member for corporate-facing sponsorship and alumni connections, culminating as Math Department Student Union President to control opportunity flow. The parallel structure ensures market-relevant expertise feeds a network that, in turn, surfaces internships and mentors, eliminating the false choice between deep specialization and social capital.",
-      "importance": 3.48,
+      "importance": 3.0,
       "connections": [
         {
           "type": "idea",
@@ -14076,7 +15395,7 @@
         "conversation-design"
       ],
       "summary": "A tactic of pre-loading 30–100 domain-specific vocabulary words before a conversation aims to reduce cognitive load by keeping those words active in working memory, producing a fluency gain disproportionate to the effort. It is uncertain whether this is an effective mechanism or merely a ritual, how many words are needed, and how long the priming lasts. Each topic space could have an associated vocabulary bank, and deliberate priming might accelerate early sessions in an unfamiliar domain.",
-      "importance": 2.18,
+      "importance": 2.19,
       "connections": [
         {
           "type": "project",
@@ -14096,6 +15415,11 @@
         {
           "type": "idea",
           "slug": "anki-for-english-conversation",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "heard-vocabulary-completeness",
           "low_confidence": true
         }
       ]
@@ -14301,7 +15625,7 @@
         "project-management"
       ],
       "summary": "This note outlines a personal experiment testing the willingness dynamics from the timeline-based project structure, specifically the tension between continuity fatigue and milestone gravity, by comparing two arms when resistance arises after consecutive days on a project. Fixed conditions include the Deep Work I time block, with the Continue arm staying on Deep Learning Book chapters and the Switch arm moving to a PyTorch torch.nn module session. Outcome metrics are output quality, output volume, session satisfaction, and next-day carryover, with the hypothesis that Continue may yield higher volume but lower satisfaction and carryover. After ten total sessions, the analysis will check for significant differences, trade-off patterns, and adaptation effects.",
-      "importance": 1.96,
+      "importance": 2.03,
       "connections": [
         {
           "type": "idea",

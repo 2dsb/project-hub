@@ -8,7 +8,7 @@ tags:
 - system-design
 summary: "Efficiency improvements occur through two interconnected paths, not by reserving separate time blocks as the rejected 80/20 model suggested. Incremental updates are automatically crystallized during task execution into skills via an idea → skill pipeline and an evaluation → solidification loop, requiring no dedicated time. Systemic updates are occasional, high-impact restructurings of the underlying methodology or architecture, triggered when accumulated tension from incremental patches exposes structural limits. These two paths form a feedback loop: incremental updates build quantitative changes that, at a critical point, prompt qualitative systemic leaps, which then reshape daily execution."
 body_hash: "b0a5703d"
-importance: 2.37  # auto
+importance: 2.4  # auto
 connections:
 - type: project
   slug: ai-ability

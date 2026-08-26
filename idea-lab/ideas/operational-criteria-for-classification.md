@@ -7,7 +7,7 @@ tags:
 - classification
 summary: "Operational yes/no criteria outperform descriptive labels for classification because binary questions collapse understanding and application into a single 30-second decision tool, eliminating the need to internalize the entire framework first. The three criteria from Ch5—\"Is it precise and unambiguous? No → Conceptual\", \"Does it explain why something works? Yes → Math, No → Technical\", and \"Would it still be true if no algorithm used it? Yes → Math, No → Technical\"—exemplify this approach. Each criterion functions as an immediate binary test, making the system usable even without prior comprehension. When designing classification systems, always ensure an uninformed user can classify a new item rapidly; otherwise, the labels are descriptive rather than operational."
 body_hash: "70979b5a"
-importance: 1.82  # auto
+importance: 1.83  # auto
 connections:
   - type: idea
     slug: three-layer-framework

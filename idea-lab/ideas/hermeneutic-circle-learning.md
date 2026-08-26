@@ -56,7 +56,15 @@ connections:
     slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.537
   - type: idea
     slug: "teach-task-volume-scaling"  # auto, review: 0.517
-importance: 2.82  # auto
+  - type: idea
+    slug: "pattern-pipeline"  # auto
+  - type: idea
+    slug: "fundamental-model-of-learning"  # auto, review: 0.575
+  - type: idea
+    slug: "discipline-division-and-internal-structure"  # auto, review: 0.542
+  - type: idea
+    slug: "sunk-cost-tug-and-salvage"  # auto, review: 0.524
+importance: 4.09  # auto
 ---
 # Hermeneutic Circle as Learning Macro-Structure
 

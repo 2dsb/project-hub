@@ -4,7 +4,7 @@ title: "Name-Object Binding as a Perspective on Program Execution"
 tags: [cs61a, binding, environment-diagram, mutation, identity, mental-model, python]
 summary: "In Python, names are references to objects, not values. The name-object binding perspective focuses on which names refer to which objects, distinguishing rebinding (changing a name’s target) from mutation (changing an object’s state). This referential lens clarifies identity versus equality, aliasing, mutable default argument traps, nonlocal, and immutable containers with mutable elements. Elevating binding from an implementation detail to a first-class perspective alongside structural tree views (def, frame, call) reveals a binding graph of references, suggesting that teaching binding before mutation prevents confusion and offers a general tool for understanding languages with reference semantics."
 body_hash: "127fea52"
-importance: 3.38  # auto
+importance: 3.43  # auto
 connections:
   - type: idea
     slug: "environment-diagram-dual-perspective"  # auto

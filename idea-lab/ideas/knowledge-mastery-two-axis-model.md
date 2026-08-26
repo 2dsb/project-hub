@@ -10,7 +10,7 @@ tags:
   - interaction-as-dictionary
 summary: "Knowledge mastery decomposes into two independent but mutually catalytic axes: concept (horizontal interaction density within a conceptual filter) and practice (cross-filter vertical binding automaticity). The \"phantom quadrant\" of strong practice with weak concept cannot exist for complex domains because stable bindings require sufficient conceptual density, and practice itself surfaces new interactions. This two-axis framework applies recursively to higher-level objects like learning strategies via pattern promotion from interaction-as-dictionary, but advancing levels is exponentially harder because objects at level N≥1 must be constructed from multiple cross-domain instances before they can be interacted with."
 body_hash: "e217a0dc"
-importance: 5.34  # auto
+importance: 6.02  # auto
 connections:
   - type: idea
     slug: interaction-as-dictionary
@@ -56,6 +56,10 @@ connections:
     slug: "enumerative-as-scaffold-for-generative"  # auto, review: 0.570
   - type: idea
     slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.574
+  - type: idea
+    slug: "pattern-pipeline"  # auto
+  - type: idea
+    slug: "fundamental-model-of-learning"  # auto, review: 0.586
 ---
 # Knowledge Mastery — A Two-Axis Model with Recursive Levels
 

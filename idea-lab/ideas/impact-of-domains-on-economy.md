@@ -13,7 +13,7 @@ tags:
 - geography-of-innovation
 summary: "Technology in the plural sense involves technology bodies encountering industries, leading to re-domaining and disruptive change through co-variation and co-creation. This mutual restructuring, not mere adoption, explains why the economic impact of a domain unfolds over decades, requiring the accumulation of craft knowledge, supporting technologies, and institutional alignment. The process unfolds in relational time, with fast-time capturing the pace of new activities and slow-time defining an era. The geographic concentration of technological frontiers stems from esoteric craftsmanship—a shared, ineffable cognitive culture that includes knowing what works, what to ignore, and how to manipulate poorly understood phenomena, reinforced by trade secrets."
 body_hash: "9dac03ff"
-importance: 1.55  # auto
+importance: 1.56  # auto
 connections:
 - type: idea
   slug: three-definitions-of-technology

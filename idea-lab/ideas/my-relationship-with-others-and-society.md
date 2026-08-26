@@ -14,7 +14,7 @@ tags:
   - parenting
 summary: "Society imposes biased common sense and herd behavior that shape thought and suppress independent thinking, leading to conformity, infantilization, and perfectionism. This unexamined common sense makes individuals susceptible to herd mentality and uncritical acceptance of values like social hierarchy or DIY entrepreneurship over systemic change. Recognizing, questioning, and actively rethinking this common sense—through new perspectives and debate—transforms it into personal wisdom and builds a resilient self, enabling resistance to social pressure and genuine life direction beyond the salmon race."
 body_hash: "965b438b"
-importance: 5.26  # auto
+importance: 5.27  # auto
 connections:
   - type: permanent
     slug: 优秀的绵羊c6.1
@@ -42,6 +42,8 @@ connections:
     slug: "social-responsibility-of-outstanding-students"  # auto, review: 0.567
   - type: idea
     slug: "recording-and-questioning-beliefs"  # auto, review: 0.521
+  - type: idea
+    slug: "cultivating-a-single-person"  # auto, review: 0.508
 ---
 In notes 6, 7, and 8, others and society influence the self in two ways:
 

@@ -4,7 +4,7 @@ title: "Integrating Fragmented Life Strategies"
 tags: [life-design, system-thinking, habit-integration, meta-cognition]
 summary: "The author’s current habits, such as recording ideas and conducting daily reviews, are fragmented life strategies operating in isolation. The goal is to integrate them into a unified system by uncovering their shared underlying logic. This would allow the strategies to reinforce each other instead of competing for attention."
 body_hash: "8a807839"
-importance: 3.11  # auto
+importance: 3.13  # auto
 connections:
   - type: idea
     slug: "nature-of-review"  # auto

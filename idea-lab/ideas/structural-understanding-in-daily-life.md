@@ -4,7 +4,7 @@ title: "Structural Understanding in Daily Life"
 tags: [structural-analysis, theory-building, concept-organization]
 summary: "Understanding should begin with a thing's organizational structure, a theoretical prototype that must be refined into a full theory by examining its principles and methods of action; this leads to asking what technology's structure is from a purely logical perspective."
 body_hash: "cdb5b3cf"
-importance: 2.53  # auto
+importance: 2.54  # auto
 connections:
   - type: idea
     slug: "framework-from-data"  # auto
@@ -42,6 +42,8 @@ connections:
     slug: "three-layer-framework"  # auto, review: 0.566
   - type: idea
     slug: "hermeneutic-circle-learning"  # auto, review: 0.503
+  - type: idea
+    slug: "discipline-division-and-internal-structure"  # auto, review: 0.543
 ---
 Beyond concepts: analyze the actual internal structure of things.
 

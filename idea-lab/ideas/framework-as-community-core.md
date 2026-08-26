@@ -7,7 +7,9 @@ body_hash: "7a58d294"
 connections:
   - type: idea
     slug: "four-step-networking-method"  # auto
-importance: 1.6  # auto
+  - type: idea
+    slug: "cultivating-a-single-person"  # auto, review: 0.522
+importance: 1.29  # auto
 ---
 # Framework-as-Core: Building a Community Around the Social-Resources Decomposition
 

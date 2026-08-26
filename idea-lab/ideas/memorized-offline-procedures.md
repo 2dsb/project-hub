@@ -4,7 +4,7 @@ title: "Memorized Offline Procedures — When Skills Can't Rely on AI Presence"
 tags: [skill-design, memorization, offline, physical, constraint, procedure]
 summary: "Some procedures occur away from screens and AI, such as stretching or cooking, and must be fully memorized rather than referenced during execution. This splits skills into two classes: AI-present skills where AI guides in real time, and offline-memorized skills where AI serves only as a post-hoc reviewer and corrector. The offline-memorized skill lives entirely in memory during execution, with the skill file acting as an artifact backup consulted only when memory fails or an update is needed."
 body_hash: "80ca6180"
-importance: 0.56  # auto
+importance: 0.57  # auto
 connections:
   - type: skill
     slug: "post-run-stretching"
@@ -18,6 +18,8 @@ connections:
     slug: "practice-as-learning-purpose"  # auto, review: 0.520
   - type: idea
     slug: "memorization-in-pipeline"  # auto, review: 0.513
+  - type: idea
+    slug: "pattern-pipeline"  # auto, review: 0.501
 ---
 # Memorized Offline Procedures
 

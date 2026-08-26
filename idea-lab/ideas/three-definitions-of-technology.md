@@ -11,7 +11,7 @@ tags:
 - technology-evolution
 summary: "Technology can be understood in three distinct senses: singular, as a means to fulfill human purposes like a speech recognition algorithm; plural, as the integration of practices and components forming bodies such as electronics; and general, as the collection of devices and practices deployed in a culture. Each sense develops differently—singular technology emerges by modifying internal components, plural technology builds around phenomena and evolves through modified practices, and general technology grows organically from new combinations of natural phenomena. Distinguishing these definitions clarifies their separate formation and evolutionary paths."
 body_hash: "79576511"
-importance: 5.74  # auto
+importance: 5.75  # auto
 connections:
 - type: project
   slug: ai-ability

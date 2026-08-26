@@ -25,7 +25,9 @@ connections:
     slug: "teach-method-fixes"  # auto, review: 0.502
   - type: idea
     slug: "8b-deep-reflection"  # auto, review: 0.500
-importance: 1.7  # auto
+  - type: idea
+    slug: "pattern-pipeline"  # auto, review: 0.512
+importance: 1.5  # auto
 ---
 # AI-Centered New Education Industry (AI + Education)
 

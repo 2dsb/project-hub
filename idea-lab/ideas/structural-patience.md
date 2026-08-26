@@ -8,7 +8,7 @@ tags:
   - learning
 summary: "Structural patience dictates that cross-domain connections observed with insufficient instances should not be forced into formal categories, as fragile structures built from 1-2 data points lead to false framing and later unlearning. Instead, they should be marked as embryonic links—honest placeholders that describe what would complete the pattern—and revisited when at least three independent instances naturally accumulate. This data-gated structure formation, analogous to stopping at the PCA elbow rather than overfitting noise, treats sparse patterns as residuals to avoid premature categorization. Embryonic links are discovered in the knowledge-reconnection workflow’s sink stage, serving as the meta-principle justifying that mechanism’s existence."
 body_hash: "22de3508"
-importance: 4.21  # auto
+importance: 4.24  # auto
 connections:
   - type: idea
     slug: "knowledge-reconnection"  # auto
@@ -50,6 +50,14 @@ connections:
     slug: "hermeneutic-circle-learning"  # auto, review: 0.558
   - type: idea
     slug: "learning-method-v2"  # auto, review: 0.549
+  - type: idea
+    slug: "pattern-pipeline"  # auto, review: 0.575
+  - type: idea
+    slug: "broad-then-deep-recursion"  # auto, review: 0.516
+  - type: idea
+    slug: "fundamental-model-of-learning"  # auto, review: 0.514
+  - type: idea
+    slug: "discipline-division-and-internal-structure"  # auto, review: 0.511
 ---
 # Structural Patience — Data-Gated Structure Formation
 

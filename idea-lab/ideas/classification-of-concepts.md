@@ -4,7 +4,7 @@ title: "The Classification of Concepts"
 tags: ["concept-analysis", "classification-methods", "essence-of-technology"]
 summary: "The note asks how the classification of concepts should be abstractly carried out, prompted by the framework in *The Nature of Technology* where technology is divided along a singular/plural/collective axis and a physical/behavioral level."
 body_hash: "e6d00e0c"
-importance: 3.74  # auto
+importance: 3.75  # auto
 connections:
   - type: idea
     slug: "framework-from-data"  # auto
@@ -60,6 +60,8 @@ connections:
     slug: "standard-engineering"  # auto, review: 0.504
   - type: idea
     slug: "impact-of-domains-on-economy"  # auto, review: 0.500
+  - type: idea
+    slug: "discipline-division-and-internal-structure"  # auto, review: 0.503
 ---
 In the book *The Nature of Technology*, technology is conceptually divided along the singular / plural / collective axis.
 There is also a division at the physical / behavioral level.

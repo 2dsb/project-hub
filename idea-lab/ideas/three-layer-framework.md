@@ -8,7 +8,7 @@ tags:
 - framework-design
 summary: "The three-layer framework—conceptual, technical architecture, and mathematical—should serve as the starting scaffold for building reconnection docs rather than emerging bottom-up from content analysis. Asking of each concept which layer it primarily inhabits and how it links bidirectionally to the others is more efficient than retroactively sorting concepts, as was done with 116 concepts in Ch5. The conceptual layer contains ideas like the NFL theorem, Occam's razor, and the curse of dimensionality that induce technical architecture; the technical architecture layer defines the (Q, A) structure and constraining operation from high-entropy natural language to low-entropy math; the mathematical layer holds precise objects connected to the conceptual layer via natural-language bridges and embedded into technical architecture at specific insertion points. Concepts often span two layers with different meanings at each."
 body_hash: "60aa0e81"
-importance: 5.25  # auto
+importance: 5.32  # auto
 connections:
 - type: idea
   slug: content-independent-framework
@@ -68,6 +68,10 @@ connections:
     slug: "analogical-transfer-conditions"  # auto, review: 0.514
   - type: idea
     slug: "hermeneutic-circle-learning"  # auto, review: 0.529
+  - type: idea
+    slug: "discipline-division-and-internal-structure"  # auto, review: 0.538
+  - type: idea
+    slug: "broad-then-deep-recursion"  # auto, review: 0.533
 ---
 # Three-Layer Framework as Starting Lens for Reconnection Docs
 

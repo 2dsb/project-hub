@@ -8,7 +8,7 @@ tags:
   - meta-cognition
 summary: "The three-layer classification method uses the conceptual, technical architecture, and math layers as a starting lens to partition any important concept via three yes/no questions: is it precise and unambiguous, does it explain why something works, and would it still be true if no algorithm used it. Within each layer, concepts are organized by causal direction, Q→A constraint chain, or object-to-features-to-embedding correspondence. Cross-layer connections follow exactly four patterns: conceptual induces technical structure, math yields high-entropy conceptual ideas, math embeds at specific positions in the technical architecture, and within technical, Q leads to A through constraint. Any content resisting classification is listed explicitly as a residual. This approach, validated on 116 concepts, makes classification mechanical and redirects human effort to the intellectually interesting cross-layer connections. It extends the knowledge-reconnection method by adding a systematic, universal classification step before encoding, derived from the static three-layer framework."
 body_hash: "fb4db999"
-importance: 5.11  # auto
+importance: 5.15  # auto
 connections:
   - type: idea
     slug: "three-layer-framework"  # auto
@@ -50,6 +50,16 @@ connections:
     slug: "interaction-as-essence-heuristic"  # auto, review: 0.518
   - type: idea
     slug: "fix-result-backward"  # auto, review: 0.505
+  - type: idea
+    slug: "understanding-a-field-in-layers"  # auto, review: 0.570
+  - type: idea
+    slug: "discipline-division-and-internal-structure"  # auto, review: 0.553
+  - type: idea
+    slug: "fundamental-model-of-learning"  # auto, review: 0.523
+  - type: idea
+    slug: "broad-then-deep-recursion"  # auto, review: 0.520
+  - type: idea
+    slug: "pattern-pipeline"  # auto, review: 0.501
 ---
 # Three-Layer Classification Method for Reconnection Docs
 

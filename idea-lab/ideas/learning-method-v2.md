@@ -56,6 +56,16 @@ connections:
     slug: "teach-task-volume-scaling"  # auto
   - type: idea
     slug: "occupancy-pair-scheduling"  # auto, review: 0.556
+  - type: idea
+    slug: "fundamental-model-of-learning"  # auto, review: 0.555
+  - type: idea
+    slug: "pattern-pipeline"  # auto, review: 0.552
+  - type: idea
+    slug: "knowledge-map-format"  # auto, review: 0.537
+  - type: idea
+    slug: "sunk-cost-tug-and-salvage"  # auto, review: 0.516
+  - type: idea
+    slug: "teach-application-scope"  # auto, review: 0.550
 ---
 # Learning Method v2
 

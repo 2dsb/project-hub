@@ -9,7 +9,7 @@ tags:
 - framework-design
 summary: "Local patterns cannot be generalized into a global pattern through continuous patching. In the linguistic structure project, the initial topic→elaboration rule was repeatedly patched with scene construction and other phenomena, causing the framework to grow complex without becoming universal. This is like drawing tangents point-by-point on a curve, where each local fit never converges to the overall shape. Induction must follow data accumulation, not react to each new sample. The corrective strategy bans framework labels during analysis, waits for an accumulation threshold of three chapters, and freezes framework files until clustering emerges, complementing the framework-from-data approach."
 body_hash: "72c089dc"
-importance: 2.49  # auto
+importance: 2.51  # auto
 connections:
 - type: idea
   slug: framework-from-data
@@ -43,6 +43,8 @@ connections:
     slug: "reconnection-doc-method"  # auto, review: 0.543
   - type: idea
     slug: "knowledge-transfer-fidelity"  # auto, review: 0.514
+  - type: idea
+    slug: "pattern-pipeline"  # auto, review: 0.515
 ---
 # Local Patterns Cannot Be Generalized Through Continuous Patching
 

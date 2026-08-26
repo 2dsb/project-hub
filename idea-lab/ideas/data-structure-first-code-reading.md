@@ -1,7 +1,7 @@
 ---
 id: "idea-20260719-data-structure-first-code-reading"
 title: "Data Structure First — Memorize Shapes Before Reading Code"
-importance: 1.42  # auto
+importance: 1.45  # auto
 tags:
   - learning
   - code-reading
@@ -37,6 +37,8 @@ connections:
     slug: "hermeneutic-circle-learning"  # auto, review: 0.542
   - type: idea
     slug: "learning-method-v2"  # auto, review: 0.518
+  - type: idea
+    slug: "pattern-pipeline"  # auto, review: 0.513
 ---
 # Data Structure First — Memorize Shapes Before Reading Code
 

@@ -7,7 +7,7 @@ tags:
 - knowledge-reconnection
 summary: "A framework organized by structural criteria independent of subject matter—such as conceptual, technical architecture, and mathematical layers—outlasts content-bound frameworks like an abstraction hierarchy for linear algebra. The three-layer framework proved reusable across multiple chapters because it references properties any content possesses, while chapter-specific splits died with their domains. The design rule: ensure the organizing principle references structural properties, not specific content, to achieve cross-domain reusability."
 body_hash: "6ec77c2b"
-importance: 3.76  # auto
+importance: 3.78  # auto
 connections:
   - type: idea
     slug: "three-layer-framework"  # auto
@@ -41,6 +41,8 @@ connections:
     slug: "interaction-as-essence-heuristic"  # auto, review: 0.537
   - type: idea
     slug: "abstraction-barrier-as-dual-perspective-bridge"  # auto, review: 0.537
+  - type: idea
+    slug: "decoupling"  # auto, review: 0.502
 ---
 # Content-Independent Frameworks Beat Content-Bound Ones
 

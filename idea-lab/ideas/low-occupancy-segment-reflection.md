@@ -43,7 +43,7 @@ connections:
     slug: "practice-as-learning-purpose"  # auto, review: 0.501
   - type: idea
     slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.500
-importance: 1.99  # auto
+importance: 2.05  # auto
 ---
 # Opportunistic Reflection During Low-Occupancy Segments — Free Consolidation of Recent Deep Work
 

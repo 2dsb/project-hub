@@ -9,7 +9,7 @@ tags:
 - M34
 summary: "The core claim is that conversation logs are an essential but currently missing data source for the M34 system, because the chat window is the sole entry point for information, and failing to archive conversations means losing the richest behavioral data. The solution proposes saving conversations before each session ends to feed them into the M34 timeline, likening the unarchived flow to ore dropping off a conveyor belt. Implementation issues include deciding between raw transcript versus structured extraction and choosing a save location."
 body_hash: "06dd021f"
-importance: 2.98  # auto
+importance: 2.99  # auto
 connections:
 - type: idea
   slug: system-coevolution-p1-data-coverage

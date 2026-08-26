@@ -13,7 +13,7 @@ body_hash: "3dc59b71"
 connections:
   - type: idea
     slug: "interaction-as-dictionary"
-importance: 0.47  # auto
+importance: 0.5  # auto
 ---
 # Behavior Chains as a Person–Environment System — Modeling Near-Deterministic Influence Chains
 

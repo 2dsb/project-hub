@@ -40,6 +40,8 @@ connections:
     slug: "reconnection-doc-method"  # auto, review: 0.546
   - type: idea
     slug: "transfer-high-leverage"  # auto, review: 0.524
+  - type: idea
+    slug: "pattern-pipeline"  # auto, review: 0.543
 ---
 # Flow-Based Thinking Framework
 

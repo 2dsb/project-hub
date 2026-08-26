@@ -8,7 +8,7 @@ tags:
 - research-method
 summary: "Build frameworks from data, not find data for frameworks, because prematurely elevating a pattern like topic→elaboration to universal status from only five argumentative paragraphs causes the framework to shatter when encountering counterexamples such as scene construction. The correct methodology is to accumulate a large dataset first, annotating each paragraph's conceptual constraints using stable types like the 24 constraint types and describing organizational patterns in natural language without terminologizing them, then allowing clusters to emerge naturally from at least three full chapters of analysis before constructing any general taxonomy. Framework files should be frozen until data volume reaches the threshold, and goal ambiguity should be tolerated, as the objective clarifies with more ore. The Linguistic Structure Analysis project learned this lesson from its v1→v2 refactoring, where v1 collapsed from a single counterexample after being built on only five paragraphs, demonstrating that expanding analytical coverage must precede framework formation."
 body_hash: "05375692"
-importance: 3.64  # auto
+importance: 3.65  # auto
 connections:
 - type: project
   slug: "linguistic-structure-analysis"

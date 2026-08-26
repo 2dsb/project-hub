@@ -5,6 +5,9 @@ tags: [networking, conversation, social-skills, questioning, learning, mentorshi
 summary: "Attribution of Achievement is a conversational technique for extracting insight from accomplished or promising people by repeatedly asking what they attribute their achievement to. Opening with genuine admiration lowers defenses, and the attribution question itself flatters by inviting them to narrate their own success story. Each answer is chased vertically by asking what causes each named factor, and horizontally by testing whether the list is complete up to luck, until a minimal, complete causal model emerges. The luck framing is disarming because conceding that they are only luck away makes it easier for them to identify what is not luck."
 body_hash: "7b674a90"
 importance: 0.0  # auto
+connections:
+  - type: idea
+    slug: "cultivating-a-single-person"  # auto, review: 0.521
 ---
 # Attribution of Achievement
 

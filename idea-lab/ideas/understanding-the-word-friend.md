@@ -10,6 +10,8 @@ connections:
     slug: "r7-dating-guide-and-true-love"  # auto, review: 0.561
   - type: idea
     slug: "four-step-networking-method"  # auto, review: 0.548
+  - type: idea
+    slug: "cultivating-a-single-person"  # auto, review: 0.547
 ---
 Common sense (my view): Friends should be permanent, solid
 

@@ -4,7 +4,7 @@ title: "The Fidelity Problem in Knowledge Transfer"
 tags: [meta-cognition, knowledge-transfer, language-limits, communication]
 summary: "Language as a knowledge transfer medium has a fidelity ceiling because it can only function as an incremental patch on top of a shared experiential base, never building experiential understanding from scratch. Describing something like school to someone who never attended is near impossible because the listener lacks anchoring experience for the implicit feel of classes, rankings, and social dynamics. Even when explicit rules are transparent, as in a closed system, massive implicit knowledge remains untransferable without that common ground."
 body_hash: "a1db7e71"
-importance: 3.15  # auto
+importance: 3.12  # auto
 connections:
   - type: project
     slug: "linguistic-structure-analysis"
@@ -32,6 +32,8 @@ connections:
     slug: "local-pattern-patching-failure"  # auto, review: 0.514
   - type: idea
     slug: "memorization-in-pipeline"  # auto, review: 0.506
+  - type: idea
+    slug: "ai-cannot-learn-after-training"  # auto, review: 0.509
 ---
 # The Fidelity Problem in Knowledge Transfer
 

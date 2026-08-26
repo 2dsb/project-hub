@@ -39,7 +39,9 @@ connections:
     slug: "teach-task-volume-scaling"  # auto, review: 0.569
   - type: idea
     slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.520
-importance: 1.86  # auto
+  - type: idea
+    slug: "pattern-pipeline"  # auto, review: 0.559
+importance: 1.96  # auto
 ---
 # Enumerative Taxonomy as Deliberate Scaffold for Generative Derivation
 

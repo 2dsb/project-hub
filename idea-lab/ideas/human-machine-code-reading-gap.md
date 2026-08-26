@@ -11,7 +11,7 @@ tags:
   - semantics
 summary: "Human code reading compresses multi-step machine execution into semantic chunks, such as interpreting `make_adder(3)` as “n=3 and get a function” in a single conceptual leap, while the machine decomposes it into discrete steps like creating a frame and binding n. This compression distinguishes the conceptual layer from the algorithmic layer. The note questions whether human reading and machine execution are equivalent and explores the relationship between these layers, extending the environment-diagram-dual-perspective framework by identifying compression as the mechanism separating the pattern-as-state-machine view from the code-as-mental-model view, mirroring the inside/outside duality from the deep-learning-book."
 body_hash: "65f0c759"
-importance: 1.9  # auto
+importance: 1.93  # auto
 connections:
   - type: idea
     slug: environment-diagram-dual-perspective
@@ -31,6 +31,8 @@ connections:
     slug: "attention-pointer-learning-model"  # review: 0.516
   - type: idea
     slug: "human-structure-ai-completeness"  # auto, review: 0.526
+  - type: idea
+    slug: "pattern-pipeline"  # auto, review: 0.595
 ---
 # Human vs. Machine Code Reading — The Conceptual Gap
 

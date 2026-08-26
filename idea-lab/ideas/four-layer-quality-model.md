@@ -10,7 +10,7 @@ tags:
 - framework
 summary: "The Four-Layer Product Quality Model decomposes any product into Philosophy, Acceptance Criteria, Spec, and Product, yielding an exhaustive 10-dimensional audit space: the six cross-layer comparisons from all pairwise combinations (e.g., Philosophy↔Acceptance Criteria, Spec↔Product) plus internal consistency checks within each layer. The M34 audit blind spot — rigid templates contradicting the coevolution philosophy — arose because audits were confined to Spec↔Product correspondence, missing the Philosophy↔Product audit that would have caught it. Only a full-dimensional audit, incorporating roles like a Devil’s Advocate holding philosophy directly against product behavior, can surface what the spec should have mandated but didn’t. This closed classification, with no eleventh dimension, is a universal audit law applicable to any system with a philosophy layer."
 body_hash: "60bc5bdf"
-importance: 4.61  # auto
+importance: 4.64  # auto
 connections:
 - type: idea
   slug: audit-blind-spot-spec-limitation

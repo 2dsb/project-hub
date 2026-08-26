@@ -35,6 +35,8 @@ connections:
     slug: "finding-examples"  # auto, review: 0.503
   - type: idea
     slug: "external-and-internal-view-of-technology"  # auto, review: 0.502
+  - type: idea
+    slug: "discipline-division-and-internal-structure"  # auto, review: 0.529
 ---
 Science is the formal knowledge of phenomena.
 

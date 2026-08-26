@@ -48,7 +48,19 @@ connections:
     slug: "memorization-in-pipeline"  # auto, review: 0.517
   - type: idea
     slug: "learning-pipeline"  # auto, review: 0.503
-importance: 1.56  # auto
+  - type: idea
+    slug: "sunk-cost-tug-and-salvage"  # auto, review: 0.533
+  - type: idea
+    slug: "pattern-pipeline"  # auto, review: 0.529
+  - type: idea
+    slug: "plugin-architecture-vs-defaults"  # auto, review: 0.520
+  - type: idea
+    slug: "success-interrogation-heuristic"  # auto, review: 0.501
+  - type: idea
+    slug: "low-occupancy-segment-reflection"  # auto, review: 0.500
+  - type: idea
+    slug: "teach-application-scope"  # auto, review: 0.506
+importance: 1.61  # auto
 ---
 # The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss
 

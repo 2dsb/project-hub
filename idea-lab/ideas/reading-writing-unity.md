@@ -9,7 +9,7 @@ tags:
 - synthesis
 summary: "Reading and writing are a single cognitive process operating bidirectionally on a shared concept constraint relationship web: reading extracts constraint relationships between concepts from text (untangling), while writing encodes them into natural language (weaving). Writing's bottleneck lies in clarifying concepts and creating constraints, whereas reading's bottleneck is identifying constraints from unannotated natural language, so training should emphasize sharpening conceptual domains for writing and sentence‑by‑sentence constraint identification for reading. The independently developed connection‑reading and inquiry‑essay methods share this cognitive foundation, which could eventually support a unified concept constraint workbench."
 body_hash: "6afbe073"
-importance: 1.9  # auto
+importance: 1.91  # auto
 connections:
 - type: idea
   slug: inquiry-essay-method

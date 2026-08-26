@@ -46,7 +46,9 @@ connections:
     slug: "goal-singularity"  # auto, review: 0.514
   - type: idea
     slug: "learning-dynamics"  # auto, review: 0.508
-importance: 3.16  # auto
+  - type: idea
+    slug: "teach-application-scope"  # auto, review: 0.537
+importance: 3.29  # auto
 ---
 # Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls
 

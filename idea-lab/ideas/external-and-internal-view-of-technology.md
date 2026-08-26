@@ -8,7 +8,7 @@ tags:
 - combinatorial-thinking
 summary: "Technology is shifting from fixed, standalone industrial processes to modular components that can be endlessly combined, evolving into an open language or \"chemistry\" for creating new functions. The external view of technology focuses on its whole manifestation and societal interactions, like how short-form video affects attention. The internal view examines the principles and combinatorial evolution of technology itself, where new technologies are assembled from existing ones and provide building blocks for future innovation."
 body_hash: "5ec733d1"
-importance: 5.3  # auto
+importance: 5.31  # auto
 connections:
   - type: project
     slug: "ai-ability"
@@ -66,6 +66,8 @@ connections:
     slug: "perspective-classification"  # auto, review: 0.565
   - type: idea
     slug: "science"  # auto, review: 0.502
+  - type: idea
+    slug: "discipline-division-and-internal-structure"  # auto, review: 0.507
 ---
 There is a shift in perspective here — from viewing technology as standalone objects with fixed purposes to viewing technology as things that can be endlessly combined into new configurations.
 

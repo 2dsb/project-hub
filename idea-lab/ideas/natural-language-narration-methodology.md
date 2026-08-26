@@ -8,7 +8,7 @@ tags:
 - writing
 summary: "The \"Natural Language Narration\" methodology involves describing each paragraph's organizational pattern in natural language, a practice that merits exploration. Core questions concern what constitutes a good description, at what level of detail one should describe, and how to avoid unconsciously applying framework terminology."
 body_hash: "809ef60e"
-importance: 3.47  # auto
+importance: 3.48  # auto
 connections:
 - type: project
   slug: linguistic-structure-analysis

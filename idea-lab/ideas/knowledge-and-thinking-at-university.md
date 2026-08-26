@@ -38,6 +38,8 @@ connections:
     slug: "math-competition-and-tech-innovation"  # auto, review: 0.528
   - type: idea
     slug: "explaining-excellent-sheep-with-theory"  # auto, review: 0.510
+  - type: idea
+    slug: "discipline-division-and-internal-structure"  # auto, review: 0.521
 ---
 # Knowledge and Thinking
 

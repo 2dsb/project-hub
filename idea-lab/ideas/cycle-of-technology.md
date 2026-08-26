@@ -67,6 +67,8 @@ connections:
     slug: "perspective-classification"  # auto, review: 0.522
   - type: idea
     slug: "evolution-of-phenomena"  # auto, review: 0.511
+  - type: idea
+    slug: "discipline-division-and-internal-structure"  # auto, review: 0.505
 ---
 This refers to the process from the emergence of a new technology to its replacement by an even newer technology (here, "technology" is used in the plural sense).
 

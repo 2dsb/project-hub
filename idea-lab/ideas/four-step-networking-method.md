@@ -4,7 +4,7 @@ title: "The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up"
 tags: [networking, social-skills, methodology, communication, mentorship]
 summary: "The Networking Method structures relationship-building into five sequential steps: open with a specific, answerable compliment that invites dialogue, then establish an identity anchor to serve as a mental hook, exchange contacts while framing the ask around a genuine intent to learn, and ask a question that demonstrates prepared curiosity by targeting the space between public and insider knowledge. The method’s central argument is that the follow-up within 24 hours, which references a specific conversation point without making an immediate ask, is the essential multiplier that converts a fleeting contact into a compounding, long-term relationship."
 body_hash: "df57d893"
-importance: 7.0  # auto
+importance: 7.05  # auto
 connections:
   - type: idea
     slug: "university-two-pillar-strategy"  # auto
@@ -14,6 +14,8 @@ connections:
     slug: "understanding-the-word-friend"  # auto, review: 0.548
   - type: idea
     slug: "framework-as-community-core"  # auto
+  - type: idea
+    slug: "cultivating-a-single-person"  # auto
 ---
 # The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up
 

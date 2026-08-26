@@ -9,7 +9,7 @@ tags:
   - heuristic
 summary: "The Interaction-as-Essence Heuristic replaces “what is X?” with “how does X interact with other things?” A property is a regularity, and what we call essence is simply a property whose interaction scope is exceptionally wide, not a qualitatively different kind. This dissolves essentialist problems by treating object internals as irrelevant black boxes and focusing on interface patterns. The heuristic explains frameworks like the three-layer model, the portal model, and cohesion-coupling, all of which derive their value from interaction patterns rather than intrinsic nature."
 body_hash: "005a604b"
-importance: 2.02  # auto
+importance: 2.08  # auto
 connections:
   - type: idea
     slug: "interaction-as-dictionary"  # auto
@@ -25,6 +25,8 @@ connections:
     slug: "content-independent-framework"  # auto, review: 0.537
   - type: idea
     slug: "reconnection-doc-method"  # auto, review: 0.518
+  - type: idea
+    slug: "discipline-division-and-internal-structure"  # auto, review: 0.507
 ---
 # Interaction-as-Essence Heuristic
 

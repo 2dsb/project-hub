@@ -4,7 +4,7 @@ title: "Call Tree as a Third Perspective on Program Execution"
 tags: [cs61a, recursion, program-execution, environment-diagram, mental-model, visualization]
 summary: "The call tree is a distinct runtime perspective showing which function invocations spawn which sub-calls, capturing the branching structure of the computational process. It complements the static def tree (definition nesting) and the dynamic frame tree (environment parent links) by revealing the directionality of computation flow—arguments down, return values up—as described by the Portal Model’s concept of return as a portal. This three-tree synthesis may provide a minimal complete picture of program execution, and the call tree’s intuitive nature makes it a powerful teaching tool for recursion."
 body_hash: "a07156b8"
-importance: 2.36  # auto
+importance: 2.39  # auto
 connections:
   - type: idea
     slug: "environment-diagram-dual-perspective"  # auto

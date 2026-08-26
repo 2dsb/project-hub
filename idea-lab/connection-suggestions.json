@@ -4,134 +4,320 @@
   "min_score": 0.5,
   "max_candidates": 20,
   "generated": "2026-08-01",
-  "total_ideas": 208,
-  "ideas_with_suggestions": 14,
-  "total_suggestions": 45,
+  "total_ideas": 223,
+  "ideas_with_suggestions": 25,
+  "total_suggestions": 85,
   "stats": {
     "suggestion_count_distribution": {
-      "0": 194,
-      "1": 9,
-      "2": 1,
-      "4": 2,
-      "11": 1,
-      "15": 1
+      "0": 198,
+      "1": 15,
+      "2": 2,
+      "3": 2,
+      "4": 1,
+      "8": 1,
+      "9": 2,
+      "15": 2
     },
     "score_range": {
-      "min": 0.5002,
-      "max": 0.6245,
-      "avg": 0.5475
+      "min": 0.5,
+      "max": 0.6806,
+      "avg": 0.5526
     }
   },
   "suggestions": [
     {
-      "slug": "async-work-mode",
-      "title": "Async Work Mode — Overlap Tasks Instead of Idling While You Wait",
+      "slug": "ai-cannot-learn-after-training",
+      "title": "AI Cannot Learn After Training — Conversation Isn't Learning, Fine-Tuning Needs Data",
       "suggestions": [
         {
-          "slug": "attention-as-bottleneck",
-          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
-          "score": 0.546
+          "slug": "implicit-improvement-pattern",
+          "title": "Implicit Improvement — Getting Better Without Knowing How",
+          "score": 0.5344
         },
         {
-          "slug": "low-occupancy-segment-reflection",
-          "title": "Opportunistic Reflection During Low-Occupancy Segments — Free Consolidation of Recent Deep Work",
-          "score": 0.5377
+          "slug": "knowledge-reconnection",
+          "title": "Knowledge Reconnection Mechanism",
+          "score": 0.5326
         },
         {
-          "slug": "timeline-based-project-structure",
-          "title": "Timeline-Based Project Structure",
-          "score": 0.5356
+          "slug": "transfer-high-leverage",
+          "title": "Transfer as a High-Leverage Cognitive Operation",
+          "score": 0.5296
         },
         {
-          "slug": "efficiency-formula",
-          "title": "The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates",
-          "score": 0.5036
+          "slug": "freedom-exploration-generator",
+          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+          "score": 0.5247
+        },
+        {
+          "slug": "knowledge-mastery-two-axis-model",
+          "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
+          "score": 0.5174
+        },
+        {
+          "slug": "fundamental-model-of-learning",
+          "title": "Fundamental Model of Learning",
+          "score": 0.5158
+        },
+        {
+          "slug": "knowledge-transfer-fidelity",
+          "title": "The Fidelity Problem in Knowledge Transfer",
+          "score": 0.509
+        },
+        {
+          "slug": "memorization-in-pipeline",
+          "title": "Memorization in the Learning Pipeline",
+          "score": 0.5079
+        },
+        {
+          "slug": "attention-pointer-learning-model",
+          "title": "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint",
+          "score": 0.5
         }
       ]
     },
     {
-      "slug": "attention-as-bottleneck",
-      "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
+      "slug": "attention-pointer-learning-model",
+      "title": "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint",
       "suggestions": [
         {
-          "slug": "teach-task-volume-scaling",
-          "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
-          "score": 0.6055
-        },
-        {
-          "slug": "occupancy-pair-scheduling",
-          "title": "Occupancy-Pair Scheduling — a Recursive Instance of the Optimal-Curve Problem",
-          "score": 0.5675
-        },
-        {
-          "slug": "async-work-mode",
-          "title": "Async Work Mode — Overlap Tasks Instead of Idling While You Wait",
-          "score": 0.546
-        },
-        {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.5439
+          "slug": "ai-cannot-learn-after-training",
+          "title": "AI Cannot Learn After Training — Conversation Isn't Learning, Fine-Tuning Needs Data",
+          "score": 0.5
         }
       ]
     },
     {
-      "slug": "efficiency-formula",
-      "title": "The Two Paths to Efficiency Gains — Incremental Updates vs. Systemic Updates",
+      "slug": "cultivating-a-single-person",
+      "title": "Cultivating One Person: The Reciprocity Playbook",
       "suggestions": [
         {
-          "slug": "async-work-mode",
-          "title": "Async Work Mode — Overlap Tasks Instead of Idling While You Wait",
-          "score": 0.5036
-        }
-      ]
-    },
-    {
-      "slug": "empirical-observations-latent-value",
-      "title": "Empirical Observations Carry Latent Value — Don't Discard Them for Not Fitting Current Theory",
-      "suggestions": [
-        {
-          "slug": "the-teacher",
-          "title": "The Teacher",
-          "score": 0.5389
+          "slug": "understanding-the-word-friend",
+          "title": "Understanding the Word \\\"Friend\\",
+          "score": 0.5469
         },
-        {
-          "slug": "explaining-excellent-sheep-with-theory",
-          "title": "Explaining \"Excellent Sheep\" 9.11 Using Learned Theories",
-          "score": 0.5136
-        }
-      ]
-    },
-    {
-      "slug": "explaining-excellent-sheep-with-theory",
-      "title": "Explaining \"Excellent Sheep\" 9.11 Using Learned Theories",
-      "suggestions": [
-        {
-          "slug": "empirical-observations-latent-value",
-          "title": "Empirical Observations Carry Latent Value — Don't Discard Them for Not Fitting Current Theory",
-          "score": 0.5136
-        }
-      ]
-    },
-    {
-      "slug": "four-step-networking-method",
-      "title": "The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up",
-      "suggestions": [
         {
           "slug": "framework-as-community-core",
           "title": "Framework-as-Core: Building a Community Around the Social-Resources Decomposition",
-          "score": 0.6245
+          "score": 0.5225
+        },
+        {
+          "slug": "attribution-of-achievement",
+          "title": "Attribution of Achievement: A Questioning Technique for Learning from Accomplished People",
+          "score": 0.5215
+        },
+        {
+          "slug": "my-relationship-with-others-and-society",
+          "title": "My Relationship with Others and Society",
+          "score": 0.5083
         }
       ]
     },
     {
-      "slug": "framework-as-community-core",
-      "title": "Framework-as-Core: Building a Community Around the Social-Resources Decomposition",
+      "slug": "data-pattern-prediction-chain",
+      "title": "Data → Pattern → Prediction Chain",
       "suggestions": [
         {
-          "slug": "four-step-networking-method",
-          "title": "The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up",
-          "score": 0.6245
+          "slug": "fundamental-model-of-learning",
+          "title": "Fundamental Model of Learning",
+          "score": 0.5358
+        }
+      ]
+    },
+    {
+      "slug": "freedom-exploration-generator",
+      "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+      "suggestions": [
+        {
+          "slug": "fundamental-model-of-learning",
+          "title": "Fundamental Model of Learning",
+          "score": 0.5677
+        },
+        {
+          "slug": "plugin-architecture-vs-defaults",
+          "title": "Plugin Architecture vs Distilled Defaults — The /teach Optimization Post-Mortem",
+          "score": 0.5264
+        },
+        {
+          "slug": "ai-cannot-learn-after-training",
+          "title": "AI Cannot Learn After Training — Conversation Isn't Learning, Fine-Tuning Needs Data",
+          "score": 0.5247
+        }
+      ]
+    },
+    {
+      "slug": "fundamental-model-of-learning",
+      "title": "Fundamental Model of Learning",
+      "suggestions": [
+        {
+          "slug": "learning-dynamics",
+          "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
+          "score": 0.5876
+        },
+        {
+          "slug": "knowledge-mastery-two-axis-model",
+          "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
+          "score": 0.586
+        },
+        {
+          "slug": "attention-pointer-learning-model",
+          "title": "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint",
+          "score": 0.5855
+        },
+        {
+          "slug": "hermeneutic-circle-learning",
+          "title": "Hermeneutic Circle as Learning Macro-Structure",
+          "score": 0.5745
+        },
+        {
+          "slug": "freedom-exploration-generator",
+          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+          "score": 0.5677
+        },
+        {
+          "slug": "pattern-pipeline",
+          "title": "The Pattern Pipeline: Data → Operational Space → Understanding → Action",
+          "score": 0.5655
+        },
+        {
+          "slug": "goal-predicate-f",
+          "title": "Goal Predicate f",
+          "score": 0.56
+        },
+        {
+          "slug": "knowledge-reconnection",
+          "title": "Knowledge Reconnection Mechanism",
+          "score": 0.5569
+        },
+        {
+          "slug": "learning-method-v2",
+          "title": "Learning Method v2 — Two-Axis Mastery Cycle with Decay-Aware Maintenance",
+          "score": 0.5551
+        },
+        {
+          "slug": "data-pattern-prediction-chain",
+          "title": "Data → Pattern → Prediction Chain",
+          "score": 0.5358
+        },
+        {
+          "slug": "transfer-high-leverage",
+          "title": "Transfer as a High-Leverage Cognitive Operation",
+          "score": 0.5301
+        },
+        {
+          "slug": "memorization-in-pipeline",
+          "title": "Memorization in the Learning Pipeline",
+          "score": 0.5236
+        },
+        {
+          "slug": "reconnection-doc-method",
+          "title": "Three-Layer Classification Method for Reconnection Docs",
+          "score": 0.5227
+        },
+        {
+          "slug": "learning-pipeline",
+          "title": "Learning Pipeline",
+          "score": 0.5177
+        },
+        {
+          "slug": "ai-cannot-learn-after-training",
+          "title": "AI Cannot Learn After Training — Conversation Isn't Learning, Fine-Tuning Needs Data",
+          "score": 0.5158
+        }
+      ]
+    },
+    {
+      "slug": "implicit-improvement-pattern",
+      "title": "Implicit Improvement — Getting Better Without Knowing How",
+      "suggestions": [
+        {
+          "slug": "ai-cannot-learn-after-training",
+          "title": "AI Cannot Learn After Training — Conversation Isn't Learning, Fine-Tuning Needs Data",
+          "score": 0.5344
+        },
+        {
+          "slug": "fundamental-model-of-learning",
+          "title": "Fundamental Model of Learning",
+          "score": 0.5017
+        }
+      ]
+    },
+    {
+      "slug": "knowledge-map-format",
+      "title": "Knowledge Map Format (MAP.md)",
+      "suggestions": [
+        {
+          "slug": "goal-predicate-f",
+          "title": "Goal Predicate f",
+          "score": 0.5624
+        },
+        {
+          "slug": "knowledge-reconnection",
+          "title": "Knowledge Reconnection Mechanism",
+          "score": 0.5436
+        },
+        {
+          "slug": "learning-method-v2",
+          "title": "Learning Method v2 — Two-Axis Mastery Cycle with Decay-Aware Maintenance",
+          "score": 0.5373
+        },
+        {
+          "slug": "pattern-pipeline",
+          "title": "The Pattern Pipeline: Data → Operational Space → Understanding → Action",
+          "score": 0.5262
+        },
+        {
+          "slug": "knowledge-mastery-two-axis-model",
+          "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
+          "score": 0.518
+        },
+        {
+          "slug": "teach-application-scope",
+          "title": "Teach Application Scope — Project-Oriented > Pure Learning > Exam Prep",
+          "score": 0.5152
+        },
+        {
+          "slug": "plugin-architecture-vs-defaults",
+          "title": "Plugin Architecture vs Distilled Defaults — The /teach Optimization Post-Mortem",
+          "score": 0.5046
+        },
+        {
+          "slug": "teach-method-fixes",
+          "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
+          "score": 0.5043
+        }
+      ]
+    },
+    {
+      "slug": "knowledge-mastery-two-axis-model",
+      "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
+      "suggestions": [
+        {
+          "slug": "fundamental-model-of-learning",
+          "title": "Fundamental Model of Learning",
+          "score": 0.586
+        }
+      ]
+    },
+    {
+      "slug": "knowledge-reconnection",
+      "title": "Knowledge Reconnection Mechanism",
+      "suggestions": [
+        {
+          "slug": "ai-cannot-learn-after-training",
+          "title": "AI Cannot Learn After Training — Conversation Isn't Learning, Fine-Tuning Needs Data",
+          "score": 0.5326
+        }
+      ]
+    },
+    {
+      "slug": "knowledge-transfer-fidelity",
+      "title": "The Fidelity Problem in Knowledge Transfer",
+      "suggestions": [
+        {
+          "slug": "ai-cannot-learn-after-training",
+          "title": "AI Cannot Learn After Training — Conversation Isn't Learning, Fine-Tuning Needs Data",
+          "score": 0.509
         }
       ]
     },
@@ -140,81 +326,139 @@
       "title": "Learning Method v2 — Two-Axis Mastery Cycle with Decay-Aware Maintenance",
       "suggestions": [
         {
-          "slug": "occupancy-pair-scheduling",
-          "title": "Occupancy-Pair Scheduling — a Recursive Instance of the Optimal-Curve Problem",
-          "score": 0.5563
+          "slug": "teach-application-scope",
+          "title": "Teach Application Scope — Project-Oriented > Pure Learning > Exam Prep",
+          "score": 0.5498
         }
       ]
     },
     {
-      "slug": "low-occupancy-segment-reflection",
-      "title": "Opportunistic Reflection During Low-Occupancy Segments — Free Consolidation of Recent Deep Work",
+      "slug": "learning-pipeline",
+      "title": "Learning Pipeline",
       "suggestions": [
         {
-          "slug": "low-energy-ideation",
-          "title": "Idea Generation in Low-Energy States",
-          "score": 0.5896
-        },
-        {
-          "slug": "willingness-experiment",
-          "title": "Willingness Experiment: Continue vs. Switch",
-          "score": 0.577
-        },
-        {
-          "slug": "timeline-based-project-structure",
-          "title": "Timeline-Based Project Structure",
-          "score": 0.5643
-        },
-        {
-          "slug": "three-mental-resources",
-          "title": "The Three Mental Resources",
-          "score": 0.5542
-        },
-        {
-          "slug": "deep-work-recovery-cycle",
-          "title": "Deep-Work Recovery Cycle — Physical Constraint on Project Dynamics",
-          "score": 0.543
-        },
-        {
-          "slug": "integrating-fragmented-life-strategies",
-          "title": "Integrating Fragmented Life Strategies",
-          "score": 0.5426
-        },
-        {
-          "slug": "async-work-mode",
-          "title": "Async Work Mode — Overlap Tasks Instead of Idling While You Wait",
-          "score": 0.5377
-        },
-        {
-          "slug": "teach-task-volume-scaling",
-          "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
-          "score": 0.5324
-        },
-        {
-          "slug": "anki-for-english-conversation",
-          "title": "Anki Cards from English Conversations — Active Memory Maintenance",
-          "score": 0.5198
-        },
-        {
-          "slug": "practice-as-learning-purpose",
-          "title": "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness",
-          "score": 0.5011
-        },
-        {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.5002
+          "slug": "fundamental-model-of-learning",
+          "title": "Fundamental Model of Learning",
+          "score": 0.5177
         }
       ]
     },
     {
-      "slug": "math-to-ai-phd-learning-path",
-      "title": "The Math-to-AI-PhD Learning Path",
+      "slug": "memorization-in-pipeline",
+      "title": "Memorization in the Learning Pipeline",
       "suggestions": [
         {
-          "slug": "university-two-pillar-strategy",
-          "title": "University Four-Year Strategy: Two Pillars, Run in Parallel",
-          "score": 0.5311
+          "slug": "fundamental-model-of-learning",
+          "title": "Fundamental Model of Learning",
+          "score": 0.5236
+        },
+        {
+          "slug": "ai-cannot-learn-after-training",
+          "title": "AI Cannot Learn After Training — Conversation Isn't Learning, Fine-Tuning Needs Data",
+          "score": 0.5079
+        }
+      ]
+    },
+    {
+      "slug": "pass-criteria-as-curriculum-design",
+      "title": "Pass Criteria as a First-Class Curriculum Design Element",
+      "suggestions": [
+        {
+          "slug": "teach-application-scope",
+          "title": "Teach Application Scope — Project-Oriented > Pure Learning > Exam Prep",
+          "score": 0.6394
+        }
+      ]
+    },
+    {
+      "slug": "pattern-pipeline",
+      "title": "The Pattern Pipeline: Data → Operational Space → Understanding → Action",
+      "suggestions": [
+        {
+          "slug": "learning-pipeline",
+          "title": "Learning Pipeline",
+          "score": 0.6806
+        },
+        {
+          "slug": "freedom-exploration-generator",
+          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+          "score": 0.6631
+        },
+        {
+          "slug": "knowledge-mastery-two-axis-model",
+          "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
+          "score": 0.6603
+        },
+        {
+          "slug": "success-interrogation-heuristic",
+          "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
+          "score": 0.6289
+        },
+        {
+          "slug": "hermeneutic-circle-learning",
+          "title": "Hermeneutic Circle as Learning Macro-Structure",
+          "score": 0.6259
+        },
+        {
+          "slug": "memorization-in-pipeline",
+          "title": "Memorization in the Learning Pipeline",
+          "score": 0.6244
+        },
+        {
+          "slug": "human-machine-code-reading-gap",
+          "title": "Human vs. Machine Code Reading — The Conceptual Gap",
+          "score": 0.5947
+        },
+        {
+          "slug": "implicit-improvement-pattern",
+          "title": "Implicit Improvement — Getting Better Without Knowing How",
+          "score": 0.5876
+        },
+        {
+          "slug": "transfer-high-leverage",
+          "title": "Transfer as a High-Leverage Cognitive Operation",
+          "score": 0.5779
+        },
+        {
+          "slug": "structural-patience",
+          "title": "Structural Patience — Data-Gated Structure Formation",
+          "score": 0.5754
+        },
+        {
+          "slug": "learning-dynamics",
+          "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
+          "score": 0.5752
+        },
+        {
+          "slug": "fundamental-model-of-learning",
+          "title": "Fundamental Model of Learning",
+          "score": 0.5655
+        },
+        {
+          "slug": "enumerative-as-scaffold-for-generative",
+          "title": "Enumerative Taxonomy as Deliberate Scaffold for Generative Derivation",
+          "score": 0.5594
+        },
+        {
+          "slug": "leverage-existing-vs-build-from-scratch",
+          "title": "Leverage Existing Solutions vs. Build from Scratch — A Decision System Axis",
+          "score": 0.5523
+        },
+        {
+          "slug": "learning-method-v2",
+          "title": "Learning Method v2 — Two-Axis Mastery Cycle with Decay-Aware Maintenance",
+          "score": 0.5519
+        }
+      ]
+    },
+    {
+      "slug": "plugin-architecture-vs-defaults",
+      "title": "Plugin Architecture vs Distilled Defaults — The /teach Optimization Post-Mortem",
+      "suggestions": [
+        {
+          "slug": "teach-application-scope",
+          "title": "Teach Application Scope — Project-Oriented > Pure Learning > Exam Prep",
+          "score": 0.527
         }
       ]
     },
@@ -223,112 +467,136 @@
       "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
       "suggestions": [
         {
-          "slug": "teach-method-fixes",
-          "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
-          "score": 0.5944
+          "slug": "teach-application-scope",
+          "title": "Teach Application Scope — Project-Oriented > Pure Learning > Exam Prep",
+          "score": 0.5063
+        }
+      ]
+    },
+    {
+      "slug": "success-interrogation-heuristic",
+      "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
+      "suggestions": [
+        {
+          "slug": "teach-application-scope",
+          "title": "Teach Application Scope — Project-Oriented > Pure Learning > Exam Prep",
+          "score": 0.5471
+        }
+      ]
+    },
+    {
+      "slug": "sunk-cost-tug-and-salvage",
+      "title": "The Sunk-Cost Tug Survives the Right Decision",
+      "suggestions": [
+        {
+          "slug": "plugin-architecture-vs-defaults",
+          "title": "Plugin Architecture vs Distilled Defaults — The /teach Optimization Post-Mortem",
+          "score": 0.5561
         },
         {
-          "slug": "pass-criteria-as-curriculum-design",
-          "title": "Pass Criteria as a First-Class Curriculum Design Element",
-          "score": 0.5774
+          "slug": "practice-necessity-willingness-tradeoff",
+          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
+          "score": 0.5335
         },
         {
-          "slug": "leverage-existing-vs-build-from-scratch",
-          "title": "Leverage Existing Solutions vs. Build from Scratch — A Decision System Axis",
-          "score": 0.574
+          "slug": "success-interrogation-heuristic",
+          "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
+          "score": 0.5309
         },
         {
-          "slug": "knowledge-mastery-two-axis-model",
-          "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
-          "score": 0.5739
-        },
-        {
-          "slug": "learning-dynamics",
-          "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
-          "score": 0.5718
-        },
-        {
-          "slug": "practice-as-learning-purpose",
-          "title": "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness",
-          "score": 0.5706
-        },
-        {
-          "slug": "willingness-experiment",
-          "title": "Willingness Experiment: Continue vs. Switch",
-          "score": 0.5635
-        },
-        {
-          "slug": "goal-singularity",
-          "title": "Goal Singularity",
-          "score": 0.5611
-        },
-        {
-          "slug": "freedom-exploration-generator",
-          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
-          "score": 0.548
-        },
-        {
-          "slug": "attention-as-bottleneck",
-          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
-          "score": 0.5439
+          "slug": "strategy-three-component-model",
+          "title": "Strategy as Iterative Optimization — Three-Component Model + Meta-Strategy Loop",
+          "score": 0.5246
         },
         {
           "slug": "hermeneutic-circle-learning",
           "title": "Hermeneutic Circle as Learning Macro-Structure",
-          "score": 0.5366
+          "score": 0.5238
         },
         {
-          "slug": "completion-vs-quitting",
-          "title": "Completion vs. Quitting",
-          "score": 0.5247
+          "slug": "learning-method-v2",
+          "title": "Learning Method v2 — Two-Axis Mastery Cycle with Decay-Aware Maintenance",
+          "score": 0.516
         },
         {
-          "slug": "enumerative-as-scaffold-for-generative",
-          "title": "Enumerative Taxonomy as Deliberate Scaffold for Generative Derivation",
-          "score": 0.5198
+          "slug": "attention-as-bottleneck",
+          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
+          "score": 0.5153
         },
         {
-          "slug": "memorization-in-pipeline",
-          "title": "Memorization in the Learning Pipeline",
-          "score": 0.5167
+          "slug": "certainty-gravity",
+          "title": "Certainty Gravity",
+          "score": 0.5149
         },
         {
-          "slug": "learning-pipeline",
-          "title": "Learning Pipeline",
-          "score": 0.5028
+          "slug": "leverage-existing-vs-build-from-scratch",
+          "title": "Leverage Existing Solutions vs. Build from Scratch — A Decision System Axis",
+          "score": 0.5017
         }
       ]
     },
     {
-      "slug": "the-teacher",
-      "title": "The Teacher",
+      "slug": "teach-application-scope",
+      "title": "Teach Application Scope — Project-Oriented > Pure Learning > Exam Prep",
       "suggestions": [
         {
-          "slug": "empirical-observations-latent-value",
-          "title": "Empirical Observations Carry Latent Value — Don't Discard Them for Not Fitting Current Theory",
-          "score": 0.5389
+          "slug": "teach-method-fixes",
+          "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
+          "score": 0.6659
+        },
+        {
+          "slug": "teach-coverage-check",
+          "title": "Teach Coverage Check — Cross-Reference Teach Output Against Course Content",
+          "score": 0.6455
+        },
+        {
+          "slug": "pass-criteria-as-curriculum-design",
+          "title": "Pass Criteria as a First-Class Curriculum Design Element",
+          "score": 0.6394
         }
       ]
     },
     {
-      "slug": "timeline-based-project-structure",
-      "title": "Timeline-Based Project Structure",
+      "slug": "teach-coverage-check",
+      "title": "Teach Coverage Check — Cross-Reference Teach Output Against Course Content",
       "suggestions": [
         {
-          "slug": "async-work-mode",
-          "title": "Async Work Mode — Overlap Tasks Instead of Idling While You Wait",
-          "score": 0.5356
+          "slug": "teach-application-scope",
+          "title": "Teach Application Scope — Project-Oriented > Pure Learning > Exam Prep",
+          "score": 0.6455
         }
       ]
     },
     {
-      "slug": "university-two-pillar-strategy",
-      "title": "University Four-Year Strategy: Two Pillars, Run in Parallel",
+      "slug": "teach-method-fixes",
+      "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
       "suggestions": [
         {
-          "slug": "math-to-ai-phd-learning-path",
-          "title": "The Math-to-AI-PhD Learning Path",
-          "score": 0.5311
+          "slug": "teach-application-scope",
+          "title": "Teach Application Scope — Project-Oriented > Pure Learning > Exam Prep",
+          "score": 0.6659
+        }
+      ]
+    },
+    {
+      "slug": "teach-task-volume-scaling",
+      "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
+      "suggestions": [
+        {
+          "slug": "teach-application-scope",
+          "title": "Teach Application Scope — Project-Oriented > Pure Learning > Exam Prep",
+          "score": 0.5373
+        }
+      ]
+    },
+    {
+      "slug": "transfer-high-leverage",
+      "title": "Transfer as a High-Leverage Cognitive Operation",
+      "suggestions": [
+        {
+          "slug": "ai-cannot-learn-after-training",
+          "title": "AI Cannot Learn After Training — Conversation Isn't Learning, Fine-Tuning Needs Data",
+          "score": 0.5296
         }
       ]
     }

@@ -4,7 +4,7 @@ title: "Clarity as a Universal Principle"
 tags: [principle, clarity, writing, methodology, communication]
 summary: "Clarity should be treated as a universal meta-principle, not limited to any single domain. Whether crafting natural-language narration of text structure, recording ideas, or summarizing retrospectives, always pursue clearer and more precise description. This cross-domain principle elevates clarity to a foundational standard for all communication and methodology."
 body_hash: "04819024"
-importance: 4.8  # auto
+importance: 4.82  # auto
 connections:
   - type: idea
     slug: "natural-language-narration-methodology"  # auto
