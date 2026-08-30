@@ -56,6 +56,8 @@ connections:
     slug: "knowledge-map-format"  # auto, review: 0.504
   - type: idea
     slug: "teach-application-scope"  # auto
+  - type: idea
+    slug: "single-advancement-method-first-pass"  # auto, review: 0.549
 ---
 # /teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing
 

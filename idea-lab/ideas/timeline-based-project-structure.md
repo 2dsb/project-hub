@@ -42,6 +42,8 @@ connections:
     slug: "low-occupancy-segment-reflection"  # auto, review: 0.564
   - type: idea
     slug: "async-work-mode"  # auto, review: 0.536
+  - type: idea
+    slug: "cross-time-conversation"  # auto, review: 0.501
 ---
 # Timeline-Based Project Structure
 

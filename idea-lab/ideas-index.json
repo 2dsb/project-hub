@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-26",
-  "total": 223,
+  "generated": "2026-08-30",
+  "total": 228,
   "ideas": [
     {
       "id": "idea-20260302-60cabc",
@@ -183,6 +183,34 @@
           "type": "idea",
           "slug": "sino-us-trade",
           "low_confidence": true
+        }
+      ]
+    },
+    {
+      "id": "idea-20260830-agency-as-scope-selection",
+      "title": "Agency as Scope Selection — Why Determinism and Subjective Agency Hold Together",
+      "tags": [
+        "determinism",
+        "free-will",
+        "agency",
+        "scope-selection",
+        "modeling",
+        "philosophy",
+        "meta-model",
+        "epistemology"
+      ],
+      "summary": "The contradiction between determinism and subjective agency (主观能动性) dissolves once agency is treated as scope selection rather than a claim about the world’s causation. Agency is a stipulated boundary: one declares a chosen subsystem—such as the decision-part of thoughts during the deliberation interval—subjectively controllable, while everything outside that scope is determined plus subjectively uncontrollable quantum noise. Freedom is assumed as a modeling commitment, not discovered as a causal gap, and the scope can be drawn arbitrarily or moved over time. Determinism answers how the world runs; agency answers whose hands the steering is in, so they cannot conflict—even a fully determined deliberation can be owned as “mine.”",
+      "importance": 2.94,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "life-state-machine",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "life-state-machine-content",
+          "low_confidence": false
         }
       ]
     },
@@ -2570,6 +2598,28 @@
         {
           "type": "idea",
           "slug": "ai-organization-programming-language",
+          "low_confidence": true
+        }
+      ]
+    },
+    {
+      "id": "idea-20260828-cross-time-conversation",
+      "title": "Calendar as Cross-Time Conversation — A Temporal Mirror of Git",
+      "tags": [
+        "time",
+        "calendar",
+        "external-memory",
+        "future-self",
+        "productivity-system",
+        "scheduling",
+        "git"
+      ],
+      "summary": "# Calendar as Cross-Time Conversation  **One sentence**: A calendar used as a cross-time message channel — write onto a future date when you learn of an event, read today's cell each morning — is exte",
+      "importance": 0.0,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "timeline-based-project-structure",
           "low_confidence": true
         }
       ]
@@ -5392,6 +5442,21 @@
           "type": "idea",
           "slug": "ai-cannot-learn-after-training",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "structural-patience",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "human-structure-ai-completeness",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "implicit-improvement-pattern",
+          "low_confidence": true
         }
       ]
     },
@@ -7633,6 +7698,11 @@
           "type": "idea",
           "slug": "teach-method-fixes",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "single-advancement-method-first-pass",
+          "low_confidence": true
         }
       ]
     },
@@ -7768,6 +7838,16 @@
         {
           "type": "idea",
           "slug": "fundamental-model-of-learning",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-map-format",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "ai-cannot-learn-after-training",
           "low_confidence": true
         }
       ]
@@ -8087,6 +8167,11 @@
           "type": "idea",
           "slug": "pattern-pipeline",
           "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "single-advancement-method-first-pass",
+          "low_confidence": true
         }
       ]
     },
@@ -8237,6 +8322,11 @@
         {
           "type": "idea",
           "slug": "teach-application-scope",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "single-advancement-method-first-pass",
           "low_confidence": true
         }
       ]
@@ -8777,6 +8867,60 @@
           "type": "idea",
           "slug": "the-teacher",
           "low_confidence": true
+        }
+      ]
+    },
+    {
+      "id": "idea-20260830-life-state-machine-content",
+      "title": "Life-State Machine Content — Controllable, State, and Dynamics",
+      "tags": [
+        "state-machine",
+        "modeling",
+        "agency",
+        "scope-selection",
+        "life-modeling",
+        "energy-management",
+        "dynamics",
+        "control"
+      ],
+      "summary": "# Life-State Machine Content  **One sentence**: This file fills in the *content* of the life-state-machine formalism: `controllable` is fixed to \"thinking while deciding, nothing otherwise\"; `State(t)",
+      "importance": 2.94,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "life-state-machine",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "agency-as-scope-selection",
+          "low_confidence": false
+        }
+      ]
+    },
+    {
+      "id": "idea-20260830-life-state-machine",
+      "title": "Life-State Machine — Deterministic Dynamics with a Stipulable Controllable Boundary",
+      "tags": [
+        "state-machine",
+        "modeling",
+        "agency",
+        "scope-selection",
+        "control",
+        "life-modeling"
+      ],
+      "summary": "Life is modeled as a life-state machine with deterministic dynamics and a subjectively-stipulated controllable boundary. The formalism uses two arrows: → means determines, while -~-> marks the possibility of drawing a subjectively-controllable boundary at that step. Transitions take the form State(t) -~-> Action(t) and State(t), Action(t) → State(t+1), where ~ equals controllable(State(t)). The controllable function is freely stipulable and returns a scope separating what is subjectively controllable from what is uncontrollable. Everything outside that returned scope is determined or subjectively-uncontrollable random, so when no scope is returned the transition is fully determined.",
+      "importance": 2.94,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "agency-as-scope-selection",
+          "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "life-state-machine-content",
+          "low_confidence": false
         }
       ]
     },
@@ -10625,6 +10769,11 @@
           "type": "idea",
           "slug": "teach-application-scope",
           "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "single-advancement-method-first-pass",
+          "low_confidence": true
         }
       ]
     },
@@ -10720,6 +10869,81 @@
         {
           "type": "idea",
           "slug": "learning-method-v2",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "teach-method-fixes",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "goal-singularity",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "practice-as-learning-purpose",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "plugin-architecture-vs-defaults",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "flow-based-thinking",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "practice-necessity-willingness-tradeoff",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-map-format",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "local-pattern-patching-failure",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "data-structure-first-code-reading",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "interaction-as-dictionary",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "ai-centered-new-education-industry",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "framework-extraction-pattern",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "human-structure-ai-completeness",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "memorized-offline-procedures",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "reconnection-doc-method",
           "low_confidence": true
         }
       ]
@@ -11998,6 +12222,56 @@
       ]
     },
     {
+      "id": "idea-20260828-single-advancement-method-first-pass",
+      "title": "Single Advancement Method for First-Pass Learning",
+      "tags": [
+        "learning-method",
+        "teach-method",
+        "meta-cognition",
+        "learning-strategy",
+        "pacing"
+      ],
+      "summary": "The Single Advancement Method for first-pass learning states that for the same subject, the initial pass should use exactly one advancement method, usually /teach, because a second method only re-covers knowledge nodes already flipped and creates a pacing mismatch experienced as a disorienting \"time gap\" (时间差). Mixing formats on a fragile first-pass map produces interference rather than reinforcement and wastes attention as a bottleneck. The deeper rule is one method per region of the map, so two engines can coexist only if they never overlap territory. Reading during a lecture is legitimate only when it advances content /teach has not reached; otherwise spare capacity should consolidate via reflection. A second source becomes valuable only in later passes as gap-filler or map-reconstructor.",
+      "importance": 0.0,
+      "connections": [
+        {
+          "type": "idea",
+          "slug": "learning-method-v2",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "teach-method-fixes",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "teach-task-volume-scaling",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "teach-application-scope",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "learning-dynamics",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "pass-criteria-as-curriculum-design",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-map-format",
+          "low_confidence": true
+        }
+      ]
+    },
+    {
       "id": "idea-20260419-b7d3e9",
       "title": "Sino-US Trade",
       "tags": [
@@ -13247,6 +13521,41 @@
           "type": "idea",
           "slug": "pass-criteria-as-curriculum-design",
           "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "learning-method-v2",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "success-interrogation-heuristic",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "teach-task-volume-scaling",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "single-advancement-method-first-pass",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "plugin-architecture-vs-defaults",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "knowledge-map-format",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "practice-necessity-willingness-tradeoff",
+          "low_confidence": true
         }
       ]
     },
@@ -13420,6 +13729,11 @@
           "type": "idea",
           "slug": "teach-application-scope",
           "low_confidence": false
+        },
+        {
+          "type": "idea",
+          "slug": "single-advancement-method-first-pass",
+          "low_confidence": true
         }
       ]
     },
@@ -13526,6 +13840,11 @@
         {
           "type": "idea",
           "slug": "teach-application-scope",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "single-advancement-method-first-pass",
           "low_confidence": true
         }
       ]
@@ -14932,6 +15251,11 @@
         {
           "type": "idea",
           "slug": "async-work-mode",
+          "low_confidence": true
+        },
+        {
+          "type": "idea",
+          "slug": "cross-time-conversation",
           "low_confidence": true
         }
       ]

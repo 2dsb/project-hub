@@ -27,6 +27,8 @@ connections:
     slug: "plugin-architecture-vs-defaults"  # auto, review: 0.505
   - type: idea
     slug: "teach-method-fixes"  # auto, review: 0.504
+  - type: idea
+    slug: "single-advancement-method-first-pass"  # auto, review: 0.503
 importance: 2.94  # auto
 ---
 # Knowledge Map Format (MAP.md)

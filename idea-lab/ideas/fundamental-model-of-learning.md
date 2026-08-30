@@ -42,6 +42,12 @@ connections:
     slug: "learning-pipeline"  # auto, review: 0.518
   - type: idea
     slug: "ai-cannot-learn-after-training"  # auto, review: 0.516
+  - type: idea
+    slug: "structural-patience"  # auto, review: 0.514
+  - type: idea
+    slug: "human-structure-ai-completeness"  # auto, review: 0.509
+  - type: idea
+    slug: "implicit-improvement-pattern"  # auto, review: 0.502
 importance: 2.94  # auto
 ---
 # Fundamental Model of Learning

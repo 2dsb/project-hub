@@ -43,6 +43,36 @@ connections:
     slug: "leverage-existing-vs-build-from-scratch"  # auto, review: 0.552
   - type: idea
     slug: "learning-method-v2"  # auto, review: 0.552
+  - type: idea
+    slug: "teach-method-fixes"  # auto, review: 0.549
+  - type: idea
+    slug: "goal-singularity"  # auto, review: 0.548
+  - type: idea
+    slug: "practice-as-learning-purpose"  # auto, review: 0.546
+  - type: idea
+    slug: "plugin-architecture-vs-defaults"  # auto, review: 0.544
+  - type: idea
+    slug: "flow-based-thinking"  # auto, review: 0.543
+  - type: idea
+    slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.529
+  - type: idea
+    slug: "knowledge-map-format"  # auto, review: 0.526
+  - type: idea
+    slug: "local-pattern-patching-failure"  # auto, review: 0.515
+  - type: idea
+    slug: "data-structure-first-code-reading"  # auto, review: 0.513
+  - type: idea
+    slug: "interaction-as-dictionary"  # auto, review: 0.512
+  - type: idea
+    slug: "ai-centered-new-education-industry"  # auto, review: 0.512
+  - type: idea
+    slug: "framework-extraction-pattern"  # auto, review: 0.509
+  - type: idea
+    slug: "human-structure-ai-completeness"  # auto, review: 0.505
+  - type: idea
+    slug: "memorized-offline-procedures"  # auto, review: 0.501
+  - type: idea
+    slug: "reconnection-doc-method"  # auto, review: 0.501
 importance: 3.51  # auto
 ---
 # The Pattern Pipeline: Data → Operational Space → Understanding → Action

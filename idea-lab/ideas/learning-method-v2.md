@@ -66,6 +66,8 @@ connections:
     slug: "sunk-cost-tug-and-salvage"  # auto, review: 0.516
   - type: idea
     slug: "teach-application-scope"  # auto, review: 0.550
+  - type: idea
+    slug: "single-advancement-method-first-pass"  # auto, review: 0.581
 ---
 # Learning Method v2
 

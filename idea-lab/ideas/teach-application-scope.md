@@ -17,6 +17,20 @@ connections:
     slug: "teach-coverage-check"  # auto
   - type: idea
     slug: "pass-criteria-as-curriculum-design"  # auto
+  - type: idea
+    slug: "learning-method-v2"  # auto, review: 0.550
+  - type: idea
+    slug: "success-interrogation-heuristic"  # auto, review: 0.547
+  - type: idea
+    slug: "teach-task-volume-scaling"  # auto, review: 0.537
+  - type: idea
+    slug: "single-advancement-method-first-pass"  # auto, review: 0.528
+  - type: idea
+    slug: "plugin-architecture-vs-defaults"  # auto, review: 0.527
+  - type: idea
+    slug: "knowledge-map-format"  # auto, review: 0.515
+  - type: idea
+    slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.506
 importance: 3.22  # auto
 ---
 # Teach Application Scope

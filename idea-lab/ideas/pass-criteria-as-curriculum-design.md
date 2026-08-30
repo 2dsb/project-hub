@@ -35,6 +35,8 @@ connections:
     slug: "goal-predicate-f"  # auto, review: 0.529
   - type: idea
     slug: "teach-application-scope"  # auto
+  - type: idea
+    slug: "single-advancement-method-first-pass"  # auto, review: 0.511
 ---
 # Pass Criteria as a First-Class Curriculum Design Element
 

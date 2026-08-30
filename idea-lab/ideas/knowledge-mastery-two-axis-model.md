@@ -60,6 +60,10 @@ connections:
     slug: "pattern-pipeline"  # auto
   - type: idea
     slug: "fundamental-model-of-learning"  # auto, review: 0.586
+  - type: idea
+    slug: "knowledge-map-format"  # auto, review: 0.518
+  - type: idea
+    slug: "ai-cannot-learn-after-training"  # auto, review: 0.517
 ---
 # Knowledge Mastery — A Two-Axis Model with Recursive Levels
 

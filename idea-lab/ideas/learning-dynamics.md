@@ -57,6 +57,8 @@ connections:
     slug: "fundamental-model-of-learning"  # auto, review: 0.588
   - type: idea
     slug: "pattern-pipeline"  # auto, review: 0.575
+  - type: idea
+    slug: "single-advancement-method-first-pass"  # auto, review: 0.517
 ---
 # Learning Dynamics — Forces Governing Knowledge Acquisition
 
