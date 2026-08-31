@@ -43,6 +43,8 @@ connections:
     slug: "breadth-first-trap"  # auto, review: 0.511
   - type: idea
     slug: "cohesion-coupling-decomposition-heuristic"  # auto, review: 0.505
+  - type: idea
+    slug: "interpretable-world-model-pipeline"  # auto, review: 0.506
 ---
 # Environment Diagram — Dual-Perspective Modeling Framework
 

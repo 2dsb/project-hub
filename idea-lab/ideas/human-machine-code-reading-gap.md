@@ -33,6 +33,10 @@ connections:
     slug: "human-structure-ai-completeness"  # auto, review: 0.526
   - type: idea
     slug: "pattern-pipeline"  # auto, review: 0.595
+  - type: idea
+    slug: "structure-native-learning-machine"  # auto, review: 0.546
+  - type: idea
+    slug: "interpretable-world-model-pipeline"  # auto, review: 0.511
 ---
 # Human vs. Machine Code Reading — The Conceptual Gap
 

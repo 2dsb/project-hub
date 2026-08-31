@@ -48,6 +48,8 @@ connections:
     slug: "pattern-pipeline"  # auto
   - type: idea
     slug: "fundamental-model-of-learning"  # auto, review: 0.536
+  - type: idea
+    slug: "structure-native-tools"  # auto, review: 0.542
 ---
 # Data → Pattern → Prediction Chain
 

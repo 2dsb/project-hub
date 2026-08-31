@@ -60,6 +60,10 @@ connections:
     slug: "broad-then-deep-recursion"  # auto, review: 0.520
   - type: idea
     slug: "pattern-pipeline"  # auto, review: 0.501
+  - type: idea
+    slug: "structure-native-learning-machine"  # auto, review: 0.520
+  - type: idea
+    slug: "interpretable-world-model-pipeline"  # auto, review: 0.503
 ---
 # Three-Layer Classification Method for Reconnection Docs
 

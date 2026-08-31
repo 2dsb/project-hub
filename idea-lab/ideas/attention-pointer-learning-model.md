@@ -54,6 +54,10 @@ connections:
     slug: "fundamental-model-of-learning"  # auto, review: 0.586
   - type: idea
     slug: "ai-cannot-learn-after-training"  # auto, review: 0.500
+  - type: idea
+    slug: "structure-native-learning-machine"  # auto, review: 0.564
+  - type: idea
+    slug: "structure-native-tools"  # auto, review: 0.523
 ---
 # Attention-as-Pointer Model of Learning
 

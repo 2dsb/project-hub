@@ -32,6 +32,8 @@ connections:
     slug: "plugin-architecture-vs-defaults"  # auto, review: 0.529
   - type: idea
     slug: "sunk-cost-tug-and-salvage"  # auto, review: 0.525
+  - type: idea
+    slug: "hybrid-strategy-principle"  # auto, review: 0.529
 ---
 # Strategy as Iterative Optimization
 

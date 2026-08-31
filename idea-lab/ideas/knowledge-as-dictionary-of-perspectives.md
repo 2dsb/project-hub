@@ -50,6 +50,8 @@ connections:
     slug: "discipline-division-and-internal-structure"  # auto, review: 0.516
   - type: idea
     slug: "broad-then-deep-recursion"  # auto, review: 0.507
+  - type: idea
+    slug: "structure-native-learning-machine"  # auto, review: 0.525
 ---
 # Knowledge as a Dictionary of Perspectives
 

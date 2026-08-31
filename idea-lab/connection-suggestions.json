@@ -4,33 +4,57 @@
   "min_score": 0.5,
   "max_candidates": 20,
   "generated": "2026-08-01",
-  "total_ideas": 228,
-  "ideas_with_suggestions": 13,
-  "total_suggestions": 42,
+  "total_ideas": 235,
+  "ideas_with_suggestions": 15,
+  "total_suggestions": 19,
   "stats": {
     "suggestion_count_distribution": {
-      "0": 215,
-      "1": 8,
-      "2": 1,
-      "3": 1,
-      "7": 2,
-      "15": 1
+      "0": 220,
+      "1": 11,
+      "2": 4
     },
     "score_range": {
-      "min": 0.501,
-      "max": 0.5809,
-      "avg": 0.5251
+      "min": 0.5003,
+      "max": 0.7859,
+      "avg": 0.5764
     }
   },
   "suggestions": [
     {
-      "slug": "cross-time-conversation",
-      "title": "Calendar as Cross-Time Conversation — A Temporal Mirror of Git",
+      "slug": "attention-pointer-learning-model",
+      "title": "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint",
       "suggestions": [
         {
-          "slug": "timeline-based-project-structure",
-          "title": "Timeline-Based Project Structure",
-          "score": 0.5014
+          "slug": "structure-native-learning-machine",
+          "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
+          "score": 0.5635
+        },
+        {
+          "slug": "structure-native-tools",
+          "title": "Structure-Native Tools — Can Any Algorithm or Tool Treat Structured Data as Its Native I/O?",
+          "score": 0.5231
+        }
+      ]
+    },
+    {
+      "slug": "data-pattern-prediction-chain",
+      "title": "Data → Pattern → Prediction Chain",
+      "suggestions": [
+        {
+          "slug": "structure-native-tools",
+          "title": "Structure-Native Tools — Can Any Algorithm or Tool Treat Structured Data as Its Native I/O?",
+          "score": 0.5425
+        }
+      ]
+    },
+    {
+      "slug": "environment-diagram-dual-perspective",
+      "title": "Environment Diagram — Dual-Perspective Modeling Framework",
+      "suggestions": [
+        {
+          "slug": "interpretable-world-model-pipeline",
+          "title": "The Interpretable World-Model Pipeline — Fitting the World into a Symbolic Factory",
+          "score": 0.5056
         }
       ]
     },
@@ -39,275 +63,145 @@
       "title": "Fundamental Model of Learning",
       "suggestions": [
         {
-          "slug": "structural-patience",
-          "title": "Structural Patience — Data-Gated Structure Formation",
-          "score": 0.5145
+          "slug": "structure-native-learning-machine",
+          "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
+          "score": 0.5403
         },
         {
-          "slug": "human-structure-ai-completeness",
-          "title": "Human Provides Structural Skeleton; AI Checks Completeness and Maps Linkages",
-          "score": 0.5092
-        },
-        {
-          "slug": "implicit-improvement-pattern",
-          "title": "Implicit Improvement — Getting Better Without Knowing How",
-          "score": 0.5017
-        }
-      ]
-    },
-    {
-      "slug": "knowledge-map-format",
-      "title": "Knowledge Map Format (MAP.md)",
-      "suggestions": [
-        {
-          "slug": "single-advancement-method-first-pass",
-          "title": "Single Advancement Method for First-Pass Learning",
-          "score": 0.5035
-        }
-      ]
-    },
-    {
-      "slug": "knowledge-mastery-two-axis-model",
-      "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
-      "suggestions": [
-        {
-          "slug": "knowledge-map-format",
-          "title": "Knowledge Map Format (MAP.md)",
-          "score": 0.518
-        },
-        {
-          "slug": "ai-cannot-learn-after-training",
-          "title": "AI Cannot Learn After Training — Conversation Isn't Learning, Fine-Tuning Needs Data",
-          "score": 0.5174
-        }
-      ]
-    },
-    {
-      "slug": "learning-dynamics",
-      "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
-      "suggestions": [
-        {
-          "slug": "single-advancement-method-first-pass",
-          "title": "Single Advancement Method for First-Pass Learning",
-          "score": 0.5167
-        }
-      ]
-    },
-    {
-      "slug": "learning-method-v2",
-      "title": "Learning Method v2 — Two-Axis Mastery Cycle with Decay-Aware Maintenance",
-      "suggestions": [
-        {
-          "slug": "single-advancement-method-first-pass",
-          "title": "Single Advancement Method for First-Pass Learning",
-          "score": 0.5809
-        }
-      ]
-    },
-    {
-      "slug": "pass-criteria-as-curriculum-design",
-      "title": "Pass Criteria as a First-Class Curriculum Design Element",
-      "suggestions": [
-        {
-          "slug": "single-advancement-method-first-pass",
-          "title": "Single Advancement Method for First-Pass Learning",
-          "score": 0.5108
-        }
-      ]
-    },
-    {
-      "slug": "pattern-pipeline",
-      "title": "The Pattern Pipeline: Data → Operational Space → Understanding → Action",
-      "suggestions": [
-        {
-          "slug": "teach-method-fixes",
-          "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
-          "score": 0.5491
-        },
-        {
-          "slug": "goal-singularity",
-          "title": "Goal Singularity",
-          "score": 0.5482
-        },
-        {
-          "slug": "practice-as-learning-purpose",
-          "title": "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness",
-          "score": 0.5461
-        },
-        {
-          "slug": "plugin-architecture-vs-defaults",
-          "title": "Plugin Architecture vs Distilled Defaults — The /teach Optimization Post-Mortem",
-          "score": 0.5437
-        },
-        {
-          "slug": "flow-based-thinking",
-          "title": "Flow-Based Thinking Framework",
-          "score": 0.5429
-        },
-        {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.5289
-        },
-        {
-          "slug": "knowledge-map-format",
-          "title": "Knowledge Map Format (MAP.md)",
-          "score": 0.5262
-        },
-        {
-          "slug": "local-pattern-patching-failure",
-          "title": "Local Patterns Cannot Be Generalized Through Continuous Patching",
-          "score": 0.5147
-        },
-        {
-          "slug": "data-structure-first-code-reading",
-          "title": "Data Structure First — Memorize Shapes Before Reading Code",
-          "score": 0.513
-        },
-        {
-          "slug": "interaction-as-dictionary",
-          "title": "Interaction-as-Dictionary — A Unified Modeling Framework",
-          "score": 0.5122
-        },
-        {
-          "slug": "ai-centered-new-education-industry",
-          "title": "AI-Centered New Education Industry (AI + Education)",
+          "slug": "structure-native-tools",
+          "title": "Structure-Native Tools — Can Any Algorithm or Tool Treat Structured Data as Its Native I/O?",
           "score": 0.512
-        },
-        {
-          "slug": "framework-extraction-pattern",
-          "title": "First Time — Framework Emerges from Content; Second Time — Framework Precedes Content",
-          "score": 0.5091
-        },
-        {
-          "slug": "human-structure-ai-completeness",
-          "title": "Human Provides Structural Skeleton; AI Checks Completeness and Maps Linkages",
-          "score": 0.505
-        },
-        {
-          "slug": "memorized-offline-procedures",
-          "title": "Memorized Offline Procedures — When Skills Can't Rely on AI Presence",
-          "score": 0.5011
-        },
-        {
-          "slug": "reconnection-doc-method",
-          "title": "Three-Layer Classification Method for Reconnection Docs",
-          "score": 0.501
         }
       ]
     },
     {
-      "slug": "single-advancement-method-first-pass",
-      "title": "Single Advancement Method for First-Pass Learning",
+      "slug": "human-machine-code-reading-gap",
+      "title": "Human vs. Machine Code Reading — The Conceptual Gap",
       "suggestions": [
         {
-          "slug": "learning-method-v2",
-          "title": "Learning Method v2 — Two-Axis Mastery Cycle with Decay-Aware Maintenance",
-          "score": 0.5809
+          "slug": "structure-native-learning-machine",
+          "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
+          "score": 0.5465
         },
         {
-          "slug": "teach-method-fixes",
-          "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
-          "score": 0.5492
-        },
-        {
-          "slug": "teach-task-volume-scaling",
-          "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
-          "score": 0.5386
-        },
-        {
-          "slug": "teach-application-scope",
-          "title": "Teach Application Scope — Project-Oriented > Pure Learning > Exam Prep",
-          "score": 0.5277
-        },
-        {
-          "slug": "learning-dynamics",
-          "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
-          "score": 0.5167
-        },
-        {
-          "slug": "pass-criteria-as-curriculum-design",
-          "title": "Pass Criteria as a First-Class Curriculum Design Element",
-          "score": 0.5108
-        },
-        {
-          "slug": "knowledge-map-format",
-          "title": "Knowledge Map Format (MAP.md)",
-          "score": 0.5035
+          "slug": "interpretable-world-model-pipeline",
+          "title": "The Interpretable World-Model Pipeline — Fitting the World into a Symbolic Factory",
+          "score": 0.5107
         }
       ]
     },
     {
-      "slug": "teach-application-scope",
-      "title": "Teach Application Scope — Project-Oriented > Pure Learning > Exam Prep",
+      "slug": "human-structure-ai-completeness",
+      "title": "Human Provides Structural Skeleton; AI Checks Completeness and Maps Linkages",
       "suggestions": [
         {
-          "slug": "learning-method-v2",
-          "title": "Learning Method v2 — Two-Axis Mastery Cycle with Decay-Aware Maintenance",
-          "score": 0.5498
-        },
-        {
-          "slug": "success-interrogation-heuristic",
-          "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
-          "score": 0.5471
-        },
-        {
-          "slug": "teach-task-volume-scaling",
-          "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
-          "score": 0.5373
-        },
-        {
-          "slug": "single-advancement-method-first-pass",
-          "title": "Single Advancement Method for First-Pass Learning",
-          "score": 0.5277
-        },
-        {
-          "slug": "plugin-architecture-vs-defaults",
-          "title": "Plugin Architecture vs Distilled Defaults — The /teach Optimization Post-Mortem",
-          "score": 0.527
-        },
-        {
-          "slug": "knowledge-map-format",
-          "title": "Knowledge Map Format (MAP.md)",
-          "score": 0.5152
-        },
-        {
-          "slug": "practice-necessity-willingness-tradeoff",
-          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
-          "score": 0.5063
+          "slug": "structure-native-learning-machine",
+          "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
+          "score": 0.5003
         }
       ]
     },
     {
-      "slug": "teach-method-fixes",
-      "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
+      "slug": "hybrid-strategy-principle",
+      "title": "The Hybrid Strategy Principle — Sometimes Don't Hunt for the Single Optimal Strategy",
       "suggestions": [
         {
-          "slug": "single-advancement-method-first-pass",
-          "title": "Single Advancement Method for First-Pass Learning",
-          "score": 0.5492
+          "slug": "strategy-three-component-model",
+          "title": "Strategy as Iterative Optimization — Three-Component Model + Meta-Strategy Loop",
+          "score": 0.5286
         }
       ]
     },
     {
-      "slug": "teach-task-volume-scaling",
-      "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
+      "slug": "interpretable-world-model-pipeline",
+      "title": "The Interpretable World-Model Pipeline — Fitting the World into a Symbolic Factory",
       "suggestions": [
         {
-          "slug": "single-advancement-method-first-pass",
-          "title": "Single Advancement Method for First-Pass Learning",
-          "score": 0.5386
+          "slug": "world-factory-framework",
+          "title": "The World-Factory Framework — Not a Complete Encoding, but a Universal Scaffold Any Physical World Can Fit Into",
+          "score": 0.7112
         }
       ]
     },
     {
-      "slug": "timeline-based-project-structure",
-      "title": "Timeline-Based Project Structure",
+      "slug": "knowledge-as-dictionary-of-perspectives",
+      "title": "Knowledge as a Dictionary of Perspectives — Each Knowledge Point Is a Multi-Dimensional Embedding",
       "suggestions": [
         {
-          "slug": "cross-time-conversation",
-          "title": "Calendar as Cross-Time Conversation — A Temporal Mirror of Git",
-          "score": 0.5014
+          "slug": "structure-native-learning-machine",
+          "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
+          "score": 0.525
+        }
+      ]
+    },
+    {
+      "slug": "neural-network-black-box-essence",
+      "title": "The Essential Property of the Neural Network Black Box — A First-Principles Foundation for Applications",
+      "suggestions": [
+        {
+          "slug": "structure-native-learning-machine",
+          "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
+          "score": 0.6069
+        }
+      ]
+    },
+    {
+      "slug": "reconnection-doc-method",
+      "title": "Three-Layer Classification Method for Reconnection Docs",
+      "suggestions": [
+        {
+          "slug": "structure-native-learning-machine",
+          "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
+          "score": 0.5196
+        },
+        {
+          "slug": "interpretable-world-model-pipeline",
+          "title": "The Interpretable World-Model Pipeline — Fitting the World into a Symbolic Factory",
+          "score": 0.5034
+        }
+      ]
+    },
+    {
+      "slug": "strategy-three-component-model",
+      "title": "Strategy as Iterative Optimization — Three-Component Model + Meta-Strategy Loop",
+      "suggestions": [
+        {
+          "slug": "hybrid-strategy-principle",
+          "title": "The Hybrid Strategy Principle — Sometimes Don't Hunt for the Single Optimal Strategy",
+          "score": 0.5286
+        }
+      ]
+    },
+    {
+      "slug": "structure-native-learning-machine",
+      "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
+      "suggestions": [
+        {
+          "slug": "structure-native-tools",
+          "title": "Structure-Native Tools — Can Any Algorithm or Tool Treat Structured Data as Its Native I/O?",
+          "score": 0.7859
+        }
+      ]
+    },
+    {
+      "slug": "structure-native-tools",
+      "title": "Structure-Native Tools — Can Any Algorithm or Tool Treat Structured Data as Its Native I/O?",
+      "suggestions": [
+        {
+          "slug": "structure-native-learning-machine",
+          "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
+          "score": 0.7859
+        }
+      ]
+    },
+    {
+      "slug": "world-factory-framework",
+      "title": "The World-Factory Framework — Not a Complete Encoding, but a Universal Scaffold Any Physical World Can Fit Into",
+      "suggestions": [
+        {
+          "slug": "interpretable-world-model-pipeline",
+          "title": "The Interpretable World-Model Pipeline — Fitting the World into a Symbolic Factory",
+          "score": 0.7112
         }
       ]
     }

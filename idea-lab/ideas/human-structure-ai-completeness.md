@@ -55,6 +55,8 @@ connections:
     slug: "fundamental-model-of-learning"  # auto, review: 0.509
   - type: idea
     slug: "pattern-pipeline"  # auto, review: 0.505
+  - type: idea
+    slug: "structure-native-learning-machine"  # auto, review: 0.500
 ---
 # Human Provides Structural Skeleton; AI Checks Completeness and Maps Linkages
 

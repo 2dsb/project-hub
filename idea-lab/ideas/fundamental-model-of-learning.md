@@ -48,6 +48,10 @@ connections:
     slug: "human-structure-ai-completeness"  # auto, review: 0.509
   - type: idea
     slug: "implicit-improvement-pattern"  # auto, review: 0.502
+  - type: idea
+    slug: "structure-native-learning-machine"  # auto, review: 0.540
+  - type: idea
+    slug: "structure-native-tools"  # auto, review: 0.512
 importance: 2.94  # auto
 ---
 # Fundamental Model of Learning
