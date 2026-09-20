@@ -14,6 +14,8 @@ connections:
     slug: "audit-blind-spot-spec-limitation"  # auto
   - type: idea
     slug: "four-layer-quality-model"  # auto
+  - type: idea
+    slug: "ai-organizational-behavior"  # auto, review: 0.502
 ---
 # Coevolution - Problem 4: Preventing Self-Reinforcement in the Wrong Direction
 

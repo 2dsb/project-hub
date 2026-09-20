@@ -9,7 +9,7 @@ tags:
   - cross-domain
 summary: "A problem-solving approach fixes the target compositions f∘g and g∘f first, then works backward from those result constraints to deduce the required properties of f and g, finally identifying the functions. The note questions how this backward reasoning from a fixed target result can transfer to non-math domains."
 body_hash: "2234a97e"
-importance: 2.25  # auto
+importance: 2.26  # auto
 connections:
   - type: project
     slug: ai-ability

@@ -4,7 +4,7 @@ title: "Contact Management Simplified: 4-Field Schema"
 tags: [social-resources, contact-management, simplification, design-decision, data-model]
 summary: "After the CKGSB event, the contact management schema was stripped from an overbuilt twelve-plus field structure to four fields: name, contact, maintenance_tier (core, general, or weak), and contact_dates. The old fields like interests, recent_updates, resources, needs, birthday, identity, and tags demanded constant manual maintenance and became stale or premature. The contact_dates list replaces free-text interaction logs by recording every outreach or deepening encounter, making frequency and recency the relationship health metric. Existing thirty-eight classmate contacts will be migrated and the old fields dropped."
 body_hash: "d20d7de1"
-importance: 3.0  # auto
+importance: 3.02  # auto
 connections:
   - type: idea
     slug: "four-step-networking-method"  # auto

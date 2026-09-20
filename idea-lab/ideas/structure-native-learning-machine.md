@@ -17,7 +17,25 @@ body_hash: "07922a49"
 connections:
   - type: idea
     slug: "structure-native-tools"  # auto
-importance: 4.54  # auto
+  - type: idea
+    slug: "neural-network-black-box-essence"  # auto
+  - type: idea
+    slug: "attention-pointer-learning-model"  # auto, review: 0.564
+  - type: idea
+    slug: "interpretable-world-model-pipeline"  # auto, review: 0.558
+  - type: idea
+    slug: "human-machine-code-reading-gap"  # auto, review: 0.546
+  - type: idea
+    slug: "fundamental-model-of-learning"  # auto, review: 0.540
+  - type: idea
+    slug: "knowledge-as-dictionary-of-perspectives"  # auto, review: 0.525
+  - type: idea
+    slug: "reconnection-doc-method"  # auto, review: 0.520
+  - type: idea
+    slug: "human-structure-ai-completeness"  # auto, review: 0.500
+  - type: idea
+    slug: "harness-structure-enforcement"  # auto, review: 0.527
+importance: 4.56  # auto
 ---
 # The Dual-Property Box
 

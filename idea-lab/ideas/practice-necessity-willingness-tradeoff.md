@@ -60,7 +60,9 @@ connections:
     slug: "low-occupancy-segment-reflection"  # auto, review: 0.500
   - type: idea
     slug: "teach-application-scope"  # auto, review: 0.506
-importance: 1.61  # auto
+  - type: idea
+    slug: "newcomer-window"  # auto, review: 0.534
+importance: 1.6  # auto
 ---
 # The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss
 

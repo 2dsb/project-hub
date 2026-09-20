@@ -41,6 +41,8 @@ connections:
     slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.520
   - type: idea
     slug: "pattern-pipeline"  # auto, review: 0.559
+  - type: idea
+    slug: "word-level-understanding-as-foundation"  # auto, review: 0.532
 importance: 1.96  # auto
 ---
 # Enumerative Taxonomy as Deliberate Scaffold for Generative Derivation

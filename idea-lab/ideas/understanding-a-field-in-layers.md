@@ -15,7 +15,7 @@ connections:
     slug: "knowledge-as-dictionary-of-perspectives"  # auto, review: 0.563
   - type: idea
     slug: "discipline-division-and-internal-structure"  # auto, review: 0.537
-importance: 1.71  # auto
+importance: 1.72  # auto
 ---
 To understand a domain's information, you don't need to know everything — you need to know its layers. For graphics and vision, that's exactly three:
 

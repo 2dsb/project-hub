@@ -14,7 +14,7 @@ tags:
   - biological-evolution-comparison
 summary: "Technology evolves like a coral reef organism through exponential combination. Opportunity niches, triggered by human needs and the demands of existing technologies, guide active technologies to combine into new nodes. A new node replaces older components, turning them and their dependent niches into dead technologies, while generating further niches and becoming a precursor for future combinations. This cascading destruction collapses subordinate technologies and niches, but also establishes trends. The core mechanism differs from biological evolution: technology evolves primarily by combination, not mutation."
 body_hash: "8873a586"
-importance: 4.49  # auto
+importance: 4.51  # auto
 connections:
   - type: idea
     slug: three-definitions-of-technology

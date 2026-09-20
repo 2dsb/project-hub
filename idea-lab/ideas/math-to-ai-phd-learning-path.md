@@ -7,6 +7,8 @@ body_hash: "d33bdd15"
 connections:
   - type: idea
     slug: "university-two-pillar-strategy"  # auto, review: 0.531
+  - type: idea
+    slug: "professor-research-prep-method"  # auto, review: 0.595
 importance: 0.0  # auto
 ---
 # The Math-to-AI-PhD Learning Path

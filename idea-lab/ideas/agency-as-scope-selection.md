@@ -17,7 +17,9 @@ connections:
     slug: "life-state-machine"
   - type: idea
     slug: "life-state-machine-content"
-importance: 2.94  # auto
+  - type: idea
+    slug: "action-gate"
+importance: 2.02  # auto
 ---
 # Agency as Scope Selection
 

@@ -49,6 +49,8 @@ connections:
     slug: "low-occupancy-segment-reflection"  # auto, review: 0.501
   - type: idea
     slug: "pattern-pipeline"  # auto, review: 0.546
+  - type: idea
+    slug: "newcomer-window"  # auto, review: 0.520
 ---
 # Practice as Learning Purpose — Purpose-Driven Learning Effectiveness
 

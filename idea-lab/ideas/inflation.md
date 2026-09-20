@@ -4,7 +4,7 @@ title: "Inflation"
 tags: ["inflation", "fiat-currency", "gold-standard", "us-dollar", "price-increases", "savings-decline", "monetary-policy", "currency-devaluation", "purchasing-power"]
 summary: "The government established an artificial rule tying US dollars to gold at a fixed exchange ratio. By gradually increasing the money supply beyond the gold reserves, it forced a devaluation of each dollar, lowering the real value of the currency. This currency devaluation eroded purchasing power, causing price increases, declining consumer confidence, and a reduction in savings."
 body_hash: "2d707642"
-importance: 2.94  # auto
+importance: 2.96  # auto
 connections:
   - type: idea
     slug: "collapse-of-the-gold-standard"  # auto

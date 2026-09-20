@@ -37,6 +37,8 @@ connections:
     slug: "cycle-of-technology"  # auto, review: 0.505
   - type: idea
     slug: "classification-of-concepts"  # auto, review: 0.503
+  - type: idea
+    slug: "word-level-understanding-as-foundation"  # auto, review: 0.506
 importance: 0.0  # auto
 ---
 A discipline's boundaries are subjective convention, not essential truth — there is no intrinsic answer to whether two disciplines "should" be separate. I propose a three-factor model for how disciplines get divided:

@@ -15,7 +15,13 @@ connections:
     slug: "agency-as-scope-selection"
   - type: idea
     slug: "life-state-machine-content"
-importance: 2.94  # auto
+  - type: idea
+    slug: "mental-clutter-degree"
+  - type: idea
+    slug: "idle-as-unstable-state"
+  - type: idea
+    slug: "action-gate"
+importance: -1
 ---
 # Life-State Machine
 

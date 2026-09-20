@@ -11,7 +11,7 @@ tags:
   - self-improvement
 summary: "Perfectionism is a self-reinforcing feedback loop where the fleeting sense of accomplishment and anxiety drive a cycle of pursuing new perfect goals, but because its feedback stems from the psychological trait’s emotions rather than from task characteristics, it consumes energy rather than reducing it, contrasting with a true task-based feedback loop that improves efficiency and lowers energy expenditure."
 body_hash: "45d61bb7"
-importance: 1.47  # auto
+importance: 1.48  # auto
 connections:
   - type: idea
     slug: the-zettelkasten-method

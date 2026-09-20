@@ -64,6 +64,8 @@ connections:
     slug: "structure-native-learning-machine"  # auto, review: 0.520
   - type: idea
     slug: "interpretable-world-model-pipeline"  # auto, review: 0.503
+  - type: idea
+    slug: "letters-to-future-self"  # auto, review: 0.525
 ---
 # Three-Layer Classification Method for Reconnection Docs
 

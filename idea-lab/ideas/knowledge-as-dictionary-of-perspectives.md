@@ -52,6 +52,8 @@ connections:
     slug: "broad-then-deep-recursion"  # auto, review: 0.507
   - type: idea
     slug: "structure-native-learning-machine"  # auto, review: 0.525
+  - type: idea
+    slug: "word-level-understanding-as-foundation"  # auto, review: 0.509
 ---
 # Knowledge as a Dictionary of Perspectives
 

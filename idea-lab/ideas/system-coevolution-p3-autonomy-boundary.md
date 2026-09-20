@@ -12,6 +12,10 @@ connections:
     slug: "system-coevolution-p4-self-reinforcement"  # auto
   - type: idea
     slug: "m34-source-layer-static-rigidity"  # review: 0.580
+  - type: idea
+    slug: "self-authored-compliance-program"  # auto, review: 0.523
+  - type: idea
+    slug: "harness-structure-enforcement"  # auto, review: 0.520
 ---
 # System Coevolution - Problem 3: The Boundary of Self-Updating Systems
 

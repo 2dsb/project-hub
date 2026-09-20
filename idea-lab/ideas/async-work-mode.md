@@ -18,6 +18,8 @@ connections:
     slug: "timeline-based-project-structure"  # auto, review: 0.536
   - type: idea
     slug: "efficiency-formula"  # auto, review: 0.504
+  - type: idea
+    slug: "idle-as-unstable-state"  # auto, review: 0.580
 importance: 0.0  # auto
 ---
 # Async Work Mode — Overlap Tasks Instead of Idling While You Wait

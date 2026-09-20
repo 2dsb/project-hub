@@ -29,6 +29,8 @@ connections:
     slug: "memorization-in-pipeline"  # auto, review: 0.508
   - type: idea
     slug: "attention-pointer-learning-model"  # auto, review: 0.500
+  - type: idea
+    slug: "letters-to-future-self"  # auto, review: 0.591
 importance: 0.0  # auto
 ---
 # AI Cannot Learn After Training

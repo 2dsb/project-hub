@@ -31,7 +31,7 @@ connections:
     slug: "knowledge-map-format"  # auto, review: 0.515
   - type: idea
     slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.506
-importance: 3.22  # auto
+importance: 3.24  # auto
 ---
 # Teach Application Scope
 

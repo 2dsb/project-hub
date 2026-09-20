@@ -30,6 +30,8 @@ connections:
     slug: "leverage-existing-vs-build-from-scratch"  # auto, review: 0.502
   - type: idea
     slug: "teach-application-scope"  # auto, review: 0.527
+  - type: idea
+    slug: "probing-degrees-of-freedom"  # auto, review: 0.543
 importance: 0.0  # auto
 ---
 # Plugin Architecture vs Distilled Defaults — The /teach Optimization Post-Mortem

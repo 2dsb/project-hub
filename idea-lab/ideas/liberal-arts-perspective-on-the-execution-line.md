@@ -10,7 +10,7 @@ tags:
   - social-system-reform
 summary: "The humanities and arts cultivate thought through past thinkers, but those below the \"execution line\" are powerless, placing responsibility on the leadership class. True liberal arts education fosters critical thinking that serves the public good by analyzing and discarding the university's common sense, replacing it with one's own understanding. This reveals that only reforming social institutions can provide opportunity for the poor. Literary works help by letting readers experience the lived reality of poverty, guiding the ultimate aim of transforming social institutions."
 body_hash: "dc11bd06"
-importance: 1.22  # auto
+importance: 1.23  # auto
 connections:
   - type: project
     slug: gaokao-chinese

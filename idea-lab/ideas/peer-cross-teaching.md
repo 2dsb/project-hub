@@ -4,7 +4,7 @@ title: "Peer Cross-Teaching"
 tags: [learning, efficiency, peer-instruction, flow-based-thinking, human-routing]
 summary: "Peer cross-teaching is a structured method where two learners split a domain, each first-learning a different chunk, then teaching the other to accelerate mastery, because a good guide can dramatically improve learning efficiency by inserting a human value-judgment layer. In flow-based thinking, parallel flows cross-route information, with each person acting as both source and sink for different chunks, analogous to ai-source-triage but using peer judgment instead of AI pre-filtering. The split must be pre-planned with aligned boundaries and handoff points, not random, to ensure efficient knowledge transfer. This approach could scale to networks of more than two and stack with AI tools for content preparation."
 body_hash: "f1048613"
-importance: 1.56  # auto
+importance: 1.57  # auto
 connections:
   - type: idea
     slug: "ai-source-triage"  # auto

@@ -9,7 +9,7 @@ tags:
   - abstraction
 summary: "Information exchange is a mechanical cycle of packaging state into a structured format, sending it across a boundary, receiving a package back, unpacking, acting, and repackaging. The key insight is that the package format—the list of dicts message structure—is the interface itself, not just an implementation detail; it defines the protocol and contract. This makes the agent loop transparent on your side of the boundary, even though the LLM’s intelligence remains a black box. The agent loop’s package format explicitly accumulates history each cycle, turning it into a conversation rather than a transaction."
 body_hash: "6d7d5d92"
-importance: 1.05  # auto
+importance: 1.06  # auto
 connections:
   - type: idea
     slug: interaction-as-essence-heuristic

@@ -50,7 +50,7 @@ connections:
     slug: "teach-application-scope"  # auto, review: 0.537
   - type: idea
     slug: "single-advancement-method-first-pass"  # auto, review: 0.539
-importance: 3.29  # auto
+importance: 3.26  # auto
 ---
 # Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls
 

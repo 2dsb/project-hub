@@ -15,7 +15,17 @@ body_hash: "b38836df"
 connections:
   - type: idea
     slug: "world-factory-framework"  # auto
-importance: 2.94  # auto
+  - type: idea
+    slug: "structure-native-learning-machine"  # auto, review: 0.558
+  - type: idea
+    slug: "structure-native-tools"  # auto, review: 0.522
+  - type: idea
+    slug: "human-machine-code-reading-gap"  # auto, review: 0.511
+  - type: idea
+    slug: "environment-diagram-dual-perspective"  # auto, review: 0.506
+  - type: idea
+    slug: "reconnection-doc-method"  # auto, review: 0.503
+importance: 2.96  # auto
 ---
 # The Interpretable World-Model Pipeline
 

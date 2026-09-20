@@ -8,6 +8,8 @@ importance: 0.0  # auto
 connections:
   - type: idea
     slug: "cultivating-a-single-person"  # auto, review: 0.521
+  - type: idea
+    slug: "coffee-chat-three-questions"  # auto, review: 0.538
 ---
 # Attribution of Achievement
 

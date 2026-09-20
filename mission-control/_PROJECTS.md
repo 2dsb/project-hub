@@ -1,6 +1,6 @@
 # Project Registry
 
-> 29 projects | Updated 2026-08-13
+> 31 projects | Updated 2026-09-06
 
 | Project | Directory | Priority | Type | Status |
 |--------|-----------|----------|------|--------|
@@ -11,6 +11,8 @@
 | [project-daily-exercise](project-daily-exercise.md) | `~/project-daily-exercise` | high | ongoing | active |
 | [teach-langgraph-agent](teach-langgraph-agent.md) | `~/teach-langgraph-agent` | high | project | active |
 | [teach-openclaw-companion](teach-openclaw-companion.md) | `~/teach-openclaw-companion` | high | project | active |
+| [teach-Introduction-to-Computing-B](teach-Introduction-to-Computing-B.md) | `~/teach-Introduction-to-Computing-B` | high | project | paused |
+| [teach-linear-algebra](teach-linear-algebra.md) | `~/teach-linear-algebra` | high | project | active |
 | [teach-runoob-python](teach-runoob-python.md) | `~/teach-runoob-python` | high | project | completed |
 | [teach-RAG](teach-RAG.md) | `~/teach-RAG` | high | project | completed |
 | [teach-deep-learning-book](teach-deep-learning-book.md) | `~/teach-deep-learning-book` | high | project | active |

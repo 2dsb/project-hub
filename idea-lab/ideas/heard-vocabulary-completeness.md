@@ -12,7 +12,9 @@ body_hash: "1702d905"
 connections:
   - type: idea
     slug: "vocabulary-priming-before-conversation"  # auto, review: 0.509
-importance: 0.0  # auto
+  - type: idea
+    slug: "word-level-understanding-as-foundation"  # auto
+importance: 2.96  # auto
 ---
 # The Vocabulary You Hear Is (Almost) All the Field's Working Vocabulary
 

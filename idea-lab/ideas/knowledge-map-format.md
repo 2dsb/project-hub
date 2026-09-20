@@ -29,7 +29,9 @@ connections:
     slug: "teach-method-fixes"  # auto, review: 0.504
   - type: idea
     slug: "single-advancement-method-first-pass"  # auto, review: 0.503
-importance: 2.94  # auto
+  - type: idea
+    slug: "letters-to-future-self"  # auto, review: 0.530
+importance: 2.96  # auto
 ---
 # Knowledge Map Format (MAP.md)
 

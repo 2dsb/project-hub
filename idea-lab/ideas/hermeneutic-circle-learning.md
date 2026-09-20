@@ -64,7 +64,11 @@ connections:
     slug: "discipline-division-and-internal-structure"  # auto, review: 0.542
   - type: idea
     slug: "sunk-cost-tug-and-salvage"  # auto, review: 0.524
-importance: 4.09  # auto
+  - type: idea
+    slug: "letters-to-future-self"  # auto, review: 0.503
+  - type: idea
+    slug: "word-level-understanding-as-foundation"  # auto, review: 0.526
+importance: 4.1  # auto
 ---
 # Hermeneutic Circle as Learning Macro-Structure
 

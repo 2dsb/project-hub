@@ -17,7 +17,11 @@ connections:
     slug: "life-state-machine"
   - type: idea
     slug: "agency-as-scope-selection"
-importance: 2.94  # auto
+  - type: idea
+    slug: "action-gate"  # auto
+  - type: idea
+    slug: "idle-as-unstable-state"  # auto, review: 0.564
+importance: 2.02  # auto
 ---
 # Life-State Machine Content
 

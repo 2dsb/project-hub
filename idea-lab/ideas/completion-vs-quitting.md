@@ -36,5 +36,11 @@ connections:
     slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.525
   - type: idea
     slug: "sunk-cost-tug-and-salvage"  # auto
+  - type: idea
+    slug: "mental-clutter-degree"  # auto, review: 0.510
+  - type: idea
+    slug: "verify-before-promising"  # auto, review: 0.506
+  - type: idea
+    slug: "newcomer-window"  # auto, review: 0.502
 ---
 Current belief: once you start something, you must finish it to build self-trust. But this belief induces irrational behavior when the thing no longer holds value. Ideal state: act based on importance and planning — even if only one day remains to completion, quit decisively if it has no value; if it has value, persist for as long as it takes.

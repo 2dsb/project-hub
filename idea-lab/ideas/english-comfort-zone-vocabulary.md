@@ -4,7 +4,7 @@ title: "English Comfort Zone Vocabulary — Settling Into Familiar Expressions"
 tags: [english-learning, vocabulary, comfort-zone, plateau, local-optimum, expression-bank]
 summary: "The comfort zone in English fluency is a local optimum: repeated use of familiar expressions feels natural but halts vocabulary growth, an error of omission invisible because nothing triggers correction. Implicit learning's shadow side, it converges to a plateau without deliberate perturbation. Solutions include vocabulary quotas, expression rotation, deliberate stretch phrases, diversity metrics, and forced rephrasing to inject unfamiliar words and break the pattern."
 body_hash: "1f78b60a"
-importance: 1.3  # auto
+importance: 1.25  # auto
 connections:
   - type: project
     slug: "english-learning"

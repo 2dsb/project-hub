@@ -12,7 +12,7 @@ tags:
   - technology-maturation
 summary: "Domains form around a core technology or a family of phenomena, with the original source known as the parent domain. They are born as a toolbox of loosely structured practices, sometimes mixing with the parent to create hybrid domains. Adolescence begins when viable technology emerges, triggering small enterprises, investment bubbles, and rapid improvement. Maturity brings market calm and large corporations, while old age sees few new technologies and internalization into daily life. The cycle breaks through variation when key technologies fundamentally change or application domains shift, compelling reinterpretation despite unchanged principles. Secondary domains, like the internet from computing, also splinter off and vary across contexts."
 body_hash: "18f5f070"
-importance: 2.31  # auto
+importance: 2.32  # auto
 connections:
   - type: idea
     slug: three-definitions-of-technology

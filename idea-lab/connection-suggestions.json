@@ -4,171 +4,222 @@
   "min_score": 0.5,
   "max_candidates": 20,
   "generated": "2026-08-01",
-  "total_ideas": 235,
-  "ideas_with_suggestions": 15,
-  "total_suggestions": 19,
+  "total_ideas": 251,
+  "ideas_with_suggestions": 14,
+  "total_suggestions": 33,
   "stats": {
     "suggestion_count_distribution": {
-      "0": 220,
-      "1": 11,
-      "2": 4
+      "0": 237,
+      "1": 5,
+      "2": 5,
+      "3": 2,
+      "5": 1,
+      "7": 1
     },
     "score_range": {
-      "min": 0.5003,
-      "max": 0.7859,
-      "avg": 0.5764
+      "min": 0.5017,
+      "max": 0.5779,
+      "avg": 0.5268
     }
   },
   "suggestions": [
     {
-      "slug": "attention-pointer-learning-model",
-      "title": "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint",
+      "slug": "ai-organization-programming-language",
+      "title": "AI Organization Programming Language — Higher-Level LangGraph for Agent Orchestration",
       "suggestions": [
+        {
+          "slug": "harness-structure-enforcement",
+          "title": "Structure Enforcement in the Harness — Scalable AI Structure Is Imposed, Not Requested",
+          "score": 0.5319
+        },
+        {
+          "slug": "ai-organizational-behavior",
+          "title": "AI Organizational Behavior — The Unit of AI Decision-Making Is the Organization, Not the Model",
+          "score": 0.5092
+        }
+      ]
+    },
+    {
+      "slug": "ai-organizational-behavior",
+      "title": "AI Organizational Behavior — The Unit of AI Decision-Making Is the Organization, Not the Model",
+      "suggestions": [
+        {
+          "slug": "organization-as-code-ai-human",
+          "title": "Organization as Code — Formal Description and Optimization of AI-Human Structures",
+          "score": 0.5459
+        },
+        {
+          "slug": "harness-structure-enforcement",
+          "title": "Structure Enforcement in the Harness — Scalable AI Structure Is Imposed, Not Requested",
+          "score": 0.5436
+        },
+        {
+          "slug": "characteristics-of-our-era",
+          "title": "Characteristics of Our Era",
+          "score": 0.5283
+        },
+        {
+          "slug": "ai-organization-programming-language",
+          "title": "AI Organization Programming Language — Higher-Level LangGraph for Agent Orchestration",
+          "score": 0.5092
+        },
+        {
+          "slug": "system-coevolution-p4-self-reinforcement",
+          "title": "Coevolution - Problem 4: Preventing Self-Reinforcement in the Wrong Direction",
+          "score": 0.5017
+        }
+      ]
+    },
+    {
+      "slug": "characteristics-of-our-era",
+      "title": "Characteristics of Our Era",
+      "suggestions": [
+        {
+          "slug": "ai-organizational-behavior",
+          "title": "AI Organizational Behavior — The Unit of AI Decision-Making Is the Organization, Not the Model",
+          "score": 0.5283
+        }
+      ]
+    },
+    {
+      "slug": "coffee-chat-three-questions",
+      "title": "Coffee Chat: The Three Questions — Work, Best, Talent",
+      "suggestions": [
+        {
+          "slug": "chat-as-idea-source",
+          "title": "WeChat Conversations as Idea Raw Material",
+          "score": 0.5424
+        },
+        {
+          "slug": "attribution-of-achievement",
+          "title": "Attribution of Achievement: A Questioning Technique for Learning from Accomplished People",
+          "score": 0.5377
+        },
+        {
+          "slug": "cultivating-a-single-person",
+          "title": "Cultivating One Person: The Reciprocity Playbook",
+          "score": 0.5268
+        }
+      ]
+    },
+    {
+      "slug": "distance-is-information",
+      "title": "Distance Is Information — Why Heterogeneous Exposure Breaks Thinking Boundaries",
+      "suggestions": [
+        {
+          "slug": "four-step-networking-method",
+          "title": "The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up",
+          "score": 0.5174
+        },
+        {
+          "slug": "newcomer-window",
+          "title": "The Newcomer Window — Why Breadth Sampling Pays Most Right After You Arrive",
+          "score": 0.5081
+        },
+        {
+          "slug": "framework-as-community-core",
+          "title": "Framework-as-Core: Building a Community Around the Social-Resources Decomposition",
+          "score": 0.5066
+        }
+      ]
+    },
+    {
+      "slug": "four-step-networking-method",
+      "title": "The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up",
+      "suggestions": [
+        {
+          "slug": "distance-is-information",
+          "title": "Distance Is Information — Why Heterogeneous Exposure Breaks Thinking Boundaries",
+          "score": 0.5174
+        }
+      ]
+    },
+    {
+      "slug": "harness-structure-enforcement",
+      "title": "Structure Enforcement in the Harness — Scalable AI Structure Is Imposed, Not Requested",
+      "suggestions": [
+        {
+          "slug": "self-authored-compliance-program",
+          "title": "Self-Authored Compliance Programs — The AI Writes a Branching Checker, and the Checker Halts It",
+          "score": 0.5779
+        },
+        {
+          "slug": "ai-organizational-behavior",
+          "title": "AI Organizational Behavior — The Unit of AI Decision-Making Is the Organization, Not the Model",
+          "score": 0.5436
+        },
+        {
+          "slug": "ai-organization-programming-language",
+          "title": "AI Organization Programming Language — Higher-Level LangGraph for Agent Orchestration",
+          "score": 0.5319
+        },
         {
           "slug": "structure-native-learning-machine",
           "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
-          "score": 0.5635
+          "score": 0.5272
+        },
+        {
+          "slug": "organization-as-code-ai-human",
+          "title": "Organization as Code — Formal Description and Optimization of AI-Human Structures",
+          "score": 0.527
+        },
+        {
+          "slug": "system-coevolution-p3-autonomy-boundary",
+          "title": "System Coevolution - Problem 3: The Boundary of Self-Updating Systems",
+          "score": 0.5199
         },
         {
           "slug": "structure-native-tools",
           "title": "Structure-Native Tools — Can Any Algorithm or Tool Treat Structured Data as Its Native I/O?",
-          "score": 0.5231
+          "score": 0.5033
         }
       ]
     },
     {
-      "slug": "data-pattern-prediction-chain",
-      "title": "Data → Pattern → Prediction Chain",
+      "slug": "organization-as-code-ai-human",
+      "title": "Organization as Code — Formal Description and Optimization of AI-Human Structures",
       "suggestions": [
         {
-          "slug": "structure-native-tools",
-          "title": "Structure-Native Tools — Can Any Algorithm or Tool Treat Structured Data as Its Native I/O?",
-          "score": 0.5425
-        }
-      ]
-    },
-    {
-      "slug": "environment-diagram-dual-perspective",
-      "title": "Environment Diagram — Dual-Perspective Modeling Framework",
-      "suggestions": [
-        {
-          "slug": "interpretable-world-model-pipeline",
-          "title": "The Interpretable World-Model Pipeline — Fitting the World into a Symbolic Factory",
-          "score": 0.5056
-        }
-      ]
-    },
-    {
-      "slug": "fundamental-model-of-learning",
-      "title": "Fundamental Model of Learning",
-      "suggestions": [
-        {
-          "slug": "structure-native-learning-machine",
-          "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
-          "score": 0.5403
+          "slug": "ai-organizational-behavior",
+          "title": "AI Organizational Behavior — The Unit of AI Decision-Making Is the Organization, Not the Model",
+          "score": 0.5459
         },
         {
-          "slug": "structure-native-tools",
-          "title": "Structure-Native Tools — Can Any Algorithm or Tool Treat Structured Data as Its Native I/O?",
-          "score": 0.512
+          "slug": "harness-structure-enforcement",
+          "title": "Structure Enforcement in the Harness — Scalable AI Structure Is Imposed, Not Requested",
+          "score": 0.527
         }
       ]
     },
     {
-      "slug": "human-machine-code-reading-gap",
-      "title": "Human vs. Machine Code Reading — The Conceptual Gap",
+      "slug": "probing-degrees-of-freedom",
+      "title": "Probing Degrees of Freedom — A New System's Binding Unknown Is Its Option Set",
       "suggestions": [
         {
-          "slug": "structure-native-learning-machine",
-          "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
-          "score": 0.5465
+          "slug": "plugin-architecture-vs-defaults",
+          "title": "Plugin Architecture vs Distilled Defaults — The /teach Optimization Post-Mortem",
+          "score": 0.5435
         },
         {
-          "slug": "interpretable-world-model-pipeline",
-          "title": "The Interpretable World-Model Pipeline — Fitting the World into a Symbolic Factory",
-          "score": 0.5107
+          "slug": "freedom-exploration-generator",
+          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+          "score": 0.5048
         }
       ]
     },
     {
-      "slug": "human-structure-ai-completeness",
-      "title": "Human Provides Structural Skeleton; AI Checks Completeness and Maps Linkages",
+      "slug": "self-authored-compliance-program",
+      "title": "Self-Authored Compliance Programs — The AI Writes a Branching Checker, and the Checker Halts It",
       "suggestions": [
         {
-          "slug": "structure-native-learning-machine",
-          "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
-          "score": 0.5003
-        }
-      ]
-    },
-    {
-      "slug": "hybrid-strategy-principle",
-      "title": "The Hybrid Strategy Principle — Sometimes Don't Hunt for the Single Optimal Strategy",
-      "suggestions": [
-        {
-          "slug": "strategy-three-component-model",
-          "title": "Strategy as Iterative Optimization — Three-Component Model + Meta-Strategy Loop",
-          "score": 0.5286
-        }
-      ]
-    },
-    {
-      "slug": "interpretable-world-model-pipeline",
-      "title": "The Interpretable World-Model Pipeline — Fitting the World into a Symbolic Factory",
-      "suggestions": [
-        {
-          "slug": "world-factory-framework",
-          "title": "The World-Factory Framework — Not a Complete Encoding, but a Universal Scaffold Any Physical World Can Fit Into",
-          "score": 0.7112
-        }
-      ]
-    },
-    {
-      "slug": "knowledge-as-dictionary-of-perspectives",
-      "title": "Knowledge as a Dictionary of Perspectives — Each Knowledge Point Is a Multi-Dimensional Embedding",
-      "suggestions": [
-        {
-          "slug": "structure-native-learning-machine",
-          "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
-          "score": 0.525
-        }
-      ]
-    },
-    {
-      "slug": "neural-network-black-box-essence",
-      "title": "The Essential Property of the Neural Network Black Box — A First-Principles Foundation for Applications",
-      "suggestions": [
-        {
-          "slug": "structure-native-learning-machine",
-          "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
-          "score": 0.6069
-        }
-      ]
-    },
-    {
-      "slug": "reconnection-doc-method",
-      "title": "Three-Layer Classification Method for Reconnection Docs",
-      "suggestions": [
-        {
-          "slug": "structure-native-learning-machine",
-          "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
-          "score": 0.5196
+          "slug": "harness-structure-enforcement",
+          "title": "Structure Enforcement in the Harness — Scalable AI Structure Is Imposed, Not Requested",
+          "score": 0.5779
         },
         {
-          "slug": "interpretable-world-model-pipeline",
-          "title": "The Interpretable World-Model Pipeline — Fitting the World into a Symbolic Factory",
-          "score": 0.5034
-        }
-      ]
-    },
-    {
-      "slug": "strategy-three-component-model",
-      "title": "Strategy as Iterative Optimization — Three-Component Model + Meta-Strategy Loop",
-      "suggestions": [
-        {
-          "slug": "hybrid-strategy-principle",
-          "title": "The Hybrid Strategy Principle — Sometimes Don't Hunt for the Single Optimal Strategy",
-          "score": 0.5286
+          "slug": "system-coevolution-p3-autonomy-boundary",
+          "title": "System Coevolution - Problem 3: The Boundary of Self-Updating Systems",
+          "score": 0.5234
         }
       ]
     },
@@ -177,9 +228,9 @@
       "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
       "suggestions": [
         {
-          "slug": "structure-native-tools",
-          "title": "Structure-Native Tools — Can Any Algorithm or Tool Treat Structured Data as Its Native I/O?",
-          "score": 0.7859
+          "slug": "harness-structure-enforcement",
+          "title": "Structure Enforcement in the Harness — Scalable AI Structure Is Imposed, Not Requested",
+          "score": 0.5272
         }
       ]
     },
@@ -188,20 +239,36 @@
       "title": "Structure-Native Tools — Can Any Algorithm or Tool Treat Structured Data as Its Native I/O?",
       "suggestions": [
         {
-          "slug": "structure-native-learning-machine",
-          "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
-          "score": 0.7859
+          "slug": "harness-structure-enforcement",
+          "title": "Structure Enforcement in the Harness — Scalable AI Structure Is Imposed, Not Requested",
+          "score": 0.5033
         }
       ]
     },
     {
-      "slug": "world-factory-framework",
-      "title": "The World-Factory Framework — Not a Complete Encoding, but a Universal Scaffold Any Physical World Can Fit Into",
+      "slug": "system-coevolution-p3-autonomy-boundary",
+      "title": "System Coevolution - Problem 3: The Boundary of Self-Updating Systems",
       "suggestions": [
         {
-          "slug": "interpretable-world-model-pipeline",
-          "title": "The Interpretable World-Model Pipeline — Fitting the World into a Symbolic Factory",
-          "score": 0.7112
+          "slug": "self-authored-compliance-program",
+          "title": "Self-Authored Compliance Programs — The AI Writes a Branching Checker, and the Checker Halts It",
+          "score": 0.5234
+        },
+        {
+          "slug": "harness-structure-enforcement",
+          "title": "Structure Enforcement in the Harness — Scalable AI Structure Is Imposed, Not Requested",
+          "score": 0.5199
+        }
+      ]
+    },
+    {
+      "slug": "system-coevolution-p4-self-reinforcement",
+      "title": "Coevolution - Problem 4: Preventing Self-Reinforcement in the Wrong Direction",
+      "suggestions": [
+        {
+          "slug": "ai-organizational-behavior",
+          "title": "AI Organizational Behavior — The Unit of AI Decision-Making Is the Organization, Not the Model",
+          "score": 0.5017
         }
       ]
     }

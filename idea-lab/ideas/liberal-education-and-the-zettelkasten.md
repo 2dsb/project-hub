@@ -9,7 +9,7 @@ tags:
   - learning-method
 summary: "The Zettelkasten method mirrors liberal education's investigation of knowledge production through iterative note-taking, reflection, and connection-building. Both demand reflection—permanent notes, like the humanities, build on deep feeling and connect art to life, while fleeting notes arise from explaining everyday phenomena through different theoretical lenses, fostering multi-perspective thinking. This shared process cuts across all disciplines to cultivate the ability to think beyond time and space."
 body_hash: "421e0376"
-importance: 2.69  # auto
+importance: 2.7  # auto
 connections:
   - type: idea
     slug: the-zettelkasten-method

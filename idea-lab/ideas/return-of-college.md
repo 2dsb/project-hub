@@ -13,7 +13,7 @@ tags:
   - peer-learning
 summary: "College's real return beyond vocational skills is learning to think by questioning the biased common sense absorbed from society, and using that critical reflection to build the substance of a self—an integrated individual of morality, intellect, perception, and emotion. Its four-year removal from career and family provides a privileged distance for rigorous examination, with professors training mental precision and peers challenging or constructing ideas. By overturning prior identity assumptions, one connects thought to inner feeling and ideals to reality, then pursues a good life by asking what is truly worth seeking."
 body_hash: "9409721a"
-importance: 5.51  # auto
+importance: 5.54  # auto
 connections:
   - type: permanent
     slug: 优秀的绵羊c5.1

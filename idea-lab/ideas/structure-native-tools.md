@@ -17,6 +17,18 @@ body_hash: "cb4cfa91"
 connections:
   - type: idea
     slug: "structure-native-learning-machine"  # auto
+  - type: idea
+    slug: "data-pattern-prediction-chain"  # auto, review: 0.542
+  - type: idea
+    slug: "attention-pointer-learning-model"  # auto, review: 0.523
+  - type: idea
+    slug: "interpretable-world-model-pipeline"  # auto, review: 0.522
+  - type: idea
+    slug: "fundamental-model-of-learning"  # auto, review: 0.512
+  - type: idea
+    slug: "neural-network-black-box-essence"  # auto, review: 0.500
+  - type: idea
+    slug: "harness-structure-enforcement"  # auto, review: 0.503
 importance: 2.15  # auto
 ---
 # Structure-Native Tools

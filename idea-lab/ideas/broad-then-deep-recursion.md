@@ -26,7 +26,9 @@ connections:
     slug: "structural-patience"  # auto, review: 0.516
   - type: idea
     slug: "knowledge-as-dictionary-of-perspectives"  # auto, review: 0.507
-importance: 2.89  # auto
+  - type: idea
+    slug: "distance-is-information"  # auto, review: 0.597
+importance: 2.9  # auto
 ---
 **Information and connection advance together.** They are coupled, not sequential. To gain a connection you need pre-research — the information that lets you hold a real conversation with the target — and that same information is what you wanted for yourself anyway. So information feeds connection (pre-research opens the door), and connection feeds information (a person's first-hand view is exactly the information web-search can't reach). Each compounds through the other.
 

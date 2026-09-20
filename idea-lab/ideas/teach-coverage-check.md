@@ -8,7 +8,7 @@ tags:
   - cs61a
 summary: "The Teach Coverage Check practice cross-references teach’s auto-generated lecture notes with the original CS61A lecture to detect missing content. Because teach is efficient but may overlook points, the lecture acts as a coverage baseline, and immediate gap detection prevents compounding omissions. The workflow involves watching the lecture, generating teach notes, scanning for gaps, and filling them manually or with a follow-up teach request. This quality-assurance method applies to any course where teach is the primary tool and an external reference exists, such as Runoob Python."
 body_hash: "e9bb4d6b"
-importance: 1.06  # auto
+importance: 1.07  # auto
 connections:
   - type: project
     slug: cs61a

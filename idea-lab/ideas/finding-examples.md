@@ -4,7 +4,7 @@ title: "Finding Examples"
 tags: ["technology-theory", "proof-of-concept", "essence-of-technology"]
 summary: "The note proposes that at the singular level, technology’s essence decomposes into central principles, primary integrations, and secondary integrations. It frames this as a proof-of-concept, calling for concrete examples to validate the tripartite model and ground the technology theory in observable instances."
 body_hash: "36b4ad0c"
-importance: 2.39  # auto
+importance: 2.4  # auto
 connections:
   - type: idea
     slug: "technology-in-the-singular-sense"  # auto

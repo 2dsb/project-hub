@@ -4,7 +4,7 @@ title: "Idea Generation in Low-Energy States"
 tags: [productivity, low-energy, creativity, self-management]
 summary: "When mental energy drops below a threshold (mental_score < 30), one often enters a \"no ideas\" dysfunctional state where all mental activities—reading, thinking, deciding, creating—become difficult. Because mental activities consume energy, a contradiction arises in low-energy states. The goal is to find low-energy alternatives: idea generation becomes answering preset questions or recording fragmented observations; reading shifts to skimming or listening; problem-solving reduces to defining the problem without solving; decision-making defaults to simple rules or deferral; creative work becomes modifying existing work or organizing materials. This approach sustains mental activity without draining scarce energy."
 body_hash: "b58793c2"
-importance: 2.14  # auto
+importance: 2.15  # auto
 connections:
   - type: idea
     slug: "behavioral-activation-model"  # auto
@@ -44,6 +44,8 @@ connections:
     slug: "8b-deep-reflection"  # auto, review: 0.508
   - type: idea
     slug: "low-occupancy-segment-reflection"  # auto, review: 0.590
+  - type: idea
+    slug: "mental-clutter-degree"  # auto, review: 0.592
 ---
 # Maintaining mental activity during low-energy states
 

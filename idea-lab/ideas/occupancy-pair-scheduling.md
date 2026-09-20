@@ -28,7 +28,9 @@ connections:
     slug: "three-mental-resources"  # auto, review: 0.534
   - type: idea
     slug: "learning-dynamics"  # auto, review: 0.516
-importance: 2.25  # auto
+  - type: idea
+    slug: "newcomer-window"  # auto, review: 0.511
+importance: 2.24  # auto
 ---
 # Occupancy-Pair Scheduling — a Recursive Instance of the Optimal-Curve Problem
 

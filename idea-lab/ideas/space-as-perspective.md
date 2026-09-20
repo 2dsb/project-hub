@@ -4,7 +4,7 @@ title: "Space as a Perspective — Spatial Thinking as a Cognitive Lens"
 tags: [space, perspective, thinking-tool, metaphor, cognitive-lens, topology]
 summary: "Shifting from a temporal or sequential frame to a spatial frame can reveal insights hidden by time's sequence, because space allows simultaneity, distance, position, boundaries, and neighborhoods. Specific examples like topic space, state space, possibility space, review space, and conversation space show how bounded regions with measurable distance and clear inside/outside distinctions clarify structure. This spatial perspective complements temporal flow-based thinking, providing a necessary cognitive lens for understanding complex systems."
 body_hash: "51f2be0e"
-importance: 2.46  # auto
+importance: 2.41  # auto
 connections:
   - type: idea
     slug: "conversation-topic-flow"  # auto

@@ -11,7 +11,7 @@ tags:
   - mental-resources
 summary: "Learning is constrained by three finite resources: attention, working memory, and willpower. Attention cannot be divided; even writing involves multitasking between diffuse attention for phrasing and focused attention for editing. Working memory holds roughly 7–9 items, and the Zeigarnik effect means unfinished tasks intrude, but writing them on a todo list can trick the brain—or deliberately leaving important problems may spark inspiration. Willpower, depleted by decisions and self-control, can be conserved by standardizing your environment and restored through rest."
 body_hash: "7eb5b308"
-importance: 1.47  # auto
+importance: 1.48  # auto
 connections:
   - type: permanent
     slug: "卡片笔记写作法c3.1"

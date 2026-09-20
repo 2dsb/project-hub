@@ -10,7 +10,7 @@ tags:
   - iteration
 summary: "Strategy is the entire game of life, an iterative optimization of three components: the objective function (what you want), degrees of freedom (where you can act), and system internal structure (how actions propagate). Improving strategy uses four levers via the controlled variable method—clarifying each component and then adjusting the strategy itself, which co-evolves bidirectionally with the first three. Within lever 4, you move toward a theoretical optimum while also making local optimizations to avoid getting stuck. This meta-strategy loop of continuous refinement is the only necessary process, with everything else serving as input or output."
 body_hash: "720f954c"
-importance: 1.45  # auto
+importance: 2.45  # auto
 connections:
   - type: idea
     slug: "freedom-exploration-generator"  # auto
@@ -34,6 +34,8 @@ connections:
     slug: "sunk-cost-tug-and-salvage"  # auto, review: 0.525
   - type: idea
     slug: "hybrid-strategy-principle"  # auto, review: 0.529
+  - type: idea
+    slug: "probing-degrees-of-freedom"  # auto
 ---
 # Strategy as Iterative Optimization
 

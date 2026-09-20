@@ -9,7 +9,9 @@ connections:
     slug: "four-step-networking-method"  # auto
   - type: idea
     slug: "cultivating-a-single-person"  # auto, review: 0.522
-importance: 1.29  # auto
+  - type: idea
+    slug: "distance-is-information"  # auto, review: 0.507
+importance: 1.3  # auto
 ---
 # Framework-as-Core: Building a Community Around the Social-Resources Decomposition
 

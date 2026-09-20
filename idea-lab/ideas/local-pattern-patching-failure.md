@@ -45,6 +45,8 @@ connections:
     slug: "knowledge-transfer-fidelity"  # auto, review: 0.514
   - type: idea
     slug: "pattern-pipeline"  # auto, review: 0.515
+  - type: idea
+    slug: "word-level-understanding-as-foundation"  # auto, review: 0.523
 ---
 # Local Patterns Cannot Be Generalized Through Continuous Patching
 

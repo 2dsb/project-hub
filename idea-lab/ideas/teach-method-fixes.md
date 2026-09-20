@@ -8,7 +8,7 @@ tags:
   - actionable
 summary: "The /teach method should split lessons into concept (no code, horizontal interaction density) and practice (code reading, vertical cross-filter bindings), sequenced bottom-up from the lowest abstraction. Mixing horizontal and vertical learning in one lesson triggers recursive questioning, as does top-down sequencing from high abstractions. Alternating concept maps then code reading, bottom-up, eliminates the dependency chain problem. This restructured rapid-concept-push cycle reserves independent writing for the integrative exam. Retrofit existing tracks only when lessons fail due to recursive questioning."
 body_hash: "0ad93588"
-importance: 4.53  # auto
+importance: 4.55  # auto
 connections:
   - type: idea
     slug: knowledge-mastery-two-axis-model

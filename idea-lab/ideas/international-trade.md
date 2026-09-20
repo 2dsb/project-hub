@@ -13,7 +13,7 @@ tags:
   - trade-policy
 summary: "International trade equilibrium is determined by whether a country's domestic price is above or below the world price, revealing its comparative advantage, with a lower domestic price leading to exports and a higher price leading to imports. Under free trade, total surplus increases because gains to the winning group, either producers in an exporting country or consumers in an importing country, exceed the losses to the other group. A tariff taxes imported goods, raising the domestic price toward the no-trade equilibrium solely for importing countries, which generates deadweight loss and reduces import volume. Additional benefits include increased variety and economies of scale, while arguments for restricting trade include the infant-industry argument and the national-security argument, though job destruction concerns can be mitigated by transitioning workers to industries of comparative advantage."
 body_hash: "aca6a129"
-importance: 1.76  # auto
+importance: 1.77  # auto
 connections:
   - type: project
     slug: naked-economics

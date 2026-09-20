@@ -6,7 +6,7 @@ tags:
   - economics
 summary: "Does price emerge spontaneously?"
 body_hash: "1814aa80"
-importance: 1.88  # auto
+importance: 1.89  # auto
 connections:
   - type: project
     slug: naked-economics

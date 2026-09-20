@@ -20,6 +20,8 @@ connections:
     slug: "external-and-internal-view-of-technology"  # review: 0.528
   - type: idea
     slug: "finding-examples"  # review: 0.502
+  - type: idea
+    slug: "ai-organizational-behavior"  # auto, review: 0.528
 ---
 | Dimension            | Keyword                     | Core Manifestations & Tensions                                                                                                                                                                              | Books                                                             |
 | -------------------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |

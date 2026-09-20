@@ -43,6 +43,12 @@ connections:
     slug: "practice-as-learning-purpose"  # auto, review: 0.501
   - type: idea
     slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.500
+  - type: idea
+    slug: "idle-as-unstable-state"  # auto, review: 0.598
+  - type: idea
+    slug: "mental-clutter-degree"  # auto, review: 0.594
+  - type: idea
+    slug: "letters-to-future-self"  # auto, review: 0.522
 importance: 2.05  # auto
 ---
 # Opportunistic Reflection During Low-Occupancy Segments — Free Consolidation of Recent Deep Work

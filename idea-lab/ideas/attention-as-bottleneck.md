@@ -4,7 +4,7 @@ title: "Attention as the Bottleneck — Single-Threaded Execution in Learning & 
 tags: [attention, bottleneck, single-threading, goal-singularity, learning-design, life-modeling]
 summary: "Human attention is a single-threaded bottleneck, like a CPU that can only execute one project at a time, so time blocks are mutually exclusive and the central design problem becomes scheduling which project gets the next attention slot. Unattended projects experience M-decay simultaneously while focus is elsewhere. Goal-singularity and attention-singularity are the same constraint at different levels—purpose and execution. Attention residue, carrying project A’s mental state into project B’s time block, may impair effective M dynamics, and reconnection docs could reduce this residue by acting as clean save points, enabling full release and engagement."
 body_hash: "ec855027"
-importance: 3.12  # auto
+importance: 4.3  # auto
 connections:
   - type: idea
     slug: "goal-singularity"  # auto
@@ -64,6 +64,14 @@ connections:
     slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.544
   - type: idea
     slug: "sunk-cost-tug-and-salvage"  # auto, review: 0.515
+  - type: idea
+    slug: "idle-as-unstable-state"  # auto
+  - type: idea
+    slug: "mental-clutter-degree"  # auto
+  - type: idea
+    slug: "newcomer-window"  # auto, review: 0.509
+  - type: idea
+    slug: "letters-to-future-self"  # auto, review: 0.508
 ---
 # Attention as the Bottleneck
 

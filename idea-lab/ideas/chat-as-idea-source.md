@@ -22,6 +22,8 @@ connections:
     slug: "卡片笔记写作法c3.5"
   - type: idea
     slug: "conversation-topic-flow"  # review: 0.519
+  - type: idea
+    slug: "coffee-chat-three-questions"  # auto, review: 0.542
 ---
 # WeChat Conversations as Idea Raw Material
 

@@ -8,7 +8,7 @@ tags:
   - pipeline
 summary: "The core question is where deliberate memorization fits in the learning pipeline, with a current intuition that it belongs as a fourth Sink mode distinct from expression-oriented analogy, translation, and reconnection docs. Memorization would serve element-level retention of facts, formulas, and vocabulary against decay, unlike reconnection docs which enable structural reconstruction of mental models. However, this remains an untested hunch, and structural patience dictates waiting rather than integrating it prematurely into a validated pipeline. Open questions include whether memorization is a parallel retention axis, how it might interact with Router stages to identify high-leverage concepts, and whether reconnection docs already reduce the need for explicit memorization."
 body_hash: "e08e7cc8"
-importance: 4.84  # auto
+importance: 5.34  # auto
 connections:
   - type: idea
     slug: "learning-pipeline"  # auto
@@ -68,6 +68,10 @@ connections:
     slug: "fundamental-model-of-learning"  # auto, review: 0.524
   - type: idea
     slug: "ai-cannot-learn-after-training"  # auto, review: 0.508
+  - type: idea
+    slug: "letters-to-future-self"  # auto
+  - type: idea
+    slug: "word-level-understanding-as-foundation"  # auto, review: 0.547
 ---
 # Memorization in the Learning Pipeline
 

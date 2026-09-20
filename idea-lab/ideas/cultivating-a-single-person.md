@@ -21,7 +21,9 @@ connections:
     slug: "attribution-of-achievement"  # auto, review: 0.521
   - type: idea
     slug: "my-relationship-with-others-and-society"  # auto, review: 0.508
-importance: 2.96  # auto
+  - type: idea
+    slug: "coffee-chat-three-questions"  # auto, review: 0.527
+importance: 2.98  # auto
 ---
 The load-bearing principle: **symmetric exchange, not extraction.** Approach every person as a two-way exchange — each side holds first-hand truth the other lacks. Map the exchange before the first message: what you have that they need, what they have that you need. If no genuine give-item exists, the exchange doesn't hold. Never reduce the person to a free consultant, and never jump from a first meeting to asking for favors.
 

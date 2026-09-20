@@ -9,7 +9,7 @@ tags:
   - purposeful-system
 summary: "Narrow technology is a system built solely upon physical phenomena to achieve a specific purpose, while broad technology is a purposeful system that additionally builds upon behavioral, institutional, and other layers of phenomena."
 body_hash: "1e37e113"
-importance: 0.38  # auto
+importance: 0.39  # auto
 connections:
   - type: project
     slug: ai-ability

@@ -1,7 +1,7 @@
 ---
 id: "idea-20260719-speed-first-model-second-batch-tradeoff"
 title: "Speed-First Model-Second — Batch Size Tradeoff in Learning"
-importance: 3.07  # auto
+importance: 3.56  # auto
 tags:
   - learning-strategy
   - modeling
@@ -40,6 +40,8 @@ connections:
     slug: "structural-patience"  # auto, review: 0.541
   - type: idea
     slug: "learning-method-v2"  # auto, review: 0.502
+  - type: idea
+    slug: "letters-to-future-self"  # auto
 ---
 # Speed-First Model-Second — Batch Size Tradeoff in Learning
 

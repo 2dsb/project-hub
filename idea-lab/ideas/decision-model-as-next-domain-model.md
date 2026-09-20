@@ -1,7 +1,7 @@
 ---
 id: "idea-20260719-decision-model-as-next-domain-model"
 title: "Decision Model as Next Non-Specialist Domain Model"
-importance: 3.13  # auto
+importance: 3.11  # auto
 tags:
   - decision-making
   - modeling

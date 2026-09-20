@@ -15,7 +15,7 @@ tags:
   - thinking
 summary: "The Zettelkasten Method is a note-taking system using fleeting notes, literature notes, permanent notes, and project notes to build an external knowledge base that improves thinking and writing. By daily reviewing fleeting and literature notes against permanent notes, you create derivative ideas through connection and collision, leveraging the hermeneutic circle for cyclical understanding. This process generates a compound effect where more notes yield richer idea networks, and a virtuous feedback loop where expressing ideas in your own words tests comprehension, making sustained practice effortless through frequent, small-scale feedback."
 body_hash: "be5e4caa"
-importance: 8.14  # auto
+importance: 8.17  # auto
 connections:
   - type: permanent
     slug: "卡片笔记写作法c1.1"

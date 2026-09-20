@@ -52,7 +52,9 @@ connections:
     slug: "structure-native-learning-machine"  # auto, review: 0.540
   - type: idea
     slug: "structure-native-tools"  # auto, review: 0.512
-importance: 2.94  # auto
+  - type: idea
+    slug: "letters-to-future-self"  # auto, review: 0.579
+importance: 2.96  # auto
 ---
 # Fundamental Model of Learning
 

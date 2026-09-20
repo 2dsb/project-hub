@@ -15,6 +15,8 @@ body_hash: "8a88bbc8"
 connections:
   - type: idea
     slug: "structure-native-learning-machine"  # auto
+  - type: idea
+    slug: "structure-native-tools"  # auto, review: 0.500
 importance: 2.15  # auto
 ---
 # The Essential Property of the Neural Network Black Box

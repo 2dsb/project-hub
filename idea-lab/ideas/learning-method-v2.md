@@ -68,6 +68,10 @@ connections:
     slug: "teach-application-scope"  # auto, review: 0.550
   - type: idea
     slug: "single-advancement-method-first-pass"  # auto, review: 0.581
+  - type: idea
+    slug: "letters-to-future-self"  # auto
+  - type: idea
+    slug: "word-level-understanding-as-foundation"  # auto, review: 0.517
 ---
 # Learning Method v2
 
