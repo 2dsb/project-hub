@@ -9,7 +9,7 @@ tags:
   - assessment
 summary: "Pass criteria should be treated as a first-class curriculum design element, not an afterthought, and must be stated before any lesson content because they define the observable behavior that constitutes evidence of learning. An explicit Pass Bar specifies precisely what the learner must be able to do at the exit gate—for example, trace an agent loop rather than write one from scratch—which directly shapes where effort is invested and calms “am I done?” anxiety. This approach reveals whether the lesson’s medium even suits its goal, since a document is wrong when the pass criteria demand a working pipeline. Distinct from learning objectives, the pass criteria form the micro-level of the practice-as-purpose hierarchy, with the internship deadline as the macro-level reason to learn, together creating a two-level purpose structure."
 body_hash: "b5aa7984"
-importance: 2.66  # auto
+importance: 2.36  # auto
 connections:
   - type: idea
     slug: practice-as-learning-purpose
@@ -37,6 +37,8 @@ connections:
     slug: "teach-application-scope"  # auto
   - type: idea
     slug: "single-advancement-method-first-pass"  # auto, review: 0.511
+  - type: idea
+    slug: "learning-cycle-microstructure"  # auto
 ---
 # Pass Criteria as a First-Class Curriculum Design Element
 

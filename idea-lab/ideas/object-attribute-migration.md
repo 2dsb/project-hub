@@ -9,7 +9,7 @@ tags:
   - knowledge-modeling
 summary: "The Python object-attribute model’s dot operator acts as a universal accessor returning a thing’s manifestation under a named, structured lens. The core question is whether this dot-based schema—requiring finite, design-time-fixed attributes—adds productive rigor beyond the open-ended bracket notation’s key-value map, by forcing commitment to a stable set of perspectives. Potential migration targets include relationships, concepts, and identity, but it remains unclear if this is a genuine advance over the existing dictionary-of-perspectives framework or merely a syntactic variant."
 body_hash: "4dbf94d1"
-importance: 1.44  # auto
+importance: 1.43  # auto
 connections:
   - type: idea
     slug: knowledge-as-dictionary-of-perspectives

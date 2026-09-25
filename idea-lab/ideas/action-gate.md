@@ -23,6 +23,10 @@ connections:
     slug: "idle-as-unstable-state"
   - type: idea
     slug: "life-state-machine-content"  # auto
+  - type: idea
+    slug: "role-system"  # auto
+  - type: idea
+    slug: "activity-cost-benefit"  # auto, review: 0.593
 importance: -1
 ---
 # The Action Gate (门控)

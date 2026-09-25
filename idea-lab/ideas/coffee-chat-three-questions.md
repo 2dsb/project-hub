@@ -19,7 +19,7 @@ connections:
     slug: "attribution-of-achievement"  # auto, review: 0.538
   - type: idea
     slug: "cultivating-a-single-person"  # auto, review: 0.527
-importance: 1.3  # auto
+importance: 1.28  # auto
 ---
 # Coffee Chat: The Three Questions — Work, Best, Talent
 

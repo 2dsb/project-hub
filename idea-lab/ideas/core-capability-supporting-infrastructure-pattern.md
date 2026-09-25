@@ -44,6 +44,8 @@ connections:
     slug: "technology"  # auto, review: 0.515
   - type: idea
     slug: "ai-organization-programming-language"  # auto, review: 0.530
+  - type: idea
+    slug: "standardize-the-framework-not-the-product"  # auto, review: 0.504
 ---
 # Core Capability → Supporting Infrastructure as Technology Evolution Pattern
 

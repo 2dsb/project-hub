@@ -62,7 +62,9 @@ connections:
     slug: "teach-application-scope"  # auto, review: 0.506
   - type: idea
     slug: "newcomer-window"  # auto, review: 0.534
-importance: 1.6  # auto
+  - type: idea
+    slug: "learning-cycle-microstructure"  # auto
+importance: 2.02  # auto
 ---
 # The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss
 

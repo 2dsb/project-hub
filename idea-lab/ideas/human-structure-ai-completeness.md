@@ -57,6 +57,8 @@ connections:
     slug: "pattern-pipeline"  # auto, review: 0.505
   - type: idea
     slug: "structure-native-learning-machine"  # auto, review: 0.500
+  - type: idea
+    slug: "composition-language"  # auto, review: 0.582
 ---
 # Human Provides Structural Skeleton; AI Checks Completeness and Maps Linkages
 

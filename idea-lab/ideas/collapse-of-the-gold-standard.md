@@ -13,7 +13,7 @@ tags:
   - foreign-exchange
 summary: "Excessive dollar issuance relative to gold reserves led foreign entities to redeem dollars for gold, fueling inflation. In response, the Nixon administration closed the exchange window to foreigners, prohibiting gold conversion. Consequently, the dollar's international value plummeted to whatever counterparties would pay, yet its world reserve currency status remained unshaken."
 body_hash: "ce64b8b4"
-importance: 2.96  # auto
+importance: 2.97  # auto
 connections:
   - type: idea
     slug: "inflation"  # auto

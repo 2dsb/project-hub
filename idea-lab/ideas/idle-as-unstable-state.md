@@ -28,7 +28,11 @@ connections:
     slug: "async-work-mode"  # auto, review: 0.580
   - type: idea
     slug: "life-state-machine-content"  # auto, review: 0.564
-importance: 2.93  # auto
+  - type: idea
+    slug: "role-system"  # auto, review: 0.593
+  - type: idea
+    slug: "activity-cost-benefit"  # auto, review: 0.538
+importance: 2.96  # auto
 ---
 # Idleness as an Unstable State
 

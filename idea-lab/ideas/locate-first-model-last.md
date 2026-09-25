@@ -4,7 +4,7 @@ title: "Locate-First, Model-Last — A Learning Paradigm Shift Driven by the Dic
 tags: [learning, modeling, paradigm, methodology, knowledge-representation, multi-perspective, dictionary-model, two-pass, efficiency]
 summary: "Locate-First, Model-Last proposes that learning should separate locating knowledge points within a provisional key hierarchy from building a structural model, because premature modeling is unreliable when only partial samples exist in a high-dimensional perspective space. The dictionary model shows each knowledge point lives across multiple perspectives, so clustering without full coverage is noise. The key hierarchy co-evolves with point discovery—each point extends the keys—after which modeling occurs in a final pass. This generalizes the two-pass reading strategy, avoids the breadth-first trap, and resolves the reading-modeling decomposition tradeoff by eliminating merge costs."
 body_hash: "e3db55b2"
-importance: 5.38  # auto
+importance: 5.41  # auto
 connections:
   - type: idea
     slug: knowledge-as-dictionary-of-perspectives

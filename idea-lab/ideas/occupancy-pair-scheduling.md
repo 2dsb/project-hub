@@ -30,7 +30,9 @@ connections:
     slug: "learning-dynamics"  # auto, review: 0.516
   - type: idea
     slug: "newcomer-window"  # auto, review: 0.511
-importance: 2.24  # auto
+  - type: idea
+    slug: "learning-cycle-microstructure"  # auto, review: 0.503
+importance: 2.13  # auto
 ---
 # Occupancy-Pair Scheduling — a Recursive Instance of the Optimal-Curve Problem
 

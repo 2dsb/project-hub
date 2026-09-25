@@ -35,7 +35,9 @@ connections:
     slug: "human-structure-ai-completeness"  # auto, review: 0.500
   - type: idea
     slug: "harness-structure-enforcement"  # auto, review: 0.527
-importance: 4.56  # auto
+  - type: idea
+    slug: "composition-language"  # auto, review: 0.573
+importance: 4.58  # auto
 ---
 # The Dual-Property Box
 

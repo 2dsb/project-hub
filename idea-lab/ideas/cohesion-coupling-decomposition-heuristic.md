@@ -4,7 +4,7 @@ title: "Cohesion-Coupling Decomposition Heuristic — Migrated from Abstraction 
 tags: [system-design, modeling, decomposition, abstraction, cohesion, coupling, methodology, shallow-migration]
 summary: "A system decomposition is good when subsystems exhibit high internal cohesion and sparse external coupling, ideally approaching zero coupling. This heuristic, migrated from the abstraction barrier concept separating representation from use, applies recursively at every scale: each subsystem can itself be decomposed until further division adds more interface complexity than it removes. It works because low coupling enables independent understanding, composability, and localized debugging, with the abstraction barrier as a special case of a narrow interface. Applied to the unified-python-execution-model, sub-models like the def tree and binding graph should maintain tight internal coherence and connect through minimal, well-defined interfaces."
 body_hash: "63905c7d"
-importance: 4.68  # auto
+importance: 4.72  # auto
 connections:
   - type: idea
     slug: "abstraction-barrier-as-dual-perspective-bridge"  # auto

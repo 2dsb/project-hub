@@ -20,7 +20,7 @@ connections:
     slug: "ai-organizational-behavior"  # auto, review: 0.546
   - type: idea
     slug: "harness-structure-enforcement"  # auto, review: 0.527
-importance: 2.96  # auto
+importance: 2.97  # auto
 ---
 # Organization as Code — Formal Description and Optimization of AI-Human Structures
 

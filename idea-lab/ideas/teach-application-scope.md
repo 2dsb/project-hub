@@ -31,7 +31,9 @@ connections:
     slug: "knowledge-map-format"  # auto, review: 0.515
   - type: idea
     slug: "practice-necessity-willingness-tradeoff"  # auto, review: 0.506
-importance: 3.24  # auto
+  - type: idea
+    slug: "learning-cycle-microstructure"  # auto
+importance: 2.86  # auto
 ---
 # Teach Application Scope
 

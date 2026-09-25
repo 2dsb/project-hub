@@ -24,6 +24,8 @@ connections:
     slug: "pass-criteria-as-curriculum-design"  # auto, review: 0.511
   - type: idea
     slug: "knowledge-map-format"  # auto, review: 0.503
+  - type: idea
+    slug: "learning-cycle-microstructure"  # auto, review: 0.579
 importance: 0.0  # auto
 ---
 # Single Advancement Method for First-Pass Learning

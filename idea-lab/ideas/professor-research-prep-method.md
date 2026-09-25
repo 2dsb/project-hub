@@ -14,6 +14,8 @@ body_hash: "34d1cfa6"
 connections:
   - type: idea
     slug: "math-to-ai-phd-learning-path"  # auto, review: 0.595
+  - type: idea
+    slug: "social-strategy-by-population-class"  # auto, review: 0.529
 importance: 0.0  # auto
 ---
 # Reaching Out to Professors: The Research Prep Is the Unlock

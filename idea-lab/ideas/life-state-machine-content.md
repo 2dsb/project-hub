@@ -21,7 +21,9 @@ connections:
     slug: "action-gate"  # auto
   - type: idea
     slug: "idle-as-unstable-state"  # auto, review: 0.564
-importance: 2.02  # auto
+  - type: idea
+    slug: "role-system"  # auto
+importance: 2.69  # auto
 ---
 # Life-State Machine Content
 

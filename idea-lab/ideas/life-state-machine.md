@@ -21,6 +21,8 @@ connections:
     slug: "idle-as-unstable-state"
   - type: idea
     slug: "action-gate"
+  - type: idea
+    slug: "role-system"  # auto
 importance: -1
 ---
 # Life-State Machine

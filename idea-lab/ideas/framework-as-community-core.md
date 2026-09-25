@@ -11,7 +11,9 @@ connections:
     slug: "cultivating-a-single-person"  # auto, review: 0.522
   - type: idea
     slug: "distance-is-information"  # auto, review: 0.507
-importance: 1.3  # auto
+  - type: idea
+    slug: "social-strategy-by-population-class"  # auto, review: 0.513
+importance: 1.28  # auto
 ---
 # Framework-as-Core: Building a Community Around the Social-Resources Decomposition
 

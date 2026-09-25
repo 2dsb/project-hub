@@ -19,7 +19,7 @@ connections:
     slug: "harness-structure-enforcement"  # auto, review: 0.532
   - type: idea
     slug: "ai-organizational-behavior"  # auto, review: 0.509
-importance: 2.96  # auto
+importance: 2.97  # auto
 ---
 # AI Organization Programming Language — Higher-Level LangGraph for Agent Orchestration
 

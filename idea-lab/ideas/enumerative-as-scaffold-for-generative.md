@@ -43,7 +43,9 @@ connections:
     slug: "pattern-pipeline"  # auto, review: 0.559
   - type: idea
     slug: "word-level-understanding-as-foundation"  # auto, review: 0.532
-importance: 1.96  # auto
+  - type: idea
+    slug: "learning-cycle-microstructure"  # auto
+importance: 2.34  # auto
 ---
 # Enumerative Taxonomy as Deliberate Scaffold for Generative Derivation
 

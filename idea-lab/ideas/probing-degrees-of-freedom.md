@@ -18,7 +18,7 @@ connections:
     slug: "plugin-architecture-vs-defaults"  # auto, review: 0.543
   - type: idea
     slug: "freedom-exploration-generator"  # auto, review: 0.505
-importance: 0.63  # auto
+importance: 0.62  # auto
 ---
 # Probing Degrees of Freedom — A New System's Binding Unknown Is Its Option Set
 

@@ -12,7 +12,7 @@ tags:
   - technology-evolution
 summary: "A domain is a cluster of interrelated technologies sharing common external form or purpose, viewed as a toolbox and a language whose grammar defines combination rules. Engineering design begins with domain definition, choosing a domain to achieve a goal. Innovation arises through re-domaining: replacing an existing domain with a new one built on novel phenomena or theories. The new domain displaces the old if it offers greater possibilities—more potential technologies—and diverse combination patterns, exemplified by the shift from the mechanical domain to the electronic domain."
 body_hash: "de59473c"
-importance: 2.67  # auto
+importance: 2.68  # auto
 connections:
   - type: idea
     slug: three-definitions-of-technology

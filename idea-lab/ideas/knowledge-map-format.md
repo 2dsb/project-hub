@@ -31,7 +31,9 @@ connections:
     slug: "single-advancement-method-first-pass"  # auto, review: 0.503
   - type: idea
     slug: "letters-to-future-self"  # auto, review: 0.530
-importance: 2.96  # auto
+  - type: idea
+    slug: "learning-cycle-microstructure"  # auto, review: 0.585
+importance: 2.97  # auto
 ---
 # Knowledge Map Format (MAP.md)
 

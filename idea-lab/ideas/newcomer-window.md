@@ -26,6 +26,8 @@ connections:
     slug: "distance-is-information"  # auto, review: 0.508
   - type: idea
     slug: "completion-vs-quitting"  # auto, review: 0.502
+  - type: idea
+    slug: "activity-cost-benefit"  # auto, review: 0.579
 importance: 0.0  # auto
 ---
 # The Newcomer Window — Why Breadth Sampling Pays Most Right After You Arrive

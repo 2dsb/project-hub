@@ -9,7 +9,7 @@ tags:
 - specialization
 summary: "The core distinction lies between absolute advantage, which is producing a good using fewer inputs, and comparative advantage, which is producing a good at a lower opportunity cost. Gains from trade arise when parties specialize according to their comparative advantage. The trading price therefore settles between the opportunity costs of the two parties."
 body_hash: "52acbbf4"
-importance: 3.65  # auto
+importance: 3.66  # auto
 connections:
 - type: idea
   slug: ten-principles-of-economics

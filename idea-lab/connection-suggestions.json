@@ -4,101 +4,277 @@
   "min_score": 0.5,
   "max_candidates": 20,
   "generated": "2026-08-01",
-  "total_ideas": 251,
-  "ideas_with_suggestions": 14,
-  "total_suggestions": 33,
+  "total_ideas": 260,
+  "ideas_with_suggestions": 68,
+  "total_suggestions": 130,
   "stats": {
     "suggestion_count_distribution": {
-      "0": 237,
-      "1": 5,
-      "2": 5,
+      "0": 192,
+      "1": 51,
+      "2": 10,
       "3": 2,
-      "5": 1,
-      "7": 1
+      "8": 1,
+      "10": 3,
+      "15": 1
     },
     "score_range": {
-      "min": 0.5017,
-      "max": 0.5779,
-      "avg": 0.5268
+      "min": 0.5002,
+      "max": 0.7443,
+      "avg": 0.5766
     }
   },
   "suggestions": [
     {
-      "slug": "ai-organization-programming-language",
-      "title": "AI Organization Programming Language — Higher-Level LangGraph for Agent Orchestration",
+      "slug": "action-gate",
+      "title": "The Action Gate — Free Will Ranges Only Over State-Feasible Actions",
       "suggestions": [
         {
-          "slug": "harness-structure-enforcement",
-          "title": "Structure Enforcement in the Harness — Scalable AI Structure Is Imposed, Not Requested",
-          "score": 0.5319
+          "slug": "role-system",
+          "title": "The Role System — Roles Classify Action State; One at a Time, Switched by a Marker",
+          "score": 0.6573
         },
         {
-          "slug": "ai-organizational-behavior",
-          "title": "AI Organizational Behavior — The Unit of AI Decision-Making Is the Organization, Not the Model",
-          "score": 0.5092
+          "slug": "activity-cost-benefit",
+          "title": "Activity Cost-Benefit — Gains Are Gated, Costs Are Paid in State",
+          "score": 0.5926
         }
       ]
     },
     {
-      "slug": "ai-organizational-behavior",
-      "title": "AI Organizational Behavior — The Unit of AI Decision-Making Is the Organization, Not the Model",
+      "slug": "activity-cost-benefit",
+      "title": "Activity Cost-Benefit — Gains Are Gated, Costs Are Paid in State",
       "suggestions": [
         {
-          "slug": "organization-as-code-ai-human",
-          "title": "Organization as Code — Formal Description and Optimization of AI-Human Structures",
-          "score": 0.5459
+          "slug": "mental-clutter-degree",
+          "title": "Mental Clutter Degree (混乱度) — the Person Attribute That Gates Meaningful Work and Sleep",
+          "score": 0.622
         },
         {
-          "slug": "harness-structure-enforcement",
-          "title": "Structure Enforcement in the Harness — Scalable AI Structure Is Imposed, Not Requested",
-          "score": 0.5436
+          "slug": "completion-vs-quitting",
+          "title": "Completion vs. Quitting",
+          "score": 0.5981
         },
         {
-          "slug": "characteristics-of-our-era",
-          "title": "Characteristics of Our Era",
-          "score": 0.5283
+          "slug": "role-system",
+          "title": "The Role System — Roles Classify Action State; One at a Time, Switched by a Marker",
+          "score": 0.5954
         },
         {
-          "slug": "ai-organization-programming-language",
-          "title": "AI Organization Programming Language — Higher-Level LangGraph for Agent Orchestration",
-          "score": 0.5092
+          "slug": "action-gate",
+          "title": "The Action Gate — Free Will Ranges Only Over State-Feasible Actions",
+          "score": 0.5926
         },
         {
-          "slug": "system-coevolution-p4-self-reinforcement",
-          "title": "Coevolution - Problem 4: Preventing Self-Reinforcement in the Wrong Direction",
-          "score": 0.5017
+          "slug": "newcomer-window",
+          "title": "The Newcomer Window — Why Breadth Sampling Pays Most Right After You Arrive",
+          "score": 0.5794
+        },
+        {
+          "slug": "attention-as-bottleneck",
+          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
+          "score": 0.5747
+        },
+        {
+          "slug": "sunk-cost-tug-and-salvage",
+          "title": "The Sunk-Cost Tug Survives the Right Decision",
+          "score": 0.5575
+        },
+        {
+          "slug": "idle-as-unstable-state",
+          "title": "Idleness as an Unstable State — The Async-Wait Tradeoff",
+          "score": 0.5384
+        },
+        {
+          "slug": "integrating-fragmented-life-strategies",
+          "title": "Integrating Fragmented Life Strategies",
+          "score": 0.5372
+        },
+        {
+          "slug": "practice-necessity-willingness-tradeoff",
+          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
+          "score": 0.5333
         }
       ]
     },
     {
-      "slug": "characteristics-of-our-era",
-      "title": "Characteristics of Our Era",
+      "slug": "ai-cannot-learn-after-training",
+      "title": "AI Cannot Learn After Training — Conversation Isn't Learning, Fine-Tuning Needs Data",
       "suggestions": [
         {
-          "slug": "ai-organizational-behavior",
-          "title": "AI Organizational Behavior — The Unit of AI Decision-Making Is the Organization, Not the Model",
-          "score": 0.5283
+          "slug": "ai-memory-as-location-index",
+          "title": "AI Memory as a Location Index — Know Where Knowledge Is, Transmit Only the Relevant Subtree",
+          "score": 0.5203
         }
       ]
     },
     {
-      "slug": "coffee-chat-three-questions",
-      "title": "Coffee Chat: The Three Questions — Work, Best, Talent",
+      "slug": "ai-memory-as-location-index",
+      "title": "AI Memory as a Location Index — Know Where Knowledge Is, Transmit Only the Relevant Subtree",
       "suggestions": [
         {
-          "slug": "chat-as-idea-source",
-          "title": "WeChat Conversations as Idea Raw Material",
-          "score": 0.5424
+          "slug": "attention-pointer-learning-model",
+          "title": "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint",
+          "score": 0.6305
+        }
+      ]
+    },
+    {
+      "slug": "attention-as-bottleneck",
+      "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
+      "suggestions": [
+        {
+          "slug": "activity-cost-benefit",
+          "title": "Activity Cost-Benefit — Gains Are Gated, Costs Are Paid in State",
+          "score": 0.5747
         },
         {
-          "slug": "attribution-of-achievement",
-          "title": "Attribution of Achievement: A Questioning Technique for Learning from Accomplished People",
-          "score": 0.5377
+          "slug": "role-system",
+          "title": "The Role System — Roles Classify Action State; One at a Time, Switched by a Marker",
+          "score": 0.5648
+        }
+      ]
+    },
+    {
+      "slug": "attention-pointer-learning-model",
+      "title": "Attention-as-Pointer Model of Learning — Local Sampling Under Memory Constraint",
+      "suggestions": [
+        {
+          "slug": "ai-memory-as-location-index",
+          "title": "AI Memory as a Location Index — Know Where Knowledge Is, Transmit Only the Relevant Subtree",
+          "score": 0.6305
+        }
+      ]
+    },
+    {
+      "slug": "breadth-first-trap",
+      "title": "Breadth-First Search → Depth-First Execution",
+      "suggestions": [
+        {
+          "slug": "ai-memory-as-location-index",
+          "title": "AI Memory as a Location Index — Know Where Knowledge Is, Transmit Only the Relevant Subtree",
+          "score": 0.5513
+        }
+      ]
+    },
+    {
+      "slug": "completion-vs-quitting",
+      "title": "Completion vs. Quitting",
+      "suggestions": [
+        {
+          "slug": "activity-cost-benefit",
+          "title": "Activity Cost-Benefit — Gains Are Gated, Costs Are Paid in State",
+          "score": 0.5981
+        }
+      ]
+    },
+    {
+      "slug": "composition-language",
+      "title": "The Composition Language — Everything Is Already a Composition; the Medium Cannot Show It",
+      "suggestions": [
+        {
+          "slug": "human-structure-ai-completeness",
+          "title": "Human Provides Structural Skeleton; AI Checks Completeness and Maps Linkages",
+          "score": 0.5822
         },
         {
-          "slug": "cultivating-a-single-person",
-          "title": "Cultivating One Person: The Reciprocity Playbook",
-          "score": 0.5268
+          "slug": "structure-native-learning-machine",
+          "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
+          "score": 0.5728
+        },
+        {
+          "slug": "structure-native-tools",
+          "title": "Structure-Native Tools — Can Any Algorithm or Tool Treat Structured Data as Its Native I/O?",
+          "score": 0.5653
+        },
+        {
+          "slug": "reconnection-doc-method",
+          "title": "Three-Layer Classification Method for Reconnection Docs",
+          "score": 0.544
+        },
+        {
+          "slug": "learning-pipeline",
+          "title": "Learning Pipeline",
+          "score": 0.5256
+        },
+        {
+          "slug": "knowledge-as-dictionary-of-perspectives",
+          "title": "Knowledge as a Dictionary of Perspectives — Each Knowledge Point Is a Multi-Dimensional Embedding",
+          "score": 0.5116
+        },
+        {
+          "slug": "content-independent-framework",
+          "title": "Content-Independent Frameworks Beat Content-Bound Ones",
+          "score": 0.5109
+        },
+        {
+          "slug": "three-layer-framework",
+          "title": "Three-Layer Framework as Starting Lens for Reconnection Docs",
+          "score": 0.5099
+        }
+      ]
+    },
+    {
+      "slug": "content-independent-framework",
+      "title": "Content-Independent Frameworks Beat Content-Bound Ones",
+      "suggestions": [
+        {
+          "slug": "filter-map-as-general-test",
+          "title": "The Filter-Map Test Generalizes Past Math — File Instruments by What They Measure, Not by Domain",
+          "score": 0.5208
+        },
+        {
+          "slug": "composition-language",
+          "title": "The Composition Language — Everything Is Already a Composition; the Medium Cannot Show It",
+          "score": 0.5109
+        }
+      ]
+    },
+    {
+      "slug": "core-capability-supporting-infrastructure-pattern",
+      "title": "Core Capability → Supporting Infrastructure as Technology Evolution Pattern",
+      "suggestions": [
+        {
+          "slug": "standardize-the-framework-not-the-product",
+          "title": "Standardize the Framework, Not the Product — A Language for Customization",
+          "score": 0.5039
+        }
+      ]
+    },
+    {
+      "slug": "cultivating-a-single-person",
+      "title": "Cultivating One Person: The Reciprocity Playbook",
+      "suggestions": [
+        {
+          "slug": "social-strategy-by-population-class",
+          "title": "Social Strategy by Population Class — Classify First, Then Design a Different Strategy per Class",
+          "score": 0.511
+        }
+      ]
+    },
+    {
+      "slug": "data-structure-first-code-reading",
+      "title": "Data Structure First — Memorize Shapes Before Reading Code",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.507
+        },
+        {
+          "slug": "filter-map-as-general-test",
+          "title": "The Filter-Map Test Generalizes Past Math — File Instruments by What They Measure, Not by Domain",
+          "score": 0.5016
+        }
+      ]
+    },
+    {
+      "slug": "discipline-division-and-internal-structure",
+      "title": "Discipline Division and Internal Structure",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.5002
         }
       ]
     },
@@ -107,19 +283,87 @@
       "title": "Distance Is Information — Why Heterogeneous Exposure Breaks Thinking Boundaries",
       "suggestions": [
         {
-          "slug": "four-step-networking-method",
-          "title": "The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up",
-          "score": 0.5174
+          "slug": "social-strategy-by-population-class",
+          "title": "Social Strategy by Population Class — Classify First, Then Design a Different Strategy per Class",
+          "score": 0.6153
+        }
+      ]
+    },
+    {
+      "slug": "enumerative-as-scaffold-for-generative",
+      "title": "Enumerative Taxonomy as Deliberate Scaffold for Generative Derivation",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.6643
+        }
+      ]
+    },
+    {
+      "slug": "explaining-excellent-sheep-with-theory",
+      "title": "Explaining \"Excellent Sheep\" 9.11 Using Learned Theories",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.5515
+        }
+      ]
+    },
+    {
+      "slug": "filter-map-as-general-test",
+      "title": "The Filter-Map Test Generalizes Past Math — File Instruments by What They Measure, Not by Domain",
+      "suggestions": [
+        {
+          "slug": "pattern-pipeline",
+          "title": "The Pattern Pipeline: Data → Operational Space → Understanding → Action",
+          "score": 0.5474
         },
         {
-          "slug": "newcomer-window",
-          "title": "The Newcomer Window — Why Breadth Sampling Pays Most Right After You Arrive",
-          "score": 0.5081
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.5292
         },
         {
-          "slug": "framework-as-community-core",
-          "title": "Framework-as-Core: Building a Community Around the Social-Resources Decomposition",
-          "score": 0.5066
+          "slug": "content-independent-framework",
+          "title": "Content-Independent Frameworks Beat Content-Bound Ones",
+          "score": 0.5208
+        },
+        {
+          "slug": "teach-method-fixes",
+          "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
+          "score": 0.5176
+        },
+        {
+          "slug": "knowledge-mastery-two-axis-model",
+          "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
+          "score": 0.5144
+        },
+        {
+          "slug": "knowledge-map-format",
+          "title": "Knowledge Map Format (MAP.md)",
+          "score": 0.5105
+        },
+        {
+          "slug": "human-machine-code-reading-gap",
+          "title": "Human vs. Machine Code Reading — The Conceptual Gap",
+          "score": 0.5076
+        },
+        {
+          "slug": "fundamental-model-of-learning",
+          "title": "Fundamental Model of Learning",
+          "score": 0.504
+        },
+        {
+          "slug": "goal-predicate-f",
+          "title": "Goal Predicate f",
+          "score": 0.5039
+        },
+        {
+          "slug": "data-structure-first-code-reading",
+          "title": "Data Structure First — Memorize Shapes Before Reading Code",
+          "score": 0.5016
         }
       ]
     },
@@ -128,98 +372,609 @@
       "title": "The Networking Method: Compliment, Introduce, Connect, Ask, Follow Up",
       "suggestions": [
         {
-          "slug": "distance-is-information",
-          "title": "Distance Is Information — Why Heterogeneous Exposure Breaks Thinking Boundaries",
-          "score": 0.5174
+          "slug": "social-strategy-by-population-class",
+          "title": "Social Strategy by Population Class — Classify First, Then Design a Different Strategy per Class",
+          "score": 0.5428
         }
       ]
     },
     {
-      "slug": "harness-structure-enforcement",
-      "title": "Structure Enforcement in the Harness — Scalable AI Structure Is Imposed, Not Requested",
+      "slug": "framework-as-community-core",
+      "title": "Framework-as-Core: Building a Community Around the Social-Resources Decomposition",
       "suggestions": [
         {
-          "slug": "self-authored-compliance-program",
-          "title": "Self-Authored Compliance Programs — The AI Writes a Branching Checker, and the Checker Halts It",
-          "score": 0.5779
+          "slug": "social-strategy-by-population-class",
+          "title": "Social Strategy by Population Class — Classify First, Then Design a Different Strategy per Class",
+          "score": 0.5128
+        }
+      ]
+    },
+    {
+      "slug": "freedom-exploration-generator",
+      "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.5511
+        }
+      ]
+    },
+    {
+      "slug": "fundamental-model-of-learning",
+      "title": "Fundamental Model of Learning",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.5817
+        }
+      ]
+    },
+    {
+      "slug": "goal-predicate-f",
+      "title": "Goal Predicate f",
+      "suggestions": [
+        {
+          "slug": "filter-map-as-general-test",
+          "title": "The Filter-Map Test Generalizes Past Math — File Instruments by What They Measure, Not by Domain",
+          "score": 0.5039
+        }
+      ]
+    },
+    {
+      "slug": "goal-singularity",
+      "title": "Goal Singularity",
+      "suggestions": [
+        {
+          "slug": "language-cannot-specify-diagrams",
+          "title": "Language Cannot Specify a Diagram — The Channel Is the Bottleneck, Not the Model",
+          "score": 0.5295
         },
         {
-          "slug": "ai-organizational-behavior",
-          "title": "AI Organizational Behavior — The Unit of AI Decision-Making Is the Organization, Not the Model",
-          "score": 0.5436
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.5071
+        }
+      ]
+    },
+    {
+      "slug": "hermeneutic-circle-learning",
+      "title": "Hermeneutic Circle as Learning Macro-Structure",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.6936
+        }
+      ]
+    },
+    {
+      "slug": "human-machine-code-reading-gap",
+      "title": "Human vs. Machine Code Reading — The Conceptual Gap",
+      "suggestions": [
+        {
+          "slug": "language-cannot-specify-diagrams",
+          "title": "Language Cannot Specify a Diagram — The Channel Is the Bottleneck, Not the Model",
+          "score": 0.5141
         },
         {
-          "slug": "ai-organization-programming-language",
-          "title": "AI Organization Programming Language — Higher-Level LangGraph for Agent Orchestration",
-          "score": 0.5319
+          "slug": "filter-map-as-general-test",
+          "title": "The Filter-Map Test Generalizes Past Math — File Instruments by What They Measure, Not by Domain",
+          "score": 0.5076
+        }
+      ]
+    },
+    {
+      "slug": "human-structure-ai-completeness",
+      "title": "Human Provides Structural Skeleton; AI Checks Completeness and Maps Linkages",
+      "suggestions": [
+        {
+          "slug": "composition-language",
+          "title": "The Composition Language — Everything Is Already a Composition; the Medium Cannot Show It",
+          "score": 0.5822
+        }
+      ]
+    },
+    {
+      "slug": "idle-as-unstable-state",
+      "title": "Idleness as an Unstable State — The Async-Wait Tradeoff",
+      "suggestions": [
+        {
+          "slug": "role-system",
+          "title": "The Role System — Roles Classify Action State; One at a Time, Switched by a Marker",
+          "score": 0.5934
         },
         {
-          "slug": "structure-native-learning-machine",
-          "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
-          "score": 0.5272
+          "slug": "activity-cost-benefit",
+          "title": "Activity Cost-Benefit — Gains Are Gated, Costs Are Paid in State",
+          "score": 0.5384
+        }
+      ]
+    },
+    {
+      "slug": "integrating-fragmented-life-strategies",
+      "title": "Integrating Fragmented Life Strategies",
+      "suggestions": [
+        {
+          "slug": "role-system",
+          "title": "The Role System — Roles Classify Action State; One at a Time, Switched by a Marker",
+          "score": 0.5416
         },
         {
-          "slug": "organization-as-code-ai-human",
-          "title": "Organization as Code — Formal Description and Optimization of AI-Human Structures",
-          "score": 0.527
+          "slug": "activity-cost-benefit",
+          "title": "Activity Cost-Benefit — Gains Are Gated, Costs Are Paid in State",
+          "score": 0.5372
+        }
+      ]
+    },
+    {
+      "slug": "knowledge-as-dictionary-of-perspectives",
+      "title": "Knowledge as a Dictionary of Perspectives — Each Knowledge Point Is a Multi-Dimensional Embedding",
+      "suggestions": [
+        {
+          "slug": "composition-language",
+          "title": "The Composition Language — Everything Is Already a Composition; the Medium Cannot Show It",
+          "score": 0.5116
+        }
+      ]
+    },
+    {
+      "slug": "knowledge-map-format",
+      "title": "Knowledge Map Format (MAP.md)",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.5849
+        }
+      ]
+    },
+    {
+      "slug": "knowledge-mastery-two-axis-model",
+      "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.6425
+        }
+      ]
+    },
+    {
+      "slug": "language-cannot-specify-diagrams",
+      "title": "Language Cannot Specify a Diagram — The Channel Is the Bottleneck, Not the Model",
+      "suggestions": [
+        {
+          "slug": "goal-singularity",
+          "title": "Goal Singularity",
+          "score": 0.5295
         },
         {
-          "slug": "system-coevolution-p3-autonomy-boundary",
-          "title": "System Coevolution - Problem 3: The Boundary of Self-Updating Systems",
-          "score": 0.5199
+          "slug": "human-structure-ai-completeness",
+          "title": "Human Provides Structural Skeleton; AI Checks Completeness and Maps Linkages",
+          "score": 0.52
         },
         {
-          "slug": "structure-native-tools",
-          "title": "Structure-Native Tools — Can Any Algorithm or Tool Treat Structured Data as Its Native I/O?",
+          "slug": "human-machine-code-reading-gap",
+          "title": "Human vs. Machine Code Reading — The Conceptual Gap",
+          "score": 0.5141
+        }
+      ]
+    },
+    {
+      "slug": "learning-cycle-microstructure",
+      "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+      "suggestions": [
+        {
+          "slug": "teach-method-fixes",
+          "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
+          "score": 0.7443
+        },
+        {
+          "slug": "learning-method-v2",
+          "title": "Learning Method v2 — Two-Axis Mastery Cycle with Decay-Aware Maintenance",
+          "score": 0.7205
+        },
+        {
+          "slug": "hermeneutic-circle-learning",
+          "title": "Hermeneutic Circle as Learning Macro-Structure",
+          "score": 0.6936
+        },
+        {
+          "slug": "teach-task-volume-scaling",
+          "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
+          "score": 0.6924
+        },
+        {
+          "slug": "enumerative-as-scaffold-for-generative",
+          "title": "Enumerative Taxonomy as Deliberate Scaffold for Generative Derivation",
+          "score": 0.6643
+        },
+        {
+          "slug": "practice-necessity-willingness-tradeoff",
+          "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
+          "score": 0.6613
+        },
+        {
+          "slug": "pass-criteria-as-curriculum-design",
+          "title": "Pass Criteria as a First-Class Curriculum Design Element",
+          "score": 0.6583
+        },
+        {
+          "slug": "learning-pipeline",
+          "title": "Learning Pipeline",
+          "score": 0.6531
+        },
+        {
+          "slug": "knowledge-mastery-two-axis-model",
+          "title": "Knowledge Mastery — A Two-Axis Model with Recursive Levels",
+          "score": 0.6425
+        },
+        {
+          "slug": "plugin-architecture-vs-defaults",
+          "title": "Plugin Architecture vs Distilled Defaults — The /teach Optimization Post-Mortem",
+          "score": 0.64
+        },
+        {
+          "slug": "memorization-in-pipeline",
+          "title": "Memorization in the Learning Pipeline",
+          "score": 0.6272
+        },
+        {
+          "slug": "pattern-pipeline",
+          "title": "The Pattern Pipeline: Data → Operational Space → Understanding → Action",
+          "score": 0.6229
+        },
+        {
+          "slug": "teach-application-scope",
+          "title": "Teach Application Scope — Project-Oriented > Pure Learning > Exam Prep",
+          "score": 0.6126
+        },
+        {
+          "slug": "learning-dynamics",
+          "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
+          "score": 0.5898
+        },
+        {
+          "slug": "knowledge-map-format",
+          "title": "Knowledge Map Format (MAP.md)",
+          "score": 0.5849
+        }
+      ]
+    },
+    {
+      "slug": "learning-dynamics",
+      "title": "Learning Dynamics — Forces Governing Knowledge Acquisition",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.5898
+        }
+      ]
+    },
+    {
+      "slug": "learning-method-v2",
+      "title": "Learning Method v2 — Two-Axis Mastery Cycle with Decay-Aware Maintenance",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.7205
+        }
+      ]
+    },
+    {
+      "slug": "learning-pipeline",
+      "title": "Learning Pipeline",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.6531
+        }
+      ]
+    },
+    {
+      "slug": "letters-to-future-self",
+      "title": "Letters to Future Self — Minimizing Knowledge-Reconstruction Cost After Decay",
+      "suggestions": [
+        {
+          "slug": "ai-memory-as-location-index",
+          "title": "AI Memory as a Location Index — Know Where Knowledge Is, Transmit Only the Relevant Subtree",
+          "score": 0.5324
+        }
+      ]
+    },
+    {
+      "slug": "life-state-machine-content",
+      "title": "Life-State Machine Content — Controllable, State, and Dynamics",
+      "suggestions": [
+        {
+          "slug": "role-system",
+          "title": "The Role System — Roles Classify Action State; One at a Time, Switched by a Marker",
+          "score": 0.6414
+        }
+      ]
+    },
+    {
+      "slug": "life-state-machine",
+      "title": "Life-State Machine — Deterministic Dynamics with a Stipulable Controllable Boundary",
+      "suggestions": [
+        {
+          "slug": "role-system",
+          "title": "The Role System — Roles Classify Action State; One at a Time, Switched by a Marker",
+          "score": 0.6136
+        }
+      ]
+    },
+    {
+      "slug": "memorization-in-pipeline",
+      "title": "Memorization in the Learning Pipeline",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.6272
+        }
+      ]
+    },
+    {
+      "slug": "mental-clutter-degree",
+      "title": "Mental Clutter Degree (混乱度) — the Person Attribute That Gates Meaningful Work and Sleep",
+      "suggestions": [
+        {
+          "slug": "activity-cost-benefit",
+          "title": "Activity Cost-Benefit — Gains Are Gated, Costs Are Paid in State",
+          "score": 0.622
+        }
+      ]
+    },
+    {
+      "slug": "mooc-brand-tools-inequality",
+      "title": "MOOC Courses as Brand Tools for Elite Universities",
+      "suggestions": [
+        {
+          "slug": "social-strategy-by-population-class",
+          "title": "Social Strategy by Population Class — Classify First, Then Design a Different Strategy per Class",
+          "score": 0.5209
+        }
+      ]
+    },
+    {
+      "slug": "newcomer-window",
+      "title": "The Newcomer Window — Why Breadth Sampling Pays Most Right After You Arrive",
+      "suggestions": [
+        {
+          "slug": "activity-cost-benefit",
+          "title": "Activity Cost-Benefit — Gains Are Gated, Costs Are Paid in State",
+          "score": 0.5794
+        }
+      ]
+    },
+    {
+      "slug": "occupancy-pair-scheduling",
+      "title": "Occupancy-Pair Scheduling — a Recursive Instance of the Optimal-Curve Problem",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
           "score": 0.5033
         }
       ]
     },
     {
-      "slug": "organization-as-code-ai-human",
-      "title": "Organization as Code — Formal Description and Optimization of AI-Human Structures",
+      "slug": "pass-criteria-as-curriculum-design",
+      "title": "Pass Criteria as a First-Class Curriculum Design Element",
       "suggestions": [
         {
-          "slug": "ai-organizational-behavior",
-          "title": "AI Organizational Behavior — The Unit of AI Decision-Making Is the Organization, Not the Model",
-          "score": 0.5459
-        },
-        {
-          "slug": "harness-structure-enforcement",
-          "title": "Structure Enforcement in the Harness — Scalable AI Structure Is Imposed, Not Requested",
-          "score": 0.527
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.6583
         }
       ]
     },
     {
-      "slug": "probing-degrees-of-freedom",
-      "title": "Probing Degrees of Freedom — A New System's Binding Unknown Is Its Option Set",
+      "slug": "pattern-pipeline",
+      "title": "The Pattern Pipeline: Data → Operational Space → Understanding → Action",
       "suggestions": [
         {
-          "slug": "plugin-architecture-vs-defaults",
-          "title": "Plugin Architecture vs Distilled Defaults — The /teach Optimization Post-Mortem",
-          "score": 0.5435
-        },
-        {
-          "slug": "freedom-exploration-generator",
-          "title": "Degrees of Freedom + Active Exploration → Pattern Discovery — The Real Advantage of AI Learning",
-          "score": 0.5048
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.6229
         }
       ]
     },
     {
-      "slug": "self-authored-compliance-program",
-      "title": "Self-Authored Compliance Programs — The AI Writes a Branching Checker, and the Checker Halts It",
+      "slug": "peer-cross-teaching",
+      "title": "Peer Cross-Teaching",
       "suggestions": [
         {
-          "slug": "harness-structure-enforcement",
-          "title": "Structure Enforcement in the Harness — Scalable AI Structure Is Imposed, Not Requested",
-          "score": 0.5779
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.5268
+        }
+      ]
+    },
+    {
+      "slug": "plugin-architecture-vs-defaults",
+      "title": "Plugin Architecture vs Distilled Defaults — The /teach Optimization Post-Mortem",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.64
+        }
+      ]
+    },
+    {
+      "slug": "practice-as-learning-purpose",
+      "title": "Practice as Learning Purpose — Purpose-Driven Learning Effectiveness",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.5335
+        }
+      ]
+    },
+    {
+      "slug": "practice-necessity-willingness-tradeoff",
+      "title": "The Mastery Trade-Off — Practice Necessity Scales with Complexity, and So Does Willingness Loss",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.6613
+        }
+      ]
+    },
+    {
+      "slug": "professor-research-prep-method",
+      "title": "Reaching Out to Professors: The Research Prep Is the Unlock",
+      "suggestions": [
+        {
+          "slug": "social-strategy-by-population-class",
+          "title": "Social Strategy by Population Class — Classify First, Then Design a Different Strategy per Class",
+          "score": 0.5288
+        }
+      ]
+    },
+    {
+      "slug": "reconceptualizing-standard-engineering",
+      "title": "Reconceptualizing Standard Engineering",
+      "suggestions": [
+        {
+          "slug": "standardize-the-framework-not-the-product",
+          "title": "Standardize the Framework, Not the Product — A Language for Customization",
+          "score": 0.5568
+        }
+      ]
+    },
+    {
+      "slug": "reconnection-doc-method",
+      "title": "Three-Layer Classification Method for Reconnection Docs",
+      "suggestions": [
+        {
+          "slug": "composition-language",
+          "title": "The Composition Language — Everything Is Already a Composition; the Medium Cannot Show It",
+          "score": 0.544
+        }
+      ]
+    },
+    {
+      "slug": "role-system",
+      "title": "The Role System — Roles Classify Action State; One at a Time, Switched by a Marker",
+      "suggestions": [
+        {
+          "slug": "action-gate",
+          "title": "The Action Gate — Free Will Ranges Only Over State-Feasible Actions",
+          "score": 0.6573
         },
         {
-          "slug": "system-coevolution-p3-autonomy-boundary",
-          "title": "System Coevolution - Problem 3: The Boundary of Self-Updating Systems",
-          "score": 0.5234
+          "slug": "life-state-machine-content",
+          "title": "Life-State Machine Content — Controllable, State, and Dynamics",
+          "score": 0.6414
+        },
+        {
+          "slug": "life-state-machine",
+          "title": "Life-State Machine — Deterministic Dynamics with a Stipulable Controllable Boundary",
+          "score": 0.6136
+        },
+        {
+          "slug": "activity-cost-benefit",
+          "title": "Activity Cost-Benefit — Gains Are Gated, Costs Are Paid in State",
+          "score": 0.5954
+        },
+        {
+          "slug": "idle-as-unstable-state",
+          "title": "Idleness as an Unstable State — The Async-Wait Tradeoff",
+          "score": 0.5934
+        },
+        {
+          "slug": "attention-as-bottleneck",
+          "title": "Attention as the Bottleneck — Single-Threaded Execution in Learning & Life",
+          "score": 0.5648
+        },
+        {
+          "slug": "integrating-fragmented-life-strategies",
+          "title": "Integrating Fragmented Life Strategies",
+          "score": 0.5416
+        },
+        {
+          "slug": "mental-clutter-degree",
+          "title": "Mental Clutter Degree (混乱度) — the Person Attribute That Gates Meaningful Work and Sleep",
+          "score": 0.5339
+        },
+        {
+          "slug": "fundamental-model-of-learning",
+          "title": "Fundamental Model of Learning",
+          "score": 0.51
+        },
+        {
+          "slug": "pattern-pipeline",
+          "title": "The Pattern Pipeline: Data → Operational Space → Understanding → Action",
+          "score": 0.5062
+        }
+      ]
+    },
+    {
+      "slug": "single-advancement-method-first-pass",
+      "title": "Single Advancement Method for First-Pass Learning",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.5788
+        }
+      ]
+    },
+    {
+      "slug": "social-strategy-by-population-class",
+      "title": "Social Strategy by Population Class — Classify First, Then Design a Different Strategy per Class",
+      "suggestions": [
+        {
+          "slug": "university-two-pillar-strategy",
+          "title": "University Four-Year Strategy: Two Pillars, Run in Parallel",
+          "score": 0.657
+        },
+        {
+          "slug": "distance-is-information",
+          "title": "Distance Is Information — Why Heterogeneous Exposure Breaks Thinking Boundaries",
+          "score": 0.6153
+        }
+      ]
+    },
+    {
+      "slug": "standard-engineering",
+      "title": "Standard Engineering",
+      "suggestions": [
+        {
+          "slug": "standardize-the-framework-not-the-product",
+          "title": "Standardize the Framework, Not the Product — A Language for Customization",
+          "score": 0.5666
+        }
+      ]
+    },
+    {
+      "slug": "standardize-the-framework-not-the-product",
+      "title": "Standardize the Framework, Not the Product — A Language for Customization",
+      "suggestions": [
+        {
+          "slug": "standard-engineering",
+          "title": "Standard Engineering",
+          "score": 0.5666
+        },
+        {
+          "slug": "reconceptualizing-standard-engineering",
+          "title": "Reconceptualizing Standard Engineering",
+          "score": 0.5568
+        },
+        {
+          "slug": "core-capability-supporting-infrastructure-pattern",
+          "title": "Core Capability → Supporting Infrastructure as Technology Evolution Pattern",
+          "score": 0.5039
         }
       ]
     },
@@ -228,9 +983,9 @@
       "title": "The Dual-Property Box — One Tool That Learns Like a Network and Is Structure-Native",
       "suggestions": [
         {
-          "slug": "harness-structure-enforcement",
-          "title": "Structure Enforcement in the Harness — Scalable AI Structure Is Imposed, Not Requested",
-          "score": 0.5272
+          "slug": "composition-language",
+          "title": "The Composition Language — Everything Is Already a Composition; the Medium Cannot Show It",
+          "score": 0.5728
         }
       ]
     },
@@ -239,36 +994,91 @@
       "title": "Structure-Native Tools — Can Any Algorithm or Tool Treat Structured Data as Its Native I/O?",
       "suggestions": [
         {
-          "slug": "harness-structure-enforcement",
-          "title": "Structure Enforcement in the Harness — Scalable AI Structure Is Imposed, Not Requested",
-          "score": 0.5033
+          "slug": "composition-language",
+          "title": "The Composition Language — Everything Is Already a Composition; the Medium Cannot Show It",
+          "score": 0.5653
         }
       ]
     },
     {
-      "slug": "system-coevolution-p3-autonomy-boundary",
-      "title": "System Coevolution - Problem 3: The Boundary of Self-Updating Systems",
+      "slug": "success-interrogation-heuristic",
+      "title": "Success Interrogation Heuristic — Generalize, Replicate, Migrate",
       "suggestions": [
         {
-          "slug": "self-authored-compliance-program",
-          "title": "Self-Authored Compliance Programs — The AI Writes a Branching Checker, and the Checker Halts It",
-          "score": 0.5234
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.5648
+        }
+      ]
+    },
+    {
+      "slug": "sunk-cost-tug-and-salvage",
+      "title": "The Sunk-Cost Tug Survives the Right Decision",
+      "suggestions": [
+        {
+          "slug": "activity-cost-benefit",
+          "title": "Activity Cost-Benefit — Gains Are Gated, Costs Are Paid in State",
+          "score": 0.5575
         },
         {
-          "slug": "harness-structure-enforcement",
-          "title": "Structure Enforcement in the Harness — Scalable AI Structure Is Imposed, Not Requested",
-          "score": 0.5199
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.5369
         }
       ]
     },
     {
-      "slug": "system-coevolution-p4-self-reinforcement",
-      "title": "Coevolution - Problem 4: Preventing Self-Reinforcement in the Wrong Direction",
+      "slug": "teach-application-scope",
+      "title": "Teach Application Scope — Project-Oriented > Pure Learning > Exam Prep",
       "suggestions": [
         {
-          "slug": "ai-organizational-behavior",
-          "title": "AI Organizational Behavior — The Unit of AI Decision-Making Is the Organization, Not the Model",
-          "score": 0.5017
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.6126
+        }
+      ]
+    },
+    {
+      "slug": "teach-method-fixes",
+      "title": "/teach Method Fixes — Concept/Practice Split and Bottom-Up Sequencing",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.7443
+        }
+      ]
+    },
+    {
+      "slug": "teach-task-volume-scaling",
+      "title": "Teach Cycle Task Volume Scales with Content Complexity — Fatigue and Aversion Walls",
+      "suggestions": [
+        {
+          "slug": "learning-cycle-microstructure",
+          "title": "The Microstructure of Learning — Two Steps per Cycle, and the Cycle Is the Plugin",
+          "score": 0.6924
+        }
+      ]
+    },
+    {
+      "slug": "three-layer-framework",
+      "title": "Three-Layer Framework as Starting Lens for Reconnection Docs",
+      "suggestions": [
+        {
+          "slug": "composition-language",
+          "title": "The Composition Language — Everything Is Already a Composition; the Medium Cannot Show It",
+          "score": 0.5099
+        }
+      ]
+    },
+    {
+      "slug": "university-two-pillar-strategy",
+      "title": "University Four-Year Strategy: Two Pillars, Run in Parallel",
+      "suggestions": [
+        {
+          "slug": "social-strategy-by-population-class",
+          "title": "Social Strategy by Population Class — Classify First, Then Design a Different Strategy per Class",
+          "score": 0.657
         }
       ]
     }

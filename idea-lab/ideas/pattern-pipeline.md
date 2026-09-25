@@ -73,7 +73,9 @@ connections:
     slug: "memorized-offline-procedures"  # auto, review: 0.501
   - type: idea
     slug: "reconnection-doc-method"  # auto, review: 0.501
-importance: 3.53  # auto
+  - type: idea
+    slug: "learning-cycle-microstructure"  # auto
+importance: 3.95  # auto
 ---
 # The Pattern Pipeline: Data → Operational Space → Understanding → Action
 

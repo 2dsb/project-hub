@@ -30,6 +30,10 @@ connections:
     slug: "certainty-gravity"  # auto, review: 0.515
   - type: idea
     slug: "leverage-existing-vs-build-from-scratch"  # auto, review: 0.502
+  - type: idea
+    slug: "activity-cost-benefit"  # auto, review: 0.557
+  - type: idea
+    slug: "learning-cycle-microstructure"  # auto, review: 0.537
 importance: 0.7  # auto
 ---
 # The Sunk-Cost Tug Survives the Right Decision

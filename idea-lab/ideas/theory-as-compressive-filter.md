@@ -12,7 +12,7 @@ body_hash: "38887278"
 connections:
   - type: idea
     slug: "interaction-as-dictionary"
-importance: 0.51  # auto
+importance: 0.5  # auto
 ---
 **Two constant manifolds.** Human thought-plus-time is a constant manifold **A**; all observed phenomena-plus-time is a constant manifold **B**. "Constant" is a convention, not an empirical claim: time is folded into the manifold, so A and B are fixed objects by construction — "change" is only their slices varying along the time axis, and all empirical content lives in the differences between those slices. Because cognition is itself a phenomenon, **A ⊂ B**.
 

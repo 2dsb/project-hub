@@ -9,7 +9,7 @@ tags:
   - actionable
 summary: "The note extends the two-axis model of knowledge mastery, where objects have horizontal interaction density c and vertical cross-filter binding p, by defining forces that drive acquisition, drag, and phase transitions. Acquisition forces like exposure, deliberate mapping, and execution push c and p upward, while drag forces such as decay, interference, and attention competition pull them downward. Phase transitions to higher recursion levels are triggered by saturation, deliberate comparison, or external perturbation. The framework raises open questions about optimal sequencing, decay curves, transfer efficiency, and individual parameters, and it integrates with the /teach method and the MAP model’s M and Willingness. Explicit per-track tracking of c and p is proposed as a next step."
 body_hash: "e497d141"
-importance: 3.93  # auto
+importance: 3.8  # auto
 connections:
   - type: idea
     slug: knowledge-mastery-two-axis-model
@@ -61,6 +61,8 @@ connections:
     slug: "single-advancement-method-first-pass"  # auto, review: 0.517
   - type: idea
     slug: "letters-to-future-self"  # auto, review: 0.556
+  - type: idea
+    slug: "learning-cycle-microstructure"  # auto, review: 0.590
 ---
 # Learning Dynamics — Forces Governing Knowledge Acquisition
 

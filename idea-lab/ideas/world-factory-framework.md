@@ -17,7 +17,7 @@ body_hash: "41be4a26"
 connections:
   - type: idea
     slug: "interpretable-world-model-pipeline"  # auto
-importance: 2.96  # auto
+importance: 2.97  # auto
 ---
 # The World-Factory Framework
 

@@ -54,7 +54,9 @@ connections:
     slug: "structure-native-tools"  # auto, review: 0.512
   - type: idea
     slug: "letters-to-future-self"  # auto, review: 0.579
-importance: 2.96  # auto
+  - type: idea
+    slug: "learning-cycle-microstructure"  # auto, review: 0.582
+importance: 2.97  # auto
 ---
 # Fundamental Model of Learning
 

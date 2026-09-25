@@ -8,7 +8,7 @@ tags:
   - questioning-spirit
 summary: "Two types of people are contrasted: those swayed by common sense and those who question it from new angles. The former, lacking independent thinking and merely absorbing social indoctrination, become guardians of the status quo, incapable of feeling dissatisfaction or offering constructive suggestions. The latter, by doubting common sense and recognizing its errors, naturally develop critical dissatisfaction with the existing order. This questioning spirit is the origin of critical perspectives on the status quo."
 body_hash: "7b437297"
-importance: 1.23  # auto
+importance: 1.24  # auto
 connections:
   - type: idea
     slug: social-responsibility-of-excellent-students

@@ -27,6 +27,8 @@ connections:
     slug: "enumerative-as-scaffold-for-generative"  # auto, review: 0.519
   - type: idea
     slug: "empirical-observations-latent-value"  # auto, review: 0.514
+  - type: idea
+    slug: "learning-cycle-microstructure"  # auto, review: 0.551
 ---
 I didn't fully understand the content in 9.1-9.11. After organizing, I attempt to explain: in 9.11, why can't the curriculum be broken down?
 

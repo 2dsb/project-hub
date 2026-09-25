@@ -11,7 +11,7 @@ tags:
   - scientific-method
 summary: "Science is the formal knowledge of phenomena, explaining, predicting, and providing means to observe and discover them. Technology harnesses phenomena, and while it existed long before science, they became bundled in the mid-19th century because modern phenomena require scientific explanation and observation. Technology domesticates phenomena into practical forms, internalizing science over time through accumulated experience, while science itself is built upon technological instruments, experiments, and theory structures that resemble technological assembly. Yet science is more than its content: it is also a conviction in nature’s knowability, a set of thinking and practice methods, and a culture."
 body_hash: "3f9a5506"
-importance: 2.96  # auto
+importance: 2.97  # auto
 connections:
   - type: idea
     slug: gene-of-technology-phenomena

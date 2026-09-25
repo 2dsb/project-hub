@@ -51,7 +51,9 @@ connections:
     slug: "attention-as-bottleneck"  # auto, review: 0.508
   - type: idea
     slug: "hermeneutic-circle-learning"  # auto, review: 0.503
-importance: 3.59  # auto
+  - type: idea
+    slug: "ai-memory-as-location-index"  # auto, review: 0.532
+importance: 3.57  # auto
 ---
 # Letters to Future Self
 

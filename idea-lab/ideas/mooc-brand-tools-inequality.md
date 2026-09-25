@@ -26,6 +26,8 @@ connections:
     slug: "university-two-pillar-strategy"  # review: 0.516
   - type: idea
     slug: "characteristics-of-excellent-universities"  # auto, review: 0.560
+  - type: idea
+    slug: "social-strategy-by-population-class"  # auto, review: 0.521
 ---
 # MOOC's Impact on Universities
 

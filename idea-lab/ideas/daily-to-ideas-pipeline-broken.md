@@ -4,7 +4,7 @@ title: "daily→ideas Pipeline Broken: Daily Ideas Not Auto-Extracted"
 tags: [process, pipeline, m34, daily-note, idea-extraction]
 summary: "The daily→ideas pipeline is broken because no automated extraction converts idea sections from daily notes into independent idea files, leaving them invisible to M34. The discovery on 06-09 revealed that all 7 ideas from the 06-08 daily note, including the explicitly labeled \"Flow-Based Thinking Framework,\" were stranded in the journal and absent from the ideas directory. This failure prevents knowledge-axis scanning and pattern detection from using the most valuable daily cognitive output. The root cause is a missing automated or semi-automated extraction step. Possible fixes include end-of-day prompts, expanding the source concept, or adding a backfill check to the start flow."
 body_hash: "9ee2e0fb"
-importance: 3.54  # auto
+importance: 3.55  # auto
 connections:
   - type: idea
     slug: "m34-source-layer-static-rigidity"  # auto

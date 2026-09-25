@@ -31,7 +31,9 @@ connections:
     slug: "deep-work-recovery-cycle"  # auto, review: 0.527
   - type: idea
     slug: "completion-vs-quitting"  # auto, review: 0.510
-importance: 2.4  # auto
+  - type: idea
+    slug: "activity-cost-benefit"  # auto
+importance: 3.4  # auto
 ---
 # Mental Clutter Degree (混乱度)
 

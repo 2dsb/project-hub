@@ -4,7 +4,7 @@ title: "Attention-as-Pointer Model of Learning — Local Sampling Under Memory C
 tags: [learning, modeling, attention, memory, abstraction, pointer-metaphor, reading-strategy, synthesis]
 summary: "The attention-as-pointer model frames learning as reconstructing a global knowledge structure from sequential local samples, where attention is a single, sequential pointer and memory is a limited, decaying buffer. This is difficult because local samples reveal content but not structural relationships, and memory decay prevents connecting distant parts. A two-pass reading strategy emerges naturally: a first pass builds a rough map to reduce coupling uncertainty, then a second pass enables deep understanding with context. Linear reading order often conflicts with the target system’s dependency structure, imposing extra reconstruction cost. Reconnection docs may serve as cached structural summaries that ease the memory burden during local sampling."
 body_hash: "c3cf83d2"
-importance: 7.61  # auto
+importance: 8.47  # auto
 connections:
   - type: idea
     slug: "timeline-based-project-structure"  # auto
@@ -60,6 +60,8 @@ connections:
     slug: "structure-native-tools"  # auto, review: 0.523
   - type: idea
     slug: "letters-to-future-self"  # auto
+  - type: idea
+    slug: "ai-memory-as-location-index"  # auto
 ---
 # Attention-as-Pointer Model of Learning
 

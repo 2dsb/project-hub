@@ -4,7 +4,7 @@ title: "Perspective Classification"
 tags: [analysis-method, perspective, new-technology]
 summary: "The user queries what angles from books can be used to analyze problems. New technology is highlighted as one possible perspective. This suggests a framework for classifying analytical lenses derived from literature."
 body_hash: "940cd0a1"
-importance: 0.85  # auto
+importance: 0.86  # auto
 connections:
   - type: idea
     slug: "classification-of-concepts"  # auto

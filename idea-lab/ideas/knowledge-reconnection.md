@@ -8,7 +8,7 @@ tags:
 - productivity
 summary: "The Knowledge Reconnection Mechanism treats knowledge recovery after a gap as an encode/decode process analogous to PCA, where encoding compresses learned material into a low-dimensional structural representation that preserves relational directions of variance rather than all details. The reconnection doc, written via a human-AI division of labor, must satisfy four constraints: low decode cost, structured model output, preservation of main points, and minimal length, with residuals explicitly listed to make incompleteness transparent. Decoding starts with a ≤30-second entry point, traverses the structural model, checks residuals, and accepts gaps, enabling efficient mental reconstruction by treating the doc as a projection that requires active reconstruction during retrieval."
 body_hash: "05a8eebd"
-importance: 6.64  # auto
+importance: 6.62  # auto
 connections:
   - type: project
     slug: "ai-ability"

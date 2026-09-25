@@ -8,7 +8,7 @@ tags:
 - personal-data
 summary: "A systematic contact management system addresses the two-way information asymmetry problem—where direct and indirect resources are invisible to both sides—by recording people’s details, interests, and recent updates. Relationship maintenance is built on the principle of “cater to their interests,” using interest-based triggers like forwarding relevant content, sharing field developments, or following up on personal goals, supported by periodic reminders and a tiered effort model (core, regular, weak ties). This foundation enables monetizing the network through demand matching, information arbitrage, a skill resource pool, collaboration matchmaking, and opportunity distribution, creating triple-win value. The idea may evolve into a personal skill combining entity storage with smart, interest-aligned maintenance prompts and demand/resource matching queries."
 body_hash: "f154d01e"
-importance: 1.51  # auto
+importance: 1.5  # auto
 connections:
   - type: project
     slug: ai-ability

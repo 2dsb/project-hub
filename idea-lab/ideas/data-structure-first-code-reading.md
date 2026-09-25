@@ -1,7 +1,7 @@
 ---
 id: "idea-20260719-data-structure-first-code-reading"
 title: "Data Structure First — Memorize Shapes Before Reading Code"
-importance: 1.43  # auto
+importance: 1.44  # auto
 tags:
   - learning
   - code-reading
@@ -39,6 +39,10 @@ connections:
     slug: "learning-method-v2"  # auto, review: 0.518
   - type: idea
     slug: "pattern-pipeline"  # auto, review: 0.513
+  - type: idea
+    slug: "learning-cycle-microstructure"  # auto, review: 0.507
+  - type: idea
+    slug: "filter-map-as-general-test"  # auto, review: 0.502
 ---
 # Data Structure First — Memorize Shapes Before Reading Code
 

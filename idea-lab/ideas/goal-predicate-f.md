@@ -19,6 +19,8 @@ connections:
     slug: "pass-criteria-as-curriculum-design"  # auto, review: 0.529
   - type: idea
     slug: "goal-singularity"  # auto, review: 0.506
+  - type: idea
+    slug: "filter-map-as-general-test"  # auto, review: 0.504
 importance: 0.0  # auto
 ---
 # Goal Predicate f

@@ -72,6 +72,8 @@ connections:
     slug: "letters-to-future-self"  # auto
   - type: idea
     slug: "word-level-understanding-as-foundation"  # auto, review: 0.517
+  - type: idea
+    slug: "learning-cycle-microstructure"  # auto
 ---
 # Learning Method v2
 

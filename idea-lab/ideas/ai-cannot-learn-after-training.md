@@ -31,6 +31,8 @@ connections:
     slug: "attention-pointer-learning-model"  # auto, review: 0.500
   - type: idea
     slug: "letters-to-future-self"  # auto, review: 0.591
+  - type: idea
+    slug: "ai-memory-as-location-index"  # auto, review: 0.520
 importance: 0.0  # auto
 ---
 # AI Cannot Learn After Training

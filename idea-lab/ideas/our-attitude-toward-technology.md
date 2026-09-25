@@ -9,7 +9,7 @@ tags:
 - human-technology-relationship
 summary: "Modern technology is defined by a biological nature, forming a sensing, self-repairing, cognitive \"thing-executes-thing\" network rather than fixed mechanical functions. This biological technology drives the economy to become reproductive, where competitive advantage comes from translating deep knowledge reserves into new strategic combinations, not from resource reserves. This shift replaces the mechanistic worldview of a rationally composed order with one of an open, evolving organic whole. Humans, however, experience a conflicted relationship: we hope technology improves life, yet it exploits natural phenomena and feels unnatural, while its autonomous development and biological nature provoke fear of losing control and separation from nature."
 body_hash: "8c239362"
-importance: 1.85  # auto
+importance: 1.86  # auto
 connections:
 - type: idea
   slug: three-definitions-of-technology

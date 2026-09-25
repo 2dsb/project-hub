@@ -29,7 +29,9 @@ connections:
     slug: "neural-network-black-box-essence"  # auto, review: 0.500
   - type: idea
     slug: "harness-structure-enforcement"  # auto, review: 0.503
-importance: 2.15  # auto
+  - type: idea
+    slug: "composition-language"  # auto, review: 0.565
+importance: 2.16  # auto
 ---
 # Structure-Native Tools
 

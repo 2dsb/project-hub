@@ -32,7 +32,9 @@ connections:
     slug: "teach-application-scope"  # auto, review: 0.527
   - type: idea
     slug: "probing-degrees-of-freedom"  # auto, review: 0.543
-importance: 0.0  # auto
+  - type: idea
+    slug: "learning-cycle-microstructure"  # auto
+importance: 0.5  # auto
 ---
 # Plugin Architecture vs Distilled Defaults — The /teach Optimization Post-Mortem
 

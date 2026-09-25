@@ -13,7 +13,7 @@ tags:
   - code-reading
 summary: "The Environment Diagram is modeled via two complementary perspectives: a state-machine view where environments are snapshots and execution sequences form paths, and a comprehension view where function bodies are frames and return is a portal for mental tracing. This reveals a gap between the human conceptual layer, which compresses multi-step calls like make_adder(3) into semantic chunks, and the machine algorithmic layer of discrete execution steps. The conceptual layer is not reducible to execution, paralleling DL Chapter 5’s split between high-entropy priors and low-entropy architectures, and the bridge from algorithmic worlds to compressed understanding remains unmodeled."
 body_hash: "1d33648e"
-importance: 3.43  # auto
+importance: 3.45  # auto
 connections:
   - type: project
     slug: "cs61a"

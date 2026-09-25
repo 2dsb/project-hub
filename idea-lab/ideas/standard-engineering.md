@@ -14,7 +14,7 @@ tags:
   - combinatorial-evolution
 summary: "Standard engineering, also called technological innovation or design, is the process of creating a new version of an old technology within a domain by reusing familiar combination methods and structures. It proceeds from a requirement, first at the conceptual level then the physical, breaking down problems into sub-problems and integrating components. Harder cases introduce unpredictable unknowns and human coordination. Design is essentially an attempted solution to a demand-driven problem, expressed much like language by selecting from standard modules. Over time, successful technologies become locked-in standards through a Darwinian feedback loop, with demand, not random variation, giving technological evolution its direction."
 body_hash: "239bd0a6"
-importance: 3.29  # auto
+importance: 3.3  # auto
 connections:
   - type: idea
     slug: standard-engineering-refactoring
@@ -50,6 +50,8 @@ connections:
     slug: "how-domains-evolve"  # auto, review: 0.502
   - type: idea
     slug: "technology"  # auto, review: 0.501
+  - type: idea
+    slug: "standardize-the-framework-not-the-product"  # auto, review: 0.567
 ---
 Standard engineering, also known as technological innovation (in the singular sense) or "design," can be understood as the process of creating a new technology.
 

@@ -20,7 +20,9 @@ connections:
     slug: "newcomer-window"  # auto, review: 0.508
   - type: idea
     slug: "framework-as-community-core"  # auto, review: 0.507
-importance: 0.0  # auto
+  - type: idea
+    slug: "social-strategy-by-population-class"  # auto
+importance: 1.6  # auto
 ---
 # Distance Is Information — Why Heterogeneous Exposure Breaks Thinking Boundaries
 

@@ -43,6 +43,10 @@ connections:
     slug: "abstraction-barrier-as-dual-perspective-bridge"  # auto, review: 0.537
   - type: idea
     slug: "decoupling"  # auto, review: 0.502
+  - type: idea
+    slug: "filter-map-as-general-test"  # auto, review: 0.521
+  - type: idea
+    slug: "composition-language"  # auto, review: 0.511
 ---
 # Content-Independent Frameworks Beat Content-Bound Ones
 

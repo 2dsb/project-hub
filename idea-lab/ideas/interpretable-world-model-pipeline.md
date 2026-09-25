@@ -25,7 +25,7 @@ connections:
     slug: "environment-diagram-dual-perspective"  # auto, review: 0.506
   - type: idea
     slug: "reconnection-doc-method"  # auto, review: 0.503
-importance: 2.96  # auto
+importance: 2.97  # auto
 ---
 # The Interpretable World-Model Pipeline
 

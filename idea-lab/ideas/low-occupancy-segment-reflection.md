@@ -49,7 +49,7 @@ connections:
     slug: "mental-clutter-degree"  # auto, review: 0.594
   - type: idea
     slug: "letters-to-future-self"  # auto, review: 0.522
-importance: 2.05  # auto
+importance: 2.03  # auto
 ---
 # Opportunistic Reflection During Low-Occupancy Segments — Free Consolidation of Recent Deep Work
 

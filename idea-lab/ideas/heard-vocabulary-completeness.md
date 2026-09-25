@@ -14,7 +14,7 @@ connections:
     slug: "vocabulary-priming-before-conversation"  # auto, review: 0.509
   - type: idea
     slug: "word-level-understanding-as-foundation"  # auto
-importance: 2.96  # auto
+importance: 2.97  # auto
 ---
 # The Vocabulary You Hear Is (Almost) All the Field's Working Vocabulary
 

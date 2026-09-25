@@ -4,7 +4,7 @@ title: "Vocabulary Priming Before Topic-Specific Conversation"
 tags: [english-learning, vocabulary, priming, topic-space, conversation-design]
 summary: "A tactic of pre-loading 30–100 domain-specific vocabulary words before a conversation aims to reduce cognitive load by keeping those words active in working memory, producing a fluency gain disproportionate to the effort. It is uncertain whether this is an effective mechanism or merely a ritual, how many words are needed, and how long the priming lasts. Each topic space could have an associated vocabulary bank, and deliberate priming might accelerate early sessions in an unfamiliar domain."
 body_hash: "706015f0"
-importance: 2.03  # auto
+importance: 2.02  # auto
 connections:
   - type: project
     slug: "english-learning"

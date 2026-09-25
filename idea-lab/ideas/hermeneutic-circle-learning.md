@@ -68,7 +68,9 @@ connections:
     slug: "letters-to-future-self"  # auto, review: 0.503
   - type: idea
     slug: "word-level-understanding-as-foundation"  # auto, review: 0.526
-importance: 4.1  # auto
+  - type: idea
+    slug: "learning-cycle-microstructure"  # auto
+importance: 4.48  # auto
 ---
 # Hermeneutic Circle as Learning Macro-Structure
 

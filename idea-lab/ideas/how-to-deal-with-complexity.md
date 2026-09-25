@@ -4,7 +4,7 @@ title: Dealing with Complexity
 tags: []
 summary: "How to deal with complexity is posed as an open question that requires specific context from the user to develop further."
 body_hash: "5dfca7d7"
-importance: 2.02  # auto
+importance: 2.03  # auto
 connections:
   - type: project
     slug: "ai-ability"

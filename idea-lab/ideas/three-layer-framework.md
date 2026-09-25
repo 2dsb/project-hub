@@ -76,6 +76,8 @@ connections:
     slug: "letters-to-future-self"  # auto, review: 0.523
   - type: idea
     slug: "word-level-understanding-as-foundation"  # auto, review: 0.526
+  - type: idea
+    slug: "composition-language"  # auto, review: 0.510
 ---
 # Three-Layer Framework as Starting Lens for Reconnection Docs
 

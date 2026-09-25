@@ -9,7 +9,7 @@ tags:
   - economics
 summary: "Microeconomics and macroeconomics are distinguished by their level of analysis: microeconomics examines the decisions and market interactions of households and firms, while macroeconomics investigates economy-wide phenomena such as inflation, unemployment, and economic growth."
 body_hash: "e6b4d3a2"
-importance: 1.69  # auto
+importance: 1.7  # auto
 connections:
   - type: idea
     slug: economics-as-a-science

@@ -4,7 +4,7 @@ title: "Knowledge as a Dictionary of Perspectives — Each Knowledge Point Is a 
 tags: [knowledge-representation, multi-perspective, deep-learning, vector-embedding, abstraction, modeling, meta-model, dictionary-metaphor]
 summary: "Every knowledge point is a dictionary of perspective-key to value mappings, functioning like a multi-dimensional embedding from deep learning. A complete understanding requires the full set of perspectives because any single view is just one vector component. This dictionary structure unifies existing models (the three-layer scaffold, dual-perspective model) as subsets of keys, and values can nest recursively, so a field like philosophy with one top-level key gains depth through sub-keys while a cross-layer domain like computer science gains breadth through many top-level keys. The model yields a generation heuristic—systematically enumerate missing keys—and aligns with the cohesion-coupling decomposition heuristic, where good decompositions have high cohesion within a perspective-key and low coupling across keys."
 body_hash: "135e61ae"
-importance: 8.99  # auto
+importance: 9.02  # auto
 connections:
   - type: idea
     slug: "interaction-as-dictionary"  # auto
@@ -54,6 +54,8 @@ connections:
     slug: "structure-native-learning-machine"  # auto, review: 0.525
   - type: idea
     slug: "word-level-understanding-as-foundation"  # auto, review: 0.509
+  - type: idea
+    slug: "composition-language"  # auto, review: 0.512
 ---
 # Knowledge as a Dictionary of Perspectives
 

@@ -27,7 +27,7 @@ connections:
     slug: "8b-deep-reflection"  # auto, review: 0.500
   - type: idea
     slug: "pattern-pipeline"  # auto, review: 0.512
-importance: 1.51  # auto
+importance: 1.44  # auto
 ---
 # AI-Centered New Education Industry (AI + Education)
 

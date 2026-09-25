@@ -42,7 +42,7 @@ connections:
     slug: "knowledge-as-dictionary-of-perspectives"  # auto, review: 0.509
   - type: idea
     slug: "discipline-division-and-internal-structure"  # auto, review: 0.506
-importance: 2.96  # auto
+importance: 2.97  # auto
 ---
 # Word-Level Understanding as a Foundation for Principle-Level Understanding
 

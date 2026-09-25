@@ -4,7 +4,7 @@ title: "Objective Importance Scoring — Two Orthogonal Dimensions for Idea Eval
 tags: [meta-cognition, importance-scoring, idea-evaluation, m33, cross-axis, system-design, methodology, objective-metrics]
 summary: "The note proposes replacing subjective importance scores with an objective two-dimensional metric: Knowledge-Layer Centrality, measuring an idea's structural position in the idea graph via hubness and generativity, and Execution-Layer Penetration, measuring how many projects and skills reference the idea, with projects weighted double. These dimensions are orthogonal because an idea can be deeply central yet unused, or widely applied without being theoretically central. The composite score weights penetration slightly higher (0.55) as a bias toward action, but dependency on M33 cross-axis scanning makes M33 maintenance essential to compute penetration and prevent collapse into a single dimension."
 body_hash: "5cabbc0b"
-importance: 2.5  # auto
+importance: 2.51  # auto
 connections:
   - type: idea
     slug: "knowledge-as-dictionary-of-perspectives"  # auto
